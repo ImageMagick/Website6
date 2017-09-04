@@ -261,7 +261,12 @@ convert -density 300 -colorspace srgb image.eps -alpha transparent -clip -alpha 
 <p>Here are a list of changes to the Magick++ API:</p>
 <ul>
 <li>Almost all image processing algorithms are now channel aware.</li>
-<li>Use Magick::CompositeChannels to avoid operating on the Alpha channel (e.g. image.negate().</li>
+<li>Use this construct, for example, to avoid operating on the alpha channel:
+<pre><code>
+Magick::ChannelType channels = (Magick::ChannelType)(Magick::CompositeChannels ^ Magick::AlphaChannel);
+image.negateChannel(channels);
+</code></pre>
+</li>
 </ul>
 <h2 class="magick-post-title"><a id="headers"></a>Header Files</h2>
 <p>Prior versions of ImageMagick (4-6) reference the ImageMagick header files as <code>magick/</code> and <code>wand/</code>.  ImageMagick 7 instead uses <code>MagickCore/</code> and <code>MagickWand/</code> respectively.  For example,</p>
