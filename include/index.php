@@ -155,7 +155,18 @@ Use ImageMagick<sup><a href="http://tarr.uspto.gov/servlet/tarr?regser=serial&am
 
 <h2 class="magick-post-title"><a id="news"></a>News</h2>
 
+<p>ImageMagick <a href="https://www.imagemagick.org">version 7</a> has been released.</p>
+
 <p>ImageMagick best practices <strong>strongly</strong> encourages you to configure a <a href="<?php echo $_SESSION['RelativePath']?>/../script/security-policy.php">security policy</a> that best suits your local environment.</p>
+
+<p>Want more performance from ImageMagick?  Try these options:</p>
+
+<ul>
+<li>Add more memory to your system, see <a href="https://www.imagemagick.org/script/architecture.php#cache">the pixel cache</a>;</li>
+<li>Add more cores to your system (up to 20), see <a href="https://www.imagemagick.org/script/architecture.php#threads">threads of execution support</a>;</li>
+<li>push large images to a solid-state drive, see <a href="https://www.imagemagick.org/script/architecture.php#tera-pixel">large image support</a>.</li>
+</ul>
+<p>If these options are prohibitive, you can reduce the quality of the image results.  The default build is Q16.  If you instead use a Q8 build, you use half the memory The tradeoff is reduced percision.  For a Q8 build of ImageMagick, use this <code>configure</code> script option: <code>--with-quantum-depth=8</code>.</p>
 
 <h2 class="magick-post-title"><a id="community"></a>Community</h2>
 <p>To join the ImageMagick community, try the <a href="https://www.imagemagick.org/discourse-server/">discourse server</a>.  You can review questions or comments (with informed responses) posed by ImageMagick users or ask your own questions. If you want to contribute image processing algorithms, other enhancements, or bug fixes, open an <a href="https://github.com/ImageMagick/ImageMagick">issue</a>. </p>
