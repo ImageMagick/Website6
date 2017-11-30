@@ -10,6 +10,8 @@
 
 <pre class="highlight"><code>convert myimage.png -set colorspace RGB myRGBimage.png</code></pre>
 
+<p>Note that declaring an image as linear is not the same as converting the image to linear. Declaring it is linear only sets the meta data and does not change the pixel data. Whereas converting to linear actually changes the pixel data as described in more detail below.</p>
+
 <p>Afterwards, the verbose information for the output file lists the colorspace as RGB. This only works on image types containing meta data that distinguishes between linear RGB and non-linear sRGB, such as PNG and GIF. Therefore, if the above command is run with a JPG or TIF output format, the verbose information for the colorspace still shows sRGB. In order to properly have the JPG output know that it is linear RGB, include an appropriate color profile.</p>
 
 
@@ -19,7 +21,7 @@
 convert myimage.png -intensity Rec709luminance -colorspace gray myRGBimage.png
 </code></pre>
 
-<p>The same concept is needed when separating channels. Normally, the conversion to separate each channel of an sRGB color image produces separate non-linear grayscale images. However the same concept can be applied, if it is desired to keep the separate channels as linear grayscale. For example, the following produces linear grayscale channels.</p>
+<p>The same concept is needed when separating channels.  Normally, the conversion to separate each channel of an sRGB color image produces separate non-linear grayscale images. However the same concept can be applied, if it is desired to keep the separate channels as linear grayscale. For example, the following produces linear grayscale channels.</p>
 
 <pre class="highlight"><code>convert myimage.png -colorspace RGB -separate myimage_channels_%d.png</code></pre>
 
@@ -28,12 +30,9 @@ convert myimage.png -intensity Rec709luminance -colorspace gray myRGBimage.png
 <pre class="highlight"><code>convert myimage.png -separate myimage_channels_%d.png
 convert myimage_channels_*.png -combine myimage2.png</code></pre>
 
-<p>In the above example, the result is darker than the original, because the channels were separate as linear gray and subsequently combined as linear color. In order to return the channels back to sRGB, one must change the colorspace from RGB back to sRGB after the <code>-combine</code> step.</p>
+<p>In the above example, the separated channels are non-linear and the default for <code>-combine</code> is to assume non-linear channels. So the result is the same as the input.</p>
 
-<pre class="highlight"><code>convert myimage.png -separate myimage_channels_%d.png
-convert myimage_channels_*.png -combine -colorspace sRGB myimage2.png</code></pre>
-
-<p>If one desires to separate to non-linear grayscale channels, recombine them later, perhaps after some processing, then use the same concept as above for maintaining non-linear grayscale:</p>
+If one desires to separate to linear grayscale channels, recombine them later back to non-linear color, perhaps after some processing, then use the same concept as above for maintaining linear grayscale:</p>
 
 <pre class="highlight"><code>convert myimage.png -set colorspace RGB -separate myimage_channels_%d.png
 convert myimage_channels_*.png -combine -colorspace RGB -set colorspace sRGB myimage2.png</code></pre>
