@@ -389,6 +389,10 @@ methods.</p>
     href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#fuzz">-fuzz</a> factor), with transparency.
     </td>
   </tr>
+  <tr>
+    <td>stereo</td>
+    <td>create a stereo anaglyph</td>
+  </tr>
   </tbody>
 </table>
 
