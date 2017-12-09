@@ -65,17 +65,16 @@
   {
 ?>
   <footer class="magick-footer">
-    <p><a href="<?php echo $_SESSION['RelativePath']?>/../script/support.php">Donate</a> •
-     <a href="<?php echo $_SESSION['RelativePath']?>/../script/sitemap.php">Sitemap</a> •
+    <p><a href="<?php echo $_SESSION['RelativePath']?>/../script/security-policy.php">Security</a> •
+    <a href="<?php echo $_SESSION['RelativePath']?>/../script/architecture.php">Architecture</a> •
     <a href="<?php echo $_SESSION['RelativePath']?>/../script/links.php">Related</a> •
-    <a href="<?php echo $_SESSION['RelativePath']?>/../script/security-policy.php">Security</a> •
-    <a href="<?php echo $_SESSION['RelativePath']?>/../script/architecture.php">Architecture</a>
-</p>
-    <p><a href="#">Back to top</a> •
-    <a href="http://pgp.mit.edu:11371/pks/lookup?op=get&amp;search=0x89AB63D48277377A">Public Key</a> •
+     <a href="<?php echo $_SESSION['RelativePath']?>/../script/sitemap.php">Sitemap</a> •
+    <a href="http://pgp.mit.edu:11371/pks/lookup?op=get&amp;search=0x89AB63D48277377A">Public Key</a></p>
+    <p><a href="<?php echo $_SESSION['RelativePath']?>/../script/support.php">Donate</a> •
+    <a href="#">Back to top</a> •
     <a href="<?php echo $_SESSION['RelativePath']?>/../script/contact.php">Contact Us</a></p>
     <?php if ($_SERVER["SERVER_ADDR"] == "10.144.245.30") echo '<p><small>Sponsored by <a href="https://transloadit.com">Transloadit</a> - the file uploading &amp; processing service</small></p>' ?>
-    <p><small>© 1999-2017 ImageMagick Studio LLC</small></p>
+    <p><small>© 1999-2018 ImageMagick Studio LLC</small></p>
   </footer>
 </div><!-- /.container -->
 
