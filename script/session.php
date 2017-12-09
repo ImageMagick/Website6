@@ -2,6 +2,9 @@
   /*
     Start a session and return content from the cache if its exists.
   */
+  if (!ini_get('date.timezone')) {
+    date_default_timezone_set('GMT');
+  }
   ob_start("ob_gzhandler");
   $path=pathinfo($_SERVER['SCRIPT_FILENAME']);
   $path=$path['dirname'];
@@ -49,6 +52,7 @@
   require_once($_SESSION['AbsolutePath'] . '/../include/define.php');
   require_once($_SESSION['AbsolutePath'] . '/../include/layout.php');
   SiteHeader($title);
+  ob_flush();
   require_once($_SESSION['AbsolutePath'] . '/../include/' . $script);
   SiteFooter();
   if (!isset($dynamic_content) || !$dynamic_content) {

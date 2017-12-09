@@ -32,7 +32,6 @@
   <link href="<?php echo $_SESSION['RelativePath']?>/../image/wand.ico" rel="shortcut icon">
   <link href="<?php echo $_SESSION['RelativePath']?>/../css/magick.php" rel="stylesheet">
 </head>
-<?php flush(); ?>
 <body>
 <div class="magick-masthead">
   <div class="container">
