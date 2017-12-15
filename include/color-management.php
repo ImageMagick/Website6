@@ -38,7 +38,7 @@ convert myimage_channels_*.png -combine myimage2.png</code></pre>
 If one desires to separate to linear grayscale channels, recombine them later back to non-linear color, perhaps after some processing, then use the same concept as above for maintaining linear grayscale:</p>
 
 <pre class="highlight"><code>convert myimage.png -set colorspace RGB -separate myimage_channels_%d.png
-convert myimage_channels_*.png -combine -colorspace RGB -set colorspace sRGB myimage2.png</code></pre>
+convert myimage_channels_*.png -set colorspace RGB -combine -colorspace sRGB myimage2.png</code></pre>
 
 <p>When converting to another colorspace and back, such as between sRGB and HSL, the following two commands handle the first case of non-linear channels and the second case of linear channels:</p>
 
