@@ -826,7 +826,7 @@ you can use any of the following:</p>
 <pre class="highlight"><code>-channel Red,Blue</code>
 <pre class="highlight"><code>-channel R,B</code>
 <pre class="highlight"><code>-channel RB</code>
-<pre class="highlight"><code>-channel 0,1</code></pre>
+<pre class="highlight"><code>-channel 0,2</code></pre>
 
 
 <p>All the channels that are present in an image can be specified using the
