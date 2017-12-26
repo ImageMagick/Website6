@@ -16,8 +16,7 @@
 
 
 <p>By default, converting color images to grayscale returns non-linear gray.  To instead convert to linear gray, use the <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-processing.php#set">-set</a> or <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-processing.php#intensity">-intensity</a
-> or <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-processing.php#grayscale">-grayscale</a
-> options:</p>
+> or <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-processing.php#grayscale">-grayscale</a> options:</p>
 
 <pre class="highlight"><code>convert myimage.png -set colorspace RGB -colorspace gray myRGBimage.png
 convert myimage.png -intensity Rec709luminance -colorspace gray myRGBimage.png
