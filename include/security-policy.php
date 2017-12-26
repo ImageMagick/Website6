@@ -126,7 +126,7 @@ ion files.  To define your security policy, you must instead edit the <code>magi
 
 <h2 class="magick-post-title"><a class="anchor" id="other"></a>Other Security Considerations</h2>
 
-<p>If you spot a security flaw in ImageMagick, post your concern to 
+<p>If you spot a security flaw in ImageMagick, post your concern as an issue to 
 <a href="https://github.com/ImageMagick/ImageMagick/issues">GitHub</a>.  Be sure to include how to reproduce the security flaw and a link to any images needed to reproduce the flaw.  Alternatively, <a href="<?php echo $_SESSION['RelativePath']?>/../script/contact.php">contact us</a> and select Security Issue as the issue.</p>
 
 <p>In addition to the security policy, you can make ImageMagick safer by ...</p>
