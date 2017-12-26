@@ -4479,12 +4479,12 @@ convert the given image into a grayscale image. </p>
 
 <p>which is equivalent to:</p>
 
-<pre class="highlight"><code>convert in.png -colorspace gray out.png
+<pre class="highlight"><code>convert in.png -colorspace sgray out.png
 </code></pre>
 
 <p>Note that a 'colorspace' intensity method will produce the same result
 regardless of the current colorpsace of the image. But a 'mathematical'
-intensity method will depend on the current colorspace the image is currently
+intensity method depends on the current colorspace the image is currently
 using. </p>
 
 <p>While this operation uses an <a href="#intensity" >-intensity</a> method, 
