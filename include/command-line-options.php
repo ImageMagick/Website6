@@ -1187,9 +1187,9 @@ CMYKA images) and offsets are normalized (divide Flash offset by 255).</p>
 <pre class="highlight"><code>CMY          CMYK         Gray         HCL
 HCLp         HSB          HSI          HSL
 HSV          HWB          Lab          LCHab
-LCHuv        LMS          Log          Luv
-OHTA         Rec601YCbCr  Rec709YCbCr  RGB
-sGray        scRGB        sRGB         Transparent
+LCHuv        LinearGray   LMS          Log
+Luv          OHTA         Rec601YCbCr  Rec709YCbCr
+RGB          scRGB        sRGB         Transparent
 xyU          XYZ          YCbCr        YCC
 YDbDr        YIQ          YPbPr        YUV
 </code></pre>
@@ -1211,7 +1211,7 @@ YDbDr        YIQ          YPbPr        YUV
         <tr><td valign="middle">Y=<var>QuantumRange</var>*(Y−K)/(<var>QuantumRange</var>−K)</td></tr>
 
         <tr><th valign="middle">Gray</th></tr>
-        <tr><td valign="middle">Gray = 0.298839*R+0.586811*G+0.114350*B</td></tr>
+        <tr><td valign="middle">Gray = 0.212656*R+0.715158*G+0.072186*B</td></tr>
 
         <tr><th valign="middle">HSB — Hue, Saturation, Brightness; like a cone peak downward</th></tr>
         <tr><td valign="middle">H=angle around perimeter (0 to 360 deg); H=0 is red; increasing angles toward green</td></tr>
@@ -1232,6 +1232,8 @@ YDbDr        YIQ          YPbPr        YUV
         <tr><td valign="middle">L (complicated equation relating X,Y,Z)</td></tr>
         <tr><td valign="middle">A (complicated equation relating X,Y,Z)</td></tr>
         <tr><td valign="middle">B (complicated equation relating X,Y,Z)</td></tr>
+        <tr><th valign="middle">LinearGray</th></tr>
+        <tr><td valign="middle">LinearGray = 0.298839*R+0.586811*G+0.114350*B</td></tr>
 
         <tr><th valign="middle">LOG</th></tr>
         <tr><td valign="middle">I1 (complicated equation involving logarithm of R)</td></tr>
@@ -1259,8 +1261,6 @@ YDbDr        YIQ          YPbPr        YUV
         <tr><td valign="middle">Cb=(−0.114572*R−0.385428*G+0.500000*B)+(<var>QuantumRange</var>+1)/2</td></tr>
         <tr><td valign="middle">Cr=(0.500000*R−0.454153*G−0.045847*B)+(<var>QuantumRange</var>+1)/2</td></tr>
 
-        <tr><th valign="middle">sGray</th></tr>
-        <tr><td valign="middle">sGray = 0.212656*R+0.715158*G+0.072186*B</td></tr>
         <tr><th valign="middle">sRGB</th></tr>
         <tr><td valign="middle">if R ≤ .0.0031308 then Rs=R/12.92 else Rs=1.055 R ^ (1.0 / 2.4) ? 0.055</td></tr>
         <tr><td valign="middle">if G ≤ .0.0031308 then Gs=B/12.92 else Gs=1.055 R ^ (1.0 / 2.4) ? 0.055</td></tr>
