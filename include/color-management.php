@@ -18,10 +18,14 @@
 <p>By default, converting color images to grayscale returns non-linear gray.  To instead convert to linear gray, use the <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-processing.php#set">-set</a> or <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-processing.php#intensity">-intensity</a
 > or <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-processing.php#grayscale">-grayscale</a> options:</p>
 
-<pre class="highlight"><code>convert myimage.png -set colorspace RGB -colorspace gray myRGBimage.png
+<pre class="highlight"><code>
+convert myimage.png --colorspace LinearGray myRGBimage.png
+convert myimage.png -colorspace RGB -colorspace Gray myRGBimage.png
 convert myimage.png -intensity Rec709luminance -colorspace gray myRGBimage.png
 convert myimage.png -grayscale Rec709luminance myRGBimage.png
 </code></pre>
+
+<p>Note that LinearGray is new as of Imagemagick 6.9.9-29 and 7.0.7-17.</p>
 
 <p>The same concept is needed when separating channels.  Normally, the conversion to separate each channel of an sRGB color image produces separate non-linear grayscale images. However the same concept can be applied, if it is desired to keep the separate channels as linear grayscale. For example, the following produces linear grayscale channels.</p>
 

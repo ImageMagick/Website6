@@ -4469,8 +4469,13 @@ convert the given image into a grayscale image. </p>
 
 <p>which is equivalent to:</p>
 
-<pre class="highlight"><code>convert in.png -colorspace RGB -colorspace gray out.png
-</code></pre>
+<pre class="highlight">
+<code>convert in.png -colorspace RGB -colorspace Gray out.png</code>
+or
+<code>convert in.png -colorspace LinearGray out.png</code>
+</pre>
+
+<p>Note that LinearGray is new as of Imagemagick 6.9.9-29 and 7.0.7-17.</p>
 
 <p>Similarly, to convert an image to (non-linear) Rec709Luma grayscale,  type:</p>
 
@@ -4479,7 +4484,7 @@ convert the given image into a grayscale image. </p>
 
 <p>which is equivalent to:</p>
 
-<pre class="highlight"><code>convert in.png -colorspace sgray out.png
+<pre class="highlight"><code>convert in.png -colorspace Gray out.png
 </code></pre>
 
 <p>Note that a 'colorspace' intensity method will produce the same result
