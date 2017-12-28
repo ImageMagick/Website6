@@ -19,7 +19,7 @@
 > or <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-processing.php#grayscale">-grayscale</a> options:</p>
 
 <pre class="highlight"><code>
-convert myimage.png --colorspace LinearGray myRGBimage.png
+convert myimage.png -colorspace LinearGray myRGBimage.png
 convert myimage.png -colorspace RGB -colorspace Gray myRGBimage.png
 convert myimage.png -intensity Rec709luminance -colorspace gray myRGBimage.png
 convert myimage.png -grayscale Rec709luminance myRGBimage.png
