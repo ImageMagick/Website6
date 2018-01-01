@@ -48,6 +48,13 @@
     header('Status-Code: 301');
     header('Location: https://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']);
   }
+  $use_sts = true;
+  if ($use_sts && isset($_SERVER['HTTPS'])) {
+    header('Strict-Transport-Security: max-age=63072000; includeSubDomains; preload');
+  } elseif ($use_sts && !isset($_SERVER['HTTPS'])) {
+    header('Status-Code: 301');
+    header('Location: https://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']);
+  }
   require_once($_SESSION['AbsolutePath'] . '/../class/Mail.php');
   require_once($_SESSION['AbsolutePath'] . '/../class/MetaContent.php');
   require_once($_SESSION['AbsolutePath'] . '/../function/cmd.php');
