@@ -393,6 +393,10 @@ setting for more specifics.</p>
     <td>Resize image to have specified area in pixels. Aspect ratio is preserved.</td>
   </tr>
   <tr>
+    <td><var>x</var>x<var>y</var>~</td>
+    <td>Here x and y denotes an aspect ratio (e.g. 3x2~ = 1.5).</td>
+  </tr>
+  <tr>
     <td>{<var>size</var>}{<var>offset</var>}</td>
     <td>Specifying the <var>offset</var> (default is <code>+0+0</code>). Below, {<var>size</var>} refers to any of the forms above.</td>
   </tr>
