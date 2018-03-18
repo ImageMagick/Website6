@@ -165,7 +165,7 @@ Use ImageMagick<sup><a href="http://tarr.uspto.gov/servlet/tarr?regser=serial&am
 
 <ul>
 <li>Add more memory to your system, see <a href="https://www.imagemagick.org/script/architecture.php#cache">the pixel cache</a>;</li>
-<li>Add more cores to your system (up to 20), see <a href="https://www.imagemagick.org/script/architecture.php#threads">threads of execution support</a>;</li>
+<li>Add more cores to your system, see <a href="https://www.imagemagick.org/script/architecture.php#threads">threads of execution support</a>;</li>
 <li>push large images to a solid-state drive, see <a href="https://www.imagemagick.org/script/architecture.php#tera-pixel">large image support</a>.</li>
 </ul>
 <p>If these options are prohibitive, you can reduce the quality of the image results.  The default build is Q16.  If you instead use a Q8 build, you use half the memory The tradeoff is reduced precision.  For a Q8 build of ImageMagick, use this <code>configure</code> script option: <code>--with-quantum-depth=8</code>.</p>
