@@ -315,10 +315,6 @@ when enclosed in braces (long form):</p>
     <td>??? channels in use - colorspace ???</td>
   </tr>
   <tr>
-    <td>%[colors]</td>
-    <td>Number of unique colors in the image (as of IM 6.9.6-6)</td>
-  </tr>
-  <tr>
     <td>%[colorspace]</td>
     <td>Colorspace of Image Data (excluding transparency)</td>
   </tr>
@@ -397,10 +393,6 @@ when enclosed in braces (long form):</p>
   <tr>
     <td>%[min]</td>
     <td>CALCULATED: minimum value statistic of image</td>
-  </tr>
-  <tr>
-    <td>%[name]</td>
-    <td>The original name of the image</td>
   </tr>
   <tr>
     <td>%[opaque]</td>
