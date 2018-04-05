@@ -12,7 +12,7 @@
 
 <h2 class="magick-post-title"><a class="anchor" id="unix"></a>Install from Unix Source</h2>
 
-<p>ImageMagick builds on a variety of Unix and Unix-like operating systems including Linux, Solaris, FreeBSD, Mac OS X, and others.  A compiler is required and fortunately almost all modern Unix systems have one.  Download <a href="https://www.imagemagick.org/download/ImageMagick.tar.gz">ImageMagick.tar.gz</a> from <a href="https://www.imagemagick.org/download">www.imagemagick.org</a> or a <a href="<?php echo $_SESSION['RelativePath']?>/../script/mirror.php">mirror</a> and verify its <a href="https://www.imagemagick.org/download/digest.rdf">message digest</a>.</p>
+<p>ImageMagick builds on a variety of Unix and Unix-like operating systems including Linux, Solaris, FreeBSD, Mac OS X, and others.  A compiler is required and fortunately almost all modern Unix systems have one.  Download <a href="https://www.imagemagick.org/download/">ImageMagick-6.?.?.?-tar.gz</a> from <a href="https://www.imagemagick.org/download">www.imagemagick.org</a> or a <a href="<?php echo $_SESSION['RelativePath']?>/../script/mirror.php">mirror</a> and verify its <a href="https://www.imagemagick.org/download/digest.rdf">message digest</a>.</p>
 
 <p>Unpack the distribution with this command:</p>
 
@@ -55,7 +55,7 @@
 
 <pre class="highlight"><code>git clone -b ImageMagick-Windows-6 --single-branch git@github.com:ImageMagick/ImageMagick-Windows.git ImageMagick-Windows-6</code></pre>
 
-<p>and run <code>CloneRepositories.cmd</code>.  Alternatively, download <a href="https://www.imagemagick.org/download/windows/ImageMagick-windows.zip">ImageMagick-windows.zip</a> and verify its <a href="https://www.imagemagick.org/download/windows/digest.rdf">message digest</a>.  For the latter, you can unpack the distribution with <a href="http://www.winzip.com">WinZip</a> or type the following from any MS-DOS Command Prompt window:</p>
+<p>and run <code>CloneRepositories.cmd</code>.  Alternatively, download <a href="https://www.imagemagick.org/download/windows/">ImageMagick-6.?.?-?.zip</a> and verify its <a href="https://www.imagemagick.org/download/windows/digest.rdf">message digest</a>.  For the latter, you can unpack the distribution with <a href="http://www.winzip.com">WinZip</a> or type the following from any MS-DOS Command Prompt window:</p>
 
 <pre class="highlight"><code>unzip ImageMagick-windows.zip</code></pre>
 
