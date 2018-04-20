@@ -695,8 +695,8 @@ reset</code></pre></td>
     <td></td>
   </tr>
   <tr>
-    <td><a class="anchor" id="push-graphic-context"></a>push graphic-context</td>
-    <td></td>
+    <td><a class="anchor" id="push-graphic-context"></a>push graphic-context { "<em>id</em>" }</td>
+    <td>the <em>id</em> is optional</td>
   </tr>
   <tr>
     <td><a class="anchor" id="push-pattern"></a>push pattern <var>id radial x,y width,height</var></td>
