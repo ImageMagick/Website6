@@ -373,6 +373,7 @@ when enclosed in braces (long form):</p>
   <tr>
     <td>%[input]</td>
     <td>&nbsp;</td>
+  </tr>
   <tr>
     <td>%[interlace]</td>
     <td>Image interlace mode (as of IM 6.9.6-6)</td>
