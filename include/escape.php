@@ -107,7 +107,7 @@ filename, type, width, height. </p>
   </tr>
   <tr>
     <td>%b</td>
-    <td>file size of image read in</td>
+    <td>file size of image read in (use <a href="#precision">-precision</a> 16 to force results in B)</td>
   </tr>
   <tr>
     <td>%c</td>
@@ -304,7 +304,7 @@ when enclosed in braces (long form):</p>
   </tr>
   <tr>
     <td>%[bit-depth]</td>
-    <td>&nbsp;</td>
+    <td>Actual bit-depth of the pixel data</td>
   </tr>
   <tr>
     <td>%[caption]</td>
@@ -320,7 +320,7 @@ when enclosed in braces (long form):</p>
   </tr>
   <tr>
     <td>%[colorspace]</td>
-    <td>Colorspace of Image Data (excluding transparency)</td>
+    <td>colorspace of Image Data (excluding transparency)</td>
   </tr>
   <tr>
     <td>%[compose]</td>
@@ -328,7 +328,7 @@ when enclosed in braces (long form):</p>
   </tr>
   <tr>
     <td>%[compression]</td>
-    <td>Image compression type (as of IM 6.9.6-6)</td>
+    <td>image compression type (as of IM 6.9.6-6)</td>
   </tr>
   <tr>
     <td>%[copyright]</td>
