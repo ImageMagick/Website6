@@ -127,6 +127,8 @@
      <li><code>lightness</code>=> pixel lightness</li>
      <li><code>luma</code>=> pixel luma</li>
 
+     <li><code>extent</code>=> image extent in bytes</li>
+
      <li><code>page.width</code>=> page width</li>
      <li><code>page.height</code>=> page height</li>
      <li><code>page.x</code>=> page x offset</li>
@@ -149,7 +151,6 @@
 <p>Fx also supports these symbols:</p>
 <ul>
 <li>image.depth</li>
-<li>image.extent</li>
 <li>image.kurtosis</li>
 <li>image.maxima</li>
 <li>image.minima</li>
