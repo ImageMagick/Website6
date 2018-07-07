@@ -127,8 +127,6 @@
      <li><code>lightness</code>=> pixel lightness</li>
      <li><code>luma</code>=> pixel luma</li>
 
-     <li><code>extent</code>=> image extent in bytes</li>
-
      <li><code>page.width</code>=> page width</li>
      <li><code>page.height</code>=> page height</li>
      <li><code>page.x</code>=> page x offset</li>
@@ -138,6 +136,7 @@
      <li><code>resolution.y</code>=> y resolution</li>
 
      <li><code>depth</code>=> image depth</li>
+     <li><code>extent</code>=> image extent in bytes</li>
      <li><code>minima</code>=> image minima</li>
      <li><code>maxima</code>=> image maxima</li>
      <li><code>mean</code>=> image mean</li>
