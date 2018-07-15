@@ -1436,9 +1436,8 @@ href="#set">-set</a> '<code>option:compose:args</code>'
 appropriately for the compose method. </p>
 
 <p>Some <a href="#compose">-compose</a> methods can modify the 'destination'
-image outside the overlay area. You can disable this by setting the special <a
-href="#set">-set</a> '<code>option:compose:outside-overlay</code>'
-to '<code>false</code>'.  </p>
+image outside the overlay area. You can disable this by setting this define:
+<a href="#define">-define</a> '<code>compose:outside-overlay=false</code></p>
 
 <p>The SVG compositing specification requires that color and opacity values range between zero and QuantumRange inclusive.  You can permit values outside this range with this option: <a href="#set">-set</a> '<code>option:compose:clamp=false</code></p>
 
@@ -1791,6 +1790,11 @@ available:</p>
   <tr>
     <td>compose:clamp=<var>on|off</var></td>
     <td>set each pixel whose value is below zero to zero and any the pixel whose value is above the quantum range to the quantum range (e.g. 65535) otherwise the pixel value remains unchanged.  Define supported in ImageMagick 6.9.1-3 and above.</td>
+  </tr>
+
+  <tr>
+    <td>compose:outside-overlay=<var>true|false</var></td>
+    <td>Some <a href="#compose" >-compose</a> methods can modify the 'destination' image outside the overlay area.  It is disabled by default.</td>
   </tr>
 
   <tr>
