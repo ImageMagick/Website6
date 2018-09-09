@@ -533,7 +533,7 @@ negative results without clipping to the color value range
 href="<?php echo $_SESSION['RelativePath']
 ?>/../script/high-dynamic-range.php" >High Dynamic-Range Images</a>. For more
 about HDRI go the ImageMagick <a
-href="https://www.imagemagick.org/Usage/basics/#hdri" >Usage</a> pages or this
+href="https://imagemagick.org/Usage/basics/#hdri" >Usage</a> pages or this
 <a
 href="http://en.wikipedia.org/wiki/High_dynamic_range_imaging">Wikipedia</a>
 entry.  </p>
@@ -1569,7 +1569,7 @@ negative results without clipping to the color value range (0..QuantumRange).
 See the discussion on HDRI implementations of ImageMagick on the page <a
 href="<?php echo $_SESSION['RelativePath']?>/../script/high-dynamic-range.php">High
 Dynamic-Range Images</a>. For more about HDRI go the ImageMagick <a
-href="https://www.imagemagick.org/Usage/basics/#hdri">Usage</a> pages or this
+href="https://imagemagick.org/Usage/basics/#hdri">Usage</a> pages or this
 <a href="http://en.wikipedia.org/wiki/High_dynamic_range_imaging">Wikipedia</a>
 entry.  </p>
 
@@ -1690,7 +1690,7 @@ option.</p>
 <p>Get the passphrase from the file specified by <var>filename</var>.</p>
 
 <p>For more information, see the webpage, <a
-href="https://www.imagemagick.org/www/cipher.html">ImageMagick: Encipher or
+href="https://imagemagick.org/www/cipher.html">ImageMagick: Encipher or
 Decipher an Image</a>.</p>
 
 
@@ -1783,7 +1783,7 @@ available:</p>
   <tr>
     <td>compose:args=<var>arguments</var></td>
      <td>Sets certain compose argument values when using convert ... -compose ...
-    -composite. See <a href="https://www.imagemagick.org/script/compose.php"
+    -composite. See <a href="https://imagemagick.org/script/compose.php"
     >Image Composition</a></td>
   </tr>
 
@@ -3389,7 +3389,7 @@ image sequence.</p>
 <p>Get the passphrase from the file specified by <var>filename</var>.</p>
 
 <p>For more information, see the webpage, <a
-href="https://www.imagemagick.org/www/cipher.html">ImageMagick: Encipher or
+href="https://imagemagick.org/www/cipher.html">ImageMagick: Encipher or
 Decipher an Image</a>.</p>
 
 
@@ -3779,7 +3779,7 @@ images.</p>
 href="<?php echo $_SESSION['RelativePath']
 ?>/../script/high-dynamic-range.php" >High Dynamic-Range Images</a>. For more
 about HDRI go the ImageMagick <a
-href="https://www.imagemagick.org/Usage/basics/#hdri" >Usage</a> pages, <a
+href="https://imagemagick.org/Usage/basics/#hdri" >Usage</a> pages, <a
 href="http://www.fmwconcepts.com/imagemagick/fourier_transforms/fourier.html"
 >Fred's Fourier Processing With ImageMagick page</a> or this <a
  href="http://en.wikipedia.org/wiki/High_dynamic_range_imaging" >Wikipedia</a>
@@ -5843,7 +5843,7 @@ argument determine how many images to interpolate between each image. </p>
 <p class="magick-description">apply a morphology method to the image.</p>
 
 <p>Until I get around to writing an option summary for this, see <a
-href="https://www.imagemagick.org/Usage/morphology/" >IM Usage Examples,
+href="https://imagemagick.org/Usage/morphology/" >IM Usage Examples,
 Morphology</a>. </p>
 
 

@@ -6,7 +6,7 @@ Use ImageMagick<sup><a href="http://tarr.uspto.gov/servlet/tarr?regser=serial&am
 
 <p>The functionality of ImageMagick is typically utilized from the <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-processing.php">command-line</a> or you can use the features from programs written in your favorite language. Choose from these interfaces: <a href="<?php echo $_SESSION['RelativePath']?>/../script/develop.php#ada">G2F</a> (Ada), <a href="<?php echo $_SESSION['RelativePath']?>/../script/develop.php#c">MagickCore</a> (C), <a href="<?php echo $_SESSION['RelativePath']?>/../script/develop.php#c">MagickWand</a> (C), <a href="<?php echo $_SESSION['RelativePath']?>/../script/develop.php#ch">ChMagick</a> (Ch), <a href="<?php echo $_SESSION['RelativePath']?>/../script/develop.php#com_">ImageMagickObject</a> (COM+), <a href="<?php echo $_SESSION['RelativePath']?>/../script/develop.php#c__">Magick++</a> (C++), <a href="<?php echo $_SESSION['RelativePath']?>/../script/develop.php#java">JMagick</a> (Java), <a href="<?php echo $_SESSION['RelativePath']?>/../script/develop.php#julia">JuliaIO</a> (Julia), <a href="<?php echo $_SESSION['RelativePath']?>/../script/develop.php#lisp">L-Magick</a> (Lisp), <a href="<?php echo $_SESSION['RelativePath']?>/../script/develop.php#lua">Lua</a> (LuaJIT), <a href="<?php echo $_SESSION['RelativePath']?>/../script/develop.php#neko">NMagick</a> (Neko/haXe), <a href="<?php echo $_SESSION['RelativePath']?>/../script/develop.php#dot-net">Magick.NET</a> (.NET), <a href="<?php echo $_SESSION['RelativePath']?>/../script/develop.php#pascal">PascalMagick</a> (Pascal),  <a href="<?php echo $_SESSION['RelativePath']?>/../script/develop.php#perl">PerlMagick</a> (Perl), <a href="<?php echo $_SESSION['RelativePath']?>/../script/develop.php#php">MagickWand for PHP</a> (PHP),  <a href="<?php echo $_SESSION['RelativePath']?>/../script/develop.php#php">IMagick</a> (PHP), <a href="<?php echo $_SESSION['RelativePath']?>/../script/develop.php#python">PythonMagick</a> (Python), <a href="<?php echo $_SESSION['RelativePath']?>/../script/develop.php#r">magick</a> (R), <a href="<?php echo $_SESSION['RelativePath']?>/../script/develop.php#ruby">RMagick</a> (Ruby), or <a href="<?php echo $_SESSION['RelativePath']?>/../script/develop.php#tcl">TclMagick</a> (Tcl/TK). With a language interface, use ImageMagick to modify or create images dynamically and <var>automagically</var>.</p>
 <p>ImageMagick utilizes multiple computational threads to increase performance and can read, process, or write mega-, giga-, or tera-pixel image sizes.</p>
-<p>ImageMagick is free software delivered as a ready-to-run binary distribution or as source code that you may use, copy, modify, and distribute in both open and proprietary applications. It is distributed under the Apache 2.0 <a href="https://www.imagemagick.org/script/license.php">license</a>.</p>
+<p>ImageMagick is free software delivered as a ready-to-run binary distribution or as source code that you may use, copy, modify, and distribute in both open and proprietary applications. It is distributed under the Apache 2.0 <a href="https://imagemagick.org/script/license.php">license</a>.</p>
 
 <p>The ImageMagick development process ensures a stable API and <a href="https://abi-laboratory.pro/tracker/timeline/imagemagick/">ABI</a>. Before each ImageMagick release, we perform a comprehensive security assessment that includes <a href="https://github.com/google/sanitizers/wiki/AddressSanitizer">memory error</a>, <a href="https://github.com/google/sanitizers/wiki/ThreadSanitizer">thread data race</a> detection, and continuous <a href="https://github.com/google/oss-fuzz">fuzzing</a> to help prevent security vulnerabilities.</p>
 
@@ -14,14 +14,14 @@ Use ImageMagick<sup><a href="http://tarr.uspto.gov/servlet/tarr?regser=serial&am
 
 <p>The authoritative ImageMagick version 6 web site is <a href="https://legacy.imagemagick.org/">https://legacy.imagemagick.org</a>. The authoritative source code repository is <a href="https://github.com/ImageMagick/ImageMagick6">https://github.com/ImageMagick/ImageMagick6</a>.  We maintain a source code mirror at <a href="https://gitlab.com/ImageMagick/ImageMagick6">https://gitlab.com/ImageMagick/ImageMagick6</a>.</p>
 
-<p>The design of ImageMagick is an evolutionary process, with the design and implementation efforts serving to influence and guide further progress in the other. With <a href="https://www.imagemagick.org/">ImageMagick version 7</a> we aim to improve the design based on lessons learned from the version 6 implementation.</p>
+<p>The design of ImageMagick is an evolutionary process, with the design and implementation efforts serving to influence and guide further progress in the other. With <a href="https://imagemagick.org/">ImageMagick version 7</a> we aim to improve the design based on lessons learned from the version 6 implementation.</p>
 
 <h2 class="magick-post-title"><a class="anchor" id="features"></a>Features and Capabilities</h2>
 <p>Here are just a few <a href="<?php echo $_SESSION['RelativePath']?>/../script/examples.php">examples</a> of what ImageMagick can do for you:</p>
 <div class="table-responsive">
 <table class="table table-sm table-striped">
   <tr>
-    <td><a href="https://www.imagemagick.org/Usage/anim_basics/">Animation</a></td>
+    <td><a href="https://imagemagick.org/Usage/anim_basics/">Animation</a></td>
     <td>create a GIF animation sequence from a group of images.</td>
   </tr>
   <tr>
@@ -45,15 +45,15 @@ Use ImageMagick<sup><a href="http://tarr.uspto.gov/servlet/tarr?regser=serial&am
     <td>uniquely label connected regions in an image.</td>
   </tr>
   <tr>
-    <td><a href="https://www.imagemagick.org/Usage/crop/">Decorate</a></td>
+    <td><a href="https://imagemagick.org/Usage/crop/">Decorate</a></td>
     <td>add a border or frame to an image.</td>
   </tr>
   <tr>
-    <td><a href="https://www.imagemagick.org/Usage/transform/#vision">Delineate image features</a></td>
-    <td><a href="https://www.imagemagick.org/discourse-server/viewtopic.php?f=4&amp;t=25405">Canny edge detection</a>, <a href="https://www.imagemagick.org/discourse-server/viewtopic.php?f=4&amp;t=25476">Hough lines</a>.</td>
+    <td><a href="https://imagemagick.org/Usage/transform/#vision">Delineate image features</a></td>
+    <td><a href="https://imagemagick.org/discourse-server/viewtopic.php?f=4&amp;t=25405">Canny edge detection</a>, <a href="https://imagemagick.org/discourse-server/viewtopic.php?f=4&amp;t=25476">Hough lines</a>.</td>
   </tr>
   <tr>
-    <td><a href="https://www.imagemagick.org/Usage/fourier/">Discrete Fourier transform</a></td>
+    <td><a href="https://imagemagick.org/Usage/fourier/">Discrete Fourier transform</a></td>
     <td>implements the forward and inverse <a href="https://en.wikipedia.org/wiki/Discrete_Fourier_transform">DFT</a>.</td>
   </tr>
   <tr>
@@ -61,7 +61,7 @@ Use ImageMagick<sup><a href="http://tarr.uspto.gov/servlet/tarr?regser=serial&am
     <td>offload intermediate pixel storage to one or more remote servers.</td>
   </tr>
   <tr>
-    <td><a href="https://www.imagemagick.org/Usage/draw/">Draw</a></td>
+    <td><a href="https://imagemagick.org/Usage/draw/">Draw</a></td>
     <td>add shapes or text to an image.</td>
   </tr>
   <tr>
@@ -73,7 +73,7 @@ Use ImageMagick<sup><a href="http://tarr.uspto.gov/servlet/tarr?regser=serial&am
     <td>convert an image from one <a href="<?php echo $_SESSION['RelativePath']?>/../script/formats.php">format </a> to another (e.g. PNG to JPEG).</td>
   </tr>
   <tr>
-    <td><a href="https://www.imagemagick.org/Usage/distorts/">Generalized pixel distortion</a></td>
+    <td><a href="https://imagemagick.org/Usage/distorts/">Generalized pixel distortion</a></td>
     <td>correct for, or induce image distortions including perspective.</td>
   </tr>
   <tr>
@@ -109,7 +109,7 @@ Use ImageMagick<sup><a href="http://tarr.uspto.gov/servlet/tarr?regser=serial&am
     <td>juxtapose image thumbnails on an image canvas.</td>
   </tr>
   <tr>
-    <td><a href="https://www.imagemagick.org/Usage/morphology/">Morphology of shapes</a></td>
+    <td><a href="https://imagemagick.org/Usage/morphology/">Morphology of shapes</a></td>
     <td>extract features, describe shapes, and recognize patterns in images.</td>
   </tr>
   <tr>
@@ -117,19 +117,19 @@ Use ImageMagick<sup><a href="http://tarr.uspto.gov/servlet/tarr?regser=serial&am
     <td>read and write the common image formats used in digital film work.</td>
   </tr>
   <tr>
-    <td><a href="https://www.imagemagick.org/Usage/transform/#vision">Noise and color reduction</a></td>
-    <td><a href="https://www.imagemagick.org/discourse-server/viewtopic.php?f=4&amp;t=26480">Kuwahara Filter</a>, <a href="https://www.imagemagick.org/discourse-server/viewtopic.php?f=4&amp;t=25504">mean-shift</a>.</td>
+    <td><a href="https://imagemagick.org/Usage/transform/#vision">Noise and color reduction</a></td>
+    <td><a href="https://imagemagick.org/discourse-server/viewtopic.php?f=4&amp;t=26480">Kuwahara Filter</a>, <a href="https://imagemagick.org/discourse-server/viewtopic.php?f=4&amp;t=25504">mean-shift</a>.</td>
   </tr>
   <tr>
     <td><a href="http://www.fmwconcepts.com/misc_tests/perceptual_hash_test_results_510/index.html">Perceptual hash</a></td>
     <td>map visually identical images to the same or similar hash-- useful in image retrieval, authentication, indexing, or copy detection as well as digital watermarking.</td>
   </tr>
   <tr>
-    <td><a href="https://www.imagemagick.org/Usage/blur/">Special effects</a></td>
+    <td><a href="https://imagemagick.org/Usage/blur/">Special effects</a></td>
     <td>blur, sharpen, threshold, or tint an image.</td>
   </tr>
   <tr>
-    <td><a href="https://www.imagemagick.org/Usage/text/">Text &amp; comments</a></td>
+    <td><a href="https://imagemagick.org/Usage/text/">Text &amp; comments</a></td>
     <td>insert descriptive or artistic text in an image.</td>
   </tr>
   <tr>
@@ -137,11 +137,11 @@ Use ImageMagick<sup><a href="http://tarr.uspto.gov/servlet/tarr?regser=serial&am
     <td>ImageMagick is thread safe and most internal algorithms execute in <a href="<?php echo $_SESSION['RelativePath']?>/../script/openmp.php">parallel</a> to take advantage of speed-ups offered by multicore processor chips.</td>
   </tr>
   <tr>
-    <td><a href="https://www.imagemagick.org/Usage/resize/">Transform</a></td>
+    <td><a href="https://imagemagick.org/Usage/resize/">Transform</a></td>
     <td>resize, rotate, deskew, crop, flip or trim an image.</td>
   </tr>
   <tr>
-    <td><a href="https://www.imagemagick.org/Usage/masking/">Transparency</a></td>
+    <td><a href="https://imagemagick.org/Usage/masking/">Transparency</a></td>
     <td>render portions of an image invisible.</td>
   </tr>
   <tr>
@@ -151,11 +151,11 @@ Use ImageMagick<sup><a href="http://tarr.uspto.gov/servlet/tarr?regser=serial&am
 </table>
 </div>
 
-<p><a href="https://www.imagemagick.org/Usage/">Examples of ImageMagick Usage</a> shows how to use ImageMagick from the <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-processing.php">command-line</a> to accomplish any of these tasks and much more. Also, see <a href="http://www.fmwconcepts.com/imagemagick/">Fred's ImageMagick Scripts</a>:  a plethora of command-line scripts that perform geometric transforms, blurs, sharpens, edging, noise removal, and color manipulations. With <a href="https://github.com/dlemstra/Magick.NET">Magick.NET</a>, use ImageMagick without having to install ImageMagick on your server or desktop.</p>
+<p><a href="https://imagemagick.org/Usage/">Examples of ImageMagick Usage</a> shows how to use ImageMagick from the <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-processing.php">command-line</a> to accomplish any of these tasks and much more. Also, see <a href="http://www.fmwconcepts.com/imagemagick/">Fred's ImageMagick Scripts</a>:  a plethora of command-line scripts that perform geometric transforms, blurs, sharpens, edging, noise removal, and color manipulations. With <a href="https://github.com/dlemstra/Magick.NET">Magick.NET</a>, use ImageMagick without having to install ImageMagick on your server or desktop.</p>
 
 <h2 class="magick-post-title"><a class="anchor" id="news"></a>News</h2>
 
-<p>ImageMagick <a href="https://www.imagemagick.org">version 7</a> has been released.</p>
+<p>ImageMagick <a href="https://imagemagick.org">version 7</a> has been released.</p>
 
 <p>ImageMagick best practices <strong>strongly</strong> encourages you to configure a <a href="<?php echo $_SESSION['RelativePath']?>/../script/security-policy.php">security policy</a> that best suits your local environment.</p>
 
@@ -164,12 +164,12 @@ Use ImageMagick<sup><a href="http://tarr.uspto.gov/servlet/tarr?regser=serial&am
 <p>Want more performance from ImageMagick?  Try these options:</p>
 
 <ul>
-<li>Add more memory to your system, see <a href="https://www.imagemagick.org/script/architecture.php#cache">the pixel cache</a>;</li>
-<li>Add more cores to your system, see <a href="https://www.imagemagick.org/script/architecture.php#threads">threads of execution support</a>;</li>
-<li>push large images to a solid-state drive, see <a href="https://www.imagemagick.org/script/architecture.php#tera-pixel">large image support</a>.</li>
+<li>Add more memory to your system, see <a href="https://imagemagick.org/script/architecture.php#cache">the pixel cache</a>;</li>
+<li>Add more cores to your system, see <a href="https://imagemagick.org/script/architecture.php#threads">threads of execution support</a>;</li>
+<li>push large images to a solid-state drive, see <a href="https://imagemagick.org/script/architecture.php#tera-pixel">large image support</a>.</li>
 </ul>
 <p>If these options are prohibitive, you can reduce the quality of the image results.  The default build is Q16.  If you instead use a Q8 build, you use half the memory The tradeoff is reduced precision.  For a Q8 build of ImageMagick, use this <code>configure</code> script option: <code>--with-quantum-depth=8</code>.</p>
 
 <h2 class="magick-post-title"><a class="anchor" id="community"></a>Community</h2>
-<p>To join the ImageMagick community, try the <a target="_blank" href="https://www.imagemagick.org/discourse-server/">discourse server</a>.  You can review questions or comments (with informed responses) posed by ImageMagick users or ask your own questions. If you want to contribute image processing algorithms, other enhancements, or bug fixes, open an <a href="https://github.com/ImageMagick/ImageMagick">issue</a>. </p>
+<p>To join the ImageMagick community, try the <a target="_blank" href="https://imagemagick.org/discourse-server/">discourse server</a>.  You can review questions or comments (with informed responses) posed by ImageMagick users or ask your own questions. If you want to contribute image processing algorithms, other enhancements, or bug fixes, open an <a href="https://github.com/ImageMagick/ImageMagick">issue</a>. </p>
 </div>

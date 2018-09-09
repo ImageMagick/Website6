@@ -38,7 +38,7 @@
     $_SESSION['RelativePath']='';
   if ($_SERVER['SERVER_NAME'] == 'www.imagemagick.com')
     {
-      header("Location: https://www.imagemagick.org/index.php");
+      header("Location: https://imagemagick.org/index.php");
       exit();
     }
   $use_sts = true;
