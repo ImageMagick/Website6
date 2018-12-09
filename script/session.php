@@ -73,7 +73,7 @@
   SiteHeader($title,$topic);
   require_once($_SESSION['AbsolutePath'] . '/../include/' . $script);
   SiteFooter();
-  if (!isset($dynamic_content) || !$dynamic_content) {
+  if (!isset($dynamic_content)) {
     file_put_contents($cacheName,ob_get_contents());
   }
   session_unset();
