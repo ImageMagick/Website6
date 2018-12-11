@@ -451,13 +451,6 @@ the supported image formats.</p>
   </tr>
 
   <tr>
-    <td>INLINE</td>
-    <td>RW</td>
-    <td>Base64-encoded inline image</td>
-    <td>The inline image look similar to <code>inline:data:;base64,/9j/4AAQSk...knrn//2Q==</code>.  If the inline image exceeds 5000 characters, reference it from a file (e.g. <code>inline:inline.txt</code>). You can also write a base64-encoded image.  Embed the mime type in the filename, for example, <code>convert myimage inline:jpeg:myimage.txt</code>.</td>
-  </tr>
-
-  <tr>
     <td><a href="https://www.iso.org/obp/ui/#iso:std:iso:tr:11548:-1">ISOBRL</a></td>
     <td>W</td>
     <td>ISO/TR 11548-1 BRaiLle</td>
@@ -1271,6 +1264,13 @@ the supported image formats.</p>
     <td>W</td>
     <td>Histogram of the image</td>
     <td>The histogram includes the unique colors of the image as an image comment.  If you have no need for the unique color list, use <code>-define histogram:unique-colors=false</code> to forego this expensive operation.</td>
+  </tr>
+
+  <tr>
+    <td>INLINE</td>
+    <td>RW</td>
+    <td>Base64-encoded inline image</td>
+    <td>The inline image look similar to <code>inline:data:;base64,/9j/4AAQSk...knrn//2Q==</code>.  If the inline image exceeds 5000 characters, reference it from a file (e.g. <code>inline:inline.txt</code>). You can also write a base64-encoded image.  Embed the mime type in the filename, for example, <code>convert myimage inline:jpeg:myimage.txt</code>.</td>
   </tr>
 
   <tr>
