@@ -6,8 +6,8 @@
   define('SponsorIcon', 'networkredux.png');
   define('SponsorURL', 'http://www.networkredux.com');
   define('MagickMajorReleaseText', '6');
-  define('MagickLibVersionText', '6.9.9');
-  define('MagickLibSubversion', '-19');
-  define('PerlMagickVersion', '6.99');
-  define('MagickReleaseDate', '2017-10-07');
+  define('MagickLibVersionText', '6.9.10');
+  define('MagickLibSubversion', '-23');
+  define('PerlMagickVersion', '6.9A');
+  define('MagickReleaseDate', '2019-01-03');
 ?>
