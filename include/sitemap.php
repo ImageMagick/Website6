@@ -121,7 +121,6 @@
   <li><a href="https://imagemagick.org/discourse-server/viewtopic.php?f=4&amp;t=25405">Canny edge detection</a>: extract edges from an image using the Canny technique.</li>
   <li><a href="<?php echo $_SESSION['RelativePath']?>/../script/color-management.php">Color management</a>: accurate color management with color profiles or in lieu of-- built-in gamma compression or expansion as demanded by the colorspace.</li>
   <li><a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-processing.php">Command-line processing</a>: utilize ImageMagick from the command line.</li>
-  <li><a href="<?php echo $_SESSION['RelativePath']?>/../script/connected-components.php">Connected Component Labeling</a>: uniquely label connected regions in an image.</li>
   <li><a href="<?php echo $_SESSION['RelativePath']?>/../script/composite.php">Composite</a>: overlap one image over another.</li>
   <li><a href="<?php echo $_SESSION['RelativePath']?>/../script/connected-components.php">Connected Component Labeling</a>: uniquely label connected regions in an image.</li>
   <li><a href="https://imagemagick.org/Usage/crop/">Decorate</a>: add a border or frame to an image.</li>

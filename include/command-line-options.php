@@ -3439,12 +3439,12 @@ image into some other color space, such as HSL, OHTA, YIQ or YUV, then
 equalize the appropriate intensity-like channel, then convert back to RGB.</p>
 
 <p>For example using HSL, we have: ... <code>-colorspace HSL -channel lightness
--equalize -colorspace RGB</code> ...</p>
+-equalize -colorspace sRGB</code> ...</p>
 
 <p>For YIQ, YUV and OHTA use the red channel. For example, OHTA is a principal
 components transformation that puts most of the information in the first
 channel. Here we have ... <code>-colorspace OHTA -channel red -equalize
--colorspace RGB</code> ...</p>
+-colorspace sRGB</code> ...</p>
 
 <div style="margin: auto;">
   <h3><a class="anchor" id="evaluate"></a>-evaluate <var>operator value</var></h3>
