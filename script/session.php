@@ -18,14 +18,20 @@
       /*
         Render cached content.
       */
+      session_start();
       include($cacheName);
       echo "<!-- Magick Cache " . date('jS F Y H:i',filemtime($cacheName)) .
         " -->";
+      session_unset();
+      session_destroy();
       ob_end_flush();
       exit;
     }
     session_cache_limiter('public');
   }
+  /*
+    Generate dynamic content.
+  */
   ini_set("session.use_trans_sid",1);
   ini_set("url_rewriter.tags", "a=href,area=href,input=src,fieldset=");
   ini_set("arg_separator.output","&amp;");
@@ -43,13 +49,6 @@
       header("Location: https://imagemagick.org/index.php");
       exit();
     }
-  $use_sts = true;
-  if ($use_sts && isset($_SERVER['HTTPS'])) {
-    header('Strict-Transport-Security: max-age=63072000; includeSubDomains; preload');
-  } elseif ($use_sts && !isset($_SERVER['HTTPS'])) {
-    header('Status-Code: 301');
-    header('Location: https://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']);
-  }
   $use_sts = true;
   if ($_SERVER["SERVER_ADDR"] == "10.144.245.30") {
     $use_sts = false;
