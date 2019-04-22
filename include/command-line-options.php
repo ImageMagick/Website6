@@ -2834,7 +2834,16 @@ and meaning of the floating point values depends on the distortion <var>method</
        'Perspective' distortion, or by calculating them yourself.
        If the last two perspective scaling coefficients are zero, the
        remaining 6 represents a transposed 'Affine Matrix'. </td>
+  </tr>
 
+  <tr>
+    <td>Polynomial</td>
+    <td>
+       Do an Nth order 2D 'Polynomial' distortion biased on a set of corresponding 
+       control points. The order of the polynomial dictates the minimum number of 
+       control points needed. Order 1 the same as -distort Affine. Order 1.5 is the 
+       same as -distort BilinearReverse. Typical use is for a 2nd order distortion. 
+       There is no +distort polynomial.</td>
   </tr>
 
   <tr>
@@ -3092,7 +3101,7 @@ lookup value. This is typically only used for debugging EWA resampling. </p>
 
 <p class="magick-description">Apply a Riemersma or Floyd-Steinberg error diffusion dither to
 images when general color reduction is applied via an option, or automagically
-when saving to specific formats. This enabled by default.</p>
+when saving to specific formats. This is enabled by default.</p>
 
 <p>Dithering places two or more colors in neighboring pixels so that to the
 eye a closer approximation of the images original color is reproduced. This
@@ -3618,7 +3627,7 @@ image is centered on an 800x600 black canvas: </p>
   -gravity center -extent 800x600 -quality 92 output.jpg
 </code></pre>
 
-<p><?php seeGeometry(); ?></p>
+<p>Extent supports geometry offsets as well as aspect ratio control. <?php seeGeometry(); ?></p>
 
 <div style="margin: auto;">
   <h3><a class="anchor" id="extract"></a>-extract <var>geometry</var></h3>
@@ -3861,6 +3870,11 @@ use of these expert settings (see also <a href="#define" >-define</a> and <a
 href="#set" >-set</a>):-</p>
 
 <table class="table table-sm table-striped">
+  <tr>
+    <td>-define dither:diffusion-amount=<var>X%</var></td>
+    <td>Sets the amount of diffusion to use with Floyd-Steinberg diffusion</td>
+  </tr>
+  
   <tr>
     <td>-define filter:blur=<var>factor</var></td>
     <td>Scale the X axis of the filter (and its window). Use &gt; 1.0 for
