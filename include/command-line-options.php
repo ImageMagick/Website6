@@ -1891,6 +1891,11 @@ available:</p>
   </tr>
 
   <tr>
+    <td>-define dither:diffusion-amount=<var>X%</var></td>
+    <td>Sets the amount of diffusion to use with Floyd-Steinberg diffusion</td>
+  </tr>
+  
+  <tr>
     <td>dot:layout-engine=<var>value</var></td>
      <td>Specifies the layout engine for the DOT image format (e.g.
     <code>neato</code>).</td>
@@ -3870,11 +3875,6 @@ use of these expert settings (see also <a href="#define" >-define</a> and <a
 href="#set" >-set</a>):-</p>
 
 <table class="table table-sm table-striped">
-  <tr>
-    <td>-define dither:diffusion-amount=<var>X%</var></td>
-    <td>Sets the amount of diffusion to use with Floyd-Steinberg diffusion</td>
-  </tr>
-  
   <tr>
     <td>-define filter:blur=<var>factor</var></td>
     <td>Scale the X axis of the filter (and its window). Use &gt; 1.0 for
