@@ -10,7 +10,7 @@
   $path=$path['dirname'];
   $script=basename($_SERVER['SCRIPT_FILENAME']);
   $cacheName=$path . '/cache/' . $script;
-  session_name('ImageMagick6');
+  session_name('ImageMagick-6');
   if (($_SERVER['SERVER_NAME'] == 'www.imagemagick.com') ||
       ($_SERVER['SERVER_NAME'] == 'www.imagemagick.net') ||
       ($_SERVER['SERVER_NAME'] == 'www.imagemagick.org'))

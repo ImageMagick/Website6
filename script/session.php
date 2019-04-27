@@ -10,7 +10,7 @@
   $path=$path['dirname'];
   $script=basename($_SERVER['SCRIPT_FILENAME']);
   $cacheName=$path . '/../cache/' . $script;
-  session_name('ImageMagick6');
+  session_name('ImageMagick-6');
   if (isset($dynamic_content)) {
     session_cache_limiter('private_no_expire, must-revalidate');
   } else {
