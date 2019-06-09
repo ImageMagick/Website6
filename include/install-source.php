@@ -23,6 +23,9 @@
 
 <?php crt("cd ImageMagick-" . MagickLibVersionText, "<br/>", "./configure", "<br/>", "make"); ?>
 
+<p>For advanced users, we recommend a modules build:</p>
+<?php crt("./configure --with-modules --enable-shared --with-perl"); ?>
+
 <p>If ImageMagick configured and compiled without complaint, you are ready to install it on your system.  Administrator privileges are required to install.  To install, type</p>
 
 <pre class="highlight"><code>sudo make install
