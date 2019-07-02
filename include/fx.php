@@ -29,9 +29,9 @@
 
 <p>Or the expression can be complex:</p>
 
-<pre class="highlight"><code>convert rose.jpg \  
+<pre class="highlight"><code>convert rose: \  
   -fx "(1.0/(1.0+exp(10.0*(0.5-u)))-0.006693)*1.0092503" \ 
-  rose-sigmoidal.png'
+  rose-sigmoidal.png
 </code></pre>
 
 <p>This expression results in a high contrast version of the source image:</p>
