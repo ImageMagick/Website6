@@ -72,6 +72,8 @@ and avoid accessing an attribute or property of the same name.</p>
 %[option:<var>setting</var>]
 </code></pre>
 
+<p>Escape handling requires access to an image container.  If none are available, a blank image is created to ensure the expression can be processed and a value returned.  For example, <code>convert -print "%[fx:.8765/3.14]" null: null:</code>.</p>
+
 
 <h3>Single Letter Attribute Percent Escapes</h3>
 
@@ -573,17 +575,10 @@ a 'viewport' has been provided to it. </p>
 <p>How Global Options are used when a library function requests an Artifact is
 one of the key differences between IMv6 and IMv7.</p>
 
-<p>In <b>ImageMagick version 6</b>... before each operator, any global Options
+<p>Before each operator, any global Options
 are copied to per-image Artifacts, for every image in the current image list.
 This allows various operators to find its operational 'defines' or Artifacts.
 </p>
-
-<p>In <b>ImageMagick version 7</b>... sets a link back to the global options
-data, so that if a specific per-image Artifact is not found , then it will
-look for a equivalent global Option for that image list.  directly.  This
-saves coping these free-form options into artifacts repeatally, and means you
-can now separately define a global option for a list, and a individual
-overriding artifact for a specific image in that list. </p>
 
 <p>Note that many API's that do not use Wands (PerlMagick for example using
 arrays of images rather than a Wand). In these API's you will not have Global
