@@ -113,7 +113,7 @@ Path: ImageMagick/policy.xml
 
 Path: [built-in]
   Policy: Undefined
-    rights: None /code></pre>
+    rights: None </code></pre>
 <p>Notice the <code>Cache</code> policy is not listed due to the <code>stealth</code> property.</p>
 
 <p>As of ImageMagick 6.9.8-10, you can programmatically set the ImageMagick security policy with SetMagickSecurityPolicy() (MagickCore) or MagickSetSecurityPolicy() (MagickWand).</p>
