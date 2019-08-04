@@ -153,7 +153,8 @@ Use ImageMagick<sup><a href="http://tarr.uspto.gov/servlet/tarr?regser=serial&am
 
 <h2><a class="anchor" id="news"></a>News</h2>
 
-<p>ImageMagick <a href="https://imagemagick.org">version 7</a> has been released.</p>
+<p>ImageMagick <a href="https://imagemagick.org">version 7</a> has been released. We encourage you to migrate your workstreams to version 7.  However, we recogn ize a significant version 6 user community.  As such, the ImageMagick development team are committed to maintain, but not enhance, version 6 for 10 more years until August 2028.</p>
+</p>
 
 <p>ImageMagick best practices <strong>strongly</strong> encourages you to configure a <a href="<?php echo $_SESSION['RelativePath']?>/../script/security-policy.php">security policy</a> that best suits your local environment.</p>
 
