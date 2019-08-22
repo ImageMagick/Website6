@@ -82,7 +82,7 @@
     <ins class="adsbygoogle"
          style="display:block"
          data-ad-client="ca-pub-3129977114552745"
-         data-ad-slot="5439289906"
+         data-ad-slot="6345125851"
          data-full-width-responsive="true"
          data-ad-format="auto"></ins>
     <script>
