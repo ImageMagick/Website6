@@ -46,7 +46,7 @@
 
 <p>Here is a complete list of JPEG-2000 decoding options:</p>
 
-<div class="table-responsive" style="font-size:80% !important;">
+<div class="table-responsive" style="font-size:90% !important;">
 <table class="table table-sm table-striped">
   <tr>
     <td>jp2:layer-number=<var>x</var></td>
@@ -60,7 +60,7 @@
 
 <p>Here is a complete list of JPEG-2000 encoding options:</p>
 
-<div class="table-responsive" style="font-size:80% !important;">
+<div class="table-responsive" style="font-size:90% !important;">
 <table class="table table-sm table-striped">
   <tr>
     <dt class="col-md-4">jp2:number-resolutions=<var>x</var></dt>
