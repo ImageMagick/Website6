@@ -303,6 +303,8 @@ handling or its replacement, which will allow you to ignore reported errors
 and continue processing (as appropriate due to error) in co-processes or
 interactive usage. </p>
 
+<p>With the IMv7 parser, activated by the `magick` utility, settings are applied to each image in memory in turn (if any). While an option: only need to be applied once globally. Using the other utilities directly, or as an argument to the `magick` CLI (e.g. `magick convert`) utilizes the legacy parser.</p>
+
 <p>The parenthesis options used to 'push' the current image list, and image
 settings (EG: '<code>(</code>' and '<code>)</code>' ) on to a stack now has
 a completely separate image settings stack. That is parenthesis 'push/pull'
