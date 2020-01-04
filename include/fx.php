@@ -63,6 +63,28 @@
   channel(4.28,3.86,6.68,0)/255; max(0,p+pnoise)' noisy.png
 </code></pre>
 
+<p>This Fx script utilizes a loop to create a <a href="https://en.wikipedia.org/wiki/Julia_set">Julia set</a>:</p>
+
+<pre class="highlight"><code>convert -size 400x400 -colorspace gray xc:black -fx " \
+  zx=2.4*i/w-1.2;
+  zy=2.4*j/h-1.2;
+  pixel=0.0;
+  while ((hypot(zx,zy) &lt; 2.0) &amp;&amp; (pixel &lt; 1.0),
+    zz=zx^2-zy^2;
+    zy=2.0*zx*zy+0.2;
+    zx=zz+0.4;
+    pixel+=0.00390625
+  );
+  pixel == 1.0 ? 0.0 : pixel" \
+  \( -size 1x1 xc:white xc:red xc:orange xc:yellow xc:green1 xc:cyan xc:blue \
+     xc:blueviolet xc:white -reverse +append -filter Cubic -resize 1024x1! \) \
+  -clut julia-set.png
+</code></pre>
+
+<ul>
+  <a href="<?php echo $_SESSION['RelativePath']?>/../image/julia.png"><img src="<?php echo $_SESSION['RelativePath']?>/../image/julia.png" width="160" height="160" alt="Julia Fractals" /></a>
+</ul>
+
 <p>See <a href="https://imagemagick.org/Usage/transform/index.html#fx">Using FX, The Special Effects Image Operator</a> for more examples.</p>
 
 <p>The next section discusses the FX expression language.</p>
@@ -322,7 +344,7 @@ p{12,34}.b   blue pixel value at column number 12, row 34 of the image
 
 <p>For use with <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#format_identify_">-format</a>, the value-escape <code>%[fx:]</code> is evaluated just once for each image in the current image sequence. As each image in the sequence is being evaluated, <code>s</code> and <code>t</code> successively refer to the current image and its index, while <code>i</code> and <code>j</code> are set to zero, and the current channel set to red (<a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#channel">-channel</a> is ignored). An example:</p>
 
-<pre class="highlight"><code>$ convert canvas:'rgb(25%,50%,75%)' rose: -colorspace rgb  \
+<pre class="highlight"><code>convert canvas:'rgb(25%,50%,75%)' rose: -colorspace rgb  \
   -format 'Red channel of NW corner of image #%[fx:t] is %[fx:s]\n' info:
 Red channel of NW corner of image #0 is 0.464883
 Red channel of NW corner of image #1 is 0.184582
