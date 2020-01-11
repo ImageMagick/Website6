@@ -156,6 +156,8 @@ Use ImageMagick<sup><a href="http://tarr.uspto.gov/servlet/tarr?regser=serial&am
 <p>ImageMagick <a href="https://imagemagick.org">version 7</a> has been released. We encourage you to migrate your workstreams to version 7.  However, we recognize a significant version 6 user community.  As such, the ImageMagick development team is committed to maintain, but not enhance, version 6 for 10 more years until August 2028.</p>
 </p>
 
+<p>We discovered a bug in the pseudo-random generator prior to ImageMagick 6.9.10-81, the first 3 values repeated because the random state was not initialized properly.  As a consequence of the fix, expect a different numerical sequence when seeding (-seed).</p>
+
 <p>ImageMagick best practices <strong>strongly</strong> encourages you to configure a <a href="<?php echo $_SESSION['RelativePath']?>/../script/security-policy.php">security policy</a> that best suits your local environment.</p>
 
 <p>The ImageMagick development process ensures a stable API and <a href="https://abi-laboratory.pro/tracker/timeline/imagemagick/">ABI</a>. Before each ImageMagick release, we perform a comprehensive security assessment that includes <a href="https://github.com/google/sanitizers/wiki/AddressSanitizer">memory error</a>, <a href="https://github.com/google/sanitizers/wiki/ThreadSanitizer">thread data race</a> detection, and continuous <a href="https://github.com/google/oss-fuzz">fuzzing</a> to detect and prevent security vulnerabilities.</p>
