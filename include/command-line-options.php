@@ -2892,7 +2892,7 @@ and meaning of the floating point values depends on the distortion <var>method</
        All arguments are optional. With <var>Rmin</var> defaulting to zero, the
        center to the center of the image, and the angles going from -180 (top)
        to +180 (top).  If <var>Rmax</var> is given the special value of
-       '0', the the distance from the center to the nearest edge
+       '0', the distance from the center to the nearest edge
        is used for the radius of the output image, which will ensure the whole
        image is visible (though scaled smaller).  However a special value of
        '-1' will use the distance from the center to the furthest
@@ -6229,7 +6229,7 @@ neighborhood whose width is specified with <var>radius</var>.</p>
 
 <p>Some simple uses are:</p>
 <ul>
-<li>A weighted sum of each image provided all weights add to unity and all exponents=1. If the the weights are all equal to 1/(number of images), then this is equivalent to <a href="#profile">-evaluate-sequence</a> <var>mean</var>.</li>
+<li>A weighted sum of each image provided all weights add to unity and all exponents=1. If the weights are all equal to 1/(number of images), then this is equivalent to <a href="#profile">-evaluate-sequence</a> <var>mean</var>.</li>
 <li>The sum of squares of two or more images, provided the weights are equal (and sum to 1 to avoid clamping) and the exponents equal 2.</li>
 </ul>
 
