@@ -2,7 +2,7 @@
 <p class="text-center"><?php options("adaptive-blur", "adaptive-resize", "adaptive-sharpen",
 "adjoin", "affine", "alpha", "alpha-color", "annotate", "antialias", "append",
 "attenuate", "authenticate", "auto-gamma", "auto-level",
-"auto-orient", "backdrop", "background", "bench", "bias",
+"auto-orient", "auto-threshold", "backdrop", "background", "bench", "bias",
 "black-point-compensation", "black-threshold", "blend", "blue-primary",
 "blue-shift", "blur", "border", "bordercolor", "borderwidth",
 "brightness-contrast", "cache", "canny", "caption", "cdl", "channel",
@@ -455,6 +455,23 @@ appropriate value.  Also images that have been orientation 'corrected' without
 reseting this setting, may be 'corrected' again resulting in a incorrect
 result.  If the EXIF profile was previously stripped, the  <a
 href="#auto-orient" >-auto-orient</a> operator will do nothing. </p>
+
+<div style="margin: auto;">
+  <h3><a class="anchor" id="auto-threshold"></a>-auto-threshold <var>method</var></h3>
+</div>
+
+<p class="magick-description">automatically perform image thresholding.</p>
+
+<p>Here are the valid methods:</p>
+
+<dl class="row">
+<dt class="col-md-4">Undefined</dt><dd class="col-md-8">0:  No method specified (equivalent to '<code>OTSU</code>').</dd>
+<dt class="col-md-4">Kapur</dt><dd class="col-md-8">maximum entropy thresholding.</dd>
+<dt class="col-md-4">OTSU</dt><dd class="col-md-8">cluster-based image thresholding.</dd>
+<dt class="col-md-4">Triangle</dt><dd class="col-md-8">a geometric thresholding method.</dd>
+</dl>
+
+<p>The computed threshold is returned as the <kbd>auto-threshold:threshold</kbd> image property. To instead print to your device, use <kbd>-define auto-threshold:threshold=true</kbd>.</p>
 
 
 <div style="margin: auto;">
