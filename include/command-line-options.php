@@ -2450,11 +2450,6 @@ available:</p>
   </tr>
 
   <tr>
-    <td>trim:verbose</td>
-    <td>return bounding box of trim as the <kbd>trim:bounding-box</kbd> image property.</td>
-  </tr>
-
-  <tr>
     <td>type:features=<var>string</var></td>
     <td> </td>
   </tr>

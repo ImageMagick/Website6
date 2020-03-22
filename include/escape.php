@@ -526,7 +526,7 @@ $_SESSION['RelativePath']?>/../script/command-line-options.php#caption"
 >-caption</a>). </p>
 
 <p>These convenience options are globally saved (as 'global options' so thay can
-be set before images are read), and later are transfered to the property of
+be set before images are read), and later are transferred to the property of
 individual images, only when they are read in. At that time any internal
 percent escape present is then handled. </p>
 
@@ -560,7 +560,7 @@ $_SESSION['RelativePath']?>/../script/command-line-options.php#distort"
 >-distort</a> operator will use to modify its behavior (distorted output
 image 'view'). </p>
 
-<p>An Option is essentually a Artifact that has been stored globally as part
+<p>An Option is essentially an Artifact that has been stored globally as part
 of a list of images (specifically a 'Wand' of images). As such they are
 identical, in that a Option, is simply a global Artifact for all the
 associated images. </p>
