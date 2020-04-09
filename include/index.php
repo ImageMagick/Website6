@@ -156,7 +156,7 @@ Use ImageMagick<sup><a href="http://tarr.uspto.gov/servlet/tarr?regser=serial&am
 <p>ImageMagick <a href="https://imagemagick.org">version 7</a> has been released. We encourage you to migrate your workstreams to version 7.  However, we recognize a significant version 6 user community.  As such, the ImageMagick development team is committed to maintain, but not enhance, version 6 at least until 2028 and possibly beyond.</p>
 </p>
 
-<p class="highlight">We are utilizing a new community <a target="_blank" href="https://github.com/ImageMagick/ImageMagick6/discussions">discussion</a> service.  We will continue to support the previous <a target="_blank" href="https://imagemagick.org/discourse-server">discourse server</a> service for a minimum of one year.</p>
+<p class="highlight">We are utilizing a new community <a target="_blank" href="https://github.com/ImageMagick/ImageMagick6/discussions">discussion</a> service.  We will continue to support the previous <a target="_blank" href="https://imagemagick.org/discourse-server">discourse server</a> for a minimum of one year.</p>
 
 <p>We discovered a bug in the pseudo-random generator prior to ImageMagick 6.9.10-81, the first 3 values repeated because the random state was not initialized properly.  As a consequence of the fix, expect a different numerical sequence when seeding (-seed).</p>
 
