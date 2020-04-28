@@ -12,7 +12,7 @@
 
 <h2><a class="anchor" id="unix"></a>Install from Unix Source</h2>
 
-<p>ImageMagick builds on a variety of Unix and Unix-like operating systems including Linux, Solaris, FreeBSD, Mac OS X, and others.  A compiler is required and fortunately almost all modern Unix systems have one.  Download <a href="https://imagemagick.org/download/">ImageMagick-6.?.?.?-tar.gz</a> from <a href="https://imagemagick.org/download">imagemagick.org</a> or a <a href="<?php echo $_SESSION['RelativePath']?>/../script/mirror.php">mirror</a> and verify its <a href="https://imagemagick.org/download/digest.rdf">message digest</a>.</p>
+<p>ImageMagick builds on a variety of Unix and Unix-like operating systems including Linux, Solaris, FreeBSD, Mac OS X, and others.  A compiler is required and fortunately almost all modern Unix systems have one.  Download <a href="https://imagemagick.org/download/">ImageMagick.tar.gz</a> from <a href="https://imagemagick.org/download">imagemagick.org</a> or a <a href="<?php echo $_SESSION['RelativePath']?>/../script/mirror.php">mirror</a> and verify its <a href="https://imagemagick.org/download/digest.rdf">message digest</a>.</p>
 
 <p>Unpack the distribution with this command:</p>
 
