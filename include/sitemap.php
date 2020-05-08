@@ -103,8 +103,8 @@
 <dl class="magick-list-unstyled">
   <li><a href="http://www.amazon.com/exec/obidos/redirect?link_code=ur2&amp;camp=1789&amp;tag=imagemagick-20&amp;creative=9325&amp;path=tg/detail/-/1590595904/qid=1123551819/sr=8-1/ref=pd_bbs_sbs_1?v=glance%26s=books%26n=507846">Definitive Guide to ImageMagick</a>: this book explains ImageMagick in a practical, learn-by-example fashion.</li>
   <li><a href="http://www.amazon.com/exec/obidos/redirect?link_code=ur2&amp;camp=1789&amp;tag=imagemagick-20&amp;creative=9325&amp;path=tg/detail/-/1904811868/qid=1123551819/sr=8-1/ref=pd_bbs_sbs_1?v=glance%26s=books%26n=507846">ImageMagick Tricks</a>: this book is packed with examples of photo manipulations, logo creation, animations, and complete web projects.</li>
-  <li><a href="https://imagemagick.org/discourse-server">Discourse server</a>: get help from fellow ImageMagick users and developers, post to these forums.</li>
-  <li><a href="<?php echo $_SESSION['RelativePath']?>/../script/contact.php">Contact the Wizards</a>: for bug reports (only if you do not want to sign up to the <a href="https://imagemagick.org/discourse-server">discourse server</a>), a source or documentation patch, a security or license issue, or if you want to be a sponsor of the ImageMagick project.</li>
+  <li><a href="https://github.com/ImageMagick/ImageMagick6/discussions">Discussions</a> service: get help from fellow ImageMagick users and developers, post to these forums.</li>
+  <li><a href="<?php echo $_SESSION['RelativePath']?>/../script/contact.php">Contact the Wizards</a>: for bug reports (only if you do not want to sign up to the <a href="https://github.com/ImageMagick/ImageMagick6/discussions">discussions</a> service), a source or documentation patch, a security or license issue, or if you want to be a sponsor of the ImageMagick project.</li>
 </dl>
 
 <h2><a class="anchor" id="support"></a>Support ImageMagick</h2>
