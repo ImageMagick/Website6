@@ -9,7 +9,7 @@
 
 <pre class="pre-scrollable"><code>&lt;policymap>
   &lt;!-- temporary path must be a preexisting writable directory -->
-  &lt;policy domain="resource" name="temporary-path" value="/tmp"/>
+  &lt;policy domain="resource" name="temporary-path" value="/data/magick"/>
   &lt;policy domain="resource" name="memory" value="256MiB"/>
   &lt;policy domain="resource" name="map" value="512MiB"/>
   &lt;policy domain="resource" name="width" value="8KP"/>
@@ -105,7 +105,7 @@ Path: ImageMagick/policy.xml
     value: 8KP
   Policy: Resource
     name: temporary-path
-    value: /tmp
+    value: /data/magick
   Policy: System
     name: precision
     value: 6
@@ -158,7 +158,7 @@ ion files.  To define your security policy, you must instead edit the <code>magi
 <li>running ImageMagick in a sanitized software container such as Docker;</li>
 <li>running ImageMagick as the least-privileged user (e.g. 'nobody');</li>
 <li>explicitly setting the image file type.  For example, use the filename <code>png:image.png</code> rather than <code>image.png</code>.  Without an explicit image type in the filename, ImageMagick guesses the image type.</li>
-<li>do not create temporary files in shared directories, instead specify a private area to store only ImageMagick temporary files, e.g. <code>-define registry:temporary-path=/data/magick</code>.</li>
+<li>do not create temporary files in shared directories, instead specify a private area to store only ImageMagick temporary files by setting the <code>temporary-path</code> security policy or the <code>-define registry:temporary-path=/data/magick</code> command-line option.</li>
 </ul>
 
 </div>
