@@ -19,13 +19,12 @@
   &lt;policy domain="resource" name="disk" value="1GiB"/>
   &lt;policy domain="resource" name="file" value="768"/>
   &lt;policy domain="resource" name="thread" value="2"/>
-  &lt;policy domain="resource" name="throttle" value="0"/>
   &lt;policy domain="resource" name="time" value="120"/>
   &lt;policy domain="system" name="precision" value="6"/>
   &lt;policy domain="cache" name="memory-map" value="anonymous"/>
   &lt;policy domain="cache" name="synchronize" value="true"/>
   &lt;policy domain="cache" name="shared-secret" value="<em>phassphrase</em>"/>
-  &lt;policy domain="coder" rights="read" pattern="{HTTP,HTTPS,PS,EPS,PDF,XPS}" />
+  &lt;policy domain="coder" rights="read" pattern="{HTTP,HTTPS,MVG,PS,EPS,PDF,XPS}" />
   &lt;policy domain="filter" rights="none" pattern="*" />
   &lt;policy domain="path" rights="none" pattern="@*"/>  <!-- indirect reads not permitted -->
 &lt;/policymap></code></pre>
