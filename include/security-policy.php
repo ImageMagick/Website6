@@ -63,7 +63,7 @@ convert: no images defined `wizard.jpg'</code></pre>
 <p>You can verify your policy changes are in effect with this command:</p>
 
 <pre class="pre-scrollable"><code>-> identify -list policy
-Path: /usr/local/etc/ImageMagick-7/policy.xml
+Path: ImageMagick-6/policy.xml
   Policy: Resource
     name: list-length
     value: 32
