@@ -157,7 +157,7 @@ filename, type, width, height. </p>
   </tr>
   <tr>
     <td>%n</td>
-    <td>number of images in current image sequence</td>
+    <td>number of images in current image sequence, reported once per frame</td>
   </tr>
   <tr>
     <td>%o</td>
@@ -231,6 +231,9 @@ filename, type, width, height. </p>
     <td>%M</td>
     <td>Magick filename (original file exactly as given,  including read mods)</td>
   </tr>
+  <tr>
+    <td>%N</td>
+    <td>number of images in current image sequence, reported once per image sequence</td>
   <tr>
     <td>%O</td>
     <td>page (canvas) offset ( = %X%Y )</td>
