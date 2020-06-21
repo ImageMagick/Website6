@@ -23,7 +23,7 @@
   &lt;policy domain="system" name="precision" value="6"/>
   &lt;policy domain="cache" name="memory-map" value="anonymous"/>
   &lt;policy domain="cache" name="synchronize" value="true"/>
-  &lt;policy domain="cache" name="shared-secret" value="<em>phassphrase</em>"/>
+  &lt;policy domain="cache" name="shared-secret" value="<em>phassphrase</em>" stealth="True"/>
   &lt;policy domain="coder" rights="write" pattern="{HTTP,HTTPS,MVG,PS,EPS,PDF,XPS}" />
   &lt;policy domain="filter" rights="none" pattern="*" />
   &lt;policy domain="path" rights="none" pattern="@*"/>  <!-- indirect reads not permitted -->
@@ -119,7 +119,7 @@ Path: ImageMagick-6/policy.xml
 Path: [built-in]
   Policy: Undefined
     rights: None </code></pre>
-<p>Notice the <code>Cache</code> policy is not listed due to the <code>stealth</code> property.</p>
+<p>Notice the <code>shared-secret</code> policy is not listed due to the <code>stealth</code> property.</p>
 
 <p>As of ImageMagick 6.9.8-10, you can programmatically set the ImageMagick security policy with SetMagickSecurityPolicy() (MagickCore) or MagickSetSecurityPolicy() (MagickWand).</p>
 
