@@ -20,7 +20,7 @@
 <pre class="highlight"><code>display 'vid:*.jpg'
 </code></pre>
 
-<p>The display program defaults to the X screen resolution.  To display vecotr formats at their intended size, override the default resolution:</p>
+<p>The display program defaults to the X screen resolution.  To display vector formats at their intended size, override the default resolution:</p>
 
 <pre class="highlight"><code>display -density 72 drawing.svg
 </code></pre>
