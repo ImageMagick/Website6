@@ -48,7 +48,7 @@ Use ImageMagick<sup><a href="http://tarr.uspto.gov/servlet/tarr?regser=serial&am
   </tr>
   <tr>
     <td><a href="https://legacy.imagemagick.org/Usage/transform/#vision">Delineate image features</a></td>
-    <td><a href="https://198.72.81.86/discourse-server/viewtopic.php?f=4&amp;t=25405">Canny edge detection</a>, <a href="https://198.72.81.86/discourse-server/viewtopic.php?f=4&amp;t=25476">Hough lines</a>.</td>
+    <td><a href="https://archive.imagemagick.org/discourse-server/viewtopic.php?f=4&amp;t=25405">Canny edge detection</a>, <a href="https://archive.imagemagick.org/discourse-server/viewtopic.php?f=4&amp;t=25476">Hough lines</a>.</td>
   </tr>
   <tr>
     <td><a href="https://legacy.imagemagick.org/Usage/fourier/">Discrete Fourier transform</a></td>
@@ -116,7 +116,7 @@ Use ImageMagick<sup><a href="http://tarr.uspto.gov/servlet/tarr?regser=serial&am
   </tr>
   <tr>
     <td><a href="https://legacy.imagemagick.org/Usage/transform/#vision">Noise and color reduction</a></td>
-    <td><a href="https://198.72.81.86/discourse-server/viewtopic.php?f=4&amp;t=26480">Kuwahara Filter</a>, <a href="https://198.72.81.86/discourse-server/viewtopic.php?f=4&amp;t=25504">mean-shift</a>.</td>
+    <td><a href="https://archive.imagemagick.org/discourse-server/viewtopic.php?f=4&amp;t=26480">Kuwahara Filter</a>, <a href="https://archive.imagemagick.org/discourse-server/viewtopic.php?f=4&amp;t=25504">mean-shift</a>.</td>
   </tr>
   <tr>
     <td><a href="http://www.fmwconcepts.com/misc_tests/perceptual_hash_test_results_510/index.html">Perceptual hash</a></td>
@@ -155,7 +155,7 @@ Use ImageMagick<sup><a href="http://tarr.uspto.gov/servlet/tarr?regser=serial&am
 
 <p>ImageMagick best practices <strong>strongly</strong> encourages you to configure a <a href="<?php echo $_SESSION['RelativePath']?>/../script/security-policy.php">security policy</a> that best suits your local environment.</p>
 
-<p class="highlight">We are utilizing a new community <a target="_blank" href="https://github.com/ImageMagick/ImageMagick6/discussions">discussion</a> service.  The previous <a target="_blank" href="https://198.72.81.86/discourse-server">discourse server</a> remains available to read previous discussions.</p>
+<p class="highlight">We are utilizing a new community <a target="_blank" href="https://github.com/ImageMagick/ImageMagick6/discussions">discussion</a> service.  The previous <a target="_blank" href="https://archive.imagemagick.org/discourse-server">discourse server</a> remains available to read previous discussions.</p>
 
 <p>We discovered a bug in the pseudo-random generator prior to ImageMagick 6.9.10-81, the first 3 values repeated because the random state was not initialized properly.  As a consequence of the fix, expect a different numerical sequence when seeding (-seed).</p>
 
