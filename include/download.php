@@ -11,12 +11,14 @@
 
 <div class="table-responsive" style="font-size:87.5% !important;">
 <table class="table table-sm table-hover">
+  <thead>
   <tr>
     <th>Version</th>
     <th>HTTP</th>
     <th>Description</th>
   </tr>
-
+  </thead>
+  <tbody>
   <tr>
   <?php $filename = "ImageMagick-" . MagickLibVersionText . MagickLibSubversion . ".x86_64.rpm";
   ?>
@@ -56,6 +58,7 @@
     <td><a href="https://imagemagick.org/download/binaries/ImageMagick-i686-pc-mingw32.tar.gz">download</a></td>
     <td>MinGW</td>
   </tr>
+  </tbody>
 </table></div>
 
 <p>Verify its <a href="https://imagemagick.org/download/binaries/digest.rdf">message digest</a>.</p>
@@ -114,17 +117,20 @@ display logo.gif</code></pre></ul>
 
 <div class="table-responsive" style="font-size:87.5% !important;">
 <table class="table table-sm table-hover">
+  <thead>
   <tr>
     <th>Version</th>
     <th>HTTP</th>
     <th>Description</th>
   </tr>
-
+  </thead>
+  <tbody>
   <tr>
     <td>ImageMagick-x86_64-apple-darwin19.6.0.tar.gz</td>
     <td><a href="https://imagemagick.org/download/binaries/ImageMagick-x86_64-apple-darwin19.6.0.tar.gz">download</a></td>
     <td>MacOS High Sierra</td>
   </tr>
+  </tbody>
 </table></div>
 
 <p>Verify its <a href="https://imagemagick.org/download/binaries/digest.rdf">message digest</a>.</p>
@@ -223,12 +229,14 @@ display logo.gif</code></pre></ul>
 
 <div class="table-responsive" style="font-size:87.5% !important;">
 <table class="table table-sm table-hover">
+  <thead>
   <tr>
     <th>Version</th>
-    <th>HTTP</th>
+    <th>HTTPS</th>
     <th>Description</th>
   </tr>
-
+  </thead>
+  <tbody>
   <tr>
   <?php $filename = "ImageMagick-" . MagickLibVersionText . MagickLibSubversion . "-Q16-x64-dll.exe";
   ?>
@@ -236,18 +244,21 @@ display logo.gif</code></pre></ul>
         <td><a href= "https://imagemagick.org/download/binaries/<?php echo $filename; ?>">download</a></td>
     <td>Win64 dynamic at 16 bits-per-pixel component</td>
   </tr>
+  </tbody>
 </table></div>
 
 <p>Or choose from these alternate Windows binary distributions:</p>
 
 <div class="table-responsive" style="font-size:87.5% !important;">
 <table class="table table-sm table-hover">
+  <thead>
   <tr>
     <th>Version</th>
-    <th>HTTP</th>
+    <th>HTTPS</th>
     <th>Description</th>
   </tr>
-
+  </thead>
+  <tbody>
   <tr>
   <?php $filename = "ImageMagick-" . MagickLibVersionText . MagickLibSubversion . "-Q16-x64-static.exe";
   ?>
@@ -383,6 +394,7 @@ display logo.gif</code></pre></ul>
         <td><a href= "https://imagemagick.org/download/binaries/<?php echo $filename; ?>">download</a></td>
     <td>Portable Win32 static at 16 bits-per-pixel component with <a href="<?php echo $_SESSION['RelativePath']?>/../script/high-dynamic-range.php">high dynamic-range imaging</a> enabled.  Just copy to your host and run (no installer, no Windows registry entries).</td>
   </tr>
+  </tbody>
 </table></div>
 
 <p>Verify its <a href="https://imagemagick.org/download/binaries/digest.rdf">message digest</a>.</p>
