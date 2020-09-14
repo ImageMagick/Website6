@@ -8,7 +8,7 @@
 <dl class="magick-list-unstyled">
   <li><a href="<?php echo $_SESSION['RelativePath']?>/../script/index.php">Introduction</a>: convert, edit, or compose images from the command-line or program interface.</li>
   <li><a href="<?php echo $_SESSION['RelativePath']?>/../script/examples.php">Examples of ImageMagick usage</a>: a few examples that show what you can do with an image using ImageMagick.</li>
-  <li><a href="https://imagemagick.org/Usage/">Anthony Thyssen's examples of ImageMagick usage</a>:  a comprehensive tutorial of using ImageMagick from the command line.</li>
+  <li><a href="https://legacy.imagemagick.org/Usage/">Anthony Thyssen's examples of ImageMagick usage</a>:  a comprehensive tutorial of using ImageMagick from the command line.</li>
   <li><a href="<?php echo $_SESSION['RelativePath']?>/../script/color.php">Color names</a>: how to specify a color name, a hex color, or a numerical RGB, RGBA, HSL, HSLA, CMYK, or CMYKA color.</li>
   <li><a href="<?php echo $_SESSION['RelativePath']?>/../script/color-management.php">Color management</a>: accurate color management with color profiles or in lieu of-- built-in gamma compression or expansion as demanded by the colorspace.</li>
   <li><a href="<?php echo $_SESSION['RelativePath']?>/../script/resources.php">Resources</a>: ImageMagick depends on external resources including configuration files, loadable modules, fonts, and environment variables.</li>
@@ -115,16 +115,16 @@
 <h2><a class="anchor" id="miscellaneous"></a>Miscellaneous Topics</h2>
 
 <dl class="magick-list-unstyled">
-  <li><a href="https://imagemagick.org/Usage/anim_basics/">Animation</a>: create a GIF animation sequence from a group of images.</li>
+  <li><a href="https://legacy.imagemagick.org/Usage/anim_basics/">Animation</a>: create a GIF animation sequence from a group of images.</li>
   <li><a href="https://imagemagick.org/discourse-server/viewtopic.php?f=4&amp;t=25405">Canny edge detection</a>: extract edges from an image using the Canny technique.</li>
   <li><a href="<?php echo $_SESSION['RelativePath']?>/../script/color-management.php">Color management</a>: accurate color management with color profiles or in lieu of-- built-in gamma compression or expansion as demanded by the colorspace.</li>
   <li><a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-processing.php">Command-line processing</a>: utilize ImageMagick from the command line.</li>
   <li><a href="<?php echo $_SESSION['RelativePath']?>/../script/composite.php">Composite</a>: overlap one image over another.</li>
   <li><a href="<?php echo $_SESSION['RelativePath']?>/../script/connected-components.php">Connected component labeling</a>: uniquely label connected regions in an image.</li>
-  <li><a href="https://imagemagick.org/Usage/crop/">Decorate</a>: add a border or frame to an image.</li>
-  <li><a href="https://imagemagick.org/Usage/fourier">Discrete Fourier transform</a>: implements the forward and inverse DFT.</li>
+  <li><a href="https://legacy.imagemagick.org/Usage/crop/">Decorate</a>: add a border or frame to an image.</li>
+  <li><a href="https://legacy.imagemagick.org/Usage/fourier">Discrete Fourier transform</a>: implements the forward and inverse DFT.</li>
   <li><a href="<?php echo $_SESSION['RelativePath']?>/../script/distribute-pixel-cache.php">Distributed pixel cache</a>: offload intermediate pixel storage to one or more remote servers .</li>
-  <li><a href="https://imagemagick.org/Usage/draw/">Draw</a>: add shapes or text to an image.</li>
+  <li><a href="https://legacy.imagemagick.org/Usage/draw/">Draw</a>: add shapes or text to an image.</li>
   <li><a href="<?php echo $_SESSION['RelativePath']?>/../script/cipher.php">Encipher or decipher an image</a>: convert ordinary images into unintelddgible gibberish and back again.</li>
   <li><a href="<?php echo $_SESSION['RelativePath']?>/../script/escape.php">Escapes</a>: utilize percent escapes in a number of options, for example in <a href="<?php echo 
   $_SESSION['RelativePath']?>/../script/command-line-options.php#format_identify_"
@@ -133,7 +133,7 @@
   >-label</a>, to print various properties and other settings associated with an
   image.</li>
   <li><a href="<?php echo $_SESSION['RelativePath']?>/../script/convert.php">Format conversion</a>: convert an image from one <a href="<?php echo $_SESSION['RelativePath']?>/../script/formats.php">format </a> to another (e.g. PNG to JPEG).</li>
-  <li><a href="https://imagemagick.org/Usage/distorts/">Generalized pixel distortion</a>: correct for, or induce image distortions including perspective.</li>
+  <li><a href="https://legacy.imagemagick.org/Usage/distorts/">Generalized pixel distortion</a>: correct for, or induce image distortions including perspective.</li>
   <li><a href="<?php echo $_SESSION['RelativePath']?>/../script/architecture.php#distributed">Heterogeneous distributed processing</a>: <a href="<?php echo $_SESSION['RelativePath']?>/../script/opencl.php">certain algorithms</a> are <a href="http://en.wikipedia.org/wiki/OpenCL" target="_blank">OpenCL</a>-enabled to take advantage of speed-ups offered by executing in concert across heterogeneous platforms consisting of CPUs, GPUs, and other processors.</li>
   <li><a href="<?php echo $_SESSION['RelativePath']?>/../script/high-dynamic-range.php">High dynamic-range images</a>: accurately represent the wide range of intensity levels found in real scenes ranging from the brightest direct sunlight to the deepest darkest shadows.</li>
   <li><a href="https://imagemagick.org/discourse-server/viewtopic.php?f=4&amp;t=25476">Hough lines</a>: fit straight lines to edges in an image using the Hough transform technique.</li>
@@ -145,13 +145,13 @@
   <li><a href="<?php echo $_SESSION['RelativePath']?>/../script/architecture.php#tera-pixel">Large image support</a>: read, process, or write mega-, giga-, or tera-pixel image sizes.</li>
   <li><a href="https://imagemagick.org/discourse-server/viewtopic.php?f=4&amp;t=25504">Mean-shift</a>: apply a color reduction technique to an image.</li>
   <li><a href="<?php echo $_SESSION['RelativePath']?>/../script/montage.php">Montage</a>: juxtapose image thumbnails on an image canvas.</li>
-  <li><a href="https://imagemagick.org/Usage/morphology/">Morphology of shapes</a>: extract features, describe shapes and recognize patterns in images.</li>
+  <li><a href="https://legacy.imagemagick.org/Usage/morphology/">Morphology of shapes</a>: extract features, describe shapes and recognize patterns in images.</li>
   <li><a href="<?php echo $_SESSION['RelativePath']?>/../script/motion-picture.php">Motion picture support</a>: read and write the common image formats used in digital film work.</li>
-  <li><a href="https://imagemagick.org/Usage/blur/">Special effects</a>: blur, sharpen, threshold, or tint an image.</li>
-  <li><a href="https://imagemagick.org/Usage/text/">Text &amp; comments</a>: insert descriptive or artistic text in an image.</li>
+  <li><a href="https://legacy.imagemagick.org/Usage/blur/">Special effects</a>: blur, sharpen, threshold, or tint an image.</li>
+  <li><a href="https://legacy.imagemagick.org/Usage/text/">Text &amp; comments</a>: insert descriptive or artistic text in an image.</li>
   <li><a href="<?php echo $_SESSION['RelativePath']?>/../script/architecture.php#threads">Threads of execution support</a>: ImageMagick is thread safe and most internal algorithms execute in parallel to take advantage of speed-ups offered by multicore processor chips.</li>
-  <li><a href="https://imagemagick.org/Usage/resize/">Transform</a>: resize, rotate, crop, or trim an image.</li>
-  <li><a href="https://imagemagick.org/Usage/masking/">Transparency</a>: render portions of an image invisible.</li>
+  <li><a href="https://legacy.imagemagick.org/Usage/resize/">Transform</a>: resize, rotate, crop, or trim an image.</li>
+  <li><a href="https://legacy.imagemagick.org/Usage/masking/">Transparency</a>: render portions of an image invisible.</li>
   <li><a href="<?php echo $_SESSION['RelativePath']?>/../script/architecture.php#virtual-pixels">Virtual pixel support</a>: convenient access to pixels outside the image region.</li>
 </dl>
 <h2><a class="anchor" id="legacy"></a>ImageMagick Next Generation</h2>
