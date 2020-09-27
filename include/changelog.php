@@ -1,4 +1,9 @@
-<div class="magick-header"><dl><dt>2020-09-17  6.9.11-30  &lt;quetzlzacatenango@image...&gt;</dt>
+<div class="magick-header"><dl><dt>2020-09-20  6.9.11-31  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.11-31 GIT revision 15...</li>
+<dt>2020-09-20  6.9.11-31  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Add support for APNG (specify explicitly, e.g. apng:animate.png).</li>
+  <li> Add support for WEBM.</li>
+<dt>2020-09-17  6.9.11-30  &lt;quetzlzacatenango@image...&gt;</dt>
   <li> Release ImageMagick version 6.9.11-30 GIT revision 15904:67d1d4293:20200919</li>
 <dt>2020-09-07  6.9.11-30  &lt;quetzlzacatenango@image...&gt;</dt>
   <li> Add endian support to JSON coder.</li>
