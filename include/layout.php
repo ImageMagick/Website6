@@ -15,7 +15,7 @@
     $meta->company_name="ImageMagick Studio LLC";
     $meta->application_name="ImageMagick";
     $meta->description="Use ImageMagick® to create, edit, compose, and convert bitmap images. Resize an image, crop it, change its shades and colors, add captions, and more.";
-    $meta->application_url="https://imagemagick.org";
+    $meta->application_url="https://legacy.imagemagick.org";
     $meta->keywords2="image converter, image resizer, image editor, photo editor, jpg converter, png converter, tiff converter, vector images, online, free, swiss army";
     $meta->sitename="ImageMagick";
     $meta->slogan="Digital image manipulation that works like magick!";
@@ -26,11 +26,11 @@
 <html lang="en">
 <head>
   <?php echo $meta->metadata($title); ?>
-  <meta property='og:url' content='https://imagemagick.org/' />
-  <meta property='og:title' content='ImageMagick' />
-  <meta property='og:image' content='https://imagemagick.org/image/logo.png' />
+  <meta property='og:url' content='https://legacy.imagemagick.org/' />
+  <meta property='og:title' content='ImageMagick Legacy' />
+  <meta property='og:image' content='https://legacy.imagemagick.org/image/logo.png' />
   <meta property='og:type' content='website' />
-  <meta property='og:site_name' content='ImageMagick' />
+  <meta property='og:site_name' content='ImageMagick Legacy' />
   <meta property='og:description' content="Create, Edit, Compose, or Convert Bitmap Images" />
   <meta name="google-site-verification" content="_bMOCDpkx9ZAzBwb2kF3PRHbfUUdFj2uO8Jd1AXArz4">
   <link href="https://legacy.imagemagick.org<?php echo $_SERVER['SCRIPT_NAME']?>" rel="canonical">
