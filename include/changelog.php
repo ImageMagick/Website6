@@ -1,4 +1,8 @@
-<div class="magick-header"><dl><dt>2020-10-02  6.9.11-32  &lt;quetzlzacatenango@image...&gt;</dt>
+<div class="magick-header"><dl><dt>2020-10-04  6.9.11-33  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.11-33 GIT revision 15943:757c9b18e:20201004</li>
+<dt>2020-10-04  6.9.11-33  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> miscellaneous clean-up.</li>
+<dt>2020-10-02  6.9.11-32  &lt;quetzlzacatenango@image...&gt;</dt>
   <li> Release ImageMagick version 6.9.11-32 GIT revision 15931:ee2342eaf:20201002</li>
 <dt>2020-09-27  6.9.11-32  &lt;quetzlzacatenango@image...&gt;</dt>
   <li> enable WMF for module build.</li>
