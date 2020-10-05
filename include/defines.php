@@ -107,7 +107,7 @@ use:</p>
     <td>connected-components:angle-threshold=<var>value</var></td>
     <td>Merges any region with equivalent ellipse angle smaller than 
     <var>value</var> into its surrounding region or largest neighbor.
-    Supported in Imagemagick 7.0.9.24.</td>
+      Thresholds can optionally include ranges, e.g. 410-1600.</td>
   </tr>
 
   <tr>
