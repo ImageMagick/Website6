@@ -1,4 +1,8 @@
-<div class="magick-header"><dl><dt>2020-10-04  6.9.11-33  &lt;quetzlzacatenango@image...&gt;</dt>
+<div class="magick-header"><dl><dt>2020-10-08  6.9.11-34  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.11-34 GIT revision 15954:c4594f039:20201008</li>
+<dt>2020-10-05  6.9.11-34  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> check for linux-compatible sendfile().</li>
+<dt>2020-10-04  6.9.11-33  &lt;quetzlzacatenango@image...&gt;</dt>
   <li> Release ImageMagick version 6.9.11-33 GIT revision 15943:757c9b18e:20201004</li>
 <dt>2020-10-04  6.9.11-33  &lt;quetzlzacatenango@image...&gt;</dt>
   <li> miscellaneous clean-up.</li>
