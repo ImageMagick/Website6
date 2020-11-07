@@ -1,4 +1,12 @@
-<div class="magick-header"><dl><dt>2020-10-08  6.9.11-34  &lt;quetzlzacatenango@image...&gt;</dt>
+<div class="magick-header"><dl><dt>2020-11-07  6.9.11-36  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.11-36 GIT revision 16008:9f3b8ffe4:20201107</li>
+<dt>2020-11-02  6.9.11-36  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> do not add entropy based on mkstemp() unique filename.</li>
+<dt>2020-10-31  6.9.11-35  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.11-35 GIT revision 16002:56875b029:20201031.</li>
+<dt>2020-10-14  6.9.11-35  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> prefer ffmpeg over avconv.</li>
+<dt>2020-10-08  6.9.11-34  &lt;quetzlzacatenango@image...&gt;</dt>
   <li> Release ImageMagick version 6.9.11-34 GIT revision 15954:c4594f039:20201008</li>
 <dt>2020-10-05  6.9.11-34  &lt;quetzlzacatenango@image...&gt;</dt>
   <li> check for linux-compatible sendfile().</li>
