@@ -1,4 +1,6 @@
-<div class="magick-header"><dl><dt>2020-11-07  6.9.11-36  &lt;quetzlzacatenango@image...&gt;</dt>
+<div class="magick-header"><dl><dt>2020-11-07  6.9.11-37  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.11-37 GIT revision 16011:4d139b73c:20201107</li>
+<dt>2020-11-07  6.9.11-36  &lt;quetzlzacatenango@image...&gt;</dt>
   <li> Release ImageMagick version 6.9.11-36 GIT revision 16008:9f3b8ffe4:20201107</li>
 <dt>2020-11-02  6.9.11-36  &lt;quetzlzacatenango@image...&gt;</dt>
   <li> do not add entropy based on mkstemp() unique filename.</li>
