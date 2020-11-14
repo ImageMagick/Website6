@@ -1,7 +1,8 @@
 <div class="magick-header">
-<p class="text-center"><?php options("adaptive-blur", "adaptive-resize", "adaptive-sharpen",
-"adjoin", "affine", "alpha", "alpha-color", "annotate", "antialias", "append",
-"attenuate", "authenticate", "auto-gamma", "auto-level",
+<h1 class="text-center">Annotated List of Command-line Options</h1>
+<p class="text-center"><?php options("adaptive-blur", "adaptive-resize",
+"adaptive-sharpen", "adjoin", "affine", "alpha", "alpha-color", "annotate",
+"antialias", "append", "attenuate", "authenticate", "auto-gamma", "auto-level",
 "auto-orient", "auto-threshold", "backdrop", "background", "bench", "bias",
 "black-point-compensation", "black-threshold", "blend", "blue-primary",
 "blue-shift", "blur", "border", "bordercolor", "borderwidth",

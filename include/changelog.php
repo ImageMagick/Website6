@@ -1,4 +1,11 @@
-<div class="magick-header"><dl><dt>2020-11-07  6.9.11-37  &lt;quetzlzacatenango@image...&gt;</dt>
+<div class="magick-header"><dl><dt>2020-11-14  6.9.11-38  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.11-38 GIT revision 16032:cb7355b0a:20201114</li>
+<dt>2020-11-07  6.9.11-38  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> add image settings support to -fx.</li>
+  <li> better support for TIFF YCbCr photometric.</li>
+  <li> verify TTF glyph format before dereferencing (reference    https://bugs.chromium.org/p/oss-fuzz/issues/detail?id=26932).</li>
+  <li> force single HEIC image per container.</li>
+<dt>2020-11-07  6.9.11-37  &lt;quetzlzacatenango@image...&gt;</dt>
   <li> Release ImageMagick version 6.9.11-37 GIT revision 16011:4d139b73c:20201107</li>
 <dt>2020-11-07  6.9.11-36  &lt;quetzlzacatenango@image...&gt;</dt>
   <li> Release ImageMagick version 6.9.11-36 GIT revision 16008:9f3b8ffe4:20201107</li>

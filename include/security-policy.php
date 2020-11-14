@@ -1,4 +1,5 @@
 <div class="magick-header">
+<h1 class="text-center">ImageMagick Security Policy</h1>
 <p class="text-center"><a href="#policy">Security Policy </a> • <a href="#synchronize">Pixel Cache Synchronize Policy</a> • <a href="#zero-configuration">Zero Configuration Security Policy</a> • <a href="#other">Other Security Considerations</a></p>
 
 <p class="lead magick-description">ImageMagick best practices strongly encourages you to configure a security <a href="<?php echo $_SESSION['RelativePath']?>/../source/policy.xml">policy.xml</a> that suits your local environment.  The policy is open by default.  This affords maximum utility for ImageMagick installations that run in a sandboxed environment, perhaps in a Docker instance, or behind a firewall where security risks are greatly diminished as opposed to a public website.</p>
