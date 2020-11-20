@@ -1,8 +1,12 @@
-<div class="magick-header"><dl><dt>2020-11-15  6.9.11-39  &lt;quetzlzacatenango@image...&gt;</dt>
-  <li> Release ImageMagick version 6.9.11-39 GIT revision 16...</li>
+<div class="magick-header"><dl><dt>2020-11-19  6.9.11-40  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.11-40 GIT revision 16...</li>
+<dt>2020-11-19  6.9.11-40  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> remove Linux shell artifact from Windows delegate configuration file.</li>
+  <li> fix shell injection vulnerability via the -authenticate option (reference    alex@cure...).</li>
+<dt>2020-11-17  6.9.11-39  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.11-39 GIT revision 16053:6095d7b94:20201117</li>
 <dt>2020-11-07  6.9.11-39  &lt;quetzlzacatenango@image...&gt;</dt>
   <li> support DPX 4:2:2 sampling.</li>
-  <li> fix shell injection vulnerability via the -authenticate option (reference    alex@cure...).</li>
 <dt>2020-11-14  6.9.11-38  &lt;quetzlzacatenango@image...&gt;</dt>
   <li> Release ImageMagick version 6.9.11-38 GIT revision 16032:cb7355b0a:20201114</li>
 <dt>2020-11-07  6.9.11-38  &lt;quetzlzacatenango@image...&gt;</dt>
