@@ -1,55 +1,6 @@
 <div class="magick-header">
 <h1 class="text-center">Annotated List of Command-line Options</h1>
-<p class="text-center"><?php options("adaptive-blur", "adaptive-resize",
-"adaptive-sharpen", "adjoin", "affine", "alpha", "alpha-color", "annotate",
-"antialias", "append", "attenuate", "authenticate", "auto-gamma", "auto-level",
-"auto-orient", "auto-threshold", "backdrop", "background", "bench", "bias",
-"black-point-compensation", "black-threshold", "blend", "blue-primary",
-"blue-shift", "blur", "border", "bordercolor", "borderwidth",
-"brightness-contrast", "cache", "canny", "caption", "cdl", "channel",
-"charcoal", "chop", "clamp", "clip", "clip-mask", "clip-path", "clone",
-"clut", "coalesce", "colorize", "colormap", "color-matrix", "colors",
-"colorspace", "combine", "comment", "compare", "complex", "compose",
-"composite", "compress", "connected-components", "contrast", "contrast-stretch",
-"convolve", "copy", "crop", "cycle", "debug", "decipher", "deconstruct",
-"define", "delay", "delete", "density", "depth", "descend", "deskew",
-"despeckle", "direction", "displace", "display", "dispose",
-"dissimilarity-threshold", "dissolve", "distort", "distribute-cache", "dither",
-"draw", "duplicate", "edge", "emboss", "encipher", "encoding", "endian",
-"enhance", "equalize", "evaluate", "evaluate-sequence", "extent", "extract",
-"family", "features", "fft", "fill", "filter", "flatten", "flip", "floodfill",
-"flop", "font", "foreground", "format", "format[identify]", "frame",
-"frame[import]", "function", "fuzz", "fx", "gamma", "gaussian-blur", "geometry",
-"gravity", "grayscale", "green-primary", "hald-clut", "help",
-"highlight-color", "hough-lines", "iconGeometry", "iconic", "identify", "ift",
-"immutable", "implode", "insert", "intensity", "intent", "interlace",
-"interpolate", "interline-spacing", "interword-spacing", "kerning", "kuwahara",
-"label", "lat", "layers", "level", "level-colors", "limit", "linear-stretch",
-"linewidth", "liquid-rescale", "list", "log", "loop", "lowlight-color",
-"magnify", "map", "map[stream]", "mask", "mattecolor", "median", "mean-shift",
-"metric", "mode", "modulate", "moments", "monitor", "monochrome", "morph",
-"morphology", "mosaic", "motion-blur", "name", "negate", "noise", "normalize",
-"opaque", "ordered-dither", "orient", "page", "paint", "path", "pause[animate]",
-"pause[import]", "perceptible", "ping", "pointsize", "polaroid", "poly",
-"posterize", "precision", "preview", "print", "process", "profile", "quality",
-"quantize", "quiet", "radial-blur", "raise", "random-threshold", "red-primary",
-"regard-warnings", "region", "remap", "remote", "render", "repage",
-"resample", "resize", "respect-parentheses", "reverse", "roll", "rotate",
-"sample", "sampling-factor", "scale", "scene", "screen", "seed", "segment",
-"selective-blur", "separate", "sepia-tone", "set", "shade", "shadow",
-"shared-memory", "sharpen", "shave", "shear", "sigmoidal-contrast", "silent",
-"similarity-threshold", "size", "sketch", "smush", "snaps", "solarize",
-"sparse-color", "splice", "spread", "statistic", "stegano", "stereo",
-"storage-type", "stretch", "strip", "stroke",
-"strokewidth", "style", "subimage-search", "swap", "swirl", "synchronize",
-"taint", "text-font", "texture", "threshold", "thumbnail",
-"tile", "tile-offset", "tint", "title", "transform", "transparent",
-"transparent-color", "transpose", "transverse", "treedepth", "trim", "type",
-"undercolor", "unique-colors", "units", "unsharp", "update", "verbose",
-"version", "view", "vignette", "virtual-pixel", "visual", "watermark",
-"wave", "wavelet-denoise", "weight", "white-point", "white-threshold", "window", "window-group",
-"write"); ?> </p>
-
+<p class="text-center"><?php options("adaptive-blur", "adaptive-resize", "adaptive-sharpen", "adjoin", "affine", "alpha", "annotate", "antialias", "append", "attenuate", "authenticate", "auto-gamma", "auto-level", "auto-orient", "auto-threshold", "backdrop", "background", "bench", "bias", "bilateral-blur", "black-point-compensation", "black-threshold", "blend", "blue-primary", "blue-shift", "blur", "border", "bordercolor", "borderwidth", "brightness-contrast", "cache", "canny", "caption", "cdl", "channel", "charcoal", "channel-fx", "chop", "clahe", "clamp", "clip", "clip-mask", "clip-path", "clone", "clut", "coalesce", "colorize", "colormap", "color-matrix", "colors", "colorspace", "color-threshold", "combine", "comment", "compare", "complex", "compose", "composite", "compress", "connected-components", "contrast", "contrast-stretch", "convolve", "copy", "crop", "cycle", "debug", "decipher", "deconstruct", "define", "delay", "delete", "density", "depth", "descend", "deskew", "despeckle", "direction", "displace", "display", "dispose", "dissimilarity-threshold", "dissolve", "distort", "distribute-cache", "dither", "draw", "duplicate", "edge", "emboss", "encipher", "encoding", "endian", "enhance", "equalize", "evaluate", "evaluate-sequence", "extent", "extract", "family", "features", "fft", "fill", "filter", "flatten", "flip", "floodfill", "flop", "font", "foreground", "format", "format[identify]", "frame", "frame[import]", "function", "fuzz", "fx", "gamma", "gaussian-blur", "geometry", "gravity", "grayscale", "green-primary", "hald-clut", "help", "highlight-color", "hough-lines", "iconGeometry", "iconic", "identify", "ift", "immutable", "implode", "insert", "intensity", "intent", "interlace", "interpolate", "interline-spacing", "interword-spacing", "kerning", "kmeans", "kuwahara", "label", "lat", "layers", "level", "level-colors", "limit", "linear-stretch", "linewidth", "liquid-rescale", "list", "log", "loop", "lowlight-color", "magnify", "map", "map[stream]", "mattecolor", "median", "mean-shift", "metric", "mode", "modulate", "moments", "monitor", "monochrome", "morph", "morphology", "mosaic", "motion-blur", "name", "negate", "noise", "normalize", "opaque", "ordered-dither", "orient", "page", "paint", "path", "pause[animate]", "pause[import]", "perceptible", "ping", "pointsize", "polaroid", "poly", "posterize", "precision", "preview", "print", "process", "profile", "quality", "quantize", "quiet", "radial-blur", "raise", "random-threshold", "range-threshold", "read-mask", "red-primary", "regard-warnings", "region", "remap", "remote", "render", "repage", "resample", "resize", "respect-parentheses", "reverse", "roll", "rotate", "sample", "sampling-factor", "scale", "scene", "screen", "seed", "segment", "selective-blur", "separate", "sepia-tone", "set", "shade", "shadow", "shared-memory", "sharpen", "shave", "shear", "sigmoidal-contrast", "silent", "similarity-threshold", "size", "sketch", "smush", "snaps", "solarize", "sparse-color", "splice", "spread", "statistic", "stegano", "stereo", "storage-type", "stretch", "strip", "stroke", "strokewidth", "style", "subimage-search", "swap", "swirl", "synchronize", "taint", "text-font", "texture", "threshold", "thumbnail", "tile", "tile-offset", "tint", "title", "transform", "transparent", "transparent-color", "transpose", "transverse", "treedepth", "trim", "type", "undercolor", "unique-colors", "units", "unsharp", "update", "verbose", "version", "view", "vignette", "virtual-pixel", "visual", "watermark", "wave", "wavelet-denoise", "weight", "white-balance", "white-point", "white-threshold", "window", "window-group", "write", "write-mask"); ?> </p>
 <p class="lead magick-description">Below is list of command-line options recognized by the ImageMagick <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-tools.php">command-line tools</a>. If you want a description of a particular option, click on the option name in the navigation bar above and you will go right to it. Unless otherwise noted, each option is recognized by the commands: <?php cmd("convert"); ?> and <?php cmd("mogrify"); ?>.</p>
 
 <div style="margin: auto;">
@@ -108,7 +59,7 @@ strings, such as '<code>%d</code>' or '<code>%03d</code>', are familiar to those
 who have used the standard <code>printf()</code>' C-library function. As an
 example, the command</p>
 
-<pre class="highlight"><code>convert logo: rose: -morph 15 my%02dmorph.jpg
+<pre class="highlight"><code>magick logo: rose: -morph 15 my%02dmorph.jpg
 </code></pre>
 
 <p>will create a sequence of 17 images (the two given plus 15 more created by
@@ -147,7 +98,7 @@ image are calculated using the following matrix equation.</p>
 <p class="text-center"><img class="img-thumbnail" alt="affine transformation"  src="<?php echo $_SESSION['RelativePath']?>/../image/affine.png"/> </p>
 
 <p> The size of the resulting image is that of the smallest rectangle that
-contains the transformed source image.  The parameters 
+contains the transformed source image.  The parameters
 <var>t<sub>x</sub></var> and <var>t<sub>y</sub></var>
 subsequently shift the image pixels so that those that are moved out of the
 image area are cut off.</p>
@@ -156,11 +107,11 @@ image area are cut off.</p>
 system: positive <var>x</var> and <var>y</var> directions
 are rightward and downward, resp.; positive rotation is clockwise.</p>
 
-<p> If the translation coefficients <var>t<sub>x</sub></var> and 
+<p> If the translation coefficients <var>t<sub>x</sub></var> and
 <var>t<sub>y</sub></var> are omitted they default to 0,0. Therefore,
 four parameters suffice for rotation and scaling without translation.</p>
 
-<p>Scaling by the factors <var>s<sub>x</sub></var> and 
+<p>Scaling by the factors <var>s<sub>x</sub></var> and
 <var>s<sub>y</sub></var> in the <var>x</var> and <var>y</var> directions,
 respectively, is accomplished with the following.</p>
 
@@ -201,6 +152,7 @@ matrix determinant has a sufficiently small absolute value it is rejected.</p>
 <p>Used to set a flag on an image indicating whether or not to use existing alpha
 channel data, to create an alpha channel, or to perform other operations on the alpha channel.  Choose the argument <var>type</var> from the list below.</p>
 
+<div class="pre-scrollable">
 <dl class="row">
     <dt class="col-md-4">Activate</dt>
     <dd class="col-md-8">
@@ -275,27 +227,15 @@ channel data, to create an alpha channel, or to perform other operations on the 
        and thus can compress better.
        </dd>
 </dl>
+</div>
+<br/>
 
 <p>Note that while the obsolete <code>+matte</code> operation was the
 same as "<code><a href="#alpha" >-alpha</a> Off</code>", the <code>
 >-matte</code> operation was the same as "<code><a href="#alpha" >-alpha</a>
 Set</code>" and not "<code><a href="#alpha" >-alpha</a> On</code>".  </p>
 
-<div style="margin: auto;">
-  <h3><a class="anchor" id="alpha-color"></a>-alpha-color <var>color</var></h3>
-</div>
-
-<p class="magick-description">Specify the color to be used with the <a href="#frame">-frame</a> option.</p>
-
-<p>The color is specified using the format described under the <a href="#fill">-fill</a> option.</p>
-
-<p>The default matte color is <code>#BDBDBD</code>, <span
-style="background-color: #bdbdbd;">this shade of gray</span>.</p>
-
-<p>This is an IMv7 option, use <a href="#mattecolor">mattecolor</a> with IMv6.</p>
-
-
-<div style="margin: auto;">
+<div class="pre-scrollable" style="margin: auto;">
  <h3><a class="anchor" id="annotate"></a>
  -annotate <var>degrees</var> <var>text</var><br />
  -annotate <var>Xdegrees</var>x<var>Ydegrees</var> <var>text</var><br /> -annotate <var>Xdegrees</var>x<var>Ydegrees</var> {+-}<var>t<sub>x</sub></var>{+-}<var>t<sub>y</sub></var> <var>text</var><br /> -annotate {+-}<var>t<sub>x</sub></var>{+-}<var>t<sub>y</sub></var> <var>text</var></h3>
@@ -389,7 +329,7 @@ and <a href="#decipher">-decipher</a>. </p>
 <p class="magick-description">Automagically adjust gamma level of image.</p>
 
 <p>This calculates the mean values of an image, then applies a calculated  <a
-href="#gamma" >-gamma</a> adjustment so that is the mean color in the
+href="#gamma" >-gamma</a> adjustment so that the mean color in the
 image will get a value of 50%. </p>
 
 <p>This means that any solid 'gray' image becomes 50% gray. </p>
@@ -465,15 +405,16 @@ href="#auto-orient" >-auto-orient</a> operator will do nothing. </p>
 
 <p>Here are the valid methods:</p>
 
+<div class="pre-scrollable">
 <dl class="row">
 <dt class="col-md-4">Undefined</dt><dd class="col-md-8">0:  No method specified (equivalent to '<code>OTSU</code>').</dd>
 <dt class="col-md-4">Kapur</dt><dd class="col-md-8">maximum entropy thresholding.</dd>
 <dt class="col-md-4">OTSU</dt><dd class="col-md-8">cluster-based image thresholding.</dd>
 <dt class="col-md-4">Triangle</dt><dd class="col-md-8">a geometric thresholding method.</dd>
 </dl>
+</div>
 
 <p>The computed threshold is returned as the <kbd>auto-threshold:threshold</kbd> image property. To instead print to your device, use <kbd>-define auto-threshold:threshold=true</kbd>.</p>
-
 
 <div style="margin: auto;">
   <h3><a class="anchor" id="average"></a>-average</h3>
@@ -557,6 +498,30 @@ href="http://en.wikipedia.org/wiki/High_dynamic_range_imaging">Wikipedia</a>
 entry.  </p>
 
 <div style="margin: auto;">
+  <h3><a class="anchor" id="bilateral-blur"></a>-bilateral-blur <var>radius</var>{x<var>sigma</var>}{<var>+intensity-sigma</var>}{<var>+spatial-sigma</var>}</h3>
+</div>
+
+<p class="magick-description">a non-linear, edge-preserving, and noise-reducing
+smoothing filter for images.  It replaces the intensity of each pixel with a
+weighted average of intensity values from nearby pixels. This weight is
+based on a Gaussian distribution.  The weights depend not only on Euclidean
+distance of pixels, but also on the radiometric differences (e.g., range
+differences, such as color intensity, depth distance, etc.). This preserves
+sharp edges.</p>
+
+<p>The intensity sigma is in the intensity space. A larger value means
+that farther colors within the pixel neighborhood (see spatial-sigma)
+will be mixed together, resulting in larger areas of semi-equal color.</p>
+
+<p>The spatial sigma is in the coordinate space. A larger value means that
+farther pixels influence each other as long as their colors are close
+enough (see intensity-sigma ). When the neigborhood diameter is greater
+than zero, it specifies the neighborhood size regardless of
+spatial-sigma. Otherwise, the neigborhood diameter is proportional to
+spatial-sigma.</p>
+
+
+<div style="margin: auto;">
   <h3><a class="anchor" id="black-point-compensation"></a>-black-point-compensation</h3>
 </div>
 
@@ -571,7 +536,7 @@ entry.  </p>
 <p> The threshold value can be given as a percentage or as an absolute integer
 value within [0, <var>QuantumRange</var>] corresponding to the
 desired <?php option("channel"); ?> value. See <?php option("threshold"); ?>
-for more details on thresholds and resulting values.  </p>
+ for more details on thresholds and resulting values.  </p>
 
 
 <div style="margin: auto;">
@@ -603,7 +568,7 @@ the background image is weighted by the exact opposite amount. That is a
 <div style="margin: auto;">
 
 <div style="margin: auto;">
-  <h3><a class="anchor" id="blur"></a>-blur <var>radius</var><br />-blur <var>radius</var>x<var>sigma</var></h3>
+  <h3><a class="anchor" id="blur"></a>-blur <var>radius</var><br />-blur <var>radius</var>{x<var>sigma</var>}</h3>
 </div>
 
 <p class="magick-description">Reduce image noise and reduce detail levels.</p>
@@ -650,6 +615,7 @@ ignored. </p>
 
 <p>As of IM 6.7.8-8, the <var>geometry</var> arguments behave as follows:</p>
 
+<div class="pre-scrollable">
 <dl class="row">
 <dt class="col-md-4"><var>value</var></dt>
 <dd class="col-md-8">value is added to both left/right and top/bottom</dd>
@@ -676,6 +642,7 @@ ignored. </p>
 <dt class="col-md-4">0%<code>x</code><var>value-y</var>%</dt>
 <dd class="col-md-8">value-y % of height is added to top/bottom and left/right are unchanged</dd>
 </dl>
+</div>
 
 <p>Set the border color by preceding with the <a
 href="#bordercolor">-bordercolor</a> setting.</p>
@@ -751,12 +718,12 @@ symbol is no different than leaving it off.</p>
 <p class="magick-description">(This option has been replaced by the <a href='#limit'>-limit</a> option).</p>
 
 <div style="margin: auto;">
-  <h3><a class="anchor" id="canny"></a>-canny <var>radius</var><br/>-canny <var>radius</var>x<var>sigma</var>{<var>+lower-percent</var>}{<var>+upper-percent</var>}</h3>
+  <h3><a class="anchor" id="canny"></a>-canny <var>radius</var><br/>-canny <var>radius</var>{x<var>sigma</var>}{<var>+lower-percent</var>}{<var>+upper-percent</var>}</h3>
 </div>
 
 <p class="magick-description">Canny edge detector uses a multi-stage algorithm to detect a wide range of edges in the image.</p>
 
-<p>The thresholds range from 0 to 100% (e.g. -canny 0x1+10%+30%) with {<var>+lower-percent</var>} &lt; {<var>+upper-percent</var>}. If {<var>+upper-percent</var>} is increased but {<var>+lower-percent</var>} remains the same, lesser edge components will be detected, but their lengths will be the same. If {<var>+lower-percent</var>} is increased but {<var>+upper-percent</var>} is the same, the same number of edge components will be detected but their lengths will be shorter. The default thresholds are shown. The <var>radius</var>x<var>sigma</var> controls a gaussian blur applied to the input image to reduce noise and smooth the edges.</p>
+<p>The thresholds range from 0 to 100% (e.g. -canny 0x1+10%+30%) with {<var>+lower-percent</var>} &lt; {<var>+upper-percent</var>}. If {<var>+upper-percent</var>} is increased but {<var>+lower-percent</var>} remains the same, lesser edge components will be detected, but their lengths will be the same. If {<var>+lower-percent</var>} is increased but {<var>+upper-percent</var>} is the same, the same number of edge components will be detected but their lengths will be shorter. The default thresholds are shown. The <var>radius</var>{x<var>sigma</var>} controls a gaussian blur applied to the input image to reduce noise and smooth the edges.</p>
 
 <div style="margin: auto;">
   <h3><a class="anchor" id="caption"></a>-caption <var>string</var></h3>
@@ -831,29 +798,29 @@ abbreviated as a concatenation of the letters '<code>R</code>', '<code>G</code>'
 '<code>B</code>', '<code>A</code>', '<code>O</code>', '<code>C</code>',
 '<code>M</code>', '<code>Y</code>', '<code>K</code>'.</p>
 
-<p>The numerals 0 to 5 may also be used to specify channels, where <br />
+<p>The numerals 0 to 31 may also be used to specify channels, where 0 to 5 are: <br />
+<ul>
 '<code>0</code>' equals <code>Red</code> or <code>Cyan</code> <br />
 '<code>1</code>' equals <code>Green</code> or <code>Magenta</code> <br />
 '<code>2</code>' equals <code>Blue</code> or <code>Yellow</code> <br />
 '<code>3</code>' equals <code>Black</code> <br />
 '<code>4</code>' equals <code>Alpha</code> or <code>Opacity</code> <br />
 '<code>5</code>' equals <code>Index</code></p>
+</ul>
 
 <p>For example, to only select the <code>Red</code> and <code>Blue</code> channels
 you can use any of the following:</p>
-<pre class="highlight">
+<ul><pre class="highlight">
 <code>-channel Red,Blue</code>
 <code>-channel R,B</code>
 <code>-channel RB</code>
 <code>-channel 0,2</code>
-</pre>
+</pre></ul>
 
 <p>All the channels that are present in an image can be specified using the
 special channel type <code>All</code>. Not all operators are 'channel capable',
 but generally any operators that are generally 'grey-scale' image operators,
 will understand this setting.  See individual operator documentation. </p>
-
-<br/>
 
 <p>On top of the normal channel selection an extra flag can be specified,
 '<code>Sync</code>'.  This is turned on by default and if set means that
@@ -918,6 +885,7 @@ include the following.
 <a href="#ordered-dither">-ordered-dither</a>,
 <a href="#radial-blur">-radial-blur</a>,
 <a href="#random-threshold">-random-threshold</a>,
+<a href="#range-threshold">-range-threshold</a>,
 <a href="#separate">-separate</a>,
 <a href="#threshold">-threshold</a>, and
 <a href="#white-threshold">-white-threshold</a>.
@@ -949,7 +917,37 @@ alpha channel present, and the <a href="#channel" >-channel</a> setting tells
 the operator to apply the operation using alpha channels. The <a
 href="#clut">-clut</a> operator is a good example of this. </p>
 
+<div style="margin: auto;">
+  <h3><a class="anchor" id="channel-fx"></a>-channel-fx <var>expression</var></h3>
+</div>
 
+<p class="magick-description">exchange, extract, or copy one or more image channels.</p>
+
+<p>The expression consists of one or more channels, either mnemonic or numeric (e.g. red or 0, green or 1, etc.), separated by certain operation symbols as follows:</p>
+
+<pre class="highlight"><code>&lt;=&gt;  exchange two channels (e.g. red&lt;=&gt;blue)
+=&gt;   copy one channel to another channel (e.g. red=&gt;green)
+=    assign a constant value to a channel (e.g. red=50%)
+,    write new image with channels in the specified order (e.g. red, green)
+;    add a new output image for the next set of channel operations (e.g. red; green; blue)
+|    move to the next input image for the source of channel data (e.g. | gray=>alpha)
+</code></pre>
+
+<p>For example, to create 3 grayscale images from the red, green, and blue channels of an image, use:</p>
+
+<pre class="highlight"><code>-channel-fx "red; green; blue"
+</code></pre>
+
+<p>A channel without an operation symbol implies separate (i.e, semicolon).</p>
+
+<p>Here we take an sRGB image and a grayscale image and inject the grayscale image into the alpha channel:</p>
+<pre class="highlight"><code>magick wizard.png mask.pgm -channel-fx '| gray=>alpha' wizard-alpha.png
+</code></pre>
+<p>Use a similar command to define a read mask:</p>
+<pre class="highlight"><code>magick wizard.png mask.pgm -channel-fx '| gray=>read-mask' wizard-mask.png
+</code></pre>
+
+<p>Add <code>-debug pixel</code> prior to the <code>-channel-fx</code> option to track the channel morphology.</p>
 
 <div style="margin: auto;">
   <h3><a class="anchor" id="charcoal"></a>-charcoal <var>factor</var></h3>
@@ -983,6 +981,14 @@ sides of the image.  </p>
 href="#splice">-splice</a> that was given the same <var>geometry</var> and <a href="#gravity">-gravity</a> settings. </p>
 
 <div style="margin: auto;">
+  <h3><a class="anchor" id="clahe"></a>-clahe <var>width</var>x<var>height</var>{%}{+}<var>number-bins</var>{+}<var>clip-limit</var>{!}</h3>
+</div>
+
+<p class="magick-description">contrast limited adaptive histogram equalization.</p>
+<p> The image is divided into tiles of <var>width</var> and <var>height</var> pixels.  Append <code>%</code> to define the width and height as percentages of the image's dimensions. The tile size should be larger than the size of features to be preserved and respects the aspect ratio of the image.  Add <code>!</code> to force an exact tile width and height. <var>number-bins</var> is the number of histogram bins per tile (min 2, max 65536).  The number of histogram bins should be smaller than the number of pixels in a single tile. <var>clip-limit</var> is the contrast limit for localized changes in contrast. A clip-limit of 2 to 3 is a good starting place (e.g. -clahe 50x50%+128+3).  Very large values will let the histogram equalization do whatever it wants to do, that is result in maximal local contrast. The value 1 will result in the original image.  Note, if the number of bins and the clip-limit are ommitted, they default to 128 and no clipping respectively.</p>
+
+
+<div style="margin: auto;">
   <h3><a class="anchor" id="clamp"></a>-clamp</h3>
 </div>
 
@@ -998,7 +1004,7 @@ href="#splice">-splice</a> that was given the same <var>geometry</var> and <a hr
 
 <p>For example, in the command</p>
 
-<pre class="highlight"><code>convert cockatoo.tif -clip -negate negated.tif
+<pre class="highlight"><code>magick cockatoo.tif -clip -negate negated.tif
 </code></pre>
 
 <p>only the pixels within the clipping path are negated.</p>
@@ -1074,7 +1080,7 @@ top-left to bottom-right corners.</p>
 <p>The lookup is further controlled by the <a
 href="#interpolate">-interpolate</a> setting, which is especially handy for an
 LUT which is not the full length needed by the ImageMagick installed Quality
-(Q) level. Good settings for this are '<code>bilinear</code>' and 
+(Q) level. Good settings for this are '<code>bilinear</code>' and
 '<code>catrom</code>'. Catom can return a useful second-order continuity.</p>
 
 <p>This operator is especially suited to replacing a grayscale image with a
@@ -1183,7 +1189,7 @@ CMYKA images) and offsets are normalized (divide Flash offset by 255).</p>
 
 <p>As an example, to add contrast to an image with offsets, try this command:</p>
 
-<pre class="highlight"><code>convert kittens.jpg -color-matrix \
+<pre class="highlight"><code>magick kittens.jpg -color-matrix \
   " 1.5 0.0 0.0 0.0, 0.0, -0.157 \
     0.0 1.5 0.0 0.0, 0.0, -0.157 \
     0.0 0.0 1.5 0.0, 0.0, -0.157 \
@@ -1201,18 +1207,20 @@ CMYKA images) and offsets are normalized (divide Flash offset by 255).</p>
 
 <pre class="highlight"><code>CMY          CMYK         Gray         HCL
 HCLp         HSB          HSI          HSL
-HSV          HWB          Lab          LCHab
-LCHuv        LinearGray   LMS          Log
+HSV          HWB          Jzazbz       Lab
+LCHab        LCHuv        LMS          Log
 Luv          OHTA         Rec601YCbCr  Rec709YCbCr
 RGB          scRGB        sRGB         Transparent
-xyU          XYZ          YCbCr        YCC
+xyY          XYZ          YCbCr        YCC
 YDbDr        YIQ          YPbPr        YUV
+Undefined
 </code></pre>
 
 <p>To print a complete list of colorspaces, use <a href="#list">-list colorspace</a>.</p>
 
 <p>For a more accurate color conversion to or from the linear RGB, CMYK, or grayscale colorspaces, use the <a href="#profile">-profile</a> option.  Note, ImageMagick assumes the sRGB colorspace if the image format does not indicate otherwise.  For colorspace conversion, the gamma function is first removed to produce linear RGB.</p>
 
+<div class="pre-scrollable">
 <table class="table table-sm table-hover">
         <caption>Conversion of RGB to Other Color Spaces</caption>
         <tr><th valign="middle">CMY</th></tr>
@@ -1310,11 +1318,21 @@ YDbDr        YIQ          YPbPr        YUV
         <tr><td valign="middle">U=(−0.14740*R−0.28950*G+0.43690*B)*(<var>QuantumRange</var>+1)/2</td></tr>
         <tr><td valign="middle">V=(0.61500*R−0.51500*G−0.10000*B)*(<var>QuantumRange</var>+1)/2</td></tr>
 </table>
+</div>
 
 <p>Note the scRGB colorspace requires HDRI support otherwise it behaves just like linear RGB.</p>
 
+<p>Use the <code>Undefined</code> colorspace to identify multi-spectral images.</p>
+
+<div style="margin: auto;">
+  <h3><a class="anchor" id="color-threshold"></a>-color-threshold <var>start-color</var>-<var>stop-color</var></h3>
+</div>
+
+<p>Return a binary image where all colors within the specified range are changed to white.  All other colors are changed to black.</p>
+
 <div style="margin: auto;">
   <h3><a class="anchor" id="combine"></a>-combine</h3>
+  <h3>+combine <var>colorspace</var></h3>
 </div>
 
 <p class="magick-description">Combine one or more images into a single image.</p>
@@ -1330,7 +1348,7 @@ href="#separate">-separate</a>, so long as the channel settings are the same.
 Thus, in the following example, the final image should be a copy of the
 original.  </p>
 
-<pre class="highlight"><code>convert original.png -channel RGB -separate sepimage.png
+<pre class="highlight"><code>magick original.png -channel RGB -separate sepimage.png
 convert sepimage-0.png sepimage-1.png sepimage-2.png -channel RGB \
   -combine imagecopy.png
 </code></pre>
@@ -1375,12 +1393,12 @@ that the image <code>bird.miff</code> has a width of 512 and a height of
 
 <p>This is a convert version of "<code>compare</code>" for two same sized images. The syntax is as follows, but other metrics are allowed.</p>
 
-<pre class="highlight"><code>convert image.png reference.png -metric RMSE -compare \ <br/> difference.png
+<pre class="highlight"><code>magick image.png reference.png -metric RMSE -compare \ <br/> difference.png
 </code></pre>
 
 <p>To get the metric value use the string format "%[distortion]".</p>
 
-<pre class="highlight"><code>convert image.png reference.png -metric RMSE -compare -format \
+<pre class="highlight"><code>magick image.png reference.png -metric RMSE -compare -format \
    "%[distortion]" info:
 </code></pre>
 
@@ -1452,8 +1470,7 @@ href="#set">-set</a> '<code>option:compose:args</code>'
 appropriately for the compose method. </p>
 
 <p>Some <a href="#compose">-compose</a> methods can modify the 'destination'
-image outside the overlay area. You can disable this by setting this define:
-<a href="#define">-define</a> '<code>compose:outside-overlay=false</code></p>
+image outside the overlay area. It is disabled by default.  You can enable this by setting the define: <a href="#define">-define</a> '<code>compose:clip-to-self=true</code>'.</p>
 
 <p>The SVG compositing specification requires that color and opacity values range between zero and QuantumRange inclusive.  You can permit values outside this range with this option: <a href="#set">-set</a> '<code>option:compose:clamp=false</code></p>
 
@@ -1521,7 +1538,7 @@ contrast.</p>
 
 <p>For a more pronounced effect you can repeat the option:</p>
 
-<pre class="highlight"><code>convert rose: -contrast -contrast rose_c2.png
+<pre class="highlight"><code>magick rose: -contrast -contrast rose_c2.png
 </code></pre>
 
 <div style="margin: auto;">
@@ -1676,7 +1693,7 @@ a comma-separated list consisting of one or more of the following domains:
 
 <p>For example, to log cache and blob events, use.</p>
 
-<pre class="highlight"><code>convert -debug "Cache,Blob" rose: rose.png
+<pre class="highlight"><code>magick -debug "Cache,Blob" rose: rose.png
 </code></pre>
 
 <p>The <code>User</code> domain is normally empty, but developers can log user
@@ -1759,12 +1776,9 @@ is case-dependent.</p>
 
 <p>Such settings are global in scope, and affect all images and operations. </p>
 
-<p>See <a href="<?php echo $_SESSION['RelativePath']?>/../script/defines.php">ImageMagick Defines</a> for a list of recognized defines.</p>
+<p>See <a href="<?php echo $_SESSION['RelativePath']?>/../script/defines.php">ImageMagick Defines</a> for a list of recognized defines.  For example:</p>
 
-<p>For example, to create a postscript file that will render only the black
-pixels of a bilevel image, use:</p>
-
-<pre class="highlight"><code>convert bilevel.tif -define ps:imagemask eps3:stencil.ps
+<pre class="highlight"><code>magick bilevel.tif -define ps:imagemask eps3:stencil.ps
 </code></pre>
 
 <p>Set attributes of the image registry by prefixing the value with
@@ -1805,7 +1819,7 @@ a file redirection.</p>
 0.  Negative indexes are relative to the end of the sequence, for example, -1
 represents the last image of the sequence.  Specify a range of images with
 a dash (e.g. 0-4).  Separate indexes with a comma (e.g. 0,2).  Use
-<code>+delete</code> to delete the last image in the current image sequence.   Use <code>-delete 0--1</code> to delete the entire image sequence.</p>
+<code>+delete</code> to delete the last image in the current image sequence. Use <code>-delete 0--1</code> to delete the entire image sequence.</p>
 
 
 <div style="margin: auto;">
@@ -1963,12 +1977,14 @@ animation is to be overlaid onto the display. </p>
 
 <p>Here are the valid methods:</p>
 
+<div class="pre-scrollable">
 <dl class="row">
 <dt class="col-md-4">Undefined</dt><dd class="col-md-8">0:  No disposal specified (equivalent to '<code>none</code>').</dd>
 <dt class="col-md-4">None</dt><dd class="col-md-8">1:  Do not dispose, just overlay next frame image.</dd>
 <dt class="col-md-4">Background</dt><dd class="col-md-8">2:  Clear the frame area with the background color.</dd>
 <dt class="col-md-4">Previous</dt><dd class="col-md-8">3:  Clear to the image prior to this frames overlay.</dd>
 </dl>
+</div>
 
 <p>You can also use the numbers given above, which is what the GIF format
 uses internally to represent the above settings. </p>
@@ -2016,6 +2032,7 @@ and meaning of the floating point values depends on the distortion <var>method</
 
 <p>Choose from these distortion types:</p>
 
+<div class="pre-scrollable">
 <table class="table table-sm table-hover">
   <tr>
     <th style="width: 8%">Method</th>
@@ -2071,6 +2088,13 @@ and meaning of the floating point values depends on the distortion <var>method</
   </tr>
 
   <tr>
+    <td>RigidAffine</td>
+    <td>
+       A rigid affine (also known as a Euclidean transform), is similar to Affine but restricts the distortion to 4 arguments (S, R, Tx, Ty) with Sy = Sx and Ry = -Rx so that the distortion only has scale, rotation and translation. No skew. A minimum of two control point pairs is required.
+     </td>
+  </tr>
+
+  <tr>
     <td>AffineProjection</td>
     <td>
        Linearly distort an image using the given Affine Matrix of 6
@@ -2109,7 +2133,7 @@ and meaning of the floating point values depends on the distortion <var>method</
        in each case.  <br/>
 
        Note that 'BilinearForward' can generate invalid pixels
-       which will be colored using the <a href="#alpha-color" >-alpha-color</a>
+       which will be colored using the <a href="#mattecolor" >-mattecolor</a>
        color setting.  Also if the quadrilateral becomes 'flipped' the image
        may disappear. <br/>
 
@@ -2133,7 +2157,7 @@ and meaning of the floating point values depends on the distortion <var>method</
        Perspective Distorted images ensures that straight lines remain
        straight, but the scale of the distorted image will vary. The horizon
        is anti-aliased, and the 'sky' color may be set using the
-       <a href="#alpha-color" >-alpha-color</a> setting. </td>
+       <a href="#mattecolor" >-mattecolor</a> setting. </td>
   </tr>
 
   <tr>
@@ -2150,10 +2174,10 @@ and meaning of the floating point values depends on the distortion <var>method</
   <tr>
     <td>Polynomial</td>
     <td>
-       Do an Nth order 2D 'Polynomial' distortion using a set of corresponding 
-       control points. The order of the polynomial dictates the minimum number of 
-       control points needed. Order 1 is the same as -distort Affine. Order 1.5 is the 
-       same as -distort BilinearReverse. Typical use is for a 2nd order distortion. 
+       Do an Nth order 2D 'Polynomial' distortion using a set of corresponding
+       control points. The order of the polynomial dictates the minimum number of
+       control points needed. Order 1 is the same as -distort Affine. Order 1.5 is the
+       same as -distort BilinearReverse. Typical use is for a 2nd order distortion.
        There is no +distort polynomial.</td>
   </tr>
 
@@ -2245,8 +2269,8 @@ and meaning of the floating point values depends on the distortion <var>method</
 
        <p class="text-center">Arguments: <var>A   B   C</var>   [ <var>D</var>   [
        <var>X</var> , <var>Y</var> ] ] <br/>
-       or <var>A<sub>x</sub> B<sub>x</sub> C<sub>x</sub> D<sub>x</sub>  
-       A<sub>y</sub> B<sub>y</sub> C<sub>y</sub> D<sub>y</sub></var>  
+       or <var>A<sub>x</sub> B<sub>x</sub> C<sub>x</sub> D<sub>x</sub>
+       A<sub>y</sub> B<sub>y</sub> C<sub>y</sub> D<sub>y</sub></var>
        [ <var>X</var> , <var>Y</var> ] </p>
        So that it forms the function
        <p class="text-center">Rsrc = r * ( <var>A</var>*r<sup>3</sup> + <var>B</var>*r<sup>2</sup> +
@@ -2300,6 +2324,7 @@ and meaning of the floating point values depends on the distortion <var>method</
   </tr>
 
 </table>
+</div>
 
 <p>To print a complete list of distortion methods, use <a href="#list">-list
 distort</a>.</p>
@@ -2311,11 +2336,11 @@ destination image. Each set of four floating point values represent a source
 image coordinate, followed immediately by the destination image coordinate.
 This produces a list of values such as...</p>
 <p class="text-center"><var>
-      U<sub>1</sub>,V<sub>1</sub> X<sub>1</sub>,Y<sub>1</sub>  
-      U<sub>2</sub>,V<sub>2</sub> X<sub>2</sub>,Y<sub>2</sub>  
-      U<sub>3</sub>,V<sub>3</sub> X<sub>3</sub>,Y<sub>3</sub>  
-      ...  
-      U<sub>n</sub>,V<sub>n</sub> X<sub>n</sub>,Y<sub>n</sub>  
+      U<sub>1</sub>,V<sub>1</sub> X<sub>1</sub>,Y<sub>1</sub>
+      U<sub>2</sub>,V<sub>2</sub> X<sub>2</sub>,Y<sub>2</sub>
+      U<sub>3</sub>,V<sub>3</sub> X<sub>3</sub>,Y<sub>3</sub>
+      ...
+      U<sub>n</sub>,V<sub>n</sub> X<sub>n</sub>,Y<sub>n</sub>
 </var></p>
 <p>where <var>U,V</var> on the source image is mapped to <var>X,Y</var> on the
 destination image. </p>
@@ -2326,7 +2351,7 @@ perspective distortion of the built-in "rose:" image. Note how spaces were
 used to group the 4 sets of coordinate pairs, to make it easier to read and
 understand.</p>
 
-<pre class="highlight"><code>convert rose:  -virtual-pixel black \
+<pre class="highlight"><code>magick rose:  -virtual-pixel black \
   -distort Perspective '0,0,0,0  0,45,0,45  69,0,60,10  69,45,60,35' \
    rose_3d_rotated.gif"
 </code></pre>
@@ -2350,7 +2375,7 @@ images become smaller (minified) in the output, which is very common when
 using '<code>perspective</code>' distortion. For example here we view
 a infinitely tiled 'plane' all the way to the horizon. </p>
 
-<pre class="highlight"><code>convert -size 90x90 pattern:checkerboard -normalize -virtual-pixel tile \
+<pre class="highlight"><code>magick -size 90x90 pattern:checkerboard -normalize -virtual-pixel tile \
   -distort perspective  '0,0,5,45  89,0,45,46  0,89,0,89  89,89,89,89' \
    checks_tiled.jpg
 </code></pre>
@@ -2364,7 +2389,7 @@ resampling, by specifying the special <a href="#filter" >-filter</a> setting of
 
 <p>If an image generates <i>invalid pixels</i>, such as the 'sky' in the last
 example, <a href="#distort" >-distort</a> will use the current <a
-href="#alpha-color" >-alpha-color</a> setting for these pixels. If you do not
+href="#mattecolor" >-mattecolor</a> setting for these pixels. If you do not
 what these pixels to be visible, set the color to match the rest of the
 ground. </p>
 
@@ -2412,7 +2437,7 @@ lookup value. This is typically only used for debugging EWA resampling. </p>
 
 <p class="magick-description">Apply a Riemersma or Floyd-Steinberg error diffusion dither to
 images when general color reduction is applied via an option, or automagically
-when saving to specific formats. This is enabled by default.</p>
+when saving to specific formats. This enabled by default.</p>
 
 <p>Dithering places two or more colors in neighboring pixels so that to the
 eye a closer approximation of the images original color is reproduced. This
@@ -2441,6 +2466,7 @@ href="#ordered-dither">-ordered-dither</a> to apply threshold mapped dither
 patterns, using uniform color maps, rather than specific color maps. </p>
 <p>Use "<code><a href="#define" >-define</a> dither:diffusion-amount=35%</code>, for example, to control the amount of Floyd-Steinberg dither.</p>
 
+
 <div style="margin: auto;">
   <h3><a class="anchor" id="draw"></a>-draw <var>string</var></h3>
 </div>
@@ -2453,6 +2479,7 @@ operations.</p>
 
 <p>The shape primitives:</p>
 
+<div class="pre-scrollable">
 <dl class="row">
 <dt class="col-md-4">point</dt><dd class="col-md-8">          x,y</dd>
 <dt class="col-md-4">line</dt><dd class="col-md-8">           x0,y0 x1,y1</dd>
@@ -2467,6 +2494,7 @@ operations.</p>
 <dt class="col-md-4">path</dt><dd class="col-md-8">specification  </dd>
 <dt class="col-md-4">image</dt><dd class="col-md-8">          operator x0,y0 w,h filename</dd>
 </dl>
+</div>
 
 <p>The text primitive:</p>
 
@@ -2486,6 +2514,7 @@ scope to the <a href="#draw">-draw</a> option in which it appears.</p>
 
 <p>The transformation primitives:</p>
 
+<div class="pre-scrollable">
 <dl class="row">
 <dt class="col-md-4">rotate</dt><dd class="col-md-8">degrees</dd>
 <dt class="col-md-4">translate</dt><dd class="col-md-8">dx,dy</dd>
@@ -2493,13 +2522,16 @@ scope to the <a href="#draw">-draw</a> option in which it appears.</p>
 <dt class="col-md-4">skewX</dt><dd class="col-md-8">degrees</dd>
 <dt class="col-md-4">skewY</dt><dd class="col-md-8">degrees</dd>
 </dl>
+</div>
 
 <p>The pixel operation primitives:</p>
 
+<div class="pre-scrollable">
 <dl class="row">
 <dt class="col-md-4">color</dt><dd class="col-md-8">x0,y0 method</dd>
 <dt class="col-md-4">matte</dt><dd class="col-md-8">x0,y0 method</dd>
 </dl>
+</div>
 
 <p>The shape primitives are drawn in the color specified by the preceding <a
 href="#fill">-fill</a> setting.  For unfilled shapes, use <a
@@ -2611,10 +2643,7 @@ magick!</code> for an image titled <code>bird.miff</code>. </p>
 to annotate an image with text.</p>
 
 <p>The <code>rotate</code> primitive rotates subsequent shape primitives and
-text primitives about the origin of the main image. If the <a
-href="#region">-region</a> option precedes the <a href="#draw">-draw</a>
-option, the origin for transformations is the upper left corner of the
-region.</p>
+text primitives about the origin of the main image.</p>
 
 <p>The <code>translate</code> primitive translates subsequent shape and text
 primitives.</p>
@@ -2709,7 +2738,7 @@ image sequence.</p>
 
 <p>Get the passphrase from the file specified by <var>filename</var>.</p>
 
-<p>For more information, see the webpage, <<a href="<?php
+<p>For more information, see the webpage, <a href="<?php
 echo $_SESSION['RelativePath'] ?>/../script/cipher.php">ImageMagick: Encipher or
 Decipher an Image</a>.</p>
 
@@ -2785,6 +2814,7 @@ a "normalized pixel" is that number divided by the maximum
 normalized pixels are used, they are restored, following the other
 calculations, to the full range by multiplying by <var>QuantumRange</var>.)</p>
 
+<div class="pre-scrollable">
 <table class="table table-sm table-hover">
   <col width="25%" />
   <col width="75%" />
@@ -2804,6 +2834,7 @@ calculations, to the full range by multiplying by <var>QuantumRange</var>.)</p>
     <tr><td>Divide  </td>         <td>Divide pixels by <var>value</var>.</td></tr>
     <tr><td>Exp  </td>            <td>base-e exponential function</td></tr>
     <tr><td>Exponential  </td>            <td>base-e exponential function</td></tr>
+    <tr><td>InverseLog  </td>            <td>Apply inverse scaled logarithm to normalized pixels.</td></tr>
     <tr><td>LeftShift </td>       <td>Shift the pixel values left by <var>value</var> bits (i.e., multiply pixels by 2<sup><var>value</var></sup>).</td></tr>
     <tr><td>Log  </td>            <td>Apply scaled logarithm to normalized pixels.</td></tr>
     <tr><td>Max  </td>            <td>Set pixels to maximum of <var>value</var> and current pixel <var>value</var> (i.e. set any pixels currently less than <var>value</var> to <var>value</var>).</td></tr>
@@ -2837,6 +2868,7 @@ calculations, to the full range by multiplying by <var>QuantumRange</var>.)</p>
    <tr><td>ThresholdWhite </td>  <td>Threshold pixels to maximum values above <var>value</var>.  </td></tr>
  </tbody>
  </table>
+</div>
 
 <p>The specified functions are applied only to each previously set <a
 href="#channel" >-channel</a> in the image. If necessary, the results of the
@@ -2913,7 +2945,7 @@ multi-value version of evaluate. </p>
   <h3><a class="anchor" id="evaluate-sequence"></a>-evaluate-sequence <var>operator</var></h3>
 </div>
 
-<p class="magick-description">Alter channel pixels by evaluating an arithmetic, relational, or logical expression over a sequence of images.   Ensure all the images in the sequence are in the same colorspace, otherwise you may get unexpected results, e.g. add <a href="#colorspace" >-colorspace sRGB</a> to your command-line.</p>
+<p class="magick-description">Alter channel pixels by evaluating an arithmetic, relational, or logical expression over a sequence of images.  Ensure all the images in the sequence are in the same colorspace, otherwise you may get unexpected results, e.g. add <a href="#colorspace" >-colorspace sRGB</a> to your command-line.</p>
 
 <p>To print a complete list of <a
 href="#evaluate-sequence">-evaluate-sequence</a> operators, use <a
@@ -2935,11 +2967,11 @@ specify how to compose the image with the background, use <a href="#compose"
 display.  If the aspect ratio of the input image isn't exactly 4:3, then the
 image is centered on an 800x600 black canvas: </p>
 
-<pre class="highlight"><code>convert input.jpg -resize 800x600 -background black -compose Copy \ 
+<pre class="highlight"><code>magick input.jpg -resize 800x600 -background black -compose Copy \
   -gravity center -extent 800x600 -quality 92 output.jpg
 </code></pre>
 
-<p>Extent supports geometry offsets as well as aspect ratio control. <?php seeGeometry(); ?></p>
+<p><?php seeGeometry(); ?></p>
 
 <div style="margin: auto;">
   <h3><a class="anchor" id="extract"></a>-extract <var>geometry</var></h3>
@@ -2950,7 +2982,7 @@ image is centered on an 800x600 black canvas: </p>
 <p>This option is most useful for extracting a subregion of a very large raw
 image.  Note that these two commands are equivalent:</p>
 
-<pre class="highlight"><code>convert -size 16000x16000 -depth 8 -extract 640x480+1280+960 \ 
+<pre class="highlight"><code>magick -size 16000x16000 -depth 8 -extract 640x480+1280+960 \
   image.rgb image.png",
 convert -size 16000x16000 -depth 8 'image.rgb[640x480+1280+960]' \
   image.rgb image.png"
@@ -2958,14 +2990,14 @@ convert -size 16000x16000 -depth 8 'image.rgb[640x480+1280+960]' \
 
 <p>If you omit the offsets, as in</p>
 
-<pre class="highlight"><code>convert -size 16000x16000 -depth 8 -extract 640x480 \ 
+<pre class="highlight"><code>magick -size 16000x16000 -depth 8 -extract 640x480 \
   image.rgb image.png
 </code></pre>
 
 <p>the image is <var>resized</var> to the specified dimensions instead,
 equivalent to:</p>
 
-<pre class="highlight"><code>convert -size 16000x16000 -depth 8 -resize 640x480 image.rgb image.png
+<pre class="highlight"><code>magick -size 16000x16000 -depth 8 -resize 640x480 image.rgb image.png
 </code></pre>
 
 <p><?php seeGeometry(); ?></p>
@@ -2979,7 +3011,7 @@ equivalent to:</p>
 <p>This setting suggests a font family that ImageMagick should try to use for
 rendering text. If the family can be found it is used; if not, a default font
 (e.g., "Arial") or a family known to be similar is substituted (e.g.,
-"Courier" might be used if "System" is requested but not found). Note, the family can be a CSS-style font list. </p>
+"Courier" might be used if "System" is requested but not found). Note, the family can be a CSS-style font list.</p>
 
 <p>For other settings that affect fonts, see the options <a
 href="#font">-font</a>, <a href="#stretch">-stretch</a>, <a
@@ -3034,13 +3066,13 @@ formats that do not limit the color or compress the image. Thus, MIFF, TIF,
 PFM, EXR and PNG are the recommended image formats to use. All of these
 formats, except PNG support multi-frame images. So for example,</p>
 
-<pre class="highlight"><code>convert image.png -fft fft_image.miff
+<pre class="highlight"><code>magick image.png -fft fft_image.miff
 </code></pre>
 
 <p>generates a magnitude image as <code>fft_image.miff[0]</code> and a phase
 image as <code>fft_image.miff[1]</code>. Similarly,</p>
 
-<pre class="highlight"><code>convert image.png -fft fft_image.png
+<pre class="highlight"><code>magick image.png -fft fft_image.png
 </code></pre>
 
 <p>generates a magnitude image as <code>fft_image-0.png</code> and a phase image
@@ -3066,7 +3098,7 @@ function into what is usually called the spectrum. A log function is used to
 enhance the darker values more in comparison to the lighter values. This can
 be done, for example, as follows:</p>
 
-<pre class="highlight"><code>convert fft_image.miff[0] -contrast-stretch 0 \
+<pre class="highlight"><code>magick fft_image.miff[0] -contrast-stretch 0 \
   -evaluate log 1000 fft_image_spectrum.png"
 </code></pre>
 
@@ -3088,7 +3120,7 @@ this requires that IM be configured with HDRI enabled. In this case, you must
 use either MIFF, TIF, PFM or MPC formats for the real and imaginary component
 results, since they are formats that preserve both negative and fractional
 values without clipping them or truncating the fractional part. With either
-MIFF or TIFF, one should add <code>-define quantum:format=32</code>, to allow those image
+MIFF or TIF, one should add <code>-define quantum:format=32</code>, to allow those image
 types to work properly in HDRI mode without clipping.</p>
 
 <p>The real and imaginary component images resulting from <a
@@ -3147,7 +3179,10 @@ operations such as <a href="#resize">-resize</a> and <a href="#distort"
 <pre class="highlight"><code>Point       Hermite       Cubic
 Box         Gaussian      Catrom
 Triangle    Quadratic     Mitchell
+CubicSpline
 </code></pre>
+
+<p>Use <code>-define filter:lobes={2,3,4}</code> to specify the support size for filtering for the <code>CubicSpline</code> filter.</p>
 
 <p>The <code>Bessel</code> and <code>Sinc</code> filter is also provided (as well
 as a faster <code>SincFast</code> equivalent form).  However these filters are
@@ -3181,6 +3216,7 @@ filter</a> option.</p>
 use of these expert settings (see also <a href="#define" >-define</a> and <a
 href="#set" >-set</a>):-</p>
 
+<div class="pre-scrollable">
 <table class="table table-sm table-hover">
   <tr>
     <td>-define filter:blur=<var>factor</var></td>
@@ -3293,10 +3329,11 @@ href="#set" >-set</a>):-</p>
   </tr>
 
 </table>
+</div>
 
 <p>For example, to get a 8 lobe jinc windowed sinc filter (Genseng filter?):</p>
 
-<pre class="highlight"><code>convert image.png \
+<pre class="highlight"><code>magick image.png \
   -filter sinc \
   -set filter:window=jinc \
   -set filter:lobes=8 \
@@ -3305,7 +3342,7 @@ href="#set" >-set</a>):-</p>
 
 <p>Or a raw un-windowed Sinc filter with 4 lobes:</p>
 
-<pre class="highlight"><code>convert image.png \
+<pre class="highlight"><code>magick image.png \
   -set filter:filter=sinc \
   -set filter:lobes=4 \
   -resize 150% image.jpg"
@@ -3315,7 +3352,7 @@ href="#set" >-set</a>):-</p>
 a '<code>Box</code>' filter.  For example the '<code>Welch</code> parabolic
 windowing function. </p>
 
-<pre class="highlight"><code>convert null: -define filter:filter=Box \
+<pre class="highlight"><code>magick null: -define filter:filter=Box \
   -define filter:window=Welch \
   -define filter:support=1.0 \
   -define filter:verbose=1 \
@@ -3446,8 +3483,8 @@ option.</p>
 
 <p class="magick-description">Surround the image with a border or beveled frame.</p>
 
-<p>The color of the border is specified with the <a href="#alpha-color"
->-alpha-color</a> command line option. </p>
+<p>The color of the border is specified with the <a href="#mattecolor"
+>-mattecolor</a> command line option. </p>
 
 <p><?php seeGeometry(); ?> The <var>size</var> portion of the <var>geometry</var> argument indicates the amount of extra width and
 height that is added to the dimensions of the image. If no offsets are given
@@ -3463,7 +3500,7 @@ href="#compose">-compose</a> setting and assumes that this is using the default
 '<code>Over</code>' composition method.  It generates an image of the appropriate
 size with the current <a href="#bordercolor">-bordercolor</a> setting, and then
 draws the frame of four distinct colors close to the current <a
-href="#alpha-color">-alpha-color</a>.  The original image is then overlaid onto
+href="#mattecolor">-mattecolor</a>.  The original image is then overlaid onto
 center of this image.  This means that with the default compose method of
 '<code>Over</code>' any transparent parts may be replaced by the current <a
 href="#bordercolor">-bordercolor</a> setting.</p>
@@ -3505,6 +3542,7 @@ Arctan
 <p>To print a complete list of <a href="#function">-function</a> operators,
 use <a href="#list">-list function</a>. Descriptions follow.</p>
 
+<div class="pre-scrollable">
 <dl class="row">
   <dt class="col-md-4">Polynomial</dt>
   <dd class="col-md-8"><p>The <code>Polynomial</code> function takes an arbitrary number of parameters,
@@ -3528,6 +3566,7 @@ polynomials) of the <a href="#evaluate">-evaluate</a> operator. The <a
 href="#level">-level</a> operator also affects channels linearly. Some
 correspondences follow.</p>
 
+<div class="pre-scrollable">
 <table class="table table-sm table-hover">
   <tr>
         <td>-evaluate Set <var>value</var> </td>
@@ -3552,6 +3591,7 @@ correspondences follow.</p>
         <td>(Reduce contrast. Here, A=(white-black)/100 and  B=black/100.)</td>
   </tr>
 </table>
+</div>
 
 <p>The <code>Polynomial</code> function gives great versatility, since
 polynomials can be used to fit any continuous curve to any degree of accuracy
@@ -3589,6 +3629,7 @@ is 0.</p>
 <code>Cos</code> of the <a href="#evaluate">-evaluate</a> operator by allowing
 varying amplitude, phase and bias. The correspondence is as follows.</p>
 
+<div class="pre-scrollable">
 <table class="table table-sm table-hover">
   <tr>
         <td>-evaluate Sin <var>freq</var> </td>
@@ -3599,6 +3640,7 @@ varying amplitude, phase and bias. The correspondence is as follows.</p>
         <td>-function Sinusoid <var>freq</var>,90 </td>
   </tr>
 </table>
+</div>
   </dd>
 <dt class="col-md-4">ArcSin</dt>
 <dd class="col-md-8">
@@ -3634,6 +3676,7 @@ All these values can be adjusted via the arguments.</p>
 </code></pre>
   </dd>
 </dl>
+</div>
 
 
 
@@ -3691,10 +3734,6 @@ a power law, namely, pow(pixel,1/gamma) or pixel^(1/gamma), where pixel is the
 normalized or 0 to 1 color value. For example, using a value of gamma=2 is the
 same as taking the square root of the image.</p>
 
-<p>You can apply separate gamma values to the red, green, and blue channels of
-the image with a gamma value list delimited with commas (e.g.,
-<code>1.7,2.3,1.2</code>).</p>
-
 <p>Use <a href="#gamma">+gamma <var>value</var></a> to set the
 image gamma level without actually adjusting the image pixels. This option
 is useful if the image is of a known gamma but not set as an image attribute
@@ -3702,7 +3741,7 @@ is useful if the image is of a known gamma but not set as an image attribute
 display gamma; e.g., if your image is sRGB and you want to write a PNG gAMA
 chunk, use</p>
 
-<pre class="highlight"><code>convert input.png +gamma .45455 output.png
+<pre class="highlight"><code>magick input.png +gamma .45455 output.png
 </code></pre>
 
 <p>(0.45455 is 1/2.2)</p>
@@ -3710,7 +3749,7 @@ chunk, use</p>
 <p>Note that gamma adjustments are also available via the <a href="#level">-level</a> operator.</p>
 
 <div style="margin: auto;">
-  <h3><a class="anchor" id="gaussian-blur"></a>-gaussian-blur <var>radius</var><br />-gaussian-blur <var>radius</var>x<var>sigma</var></h3>
+  <h3><a class="anchor" id="gaussian-blur"></a>-gaussian-blur <var>radius</var><br />-gaussian-blur <var>radius</var>{x<var>sigma</var>}</h3>
 </div>
 
 <p class="magick-description">Blur the image with a Gaussian operator.</p>
@@ -3791,7 +3830,7 @@ that point. (In addition, the <a href="#gravity">-gravity</a> affects the
 region itself, which is <var>centered</var> at the pixel
 coordinate (60,70). (<?php seeGeometry();?>)</p>
 
-<pre class="highlight"><code>convert image.png -gravity Center -region 10x10-40+20 \ 
+<pre class="highlight"><code>magick image.png -gravity Center -region 10x10-40+20 \
   -negate output.png
 </code></pre>
 
@@ -3818,27 +3857,27 @@ convert the given image into a grayscale image. </p>
 
 <p>For example, to convert an image to (linear) Rec709Luminance grayscale,  type:</p>
 
-<pre class="highlight"><code>convert in.png -grayscale Rec709Luminance out.png
+<pre class="highlight"><code>magick in.png -grayscale Rec709Luminance out.png
 </code></pre>
 
 <p>which is equivalent to:</p>
 
 <pre class="highlight">
-<code>convert in.png -colorspace RGB -colorspace Gray out.png</code>
+<code>magick in.png -colorspace RGB -colorspace Gray out.png</code>
 or
-<code>convert in.png -colorspace LinearGray out.png</code>
+<code>magick in.png -colorspace LinearGray out.png</code>
 </pre>
 
 <p>Note that LinearGray is new as of Imagemagick 6.9.9-29 and 7.0.7-17.</p>
 
 <p>Similarly, to convert an image to (non-linear) Rec709Luma grayscale,  type:</p>
 
-<pre class="highlight"><code>convert in.png -grayscale Rec709Luma out.png
+<pre class="highlight"><code>magick in.png -grayscale Rec709Luma out.png
 </code></pre>
 
 <p>which is equivalent to:</p>
 
-<pre class="highlight"><code>convert in.png -colorspace Gray out.png
+<pre class="highlight"><code>magick in.png -colorspace Gray out.png
 </code></pre>
 
 <p>Note that a 'colorspace' intensity method will produce the same result
@@ -3846,7 +3885,7 @@ regardless of the current colorpsace of the image. But a 'mathematical'
 intensity method depends on the current colorspace the image is currently
 using. </p>
 
-<p>While this operation uses an <a href="#intensity" >-intensity</a> method, 
+<p>While this operation uses an <a href="#intensity" >-intensity</a> method,
 it does not use or set the <a href="#intensity" >-intensity</a> setting, so
 will not affect other operations that may use that setting.</p>
 
@@ -3869,7 +3908,7 @@ dimensions.  Create it with the <code>HALD:</code> prefix (e.g. HALD:8).  You
 can apply any color transformation to the Hald image and then use this option
 to apply the transform to the image. </p>
 
-<pre class="highlight"><code>convert image.png hald.png -hald-clut transform.png
+<pre class="highlight"><code>magick image.png hald.png -hald-clut transform.png
 </code></pre>
 
 <p>This option provides a convenient method for you to use Gimp or Photoshop
@@ -3978,12 +4017,12 @@ href="http://en.wikipedia.org/wiki/Fourier_transform">Fourier Transform</a>,
 <p>For example, depending upon the image format used to store the result of
 the <a href="#fft">-fft</a>, one would use either</p>
 
-<pre class="highlight"><code>convert fft_image.miff -ift fft_image_ift.png
+<pre class="highlight"><code>magick fft_image.miff -ift fft_image_ift.png
 </code></pre>
 
 <p>or</p>
 
-<pre class="highlight"><code>convert fft_image-0.png fft_image-1.png -ift fft_image_ift.png
+<pre class="highlight"><code>magick fft_image-0.png fft_image-1.png -ift fft_image_ift.png
 </code></pre>
 
 <p>The resulting image may need to be cropped due to padding introduced when
@@ -4036,13 +4075,13 @@ Consequently this has no effect on the image sequence order.</p>
 <p>ImageMagick provides a number of methods used in situations where an
 operator needs to determine a single grayscale value for some purpose, from
 an image with red, green, and blue pixel components. Typically the
-<code>Rec709Luma</code> formula is used, which is the same formula used when 
-converting images to <code>-colorspace gray</code>. </p>
+<code>Rec709Luma</code> formula is used, which is the same formula used when converting images to <code>-colorspace gray</code>. </p>
 
 <p>The following formulas are currently provided, and will first convert
 the pixel values to linear-RGB or non-linear sRGB colorspace before
 being applied to calculate the final greyscale value. </p>
 
+<div class="pre-scrollable">
 <dl class="row">
 <dt class="col-md-4">Rec601Luma</dt><dd class="col-md-8">      0.298839R' + 0.586811G'+ 0.114350B'</dd>
 <dt class="col-md-4">Rec601Luminance</dt><dd class="col-md-8"> 0.298839R + 0.586811G + 0.114350B</dd>
@@ -4051,6 +4090,7 @@ being applied to calculate the final greyscale value. </p>
 <dt class="col-md-4">Brightness</dt><dd class="col-md-8">      max(R', G', B')</dd>
 <dt class="col-md-4">Lightness</dt><dd class="col-md-8">       (min(R', G', B') + max(R', G', B')) / 2.0</dd>
 </dl>
+</div>
 
 <p>Note that the above R,G,B values is the image's linear-RGB values, while
 R',G',B' are sRGB non-linear values. </p>
@@ -4059,11 +4099,13 @@ R',G',B' are sRGB non-linear values. </p>
 current value in the images respective R,G,B channel regardless of
 what that is, or what colorspace the image is currently using.</p>
 
+<div class="pre-scrollable">
 <dl class="row">
 <dt class="col-md-4">Average</dt><dd class="col-md-8">(R' + G' + B') / 3.0</dd>
 <dt class="col-md-4">MS</dt><dd class="col-md-8">(R'^2 + G'^2 + B'^2) / 3.0</dd>
 <dt class="col-md-4">RMS</dt><dd class="col-md-8">sqrt( (R'^2 + G'^2 + B'^2) / 3.0 )</dd>
 </dl>
+</div>
 
 <p>These methods are often used for other purposes, such as generating a
 grayscale difference image between two color images (using <a href="#compose"
@@ -4098,6 +4140,7 @@ function.</p>
 -distort {ErodeIntensity, DilateIntensity}
 -normalize
 -random-threshold
+-range-threshold
 -selective-blur
 -shade
 -threshold
@@ -4166,24 +4209,34 @@ image. This setting determines how the color is determined from the colors of
 the pixels surrounding that point.  That is how to determine the color of a
 point that falls between two, or even four different colored pixels. </p>
 
+<div class="pre-scrollable">
 <dl class="row">
-  <dt class="col-md-4">integer</dt>
-  <dd class="col-md-8">The color of the top-left pixel (floor function)</dd>
-  <dt class="col-md-4">nearest-neighbor</dt>
-  <dd class="col-md-8">The nearest pixel to the lookup point (rounded function)</dd>
   <dt class="col-md-4">average</dt>
   <dd class="col-md-8">The average color of the surrounding four pixels</dd>
+  <dt class="col-md-4">average4</dt>
+  <dd class="col-md-8">The average color of the surrounding four pixels</dd>
+  <dt class="col-md-4">average9</dt>
+  <dd class="col-md-8">The average color of the surrounding nine pixels</dd>
+  <dt class="col-md-4">average16</dt>
+  <dd class="col-md-8">The average color of the surrounding sixteen pixels</dd>
+  <dt class="col-md-4">background</dt>
+  <dd class="col-md-8">&nbsp;</dd>
   <dt class="col-md-4">bilinear</dt>
   <dd class="col-md-8">A double linear interpolation of pixels (the default)</dd>
+  <dt class="col-md-4">blend</dt>
+  <dd class="col-md-8">&nbsp;</dd>
+  <dt class="col-md-4">catrom</dt>
+  <dd class="col-md-8">Fitted bicubic-spines of surrounding 16 pixels</dd>
+  <dt class="col-md-4">integer</dt>
+  <dd class="col-md-8">The color of the top-left pixel (floor function)</dd>
   <dt class="col-md-4">mesh</dt>
   <dd class="col-md-8">Divide area into two flat triangular interpolations</dd>
-  <dt class="col-md-4">bicubic</dt>
-  <dd class="col-md-8">Fitted bicubic-spines of surrounding 16 pixels</dd>
+  <dt class="col-md-4">nearest-neighbor</dt>
+  <dd class="col-md-8">The nearest pixel to the lookup point (rounded function)</dd>
   <dt class="col-md-4">spline</dt>
   <dd class="col-md-8">Direct spline curves (colors are blurred)</dd>
-  <dt class="col-md-4">filter</dt>
-  <dd class="col-md-8">Use resize <a href="#filter">-filter</a> settings</dd>
 </dl>
+</div>
 
 <p>This most important for distortion operators such as <a href="#distort"
 >-distort</a>, <a href="#implode" >-implode</a>, <a href="#transform"
@@ -4214,7 +4267,13 @@ lookup for positions outside the boundaries of the image. </p>
 <p class="magick-description">the space between two letters.</p>
 
 <div style="margin: auto;">
-  <h3><a class="anchor" id="kuwahara"></a>-kuwahara <var>radius</var><br />-kuwahara <var>radius</var>x<var>sigma</var></h3>
+  <h3><a class="anchor" id="kmeans"></a>-kmeans <var>colors</var>{x<var>iterations</var>}{+<var>tolerance</var>}</h3>
+</div>
+
+<p class="magick-description">Kmeans (iterative) color reduction (e.g. <code>-kmeans 5x100+0.01</code>). Colors is the desired number of colors. Initial colors are found using color quantization. Iterations is the stopping number of iterations (default=100). Convergence is the stopping threshold on the color change between iterations (default=0.01). Processing finishes, if either iterations or tolerance are reached. Use <code>-define kmeans:seed-colors=<var>color-list</var></code> to initialize the colors, where color-list is a semicolon delimited list of seed colors (e.g. <code>-define kmeans:seed-colors="red;sRGB(19,167,254);#00ffff</code>). A color list overrides the color quantization. A non-empty list of colors overrides the number of colors. Any unassigned initial colors are assigned  random colors from the image.</p>
+
+<div style="margin: auto;">
+  <h3><a class="anchor" id="kuwahara"></a>-kuwahara <var>radius</var><br />-kuwahara <var>radius</var>{x<var>sigma</var>}</h3>
 </div>
 
 <p class="magick-description">edge preserving noise reduction filter.</p>
@@ -4291,6 +4350,7 @@ the local background color, from which to separate the foreground color. </p>
 which may represent either a set of overlaid 'image layers', a GIF disposal
 animation, or a fully-'coalesced' animation sequence. </p>
 
+<div class="pre-scrollable">
 <table class="table table-sm table-hover">
   <tbody>
   <tr>
@@ -4541,6 +4601,7 @@ animation, or a fully-'coalesced' animation sequence. </p>
 
   </tbody>
 </table>
+</div>
 
 <p>To print a complete list of layer types, use <a href="#list">-list layers</a>.</p>
 
@@ -4864,6 +4925,7 @@ href="#debug">-debug</a> option is active.</p>
 <p>You can display the following components by embedding special format
 characters:</p>
 
+<div class="pre-scrollable">
 <dl class="row">
 <dt class="col-md-4">%d</dt><dd class="col-md-8">domain</dd>
 <dt class="col-md-4">%e</dt><dd class="col-md-8">event</dd>
@@ -4878,10 +4940,11 @@ characters:</p>
 <dt class="col-md-4">\n</dt><dd class="col-md-8">newline</dd>
 <dt class="col-md-4">\r</dt><dd class="col-md-8">carriage return</dd>
 </dl>
+</div>
 
 <p>For example:</p>
 
-<pre class="highlight"><code>convert -debug coders -log "%u %m:%l %e" in.gif out.png
+<pre class="highlight"><code>magick -debug coder -log "%u %m:%l %e" in.gif out.png
 </code></pre>
 
 <p>The default behavior is to print all of the components.</p>
@@ -4906,7 +4969,7 @@ times.</p>
   <h3><a class="anchor" id="magnify"></a>-magnify</h3>
 </div>
 
-<p class="magick-description">double the size of the image with pixel art scaling.</p>
+<p class="magick-description">double or triple the size of the image with pixel art scaling. Specify an alternative scaling method with <code>-define magnify:method=<var>method</var></code> Choose from these methods: <code>eagle2X, eagle3X, eagle3XB, epb2X, fish2X, hq2X,  scale2X, scale3X, xbr2X</code>.  The default is scale2X.</p>
 
 
 <div style="margin: auto;">
@@ -4939,6 +5002,7 @@ the type and <code>display</code> searches the list of colormap types in
 
 <p>Here are the valid components of a map:</p>
 
+<div class="pre-scrollable">
 <dl class="row">
 <dt class="col-md-4">r</dt><dd class="col-md-8">  red pixel component</dd>
 <dt class="col-md-4">g</dt><dd class="col-md-8">  green pixel component</dd>
@@ -4952,26 +5016,11 @@ the type and <code>display</code> searches the list of colormap types in
 <dt class="col-md-4">k</dt><dd class="col-md-8">  black pixel component</dd>
 <dt class="col-md-4">p</dt><dd class="col-md-8">  pad component (always 0)</dd>
 </dl>
+</div>
 
 <p>You can specify as many of these components as needed in any order (e.g.
 bgr).  The components can repeat as well (e.g. rgbr).</p>
 
-
-<div style="margin: auto;">
-  <h3><a class="anchor" id="mask"></a>-mask
-<var>filename</var></h3>
-</div>
-
-<p class="magick-description">Prevent updates to image pixels specified by the mask.</p>
-
-<p>This the same as using a mask used for composite masking operations, with
-grayscale values causing blended updates of the image the mask is attached to.
-</p>
-
-<p>Use <a href="#mask">+mask</a> to remove the mask from images.</p>
-
-<p>Also see <a href="#clip-mask">-clip-mask</a> which work in the same way,
-but with strict boolean masking. </p>
 
 <div style="margin: auto;">
   <h3><a class="anchor" id="mattecolor"></a>-mattecolor <var>color</var></h3>
@@ -4983,8 +5032,6 @@ but with strict boolean masking. </p>
 
 <p>The default matte color is <code>#BDBDBD</code>, <span
 style="background-color: #bdbdbd;">this shade of gray</span>.</p>
-
-<p>This is an IMv6 option, use <a href="#alpha-color">-alpha-color</a> with IMv7.</p>
 
 <div style="margin: auto;">
   <h3><a class="anchor" id="maximum"></a>-maximum</h3>
@@ -5026,18 +5073,22 @@ name. </p>
 
 <p>Choose from:</p>
 
+<div class="pre-scrollable">
 <dl class="row">
 <dt class="col-md-4">AE</dt><dd class="col-md-8">    absolute error count, number of different pixels (-fuzz affected)</dd>
+<dt class="col-md-4">DSSIM</dt><dd class="col-md-8">  structural dissimilarity index</dd>
 <dt class="col-md-4">FUZZ</dt><dd class="col-md-8">  mean color distance</dd>
 <dt class="col-md-4">MAE</dt><dd class="col-md-8">   mean absolute error (normalized), average channel error distance</dd>
 <dt class="col-md-4">MEPP</dt><dd class="col-md-8">  mean error per pixel (normalized mean error, normalized peak error)</dd>
 <dt class="col-md-4">MSE</dt><dd class="col-md-8">   mean error squared, average of the channel error squared</dd>
 <dt class="col-md-4">NCC</dt><dd class="col-md-8">   normalized cross correlation</dd>
 <dt class="col-md-4">PAE</dt><dd class="col-md-8">   peak absolute (normalized peak absolute)</dd>
-<dt class="col-md-4">PHASH</dt><dd class="col-md-8"> perceptual hash</dd>
+<dt class="col-md-4">PHASH</dt><dd class="col-md-8"> perceptual hash for the sRGB and HCLp colorspaces.  Specify an alternative colorspace with <code>-define phash:colorspaces=<var>colorspace,colorspace,...</var></code></dd>
 <dt class="col-md-4">PSNR</dt><dd class="col-md-8">  peak signal to noise ratio</dd>
 <dt class="col-md-4">RMSE</dt><dd class="col-md-8">  root mean squared (normalized root mean squared)</dd>
+<dt class="col-md-4">SSIM</dt><dd class="col-md-8">  structural similarity index</dd>
 </dl>
+</div>
 
 <p>Control the '<code>AE</code>', or absolute count of pixels that are different,
 with the <a href="#fuzz" >-fuzz</a> factor (ignore pixels which
@@ -5046,9 +5097,13 @@ size of the <a href="#fuzz" >-fuzz</a> factor needed to make all pixels
 'similar', while '<code>MAE</code>' determines the factor needed
 for about half the pixels to be similar. </p>
 
-<p>The '<code>MEPP</code>' metric returns three different metrics
+<p>The <code>MEPP</code> metric returns three different metrics
 ('<code>MAE</code>', '<code>MAE</code>' normalized, and '<code>PAE</code>'
 normalized) from a single comparison run. </p>
+
+<p>The <code>SSIM</code> and <code>DSSIM</code> metrics respect these defines:
+<code>-define compare:ssim-radius</code>, <code>-define compare:ssim-sigma</code>,
+<code>-define compare:ssim-k1</code>, and <code>-define compare:ssim-k2</code>.</p>
 
 <p>To print a complete list of metrics, use the <a href="#list">-list
 metric</a> option.</p>
@@ -5120,7 +5175,7 @@ href="#modulate">-modulate 120,90</a>.</p>
 >option:modulate:colorspace</code>' to specify which colorspace to
 modulate.  Choose from <code>HCL</code>, <code>HCLp</code>, <code>HSB</code>, <code>HSI</code>, <code>HSL</code> (the default), <code>HSV</code>, <code>HWB</code>, or <code>LCH</code> (LCHuv).  For example,</p>
 
-<pre class="highlight"><code>convert image.png -set option:modulate:colorspace hsb -modulate 120,90 modulate.png
+<pre class="highlight"><code>magick image.png -set option:modulate:colorspace hsb -modulate 120,90 modulate.png
 </code></pre>
 
 <div style="margin: auto;">
@@ -5176,7 +5231,7 @@ Morphology</a>. </p>
 
 
 <div style="margin: auto;">
-  <h3><a class="anchor" id="motion-blur"></a>-motion-blur <var>radius</var><br />-motion-blur <var>radius</var>x<var>sigma</var>+<var>angle</var></h3>
+  <h3><a class="anchor" id="motion-blur"></a>-motion-blur <var>radius</var><br />-motion-blur <var>radius</var>{x<var>sigma</var>}+<var>angle</var></h3>
 </div>
 
 <p class="magick-description">simulate motion blur.</p>
@@ -5526,7 +5581,7 @@ visible effect.</p>
 <p class="magick-description">image preview type.</p>
 
 <p>Use this option to affect the preview operation of an image (e.g.
-<code>convert file.png -preview Gamma Preview:gamma.png</code>). Choose from
+<code>magick file.png -preview Gamma Preview:gamma.png</code>). Choose from
 these previews:</p>
 
 <pre class="pre-scrollable"><code>
@@ -5609,7 +5664,9 @@ used. Instead, simply write the file to an image format such as <var>APP1, 8BIM,
 <p>For example, to extract the Exif data (which is stored in JPEG files in the
 <var>APP1</var> profile), use.</p>
 
-<pre class="highlight"><code>convert cockatoo.jpg profile.exif
+<p>Set <code>-define precision:highres-transform=true</code> to increase the transform precision.  Note, there is a slight performance penalty as the high-precision transform is floating point rather than unsigned.</p>
+
+<pre class="highlight"><code>magick cockatoo.jpg profile.exif
 </code></pre>
 
 <p>It is important to note that results may depend on whether or not the
@@ -5619,7 +5676,7 @@ therefore a conversion is made each time it is encountered, in order, in the
 command-line. For instance, in the following example, if the original image is
 CMYK with profile, a CMYK-CMYK-RGB conversion results.</p>
 
-<pre class="highlight"><code>convert CMYK.tif -profile "CMYK.icc" -profile "RGB.icc" RGB.tiff
+<pre class="highlight"><code>magick CMYK.tif -profile "CMYK.icc" -profile "RGB.icc" RGB.tiff
 </code></pre>
 
 <p>Furthermore, since ICC profiles are not necessarily symmetric, extra
@@ -5660,6 +5717,7 @@ compression.</p>
 <p>If filter-type is 4 or less, the specified PNG filter-type is used for
 all scanlines:</p>
 
+<div class="pre-scrollable">
 <dl class="row">
 <dt class="col-md-4">0</dt><dd class="col-md-8">none</dd>
 <dt class="col-md-4">1</dt><dd class="col-md-8">sub</dd>
@@ -5667,6 +5725,7 @@ all scanlines:</p>
 <dt class="col-md-4">3</dt><dd class="col-md-8">average</dd>
 <dt class="col-md-4">4</dt><dd class="col-md-8">Paeth</dd>
 </dl>
+</div>
 
 <p>If filter-type is 5, adaptive filtering is used when quality is greater
 than 50 and the image does not have a color map, otherwise no filtering is
@@ -5754,6 +5813,28 @@ href="#raise">-raise</a> does not alter the dimensions of the image.</p>
 </div>
 
 <p class="magick-description">Apply a random threshold to the image.</p>
+
+<div style="margin: auto;">
+  <h3><a class="anchor" id="range-threshold"></a>-range-threshold <var>low-black</var>,<var>low-white</var>,<var>high-white</var>,<var>high-black</var></h3>
+</div>
+
+<p class="magick-description">Perform either hard or soft thresholding within some range of values in an image.</p>
+
+<div style="margin: auto;">
+  <h3><a class="anchor" id="read-mask"></a>-read-mask
+<var>filename</var></h3>
+</div>
+
+<p class="magick-description">Prevent updates to image pixels specified by the mask.</p>
+
+<p>This the same as using a mask used for composite masking operations, with
+grayscale values causing blended updates of the image the mask is attached to.
+</p>
+
+<p>Use <a href="#read-mask">+read-mask</a> to remove the mask from images.</p>
+
+<p>Also see <a href="#clip-mask">-clip-mask</a> which work in the same way,
+but with strict boolean masking. </p>
 
 <div style="margin: auto;">
   <h3><a class="anchor" id="red-primary"></a>-red-primary <var>x,y</var></h3>
@@ -5903,7 +5984,7 @@ filter.</p>
 coding.  If your image is gamma-corrected, you can remove the nonlinear gamma
 correction, apply the transform, then restore it like this:</p>
 
-<pre class="highlight"><code>convert portrait.jpg -gamma .45455 -resize 25% -gamma 2.2  \
+<pre class="highlight"><code>magick portrait.jpg -gamma .45455 -resize 25% -gamma 2.2  \
   -quality 92 passport.jpg
 </code></pre>
 
@@ -6073,7 +6154,7 @@ of the color clusters is returned.</p>
 
 
 <div style="margin: auto;">
-  <h3><a class="anchor" id="selective-blur"></a>-selective-blur <var>radius</var><br />-selective-blur <var>radius</var>x<var>sigma</var>{<var>+threshold</var>}</h3>
+  <h3><a class="anchor" id="selective-blur"></a>-selective-blur <var>radius</var><br />-selective-blur <var>radius</var>{x<var>sigma</var>}{<var>+threshold</var>}</h3>
 </div>
 
 <p class="magick-description">Selectively blur pixels within a contrast threshold.</p>
@@ -6162,14 +6243,14 @@ attribute. </p>
 <p>This option can also associate a colorspace or profile with your image.
 For example,</p>
 
-<pre class="highlight"><code>convert image.psd -set profile ISOcoated_v2_eci.icc image-icc.psd
+<pre class="highlight"><code>magick image.psd -set profile ISOcoated_v2_eci.icc image-icc.psd
 </code></pre>
 
 <p>Some 'properties' must be defined in a specific way to be used. For
 example only 'properties' prefixed with "<code>filename:</code>" can be used to
 modify the output filename of an image. For example</p>
 
-<pre class="highlight"><code>convert rose: -set filename:mysize '%wx%h' 'rose_%[filename:mysize].png'
+<pre class="highlight"><code>magick rose: -set filename:mysize '%wx%h' 'rose_%[filename:mysize].png'
 </code></pre>
 
 <p>If the setting value is prefixed with "<code>option:</code>" the setting will
@@ -6179,7 +6260,7 @@ can be used to pass 'attributes' and 'properties' of one specific image,
 in a way that allows you to use them in a completely different image, even if
 the original image has long since been modified or destroyed. For example: </p>
 
-<pre class="highlight"><code>convert rose:  -set option:rosesize '%wx%h' -delete 0 \
+<pre class="highlight"><code>magick rose:  -set option:rosesize '%wx%h' -delete 0 \
   label:'%[rosesize]'   label_size_of_rose.gif"
 </code></pre>
 
@@ -6196,7 +6277,7 @@ previously-formatted ancillary chunks into the output PNG file, using
 the commandline option as shown below or by setting the profile via a
 programming interface:</p>
 
-<pre class="highlight"><code>convert in.png -set profile PNG-chunk-x:&lt;filename&gt; out.png
+<pre class="highlight"><code>magick in.png -set profile PNG-chunk-x:&lt;filename&gt; out.png
 </code></pre>
 
 <p>where <var>x</var> is a location flag and
@@ -6211,7 +6292,7 @@ of the same type, then add a short unique string after the "x" to prevent
 subsequent profiles from overwriting the preceding ones, e.g.,</p>
 
 
-<pre class="highlight"><code>convert in.png -set profile PNG-chunk-b01:file01 \ 
+<pre class="highlight"><code>magick in.png -set profile PNG-chunk-b01:file01 \
   -profile PNG-chunk-b02:file02 out.png
 </code></pre>
 
@@ -6244,7 +6325,7 @@ and the display must support the <var>MIT-SHM</var> extension.
 Otherwise, this option is ignored. The default is <code>True</code>.</p>
 
 <div style="margin: auto;">
-  <h3><a class="anchor" id="sharpen"></a>-sharpen <var>radius</var><br />-sharpen <var>radius</var>x<var>sigma</var></h3>
+  <h3><a class="anchor" id="sharpen"></a>-sharpen <var>radius</var><br />-sharpen <var>radius</var>{x<var>sigma</var>}</h3>
 </div>
 
 <p class="magick-description">sharpen the image.</p>
@@ -6290,7 +6371,7 @@ important to note, since horizontal and vertical shears do not
 <var>commute</var>, i.e., the order matters in a sequence of shears. For
 example, the following two commands are not equivalent.</p>
 
-<pre class="highlight"><code>convert logo: -shear 20x0 -shear 0x60 logo-sheared.png
+<pre class="highlight"><code>magick logo: -shear 20x0 -shear 0x60 logo-sheared.png
 convert logo: -shear 0x60 -shear 20x0 logo-sheared.png
 </code></pre>
 
@@ -6298,7 +6379,7 @@ convert logo: -shear 0x60 -shear 20x0 logo-sheared.png
 for the amount of empty space created; the command that follows generates
 a smaller image, and so is a better choice in terms of time and space.</p>
 
-<pre class="highlight"><code>convert logo: -shear 20x60 logo-sheared.png
+<pre class="highlight"><code>magick logo: -shear 20x60 logo-sheared.png
 </code></pre>
 
 <div style="margin: auto;">
@@ -6319,7 +6400,7 @@ middle-gray; 100% is black). </p>
 
 <p>By default the image contrast is increased, use <var>+sigmoidal-contrast</var> to decrease the contrast.</p>
 
-<p>To achieve the equivalent of a sigmoidal brightness change (similar to 
+<p>To achieve the equivalent of a sigmoidal brightness change (similar to
 a gamma adjustment), you would use <var>-sigmoidal-contrast
 {brightness}x0%</var> to increase brightness and <var>+sigmoidal-contrast {brightness}x0%</var> to decrease brightness.
 Note the use of '0' fo rthe mid-point of the sigmoidal curve. </p>
@@ -6369,7 +6450,7 @@ image or tell the number of colors in a <code>MAP</code> image file, (e.g. -size
 </code></pre>
 
 <div style="margin: auto;">
-  <h3><a class="anchor" id="sketch"></a>-sketch <var>radius</var><br />-sketch <var>radius</var>x<var>sigma</var>+<var>angle</var></h3>
+  <h3><a class="anchor" id="sketch"></a>-sketch <var>radius</var><br />-sketch <var>radius</var>{x<var>sigma</var>}+<var>angle</var></h3>
 </div>
 
 <p class="magick-description">simulate a pencil sketch.</p>
@@ -6418,6 +6499,7 @@ exposing a photographic film to light during the development process.</p>
 <p class="magick-description"> color the given image using the specified points of color, and filling the other intervening colors using the given methods. </p>
 
 
+<div class="pre-scrollable">
 <dl class="row">
     <dt class="col-md-4">barycentric</dt>
     <dd class="col-md-8">three point triangle of color given 3 points.
@@ -6442,6 +6524,7 @@ exposing a photographic film to light during the development process.</p>
         '<code>shepards</code>'  Generating spots of color in a sea of the
         average of colors. </dd>
 </dl>
+</div>
 
 <p>The points are placed according to the images location on the virtual
 canvas (<a href="#page" >-page</a> or <a href="#repage" >-repage</a>
@@ -6505,6 +6588,8 @@ blend.</p>
 <p class="magick-description">replace each pixel with corresponding statistic from the neighborhood.</p>
 
 <p>Choose from these statistic types:</p>
+
+<div class="pre-scrollable">
 <dl class="row">
 <dt class="col-md-4">Gradient</dt><dd class="col-md-8">maximum difference (max - min) value in neighborhood</dd>
 <dt class="col-md-4">Maximum</dt><dd class="col-md-8">maximum value per channel in neighborhood</dd>
@@ -6516,6 +6601,7 @@ blend.</p>
 <dt class="col-md-4">RMS</dt><dd class="col-md-8">root mean square value per channel in neighborhood</dd>
 <dt class="col-md-4">StandardDeviation</dt><dd class="col-md-8"> standard deviation value per channel in neighborhood</dd>
 </dl>
+</div>
 
 <div style="margin: auto;">
   <h3><a class="anchor" id="stegano"></a>-stegano <var>offset</var></h3>
@@ -6542,6 +6628,7 @@ this information to recover the steganographic image (e.g. display -size
 
 <p class="magick-description">pixel storage type.  Here are the valid types:</p>
 
+<div class="pre-scrollable">
 <dl class="row">
 <dt class="col-md-4">char</dt><dd class="col-md-8">unsigned characters</dd>
 <dt class="col-md-4">double</dt><dd class="col-md-8">doubles</dd>
@@ -6551,6 +6638,7 @@ this information to recover the steganographic image (e.g. display -size
 <dt class="col-md-4">quantum</dt><dd class="col-md-8">pixels in the native depth of your ImageMagick distribution</dd>
 <dt class="col-md-4">short</dt><dd class="col-md-8">unsigned shorts</dd>
 </dl>
+</div>
 
 <p>Float and double types are normalized from 0.0 to 1.0 otherwise the pixels
 values range from 0 to the maximum value the storage type can support.</p>
@@ -6736,7 +6824,7 @@ red values, while those at or below 50% red would be set to 0 in the red
 channel. The green, blue, and alpha channels (if present) would be unchanged.
 </p>
 
-<pre class="highlight"><code>convert in.png -channel red -threshold 50% out.png
+<pre class="highlight"><code>magick in.png -channel red -threshold 50% out.png
 </code></pre>
 
 <p>As (possibly) impractical but instructive examples, the following would
@@ -6744,12 +6832,9 @@ generate an all-black and an all-white image with the same dimensions as the
 input image.</p>
 
 
-<pre class="highlight"><code>convert in.png -threshold 100% black.png
-convert in.png -threshold -1 white.png
+<pre class="highlight"><code>magick in.png -channel RGB -threshold 100% black.png
+convert in.png -channel RGB -threshold -1 white.png
 </code></pre>
-
-<p>Note that the values of the transparency channel is treated as 'matte'
-values (0 is opaque) and not as 'alpha' values (0 is transparent).</p>
 
 <p> See also <?php option("black-threshold"); ?> and <?php option("white-threshold"); ?>.
 </p>
@@ -6842,7 +6927,7 @@ titled <code>bird.miff</code> and whose width is 512 and height is 480.</p>
 
 <p>This option applies the transformation matrix from a previous <a href="#affine">-affine</a> option.</p>
 
-<pre class="highlight"><code>convert -affine 2,2,-2,2,0,0 -transform bird.ppm bird.jpg
+<pre class="highlight"><code>magick -affine 2,2,-2,2,0,0 -transform bird.ppm bird.jpg
 </code></pre>
 
 
@@ -6958,15 +7043,14 @@ single pixel transparent 'missed' image is returned, in the same way as when a
 
 <p>Use <code><a href="#background">-background</a> <em>background-color</em></code> to identify background color surrounding the region of interest.</p>
 
-
 <div style="margin: auto;">
   <h3><a class="anchor" id="type"></a>-type <var>type</var></h3>
 </div>
 
 <p class="magick-description">the image type.</p> <p>Choose from: <code>Bilevel</code>,
-<code>Grayscale</code>, <code>GrayscaleMatte</code>, <code>Palette</code>,
-<code>PaletteMatte</code>, <code>TrueColor</code>, <code>TrueColorMatte</code>,
-<code>ColorSeparation</code>, or <code>ColorSeparationMatte</code>.</p>
+<code>Grayscale</code>, <code>GrayscaleAlpha</code>, <code>Palette</code>,
+<code>PaletteAlpha</code>, <code>TrueColor</code>, <code>TrueColorAlpha</code>,
+<code>ColorSeparation</code>, or <code>ColorSeparationAlpha</code>.</p>
 
 <p>Normally, when a format supports different subformats such as grayscale and
 truecolor, the encoder will try to choose an efficient subformat. The <a
@@ -6974,10 +7058,10 @@ href="#type">-type</a> option can be used to override this behavior. For
 example, to prevent a JPEG from being written in grayscale format even though
 only gray pixels are present, use.</p>
 
-<pre class="highlight"><code>convert bird.png -type TrueColor bird.jpg
+<pre class="highlight"><code>magick bird.png -type TrueColor bird.jpg
 </code></pre>
 
-<p>Similarly, use <a href="#type">-type TrueColorMatte</a> to force the
+<p>Similarly, use <a href="#type">-type TrueColorAlpha</a> to force the
 encoder to write an alpha channel even though the image is opaque, if the
 output format supports transparency.</p>
 
@@ -7025,7 +7109,7 @@ with the <a href="#density">-density</a> option.</p>
 
 
 <div style="margin: auto;">
-  <h3><a class="anchor" id="unsharp"></a>-unsharp <var>radius</var><br />-unsharp <var>radius</var>x<var>sigma</var>{<var>+gain</var>}{<var>+threshold</var>}</h3>
+  <h3><a class="anchor" id="unsharp"></a>-unsharp <var>radius</var><br />-unsharp <var>radius</var>{x<var>sigma</var>}{<var>+gain</var>}{<var>+threshold</var>}</h3>
 </div>
 
 <p class="magick-description">sharpen the image with an unsharp mask operator.</p>
@@ -7037,6 +7121,7 @@ a radius of 0 to have the method select a suitable radius.</p>
 
 <p>The parameters are:</p>
 
+<div class="pre-scrollable">
 <dl class="row">
 <dt class="col-md-4">radius</dt>
 <dd class="col-md-8">The radius of the Gaussian, in pixels,  not counting the center pixel (default 0).</dd>
@@ -7047,6 +7132,7 @@ a radius of 0 to have the method select a suitable radius.</p>
 <dt class="col-md-4">threshold</dt>
 <dd class="col-md-8">The threshold, as a fraction of <var>QuantumRange</var>, needed to apply the difference amount (default 0.05).</dd>
 </dl>
+</div>
 
 <div style="margin: auto;">
   <h3><a class="anchor" id="verbose"></a>-verbose</h3>
@@ -7090,6 +7176,7 @@ image, but could also be set to a specify background color. </p>
 
 <p>Choose from these methods:</p>
 
+<div class="pre-scrollable">
 <dl class="row">
 <dt class="col-md-4">background</dt><dd class="col-md-8">the area surrounding the image is the background color</dd>
 <dt class="col-md-4">black</dt><dd class="col-md-8">the area surrounding the image is black</dd>
@@ -7107,6 +7194,7 @@ image, but could also be set to a specify background color. </p>
 <dt class="col-md-4">vertical-tile-edge</dt><dd class="col-md-8">vertically tile the image and replicate the side edge pixels</dd>
 <dt class="col-md-4">white</dt><dd class="col-md-8">the area surrounding the image is white</dd>
 </dl>
+</div>
 
 <p>The default value is "edge".</p>
 
@@ -7174,6 +7262,7 @@ percentage, which defaults to 100 percent (no color change). </p>
 the currently selected font family. Use a positive integer for
 <var>fontWeight</var> or select from the following.</p>
 
+<div class="pre-scrollable">
 <dl class="row">
 <dt class="col-md-4">Thin </dt>
 <dd class="col-md-8">Same as <var>fontWeight</var> = 100.</dd>
@@ -7194,6 +7283,7 @@ the currently selected font family. Use a positive integer for
 <dt class="col-md-4">Heavy </dt>
 <dd class="col-md-8">Same as <var>fontWeight</var> = 900.</dd>
 </dl>
+</div>
 <br/>
 
 <p>To print a complete list of weight types, use <a href="#list">-list weight</a>.</p>
@@ -7201,6 +7291,12 @@ the currently selected font family. Use a positive integer for
 <p>For other settings that affect fonts, see the options <a
 href="#font">-font</a>, <a href="#family">-family</a>, <a
 href="#stretch">-stretch</a>, and <a href="#style">-style</a>. </p>
+
+<div style="margin: auto;">
+  <h3><a class="anchor" id="white-balance"></a>-white-balance</h3>
+</div>
+<p>Applies white balancing to an image according to a grayworld assumption in the LAB colorspace.</p>
+<p>Use <kbd>-define white-balance:vibrance=<em>value{%}</em></kdb> to change the color vibrance of the a &amp; b channels.</p>
 
 <div style="margin: auto;">
   <h3><a class="anchor" id="white-point"></a>-white-point <var>x,y</var></h3>
@@ -7252,5 +7348,20 @@ href="#colors">-colors</a> to reduce the number of colors.</p>
 <p>The image sequence preceding the <a href="#write">-write</a> <var>filename</var> option is written out, and processing continues with the same image in its current state if there are additional options. To restore the image to its original state after writing it, use the <a href="#write">+write</a> <var>filename</var> option.</p>
 
 <p>Use <a href="#compress">-compress</a> to specify the type of image compression.</p>
+
+<div style="margin: auto;">
+  <h3><a class="anchor" id="write-mask"></a>-write-mask <var>filename</var></h3>
+</div>
+
+<p class="magick-description">Prevent updates to image pixels specified by the mask.</p>
+
+<p>This the same as using a mask used for composite masking operations, with
+grayscale values causing blended updates of the image the mask is attached to.
+</p>
+
+<p>Use <a href="#write-mask">+write-mask</a> to remove the mask from images.</p>
+
+<p>Also see <a href="#clip-mask">-clip-mask</a> which work in the same way,
+but with strict boolean masking. </p>
 </div>
 </div>
