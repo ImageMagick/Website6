@@ -1,8 +1,8 @@
-<div class="magick-header">
+﻿<div class="magick-header">
 <h1 class="text-center">ImageMagick Image Formats</h1>
 <p class="text-center"><a href="#colorspace">A Word about Colorspaces</a> • <a href="#supported">Supported Formats</a> • <a href="#pseudo">Pseudo Formats</a> • <a href="#builtin-images">Built-in Images</a>  • <a href="#builtin-patterns">Built-in Patterns</a> • <a href="#embedded">Embedded Profiles</a></p>
 
-<p class="lead magick-description">ImageMagick uses an ASCII string known as <var>magick</var> (e.g. <code>GIF</code>) to identify file formats, algorithms acting as formats, built-in patterns, and embedded profile types.  Support for some of the formats are delegated to libraries or external programs. The Installation Guide describes where to find these distributions and any special configuration options required.</p>
+<p class="lead magick-description">ImageMagick uses an ASCII string known as <var>convert</var> (e.g. <code>GIF</code>) to identify file formats, algorithms acting as formats, built-in patterns, and embedded profile types.  Support for some of the formats are delegated to libraries or external programs. The Installation Guide describes where to find these distributions and any special configuration options required.</p>
 
 <p>To get a complete listing of which image formats are supported on your system, type</p>
 
@@ -54,22 +54,13 @@ negatives required by the format.</p>
 directly in LAB space, but ImageMagick permits it and generally returns
 reasonable results.</p>
 
-<p>Prior to IM 6.7.8-2, the A and B channels has a discontinuity, making them
-non-linear. As such to process such images, you needed to first convert the
-colorspace some other linear colorspace, before apply your processing
-operator. Afterward you can transform back to the LAB colorspace.  For
-example,</p>
-
-<pre class="highlight"><code>  convert lab.tif -colorspace RGB -resize 50% -colorspace Lab resize.jpg
-</code></pre>
-
 <h2><a class="anchor" id="supported"></a>Supported Image Formats</h2>
 
 <p>ImageMagick supports reading over 100 major file formats (not
 including sub-formats). The following table provides a summary of
 the supported image formats.</p>
 
-<div class="table-responsive" style="font-size:87.5% !important;">
+<div class="pre-scrollable table-responsive" style="font-size:87.5% !important;">
 <table class="table table-sm table-hover">
   <tbody>
   <tr>
@@ -104,7 +95,7 @@ the supported image formats.</p>
     <td>ARW</td>
     <td>R</td>
     <td>Sony Digital Camera Alpha Raw Image Format</td>
-    <td>Set <code>-define dng:use-camera-wb=true</code> to use the RAW-embedded color profile for Sony cameras.</td>
+    <td>Set <code>-define dng:use-camera-wb=true</code> to use the RAW-embedded color profile for Sony cameras.  You can also set these options: <code>use-auto-wb</code>, <code>use-auto-bright</code>, and <code>output-color</code>.</td>
   </tr>
 
   <tr>
@@ -164,17 +155,17 @@ the supported image formats.</p>
   </tr>
 
   <tr>
-    <td>CMYK</td>
-    <td>RW</td>
-    <td>Raw cyan, magenta, yellow, and black samples</td>
-    <td>Use <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#size">-size</a> and <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#depth">-depth</a> to specify the image width, height, and depth.  To specify a single precision floating-point format, use <code>-define quantum:format=floating-point</code>.  Set the depth to 32 for single precision floats, 64 for double precision, and 16 for half-precision.</td>
-  </tr>
-
-  <tr>
     <td>CIP</td>
     <td>W</td>
     <td>Cisco IP phone image format</td>
     <td> </td>
+  </tr>
+
+  <tr>
+    <td>CMYK</td>
+    <td>RW</td>
+    <td>Raw cyan, magenta, yellow, and black samples</td>
+    <td>Use <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#size">-size</a> and <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#depth">-depth</a> to specify the image width, height, and depth.  To specify a single precision floating-point format, use <code>-define quantum:format=floating-point</code>.  Set the depth to 32 for single precision floats, 64 for double precision, and 16 for half-precision.</td>
   </tr>
 
   <tr>
@@ -196,6 +187,13 @@ the supported image formats.</p>
     <td>R</td>
     <td>Canon Digital Camera Raw Image Format</td>
     <td> </td>
+  </tr>
+
+  <tr>
+    <td><a href="https://wwwimages2.adobe.com/content/dam/acom/en/products/speedgrade/cc/pdfs/cube-lut-specification-1.0.pdf">CUBE</a></td>
+    <td>R</td>
+    <td>Cube Color lookup table converted to a HALD image</td>
+    <td>Select levels like this: cube:Vibrant.cube[8] for level 8</td>
   </tr>
 
   <tr>
@@ -237,7 +235,7 @@ the supported image formats.</p>
     <td><a href="http://en.wikipedia.org/wiki/DirectDraw_Surface">DDS</a></td>
     <td>RW</td>
     <td>Microsoft Direct Draw Surface</td>
-    <td>Use <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#define">-define</a> to specify the compression (e.g. <code>-define dds:compression={dxt1, dxt5, none}</code>). Other defines include <code>dds:cluster-fit={true,false}</code>, <code>dds:weight-by-alpha={true,false}</code>, and use <code>dds:mipmaps</code> to set the number of mipmaps.</td>
+    <td>Use <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#define">-define</a> to specify the compression (e.g. <code>-define dds:compression={dxt1, dxt5, none}</code>). Other defines include <code>dds:cluster-fit={true,false}</code>, <code>dds:weight-by-alpha={true,false}</code>, <code>dds:fast-mipmaps={true,false}</code>, and use <code>dds:mipmaps</code> to set the number of mipmaps (use <code>fromlist</code> to use the image list).</td>
 
   </tr>
 
@@ -347,6 +345,13 @@ the supported image formats.</p>
   </tr>
 
   <tr>
+    <td>FARBFELD</td>
+    <td>RW</td>
+    <td>Farbfeld lossless image format</td>
+    <td>sRGB 16-bit RGBA lossless image format</td>
+  </tr>
+   
+  <tr>
     <td>FAX</td>
     <td>RW</td>
     <td>Group 3 TIFF</td>
@@ -368,12 +373,19 @@ the supported image formats.</p>
   </tr>
 
   <tr>
+    <td>FL32</td>
+    <td>RW</td>
+    <td>FilmLight floating point image format</td>
+    <td></td>
+  </tr>
+   
+  <tr>
     <td><a href="https://flif.info/">FLIF</a></td>
     <td>RW</td>
     <td>Free Lossless Image Format</td>
     <td></td>
   </tr>
-
+   
   <tr>
     <td>FPX</td>
     <td>RW</td>
@@ -399,7 +411,7 @@ the supported image formats.</p>
     <td>GRAY</td>
     <td>RW</td>
     <td>Raw gray samples</td>
-    <td>Use <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#size">-size</a> and <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#depth">-depth</a> to specify the image width, height, and depth.  To specify a single precision floating-point format, use <code>-define quantum:format=floating-point</code>.  Set the depth to 32 for single precision floats, 64 for double precision, and 16 for half-precision. For signed pixel data, use <code>-define quantum:format=signed</code>.</td>
+    <td>Use <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#size">-size</a> and <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#depth">-depth</a> to specify the image width, height, and depth.  To specify a single precision floating-point format, use <code>-define quantum:format=floating-point</code>.  Set the depth to 32 for single precision floats, 64 for double precision, and 16 for half-precision.  For signed pixel data, use <code>-define quantum:format=signed</code>.</td>
   </tr>
 
   <tr>
@@ -427,7 +439,7 @@ the supported image formats.</p>
     <td><a href="https://en.wikipedia.org/wiki/High_Efficiency_Image_File_Format">HEIC</a></td>
     <td>R</td>
     <td>Apple High efficiency Image Format</td>
-    <td> </td>
+    <td>HEIC requires the <a href="https://github.com/strukturag/libheif">libheif</a> delegate library.</td>
   </tr>
 
   <tr>
@@ -539,7 +551,21 @@ the supported image formats.</p>
     <td><a href="http://www.json.org">JSON</a></td>
     <td>W</td>
     <td>JavaScript Object Notation, a lightweight data-interchange format</td>
-    <td>Include additional attributes about the image with these defines: <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#define">-define json:locate</a>, <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#define">-define json:limit</a>, <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#define">-define json:moments</a>, or <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#define">-define json:features</a>. Specify the JSON model schema version with <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#define">-define json:version</a>.  The current version is 1.0.  Any version less than 1.0, returns the original JSON output which included misspelled labels.</td>
+    <td>Include additional attributes about the image with these defines: <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#define">-define json:locate</a>, <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#define">-define json:limit</a>, <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#define">-define json:moments</a>, or <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#define">-define json:features</a>.  Specify the JSON model schema version with <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#define">-define json:version</a>.  The current version is 1.0.  Any version less than 1.0, returns the original JSON output which included misspelled labels.</td>
+  </tr>
+
+  <tr>
+    <td><a href="https://jpeg.org/jpegxl/index.html">JXL</a></td>
+    <td>RW</td>
+    <td><a href="https://arxiv.org/ftp/arxiv/papers/1908/1908.03565.pdf">JPEG XL image coding system</a></td>
+    <td>Requires the <a href="https://github.com/google/brunsli">brunsli</a> delegate library.</td>
+  </tr>
+
+  <tr>
+    <td>KERNEL</td>
+    <td>W</td>
+    <td>Morphology kernel format</td>
+    <td>format suitable for a morphology kernel</td>
   </tr>
 
   <tr>
@@ -652,6 +678,13 @@ the supported image formats.</p>
   </tr>
 
   <tr>
+    <td><a href="https://www.freedesktop.org/wiki/Specifications/OpenRaster/">ORA</a></td>
+    <td>R</td>
+    <td>open exchange format for layered raster based graphics</td>
+    <td> </td>
+  </tr>
+
+  <tr>
     <td>OTB</td>
     <td>RW</td>
     <td>On-the-air Bitmap</td>
@@ -731,7 +764,7 @@ the supported image formats.</p>
     <td>PDF</td>
     <td>RW</td>
     <td>Portable Document Format</td>
-    <td>Requires <a href="http://www.cs.wisc.edu/%7Eghost">Ghostscript</a> to read.  By default, ImageMagick sets the page size to the MediaBox. Some PDF files, however, have a CropBox or TrimBox that is smaller than the MediaBox and may include white space, registration or cutting marks outside the CropBox or TrimBox. To force ImageMagick to use the CropBox or TrimBox rather than the MediaBox, use <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#define">-define</a> (e.g. <code>-define pdf:use-cropbox=true</code> or <code>-define pdf:use-trimbox=true</code>).  Use <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#density">-density</a> to improve the appearance of your PDF rendering (e.g. -density 300x300).  Use <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#alpha">-alpha remove </a> to remove transparency. To specify direct conversion from  Postscript to PDF, use <code>-define delegate:bimodel=true</code>. Use <code>-define pdf:fit-page=true</code> to scale to the page size. To immediately stop processing upon an error, set <code>-define pdf:stop-on-error</code> to <code>true</code>. To set the page direction preferences to right-to-left, try  <code>-define pdf:page-direction=right-to-left</code>. Use <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#alpha">-alpha remove </a> to remove transparency.</td>
+    <td>Requires <a href="http://www.cs.wisc.edu/%7Eghost">Ghostscript</a> to read.  By default, ImageMagick sets the page size to the MediaBox. Some PDF files, however, have a CropBox or TrimBox that is smaller than the MediaBox and may include white space, registration or cutting marks outside the CropBox or TrimBox. To force ImageMagick to use the CropBox or TrimBox rather than the MediaBox, use <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#define">-define</a> (e.g. <code>-define pdf:use-cropbox=true</code> or <code>-define pdf:use-trimbox=true</code>).  Use <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#density">-density</a> to improve the appearance of your PDF rendering (e.g. -density 300x300).  Use <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#alpha">-alpha remove </a> to remove transparency. To specify direct conversion from  Postscript to PDF, use <code>-define delegate:bimodel=true</code>. Use <code>-define pdf:fit-page=true</code> to scale to the page size. To immediately stop processing upon an error, set <code>-define pdf:stop-on-error</code> to <code>true</code>. To set the page direction preferences to right-to-left, try  <code>-define pdf:page-direction=right-to-left</code>. Use <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#alpha">-alpha remove </a> to remove transparency.  When writing to a PDF, thumbnails are included by default.  To skip generating thumbnails, <code>-define pdf:thumbnail=false</code>. To enable interpolation when rendering, use <code>-define pdf:interpolate=true</code>.</td>
   </tr>
 
   <tr>
@@ -854,6 +887,13 @@ the supported image formats.</p>
   </tr>
 
   <tr>
+    <td>POCKETMOD</td>
+    <td>RW</td>
+    <td>Pocketmod personal organizer format</td>
+    <td>Example usage: <code>convert -density 300 pages?.pdf pocketmod:organize.pdf</code> </td>
+  </tr>
+
+  <tr>
     <td><a href="http://netpbm.sourceforge.net/doc/ppm.html">PPM</a></td>
     <td>RW</td>
     <td>Portable pixmap format (color)</td>
@@ -864,7 +904,7 @@ the supported image formats.</p>
     <td>PS</td>
     <td>RW</td>
     <td>Adobe PostScript file</td>
-    <td>Requires <a href="http://www.cs.wisc.edu/%7Eghost">Ghostscript</a> to read. To force ImageMagick to respect the crop box, use <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#define">-define</a> (e.g. <code>-define eps:use-cropbox=true</code>). Use <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#density">-density</a> to improve the appearance of your Postscript rendering (e.g. -density 300x300). Use <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#alpha">-alpha remove </a> to remove transparency. To specify direct conversion from PDF to Postscript, use <code>-define delegate:bimodel=true</code>.</td>
+    <td>Requires <a href="http://www.cs.wisc.edu/%7Eghost">Ghostscript</a> to read. To force ImageMagick to respect the crop box, use <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#define">-define</a> (e.g. <code>-define eps:use-cropbox=true</code>). Use <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#density">-density</a> to improve the appearance of your Postscript rendering (e.g. -density 300x300).  Use <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#alpha">-alpha remove </a> to remove transparency. To specify direct conversion from PDF to Postscript, use <code>-define delegate:bimodel=true</code>.</td>
   </tr>
 
   <tr>
@@ -928,6 +968,13 @@ the supported image formats.</p>
     <td>RW</td>
     <td>Raw red, green, and blue samples</td>
     <td>Use <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#size">-size</a> and <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#depth">-depth</a> to specify the image width, height, and depth.  To specify a single precision floating-point format, use <code>-define quantum:format=floating-point</code>.  Set the depth to 32 for single precision floats, 64 for double precision, and 16 for half-precision.</td>
+  </tr>
+
+  <tr>
+    <td>RGB565</td>
+    <td>R</td>
+    <td>Raw red, green, blue pixels in the 5-6-5 format</td>
+    <td>Use <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#size">-size</a> to specify the image width and height.</td>
   </tr>
 
   <tr>
@@ -1032,7 +1079,7 @@ the supported image formats.</p>
     <td><a href="http://www.libtiff.org/">TIFF</a></td>
     <td>RW</td>
     <td>Tagged Image File Format</td>
-    <td>Also known as <code>TIF</code>. Requires <a href="http://www.libtiff.org/">tiff-v3.6.1.tar.gz</a> or later.  Use <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#define">-define</a> to specify the rows per strip (e.g. <code>-define tiff:rows-per-strip=8</code>).  To define the tile geometry, use for example, <code>-define tiff:tile-geometry=128x128</code>. To specify a <var>signed</var> format, use  <code>-define quantum:format=signed</code>. To specify a single-precision floating-point format, use <code>-define quantum:format=floating-point</code>.  Set the depth to 64 for a double-precision floating-point format.  Use <code>-define quantum:polarity=min-is-black</code> or <code>-define quantum:polarity=min-is-white</code> toggle the photometric interpretation for a bilevel image.  Specify the extra samples as associated or unassociated alpha with, for example, <code>-define tiff:alpha=unassociated</code>.  Set the fill order with <code>-define tiff:fill-order=msb|lsb</code>. Set the TIFF endianness with <code>-define tiff:endian=msb|lsb</code>. Use <code>-define tiff:exif-properties=false</code> to skip reading the EXIF properties.  You can set a number of TIFF software attributes including document name, host computer, artist, timestamp, make, model, software, and copyright.  For example, <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#set">-set tiff:software "My Company"</a>. If you want to ignore certain TIFF tags, use this option: <code>-define tiff:ignore-tags=comma-separated-list-of-tag-IDs</code>. Since version 6.9.1-4 there is support for reading photoshop layers in TIFF files, this can be disabled with <code>-define tiff:ignore-layers=true</code></td>
+    <td>Also known as <code>TIF</code>. Requires <a href="http://www.libtiff.org/">tiff-v3.6.1.tar.gz</a> or later.  Use <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#define">-define</a> to specify the rows per strip (e.g. <code>-define tiff:rows-per-strip=8</code>).  To define the tile geometry, use for example, <code>-define tiff:tile-geometry=128x128</code>. To specify a <var>signed</var> format, use  <code>-define quantum:format=signed</code>. To specify a single-precision floating-point format, use <code>-define quantum:format=floating-point</code>.  Set the depth to 64 for a double-precision floating-point format.  Use <code>-define quantum:polarity=min-is-black</code> or <code>-define quantum:polarity=min-is-white</code> toggle the photometric interpretation for a bilevel image.  Specify the extra samples as associated or unassociated alpha with, for example, <code>-define tiff:alpha=unassociated</code>.  Set the fill order with <code>-define tiff:fill-order=msb|lsb</code>. Set the TIFF endianness with <code>-define tiff:endian=msb|lsb</code>. Use <code>-define tiff:exif-properties=false</code> to skip reading the EXIF properties.  You can set a number of TIFF software attributes including document name, host computer, artist, timestamp, make, model, software, and copyright.  For example, <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#set">-set tiff:software "My Company"</a>. If you want to ignore certain TIFF tags, use this option: <code>-define tiff:ignore-tags=comma-separated-list-of-tag-IDs</code>. Since version 6.9.1-4 there is support for reading photoshop layers in TIFF files, this can be disabled with <code>-define tiff:ignore-layers=true</code>. To preserve compression of the source image, use: <code>-define tiff:preserve-compression=true</code>.</td>
   </tr>
 
   <tr>
@@ -1198,18 +1245,25 @@ the supported image formats.</p>
   </tbody>
 </table>
 </div>
-
+<br/>
 <h2><a class="anchor" id="pseudo"></a>Pseudo-image Formats</h2>
 
 <p>ImageMagick supports a number of image format specifications which refer to images prepared via an algorithm, or input/output targets. The following table lists these pseudo-image formats:</p>
 
-<div class="table-responsive" style="font-size:87.5% !important;">
+<div class="pre-scrollable table-responsive" style="font-size:87.5% !important;">
 <table class="table table-sm table-hover">
   <tr>
     <th>Tag</th>
     <th>Mode</th>
     <th>Description</th>
     <th>Notes</th>
+  </tr>
+
+  <tr>
+    <td>ASHLAR</td>
+    <td>W</td>
+    <td>Image sequence laid out in continuous irregular courses</td>
+    <td>By default, a reasonable canvas size and border width is determined relative to the image collection you provide.  You can explicitedly set the canvas size and border width by appending to the filename, e.g. <code>ashlar:canvas.png[1024x768+4+4]</code>. By default, alignment is along the left edge.  Use <code>-define ashlar:best-fit=true</code> to align on both the left  and right edges.  You can label the image tiles with, for example, <code>-label %f</code>.</td>
   </tr>
 
   <tr>
@@ -1271,7 +1325,7 @@ the supported image formats.</p>
     <td>HALD</td>
     <td>R</td>
     <td>Identity Hald CLUT Image</td>
-    <td>Select levels like this: hald:[8] for level 8</td>
+    <td>Select levels like this: hald:[8] for level 8.</td>
   </tr>
 
   <tr>
@@ -1435,11 +1489,12 @@ the supported image formats.</p>
 </table>
 </div>
 
+<br/>
 <h2><a class="anchor" id="builtin-images"></a>Built-in Images</h2>
 
-<p>ImageMagick includes a number of built-in (embedded) images which may be referenced as if they were an image file. The <code>magick:</code> format tag may be used via the syntax <code>magick:</code><var>name</var> to request an embedded image (e.g. <code>magick:logo</code>). For backwards compatibility, the image specifications <code>GRANITE:</code>, <code>LOGO:</code>, <code>NETSCAPE:</code>, and <code>ROSE:</code> may also be used to request images with those names.</p>
+<p>ImageMagick includes a number of built-in (embedded) images which may be referenced as if they were an image file. The <code>convert:</code> format tag may be used via the syntax <code>magick:</code><var>name</var> to request an embedded image (e.g. <code>magick:logo</code>). For backwards compatibility, the image specifications <code>GRANITE:</code>, <code>LOGO:</code>, <code>NETSCAPE:</code>, and <code>ROSE:</code> may also be used to request images with those names.</p>
 
-<div class="table-responsive" style="font-size:87.5% !important;">
+<div class="pre-scrollable table-responsive" style="font-size:87.5% !important;">
 <table class="table table-sm table-hover">
   <tr>
     <th>Tag</th>
@@ -1466,7 +1521,7 @@ the supported image formats.</p>
     <td> NETSCAPE</td>
     <td>R</td>
     <td>image using colors in Netscape 216 (6x6x6 ) color cube, 216x144</td>
-    <td>Most commonly used with the <a href="<?php echo $_SESSION['RelativePath']?>/../script/convert.php">convert</a> and <a href="<?php echo $_SESSION['RelativePath']?>/../script/mogrify.php">mogrify</a> programs with the <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#map">-map</a> option to create <var>web safe</var> images.</td>
+    <td>Most commonly used with the <a href="<?php echo $_SESSION['RelativePath']?>/../script/convert.php">convert</a> and <a href="<?php echo $_SESSION['RelativePath']?>/../script/mogrify.php">magick mogrify</a> programs with the <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#map">-map</a> option to create <var>web safe</var> images.</td>
   </tr>
 
   <tr>
@@ -1485,11 +1540,12 @@ the supported image formats.</p>
 
 </table></div>
 
+<br/>
 <h2><a class="anchor" id="builtin-patterns"></a>Built-in Patterns</h2>
 
 <p>ImageMagick includes a number of built-in (embedded) patterns which may be referenced as if they were an image file. The <code>pattern:</code> format tag may be used via the syntax <code>pattern:</code><var>name</var> to request an embedded pattern (e.g. <code>pattern:checkerboard</code>). The pattern size is controlled with the <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#size">-size</a> command line option.</p>
 
-<div class="table-responsive" style="font-size:87.5% !important;">
+<div class="pre-scrollable table-responsive" style="font-size:87.5% !important;">
 <table class="table table-sm table-hover">
   <tr>
     <th>Tag</th>
@@ -1676,14 +1732,14 @@ the supported image formats.</p>
   <tr>
     <td>GRAY90</td>
     <td>R</td>
-    <td>100% intensity gray, 32x32</td>
+    <td>90% intensity gray, 32x32</td>
     <td><img src="<?php echo $_SESSION['RelativePath']?>/../image/patterns/gray90.png" width="100" height="32" alt="GRAY90" /></td>
   </tr>
 
   <tr>
     <td>GRAY95</td>
     <td>R</td>
-    <td>100% intensity gray, 32x32</td>
+    <td>95% intensity gray, 32x32</td>
     <td><img src="<?php echo $_SESSION['RelativePath']?>/../image/patterns/gray95.png" width="100" height="32" alt="GRAY95" /></td>
   </tr>
 
@@ -1877,11 +1933,12 @@ the supported image formats.</p>
   </tr>
 </table></div>
 
+<br/>
 <h2><a class="anchor" id="embedded"></a>Embedded Image Profiles</h2>
 
 <p>ImageMagick provides a number of format identifiers which are used to add, remove, and save embedded profiles for images which can support embedded profiles. Image types which may contain embedded profiles are TIFF, JPEG, and PDF.</p>
 
-<div class="table-responsive" style="font-size:87.5% !important;">
+<div class="pre-scrollable table-responsive" style="font-size:87.5% !important;">
 <table class="table table-sm table-hover">
   <tbody>
   <tr>
