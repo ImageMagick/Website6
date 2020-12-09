@@ -1,5 +1,27 @@
-<div class="magick-header"><dl><dt>2020-11-19  6.9.11-40  &lt;quetzlzacatenango@image...&gt;</dt>
-  <li> Release ImageMagick version 6.9.11-40 GIT revision 16...</li>
+<div class="magick-header"><dl><dt>2020-12-05  6.9.11-46  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.11-46 GIT revision 16139:f0234de70:20201205</li>
+<dt>2020-11-30  6.9.11-46  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> possible TIFF related-heap buffer overflow (alert &amp; POC by Hardik Shah).</li>
+  <li> set default system fault in policy.xml configuration file.</li>
+<dt>2020-11-30  6.9.11-45  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.11-45 GIT revision 16125:85c3464d7:20201130</li>
+<dt>2020-11-27  6.9.11-44  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.11-44 GIT revision 16114:2fdb8e8f7:20201127</li>
+<dt>2020-11-26  6.9.11-44 Dirk Lemstra &lt;dirk@lem.....org&gt;</dt>
+  <li> correct reading of first row in TIFF decoder.</li>
+<dt>2020-11-24  6.9.11-44  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> correct rotation parameter for SVG transform.</li>
+<dt>2020-11-23  6.9.11-43  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.11-43 GIT revision 16093:d3ad47f10:20201123</li>
+<dt>2020-11-23  6.9.11-43  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> add padding to AcquirePolicyString().</li>
+<dt>2020-11-22  6.9.11-42  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.11-42 GIT revision 16089:ae9803730:20201122</li>
+<dt>2020-11-21  6.9.11-42  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> restore passphrase support when rendering PDF's.</li>
+  <li> revert memory patch to avert possible thread lock.</li>
+<dt>2020-11-20  6.9.11-40  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.11-40 GIT revision 16071:661c8a58a:20201120 </li>
 <dt>2020-11-19  6.9.11-40  &lt;quetzlzacatenango@image...&gt;</dt>
   <li> remove Linux shell artifact from Windows delegate configuration file.</li>
   <li> fix shell injection vulnerability via the -authenticate option (reference    alex@cure...).</li>

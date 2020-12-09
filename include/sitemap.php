@@ -114,6 +114,7 @@
 
 <h2><a class="anchor" id="miscellaneous"></a>Miscellaneous Topics</h2>
 
+<div class="pre-scrollable">
 <dl class="magick-list-unstyled">
   <li><a href="https://legacy.imagemagick.org/Usage/anim_basics/">Animation</a>: create a GIF animation sequence from a group of images.</li>
   <li><a href="https://legacy.imagemagick.org/discourse-server~/viewtopic37d8.html?f=4&t=25405">Canny edge detection</a>: extract edges from an image using the Canny technique.</li>
@@ -154,6 +155,7 @@
   <li><a href="https://legacy.imagemagick.org/Usage/masking/">Transparency</a>: render portions of an image invisible.</li>
   <li><a href="<?php echo $_SESSION['RelativePath']?>/../script/architecture.php#virtual-pixels">Virtual pixel support</a>: convenient access to pixels outside the image region.</li>
 </dl>
+</div>
 <h2><a class="anchor" id="legacy"></a>ImageMagick Next Generation</h2>
 <p>We have a next generation release of ImageMagick, version 7, at <a href="https://imagemagick.org/">https://imagemagick.org</a></p>
 </div>
