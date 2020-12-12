@@ -1,8 +1,17 @@
-<div class="magick-header"><dl><dt>2020-12-05  6.9.11-46  &lt;quetzlzacatenango@image...&gt;</dt>
+<div class="magick-header"><dl><dt>2020-12-10  6.9.11-48  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.11-48 GIT revision 16156:573d57764:20201210</li>
+<dt>2020-12-09  6.9.11-48  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Repair unit test failures (reference    https://github.com/ImageMagick/ImageMagick/issues/2959).</li>
+  <li> assert failure when loading a PSD file, patch from Hanisch.</li>
+<dt>2020-12-09  6.9.11-47  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.11-47 GIT revision 16151:77fc4f32d:20201209</li>
+<dt>2020-12-06  6.9.11-47  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> use generic TIFF read method for LZW-compressed strips (reference    https://github.com/ImageMagick/ImageMagick/discussions/2935).</li>
+<dt>2020-12-05  6.9.11-46  &lt;quetzlzacatenango@image...&gt;</dt>
   <li> Release ImageMagick version 6.9.11-46 GIT revision 16139:f0234de70:20201205</li>
 <dt>2020-11-30  6.9.11-46  &lt;quetzlzacatenango@image...&gt;</dt>
   <li> possible TIFF related-heap buffer overflow (alert &amp; POC by Hardik Shah).</li>
-  <li> set default system fault in policy.xml configuration file.</li>
+  <li> set default system font in policy.xml configuration file.</li>
 <dt>2020-11-30  6.9.11-45  &lt;quetzlzacatenango@image...&gt;</dt>
   <li> Release ImageMagick version 6.9.11-45 GIT revision 16125:85c3464d7:20201130</li>
 <dt>2020-11-27  6.9.11-44  &lt;quetzlzacatenango@image...&gt;</dt>
