@@ -23,7 +23,7 @@
 
   <tr>
     <td><a href= "https://imagemagick.org/download/binaries/magick">magick</a></td>
-    <td>Complete portable application on Linux, no installation required.  Just download and run.  AppImages require <a href="https://github.com/AppImage/AppImageKit/wiki/FUSE">FUSE</a> to run. Many distributions have a working FUSE setup out-of-the-box. However if it is not working for you, you may need to install and configure FUSE manually.</td>
+    <td>Complete portable application on Linux, no installation required.  Just download and run.  AppImages require <a href="https://github.com/AppImage/AppImageKit/wiki/FUSE">FUSE</a> and <code>libc</code> to run. Many distributions have a working FUSE setup out-of-the-box. However if it is not working for you, you must install and configure FUSE manually.</td>
   </tr>
 
   <tr>
@@ -104,7 +104,7 @@ display logo.gif</code></pre></ul>
 
 <h2><a class="anchor" id="macosx"></a>Mac OS X Binary Release</h2>
 
-<p>We recommend <a href="https://brew.sh">Homebrew</a> which custom builds ImageMagick in your environment (some users prefer <a href="https://macports.org">MacPorts</a>).  Download HomeBrew and type:</p>
+<p>We recommend <a href="https://brew.sh">Homebrew</a> which provides pre-built binaries for Mac (some users prefer <a href="https://macports.org">MacPorts</a>).  Download HomeBrew and type:</p>
 
 <ul><pre class="highlight"><code>brew install imagemagick</code></pre></ul>
 
@@ -112,7 +112,7 @@ display logo.gif</code></pre></ul>
 
 <ul><pre class="highlight"><code>brew install ghostscript</code></pre></ul>
 
-<p>The <code>brew</code> command downloads ImageMagick and many of its delegate libraries (e.g. JPEG, PNG, Freetype, etc.) and configures, builds, and installs ImageMagick automagically.  Alternatively, you can download the ImageMagick Mac OS X distribution we provide:</p>
+<p>The <code>brew</code> command downloads and installs ImageMagick with many of its delegate libraries (e.g. JPEG, PNG, Freetype, etc).  Homebrew <a href="https://github.com/Homebrew/homebrew-core/issues/31510">no longer allows</a> configurable builds; if you need different compile options (e.g. librsvg support), you can download the ImageMagick Mac OS X distribution we provide:</p>
 
 <div class="table-responsive" style="font-size:87.5% !important;">
 <table class="table table-sm table-hover">
