@@ -1,4 +1,16 @@
-<div class="magick-header"><dl><dt>2020-12-10  6.9.11-48  &lt;quetzlzacatenango@image...&gt;</dt>
+<div class="magick-header"><dl><dt>2020-12-18  6.9.11-51  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.11-51 GIT revision 16180:7d116a3bb:20201218</li>
+<dt>2020-12-17  6.9.11-51  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> reduce time to identify PDF/PS/XPS/PCL image width/height (reference    https://github.com/ImageMagick/ImageMagick/discussions/2993).</li>
+<dt>2020-12-16  6.9.11-50  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.11-50 GIT revision 16174:7cd364a33:20201216</li>
+<dt>2020-12-15  6.9.11-50  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> revert patch to ready gray alpha TIFF image.</li>
+<dt>2020-12-14  6.9.11-49  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.11-49 GIT revision 16165:749185e00:20201214</li>
+<dt>2020-12-13  6.9.11-49  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> correct previous patch to read planar RGB TIFF images.</li>
+<dt>2020-12-10  6.9.11-48  &lt;quetzlzacatenango@image...&gt;</dt>
   <li> Release ImageMagick version 6.9.11-48 GIT revision 16156:573d57764:20201210</li>
 <dt>2020-12-09  6.9.11-48  &lt;quetzlzacatenango@image...&gt;</dt>
   <li> Repair unit test failures (reference    https://github.com/ImageMagick/ImageMagick/issues/2959).</li>
