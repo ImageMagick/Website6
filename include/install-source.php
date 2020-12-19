@@ -15,7 +15,7 @@
 
 <p>ImageMagick builds on a variety of Unix and Unix-like operating systems including Linux, Solaris, FreeBSD, Mac OS X, and others.  A compiler is required and fortunately almost all modern Unix systems have one.  Clone the source repository:</p>
 
-<?php crt("git clone git@github.com:ImageMagick/ImageMagick6.git ImageMagick-" . MagickLibVersionText); ?>
+<?php crt("git clone https://github.com/ImageMagick/ImageMagick6.git ImageMagick-" . MagickLibVersionText); ?>
 
 <p>Next configure and compile ImageMagick.  Note the <a href="https://en.wikipedia.org/wiki/Pkg-config">pkg-config</a> script is required so that ImageMagick can find certain optional delegate libraries on your system.  To configure, type:</p>
 
@@ -54,7 +54,7 @@
 
 <p>Clone the Github repo:</p>
 
-<pre class="highlight"><code>git clone -b ImageMagick-Windows-6 --single-branch git@github.com:ImageMagick/ImageMagick-Windows.git ImageMagick-Windows-6</code></pre>
+<pre class="highlight"><code>git clone -b ImageMagick-Windows-6 --single-branch https://github.com/ImageMagick/ImageMagick6-Windows.git ImageMagick-Windows-6</code></pre>
 
 <p>and run <code>CloneRepositories.cmd</code>.  Alternatively, download <a href="https://imagemagick.org/download/windows/">ImageMagick-6.?.?-?.zip</a> and verify its <a href="https://imagemagick.org/download/windows/digest.rdf">message digest</a>.  For the latter, you can unpack the distribution with <a href="http://www.winzip.com">WinZip</a> or type the following from any MS-DOS Command Prompt window:</p>
 
