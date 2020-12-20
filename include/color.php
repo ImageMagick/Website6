@@ -33,6 +33,8 @@ rgb(100.0%, 0.0%, 0.0%)   a float in the range 0—100% for each component</code
 
 <p>The format of an sRGB value in the functional notation is 'rgb(<var>r</var>,<var>g</var>,<var>b</var>)',  where  <var>r</var>, <var>g</var>, and <var>b</var> are either three integer or float values in the range 0—255 or three integer or float percentage values in the range 0—100%. The value 255 corresponds to 100%, and to #F or #FF in the hexadecimal notation: rgb(255, 255, 255) = rgb(100%, 100%, 100%) = #FFF = #FFFFFF. </p>
 
+<p>Note, as of ImageMagick 6.9.11-53, the commas are no longer necessary.</p>
+
 <p>White space characters are allowed around the numerical values, at least if the entire color argument is enclosed in quotes ('single quotes' for Unix-like systems, "double quotes" for Windows).</p>
 
 <p>The sRGB color model is extended in this specification to include <var>alpha</var> to allow specification of the transparency of a color. These examples all specify the same color:</p>
@@ -72,16 +74,16 @@ graya(50%, 0.5)   semi-transparent mid gray</code></pre>
 
 <p>The HSB color system is a little easier to understand than the HSL color system. In the HSB color system, black is at the bottom apex and white is at the top center of the cone on the central axis. The most colorful or saturated colors will then be at the outer edge of the top of the cone at the widest part. Thus at Saturation=100% and Brightness=100%</p>
 
-<pre class="highlight"><code>hsb(0,   100%,  100%)    or    hsb(0,   255,   255)          full red
+<pre class="highlight"><code>hsb(0,   100%,  100%)    or    hsb(0,   255,   255)       full red
 hsb(120, 100%,  100%)    or    hsb(120, 255,   255)       full green
 hsb(120, 100%,  75%)     or    hsb(120, 255,   191.25)    medium green
 hsb(120, 100%,  50%)     or    hsb(120, 255,   127.5)     dark green
 hsb(120, 100%,  25%)     or    hsb(120, 255,   63.75)     very dark green
 hsb(120, 50%,   50%)     or    hsb(120, 127.5, 127.5)     pastel green</code></pre>
 
-<p>In the HSL color system, black is at the bottom apex and white is at the top apex. However, saturation is largest at the middle of the double cone on its outer perimeter and thus at a lightness value of 50%. The most colorful or saturated colors will then be at the outer edge of the double cone at its widest part. Thus at Saturation=100% and Brightness=50%</p>
+<p>In the HSL color system, black is at the bottom apex and white is at the top apex. However, saturation is largest at the middle of the double cone on its outer perimeter and thus at a lightness value of 50%. The most colorful or saturated colors will then be at the outer edge of the double cone at its widest part. Thus at Saturation=100% and Brightness=50%.</p>
 
-<pre class="highlight"><code>hsl(0,   100%,  50%)     or    hsl(0,   255,   127.5)        full red
+<pre class="highlight"><code>hsl(0,   100%,  50%)     or    hsl(0,   255,   127.5)     full red
 hsl(120, 100%,  100%)    or    hsl(120, 255,   255)       white
 hsl(120, 100%,  75%)     or    hsl(120, 255,   191.25)    pastel green
 hsl(120, 100%,  50%)     or    hsl(120, 255,   127.5)     full green

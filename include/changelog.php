@@ -1,4 +1,9 @@
-<div class="magick-header"><dl><dt>2020-12-18  6.9.11-51  &lt;quetzlzacatenango@image...&gt;</dt>
+<div class="magick-header"><dl><dt>2020-12-19  6.9.11-52  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.11-52 GIT revision 16185:710d7811d:20201219</li>
+<dt>2020-12-19  6.9.11-52  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> return alpha bytes with stream utility (reference    https://github.com/ImageMagick/ImageMagick/discussions/2862).</li>
+  <li> percentage -border in x no longer adds one pixel border in y (reference    https://github.com/ImageMagick/ImageMagick/issues/2978).</li>
+<dt>2020-12-18  6.9.11-51  &lt;quetzlzacatenango@image...&gt;</dt>
   <li> Release ImageMagick version 6.9.11-51 GIT revision 16180:7d116a3bb:20201218</li>
 <dt>2020-12-17  6.9.11-51  &lt;quetzlzacatenango@image...&gt;</dt>
   <li> reduce time to identify PDF/PS/XPS/PCL image width/height (reference    https://github.com/ImageMagick/ImageMagick/discussions/2993).</li>
