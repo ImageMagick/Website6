@@ -33,7 +33,7 @@ rgb(100.0%, 0.0%, 0.0%)   a float in the range 0—100% for each component</code
 
 <p>The format of an sRGB value in the functional notation is 'rgb(<var>r</var>,<var>g</var>,<var>b</var>)',  where  <var>r</var>, <var>g</var>, and <var>b</var> are either three integer or float values in the range 0—255 or three integer or float percentage values in the range 0—100%. The value 255 corresponds to 100%, and to #F or #FF in the hexadecimal notation: rgb(255, 255, 255) = rgb(100%, 100%, 100%) = #FFF = #FFFFFF. </p>
 
-<p>Note, as of ImageMagick 6.9.11-53, the commas are no longer necessary.</p>
+<p>Note, as of ImageMagick 6.9.11-53, the commas are no longer necessary and a slash can proceed the alpha value, e.g. <code>rgb(255 128 0 / 50%)</code>..</p>
 
 <p>White space characters are allowed around the numerical values, at least if the entire color argument is enclosed in quotes ('single quotes' for Unix-like systems, "double quotes" for Windows).</p>
 
@@ -130,6 +130,9 @@ icc-color(gray, 0.5)                     non-linear gray
 <pre class="highlight"><code>device-gray(0.5)
 device-rgb(0.5, 1.0, 0.0)
 device-cmyk(0.11, 0.48, 0.83, 0.00)</code></pre>
+
+<p>ImageMagick also supports wide-gamut color such as <code>Lab</code>, <code>LC
+H</code>, and <code>Display-P3</code>.</p>
 
 <h2><a class="anchor" id="color_names"></a>List of Color Names</h2>
 
