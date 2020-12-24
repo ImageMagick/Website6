@@ -62,6 +62,14 @@ convert: no images defined `wizard.jpg'</code></pre>
 <pre class="highlight"><code>&lt;policy domain="resource" name="list-length" value="64"/></code></pre>
 
 
+<p>As of ImageMagick 6.9.8-10, you can programmatically set the ImageMagick security policy with SetMagickSecurityPolicy() (MagickCore) or MagickSetSecurityPolicy() (MagickWand).</p>
+
+<p>As of ImageMagick version 6.9.10-11, you can set a module security policy.  For example, to prevent Postscript or PDF interpretation, use:</p>
+<pre class="highlight"><code>&lt;policy domain="module" rights="none" pattern="{ps,pdf,xps}/></code></pre>
+
+<p>As of ImageMagick version 6.9-10-52, you can set a font policy.  Specify a path to a Unicode font that ImageMagick defaults to whenever the user does not specify a font preference:</p>
+<pre class="highlight"><code>&lt;policy domain="system" name="font" value="/usr/share/fonts/arial-unicode.ttf"/></code></pre>
+
 <p>You can verify your policy changes are in effect with this command:</p>
 
 <pre class="pre-scrollable"><code>-> identify -list policy
@@ -117,19 +125,14 @@ Path: ImageMagick-6/policy.xml
   Policy: Path
     rights: None 
     pattern: @*
+  Policy: System
+    name: font
+    value: ImageMagick-6/arial-unicode.ttf
 
 Path: [built-in]
   Policy: Undefined
     rights: None </code></pre>
 <p>Notice the <code>shared-secret</code> policy is not listed due to the <code>stealth</code> property.</p>
-
-<p>As of ImageMagick 6.9.8-10, you can programmatically set the ImageMagick security policy with SetMagickSecurityPolicy() (MagickCore) or MagickSetSecurityPolicy() (MagickWand).</p>
-
-<p>As of ImageMagick version 6.9.10-11, you can set a module security policy.  For example, to prevent Postscript or PDF interpretation, use:</p>
-<pre class="highlight"><code>&lt;policy domain="module" rights="none" pattern="{ps,pdf,xps}/></code></pre>
-
-<p>As of ImageMagick version 6.9-10-52, you can set a font policy.  Specify a path to a Unicode font that ImageMagick defaults to whenever the user does not specify a font preference:</p>
-<pre class="highlight"><code>&lt;policy domain="system" name="font" value="/usr/share/fonts/arial-unicode.ttf"/></code></pre>
 
 <p>For additional details about resource limits and the policy configuration file, read <a href="<?php echo $_SESSION['RelativePath']?>/../script/resources.php">Resources</a> and <a href="<?php echo $_SESSION['RelativePath']?>/../script/architecture.php">Architecture</a>.</p>
 
