@@ -17,6 +17,8 @@
 
 <?php crt("git clone https://github.com/ImageMagick/ImageMagick6.git ImageMagick-" . MagickLibVersionText); ?>
 
+<p>Or download <a href="https://legacy.imagemagick.org/download">ImageMagick.tar.gz</a> from <a href="https://legacy.imagemagick.org/download">imagemagick.org</a> or a <a href="<?php echo $_SESSION['RelativePath']?>/../script/mirror.php">mirror</a> and verify the distribution against its <a href="https://legacy.imagemagick.org/download/digest.rdf">message digest</a>.</p>
+
 <p>Next configure and compile ImageMagick.  Note the <a href="https://en.wikipedia.org/wiki/Pkg-config">pkg-config</a> script is required so that ImageMagick can find certain optional delegate libraries on your system.  To configure, type:</p>
 
 <?php crt("cd ImageMagick-" . MagickLibVersionText, "<br/>", "./configure", "<br/>", "make"); ?>
