@@ -1,4 +1,9 @@
-<div class="magick-header"><dl><dt>2020-12-24  6.9.11-53  &lt;quetzlzacatenango@image...&gt;</dt>
+<div class="magick-header"><dl><dt>2020-12-25  6.9.11-54  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.11-54 GIT revision 16....</li>
+<dt>2020-12-25  6.9.11-54  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> enable reading of a certain grayscale TIFF image.</li>
+  <li> validate pixel cache offsets (reference    https://bugs.chromium.org/p/oss-fuzz/issues/detail?id=29039).</li>
+<dt>2020-12-24  6.9.11-53  &lt;quetzlzacatenango@image...&gt;</dt>
   <li> Release ImageMagick version 6.9.11-53 GIT revision 16203:1449d6ede:20201224</li>
 <dt>2020-12-20  6.9.11-53  &lt;quetzlzacatenango@image...&gt;</dt>
   <li> CSS colors no longer require commas.</li>
