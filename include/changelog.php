@@ -1,5 +1,18 @@
-<div class="magick-header"><dl><dt>2020-12-25  6.9.11-54  &lt;quetzlzacatenango@image...&gt;</dt>
-  <li> Release ImageMagick version 6.9.11-54 GIT revision 16....</li>
+<div class="magick-header"><dl><dt>2021-01-08  6.9.11-57  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.11-57 GIT revision 16... </li>
+<dt>2021-01-08  6.9.11-57  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> update automake/aucong configuration files.</li>
+  <li> additional checks to prevent integer overflow.</li>
+<dt>2021-01-05  6.9.11-56  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.11-56 GIT revision 16272:007db884f:20210105</li>
+<dt>2021-01-05  6.9.11-56  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Fix rounding error for CSS colors (reference    https://github.com/ImageMagick/ImageMagick6/issues/129).</li>
+<dt>2021-01-03  6.9.11-55  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.11-55 GIT revision 16266:c3350670f:20210103</li>
+<dt>2021-01-03  6.9.11-55  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> revert changes to the default max width/height of image.</li>
+<dt>2021-01-02  6.9.11-54  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.11-54 GIT revision 16244:6b93d4529:20210102 </li>
 <dt>2020-12-25  6.9.11-54  &lt;quetzlzacatenango@image...&gt;</dt>
   <li> enable reading of a certain grayscale TIFF image.</li>
   <li> validate pixel cache offsets (reference    https://bugs.chromium.org/p/oss-fuzz/issues/detail?id=29039).</li>
