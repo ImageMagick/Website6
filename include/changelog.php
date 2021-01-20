@@ -1,7 +1,12 @@
-<div class="magick-header"><dl><dt>2021-01-08  6.9.11-57  &lt;quetzlzacatenango@image...&gt;</dt>
-  <li> Release ImageMagick version 6.9.11-57 GIT revision 16... </li>
+<div class="magick-header"><dl><dt>2021-01-11  6.9.11-58  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.11-58 GIT revision 16... </li>
+<dt>2021-01-11  6.9.11-58  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> properly identify SVG images (reference    https://github.com/ImageMagick/ImageMagick/issues/3117).</li>
+  <li> duplicate operator: inverse range parameter working again (reference    https://github.com/ImageMagick/ImageMagick/issues/3113).</li>
+<dt>2021-01-09  6.9.11-57  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.11-57 GIT revision 16301:c2f75ef89:20210109</li>
 <dt>2021-01-08  6.9.11-57  &lt;quetzlzacatenango@image...&gt;</dt>
-  <li> update automake/aucong configuration files.</li>
+  <li> update automake/autoconf configuration files.</li>
   <li> additional checks to prevent integer overflow.</li>
 <dt>2021-01-05  6.9.11-56  &lt;quetzlzacatenango@image...&gt;</dt>
   <li> Release ImageMagick version 6.9.11-56 GIT revision 16272:007db884f:20210105</li>
