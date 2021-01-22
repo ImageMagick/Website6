@@ -1,4 +1,4 @@
-<div class="magick-header">
+<div class="magick-header"> 
 <p class="text-center"><a href="#documentation">Documentation</a> • <a href="#get">Obtaining Magick++</a> • <a href="#install">Installation</a> • <a href="#bugs">Reporting Bugs</a></p>
 
 <a class="anchor" id="intro"></a>
@@ -31,7 +31,7 @@ functions which comprise the API.  See a <a href="https://imagemagick.org/Magick
 <a class="anchor" id="get"></a>
 <p>Magick++ is included as part of <a href="../index.php">ImageMagick</a>
 source releases and may be retrieved via <a href="https://legacy.imagemagick.org/script/download.php">HTTP</a>
-or <a href="https://github.com/ImageMagick/ImageMagick6/tree/main/Magick%2B%2B">GitHub</a>.
+or <a href="https://github.com/ImageMagick/ImageMagick/tree/main/Magick%2B%2B">GitHub</a>.
 </p>
 <h2>Installation</h2>
 <a class="anchor" id="install"></a>
