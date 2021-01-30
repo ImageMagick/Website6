@@ -114,7 +114,7 @@
 
 <h2><a class="anchor" id="miscellaneous"></a>Miscellaneous Topics</h2>
 
-<div class="pre-scrollable">
+<div class="pre-scrollable highlight">
 <dl class="magick-list-unstyled">
   <li><a href="https://legacy.imagemagick.org/Usage/anim_basics/">Animation</a>: create a GIF animation sequence from a group of images.</li>
   <li><a href="https://legacy.imagemagick.org/discourse-server~/viewtopic37d8.html?f=4&t=25405">Canny edge detection</a>: extract edges from an image using the Canny technique.</li>
