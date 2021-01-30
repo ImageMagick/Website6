@@ -1,8 +1,16 @@
-<div class="magick-header"><dl><dt>2021-01-11  6.9.11-58  &lt;quetzlzacatenango@image...&gt;</dt>
-  <li> Release ImageMagick version 6.9.11-58 GIT revision 16... </li>
+<div class="magick-header"><dl><dt>2021-01-24  6.9.11-59  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.11-59 GIT revision 16399:3614d5e0a:20210124</li>
+<dt>2021-01-20  6.9.11-59  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> strip EXIF marker from profile (reference    https://github.com/ImageMagick/ImageMagick/issues/3140).</li>
+  <li> add --enable-opencl to the configure command-line to enable OpenCL    support.</li>
+  <li> generate histograms by comparing pixel components rather than color    (reference https://github.com/ImageMagick/ImageMagick/discussions/3142).</li>
+  <li> revert annotation performance optimization (reference    https://github.com/ImageMagick/ImageMagick6/issues/130).</li>
+<dt>2021-01-16  6.9.11-58  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.11-58 GIT revision 16343:f38ca0d37:20210116</li>
 <dt>2021-01-11  6.9.11-58  &lt;quetzlzacatenango@image...&gt;</dt>
   <li> properly identify SVG images (reference    https://github.com/ImageMagick/ImageMagick/issues/3117).</li>
   <li> duplicate operator: inverse range parameter working again (reference    https://github.com/ImageMagick/ImageMagick/issues/3113).</li>
+  <li> Fix rounding error for CSS colors on i686 (reference    https://tracker.debian.org/pkg/imagemagick).</li>
 <dt>2021-01-09  6.9.11-57  &lt;quetzlzacatenango@image...&gt;</dt>
   <li> Release ImageMagick version 6.9.11-57 GIT revision 16301:c2f75ef89:20210109</li>
 <dt>2021-01-08  6.9.11-57  &lt;quetzlzacatenango@image...&gt;</dt>
