@@ -1,4 +1,4 @@
-<div class="magick-header"> 
+<div class="magick-header">
 <h1 class="text-center">Architecture</h1>
 <p class="text-center"><a href="#cache">The Pixel Cache</a> • <a href="#stream">Streaming Pixels</a> • <a href="#properties">Image Properties and Profiles</a> • <a href="#tera-pixel">Large Image Support</a> • <a href="#threads">Threads of Execution</a> • <a href="#distributed">Heterogeneous Distributed Processing</a> • <a href="#coders">Custom Image Coders</a> • <a href="#filters">Custom Image Filters</a></p>
 
@@ -275,7 +275,7 @@ Resource limits:
 <p>To determine which type and how much resources are consumed by the pixel cache, add the <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#debug">-debug cache</a> option to the command-line:</p>
 <pre class="highlight"><code>-> convert -debug cache logo: -sharpen 3x2 null:
 2016-12-17T13:33:42-05:00 0:00.000 0.000u 7.0.0 Cache convert: cache.c/DestroyPixelCache/1275/Cache
-  destroy 
+  destroy
 2016-12-17T13:33:42-05:00 0:00.000 0.000u 7.0.0 Cache convert: cache.c/OpenPixelCache/3834/Cache
   open LOGO[0] (Heap Memory, 640x480x4 4.688MiB)
 2016-12-17T13:33:42-05:00 0:00.010 0.000u 7.0.0 Cache convert: cache.c/OpenPixelCache/3834/Cache
@@ -1132,7 +1132,7 @@ display logo.mgk
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 %  analyzeImage() computes the brightness and saturation mean,  standard
-%  deviation, kurtosis and skewness and stores these values as attributes 
+%  deviation, kurtosis and skewness and stores these values as attributes
 %  of the image.
 %
 %  The format of the analyzeImage method is:
@@ -1166,20 +1166,34 @@ typedef struct _StatisticsInfo
     skewness;
 } StatisticsInfo;
 
+static inline int GetMagickNumberThreads(const Image *source,
+  const Image *destination,const size_t chunk,int multithreaded)
+{
+#define MagickMax(x,y)  (((x) > (y)) ? (x) : (y))
+#define MagickMin(x,y)  (((x) &lt; (y)) ? (x) : (y))
+
+  /*
+    Number of threads bounded by the amount of work and any thread resource
+    limit.  The limit is 2 if the pixel cache type is not memory or
+    memory-mapped.
+  */
+  if (multithreaded == 0)
+    return(1);
+  if (((GetImagePixelCacheType(source) != MemoryCache) &&
+       (GetImagePixelCacheType(source) != MapCache)) ||
+      ((GetImagePixelCacheType(destination) != MemoryCache) &&
+       (GetImagePixelCacheType(destination) != MapCache)))
+    return(MagickMax(MagickMin(GetMagickResourceLimit(ThreadResource),2),1));
+  return(MagickMax(MagickMin((ssize_t) GetMagickResourceLimit(ThreadResource),
+    (ssize_t) (chunk)/64),1));
+}
+
 ModuleExport size_t analyzeImage(Image **images,const int argc,
   const char **argv,ExceptionInfo *exception)
 {
 #define AnalyzeImageFilterTag  "Filter/Analyze"
-#define MagickMax(x,y)  (((x) > (y)) ? (x) : (y))
-#define MagickMin(x,y)  (((x) &lt; (y)) ? (x) : (y))
 #define magick_number_threads(source,destination,chunk,multithreaded) \
-  num_threads((multithreaded) == 0 ? 1 : \
-    ((GetImagePixelCacheType(source) != MemoryCache) && \
-     (GetImagePixelCacheType(source) != MapCache)) || \
-    ((GetImagePixelCacheType(destination) != MemoryCache) && \
-     (GetImagePixelCacheType(destination) != MapCache)) ? \
-    MagickMax(MagickMin(GetMagickResourceLimit(ThreadResource),2),1) : \
-    MagickMax(MagickMin((ssize_t) GetMagickResourceLimit(ThreadResource),(ssize_t) (chunk)/64),1))
+  num_threads(GetMagickNumberThreads(source,destination,chunk,multithreaded))
 
   char
     text[MagickPathExtent];
