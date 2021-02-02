@@ -125,8 +125,7 @@
   </footer>
 
   <!-- Javascript assets -->
-  <script>window.jQuery || document.write('<script src="/assets/jquery.slim.min.js"><\/script>')</script>
-  <script src="/assets/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="/assets/jquery.slim.min.js"><\/script>')</script><script src="/assets/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous">
 </body>
 </html>
 <?php
