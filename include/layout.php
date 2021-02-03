@@ -2,14 +2,14 @@
   require_once($_SESSION['AbsolutePath'] . '/../include/define.php');
   require_once($_SESSION['AbsolutePath'] . '/../class/MetaContent.php');
 
-  function IsActive($target,$title)
+  function IsActive($topic,$title)
   {
-    if (strcmp($title,$target) == 0) {
+    if (strcmp($topic,$title) == 0) {
       echo "active";
     }
   }
 
-  function SiteHeader($title)
+  function SiteHeader($title,$topic)
   {
     $meta=new MetaContent;
     $meta->company_name="ImageMagick Studio LLC";
