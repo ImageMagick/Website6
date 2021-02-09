@@ -1,4 +1,20 @@
-<div class="magick-header"><dl><dt>2021-01-24  6.9.11-59  &lt;quetzlzacatenango@image...&gt;</dt>
+<div class="magick-header"><dl><dt>2021-02-05  6.9.11-62  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.11-62 GIT revision 16...</li>
+<dt>2021-02-01  6.9.11-61  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> -trim not working as expected (reference    https://github.com/ImageMagick/ImageMagick/discussions/3172).</li>
+  <li> possible undefined behavior (reference    https://github.com/ImageMagick/ImageMagick/issues/3195).</li>
+  <li> sanitize buggy ascender and descender values (reference    https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=980202).</li>
+<dt>2021-01-30  6.9.11-61  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.11-61 GIT revision 16418:485a53860:20210130</li>
+<dt>2021-01-25  6.9.11-61  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> dng:decode element in delegates.xml quoted incorrectly (reference    https://github.com/ImageMagick/ImageMagick/issues/3156).</li>
+  <li> Extract GPS info from TIFF images (reference    https://github.com/ImageMagick/ImageMagick/issues/3167).</li>
+  <li> Revert tieing MagickFloatType to double (reference    https://github.com/ImageMagick/ImageMagick/pull/2832).</li>
+<dt>2021-01-25  6.9.11-60  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.11-60 GIT revision 16407:584cabd8b:20210125</li>
+<dt>2021-01-24  6.9.11-60  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> nothing new, lockstep with IMv7 release.</li>
+<dt>2021-01-24  6.9.11-59  &lt;quetzlzacatenango@image...&gt;</dt>
   <li> Release ImageMagick version 6.9.11-59 GIT revision 16399:3614d5e0a:20210124</li>
 <dt>2021-01-20  6.9.11-59  &lt;quetzlzacatenango@image...&gt;</dt>
   <li> strip EXIF marker from profile (reference    https://github.com/ImageMagick/ImageMagick/issues/3140).</li>
