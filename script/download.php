@@ -1,5 +1,5 @@
 <?php
   $title='Download';
-  $target='Download';
+  $topic='Download';
   include('session.php');
 ?>
