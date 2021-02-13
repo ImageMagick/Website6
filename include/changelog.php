@@ -1,5 +1,9 @@
-<div class="magick-header"><dl><dt>2021-02-05  6.9.11-62  &lt;quetzlzacatenango@image...&gt;</dt>
-  <li> Release ImageMagick version 6.9.11-62 GIT revision 16...</li>
+<div class="magick-header"><dl><dt>2021-02-10  6.9.12-0  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.12-0 GIT revision 16...</li>
+<dt>2021-02-10  6.9.12-0  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> bump minor version #.</li>
+<dt>2021-02-07  6.9.11-62  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.11-62 GIT revision 16452:52351447e:20210207</li>
 <dt>2021-02-01  6.9.11-61  &lt;quetzlzacatenango@image...&gt;</dt>
   <li> -trim not working as expected (reference    https://github.com/ImageMagick/ImageMagick/discussions/3172).</li>
   <li> possible undefined behavior (reference    https://github.com/ImageMagick/ImageMagick/issues/3195).</li>
