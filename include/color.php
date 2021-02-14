@@ -35,7 +35,7 @@ rgb(100.0%, 0.0%, 0.0%)   a float in the range 0—100% for each component</code
 
 <p>Note, as of ImageMagick 6.9.11-53, the commas are no longer necessary and a slash can proceed the alpha value, e.g. <code>rgb(255 128 0 / 50%)</code>..</p>
 
-<p>White space characters are allowed around the numerical values, at least if the entire color argument is enclosed in quotes ('single quotes' for Unix-like systems, "double quotes" for Windows).</p>
+<p>White space characters are allowed around the numerical values, at least if the entire color argument is enclosed in quotes ('single quotes' for Linux-like systems, "double quotes" for Windows).</p>
 
 <p>The sRGB color model is extended in this specification to include <var>alpha</var> to allow specification of the transparency of a color. These examples all specify the same color:</p>
 

@@ -4710,7 +4710,7 @@
   <li> Add EncipherImage() / DecipherImage() methods.</li>
   <li> Add -encipher / -decipher options to the command-line utilities.</li>
 <dt>2008-02-03  6.3.8-5 Cristy  &lt;quetzlzacatenango@image...&gt;</dt>
-  <li> New Unix/Linux refactoring (should be transparent since changes are    reflected in Magick-config and ImageMagick.pc pkg-config files):      /usr/local/include =&gt; /usr/local/include/ImageMagick      libMagick =&gt; libMagickCore      libWand =&gt; libMagickWand      Magick-config (deprecated) =&gt; MagickCore-config      Wand-config (deprecated) =&gt; MagickWand-config      Add Magick++-config, MagickCore.pc, MagickWand.pc, Magick++.pc</li>
+  <li> New Linux/Linux refactoring (should be transparent since changes are    reflected in Magick-config and ImageMagick.pc pkg-config files):      /usr/local/include =&gt; /usr/local/include/ImageMagick      libMagick =&gt; libMagickCore      libWand =&gt; libMagickWand      Magick-config (deprecated) =&gt; MagickCore-config      Wand-config (deprecated) =&gt; MagickWand-config      Add Magick++-config, MagickCore.pc, MagickWand.pc, Magick++.pc</li>
 <dt>2008-01-28  6.3.8-3 Cristy  &lt;quetzlzacatenango@image...&gt;</dt>
   <li> Liquid rescale limits the final size to twice the original size (reference    https://imagemagick.org/discourse-server/viewtopic.php?f=1&amp;t=10536).</li>
   <li> Read EXIF data in TIFF images; writing is pending until we can figure out    how to use the libtiff delegate library to write EXIF data.</li>
