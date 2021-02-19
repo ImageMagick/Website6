@@ -30,7 +30,7 @@
     <li><a href="https://imagemagick.org/download">Linux source</a>: Linux source distributions.</li>
     <li><a href="https://download.imagemagick.org/ImageMagick/download/windows">Windows source</a>: Windows source distributions.</li>
     <li><a href="https://download.imagemagick.org/ImageMagick/download/binaries">Linux and Windows binaries</a>: Linux and Windows binary distributions.</li>
-    <li><a href="https://github.com/ImageMagick">Git repository</a>: stable and development source releases.</li>
+    <li><a href="https://github.com/ImageMagick/ImageMagick6">Git repository</a>: stable and development source releases.</li>
     <li><a href="https://download.imagemagick.org/ImageMagick/download/delegates">Delegate libraries</a>: ImageMagick depends on a number of optional delegate libraries to extend its functionality.</li>
   </dl> </li>
 </dl>
