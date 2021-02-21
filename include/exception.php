@@ -2,9 +2,9 @@
 
 <p class="lead magick-description">ImageMagick returns a status of 0 whenever a command or algorithm successfully complete without complaint.  A warning code generally is typically just a notice that something unusual occurred but the command or algorithm still completed and most likely the results are still usable.  An error means the command or algorithm could not complete as expected and any results are unreliable.  A fatal error means the command or algorithm could not complete and the process exits prematurely and no results are returned.</p>
 
-<table class="table table-sm table-hover">
+<table class="table table-sm table-hover caption-top">
   <caption>ImageMagick Error and Warning Codes</caption>
-  <tbody>
+  <thead>
   <tr>
     <th>Domain</th>
     <th>Description</th>
@@ -12,7 +12,8 @@
     <th>Error</th>
     <th>Fatal Error</th>
   </tr>
-
+  </thead>
+  <tbody>
   <tr>
     <td>Success</td>
     <td>the command or algorithm completed successfully without complaint</td>

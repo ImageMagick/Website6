@@ -27,7 +27,7 @@ Colorspace: sRGB
 </code></pre>
 
 OR use the appropriate percent escape
-<pre class="highlight"><code>-> convert image.jpg -print "%[colorspace]\n" null:
+<pre class="highlight"><code>$ convert image.jpg -print "%[colorspace]\n" null:
 sRGB
 </code></pre>
 
