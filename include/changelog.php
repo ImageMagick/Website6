@@ -1,5 +1,17 @@
-<div class="magick-header"><dl><dt>2021-02-10  6.9.12-0  &lt;quetzlzacatenango@image...&gt;</dt>
-  <li> Release ImageMagick version 6.9.12-0 GIT revision 16...</li>
+<div class="magick-header"><dl><dt>2021-02-22  6.9.12-2  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.12-2 GIT revision 16482:2e0bf51d8:20210222 </li>
+<dt>2021-02-21  6.9.12-2  &lt;happyerc...@...&gt;</dt>
+  <li> Division by zero error is possible if crafty file sets film-gamma property</li>
+  <li> Check for overflow in thumbnail coder</li>
+  <li> Prevent compiler from optimizing out buffer clearing in cipher</li>
+<dt>2021-02-21  6.9.12-2  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Clone properties from image stack.</li>
+<dt>2021-02-21  6.9.12-1  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.12-1 GIT revision 16474:e6a300ef2:20210221</li>
+<dt>2021-02-15  6.9.12-1  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> fix EXR crash (reference    https://github.com/ImageMagick/ImageMagick/issues/3242</li>
+<dt>2021-02-13  6.9.12-0  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.12-0 GIT revision 16464:dab48bafd:20210213</li>
 <dt>2021-02-10  6.9.12-0  &lt;quetzlzacatenango@image...&gt;</dt>
   <li> bump minor version #.</li>
 <dt>2021-02-07  6.9.11-62  &lt;quetzlzacatenango@image...&gt;</dt>
@@ -17,7 +29,7 @@
 <dt>2021-01-25  6.9.11-60  &lt;quetzlzacatenango@image...&gt;</dt>
   <li> Release ImageMagick version 6.9.11-60 GIT revision 16407:584cabd8b:20210125</li>
 <dt>2021-01-24  6.9.11-60  &lt;quetzlzacatenango@image...&gt;</dt>
-  <li> nothing new, lockstep with IMv7 release.</li>
+  <li> nothing new, lockstep with IMv7 Release.</li>
 <dt>2021-01-24  6.9.11-59  &lt;quetzlzacatenango@image...&gt;</dt>
   <li> Release ImageMagick version 6.9.11-59 GIT revision 16399:3614d5e0a:20210124</li>
 <dt>2021-01-20  6.9.11-59  &lt;quetzlzacatenango@image...&gt;</dt>
@@ -376,7 +388,7 @@
 <dt>2019-12-22  6.9.10-80 Cristy  &lt;quetzlzacatenango@image...&gt;</dt>
   <li> Release ImageMagick version 6.9.10-80, GIT revision 15135:8aa94ec27:20191222</li>
 <dt>2019-12-18  6.9.10-80 Cristy  &lt;quetzlzacatenango@image...&gt;</dt>
-  <li> Some clang releases do not support _aligned_alloc().</li>
+  <li> Some clang Releases do not support _aligned_alloc().</li>
 <dt>2019-12-07  6.9.10-79 Cristy  &lt;quetzlzacatenango@image...&gt;</dt>
   <li> Release ImageMagick version 6.9.10-79, GIT revision 15127:fa10678:20191215.</li>
 <dt>2019-12-07  6.9.10-79 Cristy  &lt;quetzlzacatenango@image...&gt;</dt>
@@ -1091,7 +1103,7 @@
 <dt>2016-12-10  6.9.7-0 Cristy  &lt;quetzlzacatenango@image...&gt;</dt>
   <li> Release ImageMagick version 6.9.7-0, GIT revision 11230:d5e8abc:20161218.</li>
 <dt>2016-12-14  6.9.7-0 Cristy  &lt;quetzlzacatenango@image...&gt;</dt>
-  <li> Bump release to 6.9.7 to ensure coinstallability of old and new library.</li>
+  <li> Bump Release to 6.9.7 to ensure coinstallability of old and new library.</li>
   <li> Lazily evaluate the image storage class and colorspace to prevent cache    allocation when pinging an image.</li>
   <li> Do not close path for linejoins of round (reference    https://imagemagick.org/discourse-server/viewtopic.php?f=3&amp;t=31039).</li>
 <dt>2016-12-10  6.9.6-8 Cristy  &lt;quetzlzacatenango@image...&gt;</dt>
@@ -1513,7 +1525,7 @@
   <li> Writing histograms / mpeg working again (reference    https://imagemagick.org/discourse-server/viewtopic.php?f=3&amp;t=27089).</li>
   <li> The -linear-stretch option worked for Q16 but not Q32 (reference    https://imagemagick.org/discourse-server/viewtopic.php?f=3&amp;t=27112).</li>
 <dt>2015-02-22  6.9.0-8 Cristy  &lt;quetzlzacatenango@image...&gt;</dt>
-  <li> Bogus release, withdrawn.</li>
+  <li> Bogus Release, withdrawn.</li>
 <dt>2015-02-22  6.9.0-7 Cristy  &lt;quetzlzacatenango@image...&gt;</dt>
   <li> New version 6.9.0-7, SVN revision 18067.</li>
 <dt>2015-02-15  6.9.0-7 Cristy  &lt;quetzlzacatenango@image...&gt;</dt>
@@ -2234,7 +2246,7 @@
 <dt>2013-02-09  6.8.2-9 Bastien Roucaries  &lt;roucaries.basti...&gt;</dt>
   <li> Export versioning to automake in order to use it for library prefix.</li>
   <li> So bump was incomplete due to no changing map file.</li>
-  <li> Change abi name by adding major version to lib name (will simplify    next imagemagick major version release work) and reset release version    to 1 (due to changing abi name).</li>
+  <li> Change abi name by adding major version to lib name (will simplify    next imagemagick major version Release work) and reset release version    to 1 (due to changing abi name).</li>
 <dt>2013-02-09  6.8.2-9 Cristy  &lt;quetzlzacatenango@image...&gt;</dt>
   <li> The DOT coders now compiles with GraphViz 2.30 (reference    https://imagemagick.org/discourse-server/viewtopic.php?f=3&amp;t=22767).</li>
 <dt>2013-02-09  6.8.2-8 Cristy  &lt;quetzlzacatenango@image...&gt;</dt>
@@ -4251,7 +4263,7 @@
 <dt>2009-02-27  6.4.9-8 Anthony Thyssen &lt;A.Thyssen@griffith...&gt;</dt>
   <li> Fix old -clut bug for re-coloring gray images using transparent and    semi-transparent colors.</li>
 <dt>2009-02-22  6.4.9-7 Rick Mabry  &lt;rick.mabry@anony...&gt;</dt>
-  <li> Changes have been made to scores of the files that generate the    documentation. The most noticeable cosmetic changes are to the command-line    examples and command-line snippets, which now have a new look: dark blue    boxes with white/yellow text to indicate sample input/output.  Inclusion of    current version and release dates in appropriate places are now    automatically generated. Also, many changes have been made to begin to    bring the pages into strict W3C compliance with respect to both HTML and    CSS.</li>
+  <li> Changes have been made to scores of the files that generate the    documentation. The most noticeable cosmetic changes are to the command-line    examples and command-line snippets, which now have a new look: dark blue    boxes with white/yellow text to indicate sample input/output.  Inclusion of    current version and Release dates in appropriate places are now    automatically generated. Also, many changes have been made to begin to    bring the pages into strict W3C compliance with respect to both HTML and    CSS.</li>
 <dt>2009-02-21  6.4.9-7 Chris Madison  &lt;madisonblu@gmail...&gt;</dt>
   <li> The identify program reads the image pixels when the -format option is    asking for image statistics.</li>
   <li> Much improved ImageMagick validation suite (exercise with 'make check').</li>

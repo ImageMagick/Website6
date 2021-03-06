@@ -246,6 +246,11 @@ use:</p>
   </tr>
 
   <tr>
+    <td>filename:literal=<var>true</var></td>
+    <td>By default, an output filename can contain <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-processing.php#output">embedded formatting characters</a>.  Use this option to bypass interpretting embedded formatting characters and instead use the filename literally.</td>
+  </tr>
+
+  <tr>
     <td>filter:option=<var>value</var></td>
      <td>Set a filter option for use with <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#resize">-resize</a>.
     See below for specific options.</td>
