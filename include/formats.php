@@ -1296,7 +1296,7 @@ the supported image formats.</p>
     <td>CAPTION</td>
     <td>R</td>
     <td>Image caption</td>
-    <td> </td>
+    <td>Use <code>-define caption:split=true</code> to split text if required to fit caption on the canvas</td>
   </tr>
 
   <tr>

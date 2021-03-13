@@ -48,7 +48,7 @@ Use ImageMagick<sup><a href="http://tarr.uspto.gov/servlet/tarr?regser=serial&am
   </tr>
   <tr>
     <td><a href="https://legacy.imagemagick.org/Usage/transform/#vision">Delineate image features</a></td>
-    <td><a href="https://legacy.imagemagick.org/discourse-server~/viewtopic37d8.html?f=4&t=25405">Canny edge detection</a>, <a href="https://legacy.imagemagick.org/discourse-server~/viewtopic37d8.html?f=4&t=25476">Hough lines</a>.</td>
+    <td><a href="http://www.imagemagick.org/Usage/transform/#canny">Canny edge detection</a>, <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#hough-line">Hough lines</a>.</td>
   </tr>
   <tr>
     <td><a href="https://legacy.imagemagick.org/Usage/fourier/">Discrete Fourier transform</a></td>
