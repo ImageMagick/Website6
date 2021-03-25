@@ -1,5 +1,14 @@
-<div class="magick-header"><dl><dt>2021-02-22  6.9.12-2  &lt;quetzlzacatenango@image...&gt;</dt>
-  <li> Release ImageMagick version 6.9.12-2 GIT revision 16482:2e0bf51d8:20210222 </li>
+<div class="magick-header"><dl><dt>2021-03-13  6.9.12-4  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.12-4 GIT revision 16...</li>
+<dt>2021-03-13  6.9.12-4  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> support caption:split define (reference    https://github.com/ImageMagick/ImageMagick/discussions/3389).</li>
+<dt>2021-03-06  6.9.12-3  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.12-3 GIT revision 16511:448f9271e:20210306</li>
+<dt>2021-03-02  6.9.12-3  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Eliminate multiple division by zero exceptions (reference    https://github.com/ImageMagick/ImageMagick/issues/3339 and others).</li>
+  <li> Use -define filename:literal=true to bypass interpretting embedded     formatting characters and instead use the filename literally.</li>
+<dt>2021-02-27  6.9.12-2  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.12-2 GIT revision 16494:64c0cc234:2021022</li>
 <dt>2021-02-21  6.9.12-2  &lt;happyerc...@...&gt;</dt>
   <li> Division by zero error is possible if crafty file sets film-gamma property</li>
   <li> Check for overflow in thumbnail coder</li>
