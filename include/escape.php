@@ -68,7 +68,7 @@ insensitive manner. </p>
 free-form string tables directly, allowing you to override the above sequence,
 and avoid accessing an attribute or property of the same name.</p>
 
-<pre class="bg-light"><code>%[artifact:<var>setting</var>]
+<pre class="bg-light text-dark"><code>%[artifact:<var>setting</var>]
 %[option:<var>setting</var>]
 </code></pre>
 
@@ -287,7 +287,7 @@ filename, type, width, height. </p>
 <p>Here is a sample command and its output for an image with filename
 <code>bird.miff</code> and whose width is 512 and height is 480.</p>
 
-<pre class="bg-light"><code>-> identify -format "%m:%f %wx%h" bird.miff
+<pre class="bg-light text-dark"><code>-> identify -format "%m:%f %wx%h" bird.miff
 MIFF:bird.miff 512x480
 </code></pre>
 
@@ -609,7 +609,7 @@ Artifact. </p>
 now list all free-form string properties, artifacts, and options, (but not
 specific image attributes) using...</p>
 
-<pre class="bg-light"><code>convert ... \
+<pre class="bg-light text-dark"><code>convert ... \
    -print "__Properties__\n%[*]" \
    -print "__Artifacts__\n%[artifact:*]" \
    -print "__Options__\n%[option:*]" \
@@ -629,14 +629,14 @@ example you can do a numerical calculation use <code>%[fx:...]</code> to
 evaluate the given <a href="<?php echo
 $_SESSION['RelativePath']?>/../script/fx.php">FX</a> expressions:</p>
 
-<pre class="bg-light"><code>%[fx:<var>expression</var>]
+<pre class="bg-light text-dark"><code>%[fx:<var>expression</var>]
 </code></pre>
 
 <p>Use <code>pixel:</code> or <code>hex:</code> to evaluate a pixel color as defined by the <a
 href="<?php echo $_SESSION['RelativePath']?>/../script/fx.php">FX</a>
 expression:</p>
 
-<pre class="bg-light"><code>%[pixel:<var>expression</var>]
+<pre class="bg-light text-dark"><code>%[pixel:<var>expression</var>]
 </code></pre>
 
 <p>Use <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#define">-define</a> to specify the color compliance (e.g. <code>-define pixel:compliance=css</code>)</p>.
@@ -646,12 +646,12 @@ expression:</p>
 <p>You can also use the following special formatting syntax to print EXIF
 mage meta-data that was included in the image read in:</p>
 
-<pre class="bg-light"><code>%[EXIF:<var>tag</var>]
+<pre class="bg-light text-dark"><code>%[EXIF:<var>tag</var>]
 </code></pre>
 
 <p>Choose <var>tag</var> from the following:</p>
 
-<pre class="pre-scrollable highlight"><code>
+<pre class="pre-scrollable bg-light text-dark"><code>
 *  (print all EXIF tags, in keyword=data format)
 !  (print all EXIF tags, in tag_number data format)
 #hhhh (print data for EXIF tag #hhhh)
@@ -745,12 +745,12 @@ shell from misinterpreting any spaces and square brackets.</p>
 <p>The following special formatting syntax can be used to print IPTC
 information contained in the file:</p>
 
-<pre class="bg-light"><code>%[IPTC:<var>dataset</var>:<var>record</var>]
+<pre class="bg-light text-dark"><code>%[IPTC:<var>dataset</var>:<var>record</var>]
 </code></pre>
 
 <p>Select <var>dataset</var> and <var>record</var> from the following:</p>
 
-<pre class="pre-scrollable highlight:">
+<pre class="pre-scrollable bg-light text-dark:">
   Envelope Record
   1:00  Model Version
   1:05  Destination

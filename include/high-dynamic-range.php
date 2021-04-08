@@ -17,14 +17,14 @@
 
 <p>To enable the HDRI version of ImageMagick, use this Linux/Linux command:</p>
 
-<ul><pre class="bg-light"><code>./configure --enable-hdri
+<ul><pre class="bg-light text-dark"><code>./configure --enable-hdri
 </code></pre></ul>
 
 <p>Under Windows, set the <code>MAGICKCORE_HDRI_SUPPORT</code> definition in the <code>magick-baseconfig.h</code> configuration file and build.</p>
 
 <p>To verify HDRI is properly configured, look for "HDRI" as a feature:</p>
 
-<ul><pre class="bg-light"><code>identify -version
+<ul><pre class="bg-light text-dark"><code>identify -version
 Features: HDRI
 </code></pre></ul>
 </div>
