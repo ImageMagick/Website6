@@ -1,7 +1,26 @@
-<div class="magick-header"><dl><dt>2021-03-13  6.9.12-4  &lt;quetzlzacatenango@image...&gt;</dt>
-  <li> Release ImageMagick version 6.9.12-4 GIT revision 16...</li>
+<div class="magick-header"><dl><dt>2021-04-17  6.9.12-8  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.12-8 GIT revision 16581:0eccd3556:20210417</li>
+<dt>2021-04-09  6.9.12-8  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> constrain sub-image list.</li>
+  <li> -layers optimize no longer produces broken output (reference    https://github.com/ImageMagick/ImageMagick/issues/3520).</li>
+  <li> write tiff colormapped images with an alpha channel as PHOTOMETRIC_RGB</li>
+<dt>2021-04-03  6.9.12-6  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.12-6 GIT revision 16552:6c4bc786e:20210403</li>
+<dt>2021-04-01  6.9.12-6  Dirk Lemstra &lt;dirk@lem.....org&gt;</dt>
+  <li> fix portable Windows build.</li>
+<dt>2021-03-28  6.9.12-5  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.12-5 GIT revision 16537:ffa0d49a7:20210328</li>
+<dt>2021-03-25  6.9.12-5  Dirk Lemstra &lt;dirk@lem.....org&gt;</dt>
+  <li> OpenCL will be disable by default, use the environment variable    MAGICK_OCL_DEVICE to turn it on or select the device to use.</li>
+<dt>2021-03-24  6.9.12-5  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> eliminate extraneous spaces in AC_PATH_PROG (reference    https://github.com/ImageMagick/ImageMagick/issues/3428).</li>
+  <li> fix handling of non-square images with -fft option.</li>
+  <li> enable FFTW support with --with-fftw configure script command-line option.</li>
+<dt>2021-03-20  6.9.12-4  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.12-4 GIT revision 16525:21991f726:20210320</li>
 <dt>2021-03-13  6.9.12-4  &lt;quetzlzacatenango@image...&gt;</dt>
   <li> support caption:split define (reference    https://github.com/ImageMagick/ImageMagick/discussions/3389).</li>
+  <li> avoid an omp deadlock with policy string</li>
 <dt>2021-03-06  6.9.12-3  &lt;quetzlzacatenango@image...&gt;</dt>
   <li> Release ImageMagick version 6.9.12-3 GIT revision 16511:448f9271e:20210306</li>
 <dt>2021-03-02  6.9.12-3  &lt;quetzlzacatenango@image...&gt;</dt>
