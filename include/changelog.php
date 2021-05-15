@@ -1,8 +1,24 @@
-<div class="magick-header"><dl><dt>2021-04-17  6.9.12-8  &lt;quetzlzacatenango@image...&gt;</dt>
+<div class="magick-header"><dl><dt>2021-05-07  6.9.12-12  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.12-11 GIT revision 16630:ed78be2e6:20210507</li>
+<dt>2021-05-06  6.9.12-12  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> -layers optimize no longer produces broken output (reference    https://github.com/ImageMagick/ImageMagick/issues/3520).</li>
+<dt>2021-05-04  6.9.12-11  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.12-11 GIT revision 16625:7d8a3b762:20210504</li>
+<dt>2021-04-25  6.9.12-11  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> reverted color reduction patch so that it treats alpha blending properly.</li>
+<dt>2021-04-28  6.9.12-10  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.12-10 GIT revision 16602:f98edd4aa:20210428</li>
+<dt>2021-04-25  6.9.12-10  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Check image is not NULL before dereferencing.</li>
+<dt>2021-04-25  6.9.12-9  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.12-9 GIT revision 16...</li>
+<dt>2021-04-25  6.9.12-9  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> eliminate uninitialized value.</li>
+  <li> Differences in computing linear gray (reference    https://github.com/ImageMagick/ImageMagick/issues/3571).</li>
+<dt>2021-04-17  6.9.12-8  &lt;quetzlzacatenango@image...&gt;</dt>
   <li> Release ImageMagick version 6.9.12-8 GIT revision 16581:0eccd3556:20210417</li>
 <dt>2021-04-09  6.9.12-8  &lt;quetzlzacatenango@image...&gt;</dt>
   <li> constrain sub-image list.</li>
-  <li> -layers optimize no longer produces broken output (reference    https://github.com/ImageMagick/ImageMagick/issues/3520).</li>
   <li> write tiff colormapped images with an alpha channel as PHOTOMETRIC_RGB</li>
 <dt>2021-04-03  6.9.12-6  &lt;quetzlzacatenango@image...&gt;</dt>
   <li> Release ImageMagick version 6.9.12-6 GIT revision 16552:6c4bc786e:20210403</li>
@@ -11,7 +27,7 @@
 <dt>2021-03-28  6.9.12-5  &lt;quetzlzacatenango@image...&gt;</dt>
   <li> Release ImageMagick version 6.9.12-5 GIT revision 16537:ffa0d49a7:20210328</li>
 <dt>2021-03-25  6.9.12-5  Dirk Lemstra &lt;dirk@lem.....org&gt;</dt>
-  <li> OpenCL will be disable by default, use the environment variable    MAGICK_OCL_DEVICE to turn it on or select the device to use.</li>
+  <li> OpenCL will be disabled by default, use the environment variable    MAGICK_OCL_DEVICE to turn it on or select the device to use.</li>
 <dt>2021-03-24  6.9.12-5  &lt;quetzlzacatenango@image...&gt;</dt>
   <li> eliminate extraneous spaces in AC_PATH_PROG (reference    https://github.com/ImageMagick/ImageMagick/issues/3428).</li>
   <li> fix handling of non-square images with -fft option.</li>
@@ -266,7 +282,7 @@
 <dt>2020-05-15  6.9.11-12 Cristy  &lt;quetzlzacatenango@image...&gt;</dt>
   <li> Release ImageMagick version 6.9.11-12, GIT revision 15602:96db62d:20200515.</li>
 <dt>2020-05-12  6.9.11-12 Cristy  &lt;quetzlzacatenango@image...&gt;</dt>
-  <li> Black artefacts during quantization (reference    https://github.com/ImageMagick/ImageMagick/discussions/2007#discussioncomment-13546).</li>
+  <li> Black artifacts during quantization (reference    https://github.com/ImageMagick/ImageMagick/discussions/2007#discussioncomment-13546).</li>
 <dt>2020-04-08  6.9.11-11 Cristy  &lt;quetzlzacatenango@image...&gt;</dt>
   <li> Release ImageMagick version 6.9.11-11, GIT revision 15592:6c1c1a9:20200508</li>
 <dt>2020-04-28  6.9.11-11 Cristy  &lt;quetzlzacatenango@image...&gt;</dt>
