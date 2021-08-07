@@ -1,5 +1,33 @@
-<div class="magick-header"><dl><dt>2021-05-07  6.9.12-12  &lt;quetzlzacatenango@image...&gt;</dt>
-  <li> Release ImageMagick version 6.9.12-11 GIT revision 16630:ed78be2e6:20210507</li>
+<div class="magick-header"><dl><dt>2021-07-18  6.9.12-19  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.12-19 GIT revision 16725:c4f26fbfd:20210718</li>
+<dt>2021-07-17  6.9.12-19  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> trim no longer returns an empty image on 1-pixel width input (reference    https://github.com/ImageMagick/ImageMagick/issues/3896).</li>
+  <li> remove virtual canvas offset from difference image.</li>
+<dt>2021-07-17  6.9.12-18  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.12-18 GIT revision 16714:4ce1321c4:20210717</li>
+<dt>2021-06-26  6.9.12-18  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> system() is not supported under IOS.</li>
+<dt>2021-06-25  6.9.12-17  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.12-17 GIT revision 16689:d02e016da:20210620</li>
+<dt>2021-06-25  6.9.12-17  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> malloc() corruption fix (reference    https://github.com/ImageMagick/ImageMagick6/issues/159).</li>
+<dt>2021-06-19  6.9.12-16  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Correct TGA orientation (reference    https://github.com/ImageMagick/ImageMagick/issues/3844).</li>
+<dt>2021-06-12  6.9.12-15  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.12-15 GIT revision 16679:b21457a7e:20210612</li>
+<dt>2021-06-02  6.9.12-15  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> SVG no longer hangs when handling class in &lt;defs&gt; (reference    https://github.com/ImageMagick/ImageMagick/issues/3818).</li>
+  <li> Raise exception for invalid compose:args geometry (reference    https://github.com/ImageMagick/ImageMagick/issues/3765).</li>
+<dt>2021-05-31  6.9.12-14  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.12-14 GIT revision 16665:c75ae771a:20210531</li>
+<dt>2021-05-17  6.9.12-13  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.12-13 GIT revision 16653:8305ee312:20210517</li>
+<dt>2021-05-12  6.9.12-13  Dirk Lemstra &lt;dirk@lem.....org&gt;</dt>
+  <li> Fixed reading and writing the XMP chunk in a WebP image (reference    https://github.com/ImageMagick/ImageMagick/discussions/3617).</li>
+<dt>2021-05-11  6.9.12-13  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> label and caption sanity check is too conservative.</li>
+<dt>2021-05-07  6.9.12-12  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.12-12 GIT revision 16630:ed78be2e6:20210507</li>
 <dt>2021-05-06  6.9.12-12  &lt;quetzlzacatenango@image...&gt;</dt>
   <li> -layers optimize no longer produces broken output (reference    https://github.com/ImageMagick/ImageMagick/issues/3520).</li>
 <dt>2021-05-04  6.9.12-11  &lt;quetzlzacatenango@image...&gt;</dt>
