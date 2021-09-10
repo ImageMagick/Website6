@@ -23,7 +23,8 @@
   &lt;policy domain="resource" name="time" value="120"/>
   &lt;policy domain="filter" rights="none" pattern="*" />
   &lt;policy domain="path" rights="none" pattern="@*"/>  &lt;!-- indirect reads not permitted -->
-  &lt;policy domain="coder" rights="write" pattern="{HTTP,HTTPS,MSVG,MVG,PS,EPS,PDF,XPS}" />
+  &lt;policy domain="module" rights="write" pattern="{MVG,PS,PDF,URL,XPS}" />
+  &lt;policy domain="coder" rights="write" pattern="{MSVG}" />
   &lt;policy domain="cache" name="memory-map" value="anonymous"/>
   &lt;policy domain="cache" name="synchronize" value="true"/>
   &lt;policy domain="cache" name="shared-secret" value="<em>passphrase</em>" stealth="True"/>

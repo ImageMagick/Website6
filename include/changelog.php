@@ -1,5 +1,15 @@
-<div class="magick-header"><dl><dt>2021-07-18  6.9.12-19  &lt;quetzlzacatenango@image...&gt;</dt>
-  <li> Release ImageMagick version 6.9.12-19 GIT revision 16725:c4f26fbfd:20210718</li>
+<div class="magick-header"><dl><dt>2021-08-21  6.9.12-21  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.12-21 GIT revision 16...</li>
+<dt>2021-08-21  6.9.12-21  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Tweak the bilevel image type (reference    https://github.com/ImageMagick/ImageMagick/issues/4121).</li>
+  <li> Converting from LAB to RGB leads to wrong colors (reference    https://github.com/ImageMagick/ImageMagick/issues/4105).</li>
+<dt>2021-08-21  6.9.12-20  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.12-20 GIT revision 16761:d49be7fbb:20210821 </li>
+<dt>2021-07-26  6.9.12-20  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> heap-based buffer overflow in TIFF coder (alert from Hunter Mitchell).</li>
+  <li> grayscale image write optimization</li>
+<dt>2021-07-18  6.9.12-19  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.12-19 GIT revision 16731:1015767a1:20210718</li>
 <dt>2021-07-17  6.9.12-19  &lt;quetzlzacatenango@image...&gt;</dt>
   <li> trim no longer returns an empty image on 1-pixel width input (reference    https://github.com/ImageMagick/ImageMagick/issues/3896).</li>
   <li> remove virtual canvas offset from difference image.</li>
