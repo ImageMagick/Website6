@@ -23,7 +23,7 @@
 <li>reduce lock contention with the <a href="http://goog-perftools.sourceforge.net/doc/tcmalloc.html">tcmalloc</a> memory allocation library;</li>
 <li>push large images to a solid-state drive, see <a href="https://legacy.imagemagick.org/script/architecture.php#tera-pixel">large image support</a>.</li>
 </ul>
-<p>If these options are prohibitive, you can reduce the quality of the image results.  The default build is Q16.  If you instead use a Q8 build, you use half the memory The tradeoff is reduced precision.  For a Q8 build of ImageMagick, use this <code>configure</code> script option: <code>--with-quantum-depth=8</code>.</p>
+<p>If these options are prohibitive, you can reduce the quality of the image results.  The default build is Q16.  If you instead use a Q8 build, you use half the memory The trade-off is reduced precision.  For a Q8 build of ImageMagick, use this <code>configure</code> script option: <code>--with-quantum-depth=8</code>.</p>
 
 <h2><a class="anchor" id="community"></a>Community</h2>
 <p>To join the ImageMagick community, try the <a target="_blank" href="https://github.com/ImageMagick/ImageMagick6/discussions">discussion</a> service.  You can review questions or comments (with informed responses) posed by ImageMagick users or ask your own questions. If you want to contribute image processing algorithms, other enhancements, or bug fixes, open an <a href="https://github.com/ImageMagick/ImageMagick6/issues">issue</a>. </p>
