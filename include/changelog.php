@@ -1,18 +1,24 @@
-<div class="magick-header"><dl><dt>2021-08-21  6.9.12-21  &lt;quetzlzacatenango@image...&gt;</dt>
-  <li> Release ImageMagick version 6.9.12-21 GIT revision 16...</li>
+<div class="magick-header"><dl><dt>2021-09-12  6.9.12-22  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.12-21 GIT revision 16809:ae88f07cd:20210912</li>
+<dt>2021-09-11  6.9.12-22  Dirk Lemstra &lt;dirk@lem.....org&gt;</dt>
+  <li> Fixed incorrect check when module is used as the domain in policy.xml    that could allow the use of a disabled module. (reference    https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-qvhr-jj4p-j2qr).</li>
+<dt>2021-09-06  6.9.12-22  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Prevent color reduction merging into one color (reference    https://github.com/ImageMagick/ImageMagick/issues/4059).</li>
+<dt>2021-09-04  6.9.12-21  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.12-21 GIT revision 16778:e0967eae2:20210904</li>
 <dt>2021-08-21  6.9.12-21  &lt;quetzlzacatenango@image...&gt;</dt>
   <li> Tweak the bilevel image type (reference    https://github.com/ImageMagick/ImageMagick/issues/4121).</li>
   <li> Converting from LAB to RGB leads to wrong colors (reference    https://github.com/ImageMagick/ImageMagick/issues/4105).</li>
 <dt>2021-08-21  6.9.12-20  &lt;quetzlzacatenango@image...&gt;</dt>
-  <li> Release ImageMagick version 6.9.12-20 GIT revision 16761:d49be7fbb:20210821 </li>
+  <li> Release ImageMagick version 6.9.12-20 GIT revision 16761:d49be7fbb:20210821</li>
 <dt>2021-07-26  6.9.12-20  &lt;quetzlzacatenango@image...&gt;</dt>
-  <li> heap-based buffer overflow in TIFF coder (alert from Hunter Mitchell).</li>
-  <li> grayscale image write optimization</li>
+  <li> Heap-based buffer overflow in TIFF coder (alert from Hunter Mitchell).</li>
+  <li> Grayscale image write optimization</li>
 <dt>2021-07-18  6.9.12-19  &lt;quetzlzacatenango@image...&gt;</dt>
   <li> Release ImageMagick version 6.9.12-19 GIT revision 16731:1015767a1:20210718</li>
 <dt>2021-07-17  6.9.12-19  &lt;quetzlzacatenango@image...&gt;</dt>
-  <li> trim no longer returns an empty image on 1-pixel width input (reference    https://github.com/ImageMagick/ImageMagick/issues/3896).</li>
-  <li> remove virtual canvas offset from difference image.</li>
+  <li> Trim no longer returns an empty image on 1-pixel width input (reference    https://github.com/ImageMagick/ImageMagick/issues/3896).</li>
+  <li> Remove virtual canvas offset from difference image.</li>
 <dt>2021-07-17  6.9.12-18  &lt;quetzlzacatenango@image...&gt;</dt>
   <li> Release ImageMagick version 6.9.12-18 GIT revision 16714:4ce1321c4:20210717</li>
 <dt>2021-06-26  6.9.12-18  &lt;quetzlzacatenango@image...&gt;</dt>
