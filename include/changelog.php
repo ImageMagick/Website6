@@ -1,5 +1,25 @@
-<div class="magick-header"><dl><dt>2021-09-12  6.9.12-22  &lt;quetzlzacatenango@image...&gt;</dt>
-  <li> Release ImageMagick version 6.9.12-21 GIT revision 16809:ae88f07cd:20210912</li>
+<div class="magick-header"><dl><dt>2021-10-23  6.9.12-26  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.12-27 GIT revision 16864:76711376d:20211023</li>
+<dt>2021-10-11  6.9.12-26  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> fix connected component abort trap (reference    https://github.com/ImageMagick/ImageMagick/issues/4372).</li>
+  <li> fix possible unitialized values (reference    https://github.com/ImageMagick/ImageMagick/issues/4379).</li>
+  <li> fix stack overflow when parsing malicious tiff image file (report from    Muhammad Aldo Firmansyah).</li>
+<dt>2021-10-10  6.9.12-25  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.12-25 GIT revision 16849:2c96ab5d0:20211010</li>
+<dt>2021-10-03  6.9.12-25  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> improved algorithm for automatic calculation of pointsize for caption and    labels.</li>
+  <li> support -auto-orient option in the identify utlity.  <dt>2021-10-03  6.9.12-24  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.12-24 GIT revision 16842:f6fdd0321:20211003</li>
+<dt>2021-10-03  6.9.12-24  Dirk Lemstra &lt;dirk@lem.....org&gt;</dt>
+  <li> improved algorithm for automatic calculation of word breaks and pointsize    for caption and labels.</li>
+<dt>2021-09-19  6.9.12-24  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> improve wrapping between words and within words (reference    https://github.com/ImageMagick/ImageMagick/discussions/4227).</li>
+<dt>2021-09-18  6.9.12-23  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.12-23 GIT revision 16818:bd9fb58de:20210918</li>
+<dt>2021-09-17  6.9.12-23  Dirk Lemstra &lt;dirk@lem.....org&gt;</dt>
+  <li> Check for `null` in InvokeDelegate() (reference    https://github.com/ImageMagick/ImageMagick/issues/4225).</li>
+<dt>2021-09-12  6.9.12-22  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.12-22 GIT revision 16809:ae88f07cd:20210912</li>
 <dt>2021-09-11  6.9.12-22  Dirk Lemstra &lt;dirk@lem.....org&gt;</dt>
   <li> Fixed incorrect check when module is used as the domain in policy.xml    that could allow the use of a disabled module. (reference    https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-qvhr-jj4p-j2qr).</li>
 <dt>2021-09-06  6.9.12-22  &lt;quetzlzacatenango@image...&gt;</dt>
