@@ -238,7 +238,7 @@ below. </p>
 <p>As of IM v6.6.1-6, if the special '<code>Sync</code>' flag is not specified
 (enabled by default) with the <a href="<?php echo
 $_SESSION['RelativePath']?>/../script/command-line-options.php#channel"
->-channel</a> setting, then the above mathematical compositions will nolonger
+>-channel</a> setting, then the above mathematical compositions no longer
 synchronise its actions with the alpha channel.  Instead the math composition
 will be applied on an individual channel basis as defined by the <a
 href="<?php echo

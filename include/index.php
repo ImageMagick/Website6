@@ -12,7 +12,8 @@ Use ImageMagick<sup><a href="http://tarr.uspto.gov/servlet/tarr?regser=serial&am
 
 <p>The authoritative ImageMagick version 6 web site is <a href="https://legacy.imagemagick.org/">https://legacy.imagemagick.org</a>. The authoritative source code repository is <a href="https://github.com/ImageMagick/ImageMagick6" target="_blank">https://github.com/ImageMagick/ImageMagick6</a>. Find the latest release of ImageMagick, version 7, at <a href="https://imagemagick.org/">https://imagemagick.org</a>.</p>
 
-<p>The design of ImageMagick is an evolutionary process, with the design and implementation efforts serving to influence and guide further progress in the other. With <a href="https://imagemagick.org/">ImageMagick version 7</a>, we aim to improve the design based on lessons learned from the version 6 implementation.</p>
+<p>The design of ImageMagick is an evolutionary process, with the design and implementation efforts serving to influence and guide further progress in the other. With <a href="https://imagemagick.org/">ImageMagick version 7</a>, we aim to improve the design based on lessons learned from the version 6 implementation.  As ImageMagick version 6 is near end of life, we recommend you switch to ImageMagick version 7.  In the mean-time we continue to support and add security patches, but not enhance, ImageMagick version 6, until at least August 1, 2028.</p>
+</p>
 
 <h2><a class="anchor" id="features"></a>Features and Capabilities</h2>
 <p>Here are just a few <a href="<?php echo $_SESSION['RelativePath']?>/../script/examples.php">examples</a> of what ImageMagick can do for you:</p>

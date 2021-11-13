@@ -1,5 +1,13 @@
-<div class="magick-header"><dl><dt>2021-10-23  6.9.12-26  &lt;quetzlzacatenango@image...&gt;</dt>
-  <li> Release ImageMagick version 6.9.12-27 GIT revision 16864:76711376d:20211023</li>
+<div class="magick-header"><dl><dt>2021-10-29  6.9.12-28  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.12-28 GIT revision 16883:4b5c30c0b:20211029</li>
+<dt>2021-10-28  6.9.12-28  Dirk Lemstra &lt;dirk@lem.....org&gt;</dt>
+  <li> Fix stack overflow when parsing malicious PS image file (report from    Muhammad Aldo Firmansyah).</li>
+<dt>2021-10-25  6.9.12-27  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.12-27 GIT revision 16873:60fcc2499:20211025</li>
+<dt>2021-10-25  6.9.12-27  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> fix x64 Windows build.</li>
+<dt>2021-10-24  6.9.12-26  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.12-26 GIT revision 16871:3430fb87b:20211024</li>
 <dt>2021-10-11  6.9.12-26  &lt;quetzlzacatenango@image...&gt;</dt>
   <li> fix connected component abort trap (reference    https://github.com/ImageMagick/ImageMagick/issues/4372).</li>
   <li> fix possible unitialized values (reference    https://github.com/ImageMagick/ImageMagick/issues/4379).</li>
