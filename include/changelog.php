@@ -1,4 +1,8 @@
-<div class="magick-header"><dl><dt>2021-10-29  6.9.12-28  &lt;quetzlzacatenango@image...&gt;</dt>
+<div class="magick-header"><dl><dt>2021-11-01  6.9.12-29  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.12-29 GIT revision 16888:4efb23ee9:20211101</li>
+<dt>2021-11-01  6.9.12-29  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Fix broken release.</li>
+<dt>2021-10-29  6.9.12-28  &lt;quetzlzacatenango@image...&gt;</dt>
   <li> Release ImageMagick version 6.9.12-28 GIT revision 16883:4b5c30c0b:20211029</li>
 <dt>2021-10-28  6.9.12-28  Dirk Lemstra &lt;dirk@lem.....org&gt;</dt>
   <li> Fix stack overflow when parsing malicious PS image file (report from    Muhammad Aldo Firmansyah).</li>
