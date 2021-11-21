@@ -1,6 +1,10 @@
-<div class="magick-header"><dl><dt>2021-11-01  6.9.12-29  &lt;quetzlzacatenango@image...&gt;</dt>
-  <li> Release ImageMagick version 6.9.12-29 GIT revision 16888:4efb23ee9:20211101</li>
-<dt>2021-11-01  6.9.12-29  &lt;quetzlzacatenango@image...&gt;</dt>
+<div class="magick-header"><dl><dt>2021-11-14  6.9.12-30  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.12-30 GIT revision 16...</li>
+<dt>2021-11-14  6.9.12-30  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Fix integer overflow (reference    https://github.com/ImageMagick/ImageMagick6/issues/168).</li>
+<dt>2021-11-14  6.9.12-29  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.12-29 GIT revision 16895:ba084f6bd:20211114</li>
+<dt>2021-11-14  6.9.12-29  &lt;quetzlzacatenango@image...&gt;</dt>
   <li> Fix broken release.</li>
 <dt>2021-10-29  6.9.12-28  &lt;quetzlzacatenango@image...&gt;</dt>
   <li> Release ImageMagick version 6.9.12-28 GIT revision 16883:4b5c30c0b:20211029</li>

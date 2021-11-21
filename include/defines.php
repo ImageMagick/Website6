@@ -1114,8 +1114,13 @@ use:</p>
   </tr>
 
   <tr>
-    <td>tiff:exif-properties=<var>true</var></td>
-    <td>Enable reading the EXIF properties.</td>
+    <td>tiff:exif-properties=<var>False</var></td>
+    <td>Disable reading the EXIF properties.</td>
+  </tr>
+
+  <tr>
+    <td>tiff:gps-properties=<var>False</var></td>
+    <td>Disable reading the GPS properties.</td>
   </tr>
 
   <tr>
