@@ -3440,6 +3440,8 @@ is a TrueType font file, <code>ps:helvetica</code> is PostScript font, and
 href="#family">-family</a>, <a href="#stretch">-stretch</a>, <a
 href="#style">-style</a>, and <a href="#weight">-weight</a>. </p>
 
+<p>To specify an explicit font filename or collection, specify the font path preceded with a <samp>@</samp>, e.g., <samp>@arial.ttf</samp>.  You can specify the font face index for font collections, e.g., <samp>@msgothic.ttc[1]</samp>.</p>
+
 
 <div style="margin: auto;">
   <h2><a class="anchor" id="foreground"></a>-foreground <var>color</var></h2>
