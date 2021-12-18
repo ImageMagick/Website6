@@ -6044,6 +6044,8 @@ filled with the <code>background</code> color. </p>
 <p>See also the <a href="#distort">-distort</a> operator and specifically the
 '<code>ScaleRotateTranslate</code>' distort method. </p>
 
+<p>The page or virtual canvas information of the image is also rotated.  Use a <a href="#repage">+repage</a> to remove the virtual canvas page information if it is unwanted.</p>
+
 
 <div style="margin: auto;">
   <h2><a class="anchor" id="sample"></a>-sample <var>geometry</var></h2>
