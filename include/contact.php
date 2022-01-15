@@ -29,6 +29,8 @@
         $status="Message not sent: solicitations not permitted.";
       if (preg_match("/\bbrands/i",$message) != 0)
         $status="Message not sent: solicitations not permitted.";
+     if (preg_match("/\bfuck/i",$message) != 0)
+        $status="Message not sent: solicitations not permitted.";
       if (preg_match("/\bpromot/i",$message) != 0)
         $status="Message not sent: solicitations not permitted.";
       if (preg_match("/\btraffic/i",$message) != 0)
