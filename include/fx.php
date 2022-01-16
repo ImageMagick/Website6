@@ -187,7 +187,7 @@
 <dl class="row">
 <dt class="col-md-4"> <var>x</var> <code>^</code> <var>y</var></dt><dd class="col-md-8"> exponentiation (<var>x<sup>y</sup></var>)</dd>
 <dt class="col-md-4"> <code>(</code> ... <code>)</code></dt><dd class="col-md-8"> grouping</dd>
-<dt class="col-md-4"> <var>x</var> <code>*</code> <var>y</var></dt><dd class="col-md-8"> multiplication (the asterisk <code>*</code> is optional, for example, <code>2u</code> or <code>2(x+y)</code> are acceptable)</dd>
+<dt class="col-md-4"> <var>x</var> <code>*</code> <var>y</var></dt><dd class="col-md-8"> multiplication</dd>
 <dt class="col-md-4"> <var>x</var> <code>/</code> <var>y</var></dt><dd class="col-md-8"> division</dd>
 <dt class="col-md-4"> <var>x</var> <code>%</code> <var>y</var></dt><dd class="col-md-8"> modulo</dd>
 <dt class="col-md-4"> <var>x</var> <code>+</code> <var>y</var></dt><dd class="col-md-8"> addition</dd>
