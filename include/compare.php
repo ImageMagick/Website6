@@ -8,7 +8,7 @@
 
 <p>We list a few examples of the <code>compare</code> command here to illustrate its usefulness and ease of use. To get started, lets compare an image to one thats been sharpened:</p>
 
-<pre class="bg-light text-dark"><code>convert rose.jpg -sharpen 0x1 reconstruct.jpg
+<pre class="bg-light text-dark mx-4"><code>convert rose.jpg -sharpen 0x1 reconstruct.jpg
 compare rose.jpg reconstruct.jpg difference.png
 compare -compose src rose.jpg reconstruct.jpg difference.png
 </code></pre>
@@ -24,7 +24,7 @@ compare -compose src rose.jpg reconstruct.jpg difference.png
 
 <p>In addition to the visual interpretation of the difference in an image and its reconstruction, we report a mathematical measure of the difference:</p>
 
-<pre class="bg-light text-dark"><code>-> compare -verbose -metric mae rose.jpg reconstruct.jpg difference.png
+<pre class="bg-light text-dark mx-4"><code>-> compare -verbose -metric mae rose.jpg reconstruct.jpg difference.png
 Image: rose.jpg
  Channel distortion: MAE
   red: 2282.91 (0.034835)
@@ -34,25 +34,25 @@ Image: rose.jpg
 </code></pre>
 <p>Or, if you just want the red channel distortion, use this command:</p>
 
-<pre class="bg-light text-dark"><code>-> compare -channel red -metric PSNR rose.jpg reconstruct.jpg difference.png
+<pre class="bg-light text-dark mx-4"><code>-> compare -channel red -metric PSNR rose.jpg reconstruct.jpg difference.png
 19.63
 </code></pre>
 
 <p>If your image contains an alpha channel (transparency) you need to explicitly include it in the comparison:</p>
 
-<pre class="bg-light text-dark"><code>-> compare -channel rgba -metric PSNR rose.jpg reconstruct.jpg difference.png
+<pre class="bg-light text-dark mx-4"><code>-> compare -channel rgba -metric PSNR rose.jpg reconstruct.jpg difference.png
 19.63
 </code></pre>
 
 <p>If you just want the overall image distortion, use this command:</p>
 
-<pre class="bg-light text-dark"><code>-> compare -metric PSNR rose.jpg reconstruct.jpg difference.png
+<pre class="bg-light text-dark mx-4"><code>-> compare -metric PSNR rose.jpg reconstruct.jpg difference.png
 28.31
 </code></pre>
 
 <p>If the reconstructed image is a subimage of the image, the compare program returns the best match offset.  In addition, it returns a similarity image such that an exact match location is completely white and if none of the pixels match, black, otherwise some gray level in-between:</p>
 
-<pre class="bg-light text-dark"><code>-> compare -metric RMSE -subimage-search logo.png wizard.jpg similarity.tif
+<pre class="bg-light text-dark mx-4"><code>-> compare -metric RMSE -subimage-search logo.png wizard.jpg similarity.tif
 85.05 (0.00129778) @ 353,157
 </code></pre>
 

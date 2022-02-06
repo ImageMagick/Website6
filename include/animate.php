@@ -8,12 +8,12 @@
 
 <p>We list a few examples of the <code>animate</code> command here to illustrate its usefulness and ease of use.  To get started, lets animate an image sequence in the GIF format:</p>
 
-<pre class="bg-light text-dark"><code>animate movie.gif
+<pre class="bg-light text-dark mx-4"><code>animate movie.gif
 </code></pre>
 
 <p>To animate a directory of JPEG images, use:</p>
 
-<pre class="bg-light text-dark"><code>animate *.jpg
+<pre class="bg-light text-dark mx-4"><code>animate *.jpg
 </code></pre>
 
 <p>You can find additional examples of using <code>animate</code> in <a href="https://legacy.imagemagick.org/Usage/basics/#animate">Examples of ImageMagick Usage</a>.</p>
