@@ -8,15 +8,15 @@
 
 <p>ImageMagick provides a statically-built ImageMagick object as part of its <a href="<?php echo $_SESSION['RelativePath']?>/../script/download.php#windows">Windows installation package</a>.  When this package is installed, ImageMagickObject and its sample programs are installed to this path:</p>
 
-<ul><pre class="bg-light text-dark"><code>  c:\Program Files\ImageMagick-<?php echo(MagickLibVersionText); ?>-Q16\ImageMagickObject
-</code></pre></ul>
+<pre class="bg-light text-dark mx-4"><code>  c:\Program Files\ImageMagick-<?php echo(MagickLibVersionText); ?>-Q16\ImageMagickObject
+</code></pre>
 
 <p>The ImageMagickObject is registered if the checkbox, <code>Register ImageMagickObject</code>, is checked at install time.</p>
 
 <p>To execute the sample program from the Windows Command Shell, type:</p>
 
-<ul><pre class="bg-light text-dark"><code>cscript SimpleTest.vbs
-</code></pre></ul>
+<pre class="bg-light text-dark mx-4"><code>cscript SimpleTest.vbs
+</code></pre>
 
 <p>Since the ImageMagick utility command line parsers are incorporated within ImageMagickObject, please refer to the <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-tools.php">command-line tools</a> discussion to learn how to use it. The sample VBS scripts show how the object should be called and used and have lots of comments.</p>
 
@@ -30,21 +30,21 @@
 
 <p>Once the VisualStaticMT project has been built, build the ImageMagickObject with this procedure:</p>
 
-<ul><pre class="bg-light text-dark"><code>cd ImageMagick/contrib/win32/ATL7/ImageMagickObject
+<pre class="bg-light text-dark mx-4"><code>cd ImageMagick/contrib/win32/ATL7/ImageMagickObject
 BuildImageMagickObject release
-</code></pre></ul>
+</code></pre>
 
 <p>Here, we assume that the VisualStaticMT project has been built using the release setting for an optimized build. If the debug setting was used for a debug build, specify the argument <code>debug</code>; instead.</p>
 
 <p>To register the DLL as a COM+ server, type</p>
 
-<ul><pre class="bg-light text-dark"><code>regsvr32 /c /s ImageMagickObject.dll
-</code></pre></ul>
+<pre class="bg-light text-dark mx-4"><code>regsvr32 /c /s ImageMagickObject.dll
+</code></pre>
 
 <p>To unregister the DLL, type</p>
 
-<ul><pre class="bg-light text-dark"><code>regsvr32 /u /s ImageMagickObject.dll
-</code></pre></ul>
+<pre class="bg-light text-dark mx-4"><code>regsvr32 /u /s ImageMagickObject.dll
+</code></pre>
 
 <p>Use MagickCMD to exercise ImageMagickObject to verify that it is working properly.</p>
 
