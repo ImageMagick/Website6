@@ -1,7 +1,55 @@
-<div class="magick-header"><dl><dt>2021-11-14  6.9.12-30  &lt;quetzlzacatenango@image...&gt;</dt>
-  <li> Release ImageMagick version 6.9.12-30 GIT revision 16...</li>
+<div class="magick-header"><dl><dt>2022-02-13  6.9.12-40  &lt;quetzlzacatenango@image...&gt; </dt>
+  <li> Release ImageMagick version 6.9.12-40 GIT revision 17...</li>
+<dt>2022-02-13  6.9.12-40  &lt;quetzlzacatenango@image...&gt; </dt>
+  <li> incontinuity in straight segment of polyline (reference    https://github.com/ImageMagick/ImageMagick/issues/4837).</li>
+<dt>2022-02-12  6.9.12-39  &lt;quetzlzacatenango@image...&gt; </dt>
+  <li> Release ImageMagick version 6.9.12-39 GIT revision 17043:99ef124d0:20220212</li>
+<dt>2022-02-06  6.9.12-39  &lt;quetzlzacatenango@image...&gt; </dt>
+  <li> optimize reading of XPM properties.</li>
+  <li> Netscape block must appear immediately after the global color table.</li>
+<dt>2022-02-05  6.9.12-38  &lt;quetzlzacatenango@image...&gt; </dt>
+  <li> Release ImageMagick version 6.9.12-38 GIT revision 17024:bbf05a344:20220205</li>
+<dt>2022-02-02  6.9.12-38  &lt;quetzlzacatenango@image...&gt; </dt>
+  <li> limit recursion when reading the VID image format.</li>
+  <li> improperly resizing memory due to errant check (reference    https://github.com/ImageMagick/ImageMagick/issues/4807).</li>
+<dt>2022-01-29  6.9.12-37  &lt;quetzlzacatenango@image...&gt; </dt>
+  <li> Release ImageMagick version 6.9.12-37 GIT revision 17011:4dd4d0df4:20220129</li>
+<dt>2022-01-29  6.9.12-37  &lt;quetzlzacatenango@image...&gt; </dt>
+  <li> limit colorname length to avoid possible DoS</li>
+  <li> restore MPRI URI in SVG</li>
+    https://github.com/ImageMagick/ImageMagick/issues/4771).<dt>2022-01-28  6.9.12-36  &lt;quetzlzacatenango@image...&gt; </dt>
+  <li> Release ImageMagick version 6.9.12-36 GIT revision 17005:bf36be468:20220128</li>
+<dt>2022-01-21  6.9.12-36  &lt;quetzlzacatenango@image...&gt; </dt>
+  <li> PDF now shows the correct Unicode title (reference    https://github.com/ImageMagick/ImageMagick/issues/4771).</li>
+<dt>2022-01-24  6.9.12-36  Dirk Lemstra &lt;dirk@lem.....org&gt;</dt>
+  <li> Add missing HEIC version check.</li>
+<dt>2022-01-21  6.9.12-35  &lt;quetzlzacatenango@image...&gt; </dt>
+  <li> Release ImageMagick version 6.9.12-35 GIT revision 16991:2287dca49:20220121 </li>
+<dt>2022-01-12  6.9.12-35  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Perist frame delay when converting APNG to Webp (reference    https://github.com/ImageMagick/ImageMagick/issues/4704).</li>
+<dt>2021-12-22  6.9.12-34  &lt;quetzlzacatenango@image...&gt; </dt>
+  <li> Release ImageMagick version 6.9.12-34 GIT revision 16959:c10351c16:20211222</li>
+<dt>2021-12-22  6.9.12-34  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> possible DoS for certain SVG constructs (reference    https://github.com/ImageMagick/ImageMagick/issues/4626).</li>
+<dt>2021-12-18  6.9.12-33  &lt;quetzlzacatenango@image...&gt; </dt>
+  <li> Release ImageMagick version 6.9.12-33 GIT revision 16952:add9cb14e:20211218</li>
+<dt>2021-12-11  6.9.12-33  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> support face index for font collections, e.g. msgothic.ttc[1].</li>
+<dt>2021-12-11  6.9.12-33  Dirk Lemstra &lt;dirk@lem.....org&gt;</dt>
+  <li> Improved adjustment of page offset when resizing an image.</li>
+<dt>2021-12-04  6.9.12-32  &lt;quetzlzacatenango@image...&gt; </dt>
+  <li> Release ImageMagick version 6.9.12-32 GIT revision 16936:e35c98c5a:20211204</li>
+<dt>2021-11-27  6.9.12-32  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> set threads to 1 when using ASAN to avoid false positive memory leaks.</li>
+<dt>2021-11-21  6.9.12-31  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.12-31 GIT revision 16917:149fb8a34:20211121</li>
+<dt>2021-11-21  6.9.12-31  Dirk Lemstra &lt;dirk@lem.....org&gt;</dt>
+  <li> Fixed an OpenCL build problem.</li>
+<dt>2021-11-20  6.9.12-30  &lt;quetzlzacatenango@image...&gt;</dt>
+  <li> Release ImageMagick version 6.9.12-30 GIT revision 16912:dda7d0bb7:20211120</li>
 <dt>2021-11-14  6.9.12-30  &lt;quetzlzacatenango@image...&gt;</dt>
   <li> Fix integer overflow (reference    https://github.com/ImageMagick/ImageMagick6/issues/168).</li>
+  <li> eliminate runtime error: applying zero offset to null pointer.</li>
 <dt>2021-11-14  6.9.12-29  &lt;quetzlzacatenango@image...&gt;</dt>
   <li> Release ImageMagick version 6.9.12-29 GIT revision 16895:ba084f6bd:20211114</li>
 <dt>2021-11-14  6.9.12-29  &lt;quetzlzacatenango@image...&gt;</dt>
