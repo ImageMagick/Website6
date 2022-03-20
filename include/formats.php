@@ -466,7 +466,7 @@ the supported image formats.</p>
   <tr>
     <td>HRZ</td>
     <td>RW</td>
-    <td>Slow Scane TeleVision</td>
+    <td>Slow Scan TeleVision</td>
     <td> </td>
   </tr>
 
@@ -1338,7 +1338,7 @@ the supported image formats.</p>
     <td>GRADIENT</td>
     <td>R</td>
     <td>Gradual passing from one shade to another</td>
-    <td>Returns a rendered linear top-to-bottom <a href="<?php echo $_SESSION['RelativePath']?>/../script/gradient.php">gradient image</a> using the specified image size.</td>
+    <td>Returns a rendered linear or radial top-to-bottom <a href="<?php echo $_SESSION['RelativePath']?>/../script/gradient.php">gradient image</a> using the specified image size.</td>
 
   </tr>
 
