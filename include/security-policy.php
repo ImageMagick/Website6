@@ -73,7 +73,7 @@ convert: no images defined `wizard.jpg'</code></pre>
 
 <p>You can verify your policy changes are in effect with this command:</p>
 
-<pre class="pre-scrollable bg-light text-dark mx-4"><code>-> identify -list policy
+<pre class="pre-scrollable bg-light text-dark mx-4"><code>$ identify -list policy
 Path: ImageMagick-6/policy.xml
   Policy: Resource
     name: list-length
