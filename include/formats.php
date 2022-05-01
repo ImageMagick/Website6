@@ -1437,7 +1437,7 @@ the supported image formats.</p>
   <tr>
     <td>SCREENSHOT</td>
     <td>R</td>
-    <td>an image that shows the contents of a computer display</td>
+    <td>an image that shows the contents of a computer display.  Under Windows, if you have multiple monitors, it returns a screenshot for each monitor.</td>
     <td> </td>
   </tr>
 
