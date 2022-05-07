@@ -5,26 +5,21 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [6.9.12-47](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-45...6.9.12-47) - 2022-04-30
+## [6.9.12-48](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-47...6.9.12-48) - 2022-05-07
 
 ### Commits
 
-- https://github.com/ImageMagick/ImageMagick/issues/4973 [`629154d`](https://github.com/ImageMagick/ImageMagick6/commit/629154d99c33e09c35ed0e2cb147212c5425b6b1)
-- bump revision [`657c75f`](https://github.com/ImageMagick/ImageMagick6/commit/657c75f5e25acc6c8e269b704d5ea4e9bec451e7)
-- eliminate compiler warning [`ef19c70`](https://github.com/ImageMagick/ImageMagick6/commit/ef19c70f68fa38a7fef0b71b43ccc30708679e94)
-- release commits [`3857531`](https://github.com/ImageMagick/ImageMagick6/commit/38575313683062227601929340acf05ceb308150)
-- eliminate Coverity defects [`c5c4515`](https://github.com/ImageMagick/ImageMagick6/commit/c5c451591974b4ca4835fd394c5f1da4da6fed11)
-- eliminate Coverity defect [`5051477`](https://github.com/ImageMagick/ImageMagick6/commit/50514778fd451dba26ce4bcd821e6dcac0cb702a)
-- latest autoconf/automake updates [`4370511`](https://github.com/ImageMagick/ImageMagick6/commit/43705112b251248d1e23bd527fd6e13a8d8e5774)
-- Added option to mark the version as beta. [`2f967eb`](https://github.com/ImageMagick/ImageMagick6/commit/2f967ebc78b66a4723d501f5e0f33f82c03952d9)
-- Changed triggers for the release build. [`049e01c`](https://github.com/ImageMagick/ImageMagick6/commit/049e01cdae1adef16f9d0da2afc6731dec7606c5)
-- Updated .gitignore. [`0c7d4be`](https://github.com/ImageMagick/ImageMagick6/commit/0c7d4bef12ef6499892dfd19f09a9b3c4735d4e2)
-- latest autoconf update [`40c0b2c`](https://github.com/ImageMagick/ImageMagick6/commit/40c0b2c432494dcbef76db431913d5095af14dbb)
-- fix rare but possible memory leak [`20b1c9f`](https://github.com/ImageMagick/ImageMagick6/commit/20b1c9f59f986c6bd62ccf89736c47cebf4c6e87)
-- set threshold policy by default [`5053b93`](https://github.com/ImageMagick/ImageMagick6/commit/5053b9399eae366224843b43085598ee5e2749da)
-- encourage Unicode default font [`6c68a06`](https://github.com/ImageMagick/ImageMagick6/commit/6c68a0605bc97a723e48e3b44eae0fbd50ce70c2)
-- update website [`a4ec146`](https://github.com/ImageMagick/ImageMagick6/commit/a4ec14613f8693b2ee8279a70b7ca591b1ffc5dd)
-- release [`2346033`](https://github.com/ImageMagick/ImageMagick6/commit/2346033ebb1bb76f7cdd04276a96397e4b436bb9)
+- beta release [`79631d0`](https://github.com/ImageMagick/ImageMagick6/commit/79631d042400c496843378ed0196a4b406c4250d)
+- eliminate Coverity defect [`7f9f7af`](https://github.com/ImageMagick/ImageMagick6/commit/7f9f7af4df7ae0c520c06dd607f2c4ca75f4ef23)
+- eliminate Coverity defect [`65ed243`](https://github.com/ImageMagick/ImageMagick6/commit/65ed243183b20224e724b57df4988bde1b64800f)
+- possible memory leak @ https://github.com/ImageMagick/ImageMagick/issues/5121 [`ca7744c`](https://github.com/ImageMagick/ImageMagick6/commit/ca7744c2cd37b11a6a0abe50761aee178027c724)
+- conditional logging [`a34e365`](https://github.com/ImageMagick/ImageMagick6/commit/a34e36577496414d2f36c1e491166b72c223dcab)
+- release [`d28a02b`](https://github.com/ImageMagick/ImageMagick6/commit/d28a02b076d222169f299dbaa4377f74ae071ec0)
+
+## [6.9.12-47](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-46...6.9.12-47) - 2022-04-30
+
+### Commits
+
 - prep Beta release [`4731b11`](https://github.com/ImageMagick/ImageMagick6/commit/4731b113f0b6d52574ded6c97e54d90a771534d7)
 - possible obscure memory leak [`3414d5d`](https://github.com/ImageMagick/ImageMagick6/commit/3414d5dad69969bff4c1377ff58a9df892c6ff6b)
 - check event mask before logging [`89f4f49`](https://github.com/ImageMagick/ImageMagick6/commit/89f4f49abdfbd8bc4db32a5f47d9ac32e75df7cd)
@@ -55,6 +50,27 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - eliminate compiler warning [`7bd8a5c`](https://github.com/ImageMagick/ImageMagick6/commit/7bd8a5cc9be042f4134d9abbb094f921bd3e71f9)
 - eliminate compiler exception [`2eba158`](https://github.com/ImageMagick/ImageMagick6/commit/2eba15828209d58ed289821faa79b76be1eb3a25)
 - release [`9198dc5`](https://github.com/ImageMagick/ImageMagick6/commit/9198dc51522ac061e56ce0fc2c94a2712038aba4)
+
+## [6.9.12-46](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-45...6.9.12-46) - 2022-04-23
+
+### Commits
+
+- https://github.com/ImageMagick/ImageMagick/issues/4973 [`629154d`](https://github.com/ImageMagick/ImageMagick6/commit/629154d99c33e09c35ed0e2cb147212c5425b6b1)
+- bump revision [`657c75f`](https://github.com/ImageMagick/ImageMagick6/commit/657c75f5e25acc6c8e269b704d5ea4e9bec451e7)
+- eliminate compiler warning [`ef19c70`](https://github.com/ImageMagick/ImageMagick6/commit/ef19c70f68fa38a7fef0b71b43ccc30708679e94)
+- release commits [`3857531`](https://github.com/ImageMagick/ImageMagick6/commit/38575313683062227601929340acf05ceb308150)
+- eliminate Coverity defects [`c5c4515`](https://github.com/ImageMagick/ImageMagick6/commit/c5c451591974b4ca4835fd394c5f1da4da6fed11)
+- eliminate Coverity defect [`5051477`](https://github.com/ImageMagick/ImageMagick6/commit/50514778fd451dba26ce4bcd821e6dcac0cb702a)
+- latest autoconf/automake updates [`4370511`](https://github.com/ImageMagick/ImageMagick6/commit/43705112b251248d1e23bd527fd6e13a8d8e5774)
+- Added option to mark the version as beta. [`2f967eb`](https://github.com/ImageMagick/ImageMagick6/commit/2f967ebc78b66a4723d501f5e0f33f82c03952d9)
+- Changed triggers for the release build. [`049e01c`](https://github.com/ImageMagick/ImageMagick6/commit/049e01cdae1adef16f9d0da2afc6731dec7606c5)
+- Updated .gitignore. [`0c7d4be`](https://github.com/ImageMagick/ImageMagick6/commit/0c7d4bef12ef6499892dfd19f09a9b3c4735d4e2)
+- latest autoconf update [`40c0b2c`](https://github.com/ImageMagick/ImageMagick6/commit/40c0b2c432494dcbef76db431913d5095af14dbb)
+- fix rare but possible memory leak [`20b1c9f`](https://github.com/ImageMagick/ImageMagick6/commit/20b1c9f59f986c6bd62ccf89736c47cebf4c6e87)
+- set threshold policy by default [`5053b93`](https://github.com/ImageMagick/ImageMagick6/commit/5053b9399eae366224843b43085598ee5e2749da)
+- encourage Unicode default font [`6c68a06`](https://github.com/ImageMagick/ImageMagick6/commit/6c68a0605bc97a723e48e3b44eae0fbd50ce70c2)
+- update website [`a4ec146`](https://github.com/ImageMagick/ImageMagick6/commit/a4ec14613f8693b2ee8279a70b7ca591b1ffc5dd)
+- release [`2346033`](https://github.com/ImageMagick/ImageMagick6/commit/2346033ebb1bb76f7cdd04276a96397e4b436bb9)
 
 ## [6.9.12-45](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-44...6.9.12-45) - 2022-04-16
 
