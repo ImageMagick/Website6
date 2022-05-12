@@ -5432,6 +5432,8 @@ after being created. </p>
 
 <p class="magick-description">Specify orientation of a digital camera image.</p>
 
+<p>Note, this is a setting.  This merely sets the orientation metadata, and does not change the image.</p>
+
 <p>Choose from these orientations:</p>
 
 <ul>< class="bg-light text-dark mx-4"><code>bottom-left    right-top
