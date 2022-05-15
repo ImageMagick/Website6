@@ -5,6 +5,30 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.12-49](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-48...6.9.12-49) - 2022-05-15
+
+### Merged
+
+- Fix various redefinition warnings in mingw [`#180`](https://github.com/ImageMagick/ImageMagick6/pull/180)
+- Fix build with -Werror [`#177`](https://github.com/ImageMagick/ImageMagick6/pull/177)
+
+### Commits
+
+- beta release [`3f25da1`](https://github.com/ImageMagick/ImageMagick6/commit/3f25da103a2139e41d282183b8ffde22e4f09946)
+- PDF to PBM no longer returning all white @ https://github.com/ImageMagick/ImageMagick/issues/5134 [`53e7f93`](https://github.com/ImageMagick/ImageMagick6/commit/53e7f93869d6975a29d0868b2b05713d691bc755)
+- Test with mingw-w64 using MSYS2 CI [`05a2e00`](https://github.com/ImageMagick/ImageMagick6/commit/05a2e0039414285f36512aa38dccc632593b56d5)
+- autotools: Add ws2_32 library with MagickCore for Win32 platform [`2798c67`](https://github.com/ImageMagick/ImageMagick6/commit/2798c671a8754c7efae3d9d717e48897012144f1)
+- eliminate compiler warnings [`21ffed7`](https://github.com/ImageMagick/ImageMagick6/commit/21ffed7d95ab949dcdc52ee683dc0965ffd99719)
+- latest autoconf/automake config [`1481259`](https://github.com/ImageMagick/ImageMagick6/commit/148125937c46616879d0fb9b59d3a699718e09d5)
+- automake/autoconf update [`12bcac5`](https://github.com/ImageMagick/ImageMagick6/commit/12bcac5d47b3d0b04b15cfbbe3af28a68028cd2b)
+- automake/autoconf update [`4f055aa`](https://github.com/ImageMagick/ImageMagick6/commit/4f055aa73cf8e6b6bf8e267edd040d4a82e2f08d)
+- correct check for Magick++ compliance [`beb34e1`](https://github.com/ImageMagick/ImageMagick6/commit/beb34e12c70a588f16b2d57b6809d7ef85b1a733)
+- automake/autoconf remove obselete macros [`e0f009a`](https://github.com/ImageMagick/ImageMagick6/commit/e0f009a8af2f6cddcf5e03e271522422a83462a7)
+- set AC_PREREQ() macro [`9192794`](https://github.com/ImageMagick/ImageMagick6/commit/919279480b7e069731dbfd9eef228ede0a7431f0)
+- build RPM tweaks [`520c45a`](https://github.com/ImageMagick/ImageMagick6/commit/520c45ae1753d431989cb2de169a7d6698212c53)
+- tweak BZIP2 autoconf macro [`ba96c74`](https://github.com/ImageMagick/ImageMagick6/commit/ba96c74c25047731c4257db87f782d87cde883aa)
+- release [`d468e47`](https://github.com/ImageMagick/ImageMagick6/commit/d468e47a8edf9c787d97b36064ae17953dfedffa)
+
 ## [6.9.12-48](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-47...6.9.12-48) - 2022-05-07
 
 ### Commits
