@@ -5,6 +5,24 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.12-51](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-50...6.9.12-51) - 2022-05-30
+
+### Commits
+
+- beta release [`c4073a5`](https://github.com/ImageMagick/ImageMagick6/commit/c4073a51fdacfaf26781b4aaac39e4751e11adef)
+- return previous value when FX statement is null [`d6cb74d`](https://github.com/ImageMagick/ImageMagick6/commit/d6cb74d5e3f970bcb66ed49515eec02ab05ecbae)
+- Corrected pragma comments due to repository renames. [`1b57081`](https://github.com/ImageMagick/ImageMagick6/commit/1b57081dfc4084118f55482e37ccad12c21d6d22)
+- latest ImageMagick documentation [`68a8ce1`](https://github.com/ImageMagick/ImageMagick6/commit/68a8ce12a4bcef69799d8a9a5cf1cd7ad790d520)
+- release [`e89c04d`](https://github.com/ImageMagick/ImageMagick6/commit/e89c04d318562790ea6afc45c73c8d3a8e2ea123)
+
+## [6.9.12-50](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-49...6.9.12-50) - 2022-05-16
+
+### Commits
+
+- beta release [`2225cde`](https://github.com/ImageMagick/ImageMagick6/commit/2225cde3e76dbe3f1aa4cba8f4fcc3c92c2fc229)
+- fix temporary file leak [`6e3cf33`](https://github.com/ImageMagick/ImageMagick6/commit/6e3cf33cac68acdadff6ce03a9d88b485c8725b0)
+- release [`8bb9411`](https://github.com/ImageMagick/ImageMagick6/commit/8bb9411cd08da1cfdd68f3f9b88007202e5464ff)
+
 ## [6.9.12-49](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-48...6.9.12-49) - 2022-05-15
 
 ### Merged
