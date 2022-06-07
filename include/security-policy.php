@@ -50,10 +50,11 @@ convert: no images defined `wizard.jpg'</code></pre>
 <p>The module policy enables or disables a complete module for both read or write.  To just read or write an image format, use the `coder` policy instead.  For example, we disable reading just a few Postscript related formats, you can still write them:</p>
 <pre class="bg-light text-dark mx-4"><code>&lt;policy domain="coder" rights="write" pattern="{PDF,PS,PS2,PS3,XPS}" /></code></pre>
 
-<p>As of ImageMagick 6.9.9-11, you can allocate the pixel cache and some internal buffers with anonymous memory mapping rather than from heap.  As a consequence, the pixels are initialized to zero resulting in a minor performance penalty.  You can also securely delete any temporary files for increased security.  The value is the number of times to shred (replace its content with random data) before deleting a temporary file.  For example,</p>
-<pre class="bg-light text-dark mx-4"><code>&lt;policy domain="system" name="memory-map" value="anonymous"/>
+<p>As of ImageMagick 6.9.9-11, you can allocate the pixel cache and some internal buffers with anonymous memory mapping rather than from heap.  As a consequence, the pixels are initialized to zero resulting in a minor performance penalty. You can also jumble the contents of certain memory buffers and temporary files before they are freed or deleted.  The shred value is the number of times to replace content with random data.  For example,</p>
+<pre class="bg-light text-dark mx-4"><samp>&lt;policy domain="system" name="memory-map" value="anonymous"/>
 &lt;policy domain="cache" name="memory-map" value="anonymous"/>
-&lt;policy domain="system" name="shred" value="1"/></code></pre>
+&lt;policy domain="system" name="shred" value="1"/></samp></pre>
+<p>For performance reasons, the first pass is fast by repeating the random sequence of bytes.  Subsequent passes are an order of magnitude slower but generate cryptographically strong random bytes for the entire buffer.</p>
 
 <p>Some image processing algorithms (e.g. wavelet transform) might consume a substantial amount of memory to complete.  ImageMagick maintains a separate memory pool for these large resource requests and as of 6.9.9-0 permits you to set a maximum request limit.  If the limit is exceeded, the allocation is instead memory-mapped on disk.  Here we limit the maximum memory request by policy:</p>
 <pre class="bg-light text-dark mx-4"><code>&lt;policy domain="system" name="max-memory-request" value="256MiB"/> </code></pre>
