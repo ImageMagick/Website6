@@ -6244,9 +6244,10 @@ Properties</a> in the defined value.  For example:</p>
 Old size = 70x46  New size = 35x23
 </code></pre></ul>
 
-<p>Other well known 'properties' that are available include:
-'<code>date:create</code>' and '<code>date:modify</code>' and
-'<code>signature</code>'. </p>
+<p>Other well known 'properties' that are available include: 
+<samp>date:timestamp</samp>, <samp>date:create</samp>, 
+<samp>date:modify</samp>, and <samp>signature</samp>. </p>
+
 
 <p>The <a href="#repage">-repage</a> operator will also allow you to modify
 the '<code>page</code>' attribute of an image for images already in memory (also
