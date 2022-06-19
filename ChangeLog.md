@@ -5,6 +5,77 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.12-53](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-52...6.9.12-53) - 2022-06-19
+
+### Commits
+
+- beta release [`2b152c1`](https://github.com/ImageMagick/ImageMagick6/commit/2b152c1243264b25b44c515ca95fa1827aeee423)
+- update DOX config files [`d332de8`](https://github.com/ImageMagick/ImageMagick6/commit/d332de8a9943699cbb25e18d5105276367591260)
+- update DOX config files [`d628017`](https://github.com/ImageMagick/ImageMagick6/commit/d6280179903bcc156a57e60560ed5c6d0ca68dac)
+- update DOX config files [`45110c5`](https://github.com/ImageMagick/ImageMagick6/commit/45110c554e99e81d965d943aac55cdc5ef42d02f)
+- only check the shred count once [`6d3db6f`](https://github.com/ImageMagick/ImageMagick6/commit/6d3db6f94b16458b82bfc3774fc107f1ec00a356)
+- cosmetic [`8e90ab0`](https://github.com/ImageMagick/ImageMagick6/commit/8e90ab0d47a47e07b34c745dd1db6e91a6cedefc)
+- cosmetic [`1671346`](https://github.com/ImageMagick/ImageMagick6/commit/1671346143f77ea68519497dcbf2e6070b915f72)
+- system:shred value has precedence over MAGICK_SHRED_PASSES [`a29777d`](https://github.com/ImageMagick/ImageMagick6/commit/a29777d26b4bb6ba4f7824009e1b6f266c639177)
+- support shredding memory pools [`e5dbbb0`](https://github.com/ImageMagick/ImageMagick6/commit/e5dbbb0afac0a615320530f9f7988d091d80b916)
+- update memory pointer [`ea8c73a`](https://github.com/ImageMagick/ImageMagick6/commit/ea8c73a05b78af7590c604b57322637ff2bf2828)
+- first pass is fast for performance, second is crytographically strong [`15e729e`](https://github.com/ImageMagick/ImageMagick6/commit/15e729edcd033360a3d16df8f5974c79f4bdeac5)
+- recommend shred value of 1 for performance reasons [`4fe06ac`](https://github.com/ImageMagick/ImageMagick6/commit/4fe06ac897047d4e2e573b08015d084190c95cac)
+- only set the # of shred passes one time [`fc9746a`](https://github.com/ImageMagick/ImageMagick6/commit/fc9746a351acbd3139b8446722d15e8ff42f15ba)
+- if enabled, shred streams [`2987085`](https://github.com/ImageMagick/ImageMagick6/commit/2987085994d9d8aa1a2c9d92b061c4ce2c3437f4)
+- unmap mapped pixels [`5316839`](https://github.com/ImageMagick/ImageMagick6/commit/531683946155f1029876852e6b251f685773c02a)
+- default mapped member to false [`79d9c6c`](https://github.com/ImageMagick/ImageMagick6/commit/79d9c6c0c7e9cf2f119fa24cdc6ee1095b4a1223)
+- don't shred streaming pixels [`bdd30a8`](https://github.com/ImageMagick/ImageMagick6/commit/bdd30a819918bf6f72619433d03f874bf2c5de4b)
+- rework shred passes [`24d66bd`](https://github.com/ImageMagick/ImageMagick6/commit/24d66bdf3e46cf44c58f9ace9a6bde133714a6e1)
+- optimize performance [`975e715`](https://github.com/ImageMagick/ImageMagick6/commit/975e715e7cc652e0a6b244cead2724a12539223a)
+- eliminate compiler warning [`4466926`](https://github.com/ImageMagick/ImageMagick6/commit/4466926fd4c52d335c3b13aaee8e737f6ae8b286)
+- eliminate lint warnings [`af4e64c`](https://github.com/ImageMagick/ImageMagick6/commit/af4e64ce504b84d9504043495d35edd8113f8965)
+- eliminate lint warnings [`f200174`](https://github.com/ImageMagick/ImageMagick6/commit/f200174d88b0791d60333f20bcd8913c4d79d5a4)
+- support date:timestamp property [`cf7dc08`](https://github.com/ImageMagick/ImageMagick6/commit/cf7dc08636a7679fbdfac7a8f7d4af0f78708578)
+- eliminate lint warnings [`4f34e8d`](https://github.com/ImageMagick/ImageMagick6/commit/4f34e8d6deea256c93cabde03775c0b452a03627)
+- get timestamp from image-&gt;timestamp member [`5694940`](https://github.com/ImageMagick/ImageMagick6/commit/5694940303da237c8db39b61e278ace408cbf55c)
+- eliminate lint warnings [`31d21ce`](https://github.com/ImageMagick/ImageMagick6/commit/31d21ce2b1759bc0c9bcdadf9477e04d4866ca4f)
+- support registry:precision define [`31c7d05`](https://github.com/ImageMagick/ImageMagick6/commit/31c7d05623682a99ba83cce14e6b7a399e3d7e18)
+- need at least one policy defined [`0f0e899`](https://github.com/ImageMagick/ImageMagick6/commit/0f0e89934bd82a6768bbb8fc0dcf9eb07c52cb87)
+- eliminate lint warnings [`1498305`](https://github.com/ImageMagick/ImageMagick6/commit/14983052ab96d4d738480f4e4b1b210f33a70d42)
+- eliminate compiler warning [`e3595eb`](https://github.com/ImageMagick/ImageMagick6/commit/e3595ebb4b8633dc76f912706429ff8c4eed449b)
+- eliminate compiler warning [`145440f`](https://github.com/ImageMagick/ImageMagick6/commit/145440f0f4c265f13691cf97780a17c218503e05)
+- eliminate lint warning [`909d770`](https://github.com/ImageMagick/ImageMagick6/commit/909d77066640baf07e01932b6aa5c719c50f1ccd)
+- eliminate lint warnings [`eb27aca`](https://github.com/ImageMagick/ImageMagick6/commit/eb27aca292079c8f5f7c279029c71a6ff7da5fa0)
+- eliminate lint warnings [`649b0e8`](https://github.com/ImageMagick/ImageMagick6/commit/649b0e8cfd4926aec5cc7cc0c0c06ca76c364611)
+- note, system:precision is deprecated [`28e2fd5`](https://github.com/ImageMagick/ImageMagick6/commit/28e2fd51dd88e0f4367b3b28cd51421c9f20ef64)
+- eliminate icc compiler warnings [`6e68635`](https://github.com/ImageMagick/ImageMagick6/commit/6e6863533a0faef62c6b2d601712dfbe0dbb992a)
+- Reverted incorrect patch when doing auto-orient of an image that is right-top or left-bottom. [`9e0d7b9`](https://github.com/ImageMagick/ImageMagick6/commit/9e0d7b9aca687ec2b278fa9e0137f404a3e8d99a)
+- Only close the file blob when gzopen is successful. [`c5fb917`](https://github.com/ImageMagick/ImageMagick6/commit/c5fb917d4454185c7b65961a4b7ae3c74d03c87d)
+- Added method to add utf8 support for gzopen on Windows. [`70c6500`](https://github.com/ImageMagick/ImageMagick6/commit/70c6500391b17560b06ae3d4eebfe6a42e1efb09)
+- Only parse SOURCE_DATE_EPOCH once. [`cab56c5`](https://github.com/ImageMagick/ImageMagick6/commit/cab56c5265ea8724fb93d04fcf0ca514df1147da)
+- Restored check that did not seem to be necessary. [`f12a028`](https://github.com/ImageMagick/ImageMagick6/commit/f12a028a8e597ab6a4bfcaaeb0834bc805a5052a)
+- Fixed copy paste mistake. [`5f5830b`](https://github.com/ImageMagick/ImageMagick6/commit/5f5830bebcd415025460fe2b22118a44b4b3dd7f)
+- Also fix incorrect fclose for bzlib. [`429a7e7`](https://github.com/ImageMagick/ImageMagick6/commit/429a7e7775e1a60bda2eb1fd68d0b9f8b0fcfc2c)
+- perl_vendorarch is not longer defined [`1afd0cd`](https://github.com/ImageMagick/ImageMagick6/commit/1afd0cd42aeb1cfd0de2da91835962e9a0ea3dd6)
+- fix improper close when opening zipped file [`01e6075`](https://github.com/ImageMagick/ImageMagick6/commit/01e6075a17537504d5074579d6f4de61995ea9be)
+- Restored setting the file to NULL. [`21240ae`](https://github.com/ImageMagick/ImageMagick6/commit/21240ae99b822b242ce9f52ce741ced7fe3cf656)
+- release [`2bc6b3c`](https://github.com/ImageMagick/ImageMagick6/commit/2bc6b3cbbbab34458ff51b5332e313385c7ae5ef)
+
+## [6.9.12-52](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-51...6.9.12-52) - 2022-06-05
+
+### Commits
+
+- release [`e27754a`](https://github.com/ImageMagick/ImageMagick6/commit/e27754aed20fed12e1e5f6e7159f083947130f3c)
+- don't keep in repo [`51c8fe2`](https://github.com/ImageMagick/ImageMagick6/commit/51c8fe2c68340d8be7a69d54b40e633a61b37aa4)
+- beta release [`f7e9c8c`](https://github.com/ImageMagick/ImageMagick6/commit/f7e9c8c49c43fbcb0fc88f63c7c608a4054bd4e0)
+- Set pass when webp:target-size or webp:target-psnr are set. [`f182990`](https://github.com/ImageMagick/ImageMagick6/commit/f182990d0b9d455d67eee01013171b5eb74afc37)
+- check for zero-length blobs [`b92fb01`](https://github.com/ImageMagick/ImageMagick6/commit/b92fb01a9a7cc7f66c5f66cc19760c6db2b4b921)
+- cosmetic [`0f58c10`](https://github.com/ImageMagick/ImageMagick6/commit/0f58c10811ec7dbe8ba6d31943c554fc06715794)
+- Move case statement to make sure that non FloatingPointQuantumFormat will end up in the default case. [`9f248ff`](https://github.com/ImageMagick/ImageMagick6/commit/9f248ff8266aa4a88007dff558d937bd149ffa52)
+- Revert to previous commit because the ImageMagick 7 verion of this file was commited by accident. [`872cc9a`](https://github.com/ImageMagick/ImageMagick6/commit/872cc9aa4bdefd04ec66b5022d79af0e2ed96b18)
+- Check for zero-length blobs. [`43a7b02`](https://github.com/ImageMagick/ImageMagick6/commit/43a7b02e5ec90a6cdb990968047d26594886020d)
+- Added dependabot configuration. [`9413045`](https://github.com/ImageMagick/ImageMagick6/commit/9413045a999b7ae579eaa934ef69bdc542eec7dd)
+- Corrected rotation angle for right-top and left-bottom in auto-orient. [`d4ef5f8`](https://github.com/ImageMagick/ImageMagick6/commit/d4ef5f8e4e92440907091cba05e7cb9c75e1156c)
+- Bump actions/upload-artifact from 1 to 3 [`bd10637`](https://github.com/ImageMagick/ImageMagick6/commit/bd10637c5dc2d8379febac3e5b17167c89c4e856)
+- Bump github/codeql-action from 1 to 2 [`8b0e990`](https://github.com/ImageMagick/ImageMagick6/commit/8b0e990fd560cc982e55351226ac2048a8a9af2f)
+- release [`d04b5b0`](https://github.com/ImageMagick/ImageMagick6/commit/d04b5b056b916bea1f032e24f49350fe6970787c)
+
 ## [6.9.12-51](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-50...6.9.12-51) - 2022-05-30
 
 ### Commits
