@@ -133,7 +133,7 @@ Options used to compile and link:
 <p>Here are the optional features you can configure:</p>
 
 <div class="table-responsive" style="font-size:smaller !important;">
-<table class="table table-sm table-hover">
+<table class="table table-sm table-hover table-striped">
   <tr>
     <td>--enable-shared</td>
     <td>build the  shared libraries and support for loading coder and process modules. Shared libraries are preferred because they allow programs to share common code, making the individual programs much smaller. In addition shared libraries are required in order for PerlMagick to be dynamically loaded by an installed PERL (otherwise an additional PERL (PerlMagick) must be installed.
@@ -187,7 +187,7 @@ Options used to compile and link:
 <p>Here are the optional packages you can configure:</p>
 
 <div class="table-responsive" style="font-size:smaller !important;">
-<table class="table table-sm table-hover">
+<table class="table table-sm table-hover table-striped">
   <tr>
     <td>--with-quantum-depth</td>
     <td>number of bits in a pixel quantum (default 16).
@@ -431,7 +431,7 @@ $ identify logo.gif
 
 <h2><a class="anchor" id="linux"></a>Linux-specific Build instructions</h2>
 
-<p>Download <a href="https://download.imagemagick.org/ImageMagick/download/linux/SRPMS/ImageMagick.src.rpm">ImageMagick.src.rpm</a> from <a href="https://imagemagick.org/download">ftp.imagemagick.org</a> or its <a href="<?php echo $_SESSION['RelativePath']?>/../script/mirror.php">mirrors</a> and verify the distribution against its <a href="https://download.imagemagick.org/ImageMagick/download/linux/SRPMS/digest.rdf">message digest</a>.</p>
+<p>Download <a href="https://imagemagick.org/archive//linux/SRPMS/ImageMagick.src.rpm">ImageMagick.src.rpm</a> from <a href="https://imagemagick.org/download">ftp.imagemagick.org</a> or its <a href="<?php echo $_SESSION['RelativePath']?>/../script/mirror.php">mirrors</a> and verify the distribution against its <a href="https://imagemagick.org/archive//linux/SRPMS/digest.rdf">message digest</a>.</p>
 
 <p>Build ImageMagick with this command:</p>
 
@@ -464,7 +464,7 @@ $ sudo port -v install graphviz +gs +wmf +jbig +jpeg2 +lcms
 
 <p>Now lets build ImageMagick:</p>
 
-	  <p><a href="<?php echo $_SESSION['RelativePath']?>/../script/mirror.php">Download</a> the ImageMagick source distribution and verify the distribution against its <a href="https://download.imagemagick.org/ImageMagick/download/digest.rdf">message digest</a>.</p>
+	  <p><a href="<?php echo $_SESSION['RelativePath']?>/../script/mirror.php">Download</a> the ImageMagick source distribution and verify the distribution against its <a href="https://imagemagick.org/archive//digest.rdf">message digest</a>.</p>
 	  <p>Unpack and change into the top-level ImageMagick directory:</p>
 		<?php crt("tar xvzf ImageMagick-" . MagickLibVersionText . MagickLibSubversion . ".tar.gz",
 				"",

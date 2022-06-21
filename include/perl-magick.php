@@ -5,7 +5,7 @@
 <a class="anchor" id="introduction"></a>
 <p class="lead magick-description"><a href="<?php echo $_SESSION['RelativePath']?>/../script/download.php">PerlMagick</a> is an objected-oriented <a href="http://www.perl.com/perl/">Perl</a> interface to ImageMagick. Use the module to read, manipulate, or write an image or image sequence from within a Perl script. This makes it very suitable for Web CGI scripts. You must have ImageMagick 6.5.5 or above and Perl version 5.005_02 or greater installed on your system for PerlMagick to build properly.</p>
 
-<p>There are a number of useful scripts available to show you the value of PerlMagick. You can do Web based image manipulation and conversion with <a href="https://download.imagemagick.org/ImageMagick/download/perl">MagickStudio</a>, or use <a href="https://github.com/ImageMagick/ImageMagick/tree/main/PerlMagick/demo/tree.pl">L-systems</a> to create images of plants using mathematical constructs, and finally navigate through collections of thumbnail images and select the image to view with the <a href="http://webmagick.sourceforge.net/">WebMagick Image Navigator</a>.</p>
+<p>There are a number of useful scripts available to show you the value of PerlMagick. You can do Web based image manipulation and conversion with <a href="https://imagemagick.org/archive//perl">MagickStudio</a>, or use <a href="https://github.com/ImageMagick/ImageMagick/tree/main/PerlMagick/demo/tree.pl">L-systems</a> to create images of plants using mathematical constructs, and finally navigate through collections of thumbnail images and select the image to view with the <a href="http://webmagick.sourceforge.net/">WebMagick Image Navigator</a>.</p>
 
 <p>You can try PerlMagick from your Web browser at the <a href="https://imagemagick.org/MagickStudio/scripts/MagickStudio.cgi">ImageMagick Studio</a>. Or, you can see <a href="<?php echo $_SESSION['RelativePath']?>/../script/examples.php">examples</a> of select PerlMagick functions.</p>
 
@@ -18,7 +18,7 @@
 <pre class="bg-light text-dark mx-4"><code>yum install ImageMagick-perl
 </code></pre>
 
-<p>If not, you must install PerlMagick from the ImageMagick source distribution.  Download the latest <a href="https://download.imagemagick.org/ImageMagick/download/ImageMagick.tar.gz">source</a> release.</p>
+<p>If not, you must install PerlMagick from the ImageMagick source distribution.  Download the latest <a href="https://imagemagick.org/archive//ImageMagick.tar.gz">source</a> release.</p>
 
 <p>Unpack the distribution with this command:</p>
 
@@ -203,7 +203,7 @@ $p-&gt;Convolve([1, 2, 1, 2, 4, 2, 1, 2, 1]);   # 3x3 Gaussian kernel
 
 <p>Use the methods listed below to either read, write, or display an image or image sequence:</p>
 
-<table class="table table-sm table-hover caption-top">
+<table class="table table-sm table-hover table-striped caption-top">
 <caption>Read or Write Methods</caption>
 <thead>
   <colgroup>
@@ -299,7 +299,7 @@ $image-&gt;[$x]-&gt;Frame("100x200");
 
 <p>And here is a list of other image manipulation methods you can call:</p>
 
-<table class="table table-sm table-hover caption-top">
+<table class="table table-sm table-hover table-striped caption-top">
 <caption>Image Manipulation Methods</caption>
 <thead>
   <tr>
@@ -1286,7 +1286,7 @@ can use the integers 1 and 0.</p>
 
 <p>And here is a list of all the image attributes you can set:</p>
 
-<table class="table table-sm table-hover caption-top">
+<table class="table table-sm table-hover table-striped caption-top">
 <caption>Image Attributes</caption>
 <thead>
   <tr>
@@ -1700,7 +1700,7 @@ $width = $image-&gt;[3]-&gt;Get('columns');
 
 <p>In addition to all the attributes listed in <a href="#set-attribute">Set an Image Attribute</a> , you can get these additional attributes:</p>
 
-<table class="table table-sm table-hover caption-top">
+<table class="table table-sm table-hover table-striped caption-top">
 <caption>Image Attributes</caption>
 <thead>
   <tr>
@@ -1968,7 +1968,7 @@ $width = $image-&gt;[3]-&gt;Get('columns');
 
 <p>Mathematically and visually annotate the difference between an image and its reconstruction with the Compare() method.  The method supports these parameters:</p>
 
-<table class="table table-sm table-hover caption-top">
+<table class="table table-sm table-hover table-striped caption-top">
 <caption>Compare Parameters</caption>
 <thead>
   <tr>
@@ -2030,7 +2030,7 @@ $difference->Display();
 
 <p>And here is a list of Montage() parameters you can set:</p>
 
-<table class="table table-sm table-hover caption-top">
+<table class="table table-sm table-hover table-striped caption-top">
 <caption>Montage Parameters</caption>
 <thead>
   <tr>
@@ -2159,7 +2159,7 @@ South, SouthEast</td>
 format in memory instead of on disk. PerlMagick supports
 blobs in any of these image <a href="<?php echo $_SESSION['RelativePath']?>/../script/formats.php">formats</a> and provides methods to convert a blob to or from a particular image format.</p>
 
-<table class="table table-sm table-hover caption-top">
+<table class="table table-sm table-hover table-striped caption-top">
 <caption>Blob Methods</caption>
 <thead>
   <tr>
@@ -2207,7 +2207,7 @@ $image-&gt;BlobToImage(@blob);
 
 <p>Use these methods to obtain direct access to the image pixels:</p>
 
-<table class="table table-sm table-hover caption-top">
+<table class="table table-sm table-hover table-striped caption-top">
 <caption>Direct-access to Image Pixels</caption>
 <thead>
   <tr>

@@ -60,7 +60,7 @@
 
 <pre class="bg-light text-dark mx-4"><code>git clone -b ImageMagick-Windows-6 --single-branch https://github.com/ImageMagick/ImageMagick6-Windows.git ImageMagick-Windows-6</code></pre>
 
-<p>and run <code>CloneRepositories.cmd</code>.  Alternatively, download <a href="https://download.imagemagick.org/ImageMagick/download/windows/">ImageMagick-windows.zip</a> and verify its <a href="https://download.imagemagick.org/ImageMagick/download/windows/digest.rdf">message digest</a>.  For the latter, you can unpack the distribution with <a href="http://www.winzip.com">WinZip</a> or type the following from any MS-DOS Command Prompt window:</p>
+<p>and run <code>CloneRepositories.cmd</code>.  Alternatively, download <a href="https://imagemagick.org/archive//windows/">ImageMagick-windows.zip</a> and verify its <a href="https://imagemagick.org/archive//windows/digest.rdf">message digest</a>.  For the latter, you can unpack the distribution with <a href="http://www.winzip.com">WinZip</a> or type the following from any MS-DOS Command Prompt window:</p>
 
 <pre class="bg-light text-dark mx-4"><code>unzip ImageMagick-windows.zip</code></pre>
 
