@@ -155,6 +155,8 @@
   <li><a href="<?php echo $_SESSION['RelativePath']?>/../script/architecture.php#virtual-pixels">Virtual pixel support</a>: convenient access to pixels outside the image region.</li>
 </dl>
 </div>
+
+<br/>
 <h2><a class="anchor" id="legacy"></a>ImageMagick Next Generation</h2>
 <p>We have a next generation release of ImageMagick, version 7, at <a href="https://imagemagick.org/">https://imagemagick.org</a></p>
 </div>
