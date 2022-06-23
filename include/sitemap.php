@@ -158,6 +158,6 @@
 
 <br/>
 <h2><a class="anchor" id="legacy"></a>ImageMagick Next Generation</h2>
-<p>We have a next generation release of ImageMagick, version 7, at <a href="https://imagemagick.org/">https://imagemagick.org</a>.  We maintain an archive of <a href="https://imagemagick.org/discourse-server/">legacy ImageMagick discussions</a>.</p>
+<p>We have a next generation release of ImageMagick, version 7, at <a href="https://imagemagick.org/">https://imagemagick.org</a>.  We maintain an archive of <a href="https://legacy.imagemagick.org/discourse-server/">legacy ImageMagick discussions</a>.</p>
 </div>
 
