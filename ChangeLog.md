@@ -5,6 +5,40 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.12-55](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-54...6.9.12-55) - 2022-07-03
+
+### Commits
+
+- beta release [`e76b0f8`](https://github.com/ImageMagick/ImageMagick6/commit/e76b0f83395178375fbd35280f453a6c40ac825c)
+- beta release [`d1d0a38`](https://github.com/ImageMagick/ImageMagick6/commit/d1d0a38df6f3770651f2c2ae37801ea9c4a8c8c9)
+- prevent undefined-shift [`b962233`](https://github.com/ImageMagick/ImageMagick6/commit/b962233bfde5bdf7b2b8b3e06b00873056cc70f1)
+- prevent possible buffer overrun [`4393e83`](https://github.com/ImageMagick/ImageMagick6/commit/4393e83230128de1cb798b67e798101d683380b1)
+- We need to remove the stream ourselves when the call to FT_Open_Face fails. [`518a834`](https://github.com/ImageMagick/ImageMagick6/commit/518a834efdbfb1ab22d98d6495494f141b051b9a)
+- Added missing call to DestroyString. [`5141d76`](https://github.com/ImageMagick/ImageMagick6/commit/5141d76e2044edfdb3ff117253e8d10461571d82)
+- Fixed registry lookup because GhostScript now also writes the patch version to the registry. [`e1703af`](https://github.com/ImageMagick/ImageMagick6/commit/e1703afb9fd998c059b5e5de69823b11584c7fbb)
+- Added extra malloc method to avoid early calls to the policy checks on Windows that causes #185. [`cbc47f3`](https://github.com/ImageMagick/ImageMagick6/commit/cbc47f3fb6cb2386fae8f085166e7758a2d7d4d3)
+- Removed defines. [`2bdd8d0`](https://github.com/ImageMagick/ImageMagick6/commit/2bdd8d07e07d21eb39a1869d39da1b8ad52fc6c3)
+- Only check for dll's in non static build. [`df3c026`](https://github.com/ImageMagick/ImageMagick6/commit/df3c0266e7cb0634e95de32da1bc3a1b03ce8be4)
+- Set the client name and path earlier. [`3a6003e`](https://github.com/ImageMagick/ImageMagick6/commit/3a6003ef52fecd163eb05d8253d233d88d0898f4)
+- update issues link [`7f248bd`](https://github.com/ImageMagick/ImageMagick6/commit/7f248bd0672e129798e7567c0a7bf5cdd732b87b)
+- fix background opacity rounding @ https://github.com/ImageMagick/ImageMagick/issues/5264 [`ecf097c`](https://github.com/ImageMagick/ImageMagick6/commit/ecf097c0825f62f22ba65aab0821405932913b02)
+- regression in support of MPEG video after coder name-change to "video" @ https://github.com/ImageMagick/ImageMagick6/issues/181 [`931d1fe`](https://github.com/ImageMagick/ImageMagick6/commit/931d1fe27a594797fff6bb7631e2a03a65b74bf8)
+- cosmetic [`fa2c9a4`](https://github.com/ImageMagick/ImageMagick6/commit/fa2c9a46c1e5ebbea3e45ebdd2867d5e527b48a0)
+- Also check extension to fix possible stack overflow. [`f0a0274`](https://github.com/ImageMagick/ImageMagick6/commit/f0a0274919a9de07b090c75c34952df510a8c4bd)
+- eliminate possible buffer overflow [`2b4eabb`](https://github.com/ImageMagick/ImageMagick6/commit/2b4eabb9d09b278f16727c635e928bd951c58773)
+- set group 4 photometric to min-is-white [`877b4dc`](https://github.com/ImageMagick/ImageMagick6/commit/877b4dc4efe10a56199914340ce8fad129d4897f)
+- dasharray requires non-zero values [`dda0dcc`](https://github.com/ImageMagick/ImageMagick6/commit/dda0dccb56bf811d1043e29c8d46f92eb43d07cb)
+- eliminate compiler warning [`7615041`](https://github.com/ImageMagick/ImageMagick6/commit/7615041cb424617643406fbf0a7040af541c1b12)
+- restrict rows/columns to one keyword [`5dcfcf4`](https://github.com/ImageMagick/ImageMagick6/commit/5dcfcf47520a62f908f14d073e3ad902be0ae4c4)
+- revert [`8872179`](https://github.com/ImageMagick/ImageMagick6/commit/8872179aad3797098e6964de094ab23e974826ef)
+- eliminate uninitialized value warning [`46ee067`](https://github.com/ImageMagick/ImageMagick6/commit/46ee067255c778c53fbb02d019c772c1374528b1)
+- port Dirk's version 7 patches to draw.c [`1b9ea43`](https://github.com/ImageMagick/ImageMagick6/commit/1b9ea43c03df4ea4af5f31b24d33a11d9f04b1d5)
+- eliminate compiler warning [`349a176`](https://github.com/ImageMagick/ImageMagick6/commit/349a1761c161414ed274eb384dade7c669d2719c)
+- eliminate compiler warning [`a59642a`](https://github.com/ImageMagick/ImageMagick6/commit/a59642ab57c44482242fe896eeb9941568cba9d9)
+- fix scrambled image @ https://github.com/ImageMagick/ImageMagick/issues/5291 [`15e1459`](https://github.com/ImageMagick/ImageMagick6/commit/15e14592c54d8fcf80586b403b05b033ee865620)
+- yikes, misspelled 'length' [`2061c9c`](https://github.com/ImageMagick/ImageMagick6/commit/2061c9c8abbf64e872e5dc067ea6c950ce2cd0b3)
+- release [`77717cb`](https://github.com/ImageMagick/ImageMagick6/commit/77717cb8fbc6ea944db357ec8efa23ad283bfcf0)
+
 ## [6.9.12-54](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-53...6.9.12-54) - 2022-06-20
 
 ### Commits
