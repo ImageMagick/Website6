@@ -5,6 +5,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.12-56](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-55...6.9.12-56) - 2022-07-06
+
+### Commits
+
+- beta release [`e304c92`](https://github.com/ImageMagick/ImageMagick6/commit/e304c92801d940c593169e903acb3761f04e3038)
+- preserve input depth @ https://github.com/ImageMagick/ImageMagick6/issues/188 [`7dd14de`](https://github.com/ImageMagick/ImageMagick6/commit/7dd14de86de68f4ce88a23691ff30a91607e5894)
+- forgot semicolon [`a3da7e2`](https://github.com/ImageMagick/ImageMagick6/commit/a3da7e24a5774fc76405e802fd835a414751b3f6)
+- fix "inner" trim issue @ https://github.com/ImageMagick/ImageMagick6/issues/187 [`097f297`](https://github.com/ImageMagick/ImageMagick6/commit/097f2973146cdf14d0802b0f9cffa29d57303581)
+- update to latest automake/autoconf release [`a2ebfb6`](https://github.com/ImageMagick/ImageMagick6/commit/a2ebfb639361961bb7344c875f8c6dfbd121ccaf)
+- recognize SVG file if it starts with whitespace @ https://github.com/ImageMagick/ImageMagick/issues/5294 [`0b2e1b6`](https://github.com/ImageMagick/ImageMagick6/commit/0b2e1b6afc869c6517db08307aab54b6e8ec5824)
+- correct space detection algorithm [`09917a5`](https://github.com/ImageMagick/ImageMagick6/commit/09917a59ca776976f5b630eec28dff7fa0c9032c)
+- avoid OMP deadlock @ https://github.com/ImageMagick/ImageMagick/issues/5301 [`82e46b9`](https://github.com/ImageMagick/ImageMagick6/commit/82e46b9dd3f089a21c2f16633d3fb26657ccb1dc)
+- release [`4d9149f`](https://github.com/ImageMagick/ImageMagick6/commit/4d9149f16c60fea0445ad99fdcd682a3dc754139)
+
 ## [6.9.12-55](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-54...6.9.12-55) - 2022-07-03
 
 ### Commits
