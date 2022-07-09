@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.12-57](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-56...6.9.12-57) - 2022-07-09
+
+### Commits
+
+- beta release [`5f44691`](https://github.com/ImageMagick/ImageMagick6/commit/5f44691a5bf010a322ca661374aaf57dbc95ef70)
+- Added extra check because the flag was removed in 0.21-Beta1. [`09e6bf8`](https://github.com/ImageMagick/ImageMagick6/commit/09e6bf834fe3d8468d4d54931c8b17fa9a2f6258)
+- release [`748e502`](https://github.com/ImageMagick/ImageMagick6/commit/748e502545cf4ab802757dd43a03fb5619b4dae2)
+
 ## [6.9.12-56](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-55...6.9.12-56) - 2022-07-06
 
 ### Commits
