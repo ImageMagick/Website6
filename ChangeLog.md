@@ -5,6 +5,38 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.12-59](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-58...6.9.12-59) - 2022-07-24
+
+### Commits
+
+- beta release [`ecc4153`](https://github.com/ImageMagick/ImageMagick6/commit/ecc4153d3c8998a073e0781b13c11e421933e081)
+- beta release [`e6947fa`](https://github.com/ImageMagick/ImageMagick6/commit/e6947fa6a7cacb9b0dc3dcebf9635c6dd151307f)
+- respect configure's --disable-assert option [`521d343`](https://github.com/ImageMagick/ImageMagick6/commit/521d343a6016f4a7d8ee8c6eb902427f67c6981b)
+- disable assert in ImageMagick specific header [`daae430`](https://github.com/ImageMagick/ImageMagick6/commit/daae430bb05ec03b91bedaecf069d6ec561a339b)
+- Added extra checks to make sure we don't go out of bounds when checking spaces. [`427d089`](https://github.com/ImageMagick/ImageMagick6/commit/427d089dd191cdb431ca8405ee84eb5057512fa3)
+- eliminate a double free per [`dcb6e1e`](https://github.com/ImageMagick/ImageMagick6/commit/dcb6e1ecacf99993d649cf97d7a29ef876ed3a1d)
+- fix quoting for autoconf sendfile check [`897170a`](https://github.com/ImageMagick/ImageMagick6/commit/897170a24e8501d4aaebe251069b80678c417401)
+- check for drawing primitive boundaries to prevent overflow [`95a6cc3`](https://github.com/ImageMagick/ImageMagick6/commit/95a6cc383f7249fe23822d52e1a87ebe0102b7ff)
+- eliminate unitialized warning [`8eba5c8`](https://github.com/ImageMagick/ImageMagick6/commit/8eba5c8564d366256bc8481995ec8ca2602d2364)
+- open blob before checking dimensions to avoid memory leak in [`feb6f92`](https://github.com/ImageMagick/ImageMagick6/commit/feb6f9228dd9dc9a06ed6847a2ccb151c80bf9d5)
+- reset alpha channel on pattern coder @ https://github.com/ImageMagick/ImageMagick/discussions/5331 [`2abe2b0`](https://github.com/ImageMagick/ImageMagick6/commit/2abe2b0b804eaaa4648dc9dcd0a0d709a0511d7a)
+- release [`a814e68`](https://github.com/ImageMagick/ImageMagick6/commit/a814e6814b7bd4c5ac975e1df4d199b6fdf5435e)
+- add svg:decode to list of built-in delegates [`58ad458`](https://github.com/ImageMagick/ImageMagick6/commit/58ad45805c9c59eb80b85716eb0ba02f14b43c29)
+- normalize enhancement is equivalent to -contrast-stretch 2x1% [`c478579`](https://github.com/ImageMagick/ImageMagick6/commit/c478579a28522c5fbda4a0c6ee68815bbd54bddb)
+- release [`c007bb9`](https://github.com/ImageMagick/ImageMagick6/commit/c007bb9cb5e9ac28a013826c8a8827a3e537f2ca)
+- release [`9a003dc`](https://github.com/ImageMagick/ImageMagick6/commit/9a003dce6b409637d4543cbd6647a6d2dc4db4e9)
+- its okay for index pointer to be null @ https://github.com/ImageMagick/ImageMagick6/issues/191 [`7172b47`](https://github.com/ImageMagick/ImageMagick6/commit/7172b4756d43931af939ff34825377514fc2758c)
+- release [`813e7ca`](https://github.com/ImageMagick/ImageMagick6/commit/813e7ca2e75c43ba32c3bf2ac2f9ff5111443553)
+
+## [6.9.12-58](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-57...6.9.12-58) - 2022-07-09
+
+### Commits
+
+- beta release [`1da2b52`](https://github.com/ImageMagick/ImageMagick6/commit/1da2b52a3629ea0daa9a8af4f28b61b6c6bff4ba)
+- release [`87fef5a`](https://github.com/ImageMagick/ImageMagick6/commit/87fef5a8217b52ee69af81ec9742fa362b53e776)
+- beta release [`a63a9cd`](https://github.com/ImageMagick/ImageMagick6/commit/a63a9cdc0c4d9eaf112604404e71307b1170f0c0)
+- release [`a085128`](https://github.com/ImageMagick/ImageMagick6/commit/a0851283f88ec0bc825804898a162b7d854d12dd)
+
 ## [6.9.12-57](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-56...6.9.12-57) - 2022-07-09
 
 ### Commits
