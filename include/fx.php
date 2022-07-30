@@ -178,7 +178,7 @@
   <dt class="col-md-4"> iterators:</dt>
     <dd class="col-md-8"> do(), for(), while()</dd>
   <dt class="col-md-4"> image attributes:</dt>
-  	<dd class="col-md-8"> image.depth, image.kurtosis, image.maxima, image.mean, image.minima, image.resolution.x, image.resolution.y, image.skewness, image.standard_deviation</dd>
+  	<dd class="col-md-8"> image.depth, image.kurtosis, image.maxima, image.mean, image.median, image.minima, image.resolution.x, image.resolution.y, image.skewness, image.standard_deviation</dd>
 </dl>
 
 <h4>The FX Expression</h4>
