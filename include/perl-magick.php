@@ -299,6 +299,7 @@ $image-&gt;[$x]-&gt;Frame("100x200");
 
 <p>And here is a list of other image manipulation methods you can call:</p>
 
+<div class="table-responsive pre-scrollable" style="font-size:smaller !important;">
 <table class="table table-sm table-hover table-striped caption-top">
 <caption>Image Manipulation Methods</caption>
 <thead>
@@ -1198,6 +1199,7 @@ fill=&gt;<i><a href="<?php echo $_SESSION['RelativePath']?>/../script/color.php"
   </tr>
 </tbody>
 </table>
+</div>
 
 <p>Note, that the <code>geometry</code> parameter is a short cut for the <code>width</code> and <code>height</code> parameters (e.g.  <code>geometry=&gt;'106x80'</code> is equivalent to <code>width=&gt;106, height=&gt;80</code> ).</p>
 
@@ -1286,6 +1288,7 @@ can use the integers 1 and 0.</p>
 
 <p>And here is a list of all the image attributes you can set:</p>
 
+<div class="table-responsive pre-scrollable" style="font-size:smaller !important;">
 <table class="table table-sm table-hover table-striped caption-top">
 <caption>Image Attributes</caption>
 <thead>
@@ -1682,6 +1685,7 @@ can use the integers 1 and 0.</p>
   </tr>
   </tbody>
 </table>
+</div>
 
 <p>Note, that the <code>geometry</code> parameter is a short cut for the <code>width</code> and <code>height</code> parameters (e.g.  <code>geometry=&gt;'106x80'</code> is equivalent to <code>width=&gt;106, height=&gt;80</code>).</p>
 
@@ -1700,6 +1704,7 @@ $width = $image-&gt;[3]-&gt;Get('columns');
 
 <p>In addition to all the attributes listed in <a href="#set-attribute">Set an Image Attribute</a> , you can get these additional attributes:</p>
 
+<div class="table-responsive pre-scrollable" style="font-size:smaller !important;">
 <table class="table table-sm table-hover table-striped caption-top">
 <caption>Image Attributes</caption>
 <thead>
@@ -1958,6 +1963,7 @@ $width = $image-&gt;[3]-&gt;Get('columns');
   </tr>
   </tbody>
 </table>
+</div>
 
 <p>GetAttribute() is an alias for method Get().</p>
 
@@ -2030,6 +2036,7 @@ $difference->Display();
 
 <p>And here is a list of Montage() parameters you can set:</p>
 
+<div class="table-responsive pre-scrollable" style="font-size:smaller !important;">
 <table class="table table-sm table-hover table-striped caption-top">
 <caption>Montage Parameters</caption>
 <thead>
@@ -2146,6 +2153,7 @@ South, SouthEast</td>
   </tr>
   </tbody>
 </table>
+</div>
 
 <p>Note, that the <code>geometry</code> parameter is a short cut for the <code>width</code> and <code>height</code> parameters (e.g.  <code>geometry=&gt;'106x80'</code> is equivalent to <code>width=&gt;106, height=&gt;80</code>).</p>
 
