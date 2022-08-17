@@ -5,6 +5,29 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.12-60](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-59...6.9.12-60) - 2022-07-31
+
+### Commits
+
+- beta release [`93a4cb0`](https://github.com/ImageMagick/ImageMagick6/commit/93a4cb0925af6d5bd79e14719d9ff89c513e8418)
+- beta release [`70b8287`](https://github.com/ImageMagick/ImageMagick6/commit/70b8287f15f46490d0e6a82f45704f8f4d67699a)
+- omp_init_lock() has undefined behavior if the lock is already init'ed @ https://github.com/ImageMagick/ImageMagick/issues/5360 [`43ef18f`](https://github.com/ImageMagick/ImageMagick6/commit/43ef18f86967560c42bced0b9bbcf9cfb8578edd)
+- conditionally destroy mutex [`063fbba`](https://github.com/ImageMagick/ImageMagick6/commit/063fbba0b08da3f5d41688bd5dfaa6722899436d)
+- lock/unlock mutex assumes an initialized lock [`d978c4f`](https://github.com/ImageMagick/ImageMagick6/commit/d978c4fceb32159034f67db14824937d21d7cca4)
+- fix -evaluate Pow 2 issue @ https://github.com/ImageMagick/ImageMagick/issues/5376 [`a723ba4`](https://github.com/ImageMagick/ImageMagick6/commit/a723ba462ffac5414c0a4556479782507c7454f7)
+- cosmetic [`3ceef61`](https://github.com/ImageMagick/ImageMagick6/commit/3ceef61345cc8a119dcff5eb13da7a7c891854d0)
+- remove uneccessary signature check [`847c4d6`](https://github.com/ImageMagick/ImageMagick6/commit/847c4d6aec929fbc4effab5d5df4841c0af71868)
+- remove unneccessary variable [`65bd30e`](https://github.com/ImageMagick/ImageMagick6/commit/65bd30ea06861a7f94f31ebc506b539d4310f631)
+- eliminate compiler issues / warnings [`23cccb5`](https://github.com/ImageMagick/ImageMagick6/commit/23cccb5fd4a51638734248451a27d0ee78b20f6a)
+- fix cast from provenance-free integer type to pointer type @ https://github.com/ImageMagick/ImageMagick/discussions/5380 [`d289c00`](https://github.com/ImageMagick/ImageMagick6/commit/d289c006ff87efd5263a3976b94829ee0877ed3d)
+- ... [`41a1701`](https://github.com/ImageMagick/ImageMagick6/commit/41a1701c024487ddc24b29003142cca806d016c4)
+- authenticate distributed cache [`aacc6df`](https://github.com/ImageMagick/ImageMagick6/commit/aacc6dff2217d7f8581795d2932fc340abcd2597)
+- eliminate compiler warning [`f3abf56`](https://github.com/ImageMagick/ImageMagick6/commit/f3abf56d494ec139fe8136935cbe2b1e734b9d86)
+- divide NCC by the # of channels @ https://github.com/dlemstra/Magick.NET/issues/1220 [`b487617`](https://github.com/ImageMagick/ImageMagick6/commit/b4876171e49c97aaea52b3e8bbbdb071c9c433ab)
+- release [`2e15d53`](https://github.com/ImageMagick/ImageMagick6/commit/2e15d53ddf34934cdbbc8dea86c0812e04f17bfb)
+- improve distributed cache exception messages [`71fdec1`](https://github.com/ImageMagick/ImageMagick6/commit/71fdec19252c3c409349a89984f7869c5e11f8a5)
+- release [`2cabb26`](https://github.com/ImageMagick/ImageMagick6/commit/2cabb261cdcbce931754c0ff87101123ab052d9b)
+
 ## [6.9.12-59](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-58...6.9.12-59) - 2022-07-24
 
 ### Commits
