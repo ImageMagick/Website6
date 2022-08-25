@@ -5184,7 +5184,7 @@ href="#modulate">-modulate 120,90</a>.</p>
 
 <p>Use <a href="#set">-set</a> attribute of '<code
 >option:modulate:colorspace</code>' to specify which colorspace to
-modulate.  Choose from <code>HCL</code>, <code>HCLp</code>, <code>HSB</code>, <code>HSI</code>, <code>HSL</code> (the default), <code>HSV</code>, <code>HWB</code>, or <code>LCH</code> (LCHuv).  For example,</p>
+modulate.  Choose from <code>HCL</code>, <code>HCLp</code>, <code>HSB</code>, <code>HSI</code>, <code>HSL</code> (the default), <code>HSV</code>, <code>HWB</code>, or <code>LCH</code> (LCHab).  For example,</p>
 
 <ul>< class="bg-light text-dark mx-4"><code>convert image.png -set option:modulate:colorspace hsb -modulate 120,90 modulate.png
 </code></pre></ul>
