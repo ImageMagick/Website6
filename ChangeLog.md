@@ -5,7 +5,44 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [6.9.12-61](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-59...6.9.12-61) - 2022-08-17
+## [6.9.12-62](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-61...6.9.12-62) - 2022-08-27
+
+### Commits
+
+- beta release [`5630628`](https://github.com/ImageMagick/ImageMagick6/commit/56306282250c38a60fa99d0d3eec5637c21f6ed3)
+- correct normalization for the complex magnitude-phase option [`a30cd69`](https://github.com/ImageMagick/ImageMagick6/commit/a30cd699a99197b858a827012d5ff217a6c85e3f)
+- remove legacy codeset [`31186d3`](https://github.com/ImageMagick/ImageMagick6/commit/31186d32a2c49a2a38bf86f4d892ebee18a69998)
+- Check for quantum pad overflow (issue notification from hardik) [`e5733f4`](https://github.com/ImageMagick/ImageMagick6/commit/e5733f455c5eb7db0c90e80ce8226e98e80242ba)
+- more conservative max pad [`224fae4`](https://github.com/ImageMagick/ImageMagick6/commit/224fae467219526037bff22d8acab0b7a9e00788)
+- Add missing closing bracket in txt coder [`3427f44`](https://github.com/ImageMagick/ImageMagick6/commit/3427f44880d037ffddee641318720b0ca69043cf)
+- added case HSIColorspace into TrueColor switch statement for ModulateImage [`c720379`](https://github.com/ImageMagick/ImageMagick6/commit/c720379b3f98e981cf8bdb6a861c819a1d1cd807)
+- eliminate undefined behavior, fuzz issue from Hardik [`dbd0b82`](https://github.com/ImageMagick/ImageMagick6/commit/dbd0b82db161855412d374d97c9175a2a8c8d5ce)
+- check for extra samples when computing pad, alert from Hardik [`85f7481`](https://github.com/ImageMagick/ImageMagick6/commit/85f7481a3b985fa1fda5f9145d96d96152e43d77)
+- eliminate pointer overflow, alert from Hardik [`033ed11`](https://github.com/ImageMagick/ImageMagick6/commit/033ed1152f057d1e098f69da4c40ab8d88836738)
+- squash heap-buffer-overflow, PoC TIFF from Hardik [`1aea203`](https://github.com/ImageMagick/ImageMagick6/commit/1aea203eb36409ce6903b9e41fe7cb70030e8750)
+- release [`0155def`](https://github.com/ImageMagick/ImageMagick6/commit/0155defb30a2f83299fd34bc857a08d6b5286b38)
+
+## [6.9.12-61](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-60...6.9.12-61) - 2022-08-17
+
+### Commits
+
+- ... [`d86fcd3`](https://github.com/ImageMagick/ImageMagick6/commit/d86fcd37750cc1ee791bbdb0ccf04e53d1810e07)
+- beta release [`8ceb059`](https://github.com/ImageMagick/ImageMagick6/commit/8ceb059156a5c22f55ae76d140cfef8014c70318)
+- Removed ChangeLog.md [`0722fad`](https://github.com/ImageMagick/ImageMagick6/commit/0722fad133a3d9f2cbded5ce1577c84832612884)
+- cosmetic [`19a9454`](https://github.com/ImageMagick/ImageMagick6/commit/19a94544ae9ef657c53098a696585a12e6046f15)
+- need uintptr_t for pointer arithmetic @ https://github.com/ImageMagick/ImageMagick/discussions/5380 [`19d2899`](https://github.com/ImageMagick/ImageMagick6/commit/19d2899e93cba1a6f71693892163a552288a0901)
+- eliminate compile warning [`9be1bec`](https://github.com/ImageMagick/ImageMagick6/commit/9be1bec6543d82e806c34455411aa3ebc8ed0e8f)
+- NCC must return a value less or equal to 1 @ https://github.com/dlemstra/Magick.NET/issues/1220 [`3c2b5d2`](https://github.com/ImageMagick/ImageMagick6/commit/3c2b5d20870b124deb2a9f8ae4163558231f869f)
+- move exit on timeout from MagickCore to magick utility @ https://github.com/dlemstra/Magick.NET/issues/445 [`78178df`](https://github.com/ImageMagick/ImageMagick6/commit/78178dfa7b05f5a8e92e007b50d908e59e1b04ea)
+- cosmetic [`c22883b`](https://github.com/ImageMagick/ImageMagick6/commit/c22883bf26f4c4772ec8deef93f52c1ef7484e0b)
+- a zero length line segment is not a point [`d12288f`](https://github.com/ImageMagick/ImageMagick6/commit/d12288f6ec12343647e5a69ce1ded53241322a2d)
+- check for quantum buffer overrun only if NDEBUG is defined [`eb9c7e1`](https://github.com/ImageMagick/ImageMagick6/commit/eb9c7e1d8d2c46d04f85daa8e80125726d2e20eb)
+- don't set bpp member [`269f03e`](https://github.com/ImageMagick/ImageMagick6/commit/269f03eebdac8101759470a20bc4e21bb2f8a4cd)
+- sync results to morphology docs @ https://imagemagick.org/Usage/morphology/ [`0137f53`](https://github.com/ImageMagick/ImageMagick6/commit/0137f53c3295512174944e240b3767998241ae05)
+- set explicit format @ https://github.com/ImageMagick/ImageMagick/issues/5444 [`48999c5`](https://github.com/ImageMagick/ImageMagick6/commit/48999c5c3d4c6680bf3374ed056a15296b798ccc)
+- release [`5c3e72c`](https://github.com/ImageMagick/ImageMagick6/commit/5c3e72c3d99c7036ae85aad6b9c83efb734f933b)
+
+## [6.9.12-60](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-59...6.9.12-60) - 2022-07-31
 
 ### Commits
 
@@ -27,21 +64,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - release [`2e15d53`](https://github.com/ImageMagick/ImageMagick6/commit/2e15d53ddf34934cdbbc8dea86c0812e04f17bfb)
 - improve distributed cache exception messages [`71fdec1`](https://github.com/ImageMagick/ImageMagick6/commit/71fdec19252c3c409349a89984f7869c5e11f8a5)
 - release [`2cabb26`](https://github.com/ImageMagick/ImageMagick6/commit/2cabb261cdcbce931754c0ff87101123ab052d9b)
-- ... [`d86fcd3`](https://github.com/ImageMagick/ImageMagick6/commit/d86fcd37750cc1ee791bbdb0ccf04e53d1810e07)
-- beta release [`8ceb059`](https://github.com/ImageMagick/ImageMagick6/commit/8ceb059156a5c22f55ae76d140cfef8014c70318)
-- Removed ChangeLog.md [`0722fad`](https://github.com/ImageMagick/ImageMagick6/commit/0722fad133a3d9f2cbded5ce1577c84832612884)
-- cosmetic [`19a9454`](https://github.com/ImageMagick/ImageMagick6/commit/19a94544ae9ef657c53098a696585a12e6046f15)
-- need uintptr_t for pointer arithmetic @ https://github.com/ImageMagick/ImageMagick/discussions/5380 [`19d2899`](https://github.com/ImageMagick/ImageMagick6/commit/19d2899e93cba1a6f71693892163a552288a0901)
-- eliminate compile warning [`9be1bec`](https://github.com/ImageMagick/ImageMagick6/commit/9be1bec6543d82e806c34455411aa3ebc8ed0e8f)
-- NCC must return a value less or equal to 1 @ https://github.com/dlemstra/Magick.NET/issues/1220 [`3c2b5d2`](https://github.com/ImageMagick/ImageMagick6/commit/3c2b5d20870b124deb2a9f8ae4163558231f869f)
-- move exit on timeout from MagickCore to magick utility @ https://github.com/dlemstra/Magick.NET/issues/445 [`78178df`](https://github.com/ImageMagick/ImageMagick6/commit/78178dfa7b05f5a8e92e007b50d908e59e1b04ea)
-- cosmetic [`c22883b`](https://github.com/ImageMagick/ImageMagick6/commit/c22883bf26f4c4772ec8deef93f52c1ef7484e0b)
-- a zero length line segment is not a point [`d12288f`](https://github.com/ImageMagick/ImageMagick6/commit/d12288f6ec12343647e5a69ce1ded53241322a2d)
-- check for quantum buffer overrun only if NDEBUG is defined [`eb9c7e1`](https://github.com/ImageMagick/ImageMagick6/commit/eb9c7e1d8d2c46d04f85daa8e80125726d2e20eb)
-- don't set bpp member [`269f03e`](https://github.com/ImageMagick/ImageMagick6/commit/269f03eebdac8101759470a20bc4e21bb2f8a4cd)
-- sync results to morphology docs @ https://imagemagick.org/Usage/morphology/ [`0137f53`](https://github.com/ImageMagick/ImageMagick6/commit/0137f53c3295512174944e240b3767998241ae05)
-- set explicit format @ https://github.com/ImageMagick/ImageMagick/issues/5444 [`48999c5`](https://github.com/ImageMagick/ImageMagick6/commit/48999c5c3d4c6680bf3374ed056a15296b798ccc)
-- release [`5c3e72c`](https://github.com/ImageMagick/ImageMagick6/commit/5c3e72c3d99c7036ae85aad6b9c83efb734f933b)
 
 ## [6.9.12-59](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-58...6.9.12-59) - 2022-07-24
 
