@@ -5,6 +5,38 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.12-63](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-62...6.9.12-63) - 2022-09-11
+
+### Commits
+
+- beta release [`fff48fd`](https://github.com/ImageMagick/ImageMagick6/commit/fff48fd2f05be1ed83c58b4f27351061c824ad0a)
+- heap-buffer-overflow for crafted TIFF image; alert from Hardik [`1c0d1b3`](https://github.com/ImageMagick/ImageMagick6/commit/1c0d1b328b610bc4b47a3f4f43ae533feaa49309)
+- incorrect bounds checking for draw affine @ https://github.com/ImageMagick/ImageMagick/issues/5497 [`c5a9368`](https://github.com/ImageMagick/ImageMagick6/commit/c5a9368d871943eceafce143bb87612b2a9623b2)
+- repair memory issues for the unit tests [`a0ce171`](https://github.com/ImageMagick/ImageMagick6/commit/a0ce171e29d6d324d9b60e09625761168692220d)
+- correct PSNR distortion @ https://github.com/ImageMagick/ImageMagick/issues/5504 [`0f7d057`](https://github.com/ImageMagick/ImageMagick6/commit/0f7d057cc1ac019ef6a02a5228841c9cb709adc5)
+- fix PSNR to return the correct location for similarity search @ https://github.com/ImageMagick/ImageMagick/issues/5504 [`ebea224`](https://github.com/ImageMagick/ImageMagick6/commit/ebea22418b6eea391c5a34b22d99a970e6cd453e)
+- Fixed build. [`f8039c2`](https://github.com/ImageMagick/ImageMagick6/commit/f8039c2963b160830e5701c9aa5095b8fd760358)
+- properly handle a PSNR of 0 (undefined) [`ced007b`](https://github.com/ImageMagick/ImageMagick6/commit/ced007b0df0fa1251830b83a65d42d8694f8e858)
+- return normalized PSNR [`8382a97`](https://github.com/ImageMagick/ImageMagick6/commit/8382a978591751070bef4f2be2946b6bb8a6402c)
+- Build fixes. [`5ef57c3`](https://github.com/ImageMagick/ImageMagick6/commit/5ef57c31ea701758fec69d240a1650405c468c38)
+- log10(0) is -inf [`56eb280`](https://github.com/ImageMagick/ImageMagick6/commit/56eb280b6b0be69a4367c177a4815b44fc4e4899)
+- log10(0) is -inf [`49579d6`](https://github.com/ImageMagick/ImageMagick6/commit/49579d674245fb45ac383bb3e4f77574c2691b8b)
+- Use CheckMergedImageAlpha method. [`e287944`](https://github.com/ImageMagick/ImageMagick6/commit/e287944ac23d038bf2b1fff17067d1a957c984da)
+- Removed define that was only used once. [`9564611`](https://github.com/ImageMagick/ImageMagick6/commit/95646110230fdff39dc7aae32dd56295fa527ff9)
+- validate class name [`032425e`](https://github.com/ImageMagick/ImageMagick6/commit/032425e4c4e94e9dee3efc0d47a7c7532b677ac7)
+- validate stroke width [`3072a10`](https://github.com/ImageMagick/ImageMagick6/commit/3072a1082750ce43474c97ae971b51f7922721a1)
+- render empty labels @ https://github.com/ImageMagick/ImageMagick/issues/5530 [`7f0c40a`](https://github.com/ImageMagick/ImageMagick6/commit/7f0c40aa9527c5c0f8ba5fe8cb2e9e85d3b0836f)
+- recognize CSS-style family font list @ https://github.com/ImageMagick/ImageMagick/issues/5531 [`ed48ebb`](https://github.com/ImageMagick/ImageMagick6/commit/ed48ebbfcda5f01be9715c69510ea7449cecec12)
+- throw exception for empty label @ https://github.com/ImageMagick/ImageMagick/issues/5530 [`838331d`](https://github.com/ImageMagick/ImageMagick6/commit/838331d2548ace89cc075e9ca829ef507b82779f)
+- remove extra space @ https://github.com/ImageMagick/ImageMagick/pull/5513 [`dce2fa2`](https://github.com/ImageMagick/ImageMagick6/commit/dce2fa2e50d2e0c08ac6e087d258dc2bf3a788c9)
+- eliminate compiler exception [`e7c2ba5`](https://github.com/ImageMagick/ImageMagick6/commit/e7c2ba5ce78a5d0beffee7f133c062fb61739f06)
+- create a single instance of MagickLog10() method in private header [`909d28e`](https://github.com/ImageMagick/ImageMagick6/commit/909d28ecb37dff048d56eaed81593e7de5c1232b)
+- initialize directory stack [`c5fb867`](https://github.com/ImageMagick/ImageMagick6/commit/c5fb867cd6287b7d9480ec5d1b150ec84bc1b3f9)
+- fix short reallocation @ https://github.com/ImageMagick/ImageMagick/issues/5553 [`d4f33aa`](https://github.com/ImageMagick/ImageMagick6/commit/d4f33aa492bb136e6fc39039d898dda21344b8ad)
+- proper overflow check [`01c25ec`](https://github.com/ImageMagick/ImageMagick6/commit/01c25ec1f96cd920bc45433545847103c78e76d0)
+- don't transform to sRGB colorspace if already in a compatible colorspace @ https://github.com/ImageMagick/ImageMagick/discussions/5543 [`59953e7`](https://github.com/ImageMagick/ImageMagick6/commit/59953e741c004f84b4a164d430a1be5ca3db2d44)
+- release [`4cdfdde`](https://github.com/ImageMagick/ImageMagick6/commit/4cdfdde859087631d22fd7ddf2e170b6fd387766)
+
 ## [6.9.12-62](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-61...6.9.12-62) - 2022-08-27
 
 ### Commits
