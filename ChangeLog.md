@@ -5,6 +5,21 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.12-64](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-63...6.9.12-64) - 2022-09-24
+
+### Commits
+
+- beta release [`a61afe1`](https://github.com/ImageMagick/ImageMagick6/commit/a61afe1d45dae992ff80d22036f3791ad953dd8d)
+- eliminate compiler warning [`0471b6b`](https://github.com/ImageMagick/ImageMagick6/commit/0471b6b90d11d92e9b9a1d447c4b1261e3524b2f)
+- check exception signature [`1ef09ad`](https://github.com/ImageMagick/ImageMagick6/commit/1ef09ad78dc4830cdd49b184c7d3195ce2dc5ba4)
+- improved JP2 header checking [`5d57f59`](https://github.com/ImageMagick/ImageMagick6/commit/5d57f5967bc78e4b1fb81f36a47671cd56fcf81a)
+- prevent integer overflow @ oss-fuzz [`a3b05e5`](https://github.com/ImageMagick/ImageMagick6/commit/a3b05e5118e059d073d5582e1630c08252811f09)
+- eliminate use of unitialized variable [`4670eba`](https://github.com/ImageMagick/ImageMagick6/commit/4670eba5acfd8ec22163b9e7ba326d79e2c1702f)
+- earlier check for maximum channels [`0b05e1f`](https://github.com/ImageMagick/ImageMagick6/commit/0b05e1fa767f29bfda7e8a264c539f95b4f1c220)
+- cast unsigned char to int before 8-bit shift [`8651f94`](https://github.com/ImageMagick/ImageMagick6/commit/8651f94cf3ce14b8581393dab2f9f637bdf027df)
+- exit on EOF @ https://github.com/ImageMagick/ImageMagick6/issues/197 [`24b31a8`](https://github.com/ImageMagick/ImageMagick6/commit/24b31a82ce33db3a555adc1d03e602c7e5fcd82a)
+- release [`6ca369b`](https://github.com/ImageMagick/ImageMagick6/commit/6ca369be4b07c7e2a7b6c56bb504d9bb88e44cb3)
+
 ## [6.9.12-63](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-62...6.9.12-63) - 2022-09-11
 
 ### Commits
