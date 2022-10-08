@@ -5,6 +5,26 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.12-65](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-64...6.9.12-65) - 2022-10-08
+
+### Commits
+
+- beta release [`ebaecd5`](https://github.com/ImageMagick/ImageMagick6/commit/ebaecd5d5c09e950ef121d8ce7508aeae4c343c4)
+- Mark allow list of characters const. [`33e1d68`](https://github.com/ImageMagick/ImageMagick6/commit/33e1d68cfbf30d8b7f502cfdc10d70ba435014c1)
+- Fix HEIF header include path for MINGW [`f7b9bff`](https://github.com/ImageMagick/ImageMagick6/commit/f7b9bff6b562547be560df134627cc7c961cc74d)
+- Tiny optimization. [`23d3a0e`](https://github.com/ImageMagick/ImageMagick6/commit/23d3a0e548557b8e5db9c0773369129545aba1c1)
+- Removed duplicate check. [`74facca`](https://github.com/ImageMagick/ImageMagick6/commit/74faccac51263f7bdbb33f0a5c7c97d15cb293bd)
+- Code style change. [`0dcca29`](https://github.com/ImageMagick/ImageMagick6/commit/0dcca29ecfe9b1124b9eef2be91bd8fb856150d3)
+- Use ReadStrip method when bit depth is higher than 8 [`abfc2b2`](https://github.com/ImageMagick/ImageMagick6/commit/abfc2b2c966312caf3234f2cbe7d4b107e79a3d6)
+- Fixed incorrect calculation of the extra_samples (#198) [`34e4e2e`](https://github.com/ImageMagick/ImageMagick6/commit/34e4e2e8b9643f73074a8810d4a0114631c82bcd)
+- Corrected version format to be compatible with Ghostscript 10.00.0 [`a9db491`](https://github.com/ImageMagick/ImageMagick6/commit/a9db4918a2f317f358f0971176ffd21d6b25a468)
+- Correct quotes around the password, the old way no longer works with version 10.00.0 of Ghostscript. [`b4da95b`](https://github.com/ImageMagick/ImageMagick6/commit/b4da95b6b6bc4a09fae1fe1bd9eadf429d28561c)
+- Corrected bounds calculation. [`13db223`](https://github.com/ImageMagick/ImageMagick6/commit/13db2233b6d14cbc43a5833ba699c78e8874bff1)
+- account for null basename property @ https://github.com/ImageMagick/ImageMagick/issues/5624 [`b0079db`](https://github.com/ImageMagick/ImageMagick6/commit/b0079db3dd78175c08f3ebcd8e96ea6c2cb8b451)
+- fix incorrect handling of SQ groups in header @ https://github.com/ImageMagick/ImageMagick/issues/5606 [`2783eaa`](https://github.com/ImageMagick/ImageMagick6/commit/2783eaa6e94f3d73e0718e97233c4a8833f3034b)
+- support 1-bit pixels [`09f90b6`](https://github.com/ImageMagick/ImageMagick6/commit/09f90b61ffe604fa6b7b77ac768e3d41e7943938)
+- release [`83634ca`](https://github.com/ImageMagick/ImageMagick6/commit/83634ca7654e37428f035113f50ecfb985f19005)
+
 ## [6.9.12-64](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-63...6.9.12-64) - 2022-09-24
 
 ### Commits
