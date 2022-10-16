@@ -5,6 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.12-66](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-65...6.9.12-66) - 2022-10-16
+
+### Commits
+
+- beta release [`ab1b97a`](https://github.com/ImageMagick/ImageMagick6/commit/ab1b97a63832d7a40318ca74de27f6d8ec859777)
+- eliminate compiler warning [`3d3b982`](https://github.com/ImageMagick/ImageMagick6/commit/3d3b982795fbd3bc4146d15d0609c86081a2bcf2)
+- obtain scene from image structure [`f20861f`](https://github.com/ImageMagick/ImageMagick6/commit/f20861fc45695c715cc05417f84c334de1ba88f7)
+- prevent undefined shift [`20875a2`](https://github.com/ImageMagick/ImageMagick6/commit/20875a296cd832d3918951191b975f4d1ca364dc)
+- fix undefined-shift in ReadTGAImage @ https://oss-fuzz.com/testcase?key=5129864151957504 [`b79a3d6`](https://github.com/ImageMagick/ImageMagick6/commit/b79a3d632a67c4d50b1d4d561c5c617e3300c2bb)
+- prevent divide by zero exception [`ca70f7b`](https://github.com/ImageMagick/ImageMagick6/commit/ca70f7b6eb9df217216085763b1a37cb679817c5)
+- release [`b05ba50`](https://github.com/ImageMagick/ImageMagick6/commit/b05ba50aef9a02a8a882b6a3684b9532b42f2ad5)
+
 ## [6.9.12-65](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-64...6.9.12-65) - 2022-10-08
 
 ### Commits
