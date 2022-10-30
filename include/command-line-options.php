@@ -1824,6 +1824,9 @@ represents the last image of the sequence.  Specify a range of images with
 a dash (e.g. 0-4).  Separate indexes with a comma (e.g. 0,2).  Use
 <code>+delete</code> to delete the last image in the current image sequence. Use <code>-delete 0--1</code> to delete the entire image sequence.</p>
 
+<p>You can also delete images from the persistent registry, e.g., <samp>-delete
+registry:checkers</samp></p>
+
 
 <div style="margin: auto;">
   <h2><a class="anchor" id="density"></a>-density <var>width</var><br />-density <var>width</var>x<var>height</var></h2>
