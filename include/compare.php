@@ -52,8 +52,8 @@ Image: rose.jpg
 
 <p>If the reconstructed image is a subimage of the image, the compare program returns the best match offset.  In addition, it returns a similarity image such that an exact match location is completely white and if none of the pixels match, black, otherwise some gray level in-between:</p>
 
-<pre class="bg-light text-dark mx-4"><code>-> compare -metric RMSE -subimage-search logo.png hat.png similarity.tif
-85.05 (0.00129778) @ 353,157
+<pre class="bg-light text-dark mx-4"><code>-> compare -metric NCC -subimage-search logo.png hat.png similarity.tif
+0.99870222 @ 353,157
 </code></pre>
 
 <p>You can find additional examples of using <code>compare</code> in <a href="http://www.ibm.com/developerworks/library/l-graf/?ca=dnt-428">Graphics from the Command Line</a>.  Further discussion is available in <a href="http://www.ibm.com/developerworks/library/l-graf2/?ca=dgr-lnxw15GraphicsLine">More Graphics from the Command Line</a> and <a href="https://legacy.imagemagick.org/Usage/">Examples of ImageMagick Usage</a>.</p>
