@@ -52,7 +52,7 @@ Image: rose.jpg
 
 <p>If the reconstructed image is a subimage of the image, the compare program returns the best match offset.  In addition, it returns a similarity image such that an exact match location is completely white and if none of the pixels match, black, otherwise some gray level in-between:</p>
 
-<pre class="bg-light text-dark mx-4"><code>-> compare -metric RMSE -subimage-search logo.png wizard.jpg similarity.tif
+<pre class="bg-light text-dark mx-4"><code>-> compare -metric RMSE -subimage-search logo.png hat.png similarity.tif
 85.05 (0.00129778) @ 353,157
 </code></pre>
 
