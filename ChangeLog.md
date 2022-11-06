@@ -5,6 +5,44 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.12-67](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-66...6.9.12-67) - 2022-11-06
+
+### Merged
+
+- coders: Enable opening https files in mingw [`#201`](https://github.com/ImageMagick/ImageMagick6/pull/201)
+- utilities: Enable support for unicode paths in mingw [`#200`](https://github.com/ImageMagick/ImageMagick6/pull/200)
+
+### Commits
+
+- beta release [`e8d6fb4`](https://github.com/ImageMagick/ImageMagick6/commit/e8d6fb4a13e18a267a63083942a2b2c4cd0f870c)
+- optionally get author or comment [`41d847b`](https://github.com/ImageMagick/ImageMagick6/commit/41d847bac6500b186c8944b6bb5b0fc3b9815d91)
+- cosmetic [`4d002f8`](https://github.com/ImageMagick/ImageMagick6/commit/4d002f8c9e477cd4ccbeb60db52f303bfa0fbf2f)
+- eliminate unnecessary file open when globbing (thanks to P Antoine) [`689288c`](https://github.com/ImageMagick/ImageMagick6/commit/689288c0653f68f85c74eaddac65bda55d12f736)
+- OCE-2022-70: DoS at Stdin [`be3b2a0`](https://github.com/ImageMagick/ImageMagick6/commit/be3b2a02cbb9c9affa7b0afa0665ed4b4bb0f47b)
+- possible DoS @ stdin (OCE-2022-70); possible arbitrary file leak (OCE-2022-72) [`3c5188b`](https://github.com/ImageMagick/ImageMagick6/commit/3c5188b41902a909e163492fb0c19e49efefcefe)
+- revert scene check [`4d96ae3`](https://github.com/ImageMagick/ImageMagick6/commit/4d96ae3d8d3a24e6f6a78cd35c9feca77937204f)
+- Use new certificate. [`f719528`](https://github.com/ImageMagick/ImageMagick6/commit/f719528738c01a9e2965b7d8ae04f0300940a44a)
+- cosmetic [`23682b2`](https://github.com/ImageMagick/ImageMagick6/commit/23682b2e06404ae4b532901fc9a16335abe9c592)
+- enhanced delete list parsing [`1b71210`](https://github.com/ImageMagick/ImageMagick6/commit/1b712105afb6dcecb54e55f26e23cec8e4d153f2)
+- cosmetic [`1965430`](https://github.com/ImageMagick/ImageMagick6/commit/196543045e30fd8cb4bab4ed8a044e19222057eb)
+- support `-delete registry:NAME` to delete images from the system registry [`9ea2c72`](https://github.com/ImageMagick/ImageMagick6/commit/9ea2c725430302f00a8d5e30f2c46535dfcecfcc)
+- string optimization [`3e481e0`](https://github.com/ImageMagick/ImageMagick6/commit/3e481e0562d7819053487ad0e035c645278561b9)
+- allow for EOF [`8bb5871`](https://github.com/ImageMagick/ImageMagick6/commit/8bb58713b7a8896fe992dcbf175ee283713d8069)
+- Fixed build error. [`ed88059`](https://github.com/ImageMagick/ImageMagick6/commit/ed8805979668a4b19091269701093bda38a379f1)
+- rotate HLS by 120 degrees (private email from John Z) [`09ca1d6`](https://github.com/ImageMagick/ImageMagick6/commit/09ca1d666185c056b5ea096a2cc1b3acd81394b9)
+- blob byte optimization [`6d59262`](https://github.com/ImageMagick/ImageMagick6/commit/6d592628881d1f23c30efcf2b615cb51ae85d314)
+- optimize reading blob string [`e90e20b`](https://github.com/ImageMagick/ImageMagick6/commit/e90e20b07e124cc674242c9a5b80ea9729aa100a)
+- proper boundary check [`164495d`](https://github.com/ImageMagick/ImageMagick6/commit/164495d62f9c5672c865d49eaaa3efe2145196b3)
+- register WebP mime type [`519db89`](https://github.com/ImageMagick/ImageMagick6/commit/519db89c68731980c97c9c4bc0dea973945d85e7)
+- fix monochrome colormap [`5f927ba`](https://github.com/ImageMagick/ImageMagick6/commit/5f927ba5be9e1c85f4dfff3d9d04b7b24e058445)
+- Fixed build error. [`dddd070`](https://github.com/ImageMagick/ImageMagick6/commit/dddd070428b277fd370e140e6d97782f3ae57c4e)
+- set blob EOF flag [`efcac58`](https://github.com/ImageMagick/ImageMagick6/commit/efcac589d30abec140a2ae67311b3da4b8f2dd8c)
+- https://github.com/ImageMagick/ImageMagick/pull/5713 [`53ae953`](https://github.com/ImageMagick/ImageMagick6/commit/53ae953ec6366bdde5996581e6f32e84de86f3ca)
+- https://github.com/ImageMagick/ImageMagick6/pull/200/ [`9f90498`](https://github.com/ImageMagick/ImageMagick6/commit/9f904987aaffb67c78ca4a7750e8c4da6d7b848e)
+- https://github.com/ImageMagick/ImageMagick6/pull/200 [`13dc4f5`](https://github.com/ImageMagick/ImageMagick6/commit/13dc4f58273166ffe79bd9cc12b22e4e9ac7f82b)
+- initialize package key [`c4b156b`](https://github.com/ImageMagick/ImageMagick6/commit/c4b156b66f2e090458cf92c0ff63157e9d80756d)
+- release [`d8d018c`](https://github.com/ImageMagick/ImageMagick6/commit/d8d018c0248a24c458b34a9f2d1091a1a700c35b)
+
 ## [6.9.12-66](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-65...6.9.12-66) - 2022-10-16
 
 ### Commits
