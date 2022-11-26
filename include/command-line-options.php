@@ -2559,7 +2559,10 @@ a <code>rectangle</code> followed by the width and height of the rounded corners
 to be removed.</p>
 
 <p>The <code>circle</code> primitive makes a disk (filled) or circle (unfilled).
-Give the center and any point on the perimeter (boundary).</p>
+Give the center and any point on the perimeter (boundary). Note, using a translation you can remove the need to calculate the circles edge coordinate, but can just give the radius directly:</p>
+
+<pre class="bg-light text-dark mx-4"><samp>magick -size 100x60 xc: -stroke SeaGreen  -fill PaleGreen -strokewidth 2 -draw 'translate 50,30 circle 0,0 25,0' circle.gif</samp></pre>
+</p>
 
 <p>The <code>arc</code> primitive is used to inscribe an elliptical segment in
 to a given rectangle. An <code>arc</code> requires the two corners used for
