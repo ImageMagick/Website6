@@ -12,6 +12,16 @@
 <p>A Gaussian operator of the given radius and standard deviation (<var>sigma</var>) is used. If <var>sigma</var> is not given it
 defaults to 1.</p>
 
+<p>The <var>sigma</var> value is the important argument, and
+determines the actual amount of blurring that will take place. </p>
+
+<p>The <var>radius</var> is only used to determine the size of the
+array which will hold the calculated Gaussian distribution. It should be an
+integer.  If not given, or set to zero, IM will calculate the largest possible
+radius that will provide meaningful results for the Gaussian distribution.
+</p>
+
+
 <div style="margin: auto;">
   <h2><a class="anchor" id="adaptive-resize"></a>-adaptive-resize <var>geometry</var></h2>
 </div>
@@ -33,6 +43,15 @@ href="#gravity">-gravity</a> option has no effect.</p>
 <p>A Gaussian operator of the given radius and standard deviation
 (<var>sigma</var>) is used. If <var>sigma</var> is not given it
 defaults to 1.</p>
+
+<p>The <var>sigma</var> value is the important argument, and
+determines the actual amount of sharpening that will take place. </p>
+
+<p>The <var>radius</var> is only used to determine the size of the
+array which will hold the calculated Gaussian distribution. It should be an
+integer.  If not given, or set to zero, IM will calculate the largest possible
+radius that will provide meaningful results for the Gaussian distribution.
+</p>
 
 <div style="margin: auto;">
   <h2><a class="anchor" id="adjoin"></a>-adjoin</h2>
@@ -581,10 +600,10 @@ the background image is weighted by the exact opposite amount. That is a
 
 <p class="text-center"><img class="img-thumbnail" alt="gaussian distribution" width="243px" height="42px" src="<?php echo $_SESSION['RelativePath']?>/../image/gaussian-blur.png"/></p>
 
-<p>The <var >Sigma</var> value is the important argument, and
+<p>The <var>sigma</var> value is the important argument, and
 determines the actual amount of blurring that will take place. </p>
 
-<p>The <var >Radius</var> is only used to determine the size of the
+<p>The <var>radius</var> is only used to determine the size of the
 array which will hold the calculated Gaussian distribution. It should be an
 integer.  If not given, or set to zero, IM will calculate the largest possible
 radius that will provide meaningful results for the Gaussian distribution.
@@ -6183,6 +6202,15 @@ of the color clusters is returned.</p>
 <p>Blurs those pixels that are less than or equal to the threshold in
 contrast. The threshold may be expressed as a fraction of <var>QuantumRange</var> or as a percentage.</p>
 
+<p>The <var>sigma</var> value is the important argument, and
+determines the actual amount of blurring that will take place. </p>
+
+<p>The <var>radius</var> is only used to determine the size of the
+array which will hold the calculated Gaussian distribution. It should be an
+integer.  If not given, or set to zero, IM will calculate the largest possible
+radius that will provide meaningful results for the Gaussian distribution.
+</p>
+
 <div style="margin: auto;">
   <h2><a class="anchor" id="separate"></a>-separate</h2>
 </div>
@@ -6353,6 +6381,15 @@ Otherwise, this option is ignored. The default is <code>True</code>.</p>
 <p class="magick-description">Sharpen the image.</p>
 
 <p>Use a Gaussian operator of the given radius and standard deviation (sigma).</p>
+
+<p>The <var>sigma</var> value is the important argument, and
+determines the actual amount of sharpening that will take place. </p>
+
+<p>The <var>radius</var> is only used to determine the size of the
+array which will hold the calculated Gaussian distribution. It should be an
+integer.  If not given, or set to zero, IM will calculate the largest possible
+radius that will provide meaningful results for the Gaussian distribution.
+</p>
 
 <div style="margin: auto;">
   <h2><a class="anchor" id="shave"></a>-shave <var>geometry</var></h2>
@@ -7272,7 +7309,7 @@ percentage, which defaults to 100 percent (no color change). </p>
   <h2><a class="anchor" id="wavelet-denoise"></a>-wavelet-denoise <var>threshold</var><br />-wavelet-denoise <var>threshold</var>x<var>softness</var></h2>
 </div>
 
-<p class="magick-description">Removes noise from the image using a wavelet transform.  The threshold is the value below which everything is considered noise and ranges from 0.0 (none) to QuantumRange or use percent (e.g. 5%). Softness attenuates the threshold and typically ranges from 0.0 (none) to 1.0.  The higher the value the more noise that remains in the image.</p>
+<p class="magick-description">Removes noise from the image using a wavelet transform.  The threshold is the value below which everything is considered noise and ranges from 0.0 (none) to QuantumRange or use percent (e.g. 5%). Softness attenuates the threshold and typically ranges from 0.0 (none, default) to 1.0.  The higher the value the more noise that remains in the image.</p>
 
 <div style="margin: auto;">
   <h2><a class="anchor" id="weight"></a>-weight <var>fontWeight</var></h2>
