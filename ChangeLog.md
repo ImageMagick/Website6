@@ -5,6 +5,21 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.12-69](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-68...6.9.12-69) - 2022-12-10
+
+### Commits
+
+- beta release [`2c289b9`](https://github.com/ImageMagick/ImageMagick6/commit/2c289b93ca37888e34b4df05274d86f692282cac)
+- Only write the gAMA chunk if the sRGB chunk is written too. However, write the gAMA chunk if gamma is not 1.0/2.2 and no sRGB chunk (https://github.com/ImageMagick/ImageMagick/issues/5850) [`6e952ab`](https://github.com/ImageMagick/ImageMagick6/commit/6e952abf8d5df8367982e036b6a5315c1e1b9b67)
+- skip zero-length profiles [`d7563a6`](https://github.com/ImageMagick/ImageMagick6/commit/d7563a60eeb85e8a5afc4070cd254beedbe6855f)
+- cosmetic [`e93d13c`](https://github.com/ImageMagick/ImageMagick6/commit/e93d13ca4c700b94eadf1cec428ae688bc730f6f)
+- correct Image::compare documentation (https://github.com/ImageMagick/ImageMagick/discussions/5869) [`a707223`](https://github.com/ImageMagick/ImageMagick6/commit/a7072233fede1efd587212eb87a7de47a5087d27)
+- support polling of image processing operation progress (https://github.com/ImageMagick/ImageMagick/discussions/5868) [`5f94001`](https://github.com/ImageMagick/ImageMagick6/commit/5f94001561c95b170f68c62365c921396abe250d)
+- add checks for null tags when monitoring [`17a7dba`](https://github.com/ImageMagick/ImageMagick6/commit/17a7dba2e2d74c38b8c58ca53629fc8c08960cea)
+- eliminate compiler warnings [`febfb42`](https://github.com/ImageMagick/ImageMagick6/commit/febfb42c958c69348a52139e4439662bb58f34b0)
+- remove spurious file offset check [`f6213af`](https://github.com/ImageMagick/ImageMagick6/commit/f6213afaa7fb8d71e89e69b4c69d9bf1d5c84e2c)
+- release [`370954d`](https://github.com/ImageMagick/ImageMagick6/commit/370954db753ebc771584a32cfc12f8bd7869b446)
+
 ## [6.9.12-68](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-67...6.9.12-68) - 2022-12-04
 
 ### Commits
