@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [6.9.12-69](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-68...6.9.12-69) - 2022-12-10
+## [6.9.12-70](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-68...6.9.12-70) - 2022-12-17
 
 ### Commits
 
@@ -19,6 +19,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - eliminate compiler warnings [`febfb42`](https://github.com/ImageMagick/ImageMagick6/commit/febfb42c958c69348a52139e4439662bb58f34b0)
 - remove spurious file offset check [`f6213af`](https://github.com/ImageMagick/ImageMagick6/commit/f6213afaa7fb8d71e89e69b4c69d9bf1d5c84e2c)
 - release [`370954d`](https://github.com/ImageMagick/ImageMagick6/commit/370954db753ebc771584a32cfc12f8bd7869b446)
+- beta release [`7ab57d5`](https://github.com/ImageMagick/ImageMagick6/commit/7ab57d516ed17f18a9cf92bc58dbb9f9d62c2d63)
+- proper Exif profile handling in HEIC (https://github.com/ImageMagick/ImageMagick/issues/5647) [`d1a8d86`](https://github.com/ImageMagick/ImageMagick6/commit/d1a8d86a124651a1b26323a404e3af4b479f6b76)
+- remove spurious exception argument [`2717613`](https://github.com/ImageMagick/ImageMagick6/commit/2717613c12d2503e9e4a2e91aa73e3b9c22a9d1a)
+- cosmetic [`0ed7e15`](https://github.com/ImageMagick/ImageMagick6/commit/0ed7e153a56afa6c2f8cf8aac1d978117c226d1e)
+- ... [`77d9eea`](https://github.com/ImageMagick/ImageMagick6/commit/77d9eeae68687f0343a19024d1b0abb5854836cb)
+- ... [`6520c3f`](https://github.com/ImageMagick/ImageMagick6/commit/6520c3ff9d1c527bd2d8f34d9adbcf30be848b96)
+- lastest documentation updates [`723884f`](https://github.com/ImageMagick/ImageMagick6/commit/723884fcf1d23008893bf3123891564595a56daf)
+- lastest CSS updates [`509a279`](https://github.com/ImageMagick/ImageMagick6/commit/509a2791d17da1cb577ccfe83e520b70e8f92bea)
+- release [`489d716`](https://github.com/ImageMagick/ImageMagick6/commit/489d716835b37e144d1c612969f425f47cb97643)
+- release [`23f8e3f`](https://github.com/ImageMagick/ImageMagick6/commit/23f8e3fc084b9f8787fa6d38d6830db10f080125)
 
 ## [6.9.12-68](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-67...6.9.12-68) - 2022-12-04
 
