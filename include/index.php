@@ -4,7 +4,7 @@
 
 <p>ImageMagick is written in C and is available for a wide range of operating systems, including Linux, macOS, and Windows. It can be used as a standalone application, or as a library that can be integrated into other software programs.</p>
 
-<p>The main website for legacy ImageMagick can be found at <a href="https://legacy.imagemagick.org">https://legacy.imagemagick.org</a>. The most recent version available is ImageMagick <a href="<?php echo $_SESSION['RelativePath']?>/../script/download.php"><?php echo MagickLibVersionText . MagickLibSubversion; ?></a>. The source code for this software can be accessed through the repository located at <a href="https://github.com/ImageMagick/ImageMagick6">https://github.com/ImageMagick/ImageMagick6</a>. In addition, a more recent version of ImageMagick, version 7, can be found at <a href="https://imagemagick.org">https://imagemagick.org</a>.</p>
+<p>The main website for legacy ImageMagick can be found at <a href="https://legacy.imagemagick.org">https://legacy.imagemagick.org</a>. The most recent version available is ImageMagick <a href="<?php echo $_SESSION['RelativePath']?>/../script/download.php"><?php echo MagickLibVersionText . MagickLibSubversion; ?></a>. The source code for this software can be accessed through the repository located at <a href="https://github.com/ImageMagick/ImageMagick6" target="_blank">https://github.com/ImageMagick/ImageMagick6</a>. In addition, a more recent version of ImageMagick, version 7, can be found at <a href="https://imagemagick.org">https://imagemagick.org</a>.</p>
 
 <h2><a class="anchor" id="features"></a>Features and Capabilities</h2>
 
