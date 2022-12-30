@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.12-72](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-71...6.9.12-72) - 2022-12-30
+
+### Commits
+
+- beta release [`850fb00`](https://github.com/ImageMagick/ImageMagick6/commit/850fb00d9296669fd31a7a234242eacc330fcbb3)
+- respect the TIFF offset prefix (https://github.com/ImageMagick/ImageMagick/issues/5768) [`a45686d`](https://github.com/ImageMagick/ImageMagick6/commit/a45686d30fb5785d7f0cb8a0e8efdeb75eabfe08)
+- slight optimization + cosmetic [`f559bbd`](https://github.com/ImageMagick/ImageMagick6/commit/f559bbdc6e76733c3d1a4b85197f728f77646042)
+- remove spurious Exif namespace (https://github.com/ImageMagick/ImageMagick/issues/5768) [`a20d2d3`](https://github.com/ImageMagick/ImageMagick6/commit/a20d2d3d6ca1a2155f24884c126ac42346e1f924)
+- release [`55ae040`](https://github.com/ImageMagick/ImageMagick6/commit/55ae040c3f3e89addbfab6408b179095618e49a8)
+
 ## [6.9.12-71](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-70...6.9.12-71) - 2022-12-28
 
 ### Commits
