@@ -33,8 +33,6 @@
 
 <p>Since we process multiple simultaneous sessions, we do not want any one session consuming all the available memory. With this policy, large images are cached to disk. If the image is too large and exceeds the pixel cache disk limit, the program exits. In addition, we place a time limit to prevent any run-away processing tasks. If any one image has a width or height that exceeds 8192 pixels or if an image sequence exceeds 32 frames, an exception is thrown and processing stops. As of ImageMagick 6.9.4-6, you can prevent the use of any delegate or all delegates (set the pattern to "*"). Note, prior to these releases, use a domain of <code>coder</code> to prevent delegate usage (e.g. <code>domain="coder" rights="none" pattern="HTTPS"</code>). We prevent users from executing any image filters.  The policy also prevents indirect reads. If you want to, for example, read text from a file (e.g. <code>caption:@myCaption.txt</code>), you'll need to disable the <code>path</code> policy.</p>
 
-<p>Doyensec provides a policy evaluator tool that can assist you in designing and auditing your security policy.  The tool is found at <a href="https://imagemagick-secevaluator.doyensec.com/">imagemagick-secevaluator.doyensec.com</a>.</p>
-
 <p>Policy patterns are <em>case sensitive</em>.  To get expected behavior, coders and modules must be upper-case (e.g. "EPS" not "eps") or use a case-insensitive pattern such as <samp>[Pp][Nn][Gg]</samp>.</p>
 
 <p>Here is what you can expect when you restrict the HTTPS coder, for example:</p>
@@ -62,6 +60,8 @@ convert: no images defined `wizard.jpg'</code></pre>
 
 <p>As of ImageMagick version 6.9.9-35, you can limit the maximum number of images in a sequence.  For example, to limit an image sequence to at most 64 frames, use:</p>
 <pre class="bg-light text-dark mx-4"><code>&lt;policy domain="resource" name="list-length" value="64"/></code></pre>
+
+<p>Note, numeric values in policies are floating-point with an optional SI prefix (e.g., 10MiB).</p>
 
 <p>For additional details about resource limits and the policy configuration file, read <a href="<?php echo $_SESSION['RelativePath']?>/../script/resources.php">Resources</a> and <a href="<?php echo $_SESSION['RelativePath']?>/../script/architecture.php">Architecture</a>.</p>
 
@@ -133,6 +133,9 @@ Path: [built-in]
   Policy: Undefined
     rights: None </code></pre>
 <p>Notice the <code>shared-secret</code> policy is not listed due to the <code>stealth</code> property.</p>
+
+<p>Doyensec provides a policy evaluator tool that can assist you in designing and auditing your security policy.  The tool is found at <a href="https://imagemagick-secevaluator.doyensec.com/">imagemagick-secevaluator.doyensec.com</a>.</p>
+
 
 <h2><a class="anchor" id="synchronize"></a>Pixel Cache Synchronize Policy</h2>
 

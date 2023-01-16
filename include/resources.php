@@ -81,7 +81,7 @@ Use <code>width</code> to limit the maximum width of an image in pixels.  Exceed
 To limit the elapsed time of any ImageMagick command to 5 minutes, use this policy:
 
 <pre class="bg-light text-dark mx-4"><code>&lt;policy domain="resource" name="time" value="300"/></code></pre>
-Define arguments for the memory, map, and disk resources with SI prefixes (.e.g 100MB).  In addition, resource policies are maximums for each instance of ImageMagick (e.g. policy memory limit 1GB, the <code>-limit 2GB</code> option exceeds policy maximum so memory limit is 1GB). </dd>
+For convenience, define arguments for the memory, map, and disk resources with SI prefixes (.e.g 100MB).  In addition, resource policies are maximums for each instance of ImageMagick (e.g. policy memory limit 1GB, the <code>-limit 2GB</code> option exceeds policy maximum so memory limit is 1GB). </dd>
 
 <dt class="col-md-4"><a href="<?php echo $_SESSION['RelativePath']?>/../source/quantization-table.xml">quantization-table.xml</a></dt>
   <dd class="col-md-8">Custom JPEG quantization tables. Activate with <code>-define:q-table=quantization-table.xml</code>.</dd>
