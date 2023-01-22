@@ -5,6 +5,42 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.12-73](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-72...6.9.12-73) - 2023-01-22
+
+### Commits
+
+- beta release [`4836de6`](https://github.com/ImageMagick/ImageMagick6/commit/4836de6c3167320fba188ee4594baafd41e624ff)
+- beta release [`64085e4`](https://github.com/ImageMagick/ImageMagick6/commit/64085e4f58cf6cf9d2cc88cc00da9d7ccbac7ed0)
+- cosmetic [`a502d4e`](https://github.com/ImageMagick/ImageMagick6/commit/a502d4e612fa7fd9fadc59a73058daabd572a9d5)
+- eliminate uninitialised value (https://github.com/ImageMagick/ImageMagick/issues/5916) [`d826ae6`](https://github.com/ImageMagick/ImageMagick6/commit/d826ae64d336d30c0d2c0035e7ee924a719f6547)
+- set image background color [`1081508`](https://github.com/ImageMagick/ImageMagick6/commit/10815081ba9d8b0dab3d1fd69c4d3f6adbc8d2f7)
+- use define rather than constant [`ba8c549`](https://github.com/ImageMagick/ImageMagick6/commit/ba8c549478de97244ee0231b184a69e6044cc742)
+- DCX limited to 1024 frames [`8e9ce89`](https://github.com/ImageMagick/ImageMagick6/commit/8e9ce896d2dd69af514e53cf49b593d0129ff71a)
+- bounds check [`a66ac92`](https://github.com/ImageMagick/ImageMagick6/commit/a66ac922a1bbcbcd3971a1636e1912da163d14c4)
+- initialize resolution [`7a03db5`](https://github.com/ImageMagick/ImageMagick6/commit/7a03db54319fc53ee4df3718703d948da6607d39)
+- use define [`7f4dd8c`](https://github.com/ImageMagick/ImageMagick6/commit/7f4dd8c1cdf8cda38839b5a2d40589ae3e918c20)
+- https://github.com/ImageMagick/ImageMagick/pull/5929 [`62f7e61`](https://github.com/ImageMagick/ImageMagick6/commit/62f7e61855f604cd4e176e08947e8716e523ac3e)
+- Disable call to -coalesce inside the webp encoder to avoid duplicate coalescing [`7438dc4`](https://github.com/ImageMagick/ImageMagick6/commit/7438dc4eb774c08e227fbca46529eca72986b4ef)
+- clone image list, leave coalescing to the user [`b4a43f2`](https://github.com/ImageMagick/ImageMagick6/commit/b4a43f2022c5f847ed53bbbe1403f81295fa082c)
+- ignore .Z extention [`a08aeb3`](https://github.com/ImageMagick/ImageMagick6/commit/a08aeb322fd403538eee343a48271783b90dd6fc)
+- read blob byte rather than short [`4f38788`](https://github.com/ImageMagick/ImageMagick6/commit/4f38788c5a5455f49ba95e89d92ef24246cfdb37)
+- restore image file is there is an exception when reading (https://github.com/ImageMagick/ImageMagick/issues/5952) [`987dcdf`](https://github.com/ImageMagick/ImageMagick6/commit/987dcdf258a35a4b1f5d75918f8874685d6ce2f0)
+- eliminate rare memory leak [`cb765ff`](https://github.com/ImageMagick/ImageMagick6/commit/cb765ff97640312eb2bbac9cf8a8add46a392aa8)
+- cosmetic [`191d1c0`](https://github.com/ImageMagick/ImageMagick6/commit/191d1c0b9494cae0deed60d086da1d4a7a6bd39a)
+- 1-bit images should be colormapped [`8679e6d`](https://github.com/ImageMagick/ImageMagick6/commit/8679e6d5fb7955f9ce2bb7e0977cca9319bcdd84)
+- set SetImageOption() for -family option [`56f41a6`](https://github.com/ImageMagick/ImageMagick6/commit/56f41a63bc2de3b71fa6474b138009f88cfef2cb)
+- save image orientiation [`ebbbe8e`](https://github.com/ImageMagick/ImageMagick6/commit/ebbbe8eedb40e313133430aca79fa6e211964498)
+- Use xlink:href instead of href as suggested by snibgo. [`1439ece`](https://github.com/ImageMagick/ImageMagick6/commit/1439ecec80988aec46c5b3236104694d1ca333ad)
+- cosmetic [`6a46672`](https://github.com/ImageMagick/ImageMagick6/commit/6a4667233d11c199b48fecef7788001853e52478)
+- missing adjoin flag [`079f7a4`](https://github.com/ImageMagick/ImageMagick6/commit/079f7a44da2f5eb80afeb0e85f4482441ae90630)
+- improve BMP error checking (https://github.com/ImageMagick/ImageMagick/issues/5980) [`6b1daae`](https://github.com/ImageMagick/ImageMagick6/commit/6b1daaeb7f79a4cde427289812b4e66cfbd1232b)
+- support tga:perserve-orientation option [`ed771d3`](https://github.com/ImageMagick/ImageMagick6/commit/ed771d3f00a2835951871f768f6dd83c16547399)
+- coorected initialization of flip_y variable [`2ed5282`](https://github.com/ImageMagick/ImageMagick6/commit/2ed5282de4848c2d667967f3b7948ca524fde48d)
+- eliminate possible integer overflow [`1cc6184`](https://github.com/ImageMagick/ImageMagick6/commit/1cc6184bf1960a198323780d33121d1ded949dfa)
+- support writing WPG images [`fabd043`](https://github.com/ImageMagick/ImageMagick6/commit/fabd0439f58a6c41cfdf5d701c068a7ced879ea8)
+- remove extraneous parameter [`0ab0dd3`](https://github.com/ImageMagick/ImageMagick6/commit/0ab0dd303c1ad81ce12dbf0cf772576f8814719e)
+- release [`7a5b323`](https://github.com/ImageMagick/ImageMagick6/commit/7a5b3238592160a48c801b2766b35afae0ddf76e)
+
 ## [6.9.12-72](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-71...6.9.12-72) - 2022-12-30
 
 ### Commits
