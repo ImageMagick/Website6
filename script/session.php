@@ -6,15 +6,15 @@
     date_default_timezone_set('GMT');
   }
   if (!isset($_SERVER['HTTP_ACCEPT_ENCODING'])) {
-    ob_start();            
+    ob_start();
   }
   elseif (strpos(' ' . $_SERVER['HTTP_ACCEPT_ENCODING'],'x-gzip') == false) {
-      if (strpos(' ' . $_SERVER['HTTP_ACCEPT_ENCODING'],'gzip') == false) {
-        ob_start();
-      }
-      elseif(!ob_start("ob_gzhandler")) {
-        ob_start();
-      }   
+    if (strpos(' ' . $_SERVER['HTTP_ACCEPT_ENCODING'],'gzip') == false) {
+      ob_start();
+    }
+    elseif(!ob_start("ob_gzhandler")) {
+      ob_start();
+    }
   }
   elseif (!ob_start("ob_gzhandler")) {
     ob_start();
@@ -23,8 +23,11 @@
   $path=$path['dirname'];
   $script=basename($_SERVER['SCRIPT_FILENAME']);
   $cacheName=$path . '/../cache/' . $script;
+  $useCache=!isset($dynamic_content);
+  if (isset($_SERVER['MAGICK_DISABLE_CACHE']) && $_SERVER['MAGICK_DISABLE_CACHE'] == "true")
+    $useCache=false;
   session_name('ImageMagick-6');
-  if (isset($dynamic_content)) {
+  if (!$useCache) {
     session_cache_limiter('private_no_expire, must-revalidate');
   } else {
     if (file_exists($cacheName) && ((time()-10800) < filemtime($cacheName))) {
@@ -85,7 +88,7 @@
   SiteHeader($title,$topic,$description);
   require_once($_SESSION['AbsolutePath'] . '/../include/' . $script);
   SiteFooter();
-  if (!isset($dynamic_content)) {
+  if ($useCache) {
     file_put_contents($cacheName,ob_get_contents());
   }
   session_unset();
