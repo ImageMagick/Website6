@@ -72,7 +72,8 @@
       exit;
     }
   $use_sts = true;
-  if ($_SERVER["SERVER_ADDR"] == "10.144.245.30") {
+  if (($_SERVER["SERVER_ADDR"] == "10.144.245.30") ||
+      (isset($_SERVER["MAGICK_DEVCONTAINER"]) && $_SERVER["MAGICK_DEVCONTAINER"] == "true")) {
     $use_sts = false;
   }
   if ($use_sts && isset($_SERVER['HTTPS'])) {

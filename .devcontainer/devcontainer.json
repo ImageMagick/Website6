@@ -1,0 +1,17 @@
+{
+  "build": {
+    "dockerfile": "Dockerfile",
+    "args": { 
+      "DISABLE_CACHE": "true"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "extensions.ignoreRecommendations": true
+      }
+    }
+  },
+  "forwardPorts": [ 6060 ],
+  "onCreateCommand": "sudo apache2ctl start"
+}
