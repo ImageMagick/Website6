@@ -5,6 +5,31 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.12-74](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-73...6.9.12-74) - 2023-01-28
+
+### Commits
+
+- beta release [`a3b0625`](https://github.com/ImageMagick/ImageMagick6/commit/a3b062524ed5cb8af12c116f7acb3b3d998c469b)
+- initialize RLE pixels [`5693f20`](https://github.com/ImageMagick/ImageMagick6/commit/5693f20ad4b486a5c7ea4bf8a77e5049dfbc2c24)
+- Replace tabs with spaces. [`a364a0e`](https://github.com/ImageMagick/ImageMagick6/commit/a364a0ed8f7ad4ad4a7e6fcad4330822c81e8ec6)
+- wrong byte order [`f0c64eb`](https://github.com/ImageMagick/ImageMagick6/commit/f0c64ebc77b7b13b00788cc7fb7d7e803d18c83a)
+- only support WPG postscript embedded images [`3ef877f`](https://github.com/ImageMagick/ImageMagick6/commit/3ef877f78c3f3e868707987b8575c36d0e4f18cf)
+- SETJMP_IS_THREAD_SAFE symbol requires namespace prefix (https://github.com/ImageMagick/ImageMagick/discussions/4123) [`2d0250e`](https://github.com/ImageMagick/ImageMagick6/commit/2d0250ef8a245d36d40cab68d24d77e430f7d1d1)
+- add MAGICKCORE prefix [`9a920f0`](https://github.com/ImageMagick/ImageMagick6/commit/9a920f024c185d185583d78a50b48a9506a6ba04)
+- add MAGICKCORE namespace prefix [`a29febc`](https://github.com/ImageMagick/ImageMagick6/commit/a29febc2278cb4f1a0ebaaf7b9a58b9be70deef4)
+- remedy uninitialized value [`bdb8819`](https://github.com/ImageMagick/ImageMagick6/commit/bdb8819aabc33844ae041a0237bbb262f0279df4)
+- permit setting colormap with empty pixel cache [`25d201d`](https://github.com/ImageMagick/ImageMagick6/commit/25d201d1320acd67b865fe0e6c181bdd3a9c6831)
+- ensure code will compile with an ANSI-C compiler [`2c240b7`](https://github.com/ImageMagick/ImageMagick6/commit/2c240b7ab30f18f9a304ebcd63af07dd521c7458)
+- cosmetic [`97db7a5`](https://github.com/ImageMagick/ImageMagick6/commit/97db7a57fef21408361134c525d12d853b7c07a9)
+- improve support for PNG iTXt chunk [`3fa447f`](https://github.com/ImageMagick/ImageMagick6/commit/3fa447f9477a2bea8ae5b4ab0d918d35d88d0fb9)
+- release [`3d0dc00`](https://github.com/ImageMagick/ImageMagick6/commit/3d0dc0054a0aaff48e77f095de1bc8b60f4656e4)
+- Delay release. [`342d607`](https://github.com/ImageMagick/ImageMagick6/commit/342d607f8edd6626e915bfb592562f8e19185fcc)
+- Corrected check for define. [`5c8a089`](https://github.com/ImageMagick/ImageMagick6/commit/5c8a0897527ef6eea64ec33b70e5401cf4b56c10)
+- release [`cff0e48`](https://github.com/ImageMagick/ImageMagick6/commit/cff0e48a0562a05ded12c223a2b28898cc14ba92)
+- release [`ee22c0a`](https://github.com/ImageMagick/ImageMagick6/commit/ee22c0a35e3a499170a53fef9daa7da35c21532a)
+- update image signatures [`6e140de`](https://github.com/ImageMagick/ImageMagick6/commit/6e140de3dfaf1c88ad7ea0670c3ba87091d57a35)
+- release [`4509b35`](https://github.com/ImageMagick/ImageMagick6/commit/4509b35bb1a692425e5d80da61760e0a09cc2a75)
+
 ## [6.9.12-73](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-72...6.9.12-73) - 2023-01-22
 
 ### Commits

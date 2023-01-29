@@ -33,7 +33,7 @@
 
 <p>The <code>display</code> command recognizes these options.  Click on an option to get more details about how that option works.</p>
 
-<table class="table table-sm table-hover table-striped">
+<table class="table table-sm table-hover table-striped table-responsive">
   <tbody>
   <tr>
     <th align="left">Option</th>
