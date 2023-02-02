@@ -5525,6 +5525,8 @@ present with a value other than <var>NorthWest</var>.</p>
 
 <p>This option is used in concert with <a href="#density">-density</a>.</p>
 
+<p>To print a complete list of pagesizes, use <a href="#list">-list pagesize</a> option.</p>
+
 <p>Use <a href="#page">+page</a> to remove the page settings for an image.</p>
 
 <div style="margin: auto;">
