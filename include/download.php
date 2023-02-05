@@ -6,6 +6,8 @@
 
 <p>ImageMagick source and binary distributions are available from a variety of FTP and Web <a href="<?php echo $_SESSION['RelativePath']?>/../script/mirror.php">mirrors</a> around the world.</p>
 
+<p>It is strongly recommended to establish a <a href="<?php echo $_SESSION['RelativePath']?>/../script/security-policy.php">security policy</a> suitable for your local environment before utilizing ImageMagick.</p>
+
 <h2><a class="anchor" id="linux"></a>Linux Binary Release</h2>
 
 <p>These are the Linux variations that we support.  If your system is not on the list, try installing from <a href="<?php echo $_SESSION['RelativePath']?>/../script/install-source.php">source</a>. Although ImageMagick runs fine on a single core computer, it automagically runs in parallel on multi-core systems reducing run times considerably.</p>
@@ -386,6 +388,8 @@ I
 </table></div>
 
 <p>Verify its <a href="https://imagemagick.org/archive//binaries/digest.rdf">message digest</a>.</p>
+
+<p>It is strongly recommended to establish a <a href="<?php echo $_SESSION['RelativePath']?>/../script/security-policy.php">security policy</a> suitable for your local environment before utilizing ImageMagick.</p>
 
 <p>To verify ImageMagick is working properly, type the following in an Command Prompt window:</p>
 
