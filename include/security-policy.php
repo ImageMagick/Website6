@@ -32,9 +32,9 @@
   &lt;policy domain="system" name="shred" value="1"/>
 &lt;/policymap></code></pre>
 
-<p>Since we process multiple simultaneous sessions, we do not want any one session consuming all the available memory. With this policy, large images are cached to disk. If the image is too large and exceeds the pixel cache disk limit, the program exits. In addition, we place a time limit to prevent any run-away processing tasks. If any one image has a width or height that exceeds 8192 pixels or if an image sequence exceeds 32 frames, an exception is thrown and processing stops. As of ImageMagick 6.9.4-6, you can prevent the use of any delegate or all delegates (set the pattern to "*"). Note, prior to these releases, use a domain of <code>coder</code> to prevent delegate usage (e.g. <code>domain="coder" rights="none" pattern="HTTPS"</code>). We prevent users from executing any image filters.  The policy also prevents indirect reads. If you want to, for example, read text from a file (e.g. <code>caption:@myCaption.txt</code>), you'll need to disable the <code>path</code> policy.</p>
+<p>Since we process multiple simultaneous sessions, we do not want any one session consuming all the available memory. With this policy, large images are cached to disk. If the image is too large and exceeds the pixel cache disk limit, the program exits. In addition, we place a time limit to prevent any run-away processing tasks. If any one image has a width or height that exceeds 8192 pixels or if an image sequence exceeds 32 frames, an exception is thrown and processing stops. As of ImageMagick 6.9.4-6, you can prevent the use of any delegate or all delegates (set the <a href="https://en.wikipedia.org/wiki/Glob_(programming)">glob pattern</a> to "*"). Note, prior to these releases, use a domain of <code>coder</code> to prevent delegate usage (e.g. <code>domain="coder" rights="none" pattern="HTTPS"</code>). We prevent users from executing any image filters.  The policy also prevents indirect reads. If you want to, for example, read text from a file (e.g. <code>caption:@myCaption.txt</code>), you'll need to disable the <code>path</code> policy.</p>
 
-<p>Policy patterns are <em>case sensitive</em>.  To get expected behavior, coders and modules must be upper-case (e.g. "EPS" not "eps") or use a case-insensitive pattern such as <samp>[Pp][Nn][Gg]</samp>.</p>
+<p>Policy glob patterns are <em>case sensitive</em>.  To get expected behavior, coders and modules must be upper-case (e.g. "EPS" not "eps") or use a case-insensitive pattern such as <samp>[Pp][Nn][Gg]</samp>.</p>
 
 <p>Here is what you can expect when you restrict the HTTPS coder, for example:</p>
 
@@ -73,6 +73,9 @@ convert: no images defined `wizard.jpg'</code></pre>
 
 <p>As of ImageMagick version 6.9-10-52, you can set a font policy.  Specify a path to a Unicode font that ImageMagick defaults to whenever the user does not specify a font preference:</p>
 <pre class="bg-light text-dark mx-4"><code>&lt;policy domain="system" name="font" value="/usr/share/fonts/arial-unicode.ttf"/></code></pre>
+
+<p>Note, in file path glob patterns, use the backslash character (\) to escape characters that would otherwise be interpreted as special characters. For example:</p>
+<pre class="bg-light text-dark mx-4"><samp>&lt;policy domain="path" rights="none" pattern="c:\\\\*"/></samp></pre>
 
 <p>You can verify your policy changes are in effect with this command:</p>
 
