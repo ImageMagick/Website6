@@ -5,6 +5,36 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.12-76](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-75...6.9.12-76) - 2023-02-05
+
+### Commits
+
+- beta release [`59c25fd`](https://github.com/ImageMagick/ImageMagick6/commit/59c25fdc011a9ba3c79dd6cb9f42556816e86992)
+- fix copyright [`710511f`](https://github.com/ImageMagick/ImageMagick6/commit/710511ff1dda1e2b21dc130114b277be6a4d4e58)
+- Corrected the seek implementation (https://bugs.chromium.org/p/oss-fuzz/issues/detail?id=55325). [`21a1784`](https://github.com/ImageMagick/ImageMagick6/commit/21a1784826beff8ab15fe67ca1c7c9fdb062ae1a)
+- add support for -list pagesize [`924e07d`](https://github.com/ImageMagick/ImageMagick6/commit/924e07dd1e8b05f617cd3232f600085f54a93cf9)
+- Disable LOSSLESS_SUPPORTED checks for libjpeg turbo because they break with their latest code. [`35e05cb`](https://github.com/ImageMagick/ImageMagick6/commit/35e05cb79aabc110c2579643972f8228b1fdd6e4)
+- disable setting profile:&lt;filename&gt; property as it is a security risk [`222845f`](https://github.com/ImageMagick/ImageMagick6/commit/222845f6a0848c1e1c567bb1618617e786523bb2)
+- eliminate compiler warning [`87d719c`](https://github.com/ImageMagick/ImageMagick6/commit/87d719c194cc9356cdcf5df578bbea25582a290c)
+- revert [`23bf431`](https://github.com/ImageMagick/ImageMagick6/commit/23bf43133d5fc525afafdc47398cd92b3b68797d)
+- move `-set profile` handler to CLI [`d77c01e`](https://github.com/ImageMagick/ImageMagick6/commit/d77c01e560e973177feed4915ffd7dd1a45fd763)
+- add a null byte to the iTXt chunk [`c0c2725`](https://github.com/ImageMagick/ImageMagick6/commit/c0c27250d486b4b0e3bb4f3a6e4229c114477e09)
+- support GIMP 2.10+ image files [`a06cfd9`](https://github.com/ImageMagick/ImageMagick6/commit/a06cfd9676f0f7a73df2a29c4d2dfa0f7db0b2fd)
+- enforce path-policy when convert a file to a string [`0396815`](https://github.com/ImageMagick/ImageMagick6/commit/0396815fa661d4b98fbb5060b253ae0000aa3e45)
+- eliminate compiler warning [`48b46bc`](https://github.com/ImageMagick/ImageMagick6/commit/48b46bc91301b7206bfd4126a459984bd6abe3d4)
+- Whitespace. [`86b2f4d`](https://github.com/ImageMagick/ImageMagick6/commit/86b2f4d1de4b6560df37253d1156fcdf3dc8567c)
+- remove redundant path policy check [`591e29f`](https://github.com/ImageMagick/ImageMagick6/commit/591e29f0d4c30691c600089bf43249807ec1307b)
+- revert [`1c5c8e9`](https://github.com/ImageMagick/ImageMagick6/commit/1c5c8e9a112f6903723f3e436dab14e32ef32abf)
+- cosmetic [`3ad2466`](https://github.com/ImageMagick/ImageMagick6/commit/3ad24669727e0bf8bdbbfec429edc66d577db3d4)
+- allow SI units with --with-cache configure option [`c987faa`](https://github.com/ImageMagick/ImageMagick6/commit/c987faace29320238d93279d476fafbec60ced96)
+- latest automake updates [`016a68d`](https://github.com/ImageMagick/ImageMagick6/commit/016a68da5342ad4b910d9193b2e10a4d8bd5d806)
+- latest automake updates [`c508528`](https://github.com/ImageMagick/ImageMagick6/commit/c50852840364b90e4b63da6aab35aa7b82f40bc2)
+- eliminate unterminated macro [`b7c7b85`](https://github.com/ImageMagick/ImageMagick6/commit/b7c7b859c579d9c3815ab2fdf2b71a68b066c795)
+- cosmetic [`9ea1450`](https://github.com/ImageMagick/ImageMagick6/commit/9ea1450f5210a17f9ae3b24707e08a06ff989ebd)
+- Don't use container when creating ChangeLog.md [`465cec6`](https://github.com/ImageMagick/ImageMagick6/commit/465cec6177d7fe7d06c288cfce3524c0cc68f70c)
+- improve decompression errors [`1024e92`](https://github.com/ImageMagick/ImageMagick6/commit/1024e92fc5c48734084b01cbf555ffdfb90825ee)
+- release [`d67214a`](https://github.com/ImageMagick/ImageMagick6/commit/d67214a9972bba4b3fc9df5ffbd1a481919bd8da)
+
 ## [6.9.12-75](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-74...6.9.12-75) - 2023-01-29
 
 ### Commits
