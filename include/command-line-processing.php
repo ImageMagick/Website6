@@ -544,7 +544,7 @@ image-2.jpg</pre>
 
 <pre class="bg-light text-dark mx-4"><code>convert *.jpg +adjoin page-%d.pdf</code></pre>
 
-<p>Use <code>-define filename:literal=true</code> to bypass interpretting embedded formatting characters and instead use the filename literally.</p>
+<p>Use <code>-define filename:literal=true</code> to bypass interpreting embedded formatting characters and instead use the filename literally.</p>
 
 <h4>Stream Buffering</h4>
 
