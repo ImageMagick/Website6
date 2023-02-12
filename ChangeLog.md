@@ -5,6 +5,21 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.12-77](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-76...6.9.12-77) - 2023-02-12
+
+### Commits
+
+- beta release [`32913d3`](https://github.com/ImageMagick/ImageMagick6/commit/32913d3aa5c48e13ca703d5e182f0b7413f933a4)
+- beta release [`e92bf1a`](https://github.com/ImageMagick/ImageMagick6/commit/e92bf1a83a36eb207465a237d9508138f0423606)
+- support filenames with embedded characters (https://github.com/ImageMagick/ImageMagick/issues/6040) [`a39d02e`](https://github.com/ImageMagick/ImageMagick6/commit/a39d02ef700e60419dfdbbc5a0c29cc39184a5e8)
+- typecast to unsigned short [`0dd906a`](https://github.com/ImageMagick/ImageMagick6/commit/0dd906a6938bc6e1d1947463cf830d9919c3ffe2)
+- cast from char to short [`3bec9a5`](https://github.com/ImageMagick/ImageMagick6/commit/3bec9a592a8c57663e7e48cc1c954b6226cdc7ca)
+- Fix EOI marker detection for Exif [`7b7082d`](https://github.com/ImageMagick/ImageMagick6/commit/7b7082d077211e598c3d8bd5725ccbe4673c3fff)
+- improve bounds checking [`c8ab721`](https://github.com/ImageMagick/ImageMagick6/commit/c8ab721897b2dbe11ee9643d87ca57091dd04ac4)
+- handle undefined EXIF tag (https://github.com/ImageMagick/ImageMagick/issues/6052) [`0f94c92`](https://github.com/ImageMagick/ImageMagick6/commit/0f94c925ca485817229baac754c1f28920fd1d67)
+- eliminate compiler warnings [`c8a10ad`](https://github.com/ImageMagick/ImageMagick6/commit/c8a10adfe864fe26164b1490fef34681ef87a32f)
+- release [`d863170`](https://github.com/ImageMagick/ImageMagick6/commit/d8631703f925b5ecba4f7735b82c2395292fd1cc)
+
 ## [6.9.12-76](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-75...6.9.12-76) - 2023-02-05
 
 ### Commits
