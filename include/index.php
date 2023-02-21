@@ -7,7 +7,8 @@
 
 <p>ImageMagick includes a command-line interface for executing complex image processing tasks, as well as APIs for integrating its features into software applications. It is written in C and can be used on a variety of operating systems, including Linux, Windows, and macOS.</p>
 
-<p>The main website for legacy ImageMagick can be found at <a href="https://legacy.imagemagick.org">https://legacy.imagemagick.org</a>. The most recent version available is ImageMagick <a href="<?php echo $_SESSION['RelativePath']?>/../script/download.php"><?php echo MagickLibVersionText . MagickLibSubversion; ?></a>. The source code for this software can be accessed through the repository located at <a href="https://github.com/ImageMagick/ImageMagick6" target="_blank">https://github.com/ImageMagick/ImageMagick6</a>. In addition, a more recent version of ImageMagick, version 7, can be found at <a href="https://imagemagick.org">https://imagemagick.org</a>.</p>
+<p>The main website for legacy ImageMagick can be found at <a href="https://legacy.imagemagick.org">https://legacy.imagemagick.org</a>. The most recent version available is <a href="<?php echo $_SESSION['RelativePath']?>/../script/download.php">ImageMagick <?php echo MagickLibVersionText . MagickLibSubversion; ?></a>. The source code for this software can be accessed through the <a href="https://github.com/ImageMagick/ImageMagick6" target="_blank">repository</a>. We recommend upgrading your legacy version of ImageMagick to <a href="https://imagemagick.org">version 7</a>.</p>
+
 <p>It is strongly recommended to establish a <a href="<?php echo $_SESSION['RelativePath']?>/../script/security-policy.php">security policy</a> suitable for your local environment before utilizing ImageMagick.</p>
 
 <h2><a class="anchor" id="features"></a>Features and Capabilities</h2>
