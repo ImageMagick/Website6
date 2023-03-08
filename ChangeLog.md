@@ -5,6 +5,35 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.12-78](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-77...6.9.12-78) - 2023-03-08
+
+### Commits
+
+- beta release [`59eb784`](https://github.com/ImageMagick/ImageMagick6/commit/59eb78450cfa6374a1f2f0b3387ab5b41d045a43)
+- correct RLE unpack algorithm [`26bf171`](https://github.com/ImageMagick/ImageMagick6/commit/26bf1714ca6bd9013ae5d71a6ab477f0b26b579b)
+- Fixed build. [`39145b7`](https://github.com/ImageMagick/ImageMagick6/commit/39145b7b8211d9291b5cdf01a199afc18b21200a)
+- properly detect an extra samples alpha channel (https://github.com/ImageMagick/ImageMagick/issues/6058) [`9cf9fe2`](https://github.com/ImageMagick/ImageMagick6/commit/9cf9fe2c66666473e44c11ebdc83931b3b5c3ae2)
+- Added missing check to prevent a possible segfault. [`1c44066`](https://github.com/ImageMagick/ImageMagick6/commit/1c44066017868f415cb199c61faf431cc7b2cc9f)
+- detect RLE error [`6d66808`](https://github.com/ImageMagick/ImageMagick6/commit/6d668080271196b27359152618438a596fb91740)
+- ... [`74e06a8`](https://github.com/ImageMagick/ImageMagick6/commit/74e06a878d297644ea7d46f25275d8c7debabaa7)
+- check for negative LUT lookup (https://github.com/ImageMagick/ImageMagick/issues/6070) [`f560fc2`](https://github.com/ImageMagick/ImageMagick6/commit/f560fc2444497f62c9b50cf6314f31fd148b381e)
+- Fixed build. [`723af4c`](https://github.com/ImageMagick/ImageMagick6/commit/723af4c3711c6ee37e35a6bf120505de03fc4ddd)
+- set font with MAGICK_FONT environment variable [`382281f`](https://github.com/ImageMagick/ImageMagick6/commit/382281f68c6a84f910b3ad8b75dd42743ce3109f)
+- valid compression filters are 0 through 9 (https://github.com/ImageMagick/ImageMagick/discussions/6108) [`08e6df4`](https://github.com/ImageMagick/ImageMagick6/commit/08e6df458745bbbb4d256d224546a4738b56a4cb)
+- site: fix typo for compare [`a766b33`](https://github.com/ImageMagick/ImageMagick6/commit/a766b33654bdeee510d7392c9dd2b3413ec514cb)
+- clone latest documentation [`86a0542`](https://github.com/ImageMagick/ImageMagick6/commit/86a05422d9cce5d3bb66bc8a637a55f246fc8097)
+- identify a default font [`8a9176a`](https://github.com/ImageMagick/ImageMagick6/commit/8a9176a52edf81e3f5f197e2ddfb0cc682c9039b)
+- Also include optional libraries, incompatible licenses and deprecated code in the daily Windows build. [`1d4c95c`](https://github.com/ImageMagick/ImageMagick6/commit/1d4c95c5a7e7d244b072720645c72c2a77b1ae9b)
+- do not permit MVG coder from rendering SVG/MSVG images [`9f0cd40`](https://github.com/ImageMagick/ImageMagick6/commit/9f0cd40be253b6c4b189d9853c3c7eae811a8f6b)
+- recursion detection [`75b9ede`](https://github.com/ImageMagick/ImageMagick6/commit/75b9ede7874c50ecb2fc3aa1de29bc769c2e8d31)
+- recursion detection framework [`e8c0090`](https://github.com/ImageMagick/ImageMagick6/commit/e8c0090c6d2df7b1553053dca2008e96724204bf)
+- recursion detection framework [`060660b`](https://github.com/ImageMagick/ImageMagick6/commit/060660bf45e0771cf0431e5c2749aa51fabf23f8)
+- recursion detection [`706d381`](https://github.com/ImageMagick/ImageMagick6/commit/706d381b7eb79927d328c96f7b7faab5dc109368)
+- Restore the missing bracket. [`999ee5b`](https://github.com/ImageMagick/ImageMagick6/commit/999ee5b556cf51e8dc84a2fa9b318241c9a6b081)
+- recursion detection fail [`1485a4c`](https://github.com/ImageMagick/ImageMagick6/commit/1485a4c2cba8ca32981016fa25e7a15ef84f06f6)
+- do not composite SVG to avoid possible recursion [`75aac79`](https://github.com/ImageMagick/ImageMagick6/commit/75aac79108af0c0b0d7fc88b1f09c340b0d62c85)
+- release [`41c2222`](https://github.com/ImageMagick/ImageMagick6/commit/41c22229c74587ed0c3c1a74c699b7653959936f)
+
 ## [6.9.12-77](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-76...6.9.12-77) - 2023-02-12
 
 ### Commits
