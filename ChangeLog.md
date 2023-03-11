@@ -5,7 +5,31 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [6.9.12-79](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-77...6.9.12-79) - 2023-03-09
+## [6.9.12-81](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-80...6.9.12-81) - 2023-03-11
+
+### Commits
+
+- beta release [`fd996c6`](https://github.com/ImageMagick/ImageMagick6/commit/fd996c61bc7213535026e61aced30205d3554618)
+- MagickWandTerminus calls MagickCoreTermines so we don't need to call both of them. [`0cc37c4`](https://github.com/ImageMagick/ImageMagick6/commit/0cc37c450953b3305413da4ae32f9d6cd4d4d6c8)
+- Call MagickWandTerminus instead of MagickCoreTerminus. [`42c64e1`](https://github.com/ImageMagick/ImageMagick6/commit/42c64e12221fa19cf07eb31e4b1c47a7dfc95a85)
+- release [`6d2ffaf`](https://github.com/ImageMagick/ImageMagick6/commit/6d2ffaff5a03e11c30026f4b7782d6de2666eaad)
+
+## [6.9.12-80](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-79...6.9.12-80) - 2023-03-09
+
+### Commits
+
+- release [`6614dfa`](https://github.com/ImageMagick/ImageMagick6/commit/6614dfa0002158a40bacd9887a5089fd7fedcb06)
+- release [`037e2db`](https://github.com/ImageMagick/ImageMagick6/commit/037e2dbc7bb241bb19b48b776eb5760680e42605)
+
+## [6.9.12-79](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-78...6.9.12-79) - 2023-03-09
+
+### Commits
+
+- beta release [`b396ff0`](https://github.com/ImageMagick/ImageMagick6/commit/b396ff0282ed5fefb55a675b63c5d48fa448d83f)
+- PNG compression filters range from 0-5 [`7b955d7`](https://github.com/ImageMagick/ImageMagick6/commit/7b955d7c4d5ef8d1081b9297d7dba57a27330682)
+- release [`0ed4c1c`](https://github.com/ImageMagick/ImageMagick6/commit/0ed4c1c48d84842d2ba044e602d292702ad4b9ac)
+
+## [6.9.12-78](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-77...6.9.12-78) - 2023-03-08
 
 ### Commits
 
@@ -33,9 +57,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - recursion detection fail [`1485a4c`](https://github.com/ImageMagick/ImageMagick6/commit/1485a4c2cba8ca32981016fa25e7a15ef84f06f6)
 - do not composite SVG to avoid possible recursion [`75aac79`](https://github.com/ImageMagick/ImageMagick6/commit/75aac79108af0c0b0d7fc88b1f09c340b0d62c85)
 - release [`41c2222`](https://github.com/ImageMagick/ImageMagick6/commit/41c22229c74587ed0c3c1a74c699b7653959936f)
-- beta release [`b396ff0`](https://github.com/ImageMagick/ImageMagick6/commit/b396ff0282ed5fefb55a675b63c5d48fa448d83f)
-- PNG compression filters range from 0-5 [`7b955d7`](https://github.com/ImageMagick/ImageMagick6/commit/7b955d7c4d5ef8d1081b9297d7dba57a27330682)
-- release [`0ed4c1c`](https://github.com/ImageMagick/ImageMagick6/commit/0ed4c1c48d84842d2ba044e602d292702ad4b9ac)
 
 ## [6.9.12-77](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-76...6.9.12-77) - 2023-02-12
 
