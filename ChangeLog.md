@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [6.9.12-81](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-80...6.9.12-81) - 2023-03-11
+## [6.9.12-82](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-80...6.9.12-82) - 2023-03-18
 
 ### Commits
 
@@ -13,6 +13,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - MagickWandTerminus calls MagickCoreTermines so we don't need to call both of them. [`0cc37c4`](https://github.com/ImageMagick/ImageMagick6/commit/0cc37c450953b3305413da4ae32f9d6cd4d4d6c8)
 - Call MagickWandTerminus instead of MagickCoreTerminus. [`42c64e1`](https://github.com/ImageMagick/ImageMagick6/commit/42c64e12221fa19cf07eb31e4b1c47a7dfc95a85)
 - release [`6d2ffaf`](https://github.com/ImageMagick/ImageMagick6/commit/6d2ffaff5a03e11c30026f4b7782d6de2666eaad)
+- beta release [`708c453`](https://github.com/ImageMagick/ImageMagick6/commit/708c453fd0dbb4c181f16088972273c42d7c62a0)
+- improve default fatal exception handler [`e8e4389`](https://github.com/ImageMagick/ImageMagick6/commit/e8e43891405b8a54df9cd61ed1e4f5d0bb0be063)
+- improve locale exception handling [`1a76965`](https://github.com/ImageMagick/ImageMagick6/commit/1a76965aaf6fd8b2547b7760e2cb0bc61281f3f6)
+- terminate loop on page sentinel (#https://github.com/ImageMagick/ImageMagick/issues/6158) [`15c5b01`](https://github.com/ImageMagick/ImageMagick6/commit/15c5b01124557ccca9a619bd435d91ecd73659d3)
+- optimization [`ee78ae5`](https://github.com/ImageMagick/ImageMagick6/commit/ee78ae5faaed4636d9ade7f9f0f2f7854bc422a3)
+- Update SECURITY.md [`7c881de`](https://github.com/ImageMagick/ImageMagick6/commit/7c881de3dae99f88ae74a4ec85de135190326cbb)
+- call SetUnhandledExceptionFilter() in utilities rather than the MagickCore API [`11ceaf0`](https://github.com/ImageMagick/ImageMagick6/commit/11ceaf053ea65a1d2846c7fddafc25c16ce9618d)
+- Fixed build. [`9df4c7f`](https://github.com/ImageMagick/ImageMagick6/commit/9df4c7f3ebc68ab81cdc28018cd636e5d06a7990)
+- accomodate UTF-8 image file names [`ab93a0b`](https://github.com/ImageMagick/ImageMagick6/commit/ab93a0bb8015b91ef5b51880393b119c534bcc98)
+- Newer versions of libtiff require the field_name to be set so we set it to a static dummy string. [`440b988`](https://github.com/ImageMagick/ImageMagick6/commit/440b9882e0e6bcd547942fa4410871f83fb0c51b)
+- Removed const. [`5bad64f`](https://github.com/ImageMagick/ImageMagick6/commit/5bad64f99a9ad7ffd34cdf7e962eea37c01a823f)
+- beta release [`e389f90`](https://github.com/ImageMagick/ImageMagick6/commit/e389f90499e309cd9051aafab1e5982018050f09)
+- release [`04a0e3a`](https://github.com/ImageMagick/ImageMagick6/commit/04a0e3ad18967440c5e4f73e5bda3f867af9c274)
 
 ## [6.9.12-80](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-79...6.9.12-80) - 2023-03-09
 
