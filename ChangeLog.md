@@ -5,14 +5,25 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [6.9.12-82](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-80...6.9.12-82) - 2023-03-18
+## [6.9.12-83](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-82...6.9.12-83) - 2023-03-26
 
 ### Commits
 
-- beta release [`fd996c6`](https://github.com/ImageMagick/ImageMagick6/commit/fd996c61bc7213535026e61aced30205d3554618)
-- MagickWandTerminus calls MagickCoreTermines so we don't need to call both of them. [`0cc37c4`](https://github.com/ImageMagick/ImageMagick6/commit/0cc37c450953b3305413da4ae32f9d6cd4d4d6c8)
-- Call MagickWandTerminus instead of MagickCoreTerminus. [`42c64e1`](https://github.com/ImageMagick/ImageMagick6/commit/42c64e12221fa19cf07eb31e4b1c47a7dfc95a85)
-- release [`6d2ffaf`](https://github.com/ImageMagick/ImageMagick6/commit/6d2ffaff5a03e11c30026f4b7782d6de2666eaad)
+- beta release [`58beb73`](https://github.com/ImageMagick/ImageMagick6/commit/58beb7316569f896aaa1418e7419bc80412b3eef)
+- offset to x1 for west gravity (#https://github.com/ImageMagick/ImageMagick/issues/6163) [`1211145`](https://github.com/ImageMagick/ImageMagick6/commit/121114551d92842679868e069853ce5f6255c0d3)
+- optimization [`c2a9773`](https://github.com/ImageMagick/ImageMagick6/commit/c2a977370e4ee5b47cbdb9802ab723689de24568)
+- MVG must be explicit [`aeb1e5e`](https://github.com/ImageMagick/ImageMagick6/commit/aeb1e5e73dc72980ee24d36e78837d29ab5f58b6)
+- enable left bearing offset for undefined and west gravities [`a6cec4f`](https://github.com/ImageMagick/ImageMagick6/commit/a6cec4f034aa6192e0cf5626f979ce0ebe089594)
+- eliminate memory leak when writing the JPS image format [`89c4b1f`](https://github.com/ImageMagick/ImageMagick6/commit/89c4b1f454b71a12c0155c31a6841572fdcd8d6b)
+- release [`7406afe`](https://github.com/ImageMagick/ImageMagick6/commit/7406afeefdc94c77ebf497b7f5453a21af315d87)
+- fix compiler exception [`6569223`](https://github.com/ImageMagick/ImageMagick6/commit/65692230ba98b5735b911565682010afc67c769f)
+- module is a reserved work in C++ (20) [`49c6579`](https://github.com/ImageMagick/ImageMagick6/commit/49c6579c87acfc8630471c6f5abe6117e015d42a)
+- release [`5036aa9`](https://github.com/ImageMagick/ImageMagick6/commit/5036aa9ebbe83e3b6f0402e9f3a66c70126c8655)
+
+## [6.9.12-82](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-81...6.9.12-82) - 2023-03-18
+
+### Commits
+
 - beta release [`708c453`](https://github.com/ImageMagick/ImageMagick6/commit/708c453fd0dbb4c181f16088972273c42d7c62a0)
 - improve default fatal exception handler [`e8e4389`](https://github.com/ImageMagick/ImageMagick6/commit/e8e43891405b8a54df9cd61ed1e4f5d0bb0be063)
 - improve locale exception handling [`1a76965`](https://github.com/ImageMagick/ImageMagick6/commit/1a76965aaf6fd8b2547b7760e2cb0bc61281f3f6)
@@ -26,6 +37,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Removed const. [`5bad64f`](https://github.com/ImageMagick/ImageMagick6/commit/5bad64f99a9ad7ffd34cdf7e962eea37c01a823f)
 - beta release [`e389f90`](https://github.com/ImageMagick/ImageMagick6/commit/e389f90499e309cd9051aafab1e5982018050f09)
 - release [`04a0e3a`](https://github.com/ImageMagick/ImageMagick6/commit/04a0e3ad18967440c5e4f73e5bda3f867af9c274)
+
+## [6.9.12-81](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-80...6.9.12-81) - 2023-03-11
+
+### Commits
+
+- beta release [`fd996c6`](https://github.com/ImageMagick/ImageMagick6/commit/fd996c61bc7213535026e61aced30205d3554618)
+- MagickWandTerminus calls MagickCoreTermines so we don't need to call both of them. [`0cc37c4`](https://github.com/ImageMagick/ImageMagick6/commit/0cc37c450953b3305413da4ae32f9d6cd4d4d6c8)
+- Call MagickWandTerminus instead of MagickCoreTerminus. [`42c64e1`](https://github.com/ImageMagick/ImageMagick6/commit/42c64e12221fa19cf07eb31e4b1c47a7dfc95a85)
+- release [`6d2ffaf`](https://github.com/ImageMagick/ImageMagick6/commit/6d2ffaff5a03e11c30026f4b7782d6de2666eaad)
 
 ## [6.9.12-80](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-79...6.9.12-80) - 2023-03-09
 
