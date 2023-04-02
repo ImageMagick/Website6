@@ -5,6 +5,24 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.12-84](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-83...6.9.12-84) - 2023-04-02
+
+### Commits
+
+- beta release [`519f510`](https://github.com/ImageMagick/ImageMagick6/commit/519f510150994c6890c360463f0fff4ff945009b)
+- Use const string instead. [`2fb1217`](https://github.com/ImageMagick/ImageMagick6/commit/2fb1217ae670a0cc764c1a173deacfb837a3369e)
+- conditional colormap [`f7d35d8`](https://github.com/ImageMagick/ImageMagick6/commit/f7d35d8ae56d7b7ea8eb70567c4fbff35839f72f)
+- Enabled OpenMP in the portable build. [`b76a842`](https://github.com/ImageMagick/ImageMagick6/commit/b76a8421ac5472c488225d530947299324a32b23)
+- enable near-lossless compression quality (https://github.com/ImageMagick/ImageMagick/discussions/6204) [`a0bd172`](https://github.com/ImageMagick/ImageMagick6/commit/a0bd1722c7e79c81b68418cafed904df673c3f34)
+- uniform copyright [`a767442`](https://github.com/ImageMagick/ImageMagick6/commit/a76744230cb2b74a8d7b1a087fbb34b7ff75e680)
+- sharper [`6ee3010`](https://github.com/ImageMagick/ImageMagick6/commit/6ee3010e880f7f7031d1c50188fc9addc1cf9e4e)
+- Only write WriteResolutionResourceBlock when dpi is set. [`d95f105`](https://github.com/ImageMagick/ImageMagick6/commit/d95f105ff4b3cd86b887c49b943a8f99a134f7cc)
+- Corrected length. [`371a75d`](https://github.com/ImageMagick/ImageMagick6/commit/371a75d3a3768813d441d03eb677100573de6858)
+- possible heap buffer overflow (https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-35q2-86c7-9247) [`e30c693`](https://github.com/ImageMagick/ImageMagick6/commit/e30c693b37c3b41723f1469d1226a2c814ca443d)
+- cosmetic [`499b59d`](https://github.com/ImageMagick/ImageMagick6/commit/499b59d046ed7860a813ef1fa6fa78ebc10952e7)
+- multiply strip size by # of samples [`b5c7565`](https://github.com/ImageMagick/ImageMagick6/commit/b5c7565f3a3aa5a50be4067b1388cbb5d1ea2800)
+- release [`0731a37`](https://github.com/ImageMagick/ImageMagick6/commit/0731a3791fc3e270abf8b9209e2402a30518db04)
+
 ## [6.9.12-83](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-82...6.9.12-83) - 2023-03-26
 
 ### Commits
