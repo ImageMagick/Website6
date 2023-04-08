@@ -745,7 +745,7 @@ symbol is no different than leaving it off.</p>
 
 <p class="magick-description">Canny edge detector uses a multi-stage algorithm to detect a wide range of edges in the image.</p>
 
-<p>The thresholds range from 0 to 100% (e.g. -canny 0x1+10%+30%) with {<var>+lower-percent</var>} &lt; {<var>+upper-percent</var>}. If {<var>+upper-percent</var>} is increased but {<var>+lower-percent</var>} remains the same, lesser edge components will be detected, but their lengths will be the same. If {<var>+lower-percent</var>} is increased but {<var>+upper-percent</var>} is the same, the same number of edge components will be detected but their lengths will be shorter. The default thresholds are shown.</p> 
+<p>The thresholds range from 0 to 100% (e.g. -canny 0x1+10%+30%) with {<var>+lower-percent</var>} &lt; {<var>+upper-percent</var>}. If {<var>+upper-percent</var>} is increased but {<var>+lower-percent</var>} remains the same, lesser edge components will be detected, but their lengths will be the same. If {<var>+lower-percent</var>} is increased but {<var>+upper-percent</var>} is the same, the same number of edge components will be detected but their lengths will be shorter. The default thresholds are shown.</p>
 <p>The <var>radius</var>{x<var>sigma</var>} controls a gaussian blur applied to the input image to reduce noise and smooth the edges.</p>
 <p>The <var>sigma</var> value is the important argument, and
 determines the actual amount of blurring that will take place. </p>
@@ -3050,7 +3050,7 @@ rendering text. If the family can be found it is used; if not, a default font
 "Courier" might be used if "System" is requested but not found). Note, the family can be a CSS-style font list.</p>
 
 <p>For other settings that affect fonts, see the options
-￼<a href="command-line-options.html#font">-font</a>, 
+￼<a href="command-line-options.html#font">-font</a>,
 ￼<a href="command-line-options.html#pointsize">-pointsize</a>,
 ￼<a href="command-line-options.html#stretch">-stretch</a>,
 ￼<a href="command-line-options.html#style">-style</a>,
@@ -5742,7 +5742,7 @@ asymmetric since they involve 3−&gt;4 and 4−&gt;3 channel mapping.
 <p>For the JPEG and MPEG image formats, quality is 1 (lowest image quality and
 highest compression) to 100 (best quality but least effective compression).
 The default is to use the estimated quality of your input image if it can
-be determined, otherwise 92. When the quality is greater than 90, then the
+be determined, otherwise 92. When the quality is 90 or greater, then the
 chroma channels are not downsampled.
 Use the <a href="#sampling-factor">-sampling-factor</a> option to specify the
 factors for chroma downsampling.</p>
@@ -6289,8 +6289,8 @@ Properties</a> in the defined value.  For example:</p>
 Old size = 70x46  New size = 35x23
 </code></pre></ul>
 
-<p>Other well known 'properties' that are available include: 
-<samp>date:timestamp</samp>, <samp>date:create</samp>, 
+<p>Other well known 'properties' that are available include:
+<samp>date:timestamp</samp>, <samp>date:create</samp>,
 <samp>date:modify</samp>, and <samp>signature</samp>. </p>
 
 
