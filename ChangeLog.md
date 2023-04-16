@@ -5,6 +5,47 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.12-85](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-84...6.9.12-85) - 2023-04-16
+
+### Commits
+
+- beta release [`62d65ad`](https://github.com/ImageMagick/ImageMagick6/commit/62d65ad5a8fab580a94d58c2b3805bd11972d2d4)
+- Minor refactoring. [`90d7179`](https://github.com/ImageMagick/ImageMagick6/commit/90d71793fb763b02bf1a5162442d554d897e442f)
+- account for extra samples [`7e4c992`](https://github.com/ImageMagick/ImageMagick6/commit/7e4c992f148afc5b28111e540921d5b6e4e38673)
+- The quantum extent should also including the pad. [`2da5520`](https://github.com/ImageMagick/ImageMagick6/commit/2da5520c7df36e719ff853ff76b2991b8fc9f46f)
+- Another improvement of calculating the size of the extent. [`49ccd7e`](https://github.com/ImageMagick/ImageMagick6/commit/49ccd7e62309dea3304a0c7ca200794e727502a2)
+- The padding is per pixel. [`e9f4c76`](https://github.com/ImageMagick/ImageMagick6/commit/e9f4c76a133e5342b8c43913d2117c5a6a2833b5)
+- use the new API when available [`1cd456a`](https://github.com/ImageMagick/ImageMagick6/commit/1cd456a8b6dc64919aaa35745afced137208d821)
+- don't cut off letters (https://github.com/ImageMagick/ImageMagick/issues/6221) [`e7ce537`](https://github.com/ImageMagick/ImageMagick6/commit/e7ce5376beafcbade74481d9dbc9bd62e7f2296c)
+- theoretically a more intuitive brighness contrast algorithm (https://github.com/ImageMagick/ImageMagick/issues/6079) [`c9bf349`](https://github.com/ImageMagick/ImageMagick6/commit/c9bf349c313aa5529d77ccaa1434b2cfd0c64ed3)
+- revert format hint (https://github.com/ImageMagick/ImageMagick/issues/6242) [`299fd34`](https://github.com/ImageMagick/ImageMagick6/commit/299fd3478d6538b42d402374e4e2add5994e4bea)
+- identify correct format [`d31945e`](https://github.com/ImageMagick/ImageMagick6/commit/d31945e81f9c7ea6569e936f41a375a693064f47)
+- revert [`3c24f8c`](https://github.com/ImageMagick/ImageMagick6/commit/3c24f8cead9ba0b7679bbf38cbd515fded23ba51)
+- eliminate black outline when clipping (https://github.com/ImageMagick/ImageMagick/discussions/6226) [`222b2e2`](https://github.com/ImageMagick/ImageMagick6/commit/222b2e2c264013a0217f4505039f0f606cde868c)
+- correct slope/intercept [`3f338bf`](https://github.com/ImageMagick/ImageMagick6/commit/3f338bf4b64275bb527fac86eb592b7c198e4911)
+- correct intercept [`3afc67e`](https://github.com/ImageMagick/ImageMagick6/commit/3afc67e742807fa80c37f7989eccc9c90408bfa7)
+- eliminate compiler warnings [`96b27b4`](https://github.com/ImageMagick/ImageMagick6/commit/96b27b47cff7f2327d25cc79881d4e92b038c405)
+- eliminate compiler warnings [`9c10890`](https://github.com/ImageMagick/ImageMagick6/commit/9c108901453f4ab38692cbbaf66b36e2d6305614)
+- release [`4814167`](https://github.com/ImageMagick/ImageMagick6/commit/4814167fd6cb5dcb08f28dd42ddc20dc9882e777)
+- release [`1938c61`](https://github.com/ImageMagick/ImageMagick6/commit/1938c614af6aa3ef9da6e8a8b1cd9cdd6f4e4c8c)
+- beta release [`93016da`](https://github.com/ImageMagick/ImageMagick6/commit/93016da12e738b82f1405ca89a39845c1dfa81b2)
+- if the image type is explicit, use the file extension if possible (https://github.com/ImageMagick/ImageMagick/issues/6242) [`cc11b8b`](https://github.com/ImageMagick/ImageMagick6/commit/cc11b8baba2ddfe4563a6acc6ee87fc327080c6a)
+- Corrected implementation of NTRegistryKeyLookup (#204). [`39f6601`](https://github.com/ImageMagick/ImageMagick6/commit/39f66010d2f122ce9aff725b0633c1519394a735)
+- add additional checks for casting double to size_t [`ca4b4c6`](https://github.com/ImageMagick/ImageMagick6/commit/ca4b4c6d3471ad2d19ccdf12a7380f0628e3ce77)
+- eliminate compiler warnings [`3d18ead`](https://github.com/ImageMagick/ImageMagick6/commit/3d18ead196f19ba71c78080bcae1b9f41aa387c9)
+- identify z component of chromaticity [`ba3c9fb`](https://github.com/ImageMagick/ImageMagick6/commit/ba3c9fb3d22fe0eed29a89cd8e72fbafd4cff444)
+- Refactor code to make it more readable. [`132deb9`](https://github.com/ImageMagick/ImageMagick6/commit/132deb9175c6dd09b6753789a876eaf695d3e688)
+- Also skip writing the exif/tiff resolution properties when the pHYs chunk is written. [`b5b3c7c`](https://github.com/ImageMagick/ImageMagick6/commit/b5b3c7c77d83977b54c966dbccc0ac0730f08f94)
+- improved range checking [`0b8553c`](https://github.com/ImageMagick/ImageMagick6/commit/0b8553cd2042438dde215c7e8cd21e1d7307f813)
+- Fixed various build errors. [`da8c0b2`](https://github.com/ImageMagick/ImageMagick6/commit/da8c0b219c5fcec572613e85489bac227dcb59fe)
+- eliminate compiler exception [`6d61aca`](https://github.com/ImageMagick/ImageMagick6/commit/6d61acac835ba52ecb8d40f7f04f82226a3cacaf)
+- separate raqm from complete text layout [`d60b32f`](https://github.com/ImageMagick/ImageMagick6/commit/d60b32fb82fdd59f92df484a7482636688943272)
+- eliminate compiler exception [`e93132a`](https://github.com/ImageMagick/ImageMagick6/commit/e93132a43794fc937545b609fcf48c7e3c04a5fd)
+- detect presence of alpha channel [`d49d6b2`](https://github.com/ImageMagick/ImageMagick6/commit/d49d6b227a128aa0f9b4b0f2e2c697d44ac6dc65)
+- Fixed build. [`e59f2b3`](https://github.com/ImageMagick/ImageMagick6/commit/e59f2b3d07330357774dd86ef46e79cbe2afeaae)
+- round crop width properly [`3a5e31d`](https://github.com/ImageMagick/ImageMagick6/commit/3a5e31d8906183ce74486456dda4f9eb8e0da4d0)
+- release [`b73b185`](https://github.com/ImageMagick/ImageMagick6/commit/b73b18581307485066dbe58861f211422b2c3223)
+
 ## [6.9.12-84](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-83...6.9.12-84) - 2023-04-02
 
 ### Commits
