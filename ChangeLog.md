@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.12-86](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-85...6.9.12-86) - 2023-04-22
+
+### Commits
+
+- beta release [`d056e7d`](https://github.com/ImageMagick/ImageMagick6/commit/d056e7de327c4a64fe257bb1dda182c37ea63366)
+- Added checks to make sure all bytes were read. [`fa048a3`](https://github.com/ImageMagick/ImageMagick6/commit/fa048a347a447d075e3904214dcce80c781a496a)
+- correct divisor [`55c5bfb`](https://github.com/ImageMagick/ImageMagick6/commit/55c5bfbb06d7e4cca3dde9440fa4291dfe4be3de)
+- validate pixel offset [`24ed664`](https://github.com/ImageMagick/ImageMagick6/commit/24ed66478cfa009d62032934d562764ff02d76e1)
+- release [`984daa2`](https://github.com/ImageMagick/ImageMagick6/commit/984daa26d4a022697d402b0f8aa58ab32453d745)
+
 ## [6.9.12-85](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-84...6.9.12-85) - 2023-04-16
 
 ### Commits
