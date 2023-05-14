@@ -5,6 +5,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.12-87](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-86...6.9.12-87) - 2023-05-14
+
+### Commits
+
+- beta release [`f9db3e3`](https://github.com/ImageMagick/ImageMagick6/commit/f9db3e392f69a7c14218296d98dbd016b2892eb8)
+- check for stdint.h header file [`ed8b9da`](https://github.com/ImageMagick/ImageMagick6/commit/ed8b9da26070f2a09625859a2d50d3708afc428f)
+- get the width of the main channel [`6c3b244`](https://github.com/ImageMagick/ImageMagick6/commit/6c3b2446f77a926ac606df4870b402059a4b8ce5)
+- revert [`bc907f8`](https://github.com/ImageMagick/ImageMagick6/commit/bc907f8755faa344db07fbfff4a8fdf1f54bf838)
+- sync with IMv7 [`89c4e96`](https://github.com/ImageMagick/ImageMagick6/commit/89c4e963f1ff3d02d61fffd80195664e54d1fd83)
+- log gamma [`80accea`](https://github.com/ImageMagick/ImageMagick6/commit/80acceae72c965af44f60f17df84f0d5c1fd4bbd)
+- don't default grayscale to paletted for PNG (https://github.com/ImageMagick/ImageMagick/issues/6314) [`5535e1e`](https://github.com/ImageMagick/ImageMagick6/commit/5535e1ed8ecde5ca013ed042d3c311ed5d49e261)
+- release [`53fdc5d`](https://github.com/ImageMagick/ImageMagick6/commit/53fdc5d388180492ea8bd5b5ff013e414354db18)
+
 ## [6.9.12-86](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-85...6.9.12-86) - 2023-04-22
 
 ### Commits
