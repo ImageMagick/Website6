@@ -5,6 +5,22 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.12-88](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-87...6.9.12-88) - 2023-05-21
+
+### Commits
+
+- ... [`c3da0e4`](https://github.com/ImageMagick/ImageMagick6/commit/c3da0e40d175ce9095ead9db1edbf6409bc3b3b7)
+- Use same logic as in ImageMagick 7. [`0ca10a1`](https://github.com/ImageMagick/ImageMagick6/commit/0ca10a14ffcab82492708a4499d701afd8dd36a6)
+- Mark argument as unused. [`3c16610`](https://github.com/ImageMagick/ImageMagick6/commit/3c166104de810dd1c83febdffd179f05f9c57406)
+- possible RCE vulnerability (https://github.com/ImageMagick/ImageMagick/issues/6339) [`58bef03`](https://github.com/ImageMagick/ImageMagick6/commit/58bef0396a04e07aad650d1416af6b4e11da5740)
+- properly cast double to size_t (https://github.com/ImageMagick/ImageMagick/issues/6341) [`133089f`](https://github.com/ImageMagick/ImageMagick6/commit/133089f716f23ce0b80d89ccc1fd680960235512)
+- Fixed MYS2 build error. [`aa6d348`](https://github.com/ImageMagick/ImageMagick6/commit/aa6d34879f61543a46ff3736e08b61fc0b7d6f73)
+- Reverted the patch of https://github.com/ImageMagick/ImageMagick/issues/6339. [`43daec8`](https://github.com/ImageMagick/ImageMagick6/commit/43daec8ed100cd68d4bf257721373a6473456391)
+- add caution when enabling pipe support [`2a7b804`](https://github.com/ImageMagick/ImageMagick6/commit/2a7b80480e785626ecaae699eb21b6629a8a3131)
+- bump beta version [`ccc6c03`](https://github.com/ImageMagick/ImageMagick6/commit/ccc6c0350cb8181e43cb6dca7176656bac92b707)
+- conditional compile [`6fc3046`](https://github.com/ImageMagick/ImageMagick6/commit/6fc3046df7faacefb25f7a238982c62849640416)
+- release [`e3e0b52`](https://github.com/ImageMagick/ImageMagick6/commit/e3e0b52cc0790c88525b36bae3f9404b2a11d37f)
+
 ## [6.9.12-87](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-86...6.9.12-87) - 2023-05-14
 
 ### Commits
