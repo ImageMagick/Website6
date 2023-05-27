@@ -462,6 +462,21 @@ use:</p>
     -metric phash. (as of IM 7.0.3-8)</td>
   </tr>
 
+   <tr>
+    <td>pixel:compliance=<var>value</var></td>
+     <td>Set the "pixel:" output format according to several standards.
+     The choices are SVG, None, Undefined, MVG, X11, XPM. The default
+     list values for (s)RGB colors in the form of (s)rgb(r,g,b) or 
+     (s)rgba(r,g,b,a). Color names will no longer be presented. For sRGB or 
+     RGB colors, the SVG, X11, XPM and None options lists color names, 
+     if they exist. The MVG and Undefined options list hex values. When 
+     colors are presented or converted to hue-based colorspaces, the values 
+     listed will be integers for hue and percents for the other two components. 
+     For other colorspaces, values may be listed as either percents or 
+     fractional value. Setting the depth to 8 will limit values to the 8-bit 
+     range, except for hue-based colors.</td>
+   </tr>
+
   <tr>
     <td>profile:skip=<var>name1,name2,...</var></td>
      <td>Skip the named profile[s] when reading the image. Use skip="*" to
@@ -1324,20 +1339,6 @@ use:</p>
      <td></td>
    </tr>
 
-   <tr>
-    <td>pixel:compliance=<var>value</var></td>
-     <td>Set the "pixel:" output format according to several standards.
-     The choices are SVG, None, Undefined, MVG, X11, XPM. The default
-     list values for (s)RGB colors in the form of (s)rgb(r,g,b) or 
-     (s)rgba(r,g,b,a). Color names will no longer be presented. For sRGB or 
-     RGB colors, the SVG, X11, XPM and None options lists color names, 
-     if they exist. The MVG and Undefined options list hex values. When 
-     colors are presented or converted to hue-based colorspaces, the values 
-     listed will be integers for hue and percents for the other two components. 
-     For other colorspaces, values may be listed as either percents or 
-     fractional value. Setting the depth to 8 will limit values to the 8-bit 
-     range, except for hue-based colors.</td>
-   </tr>
 
     <tr>
     <td>txt:compliance=<var>value</var></td>
