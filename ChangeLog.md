@@ -5,6 +5,28 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.12-89](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-88...6.9.12-89) - 2023-05-29
+
+### Commits
+
+- beta release [`953059b`](https://github.com/ImageMagick/ImageMagick6/commit/953059bfa3cc5ce54776fca0c962fc0038905cde)
+- list compression options [`f0d85cb`](https://github.com/ImageMagick/ImageMagick6/commit/f0d85cb32442e27f180ad68b3576c31c5259a5c6)
+- cosmetic [`38310e5`](https://github.com/ImageMagick/ImageMagick6/commit/38310e52a6982007bf4c7437ba8c8bc19742c0f0)
+- ensure mutex is initialized [`af762be`](https://github.com/ImageMagick/ImageMagick6/commit/af762beb0ff0b3be87c6430ef14defc0afdfec2b)
+- cosmetic [`bde668c`](https://github.com/ImageMagick/ImageMagick6/commit/bde668ca709e61d18cb6804022df65db05fbbd16)
+- cosmetic [`457e5d8`](https://github.com/ImageMagick/ImageMagick6/commit/457e5d8739fe426ef7c3f0f2cfca2579ca595f74)
+- eliminate compiler exception [`3222b97`](https://github.com/ImageMagick/ImageMagick6/commit/3222b978477d12925ceea6bef7c4bc1ec550a19d)
+- eliminate compiler exception [`6982a64`](https://github.com/ImageMagick/ImageMagick6/commit/6982a644cb0a467f7bf5894a1c904bbf717a3355)
+- make sure count is not equal to zero when reading TIFF fields [`eb20263`](https://github.com/ImageMagick/ImageMagick6/commit/eb202635e1c5aa756a567fc6cc560fdfbe270738)
+- check colorspace before setting primaries [`bd040a0`](https://github.com/ImageMagick/ImageMagick6/commit/bd040a0b05612d380834b609092340764431b297)
+- eliminate compiler exception [`9331fb3`](https://github.com/ImageMagick/ImageMagick6/commit/9331fb303ea8cf7c8278100d62c4ba598c4be184)
+- eliminate compiler warning [`af6e090`](https://github.com/ImageMagick/ImageMagick6/commit/af6e090bafa6ce8fc6eca65b486f7de3746aca19)
+- inherit exception (https://github.com/ImageMagick/ImageMagick6/issues/239) [`8018a11`](https://github.com/ImageMagick/ImageMagick6/commit/8018a11bee53ce6737dd863279be67f7d713bb96)
+- Cosmetic. [`a130dbc`](https://github.com/ImageMagick/ImageMagick6/commit/a130dbcc4748f818b16f4f16f62ba5174afe6f5d)
+- more robust implementation of video decoding/encoding [`8fdb81b`](https://github.com/ImageMagick/ImageMagick6/commit/8fdb81b3c551a37f41a6370fe7d1634406eb1cef)
+- prevent possible integer overflow [`044a31a`](https://github.com/ImageMagick/ImageMagick6/commit/044a31ae75b08669c585ad0268d10af71697c281)
+- release [`a8cd2a3`](https://github.com/ImageMagick/ImageMagick6/commit/a8cd2a3216ae889b52e26db825ca1bae022bd6d0)
+
 ## [6.9.12-88](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-87...6.9.12-88) - 2023-05-21
 
 ### Commits
