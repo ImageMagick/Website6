@@ -1117,6 +1117,11 @@ use:</p>
     </td>
   </tr>
 
+ <tr>
+    <td>ptif:pyramid=<var>min-base</var>x<var>levels</var></td>
+    <td>Specify the min-base and number of levels of the pyramid, e.g., 64x4.</td>
+  </tr>
+
   <tr>
     <td>svg:xml-parse-huge=<var>true</var></td>
     <td>Enable rendering of a very large SVG for which you trust the source</td>
