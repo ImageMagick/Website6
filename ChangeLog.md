@@ -5,6 +5,34 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.12-90](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-89...6.9.12-90) - 2023-06-25
+
+### Merged
+
+- Fix the max memory request initial value in memory.c and comparison in jpeg.c [`#251`](https://github.com/ImageMagick/ImageMagick6/pull/251)
+
+### Fixed
+
+- Also check image-&gt;exception to resolve #213. [`#213`](https://github.com/ImageMagick/ImageMagick6/issues/213)
+
+### Commits
+
+- beta release [`81042af`](https://github.com/ImageMagick/ImageMagick6/commit/81042afd7ba3f966611afd9911e1256c27835d26)
+- default colorspace is xyY and HSB [`f784d2b`](https://github.com/ImageMagick/ImageMagick6/commit/f784d2be2675033e7358ad9d303c1a689390ff0f)
+- check geometry boundaries [`fa0461e`](https://github.com/ImageMagick/ImageMagick6/commit/fa0461e2ba87f5977ee6fe0665f8050dd9b27071)
+- eliminate uninitalized value [`9385e02`](https://github.com/ImageMagick/ImageMagick6/commit/9385e025cbbac19ad817b40d8a378ce1f423e7d2)
+- reject invalid BMP image @ https://github.com/ImageMagick/ImageMagick/issues/6393 [`55cc408`](https://github.com/ImageMagick/ImageMagick6/commit/55cc4083f3728d55251f1f44a9277c39c4044f77)
+- support -define ptif:pyramid define [`a9a8770`](https://github.com/ImageMagick/ImageMagick6/commit/a9a87701f1cb8a5fbdd24ce2b67808932589c04b)
+- https://github.com/ImageMagick/ImageMagick/discussions/6399 [`9a1713e`](https://github.com/ImageMagick/ImageMagick6/commit/9a1713ea565cc6d2ea8c8c424d3035aa3ed5652e)
+- move OMP inside conditional [`e8ec2d8`](https://github.com/ImageMagick/ImageMagick6/commit/e8ec2d86c8c94049e17c32d3ebe6ca1324e047d5)
+- fix build issue [`d0fe016`](https://github.com/ImageMagick/ImageMagick6/commit/d0fe016ae708398c339910702872583814888744)
+- ... [`9321dd0`](https://github.com/ImageMagick/ImageMagick6/commit/9321dd04436e08a2a4f9efb7de367fb2aacf9f63)
+- check the precision of the alpha channel [`2b67c3f`](https://github.com/ImageMagick/ImageMagick6/commit/2b67c3f87d7c55b4a1dd42cc7b317d535ed0a561)
+- use the correct macro instead [`06c822f`](https://github.com/ImageMagick/ImageMagick6/commit/06c822fcf3b49974f003ef297ffe48b47423a1b9)
+- Turns out we already get the include from studio.h. [`cf7e12f`](https://github.com/ImageMagick/ImageMagick6/commit/cf7e12f447205ad6e2672ac5f69768c0529f9e24)
+- Added missing check to test if the blob could be opened. [`708fd6a`](https://github.com/ImageMagick/ImageMagick6/commit/708fd6aa317128f19e440cb467f2271a854e680d)
+- release [`d17abf5`](https://github.com/ImageMagick/ImageMagick6/commit/d17abf5099358516b1a1c8175a329559518a2f76)
+
 ## [6.9.12-89](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-88...6.9.12-89) - 2023-05-29
 
 ### Commits
