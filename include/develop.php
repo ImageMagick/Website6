@@ -107,7 +107,7 @@
 
 <dt class="col-md-4"><a class="anchor" id="tcl"></a>Tcl/Tk</dt>
 
-<dd class="col-md-8"><a href="http://tclmagick.sourceforge.net/">TclMagick</a> a native Tcl-extension to the ImageMagick MagickWand API.</dd>
+<dd class="col-md-8"><a href="https://imagemagick.org/archive/tcl">TclMagick</a> a native Tcl-extension to the ImageMagick MagickWand API.</dd>
 
   <dt class="col-md-4"><a class="anchor" id="xml-rpc"></a>XML RPC</dt>
 
