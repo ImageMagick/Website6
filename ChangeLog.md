@@ -5,6 +5,28 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.12-91](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-90...6.9.12-91) - 2023-07-16
+
+### Commits
+
+- beta release [`dbc3926`](https://github.com/ImageMagick/ImageMagick6/commit/dbc3926185b9b5481bdfeda2f8e0924f3efd162f)
+- heap-buffer-overflow in ImageMagick &lt;= 7.1.1-12, contributed by Hardik shah of Vehere (Dawn Treaders team) [`0d00400`](https://github.com/ImageMagick/ImageMagick6/commit/0d00400727170b0540a355a1bc52787bc7bcdea5)
+- correct type of return value for TIFFReadTile and added more checks [`5c03062`](https://github.com/ImageMagick/ImageMagick6/commit/5c0306243f6b5d42951b1312eed4ec4edda9670d)
+- memory library with reduced synchronization overhead [`923cfee`](https://github.com/ImageMagick/ImageMagick6/commit/923cfeeab2e5820101fc4d8fe2f20e7174a3f5f6)
+- correct declarations [`96526d1`](https://github.com/ImageMagick/ImageMagick6/commit/96526d1bdaf86861de969fae2a1c0a49a6c7a58a)
+- cosmetic [`00125d2`](https://github.com/ImageMagick/ImageMagick6/commit/00125d225f1deac3c51f8cb57cdb157e27d1e2ed)
+- check for insufficient image data in file [`b9eeb1a`](https://github.com/ImageMagick/ImageMagick6/commit/b9eeb1aa064f1a0587183d336185ea815f0759e9)
+- silence unsigned overflow [`76c262f`](https://github.com/ImageMagick/ImageMagick6/commit/76c262f132eeb00c080f555dfd40a22a415a791d)
+- https://github.com/ImageMagick/ImageMagick/issues/6476 [`04d7e66`](https://github.com/ImageMagick/ImageMagick6/commit/04d7e669ceebbc7b04ad820446a355e7ceada189)
+- preferred unwinding order [`aa47fa5`](https://github.com/ImageMagick/ImageMagick6/commit/aa47fa5c546d8f5023d15e4419c87b24d2eb17ae)
+- Change the default devcontainer to a security container. [`068a78c`](https://github.com/ImageMagick/ImageMagick6/commit/068a78ce96890a4d09b9d1f817fd809b08462712)
+- Fix Dockerfile. [`a9f0a19`](https://github.com/ImageMagick/ImageMagick6/commit/a9f0a1961fd86512ee824d0bdeabc4915deb1697)
+- Corrected paths. [`078be2e`](https://github.com/ImageMagick/ImageMagick6/commit/078be2ef8ec1fec26cd2eda157cf601c0bc530bd)
+- Corrected flags and improved Dockerfile. [`cd16a44`](https://github.com/ImageMagick/ImageMagick6/commit/cd16a443b0418a41b5a3611cece12b9d5c7cf6e7)
+- Fixed memory leak. [`c90e79b`](https://github.com/ImageMagick/ImageMagick6/commit/c90e79b3b22fec309cab55af2ee606f71b027b12)
+- Fixed possible memory leak. [`24a88a9`](https://github.com/ImageMagick/ImageMagick6/commit/24a88a922df011830dde8329825b6ded73209db8)
+- release [`3d0f45a`](https://github.com/ImageMagick/ImageMagick6/commit/3d0f45a2af79d483aae3beab9b3be2401064ba5a)
+
 ## [6.9.12-90](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-89...6.9.12-90) - 2023-06-25
 
 ### Merged
@@ -32,6 +54,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Turns out we already get the include from studio.h. [`cf7e12f`](https://github.com/ImageMagick/ImageMagick6/commit/cf7e12f447205ad6e2672ac5f69768c0529f9e24)
 - Added missing check to test if the blob could be opened. [`708fd6a`](https://github.com/ImageMagick/ImageMagick6/commit/708fd6aa317128f19e440cb467f2271a854e680d)
 - release [`d17abf5`](https://github.com/ImageMagick/ImageMagick6/commit/d17abf5099358516b1a1c8175a329559518a2f76)
+- release [`f52c160`](https://github.com/ImageMagick/ImageMagick6/commit/f52c16075e8397f81f6cdaa402e387a68e939fcb)
 
 ## [6.9.12-89](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-88...6.9.12-89) - 2023-05-29
 
