@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.12-92](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-91...6.9.12-92) - 2023-07-22
+
+### Commits
+
+- beta release [`eaef997`](https://github.com/ImageMagick/ImageMagick6/commit/eaef997c19e71231fa20a4066392d56534779253)
+- support abbreviations for RTL and LTR text direction [`9bcc50e`](https://github.com/ImageMagick/ImageMagick6/commit/9bcc50e2a4dee3f943aed78eab21a58fc79cf1e8)
+- note y_advance, implement top-to-bottom in the future [`6342c58`](https://github.com/ImageMagick/ImageMagick6/commit/6342c585c9425f223cddda0c169cf96a94668ec8)
+- prep for top-to-bottom rendering of text [`01dc6b6`](https://github.com/ImageMagick/ImageMagick6/commit/01dc6b6d339039816d004215125508942f90c26f)
+- check for possible IPTC overrun [`1ecea5c`](https://github.com/ImageMagick/ImageMagick6/commit/1ecea5c3524af3cef6c5d806861076be67be3f75)
+- release [`021f572`](https://github.com/ImageMagick/ImageMagick6/commit/021f572822c980405862bf56ff10d0959b9fef88)
+
 ## [6.9.12-91](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-90...6.9.12-91) - 2023-07-16
 
 ### Commits
