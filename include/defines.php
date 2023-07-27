@@ -1123,13 +1123,13 @@ use:</p>
   </tr>
 
   <tr>
-    <td>svg:xml-substitute-entities=<var>true</var></td>
-    <td>Enable entity substitution if you trust the source.</td>
+    <td>svg:parse-huge=<var>true</var></td>
+    <td>Enable rendering of a very large SVG for which you trust the source</td>
   </tr>
 
   <tr>
-    <td>svg:xml-parse-huge=<var>true</var></td>
-    <td>Enable rendering of a very large SVG for which you trust the source</td>
+    <td>svg:substitute-entities=<var>true</var></td>
+    <td>Enable entity substitution if you trust the source.</td>
   </tr>
 
   <tr>
