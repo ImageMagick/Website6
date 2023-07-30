@@ -5,6 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.12-93](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-92...6.9.12-93) - 2023-07-30
+
+### Commits
+
+- beta release [`b913dba`](https://github.com/ImageMagick/ImageMagick6/commit/b913dba39bbb1ee3bf99dca071fcb53c2930c4a3)
+- enable entitiy substitution per local parser (https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-v9p9-6pmh-r6rm) [`803444a`](https://github.com/ImageMagick/ImageMagick6/commit/803444acd3b0c0ca35201a9933fe2a9970b05bd6)
+- The -fx option, no long applied twice (https://github.com/ImageMagick/ImageMagick/discussions/6518) [`30e149b`](https://github.com/ImageMagick/ImageMagick6/commit/30e149b6b9799302b34ac25ed20f52f35936997d)
+- eliminate possible integer overflow [`d1ec14b`](https://github.com/ImageMagick/ImageMagick6/commit/d1ec14b9abc6d942cb18009e85f78548443094ab)
+- post any potential vulnerabilities as a security advisory [`bdb25b9`](https://github.com/ImageMagick/ImageMagick6/commit/bdb25b97dee68b937add3bfe1db16d225aa55503)
+- check for valid bits-per-pixel [`246fc38`](https://github.com/ImageMagick/ImageMagick6/commit/246fc3810ae38dcae88ff64a9538a65dd23b9936)
+- release [`201ff6d`](https://github.com/ImageMagick/ImageMagick6/commit/201ff6df4d28c0035e5d280c25910afb60593579)
+
 ## [6.9.12-92](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-91...6.9.12-92) - 2023-07-22
 
 ### Commits
