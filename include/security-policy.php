@@ -26,7 +26,7 @@
   &lt;policy domain="path" rights="none" pattern="/etc/*"/>  &lt;!-- don't read sensitive paths -->
   &lt;policy domain="path" rights="none" pattern="@*"/>  &lt;!-- indirect reads not permitted -->
   &lt;policy domain="module" rights="none" pattern="URL" />
-  &lt;policy domain="coder" rights="write" pattern="{MSVG,MVG,PS,PDF,RSVG,SVG,XPS}" />
+  &lt;policy domain="coder" rights="write" pattern="{MSL,MSVG,MVG,PS,PDF,RSVG,SVG,XPS}" />
   &lt;policy domain="cache" name="memory-map" value="anonymous"/>
   &lt;policy domain="cache" name="synchronize" value="true"/>
   &lt;policy domain="cache" name="shared-secret" value="<em>passphrase</em>" stealth="True"/>
