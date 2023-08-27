@@ -238,36 +238,160 @@ Resource limits:
 </sampl></pre>
 
 <p>You can set these limits either as a <a href="<?php echo $_SESSION['RelativePath']?>/../script/security-policy.php">security policy</a> (see <a href="<?php echo $_SESSION['RelativePath']?>/../source/policy.xml">policy.xml</a>), with an <a href="<?php echo $_SESSION['RelativePath']?>/../script/resources.php#environment">environment variable</a>, with the <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#limit">-limit</a> command line option, or with the <a href="<?php echo $_SESSION['RelativePath']?>/../api/resource.php#SetMagickResourceLimit">SetMagickResourceLimit()</a> MagickCore API method. As an example, our online web interface to ImageMagick, <a href="https://imagemagick.org/MagickStudio/scripts/MagickStudio.cgi">ImageMagick Studio</a>, includes these policy limits to help prevent a denial-of-service:</p>
-<pre class="bg-light text-dark mx-4"><code>&lt;policymap>
-  &lt;!-- temporary path must be a preexisting writable directory -->
-  &lt;policy domain="resource" name="temporary-path" value="/tmp"/>
-  &lt;policy domain="resource" name="memory" value="256MiB"/>
-  &lt;policy domain="resource" name="map" value="512MiB"/>
-  &lt;policy domain="resource" name="width" value="8KP"/>
-  &lt;policy domain="resource" name="height" value="8KP"/>
-  &lt;policy domain="resource" name="area" value="16KP"/>
-  &lt;policy domain="resource" name="disk" value="1GiB"/>
-  &lt;policy domain="resource" name="file" value="768"/>
-  &lt;policy domain="resource" name="thread" value="2"/>
-  &lt;policy domain="resource" name="throttle" value="0"/>
-  &lt;policy domain="resource" name="time" value="120"/>
-  &lt;policy domain="resource" name="list-length" value="128"/>
-  &lt;policy domain="system" name="precision" value="6"/>
-  &lt;policy domain="cache" name="shared-secret" stealth="true" value="replace with your secret phrase"/>
-  &lt;policy domain="coder" rights="none" pattern="MVG" />
-  &lt;policy domain="coder" rights="none" pattern="EPS" />
-  &lt;policy domain="coder" rights="none" pattern="PS" />
-  &lt;policy domain="coder" rights="none" pattern="PS2" />
-  &lt;policy domain="coder" rights="none" pattern="PS3" />
-  &lt;policy domain="coder" rights="none" pattern="PDF" />
-  &lt;policy domain="coder" rights="none" pattern="XPS" />
-  &lt;policy domain="filter" rights="none" pattern="*" />
-  &lt;policy domain="delegate" rights="none" pattern="HTTPS" />  <!--  prevent 'curl' program from reading HTTPS URL's -->
-  &lt;policy domain="delegate" rights="none" pattern="SHOW" />
-  &lt;policy domain="delegate" rights="none" pattern="WIN" />
-  &lt;policy domain="path" rights="none" pattern="@*"/>  <!-- indirect reads not permitted -->
-&lt;/policymap>
-</code></pre>
+<pre class="bg-light text-dark mx-4"><code>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE policymap [
+&lt;!ELEMENT policymap (policy)*>
+&lt;!ATTLIST policymap xmlns CDATA #FIXED "">
+&lt;!ELEMENT policy EMPTY>
+&lt;!ATTLIST policy xmlns CDATA #FIXED "">
+&lt;!ATTLIST policy domain NMTOKEN #REQUIRED>
+&lt;!ATTLIST policy name NMTOKEN #IMPLIED>
+&lt;!ATTLIST policy pattern CDATA #IMPLIED>
+&lt;!ATTLIST policy rights NMTOKEN #IMPLIED>
+&lt;!ATTLIST policy stealth NMTOKEN #IMPLIED>
+&lt;!ATTLIST policy value CDATA #IMPLIED>
+]>
+&lt;!--
+  Creating a security policy that fits your specific local environment
+  before making use of ImageMagick is highly advised. You can find guidance on
+  setting up this policy at https://imagemagick.org/script/security-policy.php,
+  and it's important to verify your policy using the validation tool located
+  at https://imagemagick-secevaluator.doyensec.com/.
+
+
+  Open ImageMagick security policy:
+
+  The default policy for ImageMagick installations is the open security
+  policy. This policy is designed for usage in secure settings like those
+  protected by firewalls or within Docker containers. Within this framework,
+  ImageMagick enjoys broad access to resources and functionalities. This policy
+  provides convenient and adaptable options for image manipulation. However,
+  it's important to note that it might present security vulnerabilities in
+  less regulated conditions. Thus, organizations should thoroughly assess
+  the appropriateness of the open policy according to their particular use
+  case and security prerequisites.
+
+  ImageMagick security policies in a nutshell:
+
+  Domains include system, delegate, coder, filter, path, or resource.
+
+  Rights include none, read, write, execute and all.  Use | to combine them,
+  for example: "read | write" to permit read from, or write to, a path.
+
+  Use a glob expression as a pattern.
+
+  Suppose we do not want users to process MPEG video images, use this policy:
+
+    &lt;policy domain="delegate" rights="none" pattern="mpeg:decode" />
+
+  Here we do not want users reading images from HTTP:
+
+    &lt;policy domain="coder" rights="none" pattern="HTTP" />
+
+  The /repository file system is restricted to read only.  We use a glob
+  expression to match all paths that start with /repository:
+
+    &lt;policy domain="path" rights="read" pattern="/repository/*" />
+
+  Prevent users from executing any image filters:
+
+    &lt;policy domain="filter" rights="none" pattern="*" />
+
+  Cache large images to disk rather than memory:
+
+    &lt;policy domain="resource" name="area" value="1GP"/>
+
+  Use the default system font unless overridden by the application:
+
+    &lt;policy domain="system" name="font" value="/usr/share/fonts/favorite.ttf"/>
+
+  Define arguments for the memory, map, area, width, height and disk resources
+  with SI prefixes (.e.g 100MB).  In addition, resource policies are maximums
+  for each instance of ImageMagick (e.g. policy memory limit 1GB, -limit 2GB
+  exceeds policy maximum so memory limit is 1GB).
+
+  Rules are processed in order.  Here we want to restrict ImageMagick to only
+  read or write a small subset of proven web-safe image types:
+
+    &lt;policy domain="delegate" rights="none" pattern="*" />
+    &lt;policy domain="filter" rights="none" pattern="*" />
+    &lt;policy domain="coder" rights="none" pattern="*" />
+    &lt;policy domain="coder" rights="read|write" pattern="{GIF,JPEG,PNG,WEBP}" />
+
+  See https://imagemagick.org/script/security-policy.php for a deeper
+  understanding of ImageMagick security policies.
+-->
+&lt;policymap>
+  &lt;policy domain="Undefined" rights="none"/>
+  &lt;!-- Set maximum parallel threads. -->
+  &lt;!-- <policy domain="resource" name="thread" value="2"/> -->
+  &lt;!-- Set maximum time in seconds. When this limit is exceeded, an exception
+       is thrown and processing stops. -->
+  &lt;!-- <policy domain="resource" name="time" value="120"/> -->
+  &lt;!-- Set maximum number of open pixel cache files. When this limit is
+       exceeded, any subsequent pixels cached to disk are closed and reopened
+       on demand. -->
+  &lt;!-- <policy domain="resource" name="file" value="768"/> -->
+  &lt;!-- Set maximum amount of memory in bytes to allocate for the pixel cache
+       from the heap. When this limit is exceeded, the image pixels are cached
+       to memory-mapped disk. -->
+  &lt;!-- <policy domain="resource" name="memory" value="256MiB"/> -->
+  &lt;!-- Set maximum amount of memory map in bytes to allocate for the pixel
+       cache. When this limit is exceeded, the image pixels are cached to
+       disk. -->
+  &lt;!-- <policy domain="resource" name="map" value="512MiB"/> -->
+  &lt;!-- Set the maximum width * height of an image that can reside in the pixel
+       cache memory. Images that exceed the area limit are cached to disk. -->
+  &lt;!-- <policy domain="resource" name="area" value="16KP"/> -->
+  &lt;!-- Set maximum amount of disk space in bytes permitted for use by the pixel
+       cache. When this limit is exceeded, the pixel cache is not be created
+       and an exception is thrown. -->
+  &lt;!-- <policy domain="resource" name="disk" value="1GiB"/> -->
+  &lt;!-- Set the maximum length of an image sequence.  When this limit is
+       exceeded, an exception is thrown. -->
+  &lt;!-- <policy domain="resource" name="list-length" value="32"/> -->
+  &lt;!-- Set the maximum width of an image.  When this limit is exceeded, an
+       exception is thrown. -->
+  &lt;!-- <policy domain="resource" name="width" value="8KP"/> -->
+  &lt;!-- Set the maximum height of an image.  When this limit is exceeded, an
+       exception is thrown. -->
+  &lt;!-- <policy domain="resource" name="height" value="8KP"/> -->
+  &lt;!-- Periodically yield the CPU for at least the time specified in
+       milliseconds. -->
+  &lt;!-- <policy domain="resource" name="throttle" value="2"/> -->
+  &lt;!-- Do not create temporary files in the default shared directories, instead
+       specify a private area to store only ImageMagick temporary files. -->
+  &lt;!-- <policy domain="resource" name="temporary-path" value="/magick/tmp"/> -->
+  &lt;!-- Force memory initialization by memory mapping select memory
+       allocations. -->
+  &lt;!-- <policy domain="cache" name="memory-map" value="anonymous"/> -->
+  &lt;!-- Ensure all image data is fully flushed and synchronized to disk. -->
+  &lt;!-- <policy domain="cache" name="synchronize" value="true"/> -->
+  &lt;!-- Replace passphrase for secure distributed processing -->
+  &lt;!-- <policy domain="cache" name="shared-secret" value="secret-passphrase" stealth="true"/> -->
+  &lt;!-- Do not permit any delegates to execute. -->
+  &lt;!-- <policy domain="delegate" rights="none" pattern="*"/> -->
+  &lt;!-- Do not permit any image filters to load. -->
+  &lt;!-- <policy domain="filter" rights="none" pattern="*"/> -->
+  &lt;!-- Don't read/write from/to stdin/stdout. -->
+  &lt;!-- <policy domain="path" rights="none" pattern="-"/> -->
+  &lt;!-- don't read sensitive paths. -->
+  &lt;!-- <policy domain="path" rights="none" pattern="/etc/*"/> -->
+  &lt;!-- Indirect reads are not permitted. -->
+  &lt;!-- <policy domain="path" rights="none" pattern="@*"/> -->
+  &lt;!-- These image types are security risks on read, but write is fine -->
+  &lt;!-- <policy domain="module" rights="write" pattern="{MSL,MVG,PS,SVG,URL,XPS}"/> -->
+  &lt;!-- This policy sets the number of times to replace content of certain
+       memory buffers and temporary files before they are freed or deleted. -->
+  &lt;!-- <policy domain="system" name="shred" value="1"/> -->
+  &lt;!-- Enable the initialization of buffers with zeros, resulting in a minor
+       performance penalty but with improved security. -->
+  &lt;!-- <policy domain="system" name="memory-map" value="anonymous"/> -->
+  &lt;!-- Set the maximum amount of memory in bytes that is permitted for
+       allocation requests. -->
+  &lt;!-- <policy domain="system" name="max-memory-request" value="256MiB"/> -->
+&lt;/policymap></code></pre>
+
 <p>Since we process multiple simultaneous sessions, we don't want any one session consuming all the available memory.With this policy, large images are cached to disk. If the image is too large and exceeds the pixel cache disk limit, the program exits. In addition, we place a time limit to prevent any run-away processing tasks. If any one image has a width or height that exceeds 8192 pixels, an exception is thrown and processing stops. As of ImageMagick 6.9.4-2, you can prevent the use of any delegate or all delegates (set the pattern to "*"). Note, prior to this release, use a domain of "coder" to prevent delegate usage (e.g. domain="coder" rights="none" pattern="HTTPS"). The policy also prevents indirect reads.  If you want to, for example, read text from a file (e.g. caption:@myCaption.txt), you'll need to remove this policy.</p>
 
 <p>Note, the cache limits are global to each invocation of ImageMagick, meaning if you create several images, the combined resource requirements are compared to the limit to determine the pixel cache storage disposition.</p>
