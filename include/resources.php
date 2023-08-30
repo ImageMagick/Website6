@@ -294,6 +294,6 @@ $MAGICK_FONT_PATH</code></pre>
   </tr>
 </table></div>
 
-<p>Define arguments for the <code>MAGICK_MEMORY_LIMIT</code>, <code>MAGICK_DISK_LIMIT</code>, and <code>MAGICK_MEMORY_LIMIT</code> environment variables with SI prefixes (.e.g <code>100MB</code>). <code>MAGICK_WIDTH_LIMIT</code>, <code>MAGICK_HEIGHT_LIMIT</code> and <code>MAGICK_AREA_LIMIT</code> accepts pixel suffixes such as MP for mega-pixels (e.g. 100MP). Note, you can restrict limits relative to any <a href="<?php echo $_SESSION['RelativePath']?>/../script/open-policy.xml">security policies</a>, but you cannot relax them.</p>
+<p>Define arguments for the <code>MAGICK_MEMORY_LIMIT</code>, <code>MAGICK_DISK_LIMIT</code>, and <code>MAGICK_MEMORY_LIMIT</code> environment variables with SI prefixes (.e.g <code>100MB</code>). <code>MAGICK_WIDTH_LIMIT</code>, <code>MAGICK_HEIGHT_LIMIT</code> and <code>MAGICK_AREA_LIMIT</code> accepts pixel suffixes such as MP for mega-pixels (e.g. 100MP). Note, you can restrict limits relative to any <a href="<?php echo $_SESSION['RelativePath']?>/../script/policy-open.xml">security policies</a>, but you cannot relax them.</p>
 
 </div>
