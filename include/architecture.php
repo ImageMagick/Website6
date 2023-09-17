@@ -511,7 +511,7 @@ if (profile != (StringInfo *) NULL)
 </code></pre>
 
 <h2><a class="anchor" id="tera-pixel"></a>Large Image Support</h2>
-<p>ImageMagick can read, process, or write mega-, giga-, or tera-pixel image sizes.  An image width or height can range up to 31 million rows/columns on a 32-bit OS and up to 31 trillion on a 64-bit OS.  Note, that some image formats have restrictions on image size.  For example, Photoshop images are limited to 300,000 pixels for width or height.  Here we resize an image to a quarter million pixels square:</p>
+<p>ImageMagick has the capability to handle image sizes spanning from mega- to tera-pixels, encompassing reading, processing, and writing operations. In theory, image dimensions can extend up to 31 million rows/columns on a 32-bit operating system and up to a whopping 31 trillion on a 64-bit OS. However, the actual achievable dimensions are substantially less, contingent on the resources available on your host computer. It's essential to be aware that certain image formats impose limitations on image size. For instance, Photoshop images are constrained to a maximum of 300,000 pixels in width or height.  Here we resize an image to a quarter million pixels square:</p>
 
 <pre class="bg-light text-dark mx-4"><code>convert logo: -resize 250000x250000 logo.miff
 </code></pre>
