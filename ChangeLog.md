@@ -5,6 +5,22 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.12-95](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-94...6.9.12-95) - 2023-09-19
+
+### Merged
+
+- fix type cast [`#269`](https://github.com/ImageMagick/ImageMagick6/pull/269)
+
+### Commits
+
+- beta release [`ffb46b1`](https://github.com/ImageMagick/ImageMagick6/commit/ffb46b1ebccc0d8eb62eae5f280d7f951bcf1d11)
+- validate security policy [`bf69ab4`](https://github.com/ImageMagick/ImageMagick6/commit/bf69ab4222139459203db35a7464ecbf0d7f6ca7)
+- eliminate compiler warnings [`5c25385`](https://github.com/ImageMagick/ImageMagick6/commit/5c253859988f3cd85538ea3130b1113456dcfa90)
+- eliminate compiler warning [`9d073e8`](https://github.com/ImageMagick/ImageMagick6/commit/9d073e8a61f119f8073d814ba4b348a570150581)
+- cosmetic [`49d8c29`](https://github.com/ImageMagick/ImageMagick6/commit/49d8c291b61834f323e2e8c23108298dc02a9945)
+- validate policy before we set it [`276f31a`](https://github.com/ImageMagick/ImageMagick6/commit/276f31a449833c047d9afc445667f460af65eccb)
+- release [`9202885`](https://github.com/ImageMagick/ImageMagick6/commit/920288540785c93dcb2384f195e9f567df2d021d)
+
 ## [6.9.12-94](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-93...6.9.12-94) - 2023-09-17
 
 ### Merged
