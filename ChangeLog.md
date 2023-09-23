@@ -5,6 +5,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.12-96](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-95...6.9.12-96) - 2023-09-23
+
+### Commits
+
+- beta release [`cf44454`](https://github.com/ImageMagick/ImageMagick6/commit/cf44454e8274d800baba6675e0a560ff22f92655)
+- eliminate static analyzer issue [`535fff7`](https://github.com/ImageMagick/ImageMagick6/commit/535fff7d6596dc87030582689b682bed154b6c9f)
+- eliminate static analyzer issue [`ec2b706`](https://github.com/ImageMagick/ImageMagick6/commit/ec2b706423a9403cb6fd538b8a3a065ed2a36152)
+- properly extract EXIF GPS fractions [`bbfe4dd`](https://github.com/ImageMagick/ImageMagick6/commit/bbfe4ddecd0e92b227158bef7ee9d72111583b8c)
+- revert type cast [`e4c20bc`](https://github.com/ImageMagick/ImageMagick6/commit/e4c20bc9ef167e42647cdbed8081c86d8c6916fb)
+- set windows to NULL [`9174a69`](https://github.com/ImageMagick/ImageMagick6/commit/9174a69046be88639aeabe8c318a9be362e64b82)
+- Fixed building fourier.c on Windows with Visual Studio (#6667) [`3a1d164`](https://github.com/ImageMagick/ImageMagick6/commit/3a1d16428c0786b16a5e954f0ad6a07b14359371)
+- cosmetic [`9d9257b`](https://github.com/ImageMagick/ImageMagick6/commit/9d9257b7a513bf6ddfd68e932bbb7b84ce79e298)
+- release [`34f40bb`](https://github.com/ImageMagick/ImageMagick6/commit/34f40bb8d305031449066a0062c67cc95fcebb78)
+
 ## [6.9.12-95](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-94...6.9.12-95) - 2023-09-19
 
 ### Merged
