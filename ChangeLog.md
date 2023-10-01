@@ -5,6 +5,29 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.12-97](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-96...6.9.12-97) - 2023-09-30
+
+### Commits
+
+- beta release [`51d4282`](https://github.com/ImageMagick/ImageMagick6/commit/51d428243c40e9c7cd770e0896e015f323f3d661)
+- eliminate Coverity warnings [`8856c26`](https://github.com/ImageMagick/ImageMagick6/commit/8856c26cd521bb177da5d324d3d6ef115d6a5e7c)
+- max result is SIZE_MAX [`c9e5972`](https://github.com/ImageMagick/ImageMagick6/commit/c9e59720d57a4729f5fba8c4144a12d1235cc866)
+- check for BMP file size, poc provided by Hardik Shah of Vehere (Dawn Treaders team) [`4056846`](https://github.com/ImageMagick/ImageMagick6/commit/405684654eb9b43424c3c0276ea343681021d9e0)
+- throw exception but do not close/destroy image inside ReadEmbedImage() [`c6eb668`](https://github.com/ImageMagick/ImageMagick6/commit/c6eb668946cb3cc0d18254cc6ea2798d4503b865)
+- don't trust an XMP profile if its not validated [`a0812ea`](https://github.com/ImageMagick/ImageMagick6/commit/a0812ea4d8aa6af1e6a2654b6a338ce640638dc6)
+- revert [`397b8e5`](https://github.com/ImageMagick/ImageMagick6/commit/397b8e58f8da97a794dd28a4ea52d12a62677929)
+- eliminate compiler warnings [`d1ad8e7`](https://github.com/ImageMagick/ImageMagick6/commit/d1ad8e75f9b84edece89df5085e364f17dcc774b)
+- fix building with OpenCL (#6743) [`834a5d4`](https://github.com/ImageMagick/ImageMagick6/commit/834a5d40ef70d288d19c49cef98dcf07a02b1464)
+- correct exit code (https://github.com/ImageMagick/ImageMagick/issues/6744) [`d730d3e`](https://github.com/ImageMagick/ImageMagick6/commit/d730d3ec46718c455395da8dc0ea77348cc56158)
+- Don't add svg:decode to the list of build in delegates when librsvg was enabled (#274). [`abb87fc`](https://github.com/ImageMagick/ImageMagick6/commit/abb87fce6330eb778fe3d2a5c9b5a523e4b42c53)
+- fix compose dissolve issue (https://github.com/ImageMagick/ImageMagick/issues/6738) [`1926121`](https://github.com/ImageMagick/ImageMagick6/commit/192612179fdc496eacc701655ed9f059e6efd964)
+- move check for number of colors [`c504e54`](https://github.com/ImageMagick/ImageMagick6/commit/c504e543eabf9439e035a7b57044ea03bfec364e)
+- support raw parameters (https://github.com/ImageMagick/ImageMagick/discussions/6748) [`2245bf7`](https://github.com/ImageMagick/ImageMagick6/commit/2245bf7ddbcef62e3475191ab55bd5bd1b31aadb)
+- release [`2a749f7`](https://github.com/ImageMagick/ImageMagick6/commit/2a749f753f2160b6104046edea3a68fc6a945450)
+- eliminate compiler exception [`0cd4e70`](https://github.com/ImageMagick/ImageMagick6/commit/0cd4e70b2cdaee347b9966a9a945c0b877e0f3ff)
+- eliminate compiler exception [`6ece5dc`](https://github.com/ImageMagick/ImageMagick6/commit/6ece5dc64ac98059a6bd2c3197b39003f1c4d5bb)
+- release [`2ca57b2`](https://github.com/ImageMagick/ImageMagick6/commit/2ca57b26c049ce63ebd36a5a598b52a247c02182)
+
 ## [6.9.12-96](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-95...6.9.12-96) - 2023-09-23
 
 ### Commits
