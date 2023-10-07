@@ -256,7 +256,7 @@ Options used to compile and link:
     <td>--without-perl</td>
     <td>disable build/install of PerlMagick, or
   <br /><br />
-  By default, PerlMagick is conveniently compiled and installed as part of ImageMagick's normal <code>configure</code>, <code>make</code>, <code>sudo make install</code> process. When <code>--without-perl</code> is specified, you must first install ImageMagick, change to the PerlMagick subdirectory, build, and finally install PerlMagick. Note, PerlMagick is configured even if <code>--without-perl</code> is specified. If the argument <var>--with-perl=/path/to/perl</var> is supplied, <var>/../path/to/perl</var> is be taken as the PERL interpreter to use. This important in case the <code>perl</code> executable in your PATH is not PERL5, or is not the PERL you want to use.</td>
+  By default, PerlMagick is conveniently compiled and installed as part of ImageMagick's normal <code>configure</code>, <code>make</code>, <code>sudo make install</code> process. When <code>--without-perl</code> is specified, you must first install ImageMagick, download the <a href="https://imagemagick.org/archive/perl/">PerlMagick</a> source distribution, build, and finally install PerlMagick. Note, PerlMagick is configured even if <code>--without-perl</code> is specified. If the argument <var>--with-perl=/path/to/perl</var> is supplied, <var>/../path/to/perl</var> is be taken as the PERL interpreter to use. This important in case the <code>perl</code> executable in your PATH is not PERL5, or is not the PERL you want to use.</td>
   </tr>
   <tr>
     <td>--with-perl=PERL</td>
