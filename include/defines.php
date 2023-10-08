@@ -1368,6 +1368,11 @@ use:</p>
     <td>WebP has a plethora of defines detailed on this <a href="<?php echo $_SESSION['RelativePath']?>/../script/webp.php">page</a>.</td>
   </tr>
 
+  <tr>
+    <td>xmp:validate=<var>{true,false}</var></td>
+    <td>By default, ImageMagick validates any XMP profile embedded in an image.</td>
+  </tr>
+
 <tr>
    <td colspan=2><p></p></td>
   </tr>
