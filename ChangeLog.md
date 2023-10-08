@@ -5,6 +5,27 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.12-98](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-97...6.9.12-98) - 2023-10-08
+
+### Commits
+
+- beta release [`148a129`](https://github.com/ImageMagick/ImageMagick6/commit/148a129da39795b3d60088aa6388fa5b7b9a943f)
+- ... [`4428cd3`](https://github.com/ImageMagick/ImageMagick6/commit/4428cd3ed06a0ec7c3da05c28bf80e70161fd6d9)
+- support Windows 1.0 Icon format (https://github.com/ImageMagick/ImageMagick/discussions/6670) [`b655528`](https://github.com/ImageMagick/ImageMagick6/commit/b655528e86e277cea0ebcb61c4accab877d16648)
+- enable OpenCL build (https://github.com/ImageMagick/ImageMagick6/issues/275) [`7a828b0`](https://github.com/ImageMagick/ImageMagick6/commit/7a828b0a8079c335385a2b0aa235d39350919ab6)
+- eliminate compiler error [`acf041a`](https://github.com/ImageMagick/ImageMagick6/commit/acf041abd7c1ce7131b3e492d5daaae2266f7f96)
+- support GetMagickTTL() method (https://github.com/ImageMagick/ImageMagick/discussions/4533) [`cb72a81`](https://github.com/ImageMagick/ImageMagick6/commit/cb72a8195e4d42de4ac17f2fd74bf3cf6f074414)
+- fix time-to-live deadlock [`84c4069`](https://github.com/ImageMagick/ImageMagick6/commit/84c40698f666253dbbe7cd51d442cc938a2484af)
+- improve time-to-live timer [`2a88880`](https://github.com/ImageMagick/ImageMagick6/commit/2a888803be8ab466dff7f5a4f6cfc4a80482588d)
+- prevent integer overflow [`6b472d8`](https://github.com/ImageMagick/ImageMagick6/commit/6b472d8e595e4866492732e89efa19ca734966ce)
+- wrong argument type [`bae5e88`](https://github.com/ImageMagick/ImageMagick6/commit/bae5e8880f0fc406eb58c8ece9190c4fe42165e8)
+- check time to live every 4096 cycles [`0d53915`](https://github.com/ImageMagick/ImageMagick6/commit/0d53915c4df7776d6403c6a55a24afb668b9236d)
+- Added missing include. [`2e35f12`](https://github.com/ImageMagick/ImageMagick6/commit/2e35f12dad788bc907131cd5530cfeeed7ab7399)
+- support xmp:validate define to choose performance over security [`d7f5f6e`](https://github.com/ImageMagick/ImageMagick6/commit/d7f5f6efb45e414dd434b64a4bbdaa49c0b368b9)
+- eliminate compiler warning [`0887bbf`](https://github.com/ImageMagick/ImageMagick6/commit/0887bbf1eef9e8c2961abc2231bb70a469c34e8a)
+- protect against DOS for FX do, while, for loops [`fe77ef5`](https://github.com/ImageMagick/ImageMagick6/commit/fe77ef5817d03e4400948514ec3bb112efb798f2)
+- release [`0f7e3a7`](https://github.com/ImageMagick/ImageMagick6/commit/0f7e3a7a70d6b169a36f60470c6c06e0831730d0)
+
 ## [6.9.12-97](https://github.com/ImageMagick/ImageMagick6/compare/6.9.12-96...6.9.12-97) - 2023-09-30
 
 ### Commits
