@@ -290,7 +290,7 @@ $MAGICK_FONT_PATH</code></pre>
   </tr>
   <tr>
     <td>SOURCE_DATE_EPOCH</td>
-    <td>A UNIX timestamp, defined as the number of seconds, excluding leap seconds, since <code>01 Jan 1970 00:00:00 UTC</code>.</td>
+    <td>A UNIX timestamp, defined as the number of seconds, excluding leap seconds, since <samp>01 Jan 1970 00:00:00 UTC</samp>.  Special-purpose setting for pipeline builds.  This setting disables the time-to-live settings.</td>
   </tr>
 </table></div>
 
