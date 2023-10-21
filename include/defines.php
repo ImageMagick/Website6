@@ -902,6 +902,11 @@ use:</p>
   </tr>
 
   <tr>
+    <td>png:chunk-malloc-max=<var>value</var></td>
+    <td>Set the maximum chunk size.</td>
+  </tr>
+
+  <tr>
     <td>png:color-type=<var>value</var></td>
      <td>Desired bit-depth and color-type for PNG output.  You can force the 
     PNG encoder to use a different bit-depth and color-type than it would have
