@@ -1660,6 +1660,12 @@ can use the integers 1 and 0.</p>
   </tr>
 
   <tr>
+    <td>title</td>
+    <td><i>string</i></td>
+    <td>set the image title</td>
+  </tr>
+
+  <tr>
     <td>type</td>
     <td>{Bilevel, Grayscale, GrayscaleMatte, Palette, PaletteMatte, TrueColor, TrueColorMatte, ColorSeparation, ColorSeparationMatte}</td>
     <td>image type</td>
