@@ -693,6 +693,11 @@ use:</p>
   </tr>
 
   <tr>
+    <td>dng:max-raw-memory=<var>value</var></td>
+    <td>Stop processing if raw buffer size grows larger than that value (in megabytes). Default is 8192.</td>
+  </tr>
+
+  <tr>
     <td>dng:no-auto-bright=<var>false</var></td>
     <td>Disable the histogram-based white level.</td>
   </tr>
