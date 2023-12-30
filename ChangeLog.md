@@ -5,6 +5,30 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.13-3](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-2...6.9.13-3) - 2023-12-30
+
+### Merged
+
+- configure.ac: fixup LFS check for autoconf-2.72 [`#300`](https://github.com/ImageMagick/ImageMagick6/pull/300)
+
+### Commits
+
+- beta release [`844f1d7`](https://github.com/ImageMagick/ImageMagick6/commit/844f1d7d7e681fd3830dc4d3c9461b4b00d477b2)
+- beta release [`d31d317`](https://github.com/ImageMagick/ImageMagick6/commit/d31d317dc532b42751679811e5ed0f5c2ef37cdb)
+- check for version 0.20 instead [`1ad0102`](https://github.com/ImageMagick/ImageMagick6/commit/1ad010298166955db0b583586c5e66ef79af6fce)
+- display hidden image [`07d2bf2`](https://github.com/ImageMagick/ImageMagick6/commit/07d2bf2a60e3c71dfeeaaf4bf103128621f8b7d8)
+- latest autoconf/automake update [`9169a2f`](https://github.com/ImageMagick/ImageMagick6/commit/9169a2f6736edac3d238d9ed4e0b1114dbad513b)
+- identify image time-to-live [`377329e`](https://github.com/ImageMagick/ImageMagick6/commit/377329ea885388e42f0f4e8e6a12106a757fdcf6)
+- set errno if time-to-live exceeded [`287ba31`](https://github.com/ImageMagick/ImageMagick6/commit/287ba31f03a98764a3161a599a2169bb53133fec)
+- eliminate compiler exception [`9b9eb2c`](https://github.com/ImageMagick/ImageMagick6/commit/9b9eb2c2ff88ede99cfd502b7bed7ac8e24bfe99)
+- conditionally set errno to ESTALE [`fc58710`](https://github.com/ImageMagick/ImageMagick6/commit/fc587101b188e7b30df1a11872b17eabf378edba)
+- cosmetic [`2dd01aa`](https://github.com/ImageMagick/ImageMagick6/commit/2dd01aa1b913498f12bb974b949c3a66431c2498)
+- ignore SyncBlob() status in CloseBlob() (https://github.com/ImageMagick/ImageMagick/issues/6984) [`a1e5ff8`](https://github.com/ImageMagick/ImageMagick6/commit/a1e5ff811aeb935f7adfa4740026c59dac2bb01f)
+- repo change [`0d9ba58`](https://github.com/ImageMagick/ImageMagick6/commit/0d9ba588c98552cba9022716c1a72b411683eddb)
+- update manifest [`b9f5797`](https://github.com/ImageMagick/ImageMagick6/commit/b9f579720f1493881fcaeec335706ff788bc09eb)
+- release [`76d7eb8`](https://github.com/ImageMagick/ImageMagick6/commit/76d7eb8d15654b14ef06e59ee013cc211a3d372b)
+- release [`ec69f01`](https://github.com/ImageMagick/ImageMagick6/commit/ec69f01767a2ba9753c6361eb7d1238ba31f4152)
+
 ## [6.9.13-2](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-1...6.9.13-2) - 2023-12-25
 
 ### Merged
