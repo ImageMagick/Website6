@@ -5,6 +5,34 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.13-4](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-3...6.9.13-4) - 2024-01-07
+
+### Commits
+
+- beta release [`6d2a3fc`](https://github.com/ImageMagick/ImageMagick6/commit/6d2a3fc72829d366155b0ab2684689f74c63390a)
+- Improved name of installer artifacts [`212577d`](https://github.com/ImageMagick/ImageMagick6/commit/212577df21dc6dad827a7d1302ae5383a0dd10d3)
+- support -alpha remove-opaque option [`4461433`](https://github.com/ImageMagick/ImageMagick6/commit/446143364b539c060d51f7a5ca2562b0616aa552)
+- Corrected path to file that contains the version. [`0c26720`](https://github.com/ImageMagick/ImageMagick6/commit/0c2672004c2ad19d686d19aeaafc2130c31e65b0)
+- reduce # threads for -alpha option [`e22d816`](https://github.com/ImageMagick/ImageMagick6/commit/e22d816a204c344303b4af8a2f903378272ef838)
+- -alpha deactivate-if-opaque disables the alpha channel if and only if its entirely opaque [`1a1b0f9`](https://github.com/ImageMagick/ImageMagick6/commit/1a1b0f9edfecfdf768bcd05f7b1f06061f0db29c)
+- -alpha off-if-opaque turns off the alpha channel if its entirely opaque [`83002fb`](https://github.com/ImageMagick/ImageMagick6/commit/83002fbe2b7d8cdde829491ae2ba991e350b1ddc)
+- slight optimization [`5db8a00`](https://github.com/ImageMagick/ImageMagick6/commit/5db8a00276c5923f16c578351df12474ffaf0b56)
+- fix error: 'libraw_data_t' has no member named 'rawparams' [`55f662f`](https://github.com/ImageMagick/ImageMagick6/commit/55f662f1484e2655e6efecaf04eb2ae70c349207)
+- thread tuning [`959549a`](https://github.com/ImageMagick/ImageMagick6/commit/959549ac878299820c3ae808bc32baf3a94b062d)
+- thread tuning [`fb0af62`](https://github.com/ImageMagick/ImageMagick6/commit/fb0af62d0f6e211bdb979f2084d589dc2391bc2b)
+- optimize HDRI detection [`2babf45`](https://github.com/ImageMagick/ImageMagick6/commit/2babf459209be29f62688165604c3dabf7c23013)
+- factor is a const argument [`4929a49`](https://github.com/ImageMagick/ImageMagick6/commit/4929a49bd3d7ab4839a2d0442ebac696126e1c55)
+- cast to int [`75aa4f2`](https://github.com/ImageMagick/ImageMagick6/commit/75aa4f272af1350197e7dc99f3489abf81a64065)
+- https://github.com/ImageMagick/ImageMagick/issues/7006 [`2410dc3`](https://github.com/ImageMagick/ImageMagick6/commit/2410dc36ee792d01a04f2b3d28ed4944da32b59c)
+- improve RSVG exception checking (https://github.com/ImageMagick/ImageMagick/issues/7005) [`e8d247d`](https://github.com/ImageMagick/ImageMagick6/commit/e8d247d26dcca88a684522bf6169932359b6fa2b)
+- fix off-by-one issue (https://github.com/ImageMagick/ImageMagick/issues/7004) [`ae10447`](https://github.com/ImageMagick/ImageMagick6/commit/ae104474ca10218b55340056b7bad95f90cc889d)
+- fix caption sizing issue (https://github.com/ImageMagick/ImageMagick/issues/7004) [`73c06ad`](https://github.com/ImageMagick/ImageMagick6/commit/73c06ad4b0bc5c305a857d1d1a56c4d09ffbb34e)
+- correct off-by one issue [`3f9f55d`](https://github.com/ImageMagick/ImageMagick6/commit/3f9f55d42e0d20be7b333dd77b2bd15d7f85021d)
+- https://github.com/ImageMagick/ImageMagick/pull/7008/ [`f6f99ac`](https://github.com/ImageMagick/ImageMagick6/commit/f6f99ac056c5694607074ded30332273489c7bb3)
+- correct usage [`5bcb76d`](https://github.com/ImageMagick/ImageMagick6/commit/5bcb76d684e6c5e90c2ce1044333d031fd181a00)
+- off-by-one error [`861e5e2`](https://github.com/ImageMagick/ImageMagick6/commit/861e5e21a06c0c54c6b82df458388f4e7c525a13)
+- release [`0dc4853`](https://github.com/ImageMagick/ImageMagick6/commit/0dc4853d6a7535b76aeff948a0d006bfbeea4b3b)
+
 ## [6.9.13-3](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-2...6.9.13-3) - 2023-12-30
 
 ### Merged
