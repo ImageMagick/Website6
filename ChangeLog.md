@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.13-5](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-4...6.9.13-5) - 2024-01-21
+
+### Merged
+
+- fix PKG_CONFIG_LIBDIR [`#303`](https://github.com/ImageMagick/ImageMagick6/pull/303)
+
+### Commits
+
+- beta release [`bc79cf0`](https://github.com/ImageMagick/ImageMagick6/commit/bc79cf09b1512dcc96d1f8d5a2603ac1c733aff1)
+- release [`5ced10c`](https://github.com/ImageMagick/ImageMagick6/commit/5ced10cedee8750c9ecab1ae3d7e3f9c0d020139)
+
 ## [6.9.13-4](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-3...6.9.13-4) - 2024-01-07
 
 ### Commits
