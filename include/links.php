@@ -80,6 +80,6 @@
   <dd class="col-md-8"><a href="https://urban-warrior.org/WizardsToolkit" taget="_blank">Wizard's Toolkit</a>
   <dd class="col-md-8"><a href="https://github.com/cherryleafroad/Android-ImageMagick7" taget="_blank">ImageMagick API on the Android Platform</a></dd>
   <dd class="col-md-8"><a href="https://imagemagick.org/archive/iOS/" taget="_blank">ImageMagick API on the iOS / iPhone  Platform</a></dd>
-  <dd class="col-md-8"><a href="https://urban-warrior.org/" taget="_blank">The Tao of the Spiritual Warrior</a></dd>
+  <dd class="col-md-8"><a href="https://spiritual-warrior.org/" taget="_blank">The Tao of the Spiritual Warrior</a></dd>
 </ul>
 </div>
