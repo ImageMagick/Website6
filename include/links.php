@@ -1,6 +1,6 @@
 <div class="magick-header">
 <h1 class="text-center">Links</h1>
-<p class="text-center"><a href="#command-line">Command-line Tutorials</a> • <a href="#program-interfaces">Program Interface Tutorials</a> • <a href="#techniques">ImageMagick Techniques</a> • <a href="#install">Installation Tutorials</a> • <a href="#topics">ImageMagick Topics</a> • <a href="#book-review">ImageMagick Book Review</a> • <a href="#mirrors">Web Site Mirrors</a> • <a href="#bank">Image Bank</a> • <a href="#other-projects">Other Projects</a></p>
+<p class="text-center"><a href="#command-line">Command-line Tutorials</a> • <a href="#program-interfaces">Program Interface Tutorials</a> • <a href="#techniques">ImageMagick Techniques</a> • <a href="#install">Installation Tutorials</a> • <a href="#topics">ImageMagick Topics</a> • <a href="#book-review">ImageMagick Book Review</a> • <a href="#mirrors">Web Site Mirrors</a> • <a href="#bank">Image Bank</a> • <a href="#related-projects">Related Projects</a></p>
 
 <p class="lead magick-description">Listed here are a number of external web sites that are related to ImageMagick.  ImageMagick Studio does not maintain or endorse most of these sites, but we feel they are a helpfull adjunct to the ImageMagick project.</p>
 
@@ -75,11 +75,10 @@
   <dd class="col-md-8"><a href="https://imagemagick.org/archive//image-bank/">Image Bank</a>: a small digital test image bank</dd>
 </ul>
 
-<h2><a class="anchor" id="other-projects"></a>Other Projects</h2>
+<h2><a class="anchor" id="related-projects"></a>Related Projects</h2>
 <ul>
+  <dd class="col-md-8"><a href="https://github.com/ImageMagick/MagickCache" target="_blank">MagickCache</a></dd>
   <dd class="col-md-8"><a href="https://urban-warrior.org" taget="_blank">Wizard's Toolkit</a>
-  <dd class="col-md-8"><a href="https://github.com/cherryleafroad/Android-ImageMagick7" taget="_blank">ImageMagick API on the Android Platform</a></dd>
-  <dd class="col-md-8"><a href="https://imagemagick.org/archive/iOS/" taget="_blank">ImageMagick API on the iOS / iPhone  Platform</a></dd>
   <dd class="col-md-8"><a href="https://spiritual-warrior.org/" taget="_blank">The Tao of the Spiritual Warrior</a></dd>
 </ul>
 </div>
