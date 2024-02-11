@@ -5,6 +5,42 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.13-6](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-5...6.9.13-6) - 2024-02-11
+
+### Merged
+
+- Bump azure/azure-code-signing-action from 0.2.26 to 0.3.0 [`#307`](https://github.com/ImageMagick/ImageMagick6/pull/307)
+- Bump azure/azure-code-signing-action from 0.2.22 to 0.2.26 [`#306`](https://github.com/ImageMagick/ImageMagick6/pull/306)
+
+### Commits
+
+- beta releas e [`86e1e68`](https://github.com/ImageMagick/ImageMagick6/commit/86e1e68c215caa39dfceb51a6886ce0ea40c94ef)
+- updated link [`2ba6386`](https://github.com/ImageMagick/ImageMagick6/commit/2ba6386b5d0f7869cdfc3fa56a0130a25ede186f)
+- eliminate extraneous EXIF comma [`d6cd1d1`](https://github.com/ImageMagick/ImageMagick6/commit/d6cd1d1812e0e848e5bc83e9b4084a1bb7c7ef60)
+- https://github.com/ImageMagick/ImageMagick/pull/7068 [`037165b`](https://github.com/ImageMagick/ImageMagick6/commit/037165b0f2965da2e7da240c031d13b0041dfed5)
+- escape { when writing MIFF images (https://github.com/ImageMagick/ImageMagick/issues/7071) [`67188d9`](https://github.com/ImageMagick/ImageMagick6/commit/67188d9545977dad61dd460b9b89c7987473740e)
+- protect '{' in MIFF key/value pairs [`05f122a`](https://github.com/ImageMagick/ImageMagick6/commit/05f122a5c6008a3ecdd05f459118fea10f4fa3c7)
+- ... [`11be624`](https://github.com/ImageMagick/ImageMagick6/commit/11be624adabb2bd65b8d30c0f36386a2ebfae6a4)
+- set visible image artifact [`b7018d8`](https://github.com/ImageMagick/ImageMagick6/commit/b7018d84299f9fc8b94f3f5466d2c1681a53ff40)
+- extend buffer to maximum field size [`f4373e6`](https://github.com/ImageMagick/ImageMagick6/commit/f4373e6e23ff784c141fe3da1d32345cdf04bba5)
+- enable error diffusion for -posterize (https://github.com/ImageMagick/ImageMagick/issues/7079) [`fe69d65`](https://github.com/ImageMagick/ImageMagick6/commit/fe69d6530188814f29a12a8fc4ee391863bdbd2e)
+- refactor posterize macro [`88f8ae2`](https://github.com/ImageMagick/ImageMagick6/commit/88f8ae252ab8b82246a2587435d704ecdc55e281)
+- improve posterize algorithm [`ba7afaf`](https://github.com/ImageMagick/ImageMagick6/commit/ba7afaf437456638d072dfd95393e9b1ca75c5a1)
+- refactor posterize pixel macro [`018ea17`](https://github.com/ImageMagick/ImageMagick6/commit/018ea17bcb1edc4383141072756fb2f0d9e376dd)
+- support setting image registry [`95700b0`](https://github.com/ImageMagick/ImageMagick6/commit/95700b0961efeee0022e607524031e24209ed035)
+- check for class recursion [`bc12b9a`](https://github.com/ImageMagick/ImageMagick6/commit/bc12b9ab95c774a4bca15b2c4e20663040d46897)
+- Fixed running identify on dds files with a cubemap. [`a0ee79b`](https://github.com/ImageMagick/ImageMagick6/commit/a0ee79b5ae4481d4cd24a329e4d2bae5324168cc)
+- Set ttl to time when the image will expire instead of the duration that the image can be used. [`7aceff0`](https://github.com/ImageMagick/ImageMagick6/commit/7aceff025c6dafd97be6e1dba7fd5c361e3278d8)
+- improve time-to-live formatting [`92e2747`](https://github.com/ImageMagick/ImageMagick6/commit/92e27473a5fd04b32b6905c23526214cf33cf3a3)
+- make version checks human readable [`6348364`](https://github.com/ImageMagick/ImageMagick6/commit/6348364b1cf8255563d14bed2147d8a2078c65e3)
+- fix incorrect stroke opacity (https://github.com/ImageMagick/ImageMagick/issues/7097) [`b07d649`](https://github.com/ImageMagick/ImageMagick6/commit/b07d6495436b6f0a02e060f7ac7626ecae216f8c)
+- Disable debug block. [`54ac1fb`](https://github.com/ImageMagick/ImageMagick6/commit/54ac1fb1d3ec8cb5f1eeddb959971880c771829b)
+- correct pixel offset validation method [`69a02ab`](https://github.com/ImageMagick/ImageMagick6/commit/69a02abbd3e2f9f62aca61ee58c43df3bc752eb2)
+- if resampling fails, replace with invalid pixel [`6746dff`](https://github.com/ImageMagick/ImageMagick6/commit/6746dfffed7821c56ac4e0d3e1cfd265f71a58da)
+- also allow invalid length where 8 was added to the header size. [`8a4dd76`](https://github.com/ImageMagick/ImageMagick6/commit/8a4dd76890b55bc821fe0a167e89d405fac1d1bd)
+- release [`7df93f0`](https://github.com/ImageMagick/ImageMagick6/commit/7df93f051bb9188f4ba00c66bd51ee20ee811abd)
+- release [`476beb5`](https://github.com/ImageMagick/ImageMagick6/commit/476beb52a43403737ccf9b92c64d685535f4f106)
+
 ## [6.9.13-5](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-4...6.9.13-5) - 2024-01-21
 
 ### Merged
