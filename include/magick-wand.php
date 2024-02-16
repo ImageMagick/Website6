@@ -17,7 +17,7 @@
 
 <p>After you write your MagickWand program, compile it like this:</p>
 
-<pre class="bg-light text-dark mx-4"><code>cc -o wand wand.c `pkg-config --cflags --libs MagickWand`</code></pre>
+<pre class="bg-light text-dark mx-4"><code>cc `MagickWand-config --cflags --cppflags` -O2 -o wand wand.c `MagickWand-config --ldflags --libs</code></pre>
 
 <p>Set the <code>PKG_CONFIG_PATH</code> environment variable if ImageMagick is not in your default system path:</p>
 

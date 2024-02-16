@@ -59,11 +59,11 @@
 
 <p>After you write your MagickCore program, compile it like this:</p>
 
-<pre class="bg-light text-dark mx-4"><code>cc -o core core.c `pkg-config --cflags --libs MagickCore`</code></pre>
+<pre class="bg-light text-dark mx-4"><code>cc `MagickCore-config --cflags --cppflags` -O2 -o core core.c `MagickCore-config --ldflags --libs</code></pre>
 
 <p>Note, if your instance of ImageMagick does not support modules but does include support for the WMF image format, you'll need to link with the <a href="<?php echo $_SESSION['RelativePath']?>/../script/magick-wand.php">MagickWand</a> library instead (since it is a dependency of the WMF image format):</p>
 
-<pre class="bg-light text-dark mx-4"><code>cc -o core core.c `pkg-config --cflags --libs MagickWand`</code></pre>
+<pre class="bg-light text-dark mx-4"><code>cc `MagickWand-config --cflags --cppflags` -O2 -o core core.c `MagickWand-config --ldflags --libs`</code></pre>
 
 <p>Set the <code>PKG_CONFIG_PATH</code> environment variable if ImageMagick is not in your default system path:</p>
 
