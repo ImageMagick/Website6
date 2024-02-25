@@ -5,6 +5,32 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.13-7](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-6...6.9.13-7) - 2024-02-25
+
+### Commits
+
+- beta release [`f72e54c`](https://github.com/ImageMagick/ImageMagick6/commit/f72e54c3e9793c03d774cfdb8258913c7f18594f)
+- Minor code cleanup. [`dd26309`](https://github.com/ImageMagick/ImageMagick6/commit/dd2630941258557ec3c151345b01a9fc1939f0a3)
+- incorrect YCbCr detection [`be65f47`](https://github.com/ImageMagick/ImageMagick6/commit/be65f4717064df6426a51088e2c11ee9677d1c8a)
+- Append signature when possible. [`2606a5a`](https://github.com/ImageMagick/ImageMagick6/commit/2606a5a117647f58d5cbfe2270d7dd8b0a6ceaf4)
+- leverage darktable delegate if libraw is not available [`08e213c`](https://github.com/ImageMagick/ImageMagick6/commit/08e213c65922ea07f00de1ad912b3aae073026be)
+- locate darktable [`90e3324`](https://github.com/ImageMagick/ImageMagick6/commit/90e332456eab526de7f0cbd4e1fb47d8f080dbdb)
+- capture stdout [`31bc888`](https://github.com/ImageMagick/ImageMagick6/commit/31bc888d7fef1167e8175e9fbe9a03092d84b26a)
+- free image info struct [`fd4d262`](https://github.com/ImageMagick/ImageMagick6/commit/fd4d26294b38884e8cf43d733bc54aad8125d132)
+- coalesce images on webp write [`f35cd13`](https://github.com/ImageMagick/ImageMagick6/commit/f35cd139008cab363f4367ddb48c5973d7e45905)
+- adjust browser spacing between buttons [`3da057d`](https://github.com/ImageMagick/ImageMagick6/commit/3da057d31756970cb50b1567922e9caf94d36d84)
+- Only write density values higher than zero in a jpeg file. [`89728c0`](https://github.com/ImageMagick/ImageMagick6/commit/89728c0e0c9b79fea9a3f4d81ec7f18b28b0850b)
+- use radians macro [`daf23ec`](https://github.com/ImageMagick/ImageMagick6/commit/daf23ecd904d42b0f9f2daefb9c92aa07db2a966)
+- more work on LCH colorspace [`9ea3631`](https://github.com/ImageMagick/ImageMagick6/commit/9ea363169c61a28468e033a07e78ffa904d8d0c7)
+- eliminate compiler exception [`39a86bc`](https://github.com/ImageMagick/ImageMagick6/commit/39a86bcd019abc56b0a7bbe63346187a77abd4b4)
+- final corrections to LCH colorspace formula [`0566cb2`](https://github.com/ImageMagick/ImageMagick6/commit/0566cb2388a0455b576bba6312b28b195c019573)
+- Removed NTGetLastError from the private header file because it is not exported. [`cb44173`](https://github.com/ImageMagick/ImageMagick6/commit/cb44173dd8cf6eac0f5eb2bbe96daae7a9bde096)
+- Return a different error code when the file could not be found on Windows to have the same behavior as on other platforms. [`94123d7`](https://github.com/ImageMagick/ImageMagick6/commit/94123d7c032ebae0708a51d9dd01f6ed7b1b8b38)
+- silence warnings [`4af89ea`](https://github.com/ImageMagick/ImageMagick6/commit/4af89eaf9f3e35d7ff9269297d48e876a36510c6)
+- release [`f310f94`](https://github.com/ImageMagick/ImageMagick6/commit/f310f943512078ea4f44604a079a95552662d61e)
+- release [`eae41b3`](https://github.com/ImageMagick/ImageMagick6/commit/eae41b3fec10c343253be5e9d8d8692529e43911)
+- release [`92d144e`](https://github.com/ImageMagick/ImageMagick6/commit/92d144e5641f2eeebd32cf13d318bff657e2aebb)
+
 ## [6.9.13-6](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-5...6.9.13-6) - 2024-02-11
 
 ### Merged
