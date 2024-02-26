@@ -887,8 +887,8 @@ use:</p>
   </tr>
 
    <tr>
-    <td>pdf:thumbnail=<var>false</var></td>
-     <td>Skip writing a thumbnail when saving a PDF file.</td>
+    <td>pdf:thumbnail=<var>true</var></td>
+     <td>Generate thumbnails when saving a PDF file.</td>
   </tr>
 
   <tr>
