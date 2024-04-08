@@ -5,6 +5,60 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.13-8](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-7...6.9.13-8) - 2024-04-07
+
+### Merged
+
+- Bump azure/azure-code-signing-action from 0.3.0 to 0.3.1 [`#318`](https://github.com/ImageMagick/ImageMagick6/pull/318)
+- Bump actions/checkout from 3 to 4 [`#268`](https://github.com/ImageMagick/ImageMagick6/pull/268)
+- delete stray incorrect Unicode characters [`#312`](https://github.com/ImageMagick/ImageMagick6/pull/312)
+
+### Fixed
+
+- Use (PixelPacket *)NULL instead to resolve #319. [`#319`](https://github.com/ImageMagick/ImageMagick6/issues/319)
+
+### Commits
+
+- beta release [`6a29d86`](https://github.com/ImageMagick/ImageMagick6/commit/6a29d86ed26161ce4c9c6b97d94c48778b02fcf0)
+- just a template for now [`f89b135`](https://github.com/ImageMagick/ImageMagick6/commit/f89b13550d92571e15171ff78dbdbfc0fd391ec0)
+- documentation update [`fd1fb5c`](https://github.com/ImageMagick/ImageMagick6/commit/fd1fb5c13accbb48f9994a398079c0ee40904a71)
+- ... [`14e4ec3`](https://github.com/ImageMagick/ImageMagick6/commit/14e4ec31cb149ce290f494495656beb2f2b4c8b9)
+- latest documentation [`4eb3fc8`](https://github.com/ImageMagick/ImageMagick6/commit/4eb3fc864527b36ebbaa3c2e6dc65f8c21852a79)
+- eliminate rare memory leak [`3fb6732`](https://github.com/ImageMagick/ImageMagick6/commit/3fb6732268ba0ef6a067ed1613d807f08784dec6)
+- correct null reference [`cd6e105`](https://github.com/ImageMagick/ImageMagick6/commit/cd6e105068abbc5fa2dfd7d8d6284a8212385d35)
+- Removed unicode characters that were added by accident. [`3055105`](https://github.com/ImageMagick/ImageMagick6/commit/3055105cd4605a15104c0935d9b04760281e3ac9)
+- latest autoconf update [`c59d29a`](https://github.com/ImageMagick/ImageMagick6/commit/c59d29a5a6cab8940f7ac07268ec3987a7e70f71)
+- respect gradient:bounding-box define (https://github.com/ImageMagick/ImageMagick/issues/7143) [`3328513`](https://github.com/ImageMagick/ImageMagick6/commit/3328513da698edaf93cbcd7e3b2c020d2441fa2a)
+- threading issue with identifying grayscale (https://github.com/ImageMagick/ImageMagick/issues/7152) [`e4537ca`](https://github.com/ImageMagick/ImageMagick6/commit/e4537ca8c54df9a5d4a33feba5a071855ac767b6)
+- transient off-by-one [`907641b`](https://github.com/ImageMagick/ImageMagick6/commit/907641b7ba0b15d91fe0693548d3ada57c9388be)
+- update [`61878c7`](https://github.com/ImageMagick/ImageMagick6/commit/61878c771a40c1d7311d2048d8728a6b7f526447)
+- update [`e454822`](https://github.com/ImageMagick/ImageMagick6/commit/e4548225d384228dc5306ea6975105c49250e57f)
+- respect TIFF orientation tag (https://github.com/ImageMagick/ImageMagick/issues/7147) [`e4c6ce0`](https://github.com/ImageMagick/ImageMagick6/commit/e4c6ce012f564c2c98bfc05edcaf7d384156df4a)
+- revert [`a1de90f`](https://github.com/ImageMagick/ImageMagick6/commit/a1de90f73136b01a74fe6b888872200485de2ef6)
+- possible temporary pixel cache leak if resources exhausted (https://github.com/ImageMagick/ImageMagick/discussions/7167) [`8898a2b`](https://github.com/ImageMagick/ImageMagick6/commit/8898a2bb8ea452f6e8f245b4e95073ee24f3d7c9)
+- install perl module into user-specified prefix [`f665638`](https://github.com/ImageMagick/ImageMagick6/commit/f665638007d1f8627677a2c60ceda971c1d6cbb4)
+- do not round off density (https://github.com/ImageMagick/ImageMagick/issues/7203) [`235d2a0`](https://github.com/ImageMagick/ImageMagick6/commit/235d2a047201a75b670f0f6c1d53632a5ea491e6)
+- Moved include of OpenCL header files to opencl-private.h [`a966f95`](https://github.com/ImageMagick/ImageMagick6/commit/a966f95f57a95b40e37fed58b669b39ccc6cebd0)
+- Removed OpenCL includes. [`78ea689`](https://github.com/ImageMagick/ImageMagick6/commit/78ea6895b38f001f105ac166229aaf7f9a324e77)
+- Silence warnings that are raised when using a C++ compiler. [`fd0d176`](https://github.com/ImageMagick/ImageMagick6/commit/fd0d176c6d7186da79291782e8f1e859dddb7496)
+- Moved include to the correct file. [`5c71067`](https://github.com/ImageMagick/ImageMagick6/commit/5c7106702358da3aaa70ac843a95e3d37efc2467)
+- Switch from the ImageMagick-Windows6 repository to ImageMagick-Windows repository in the main build. [`f32a2c2`](https://github.com/ImageMagick/ImageMagick6/commit/f32a2c2e059aada8fe6aa19ca36731c324a31f0b)
+- Switch from the ImageMagick-Windows6 repository to ImageMagick-Windows repository in the daily build. [`bd6974f`](https://github.com/ImageMagick/ImageMagick6/commit/bd6974f790add0d7bbfa01164f5f65942d700035)
+- Also run daily build when the file is changed. [`decf5d1`](https://github.com/ImageMagick/ImageMagick6/commit/decf5d112fa6ee40a195d3f1b9bb86c733e22103)
+- Corrected path. [`fc6635c`](https://github.com/ImageMagick/ImageMagick6/commit/fc6635ce50282f37c5a2caf9557c2b3139b62b9b)
+- Switch from the ImageMagick-Windows6 repository to ImageMagick-Windows repository in the release build. [`9b181d1`](https://github.com/ImageMagick/ImageMagick6/commit/9b181d173bce19b2ce694d2301facbf2b3500847)
+- No longer redirect the output with inkscape because this causes issues on Windows. [`08178d7`](https://github.com/ImageMagick/ImageMagick6/commit/08178d7e2dbdd4069b1b261c454afd09e37cdd4b)
+- cosmetic [`03219a9`](https://github.com/ImageMagick/ImageMagick6/commit/03219a97d0046856816610e5b6de9f35a0486d8c)
+- release [`7013613`](https://github.com/ImageMagick/ImageMagick6/commit/70136130e2dbe02440a0570fb6ce8115af94f6cc)
+- release [`c4c16c1`](https://github.com/ImageMagick/ImageMagick6/commit/c4c16c186964f9ff1bd701cb447f4475b6d6f555)
+- Renamed workflow. [`0cad051`](https://github.com/ImageMagick/ImageMagick6/commit/0cad051c524783ff984a4d5fcc9b1990ae529eaa)
+- Corrected paths. [`72a0952`](https://github.com/ImageMagick/ImageMagick6/commit/72a0952a48b0d4dec569b11033957ed55fff6ec3)
+- Corrected clone of the repositories. [`e8b4e09`](https://github.com/ImageMagick/ImageMagick6/commit/e8b4e096ab31dc9123b7c25494682471608a480b)
+- Updated path. [`48bb363`](https://github.com/ImageMagick/ImageMagick6/commit/48bb363219f4af53371b917d992053b362d2d42b)
+- Renamed artifact. [`8c5f6a7`](https://github.com/ImageMagick/ImageMagick6/commit/8c5f6a7c5c8efd392390d54ea0c46c3501ee2847)
+- release (updated) [`5eb340a`](https://github.com/ImageMagick/ImageMagick6/commit/5eb340a1d14477429b756d039147d8a19ebe6d6b)
+- release (updated) [`99df1df`](https://github.com/ImageMagick/ImageMagick6/commit/99df1df3bc25843169032f672b737ad56b209715)
+
 ## [6.9.13-7](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-6...6.9.13-7) - 2024-02-25
 
 ### Commits
