@@ -5,6 +5,21 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.13-9](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-8...6.9.13-9) - 2024-04-21
+
+### Commits
+
+- beta release [`f27bd22`](https://github.com/ImageMagick/ImageMagick6/commit/f27bd22abe14a6782def42f6521aa7cd96cfcd89)
+- set perl install base to that of ImageMagick's [`ae55feb`](https://github.com/ImageMagick/ImageMagick6/commit/ae55feba3f47534a999fdc0c37e0ec0fb34231f1)
+- Corrected check for warning when png:compression-filter is invalid. [`b186009`](https://github.com/ImageMagick/ImageMagick6/commit/b186009c750a64541bf0d37d36c229a236f72e0a)
+- Code cleanup. [`5603953`](https://github.com/ImageMagick/ImageMagick6/commit/5603953779730ba283e6a9b50adfe65d7ec65817)
+- Call heif_context_set_maximum_image_size_limit to limit high dimensions earlier. [`c6824aa`](https://github.com/ImageMagick/ImageMagick6/commit/c6824aa8ddba9c89d393ddc159d93209e6c96e7e)
+- improved range checking (https://github.com/ImageMagick/ImageMagick/issues/6341) [`75ebd99`](https://github.com/ImageMagick/ImageMagick6/commit/75ebd9975f6ba8106ec15a6b3e6ba95f4c14e117)
+- check for value &lt; 0, ceil() not required (https://github.com/ImageMagick/ImageMagick/issues/6341) [`b72508c`](https://github.com/ImageMagick/ImageMagick6/commit/b72508c8fce196cd031856574c202490be830649)
+- fix undefined behaviors when casting double to size_t (https://github.com/ImageMagick/ImageMagick/issues/6341) [`8878996`](https://github.com/ImageMagick/ImageMagick6/commit/88789966667b748f14a904f8c9122274810e8a3e)
+- use a different path for positive and negative values [`bc5ac19`](https://github.com/ImageMagick/ImageMagick6/commit/bc5ac19bd93895e5c6158aad0d8e49a0c50b0ebb)
+- release [`e637df3`](https://github.com/ImageMagick/ImageMagick6/commit/e637df3251e117bff4aa6044301f725ab2fd5625)
+
 ## [6.9.13-8](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-7...6.9.13-8) - 2024-04-07
 
 ### Merged
