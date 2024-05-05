@@ -5,6 +5,24 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.13-10](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-9...6.9.13-10) - 2024-05-05
+
+### Commits
+
+- beta release [`8f6186e`](https://github.com/ImageMagick/ImageMagick6/commit/8f6186e4e4df5a0c18b2f64ade6cdd4f44113300)
+- use &gt;= instead to work around precision limitations of a double. [`3252d47`](https://github.com/ImageMagick/ImageMagick6/commit/3252d4771ff1142888ba83c439588969fcea98e4)
+- forgot to cast double to unsigned int [`be15ac9`](https://github.com/ImageMagick/ImageMagick6/commit/be15ac962dea19536be1009d157639030fc42be9)
+- protect backslash write writing properties to MIFF (https://github.com/ImageMagick/ImageMagick/issues/7270) [`7a77955`](https://github.com/ImageMagick/ImageMagick6/commit/7a779557f28497c9e53322674ca5bdf85681bc8e)
+- Added version checks for itxt_length in the png coder. [`4d6b920`](https://github.com/ImageMagick/ImageMagick6/commit/4d6b920cfea41467a1179e8a53a66b3d6f8438dc)
+- Switch to macos-13. [`4c8223d`](https://github.com/ImageMagick/ImageMagick6/commit/4c8223d62f3d8908dadfab606540cc260f17cdd9)
+- Also check the limits for the width and height of the reference grid. [`ea5f7d1`](https://github.com/ImageMagick/ImageMagick6/commit/ea5f7d139143da5fd09a057890493d90cce2dee6)
+- respect gradient bounding box [`4ebd314`](https://github.com/ImageMagick/ImageMagick6/commit/4ebd3147dac35df834557ab49c621b6d18492812)
+- eliminate compiler warnings [`4b09bdd`](https://github.com/ImageMagick/ImageMagick6/commit/4b09bddeabb0f762506ff9ee7e30b8bb1b58d1fe)
+- restore ImageMagick RPM build [`e24db93`](https://github.com/ImageMagick/ImageMagick6/commit/e24db9329203eafea54c872188909a4a37d60dca)
+- revert [`147fbb4`](https://github.com/ImageMagick/ImageMagick6/commit/147fbb4962a1f6ae5a8736e4db8b5a1c42b56b54)
+- restore PerlMagick build [`599df37`](https://github.com/ImageMagick/ImageMagick6/commit/599df37ba89ba6393b9e5b5cf6de919a1b61bd0e)
+- release [`fecc7d0`](https://github.com/ImageMagick/ImageMagick6/commit/fecc7d0f0c2b13878173a9cb31a6677133b4742c)
+
 ## [6.9.13-9](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-8...6.9.13-9) - 2024-04-21
 
 ### Commits
