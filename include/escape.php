@@ -536,7 +536,7 @@ $_SESSION['RelativePath']?>/../script/command-line-options.php#comment"
 $_SESSION['RelativePath']?>/../script/command-line-options.php#caption"
 >-caption</a>). </p>
 
-<p>These convenience options are globally saved (as 'global options' so thay can
+<p>These convenience options are globally saved (as 'global options' so they can
 be set before images are read), and later are transferred to the property of
 individual images, only when they are read in. At that time any internal
 percent escape present is then handled. </p>

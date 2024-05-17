@@ -87,7 +87,7 @@
 
 <p>These extensions are explained in the next few paragraphs.</p>
 
-<p>Note, by default, if a command-line option is also a filename (e.g., <samp>-quality</samp>), it is intrepetted as a filename.  Use <samp>-define registry:option:pedantic=true</samp> to instead interpret it as an option. </p>
+<p>Note, by default, if a command-line option is also a filename (e.g., <samp>-quality</samp>), it is interpreted as a filename.  Use <samp>-define registry:option:pedantic=true</samp> to instead interpret it as an option. </p>
 
 <h4>Filename Globbing</h4>
 <p>In Linux shells, certain characters such as the asterisk (<code>*</code>) and question mark (<code>?</code>) automagically cause lists of filenames to be generated based on pattern matches. This feature is known as globbing.  ImageMagick supports filename globbing for systems, such as Windows, that does not natively support it.  For example, suppose you want to convert <code>1.jpg</code>, <code>2.jpg</code>, <code>3.jpg</code>, <code>4.jpg</code>, and <code>5.jpg</code> in your current directory to a GIF animation.  You can conveniently  refer to all of the JPEG files with this command:
@@ -182,7 +182,7 @@ In a Windows command shell the brackets are not interpreted but using quotes doe
 <pre class="bg-light text-dark mx-4"><code>convert -size 6000x4000 -depth 8 -extract 600x400+1900+2900 rgb:image image.jpg</code></pre>
 
 <h4>Inline Image Resize</h4>
-<p>It is sometimes convenient to resize an image as they are read.  Suppose you have hundreds of large JPEG images you want to convert to a sequence of PNG thumbails:
+<p>It is sometimes convenient to resize an image as they are read.  Suppose you have hundreds of large JPEG images you want to convert to a sequence of PNG thumbnails:
 </p>
 
 <pre class="bg-light text-dark mx-4"><code>convert '*.jpg' -resize 120x120 thumbnail%03d.png</code></pre>
@@ -195,7 +195,7 @@ is read:
 <pre class="bg-light text-dark mx-4"><code>convert '*.jpg[120x120]' thumbnail%03d.png</code></pre>
 
 <h4>Inline Image Crop</h4>
-<p>It is sometimes convenient to crop an image as they are read.  Suppose you have hundreds of large JPEG images you want to convert to a sequence of PNG thumbails:
+<p>It is sometimes convenient to crop an image as they are read.  Suppose you have hundreds of large JPEG images you want to convert to a sequence of PNG thumbnails:
 </p>
 
 <pre class="bg-light text-dark mx-4"><code>convert '*.jpg' -crop 120x120+10+5 thumbnail%03d.png</code></pre>

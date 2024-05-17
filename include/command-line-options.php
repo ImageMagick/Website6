@@ -542,9 +542,9 @@ will be mixed together, resulting in larger areas of semi-equal color.</p>
 
 <p>The spatial sigma is in the coordinate space. A larger value means that
 farther pixels influence each other as long as their colors are close
-enough (see intensity-sigma ). When the neigborhood diameter is greater
+enough (see intensity-sigma ). When the neighborhood diameter is greater
 than zero, it specifies the neighborhood size regardless of
-spatial-sigma. Otherwise, the neigborhood diameter is proportional to
+spatial-sigma. Otherwise, the neighborhood diameter is proportional to
 spatial-sigma.</p>
 <p>The default value for the intensity and spatial sigmas are <var>0.75*diameter</var> and <var>0.25*diameter</var> respectively.</p>
 
@@ -1022,7 +1022,7 @@ href="#splice">-splice</a> that was given the same <var>geometry</var> and <a hr
 </div>
 
 <p class="magick-description">Contrast limited adaptive histogram equalization.</p>
-<p> The image is divided into tiles of <var>width</var> and <var>height</var> pixels.  Append <code>%</code> to define the width and height as percentages of the image's dimensions. The tile size should be larger than the size of features to be preserved and respects the aspect ratio of the image.  Add <code>!</code> to force an exact tile width and height. <var>number-bins</var> is the number of histogram bins per tile (min 2, max 65536).  The number of histogram bins should be smaller than the number of pixels in a single tile. <var>clip-limit</var> is the contrast limit for localized changes in contrast. A clip-limit of 2 to 3 is a good starting place (e.g. -clahe 50x50%+128+3).  Very large values will let the histogram equalization do whatever it wants to do, that is result in maximal local contrast. The value 1 will result in the original image.  Note, if the number of bins and the clip-limit are ommitted, they default to 128 and no clipping respectively.</p>
+<p> The image is divided into tiles of <var>width</var> and <var>height</var> pixels.  Append <code>%</code> to define the width and height as percentages of the image's dimensions. The tile size should be larger than the size of features to be preserved and respects the aspect ratio of the image.  Add <code>!</code> to force an exact tile width and height. <var>number-bins</var> is the number of histogram bins per tile (min 2, max 65536).  The number of histogram bins should be smaller than the number of pixels in a single tile. <var>clip-limit</var> is the contrast limit for localized changes in contrast. A clip-limit of 2 to 3 is a good starting place (e.g. -clahe 50x50%+128+3).  Very large values will let the histogram equalization do whatever it wants to do, that is result in maximal local contrast. The value 1 will result in the original image.  Note, if the number of bins and the clip-limit are omitted, they default to 128 and no clipping respectively.</p>
 
 
 <div style="margin: auto;">
@@ -2744,7 +2744,7 @@ than 1.png).</p>
 <p>Drawing primitives conform to the <a href="<?php echo
 $_SESSION['RelativePath'] ?>/../script/magick-vector-graphics.php" >Magick
 Vector Graphics</a> format.</p>
-<p>Note, drawing requires an alpha channel.  If none is available, an all opaque alpha channel is implicitedly created.</p>
+<p>Note, drawing requires an alpha channel.  If none is available, an all opaque alpha channel is implicitly created.</p>
 
 
 <div style="margin: auto;">
@@ -4165,7 +4165,7 @@ grayscale difference image between two color images (using <a href="#compose"
 >-compose</a> '<code>Difference</code>' composition. </p>
 
 <p> For example The 'MS' (Mean Squared) setting is good for minimizing color
-error comparisions.  While...  The method 'RMS' (Root Mean Squared) for
+error comparisons.  While...  The method 'RMS' (Root Mean Squared) for
 example is appropriate for calculating color vector distance, from a color
 difference image.  This is equivalent to the color only component of the <a
 href="#fuzz" >-fuzz</a> factor color compare setting.  </p>
@@ -5513,7 +5513,7 @@ orientation</a> option.</p>
 href="#page">-page</a> <code>Letter+43+43</code>).</p>
 
 <p>Use <var>media</var> as shorthand to specify the dimensions (<var>width</var>x<var>height</var>) of the <var>PostScript</var> page in dots per inch or a TEXT page in pixels.
-The choices for paper sizes are: <code>4x6</code>, <code>5x7</code>, <code>7x9</code>, <code>8x10</code>, <code>9x11</code>, <code>9x12</code>, <code>10x13</code>, <code>10x14</code>, <code>11x17</code>, <code>4A0</code>, <code>2A0</code>, <code>a0</code>, <code>a1</code>, <code>a2</code>, <code>a3</code>, <code>a4</code>, <code>a4small</code>, <code>a5</code>, <code>a6</code>, <code>a7</code>, <code>a8</code>, <code>a9</code>, <code>a10</code>, <code>archa</code>, <code>archb</code>, <code>archC</code>, <code>archd</code>, <code>arche</code>, <code>b0</code>, <code>b1</code>, <code>b10</code>, <code>b2</code>, <code>b3</code>, <code>b4</code>, <code>b5</code>, <code>b6</code>, <code>b7</code>, <code>b8</code>, <code>b9</code>, <code>c0</code>, <code>c1</code>, <code>c2</code>, <code>c3</code>, <code>c4</code>, <code>c5</code>, <code>c6</code>, <code>c7</code>, <code>csheet</code>, <code>dsheet</code>, <code>esheet</code>, <code>executive</code>, <code>flsa</code>, <code>flse</code>, <code>folio</code>, <code>halfletter</code>, <code>isob0</code>, <code>isob1</code>, <code>isob10</code>, <code>isob2</code>, <code>isob3</code>, <code>isob4</code>, <code>isob5</code>, <code>isob6</code>, <code>isob7</code>, <code>isob8</code>, <code>isob9</code>, <code>jisb0</code>, <code>jisb1</code>, <code>jisb2</code>, <code>jisb3</code>, <code>jisb4</code>, <code>jisb5</code>, <code>jisb6</code>, <code>ledger</code>, <code>legal</code>, <code>letter</code>, <code>lettersmall</code>, <code>monarch</code>, <code>quarto</code>, <code>statement</code>, <code>tabloid</code>. To determine the cooresponding size in pixels at 72DPI, use this command for example:</p>
+The choices for paper sizes are: <code>4x6</code>, <code>5x7</code>, <code>7x9</code>, <code>8x10</code>, <code>9x11</code>, <code>9x12</code>, <code>10x13</code>, <code>10x14</code>, <code>11x17</code>, <code>4A0</code>, <code>2A0</code>, <code>a0</code>, <code>a1</code>, <code>a2</code>, <code>a3</code>, <code>a4</code>, <code>a4small</code>, <code>a5</code>, <code>a6</code>, <code>a7</code>, <code>a8</code>, <code>a9</code>, <code>a10</code>, <code>archa</code>, <code>archb</code>, <code>archC</code>, <code>archd</code>, <code>arche</code>, <code>b0</code>, <code>b1</code>, <code>b10</code>, <code>b2</code>, <code>b3</code>, <code>b4</code>, <code>b5</code>, <code>b6</code>, <code>b7</code>, <code>b8</code>, <code>b9</code>, <code>c0</code>, <code>c1</code>, <code>c2</code>, <code>c3</code>, <code>c4</code>, <code>c5</code>, <code>c6</code>, <code>c7</code>, <code>csheet</code>, <code>dsheet</code>, <code>esheet</code>, <code>executive</code>, <code>flsa</code>, <code>flse</code>, <code>folio</code>, <code>halfletter</code>, <code>isob0</code>, <code>isob1</code>, <code>isob10</code>, <code>isob2</code>, <code>isob3</code>, <code>isob4</code>, <code>isob5</code>, <code>isob6</code>, <code>isob7</code>, <code>isob8</code>, <code>isob9</code>, <code>jisb0</code>, <code>jisb1</code>, <code>jisb2</code>, <code>jisb3</code>, <code>jisb4</code>, <code>jisb5</code>, <code>jisb6</code>, <code>ledger</code>, <code>legal</code>, <code>letter</code>, <code>lettersmall</code>, <code>monarch</code>, <code>quarto</code>, <code>statement</code>, <code>tabloid</code>. To determine the corresponding size in pixels at 72DPI, use this command for example:</p>
 <ul><p class="bg-light text-dark mx-4"><code>convert xc: -format "%[papersize:a4]" info:</code></pre></ul>
 
 <p>This option is also used to place subimages when writing to a multi-image

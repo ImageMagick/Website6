@@ -25,7 +25,7 @@ Access</a> </li>
 a single image frame (see <a href="ImageDesign.html">design</a> ). The
 <a href="STL.html">STL interface</a> <b>must</b> be used to operate on
 image sequences or images (e.g. of format GIF, TIFF, MIFF, Postscript,
-&amp; MNG) which are comprized of multiple image frames. Individual
+&amp; MNG) which are comprised of multiple image frames. Individual
 frames of a multi-frame image may be requested by adding array-style
 notation to the end of the file name (e.g. "animation.gif[3]" retrieves
 the fourth frame of a GIF animation.&#160; Various image manipulation
@@ -66,7 +66,7 @@ int main(int argc,char **argv)
 { 
   InitializeMagick(*argv);
 
-  // Construct the image object. Seperating image construction from the 
+  // Construct the image object. Separating image construction from the 
   // the read operation ensures that a failure to read the image file 
   // doesn't render the image object useless. 
   Image image;
@@ -90,7 +90,7 @@ int main(int argc,char **argv)
 </pre>
 The following is the source to a program which illustrates the use of
 Magick++'s efficient reference-counted assignment and copy-constructor
-operations which minimize use of memory and eliminate unncessary copy
+operations which minimize use of memory and eliminate unnecessary copy
 operations (allowing Image objects to be efficiently assigned, and
 copied into containers).&#160; The program accomplishes the
 following:
@@ -373,7 +373,7 @@ height, size_t offset = 0<br />
 the image. Adaptive thresholding is useful if the ideal threshold level
 is not known in advance, or if the illumination gradient is not
 constant
-across the image. Adaptive thresholding works by evaulating the mean
+across the image. Adaptive thresholding works by evaluating the mean
 (average) of a pixel region (size specified by <i>width</i> and <i>height</i>)
 and using the mean as the thresholding value. In order to remove
 residual noise from the background, the threshold may be adjusted by
@@ -609,7 +609,7 @@ in image)</font></td>
       <center><a name="convolve"></a> <font size="-1">convolve</font></center>
       </td>
       <td><font size="-1">size_t order_, const double *kernel_</font></td>
-      <td><font size="-1">Convolve image.&#160; Applies a user-specfied
+      <td><font size="-1">Convolve image.&#160; Applies a user-specified
 convolution to the image. The <i>order_</i> parameter represents the
 number of columns and rows in the filter kernel, and <i>kernel_</i>
 is a two-dimensional array of doubles representing the convolution
@@ -653,7 +653,7 @@ altered. Use a copy of the original if this is a problem.</font></td>
       <center><a name="distort"></a> <font size="-1">distort</font></center>
       </td>
       <td><font size="-1">const DistortImageMethod method, const size_t number_arguments, const double *arguments, const bool bestfit = false </font></td>
-      <td><font size="-1">Distort image.&#160; Applies a user-specfied
+      <td><font size="-1">Distort image.&#160; Applies a user-specified
 distortion to the image.</font></td>
     </tr>
     <tr>
@@ -1047,7 +1047,7 @@ specified blur factor. The radius_ parameter specifies the radius of
 the Gaussian, in pixels, not counting the center pixel.&#160; The
 sigma_ parameter specifies the standard deviation of the Laplacian, in
 pixels. The angle_ parameter specifies the angle the object appears to
-be comming from (zero degrees is from the right).<br />
+be coming from (zero degrees is from the right).<br />
       </small></td>
     </tr>
     <tr>
@@ -1159,7 +1159,7 @@ an image to give a 3-D raised or lowered effect)</font></td>
       <td><font size="-1">const <a href="Geometry.html">Geometry</a>
 &amp;size_, const std::string &amp;imageSpec_</font></td>
       <td><font size="-1">Read image of specified size into current
-object. This form is useful for images that do not specifiy their size
+object. This form is useful for images that do not specify their size
 or to specify a size hint for decoding an image. For example, when
 reading a Photo CD, JBIG, or JPEG image, a size request causes the
 library to return an image which is the next resolution greater or
@@ -1286,7 +1286,7 @@ but restricted to the specified channel.<br />
       </td>
       <td><font size="-1">int columns_, ssize_t rows_</font></td>
       <td><font size="-1">Roll image (rolls image vertically and
-horizontally) by specified number of columnms and rows)</font></td>
+horizontally) by specified number of columns and rows)</font></td>
     </tr>
     <tr>
       <td style="text-align: center;">
@@ -2055,7 +2055,7 @@ composition is implicitly used (such as for image flattening).</font></td>
       <td><small><font size="-1"><small><a
  href="Enumerations.html#CompressionType">CompressionType</a>
 compressType_</small></font></small></td>
-      <td><font size="-1">Image compresion type. The default is the
+      <td><font size="-1">Image compression type. The default is the
 compression type of the specified image file.</font></td>
     </tr>
     <tr>

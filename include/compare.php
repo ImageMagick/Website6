@@ -6,7 +6,7 @@
 
 <h2><a class="anchor" id="usage"></a>Example Usage</h2>
 
-<p>We list a few examples of the <code>compare</code> command here to illustrate its usefulness and ease of use. To get started, lets compare an image to one thats been sharpened:</p>
+<p>We list a few examples of the <code>compare</code> command here to illustrate its usefulness and ease of use. To get started, lets compare an image to one that's been sharpened:</p>
 
 <pre class="bg-light text-dark mx-4"><code>convert rose.jpg -sharpen 0x1 reconstruct.jpg
 compare rose.jpg reconstruct.jpg difference.png
