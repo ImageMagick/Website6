@@ -5,6 +5,42 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.13-11](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-10...6.9.13-11) - 2024-05-25
+
+### Commits
+
+- beta release [`e7e4c01`](https://github.com/ImageMagick/ImageMagick6/commit/e7e4c011e6166113c3af7423c922286fc974261d)
+- Set the parameters to NAN inside GetImageChannelMean when GetImageChannelStatistics returns null. [`2605fc7`](https://github.com/ImageMagick/ImageMagick6/commit/2605fc79bbc0759a528e643c70c5a7fa79b978c6)
+- avoid text truncation for captions (https://github.com/ImageMagick/ImageMagick/issues/7304) [`78139cf`](https://github.com/ImageMagick/ImageMagick6/commit/78139cfd61e64f8300126c2bedac40e0d396ce04)
+- return artifacts, not properties (https://github.com/ImageMagick/ImageMagick/issues/7309) [`e7ead21`](https://github.com/ImageMagick/ImageMagick6/commit/e7ead215434b8b2dbea20592c039ef02cdd176da)
+- ensure effect with opacity in draw operator [`7a6485b`](https://github.com/ImageMagick/ImageMagick6/commit/7a6485bd1f65974cb9322ee4aca3fa19dc20130d)
+- eliminate compiler error [`d04f037`](https://github.com/ImageMagick/ImageMagick6/commit/d04f037218200c29d468e4bebf9544a3f4027adf)
+- eliminate compiler errors [`84fb765`](https://github.com/ImageMagick/ImageMagick6/commit/84fb7652538f10b892eb65c26bac6983ff55578a)
+- add utime header [`6816242`](https://github.com/ImageMagick/ImageMagick6/commit/68162429b47c9b217bd64f9250fb38f64b050ede)
+- correct spelling (https://github.com/ImageMagick/Website/discussions/100) [`aafb1db`](https://github.com/ImageMagick/ImageMagick6/commit/aafb1db6992f727e64897a77bba604653886002a)
+- alpha channel if alpha mask or 32-bit uncompressed [`11587ef`](https://github.com/ImageMagick/ImageMagick6/commit/11587ef70dad6a34a200eccbbda29d39cf30f5df)
+- Switch to federated credential with Trusted Signing. [`368f39f`](https://github.com/ImageMagick/ImageMagick6/commit/368f39fb7d1c1aa42c3c35b4645b5ff7b8fbbb09)
+- Corrected name of the action. [`2f24a28`](https://github.com/ImageMagick/ImageMagick6/commit/2f24a287c2a67bda6f6a82813e7ed7ba25a639e8)
+- Skip Azure CLI login in pull requests. [`6ca317c`](https://github.com/ImageMagick/ImageMagick6/commit/6ca317c24dd752240c9f14953744ded9420f67d4)
+- Removed bits_per_pixel from IconInfo. [`0020409`](https://github.com/ImageMagick/ImageMagick6/commit/002040905a3a12c2ab91e93c9579ba9961cbe4e8)
+- Removed planes from IconInfo. [`5e53f0f`](https://github.com/ImageMagick/ImageMagick6/commit/5e53f0fc6db36a90f68c2de08ca55076ceae20d3)
+- Removed size from IconInfo. [`1a94c97`](https://github.com/ImageMagick/ImageMagick6/commit/1a94c97efbbcd7ef37f0ae2c8c4a7d9b112ecc3f)
+- Removed number_colors from IconInfo. [`2f8110c`](https://github.com/ImageMagick/ImageMagick6/commit/2f8110c3b4ba83ec0b297432907b7016b13150bc)
+- Removed colors_important from IconInfo. [`e8a6d3f`](https://github.com/ImageMagick/ImageMagick6/commit/e8a6d3f93bb66fd6d0441cf6af7fc30f70daa823)
+- Removed width and height from IconInfo. [`b7cf7d0`](https://github.com/ImageMagick/ImageMagick6/commit/b7cf7d0474fa96a432600912bf9cf504d9094d30)
+- Removed x_pixels and y_pixels from IconInfo. [`ed843f9`](https://github.com/ImageMagick/ImageMagick6/commit/ed843f98fa057bc937540d1e64cc06de1eb90084)
+- Removed image_size from IconInfo. [`7df3950`](https://github.com/ImageMagick/ImageMagick6/commit/7df3950c03e269ffb1df990bb0e6db4031efecda)
+- Removed compression from IconInfo. [`1947b4e`](https://github.com/ImageMagick/ImageMagick6/commit/1947b4efa5f4cf5539bf8e082d9061b03cdeb2de)
+- Removed IconInfo struct [`0945402`](https://github.com/ImageMagick/ImageMagick6/commit/0945402304e0ac27398fa493f1438f65211f14b8)
+- Removed reserved and resource_type from IconFile. [`ed30832`](https://github.com/ImageMagick/ImageMagick6/commit/ed30832a945201ad38bc24ba3dac259fe8fe6c04)
+- No longer allocate 1024 icon entries for all images. [`2439753`](https://github.com/ImageMagick/ImageMagick6/commit/24397534f7c5694840bd6b70bf2d16efe7382b5c)
+- Moved AutoResizeImage method closer to the write method. [`57eae13`](https://github.com/ImageMagick/ImageMagick6/commit/57eae13b4e473bab9c1cdb8a1a0ee9fb4eccf20c)
+- Moved determining the width and height of an icon to a separate method. [`3e19ea7`](https://github.com/ImageMagick/ImageMagick6/commit/3e19ea70e8b6108c8937f2ad6355dc9a99b91103)
+- Fixed method that determines the width and height of an icon (https://github.com/ImageMagick/ImageMagick/issues/7341) [`a0fa6b3`](https://github.com/ImageMagick/ImageMagick6/commit/a0fa6b38bf8893637341d0b0e9bb20fe3219683e)
+- Added missing typecast. [`f4415f8`](https://github.com/ImageMagick/ImageMagick6/commit/f4415f8672dacdb543172043e4055e0ba5a5a5ea)
+- Removed unused variables. [`f8b0247`](https://github.com/ImageMagick/ImageMagick6/commit/f8b02477f97323927e1a0e19003540c0f44a804c)
+- release [`b9bdd02`](https://github.com/ImageMagick/ImageMagick6/commit/b9bdd0299b76b7e74577b875db3d006fdd68d2d4)
+
 ## [6.9.13-10](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-9...6.9.13-10) - 2024-05-05
 
 ### Commits
