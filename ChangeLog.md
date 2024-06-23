@@ -5,6 +5,27 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.13-12](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-11...6.9.13-12) - 2024-06-23
+
+### Merged
+
+- Bump azure/trusted-signing-action from 0.3.19 to 0.3.20 [`#325`](https://github.com/ImageMagick/ImageMagick6/pull/325)
+- Bump azure/trusted-signing-action from 0.3.18 to 0.3.19 [`#324`](https://github.com/ImageMagick/ImageMagick6/pull/324)
+
+### Commits
+
+- beta release [`5447874`](https://github.com/ImageMagick/ImageMagick6/commit/5447874c46959a15399d2fc657fd6a0b6d734027)
+- cosmetic [`9c4f8b4`](https://github.com/ImageMagick/ImageMagick6/commit/9c4f8b4c5d85162600f2751ec8cce3a387f59376)
+- The solution name of Windows now contains the name of the platform. [`7ec9b7c`](https://github.com/ImageMagick/ImageMagick6/commit/7ec9b7c97c2ff3b1a966349f00b32aad35dfcde5)
+- Correct overwriting read_info-&gt;filename to make sure we don't leave temporary files behind. [`b80fc13`](https://github.com/ImageMagick/ImageMagick6/commit/b80fc138808fafd238de9bc8c78b2ff00c34385a)
+- No longer pass the commit when cloning the repositories in the Windows build. [`545d71c`](https://github.com/ImageMagick/ImageMagick6/commit/545d71cea4a3fd5d1a9b1610232c7e6d9ed2a22a)
+- Corrected setting the offset for the seek operation to fix issue when reading xbm files with information between the width/height define and data. [`38b0c24`](https://github.com/ImageMagick/ImageMagick6/commit/38b0c2427e2e98c34ed36b9e5548fb35708dbc34)
+- fix boundary condition when resampling pixel color (https://github.com/ImageMagick/ImageMagick/issues/7415) [`31de111`](https://github.com/ImageMagick/ImageMagick6/commit/31de111060967fa95ba062fe5e31b2b53709af3f)
+- only enable the alpha channel when the compression is BI_BITFIELDS or BI_ALPHABITFIELDS [`19329fb`](https://github.com/ImageMagick/ImageMagick6/commit/19329fb56278e6f4221c7214fa5d56bdf95fce4c)
+- Report error when the input file does not contain enough data. [`d2ed967`](https://github.com/ImageMagick/ImageMagick6/commit/d2ed96792f88f57279c31b539fba296e7e3269b4)
+- restore sparse pixel reading [`510d898`](https://github.com/ImageMagick/ImageMagick6/commit/510d8980b3c6287d8962a65fb2ca189d210bc108)
+- release [`c35a0b7`](https://github.com/ImageMagick/ImageMagick6/commit/c35a0b705fa3a4fea4a6a7a476b9ef1553d3ce10)
+
 ## [6.9.13-11](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-10...6.9.13-11) - 2024-05-25
 
 ### Commits
