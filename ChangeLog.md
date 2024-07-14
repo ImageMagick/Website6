@@ -5,6 +5,23 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.13-13](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-12...6.9.13-13) - 2024-07-14
+
+### Merged
+
+- Fixed typo in README.md [`#328`](https://github.com/ImageMagick/ImageMagick6/pull/328)
+
+### Commits
+
+- beta release [`3a5f770`](https://github.com/ImageMagick/ImageMagick6/commit/3a5f770778f01cb6546de71daa0ff79a3de745c3)
+- -outdir deprecated [`3b1c399`](https://github.com/ImageMagick/ImageMagick6/commit/3b1c399c60cbd896f9e08544eeddcdccd30b582a)
+- exit early when the symlink can not be created when invoking the SVG decode delegate [`27bfec9`](https://github.com/ImageMagick/ImageMagick6/commit/27bfec9abe4d040612595605cb66f9c7d8238284)
+- Changes due to upgrade of libheif. [`87762c2`](https://github.com/ImageMagick/ImageMagick6/commit/87762c287b4e76c85dce6e06cf9579e538e9e0ff)
+- eliminate compiler warning [`6469cdf`](https://github.com/ImageMagick/ImageMagick6/commit/6469cdf78a1fa554bb3d51e2a54013faca733136)
+- changed defines to use method instead of a define [`7da103e`](https://github.com/ImageMagick/ImageMagick6/commit/7da103ed3dd81f1ab9720befc67407bbfc5cbfed)
+- smooth the rendering of an ellipse (https://github.com/ImageMagick/ImageMagick/issues/7465) [`aae4ed7`](https://github.com/ImageMagick/ImageMagick6/commit/aae4ed7b22654f6b73708ad58509f2f1c96194fd)
+- release [`7c236a2`](https://github.com/ImageMagick/ImageMagick6/commit/7c236a2b2f6395442b1268e4ac7101c083ff51eb)
+
 ## [6.9.13-12](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-11...6.9.13-12) - 2024-06-23
 
 ### Merged
