@@ -5,6 +5,24 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.13-14](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-13...6.9.13-14) - 2024-07-27
+
+### Commits
+
+- beta release [`2ebf5b1`](https://github.com/ImageMagick/ImageMagick6/commit/2ebf5b1dd82467435f03c08504522c6078feaeac)
+- only request a unique file name when system:shred is not set [`97937f1`](https://github.com/ImageMagick/ImageMagick6/commit/97937f1ac979dd7e9e689080886ab7b4ba40f795)
+- correct link [`a3d48b0`](https://github.com/ImageMagick/ImageMagick6/commit/a3d48b0a4968646fb3549a10c28ff357447615d4)
+- The -format option is hybrid operator and info operator [`ddfb260`](https://github.com/ImageMagick/ImageMagick6/commit/ddfb2600206ddd33b5f00badbdf7d92c7c819d1e)
+- cosmetic [`a9297a8`](https://github.com/ImageMagick/ImageMagick6/commit/a9297a8db1207f11234b87ffc6085d538662d4cf)
+- bounds check [`5bbdfe2`](https://github.com/ImageMagick/ImageMagick6/commit/5bbdfe241145b537e4ff83761e2ecdcd2798fc6a)
+- set image orientation on write [`b842e3a`](https://github.com/ImageMagick/ImageMagick6/commit/b842e3ae5c4727c1a8185a488785401f1206b68e)
+- always "ping" for -format option [`4e47a94`](https://github.com/ImageMagick/ImageMagick6/commit/4e47a944e673db9ff03551ec0abd3379dc672d00)
+- Ignore the fact that the profile could not be added to the image. [`3bf3744`](https://github.com/ImageMagick/ImageMagick6/commit/3bf37444caa6ae56e561341e28aa7a2b0079f732)
+- Also allow tiff:assume-alpha when there is more than one meta channel. [`12b6f52`](https://github.com/ImageMagick/ImageMagick6/commit/12b6f52ff50c2d05113ba52661b921f407258d91)
+- interpret EMF documents under Linux [`5e1f86a`](https://github.com/ImageMagick/ImageMagick6/commit/5e1f86a1527977edf3c9e0bdf97724466603eec4)
+- include WMF delegate [`5239051`](https://github.com/ImageMagick/ImageMagick6/commit/5239051059721d271052a88715a1accecc9c3e62)
+- release [`1a0ad7d`](https://github.com/ImageMagick/ImageMagick6/commit/1a0ad7d13aa1eda25fbf6dd87f13ae514036a782)
+
 ## [6.9.13-13](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-12...6.9.13-13) - 2024-07-14
 
 ### Merged
