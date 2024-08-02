@@ -11,6 +11,8 @@
 <pre class="bg-light text-dark mx-4"><code>import rose.jpg
 </code></pre>
 
+<p>To select the area you want to capture, move the cursor to the desired window and click the left mouse button. To cancel the capture, click the right mouse button.</p>
+
 <p>To capture the entire X server screen in the Postscript image format:</p>
 
 <pre class="bg-light text-dark mx-4"><code>import -window root screen.ps
