@@ -5,6 +5,32 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.13-15](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-14...6.9.13-15) - 2024-08-24
+
+### Merged
+
+- Bump azure/trusted-signing-action from 0.3.20 to 0.4.0 [`#334`](https://github.com/ImageMagick/ImageMagick6/pull/334)
+
+### Commits
+
+- beta release [`6557505`](https://github.com/ImageMagick/ImageMagick6/commit/655750564a7451bf0d036c598497b996c8ada242)
+- read/write in chunks [`16bf20f`](https://github.com/ImageMagick/ImageMagick6/commit/16bf20fad4faa9182d633d1833756c38c72e6ff4)
+- optimize fwrite() arguments [`16f9632`](https://github.com/ImageMagick/ImageMagick6/commit/16f9632df6593b29d55409ef4fadc89a2deed049)
+- Renamed Output folder to Artifacts. [`22fa358`](https://github.com/ImageMagick/ImageMagick6/commit/22fa358db0b750e863b13f418460fadc24e27a1a)
+- cancel interactive window selection with right button press [`39f08e4`](https://github.com/ImageMagick/ImageMagick6/commit/39f08e42a1889c0a6f9cf1ae2430158efa2137d1)
+- Make images mandatory. [`6e8cf41`](https://github.com/ImageMagick/ImageMagick6/commit/6e8cf412faf4af43683c7a5537eec21b8daf715f)
+- allow SeekBlob() to set an offset beyond the end of the blob [`677695f`](https://github.com/ImageMagick/ImageMagick6/commit/677695f7b73833139a92203ac18f59645870b268)
+- be less forgiving for invalid image indexes [`93b0872`](https://github.com/ImageMagick/ImageMagick6/commit/93b08726b47032caa09a44b83641e2790d5498d3)
+- Fixed problem with empty macros. [`09994d9`](https://github.com/ImageMagick/ImageMagick6/commit/09994d98d20b3617a7cc39fe25285086fd1f2d33)
+- Removed duplicate statement. [`5187fad`](https://github.com/ImageMagick/ImageMagick6/commit/5187fade4e36ff6cb12b7edc718d319a0883fa0a)
+- Corrected gamma multiplication to resolve the issue reported in #335. [`a016cb7`](https://github.com/ImageMagick/ImageMagick6/commit/a016cb7bafb5a813db278f5a9c2f43b666c6a4f4)
+- Fixed build. [`aa27bf0`](https://github.com/ImageMagick/ImageMagick6/commit/aa27bf048e6b109f6babd51851f8bcc72b1685b6)
+- minimum TIFF delegate library is version 4 [`d0b6b48`](https://github.com/ImageMagick/ImageMagick6/commit/d0b6b4815e0c2ac77ea6e5dc14f67f425c0cfc47)
+- suppress fx: exception [`61415c8`](https://github.com/ImageMagick/ImageMagick6/commit/61415c824139da55d7f369fc1402112fa58ecbea)
+- release [`86d55c7`](https://github.com/ImageMagick/ImageMagick6/commit/86d55c7a4743fc68ebb8e6aa5872a98678fe7bc9)
+- properly set image byte order [`4b6bc43`](https://github.com/ImageMagick/ImageMagick6/commit/4b6bc43e0ce0a953a0885bf35fc5488883d9c667)
+- set max colormap size for remap [`b7dde52`](https://github.com/ImageMagick/ImageMagick6/commit/b7dde52364fabdfa03ed62fc7598ee215ac89595)
+
 ## [6.9.13-14](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-13...6.9.13-14) - 2024-07-27
 
 ### Commits
