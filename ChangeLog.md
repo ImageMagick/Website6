@@ -5,6 +5,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.13-16](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-15...6.9.13-16) - 2024-09-01
+
+### Commits
+
+- properly set image byte order [`4b6bc43`](https://github.com/ImageMagick/ImageMagick6/commit/4b6bc43e0ce0a953a0885bf35fc5488883d9c667)
+- set max colormap size for remap [`b7dde52`](https://github.com/ImageMagick/ImageMagick6/commit/b7dde52364fabdfa03ed62fc7598ee215ac89595)
+- beta release [`4b39d1a`](https://github.com/ImageMagick/ImageMagick6/commit/4b39d1ab140784fdeb01d38eaff71664260f44dc)
+- refactor profile loop [`9594abd`](https://github.com/ImageMagick/ImageMagick6/commit/9594abd298645b450098d5a094a58833d4593cfc)
+- support clipboard delegate [`d7cd68a`](https://github.com/ImageMagick/ImageMagick6/commit/d7cd68a1bf3b557e471076ebb52e0df266a4a1dd)
+- improved rounding [`a34d4a4`](https://github.com/ImageMagick/ImageMagick6/commit/a34d4a42abd2e776a48cc173187503c8a7a85eb9)
+- don't allow negative scenes [`c763ff0`](https://github.com/ImageMagick/ImageMagick6/commit/c763ff0e39cb16c407f7da6d56a1ec5c15af1fec)
+- eliminate compiler warnings [`8b003df`](https://github.com/ImageMagick/ImageMagick6/commit/8b003df4859a816fad2344252bc672171b9b837e)
+- release [`d2fdaa6`](https://github.com/ImageMagick/ImageMagick6/commit/d2fdaa61f1acf130a58381ffa09171b514db69ad)
+
 ## [6.9.13-15](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-14...6.9.13-15) - 2024-08-24
 
 ### Merged
@@ -28,8 +42,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - minimum TIFF delegate library is version 4 [`d0b6b48`](https://github.com/ImageMagick/ImageMagick6/commit/d0b6b4815e0c2ac77ea6e5dc14f67f425c0cfc47)
 - suppress fx: exception [`61415c8`](https://github.com/ImageMagick/ImageMagick6/commit/61415c824139da55d7f369fc1402112fa58ecbea)
 - release [`86d55c7`](https://github.com/ImageMagick/ImageMagick6/commit/86d55c7a4743fc68ebb8e6aa5872a98678fe7bc9)
-- properly set image byte order [`4b6bc43`](https://github.com/ImageMagick/ImageMagick6/commit/4b6bc43e0ce0a953a0885bf35fc5488883d9c667)
-- set max colormap size for remap [`b7dde52`](https://github.com/ImageMagick/ImageMagick6/commit/b7dde52364fabdfa03ed62fc7598ee215ac89595)
 
 ## [6.9.13-14](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-13...6.9.13-14) - 2024-07-27
 
