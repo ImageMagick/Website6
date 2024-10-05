@@ -5,6 +5,29 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.13-17](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-16...6.9.13-17) - 2024-10-05
+
+### Merged
+
+- Add missing Threshold command to command array of Region of Interest mode [`#339`](https://github.com/ImageMagick/ImageMagick6/pull/339)
+
+### Commits
+
+- beta release [`068d8ce`](https://github.com/ImageMagick/ImageMagick6/commit/068d8ce2a3f331733333bd8e5fc0761c2fc06da8)
+- revert INSTALL_BASE PerlMagick patch [`1761270`](https://github.com/ImageMagick/ImageMagick6/commit/176127050e68436fb35be696c8b14fe0efd364e9)
+- Also treat the group and element being zero as the end of data in a dicom file. [`0c69754`](https://github.com/ImageMagick/ImageMagick6/commit/0c69754b72972939cbdb2da4fada86223c5e7db0)
+- LIBRARY_PATH is reserved, use LIBRARY_ABSOLUTE_PATH instead [`bf69fec`](https://github.com/ImageMagick/ImageMagick6/commit/bf69fecad0e8dec6952ba6222c707c672cea94f0)
+- to do: write pixel data in YCBCR subsampled format [`cccfebb`](https://github.com/ImageMagick/ImageMagick6/commit/cccfebb3ec43ea38ad6b9a0594735e9d3c7ae890)
+- update to the latest web pages [`27250f4`](https://github.com/ImageMagick/ImageMagick6/commit/27250f4372e854e78dec0bdded6e160d6bfbef3c)
+- improve URW font search [`7875b24`](https://github.com/ImageMagick/ImageMagick6/commit/7875b24535af21a309d2ae82f819ad196abebcfc)
+- check Ubuntu URW font path [`06a2806`](https://github.com/ImageMagick/ImageMagick6/commit/06a280623ea37d1a845a71d7616de7060d5d987c)
+- update path to Dejavu fonts [`404518f`](https://github.com/ImageMagick/ImageMagick6/commit/404518f6c107ff30cdad85834017172fb6691645)
+- we prefer URW OTF fonts [`113d3e4`](https://github.com/ImageMagick/ImageMagick6/commit/113d3e4ff9cdac6705936bd111b9907e76683e0a)
+- Make sure we read the last xmp profile inside the pdf file (#340). [`392fb4e`](https://github.com/ImageMagick/ImageMagick6/commit/392fb4e4bc3530c1260fa847d63dd9a7ddc9a35e)
+- check for columns overflow [`3e75a77`](https://github.com/ImageMagick/ImageMagick6/commit/3e75a77c2e8e4fd9925b865bbe19aebd07148e1f)
+- Patch to fix reading thumbnail from exif profile. [`e71b4b8`](https://github.com/ImageMagick/ImageMagick6/commit/e71b4b8dc23a4ac91f72061cefff8c9df887d371)
+- release [`f20b572`](https://github.com/ImageMagick/ImageMagick6/commit/f20b5721ce14bb95b46b01b4f4f14258962ebd36)
+
 ## [6.9.13-16](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-15...6.9.13-16) - 2024-09-01
 
 ### Commits
