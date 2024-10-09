@@ -8,7 +8,7 @@
 
 <p>We list a few examples of the <code>montage</code> command here to illustrate its usefulness and ease of use.  To get started, let's montage two images into a single composite:</p>
 
-<pre class="bg-light text-dark mx-4"><code>montage -background '#336699' -geometry +4+4 rose.jpg red-ball.png montage.jpg
+<pre class="bg-light text-dark mx-4"><code>montage -background '#336699' -geometry 70x70+4+4 rose.jpg red-ball.png montage.jpg
 </code></pre>
 
 <ul>
