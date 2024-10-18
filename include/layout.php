@@ -14,11 +14,11 @@
     $meta=new MetaContent;
     $meta->company_name="ImageMagick Studio LLC";
     $meta->application_name="ImageMagick (legacy)";
-    $meta->description=$description;
+    $meta->description="ImageMagick is a powerful, open-source software suite for creating, editing, converting, and manipulating images in over 200 formats. Ideal for web developers, graphic designers, and researchers, it offers versatile tools for image processing, including batch processing, format conversion, and complex image transformations.";
     $meta->application_url="https://legacy.imagemagick.org";
-    $meta->keywords2="image processing software";
+    $meta->keywords2="Image Processing, Digital Image Editing, Image Conversion, Open-Source Software, Image Manipulation, Command-Line Image Tools";
     $meta->sitename="ImageMagick (legacy)";
-    $meta->slogan="Digital image manipulation that works like magick!";
+    $meta->slogan="Mastering digital image alchemy.";
     $meta->generator="PHP";
     $meta->email="webmaster@legacy.imagemagick.org";
 ?>
