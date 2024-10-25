@@ -1,8 +1,8 @@
-<div class="magick-header">
+<div>
 <h1 class="text-center">Resources</h1>
 <p class="text-center"><a href="#configure">Configuration Files</a> • <a href="#modules">Modules</a> • <a href="#fonts">Fonts</a> • <a href="#environment">Environment Variables</a></p>
 
-<p class="lead magick-description">ImageMagick depends on a number of external resources including configuration files, loadable modules, fonts, and environment variables.</p>
+<p class="lead">ImageMagick depends on a number of external resources including configuration files, loadable modules, fonts, and environment variables.</p>
 
 <h2><a class="anchor" id="configure"></a>Configuration Files</h2>
 

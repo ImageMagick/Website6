@@ -1,6 +1,6 @@
-<div class="magick-header">
+<div>
 <h1 class="text-center">Cite</h1>
-<p class="lead magick-description">Learn how to cite ImageMagick in your work.  Choose from these citation formats:</p>
+<p class="lead">Learn how to cite ImageMagick in your work.  Choose from these citation formats:</p>
 
 <h4>Citation in APA style</h4>
 <pre class="bg-light text-dark mx-4"><samp>ImageMagick Studio LLC. (2023). ImageMagick. Retrieved from https://imagemagick.org</samp></pre>

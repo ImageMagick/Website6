@@ -1,6 +1,6 @@
-<div class="magick-header">
+<div>
 <h1 class="text-center">High Dynamic-range Imaging</h1>
-<p class="lead magick-description">High dynamic-range imaging (HDRI) permits a far greater dynamic range of exposures (i.e. a large difference between light and dark areas) than standard digital imaging techniques. HDRI accurately represents the wide range of intensity levels found in real scenes ranging from the brightest direct sunlight to the deepest darkest shadows.  The HDR imaging approach includes:</p>
+<p class="lead">High dynamic-range imaging (HDRI) permits a far greater dynamic range of exposures (i.e. a large difference between light and dark areas) than standard digital imaging techniques. HDRI accurately represents the wide range of intensity levels found in real scenes ranging from the brightest direct sunlight to the deepest darkest shadows.  The HDR imaging approach includes:</p>
 
 <ul>
   <li>render/capture floating-point color space</li>

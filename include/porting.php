@@ -1,8 +1,8 @@
-<div class="magick-header">
+<div>
 <h1 class="text-center">Porting Guide</h1>
 <p class="text-center"><a href="#imv7">ImageMagick Version 7</a> • <a href="#hdri">High Dynamic Range Imaging</a> • <a href="#channels">Pixel Channels</a> • <a href="#alpha">Alpha</a> • <a href="#grayscale">Grayscale</a> • <a href="#mask">Masks</a> • <a href="#core">MagickCore API</a> • <a href="#headers">Header Files</a>  • <a href="#deprecate">Deprecated Features Removed</a> • <a href="#cli">Command-line Interface</a> • <a href="#summary">Version 7 Change Summary</a> </p>
 
-<p class="lead magick-description">The design of ImageMagick is an evolutionary process, with the design and implementation efforts serving to influence and guide further progress in the other.  With ImageMagick version 7, we improved the design based on lessons learned from the version 6 implementation.  ImageMagick was originally designed to display RGB images to an X Windows server.  Over time we extended support to RGBA images and then to the CMYK and CMYKA image format.  With ImageMagick version 7, we extend support to arbitrary colorspaces with an arbitrary number of pixel channels.  In addition, ImageMagick 7 stores pixel channels as floats permitting out of band values (e.g. negative) and reduces rounding error.  There are numerous other design enhancements described within.</p>
+<p class="lead">The design of ImageMagick is an evolutionary process, with the design and implementation efforts serving to influence and guide further progress in the other.  With ImageMagick version 7, we improved the design based on lessons learned from the version 6 implementation.  ImageMagick was originally designed to display RGB images to an X Windows server.  Over time we extended support to RGBA images and then to the CMYK and CMYKA image format.  With ImageMagick version 7, we extend support to arbitrary colorspaces with an arbitrary number of pixel channels.  In addition, ImageMagick 7 stores pixel channels as floats permitting out of band values (e.g. negative) and reduces rounding error.  There are numerous other design enhancements described within.</p>
 
 <p>To support variable pixel channels in the MagickCore API, pixel handling has changed when getting or setting the pixel channels.  You can access channels as an array, <var>pixel[i]</var>, or use an accessor method such as GetPixelRed() or SetPixelRed().  There are some modest changes to the MagickCore and MagickWand API's.   The Magick++ and PerlMagick API's have not changed and matches that of the ImageMagick version 6.</p>
 
@@ -278,7 +278,7 @@ convert -density 300 -colorspace srgb image.eps -alpha transparent -clip -alpha 
 MagickWand-config</samp></pre>
 <p>The FilterImage() method has been removed.  Use ConvolveImage() instead.</p>
 
-<p>In addition, all deprecated <a href="https://legacy.imagemagick.org/api/deprecate.php">MagickCore</a> and <a href="https://legacy.imagemagick.org/api/magick-deprecate.php">MagickWand</a> methods are no longer available in version 7.</p>
+<p>In addition, all deprecated <a href="http://magick.imagemagick.org/api/deprecate.php">MagickCore</a> and <a href="http://magick.imagemagick.org/api/magick-deprecate.php">MagickWand</a> methods are no longer available in version 7.</p>
 
 <p>The Bessel filter was removed as it is an alias for Jinc.  Use -filter Jinc instead.</p>
 

@@ -1,8 +1,8 @@
-<div class="magick-header"> 
+<div> 
 <p class="text-center"><a href="#documentation">Documentation</a> • <a href="#get">Obtaining Magick++</a> • <a href="#install">Installation</a> • <a href="#bugs">Reporting Bugs</a></p>
 
 <a class="anchor" id="intro"></a>
-<p class="lead magick-description"><a href="https://imagemagick.org/api/Magick++/index.html">Magick++ API</a> is the object-oriented C++ API to the <a href="https://imagemagick.org/">ImageMagick</a> image-processing library.</p>
+<p class="lead"><a href="https://imagemagick.org/api/Magick++/index.html">Magick++ API</a> is the object-oriented C++ API to the <a href="https://imagemagick.org/">ImageMagick</a> image-processing library.</p>
 <p>Magick++ supports an object model which is inspired by <a href="https://imagemagick.org/script/perl-magick.php">PerlMagick</a>.
 Images support implicit reference counting so that copy constructors
 and assignment incur almost no cost. The cost of actually copying an
@@ -79,7 +79,7 @@ int main(int argc,char **argv)
 { 
   InitializeMagick(*argv);
 
-  // Construct the image object. Separating image construction from the 
+  // Construct the image object. Seperating image construction from the 
   // the read operation ensures that a failure to read the image file 
   // doesn't render the image object useless. 
   Image image;

@@ -1,9 +1,9 @@
-<div class="magick-header"> 
+<div> 
 <h1 class="text-center">PerlMagick Image API for Perl</h1>
 <p class="text-center"><a href="#installation">Installation</a> • <a href="#overview">Overview</a> • <a href="#example">Example Script</a> • <a href="#read">Read or Write an Image</a> • <a href="#manipulate">Manipulate an Image</a> • <a href="#set-attribute">Set an Image Attribute</a> • <a href="#get-attribute">Get an Image Attribute</a> • <a href="#compare">Compare an Image to its Reconstruction</a> • <a href="#montage">Create an Image Montage</a> • <a href="#blobs">Working with Blobs</a> • <a href="#direct-access">Direct-access to Image Pixels</a> • <a href="#miscellaneous">Miscellaneous Methods</a> • <a href="#exceptions">Handling Exceptions</a>• <a href="#constants">Constant</a> </p>
 
 <a class="anchor" id="introduction"></a>
-<p class="lead magick-description"><a href="<?php echo $_SESSION['RelativePath']?>/../script/download.php">PerlMagick</a> is an objected-oriented <a href="http://www.perl.com/perl/">Perl</a> interface to ImageMagick. Use the module to read, manipulate, or write an image or image sequence from within a Perl script. This makes it very suitable for Web CGI scripts. You must have ImageMagick 6.5.5 or above and Perl version 5.005_02 or greater installed on your system for PerlMagick to build properly.</p>
+<p class="lead"><a href="<?php echo $_SESSION['RelativePath']?>/../script/download.php">PerlMagick</a> is an objected-oriented <a href="http://www.perl.com/perl/">Perl</a> interface to ImageMagick. Use the module to read, manipulate, or write an image or image sequence from within a Perl script. This makes it very suitable for Web CGI scripts. You must have ImageMagick 6.5.5 or above and Perl version 5.005_02 or greater installed on your system for PerlMagick to build properly.</p>
 
 <p>There are a number of useful scripts available to show you the value of PerlMagick. You can do Web based image manipulation and conversion with <a href="https://imagemagick.org/archive//perl">MagickStudio</a>, or use <a href="https://github.com/ImageMagick/ImageMagick/tree/main/PerlMagick/demo/tree.pl">L-systems</a> to create images of plants using mathematical constructs, and finally navigate through collections of thumbnail images and select the image to view with the <a href="http://webmagick.sourceforge.net/">WebMagick Image Navigator</a>.</p>
 
@@ -1045,7 +1045,7 @@ fill=&gt;<i><a href="<?php echo $_SESSION['RelativePath']?>/../script/color.php"
   <tr>
     <td>SigmoidalContrast</td>
     <td>geometry=&gt;<i>string</i>, 'contrast'=&gt;<i>double</i>, 'mid-point'=&gt;<i>double</i> channel=&gt;{Red, RGB, All, etc.}, sharpen=&gt;{True, False}</td>
-    <td>sigmoidal non-linearity contrast control.  Increase the contrast of the image using a sigmoidal transfer function without saturating highlights or shadows. <var>Contrast</var> indicates how much to increase the contrast (0 is none; 3 is typical; 20 is a lot);  <var>mid-point</var> indicates where midtones fall in the resultant image (0 is white; 50% is middle-gray; 100% is black). To decrease contrast, set sharpen to False.</td>
+    <td>sigmoidal non-lineraity contrast control.  Increase the contrast of the image using a sigmoidal transfer function without saturating highlights or shadows. <var>Contrast</var> indicates how much to increase the contrast (0 is none; 3 is typical; 20 is a lot);  <var>mid-point</var> indicates where midtones fall in the resultant image (0 is white; 50% is middle-gray; 100% is black). To decrease contrast, set sharpen to False.</td>
   </tr>
 
   <tr>
@@ -2309,7 +2309,7 @@ with the next image in the sequence.. For example,</p>
 
 <p>averages all the images associated with object <code>$image</code>.</p>
 
-<p>The Features() method returns features for each channel in the image in each of four directions (horizontal, vertical, left and right diagonals) for the specified distance.  The features include the angular second momentum, contrast, correlation, sum of squares: variance, inverse difference moment, sum average, sum variance, sum entropy, entropy, difference variance, difference entropy, information measures of correlation 1, information measures of correlation 2, and maximum correlation coefficient.  Values in RGB, CMYK, RGBA, or CMYKA order (depending on the image type).</p>
+<p>The Features() method returns features for each channel in the image in each of four directions (horizontal, vertical, left and right diagonals) for the specified distance.  The features include the angular second momentum, contrast, correlation, sum of squares: variance, inverse difference moment, sum average, sum varience, sum entropy, entropy, difference variance, difference entropy, information measures of correlation 1, information measures of correlation 2, and maximum correlation coefficient.  Values in RGB, CMYK, RGBA, or CMYKA order (depending on the image type).</p>
 
 <pre class="bg-light text-dark mx-4"><code>@features = $image-&gt;Features(1);
 </code></pre>

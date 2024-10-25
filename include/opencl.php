@@ -1,6 +1,6 @@
-<div class="magick-header">
+<div>
 
-<p class="lead magick-description">The following is a list of image operators that have been <a href="http://en.wikipedia.org/wiki/OpenCL">OpenCL</a>-accelerated:</p>
+<p class="lead">The following is a list of image operators that have been <a href="http://en.wikipedia.org/wiki/OpenCL">OpenCL</a>-accelerated:</p>
 <pre class="bg-light text-dark mx-4"><code>blur
 charcoal
 contrast

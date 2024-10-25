@@ -1,10 +1,10 @@
-<div class="magick-header">
+<div>
 <h1 class="text-center">FX Special Effects Image Operator</h1>
 <p class="text-center"><a href="#fx">The FX Special Effects Image Operator</a> • <a href="#anatomy">The Anatomy of an FX Expression</a></p>
 
 <a class="anchor" id="fx"></a>
 
-<p class="lead magick-description">Use the FX special effects image operator to apply a mathematical expression to an image or image channels.  The FX expression language provides a powerful and flexible way to manipulate images, allowing you to perform a wide range of operations and transformations on your images. Use FX to:</p>
+<p class="lead">Use the FX special effects image operator to apply a mathematical expression to an image or image channels.  The FX expression language provides a powerful and flexible way to manipulate images, allowing you to perform a wide range of operations and transformations on your images. Use FX to:</p>
 
 <ul>
   <li>create canvases, gradients, mathematical colormaps</li>
@@ -289,7 +289,6 @@
 <li>single character variables are reserved.  Assignments to reserved built-ins do not throw an exception and have no effect;  e.g. <code>r=3.0; r</code> returns the pixel red color value, not 3.0</li>
 <li>unary operators have a lower priority than binary operators, that is, the unary minus (negation) has lower precedence than exponentiation, so -3^2 is interpreted as -(3^2) = -9.  Use parentheses to clarify your intent (e.g. (-3)^2 = 9).</li>
 <li>care must be exercised when using the slash ('/') symbol. The string of characters <var>1/2x</var> is interpreted as (1/2)x. The contrary interpretation should be written explicitly as 1/(2x). Again, the use of parentheses helps clarify the meaning and should be used whenever there is any chance of misinterpretation.</li>
-<li>As <samp>--<samp> is the variable decrement operator, use parenthesis to subtract a negative number, e.g, <samp>-4-(-5)</samp>.</li>
 </ul>
 <br/>
 

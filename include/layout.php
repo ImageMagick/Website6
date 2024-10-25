@@ -13,7 +13,7 @@
   {
     $meta=new MetaContent;
     $meta->company_name="ImageMagick Studio LLC";
-    $meta->application_name="ImageMagick";
+    $meta->application_name="ImageMagick (legacy)";
     $meta->description="ImageMagick is a powerful, open-source software suite for creating, editing, converting, and manipulating images in over 200 formats. Ideal for web developers, graphic designers, and researchers, it offers versatile tools for image processing, including batch processing, format conversion, and complex image transformations.";
     $meta->application_url="https://legacy.imagemagick.org";
     $meta->keywords2="Image Processing, Digital Image Editing, Image Conversion, Open-Source Software, Image Manipulation, Command-Line Image Tools";
@@ -27,18 +27,18 @@
   <script src="<?php echo $_SESSION['RelativePath']?>/../assets/color-modes.js" ></script>
   <?php echo $meta->metadata($title); ?>
   <meta itemprop='url' content='https://legacy.imagemagick.org/' />
-  <meta itemprop='title' content='ImageMagick' />
+  <meta itemprop='title' content='ImageMagick (legacy)' />
   <meta itemprop='description' content="ImageMagick is a powerful, open-source software suite for creating, editing, converting, and manipulating images in over 200 formats. Ideal for web developers, graphic designers, and researchers, it offers versatile tools for image processing, including batch processing, format conversion, and complex image transformations." />
   <meta property='og:url' content='https://legacy.imagemagick.org/' />
   <meta property='og:name' content='ImageMagick' />
   <meta property='og:image' content='https://legacy.imagemagick.org/image/logo.png' />
   <meta property='og:type' content='website' />
-  <meta property='og:site_name' content='ImageMagick' />
+  <meta property='og:site_name' content='ImageMagick (legacy)' />
   <meta property='og:description' content="ImageMagick is a powerful, open-source software suite for creating, editing, converting, and manipulating images in over 200 formats. Ideal for web developers, graphic designers, and researchers, it offers versatile tools for image processing, including batch processing, format conversion, and complex image transformations." />
   <meta name="google-site-verification" content="_bMOCDpkx9ZAzBwb2kF3PRHbfUUdFj2uO8Jd1AXArz4">
   <link type="image/png" sizes="64x64" href="<?php echo $_SESSION['RelativePath']?>/../image/wand.png" rel="icon">
   <link type="image/icon" sizes="16x16" href="<?php echo $_SESSION['RelativePath']?>/../image/wand.ico" rel="shortcut icon">
-  <link href="https://imagemagick.org<?php echo $_SERVER['SCRIPT_NAME']?>" rel="canonical">
+  <link href="https://legacy.imagemagick.org<?php echo $_SERVER['SCRIPT_NAME']?>" rel="canonical">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
   <link href="<?php echo $_SESSION['RelativePath']?>/../assets/magick-css.php" rel="stylesheet">
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3129977114552745" crossorigin="anonymous"></script>

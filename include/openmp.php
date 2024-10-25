@@ -1,6 +1,6 @@
-<div class="magick-header">
+<div>
 <h1 class="text-center">Threads of Execution</h1>
-<p class="lead magick-description">Many of ImageMagick's internal algorithms are threaded to take advantage of speed-ups offered by the multicore processor chips and <a href="http://www.openmp.org">OpenMP</a>. OpenMP, is an API specification for parallel programming. If your compiler supports OpenMP (e.g. gcc, Visual Studio 2005) directives, ImageMagick automatically includes support. To verify, look for the OpenMP feature of ImageMagick with this command:</p>
+<p class="lead">Many of ImageMagick's internal algorithms are threaded to take advantage of speed-ups offered by the multicore processor chips and <a href="http://www.openmp.org">OpenMP</a>. OpenMP, is an API specification for parallel programming. If your compiler supports OpenMP (e.g. gcc, Visual Studio 2005) directives, ImageMagick automatically includes support. To verify, look for the OpenMP feature of ImageMagick with this command:</p>
 <pre class="bg-light text-dark mx-4"><code>-> identify -version
 Version: ImageMagick 6.9.11-50 2021-01-04 Q16 https://imagemagick.org
 Copyright: © 1999-2021 ImageMagick Studio LLC

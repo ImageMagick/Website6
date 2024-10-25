@@ -1,4 +1,4 @@
-<div class="magick-header">
+<div>
 <h1 class="text-center">News</h1>
 <p class="text-center"><a href="#news">News</a> • <a href="#community">Community</a></p>
 

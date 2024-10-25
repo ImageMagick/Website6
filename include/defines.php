@@ -1,4 +1,4 @@
-<div class="magick-header">
+<div>
 
 <p class="magick-description">The <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#define">-define</a> command-line option adds specific global settings generally used to control coders and image processing operations.</p>
 
@@ -247,7 +247,7 @@ use:</p>
 
   <tr>
     <td>filename:literal=<var>true</var></td>
-    <td>By default, an output filename can contain <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-processing.php#output">embedded formatting characters</a>.  Use this option to bypass interpreting embedded formatting characters and instead use the filename literally.</td>
+    <td>By default, an output filename can contain <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-processing.php#output">embedded formatting characters</a>.  Use this option to bypass interpretting embedded formatting characters and instead use the filename literally.</td>
   </tr>
 
   <tr>

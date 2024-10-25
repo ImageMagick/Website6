@@ -1,8 +1,8 @@
-<div class="magick-header">
+<div>
 <h1 class="text-center">Architecture</h1>
 <p class="text-center"><a href="#cache">The Pixel Cache</a> • <a href="#stream">Streaming Pixels</a> • <a href="#properties">Image Properties and Profiles</a> • <a href="#tera-pixel">Large Image Support</a> • <a href="#threads">Threads of Execution</a> • <a href="#distributed">Heterogeneous Distributed Processing</a> • <a href="#coders">Custom Image Coders</a> • <a href="#filters">Custom Image Filters</a></p>
 
-<p class="lead magick-description">The citizens of Oz were quite content with their benefactor, the all-powerful Wizard.  They accepted his wisdom and benevolence without ever questioning the who, why, and where of his power.  Like the citizens of Oz, if you feel comfortable that ImageMagick can help you convert, edit, or compose your images without knowing what goes on behind the curtain, feel free to skip this section.  However, if you want to know more about the software and algorithms behind ImageMagick, read on.  To fully benefit from this discussion, you should be comfortable with image nomenclature and be familiar with computer programming.</p>
+<p class="lead">The citizens of Oz were quite content with their benefactor, the all-powerful Wizard.  They accepted his wisdom and benevolence without ever questioning the who, why, and where of his power.  Like the citizens of Oz, if you feel comfortable that ImageMagick can help you convert, edit, or compose your images without knowing what goes on behind the curtain, feel free to skip this section.  However, if you want to know more about the software and algorithms behind ImageMagick, read on.  To fully benefit from this discussion, you should be comfortable with image nomenclature and be familiar with computer programming.</p>
 
 <h2><a class="anchor" id="overview"></a>Architecture Overview</h2>
 
@@ -767,7 +767,7 @@ __kernel void Convolve(const __global CLPixelType *source,__constant float *filt
 
 <p>See <a href="https://github.com/ImageMagick/ImageMagick/tree/ImageMagick-6/magick/accelerate.c">magick/accelerate.c</a> for a complete implementation of image convolution with an OpenCL kernel.</p>
 
-<p>Note, that under Windows, you might have an issue with TDR (Timeout Detection and Recovery of GPUs). Its purpose is to detect runaway tasks hanging the GPU by using an execution time threshold.  For some older low-end GPUs running the OpenCL filters in ImageMagick, longer execution times might trigger the TDR mechanism and preempt the GPU image filter.  When this happens, ImageMagick automatically falls back to the CPU code path and returns the expected results.  To avoid preemption, increase the <a href="http://msdn.microsoft.com/en-us/library/windows/hardware/gg487368.aspx">TdrDelay</a> registry key.</p>
+<p>Note, that under Windows, you might have an issue with TDR (Timeout Detection and Recovery of GPUs). Its purpose is to detect runaway tasks hanging the GPU by using an execution time threshold.  For some older low-end GPUs running the OpenCL filters in ImageMagick, longer execution times might trigger the TDR mechanism and pre-empt the GPU image filter.  When this happens, ImageMagick automatically falls back to the CPU code path and returns the expected results.  To avoid pre-emption, increase the <a href="http://msdn.microsoft.com/en-us/library/windows/hardware/gg487368.aspx">TdrDelay</a> registry key.</p>
 
 <h2><a class="anchor" id="coders"></a>Custom Image Coders</h2>
 

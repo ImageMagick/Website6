@@ -1,7 +1,7 @@
-<div class="magick-header">
+<div>
 <p class="text-center"><a href="#usage">Example Usage</a> • <a href="#options">Option Summary</a> • <a href="#msl">Magick Scripting Language (MSL)</a> </p>
 
-<p class="lead magick-description">The <code>conjure</code> program gives you the ability to perform custom image processing tasks from a script written in the Magick Scripting Language (MSL).  MSL is XML-based and consists of action statements with attributes.  Actions include reading an image, processing an image, getting attributes from an image, writing an image, and more.  An attribute is a key/value pair that modifies the behavior of an action.  See <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-processing.php">Command Line Processing</a> for advice on how to structure your <code>conjure</code> command or see below for example usages of the command.</p>
+<p class="lead">The <code>conjure</code> program gives you the ability to perform custom image processing tasks from a script written in the Magick Scripting Language (MSL).  MSL is XML-based and consists of action statements with attributes.  Actions include reading an image, processing an image, getting attributes from an image, writing an image, and more.  An attribute is a key/value pair that modifies the behavior of an action.  See <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-processing.php">Command Line Processing</a> for advice on how to structure your <code>conjure</code> command or see below for example usages of the command.</p>
 
 <h2><a class="anchor" id="usage"></a>Example Usage</h2>
 
@@ -894,7 +894,7 @@ fill="color name", channel="All, Default, Alpha, Black, Blue, CMYK, Cyan, Gray, 
     <td><strike>sigmoidalcontrast</strike></td>
     <td>geometry="string", 'contrast'="double", 'mid-point'="double" channel="Red, RGB, All, etc.", sharpen="True, False"</td>
 
-    <td>sigmoidal non-linearity contrast control.  Increase the contrast of the image using a sigmoidal transfer function without saturating highlights or shadows. Contrast" indicates how much to increase the contrast (0 is none; 3 is typical; 20 is a lot);  mid-point" indicates where midtones fall in the resultant image (0 is white; 50% is middle-gray; 100% is black). To decrease contrast, set sharpen to False.</td>
+    <td>sigmoidal non-lineraity contrast control.  Increase the contrast of the image using a sigmoidal transfer function without saturating highlights or shadows. Contrast" indicates how much to increase the contrast (0 is none; 3 is typical; 20 is a lot);  mid-point" indicates where midtones fall in the resultant image (0 is white; 50% is middle-gray; 100% is black). To decrease contrast, set sharpen to False.</td>
   </tr>
 
   <tr>
