@@ -126,7 +126,7 @@
           <a class="nav-link <?php IsActive($topic,'Develop'); ?>" href="<?php echo $_SESSION['RelativePath']?>/../script/develop.php">Develop</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" target="_blank" href="https://github.com/ImageMagick/ImageMagick/discussions">Community</a>
+          <a class="nav-link" target="_blank" href="https://github.com/ImageMagick/ImageMagick6/discussions">Community</a>
         </li>
         <li class="nav-item">
           <iframe src="https://github.com/sponsors/ImageMagick/button" title="Sponsor ImageMagick" height="35" width="107" style="border: 0;"></iframe>
