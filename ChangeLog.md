@@ -5,6 +5,45 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.13-18](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-17...6.9.13-18) - 2024-11-09
+
+### Merged
+
+- Fix missing 'tiff:endian' image property [`#347`](https://github.com/ImageMagick/ImageMagick6/pull/347)
+- Bump azure/trusted-signing-action from 0.4.0 to 0.5.0 [`#346`](https://github.com/ImageMagick/ImageMagick6/pull/346)
+
+### Commits
+
+- beta release [`aa4efd0`](https://github.com/ImageMagick/ImageMagick6/commit/aa4efd0a11dc9dc440be0a8e1ccc93f798015591)
+- update web page [`7b2271e`](https://github.com/ImageMagick/ImageMagick6/commit/7b2271e52d9c84a5be8b57f8806d27482983f050)
+- don't process TIFF image if there is an exception [`af3a0f7`](https://github.com/ImageMagick/ImageMagick6/commit/af3a0f789d5f489a7b068b550001db8c7c9af22e)
+- correct download links [`b3d5d4a`](https://github.com/ImageMagick/ImageMagick6/commit/b3d5d4a79f10e3e30252563d769ce80ce3dab56d)
+- Added missing calls to CloseBob. [`a61d721`](https://github.com/ImageMagick/ImageMagick6/commit/a61d721e3633724692590455a01fe76eff13b229)
+- support ICON size of 512 (https://github.com/ImageMagick/ImageMagick/issues/7684) [`8ba147b`](https://github.com/ImageMagick/ImageMagick6/commit/8ba147b56301bebc44fe124ca6979439b00b451c)
+- do not "ping" image for identify:locate define (https://github.com/ImageMagick/ImageMagick/issues/7693) [`49b4985`](https://github.com/ImageMagick/ImageMagick6/commit/49b4985e29200d7ce45dc8b0d490ce1848eed907)
+- don't truncate "clipboard" delegate [`cec3852`](https://github.com/ImageMagick/ImageMagick6/commit/cec38526e8d8fe2d88b2c4dc38af1d81953a3672)
+- increase the default undo cache limit [`eca6974`](https://github.com/ImageMagick/ImageMagick6/commit/eca6974d08286d604cb53aec454fce095e9ffc8a)
+- export exception when undo resource limit exceeded [`821c82f`](https://github.com/ImageMagick/ImageMagick6/commit/821c82f02ffd3ce6cacf659c1d6ab5937a9af4ae)
+- Lab translation not required for HDRI support (https://github.com/ImageMagick/ImageMagick/issues/7724) [`6d8ede7`](https://github.com/ImageMagick/ImageMagick6/commit/6d8ede7d8d6d6e1b8159e926c9803e1b55a26386)
+- latest autoconf/automake update [`92ad195`](https://github.com/ImageMagick/ImageMagick6/commit/92ad195146540bddbb69a893d9df0b8341f613db)
+- eliminate g++ 14 exceptions [`4358f63`](https://github.com/ImageMagick/ImageMagick6/commit/4358f63e7ba3ef38ef639a7ee20222c2bd7a39ca)
+- Silence build error. [`bf95f05`](https://github.com/ImageMagick/ImageMagick6/commit/bf95f05a42c381fd135cfd09ca63d4c77968f250)
+- clone latest website documentation [`c1f8340`](https://github.com/ImageMagick/ImageMagick6/commit/c1f83406e44af849c3e054b8d7383c71d6e26bea)
+- conditional compile new operator [`579a80e`](https://github.com/ImageMagick/ImageMagick6/commit/579a80e2ec9afd6a6ab9b9b3d8ecb94bec6b522b)
+- configure urw type1 fonts [`a539df2`](https://github.com/ImageMagick/ImageMagick6/commit/a539df2526888631072aea299ec50157c74d049d)
+- list font metrics [`461ae22`](https://github.com/ImageMagick/ImageMagick6/commit/461ae2232b5eb64c34888e2c27af6c8df42bd44b)
+- search type1 folder for type1 fonts [`188dff1`](https://github.com/ImageMagick/ImageMagick6/commit/188dff19c5955ecd12bbe6dd183a36b186d7a00b)
+- Removed all MAGICKCORE_HAVE_TIFF checks because we no longer define them. [`ba7429d`](https://github.com/ImageMagick/ImageMagick6/commit/ba7429d384dcdfa10dcafd1bac7dfd83bce2630b)
+- Removed __BORLANDC__ checks. [`eef9934`](https://github.com/ImageMagick/ImageMagick6/commit/eef9934798d23635e34312d71170b63a67c1bab4)
+- eliminate compiler warning [`8a2b8e2`](https://github.com/ImageMagick/ImageMagick6/commit/8a2b8e2d771071e82cc67db18cf313b744ab0229)
+- Don't write the null terminator in pdf values. [`c6fc6d1`](https://github.com/ImageMagick/ImageMagick6/commit/c6fc6d17c800be680c2cc81e3c00de993caafcff)
+- exit on error exception [`fab76f4`](https://github.com/ImageMagick/ImageMagick6/commit/fab76f4ca665d1bf2e8cacc0676327365cc95c6f)
+- Removed font searches that were added for testing. [`353ddbc`](https://github.com/ImageMagick/ImageMagick6/commit/353ddbc5dcfb2f288c9a27f643600c4edc34f483)
+- Adding missing typecast. [`5bfcaf9`](https://github.com/ImageMagick/ImageMagick6/commit/5bfcaf91a5455a7c90ae620399e3d94575b4ab29)
+- adjust scanline pad (https://github.com/ImageMagick/ImageMagick6/issues/333) [`49d5131`](https://github.com/ImageMagick/ImageMagick6/commit/49d5131230821fa4905038be8ac58f1958651557)
+- Revert patch until we find a proper solution. [`1a68678`](https://github.com/ImageMagick/ImageMagick6/commit/1a686787077f4b548435cff1b7a22fd769226243)
+- release [`a917422`](https://github.com/ImageMagick/ImageMagick6/commit/a91742270c245afe145e73ad79040ed464088e7a)
+
 ## [6.9.13-17](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-16...6.9.13-17) - 2024-10-05
 
 ### Merged
