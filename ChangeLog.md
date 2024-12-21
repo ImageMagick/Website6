@@ -5,6 +5,53 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.13-20](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-19...6.9.13-20) - 2024-12-21
+
+### Commits
+
+- beta release [`34b08cc`](https://github.com/ImageMagick/ImageMagick6/commit/34b08cc1bf6ec1d6a58ccc9320f3702518041537)
+- check to ensure subimage is smaller than the reference image [`8742d87`](https://github.com/ImageMagick/ImageMagick6/commit/8742d877fba26acf066ba4dcfeada6d9dac77ac5)
+- don't throw exception in SetImageInfo() [`5bd92ae`](https://github.com/ImageMagick/ImageMagick6/commit/5bd92aed1931f243fa2cc29dbf8dc719a5f61ed0)
+- prevent cursor from going out of bounds [`85ad0f7`](https://github.com/ImageMagick/ImageMagick6/commit/85ad0f712bd2fde45920546eb281b32e1b193bc1)
+- support jpeg:restart-interval define [`ad93064`](https://github.com/ImageMagick/ImageMagick6/commit/ad93064d7e91bc6cc20bc3d4d3d3a71897a3d540)
+- set defaults before restart interval [`c395ad6`](https://github.com/ImageMagick/ImageMagick6/commit/c395ad64f86bb0c0250794594a4d7a682a1b387d)
+- RPM build restored [`729a77f`](https://github.com/ImageMagick/ImageMagick6/commit/729a77f90c720ef747dd83bdf67a231293a45a93)
+- Added missing libtiff version check (#355). [`09e5a7c`](https://github.com/ImageMagick/ImageMagick6/commit/09e5a7c0e1f6b53e47aeee7ccb158fadaa2349f1)
+- check for invalid BMP image [`1b21aee`](https://github.com/ImageMagick/ImageMagick6/commit/1b21aeea8c96b28c5692a72399a1bacc7e0c0bce)
+- revert invalid BMP check [`58075e4`](https://github.com/ImageMagick/ImageMagick6/commit/58075e4e86d9b9d702b296ba798d5b3d51c7a0ac)
+- Fixed possible memory leak. [`54ddd07`](https://github.com/ImageMagick/ImageMagick6/commit/54ddd07efa56b8ce4f000d0a9db40547ad7ed36b)
+- detect invalid BMP image [`07a679d`](https://github.com/ImageMagick/ImageMagick6/commit/07a679da5d9820526a64171d06d25a8eedf53797)
+- optimize check [`9ba1c43`](https://github.com/ImageMagick/ImageMagick6/commit/9ba1c433c1d64264ba72b6727aed150dd696c069)
+- ... [`6070f21`](https://github.com/ImageMagick/ImageMagick6/commit/6070f21a69c6b0595af1460ab7ba7d58c92273b4)
+- restore GROUP4 raw to working order [`3a2476f`](https://github.com/ImageMagick/ImageMagick6/commit/3a2476f0404f692e611ca606d19e637c85348db4)
+- Corrected bytes per line check that should be 250 instead of 200 (https://github.com/ImageMagick/ImageMagick/issues/7837) [`ed51e0e`](https://github.com/ImageMagick/ImageMagick6/commit/ed51e0e32b1ca2f505d0c1149c3728bc02f26f07)
+- insert missing brackets [`ab6d7a5`](https://github.com/ImageMagick/ImageMagick6/commit/ab6d7a5a9a1f8021f7c82b86203ca564e5f74d78)
+- bogus image destroy [`6901bbd`](https://github.com/ImageMagick/ImageMagick6/commit/6901bbda429621dbb3e72da939511a982b9378f5)
+- Get the extra samples and sample info at another spot because something is changing the values in sample_info (https://github.com/ImageMagick/ImageMagick/discussions/7848). [`15ec380`](https://github.com/ImageMagick/ImageMagick6/commit/15ec380f57ae5bf9f377df732f6c04538033156a)
+- release [`8c57a5a`](https://github.com/ImageMagick/ImageMagick6/commit/8c57a5ac2f7d402ebc7e119cec58f6945f5427ea)
+
+## [6.9.13-19](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-18...6.9.13-19) - 2024-11-16
+
+### Commits
+
+- beta release [`94750b0`](https://github.com/ImageMagick/ImageMagick6/commit/94750b021707cec7aaf019d445c6d907300bcf33)
+- reference ctdlib [`2f72e75`](https://github.com/ImageMagick/ImageMagick6/commit/2f72e7556e782054169ac5a758f828e3ce39187b)
+- remove new operator definition [`1a18ef0`](https://github.com/ImageMagick/ImageMagick6/commit/1a18ef00eef26202d061db424c500e52e25d2f80)
+- Make it more clear that people should upgrade to ImageMagick 7. [`c3bd263`](https://github.com/ImageMagick/ImageMagick6/commit/c3bd263a10cc1d145ef62476fd3013e10730ac9a)
+- No longer get the extra_samples twice and refactored setting of the alpha and attributes. [`7e3ec72`](https://github.com/ImageMagick/ImageMagick6/commit/7e3ec7224e7dcefd12a4a0ddb1e3b6327b735a1f)
+- using ptrdiff_t is recommended for pointer arithmetic in C [`2794ae7`](https://github.com/ImageMagick/ImageMagick6/commit/2794ae75ea0c5ccce00dcad1caea1c5ce0a55802)
+- use ptrdiff_t where appropriate [`dda110f`](https://github.com/ImageMagick/ImageMagick6/commit/dda110fd3001c4e18ec2497ec9f7bc73e8ed724e)
+- cosmetic [`2f31b22`](https://github.com/ImageMagick/ImageMagick6/commit/2f31b22426db4acbd990f96df8f3291f65db9d93)
+- use ptrdiff_t [`31b5121`](https://github.com/ImageMagick/ImageMagick6/commit/31b5121b6f3659644467440a250a2c5dc60ffa8e)
+- use ptrdiff_t for pointer offsets [`39d0ec9`](https://github.com/ImageMagick/ImageMagick6/commit/39d0ec9b3f2ccc1a04cc914434f496a17174611f)
+- use ptrdiff_t for pointer offsets [`fc167fa`](https://github.com/ImageMagick/ImageMagick6/commit/fc167fa18c2fd120a25e5a92fde0070c54e4c25c)
+- Fixed calculation of the padding in the tiff decoder. [`55b638f`](https://github.com/ImageMagick/ImageMagick6/commit/55b638f7c89ea21324568e6585912ca4a17b1e54)
+- Corrected check for max channels in the tiff decoder. [`3fb1215`](https://github.com/ImageMagick/ImageMagick6/commit/3fb12155bd27ef0346e8e0409b98601e08b6974f)
+- RPM spec files are finicky [`e6d0840`](https://github.com/ImageMagick/ImageMagick6/commit/e6d08400d23d8e59e7c4000bde05c79799abe00a)
+- Increased buffer size for heif_has_compatible_brand. [`69ff79c`](https://github.com/ImageMagick/ImageMagick6/commit/69ff79cf252cc11628577cc94ca98d84a6aaa7d2)
+- The extra_samples should not be subtracted from the samples_per_pixel when calculating the padding in the tiff coder. [`d159095`](https://github.com/ImageMagick/ImageMagick6/commit/d159095f1da67c5bfce010596e2570bf5925144a)
+- release [`3eaacdd`](https://github.com/ImageMagick/ImageMagick6/commit/3eaacdd9c3c59e245ba2c80768d48dcd4689f796)
+
 ## [6.9.13-18](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-17...6.9.13-18) - 2024-11-09
 
 ### Merged
