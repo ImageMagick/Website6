@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [6.9.13-20](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-19...6.9.13-20) - 2024-12-21
+## [6.9.13-21](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-19...6.9.13-21) - 2024-12-22
 
 ### Commits
 
@@ -29,6 +29,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - bogus image destroy [`6901bbd`](https://github.com/ImageMagick/ImageMagick6/commit/6901bbda429621dbb3e72da939511a982b9378f5)
 - Get the extra samples and sample info at another spot because something is changing the values in sample_info (https://github.com/ImageMagick/ImageMagick/discussions/7848). [`15ec380`](https://github.com/ImageMagick/ImageMagick6/commit/15ec380f57ae5bf9f377df732f6c04538033156a)
 - release [`8c57a5a`](https://github.com/ImageMagick/ImageMagick6/commit/8c57a5ac2f7d402ebc7e119cec58f6945f5427ea)
+- beta release [`651a394`](https://github.com/ImageMagick/ImageMagick6/commit/651a39460d509fdc83bea2b2b7ca21cacaee4b33)
+- distiguish between single and double quote for delegates [`6af786e`](https://github.com/ImageMagick/ImageMagick6/commit/6af786e4441e7f8b4ccadb18bd30e95930e7ac43)
+- Corrected pad calculation for indexed alpha tiff image. [`3fc44fa`](https://github.com/ImageMagick/ImageMagick6/commit/3fc44fa5a92fb51a2ea74462d7d5100bdae21a3d)
+- Added missing call to SetMagickThreadValue inside ReadGROUP4Image. [`c5702cb`](https://github.com/ImageMagick/ImageMagick6/commit/c5702cb43ca7c5f42a2f17d3b2a48fb8e4a1291b)
+- escape delegate commands [`0a3d14f`](https://github.com/ImageMagick/ImageMagick6/commit/0a3d14f67c5614734b1060a80765a4cad6e973b6)
+- update PICT unit test [`1b20e13`](https://github.com/ImageMagick/ImageMagick6/commit/1b20e13350cafafb16426aefbe0887092df54a74)
+- release [`48bc599`](https://github.com/ImageMagick/ImageMagick6/commit/48bc599ed9499715bc5a4a3076b4a92bd962826e)
 
 ## [6.9.13-19](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-18...6.9.13-19) - 2024-11-16
 
