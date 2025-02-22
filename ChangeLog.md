@@ -5,6 +5,54 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.13-22](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-21...6.9.13-22) - 2025-02-22
+
+### Merged
+
+- Bump azure/trusted-signing-action from 0.5.0 to 0.5.1 [`#359`](https://github.com/ImageMagick/ImageMagick6/pull/359)
+
+### Commits
+
+- ... [`5d6cb68`](https://github.com/ImageMagick/ImageMagick6/commit/5d6cb68c7edee14367bc7c789c3a3eff9573e207)
+- latest documentation update [`cbd9f22`](https://github.com/ImageMagick/ImageMagick6/commit/cbd9f222d3f7e3c157fe99f1766d904c75e984cb)
+- support svg:embedding define [`3afd169`](https://github.com/ImageMagick/ImageMagick6/commit/3afd169f8f20254686fe7c83e0edcf92a75baa74)
+- add similarity metric to compare output [`a020142`](https://github.com/ImageMagick/ImageMagick6/commit/a02014277fe46f48faddcf1b3c82161d3046fd54)
+- add distortion to NCC metric [`a967e06`](https://github.com/ImageMagick/ImageMagick6/commit/a967e06601f2b5eb77fee0ea60fb03f57bf3094a)
+- report similarity metric [`802ba5c`](https://github.com/ImageMagick/ImageMagick6/commit/802ba5c484bf6c4825dccec16da5a199640b667d)
+- prevent possible ssize overflow [`8cbd11e`](https://github.com/ImageMagick/ImageMagick6/commit/8cbd11e5828175834c0bc222c6c793f39bea5276)
+- Group 4 compression is designed for bilevel images (black and white) [`53fccd7`](https://github.com/ImageMagick/ImageMagick6/commit/53fccd7930f913940c29aeabd0894186520d21a9)
+- check for pow(0) [`9273220`](https://github.com/ImageMagick/ImageMagick6/commit/9273220ba2d2981717754efb4754177a076f3c77)
+- 0 is a special case for pow() [`3a3deb5`](https://github.com/ImageMagick/ImageMagick6/commit/3a3deb5fbe7d3c7e33952a2b92aaaf8d679786ab)
+- dedicate more threads to similarity [`6e3fe37`](https://github.com/ImageMagick/ImageMagick6/commit/6e3fe37459f28bcaa51947185872dff57f2a9a7e)
+- improve data locality by keeping the thread's working set within a small region of memory. [`c8bb4a6`](https://github.com/ImageMagick/ImageMagick6/commit/c8bb4a638ddb96b09e37a8853fb0e1d21eea6562)
+- dissimilarity is a warning [`2fa73c7`](https://github.com/ImageMagick/ImageMagick6/commit/2fa73c7c331070fdcd1afba2b50d9b38c7b05596)
+- normalize PSNR metric [`d57175d`](https://github.com/ImageMagick/ImageMagick6/commit/d57175d87c930d7ab5c92985af3c05cfd1a80d94)
+- cosmetic [`f253296`](https://github.com/ImageMagick/ImageMagick6/commit/f2532964ef7ecc504b7bdb7f74934062729c9744)
+- lasted autoconf upgrade [`ac8570d`](https://github.com/ImageMagick/ImageMagick6/commit/ac8570d4c9e719375538b155feb0b2d7233d3148)
+- initialize dissimilarity thresold to PI [`8712cfa`](https://github.com/ImageMagick/ImageMagick6/commit/8712cfa6ecc49c897aee9858d75fba4b9971f90f)
+- magnitude complex images requires double pixel packets [`cb2e860`](https://github.com/ImageMagick/ImageMagick6/commit/cb2e860402633a5f86b8a6c0a559f5628a432ddb)
+- improve error message [`0d4d4e9`](https://github.com/ImageMagick/ImageMagick6/commit/0d4d4e999516dc084ba5501c0b1a3760971dfac6)
+- increased accuracy for XYZ color conversion [`3359ec0`](https://github.com/ImageMagick/ImageMagick6/commit/3359ec041b023746648f631de07c4d7a63c3bd74)
+- normalize PSNR metric [`e098dc5`](https://github.com/ImageMagick/ImageMagick6/commit/e098dc56867f1c93d4189b8afc88997914112783)
+- similary image must match between the frequency and spatial domains [`486063f`](https://github.com/ImageMagick/ImageMagick6/commit/486063f7e33856f048c9bcc79ad8b73889346578)
+- squash compiler bug [`bf88cc8`](https://github.com/ImageMagick/ImageMagick6/commit/bf88cc812ed2e1906bb030c0fb78e5876b16a893)
+- pending issue when comparing two images of the same dimensions [`da57a41`](https://github.com/ImageMagick/ImageMagick6/commit/da57a418b6533a24ee8ab312e69d94477487766e)
+- throw warning when reference image is wider or taller target image [`253f752`](https://github.com/ImageMagick/ImageMagick6/commit/253f752723d570cd743282105d4bd71bd480303d)
+- Update the image depth after this has been changed by SetQuantumFormat. [`c99cbc8`](https://github.com/ImageMagick/ImageMagick6/commit/c99cbc8d8663248bf353cd9042b04d7936e7587a)
+- Corrected patch. [`dfa1270`](https://github.com/ImageMagick/ImageMagick6/commit/dfa1270146d8c6f9b252a66228ca15ee62aa75f2)
+- the correlation image is now the same size as the reference image [`c6272cc`](https://github.com/ImageMagick/ImageMagick6/commit/c6272cce48339f8bae1ddaeceda7f410751174a3)
+- negate correlation image for NCC metric [`61c6651`](https://github.com/ImageMagick/ImageMagick6/commit/61c6651598303088c7041c5c69489f424164b381)
+- check for EOF condition before setting the image background [`568daab`](https://github.com/ImageMagick/ImageMagick6/commit/568daaba2a0769699c48992a6edc83d2beeef7a5)
+- conditionally compile heif_context_set_maximum_image_size_limit() [`bc4d820`](https://github.com/ImageMagick/ImageMagick6/commit/bc4d8207b15515dd087de8e4697d880d14453d21)
+- white is maximum point of the correlation image [`4761dcb`](https://github.com/ImageMagick/ImageMagick6/commit/4761dcb9982dff9cb3761c60d2d937e6548c418c)
+- eliminate compiler exception [`fd30fcb`](https://github.com/ImageMagick/ImageMagick6/commit/fd30fcb4001dcc800d8186a5a2c0fb488b6bb784)
+- ensure similarity looping respects the resouce thread limit [`4d8d717`](https://github.com/ImageMagick/ImageMagick6/commit/4d8d717d5dcbc3153675dd9e6aec2dd21426a312)
+- average composite channel for PSNR metric [`99102c7`](https://github.com/ImageMagick/ImageMagick6/commit/99102c7ae467edec110fc67c070f009c44006a6d)
+- correlation image initialization optimization [`47c5e23`](https://github.com/ImageMagick/ImageMagick6/commit/47c5e23fe0341146c63f07334d0f90ae1d2772f9)
+- improve SVG recursion checking [`bcf7410`](https://github.com/ImageMagick/ImageMagick6/commit/bcf741090c5c50944667312faf91efb8937e9c24)
+- squash lint warning [`c27b293`](https://github.com/ImageMagick/ImageMagick6/commit/c27b29395d022f816cfeb922f55465b6e05db1f1)
+- release [`7170b91`](https://github.com/ImageMagick/ImageMagick6/commit/7170b91783aabcc39c0c4be1c861b1099261676e)
+
 ## [6.9.13-21](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-19...6.9.13-21) - 2024-12-22
 
 ### Commits
