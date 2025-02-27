@@ -15,18 +15,22 @@
 
 <p>ImageMagick builds on a variety of Linux and Linux-like operating systems including Linux, Solaris, FreeBSD, Mac OS X, and others.  A compiler is required and fortunately almost all modern Linux systems have one.  Clone the source repository:</p>
 
-<?php crt("git clone https://github.com/ImageMagick/ImageMagick6.git ImageMagick-" . MagickLibVersionText); ?>
+
+<pre class="p-3 mb-2 text-body-secondary bg-body-tertiary"><samp>git clone https://github.com/ImageMagick/ImageMagick6.git ImageMagick-<?php echo MagickLibVersionText ?></samp></pre>
 
 <p>Or download <a href="https://imagemagick.org/archive">ImageMagick.tar.gz</a> from <a href="https://imagemagick.org/archive">imagemagick.org</a> or a <a href="<?php echo $_SESSION['RelativePath']?>/../script/mirror.php">mirror</a> and verify the distribution against its <a href="https://imagemagick.org/archive/digest.rdf">message digest</a>.</p>
 
 <p>Next configure and compile ImageMagick.  Note the <a href="https://en.wikipedia.org/wiki/Pkg-config">pkg-config</a> script is required so that ImageMagick can find certain optional delegate libraries on your system.  To configure, type:</p>
 
-<?php crt("cd ImageMagick-" . MagickLibVersionText, "<br/>", "./configure", "<br/>", "make"); ?>
+<pre class="p-3 mb-2 text-body-secondary bg-body-tertiary"><samp>cd ImageMagick-<?php echo MagickLibVersionText ?>
+
+./configure
+make</samp></pre>
 
 <p>If build fails, try <code>gmake</code> instead.</p>
 
 <p>For advanced users, we recommend a modules build:</p>
-<?php crt("./configure --with-modules"); ?>
+<pre class="p-3 mb-2 text-body-secondary bg-body-tertiary"><samp>./configure --with-modules</samp></pre>
 
 <p>If ImageMagick configured and compiled without complaint, you are ready to install it on your system.  Administrator privileges are required to install.  To install, type</p>
 
@@ -75,7 +79,9 @@ to compile the program and on completion run the program.</p>
 
 <p>To verify ImageMagick is working properly, launch a MS-DOS Command Prompt window and type</p>
 
-<?php crt("cd ImageMagick-" . MagickLibVersionText, "<br/>", "convert logo: image.jpg"); ?>
+<pre class="p-3 mb-2 text-body-secondary bg-body-tertiary"><samp>cd ImageMagick-<?php echo MagickLibVersionText ?>
+
+convert logo: image.jpg</samp></pre>
 
 <p>For a more comprehensive test, run the ImageMagick validation suite:</p>
 
