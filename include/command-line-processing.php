@@ -59,12 +59,12 @@
 <li>zero, one, or more image sequence operators.</li>
 <li>zero, one, or more image stacks.</li>
 <li>zero or one output image filenames (required by
-<?php cmd("convert"); ?>,
-<?php cmd("composite"); ?>,
-<?php cmd("montage"); ?>,
-<?php cmd("compare"); ?>,
-<?php cmd("import"); ?>,
-<?php cmd("conjure"); ?>).
+<a href="<?php echo $_SESSION['RelativePath']?>/../script/convert.php">convert</a>,
+<a href="<?php echo $_SESSION['RelativePath']?>/../script/composite.php">composite</a>,
+<a href="<?php echo $_SESSION['RelativePath']?>/../script/montage.php">montage</a>,
+<a href="<?php echo $_SESSION['RelativePath']?>/../script/compare.php">compare</a>,
+<a href="<?php echo $_SESSION['RelativePath']?>/../script/import.php">import</a>,
+<a href="<?php echo $_SESSION['RelativePath']?>/../script/conjure.php">conjure</a>).
 </li>
 </ol>
 
@@ -100,7 +100,7 @@
 the better known JPEG, PNG, TIFF and others.  ImageMagick must know the format
 of the image before it can be read and processed.  Most formats have a
 signature within the image that uniquely identifies the format.  Failing
-that, ImageMagick leverages the filename extension to determine the format. 
+that, ImageMagick leverages the filename extension to determine the format.
 For example, <code>image.jpg</code> or <code>image.JPG</code> tells ImageMagick
 it is reading an image in the JPEG format. </p>
 
@@ -123,13 +123,13 @@ so we explicitly set one:
 
 <h4>STDIN, STDOUT, and file descriptors</h4>
 <p>Linux and Windows permit the output of one command to be piped to the input of another. ImageMagick permits image data to be read and written from the <a href="http://en.wikipedia.org/wiki/Standard_streams">standard streams</a> STDIN (<var>standard in</var>) and STDOUT (<var>standard out</var>), respectively, using a pseudo-filename of <code>-</code>.  In this example we pipe the output of
-  <?php cmd("convert"); ?> to the <?php cmd("display"); ?> program:
+<a href="<?php echo $_SESSION['RelativePath']?>/../script/convert.php">convert</a> to the <a href="<?php echo $_SESSION['RelativePath']?>/../script/display.php">display</a> program:
 </p>
 
 <pre class="bg-light text-dark mx-4"><code>convert logo: gif:- | display gif:-</code></pre>
 
-<p>The second explicit format "<code>gif:</code>" is optional in the preceding example.  The GIF image format has a unique signature within the image so ImageMagick's <?php cmd("display"); ?>
- command can readily recognize the format as GIF.  The <?php cmd("convert"); ?> program also accepts STDIN as input in this way:
+<p>The second explicit format "<code>gif:</code>" is optional in the preceding example.  The GIF image format has a unique signature within the image so ImageMagick's <a href="<?php echo $_SESSION['RelativePath']?>/../script/display.php">display</a>
+ command can readily recognize the format as GIF.  The <a href="<?php echo $_SESSION['RelativePath']?>/../script/convert.php">convert</a> program also accepts STDIN as input in this way:
 </p>
 
 <pre class="bg-light text-dark mx-4"><code>convert rose: gif:- | magick - -resize "200%" bigrose.jpg'</code></pre>
