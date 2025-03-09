@@ -1415,15 +1415,14 @@ use:</p>
   </tr>
 
   <tr>
-    <td>identify:locate=<var>minimum|maximum</var></td>
-     <td>Locate the coordinates of one or more image minimum or maximum.</td>
+    <td>identify:locate=<var>value</var></td>
+    <td>Display minimum or maximum pixel locations. Valid values are <samp>minimum</samp>,<samp>maximum</samp>. The default is <samp>maximum.</samp></td>
   </tr>
 
   <tr>
-    <td>identify:limit=<var>number</var></td>
-     <td>Locate the coordinates for the number of minima or maxima specified.</td>
+    <td>identify:limit=<var>value</var></td>
+    <td>The maximum number of pixel locations to display when using <samp>identify:locate</samp>.</td>
   </tr>
-
 </table>
 
 </div>

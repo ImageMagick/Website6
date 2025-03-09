@@ -5,6 +5,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.13-23](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-22...6.9.13-23) - 2025-03-09
+
+### Commits
+
+- beta release [`f607149`](https://github.com/ImageMagick/ImageMagick6/commit/f6071496a6ae14066ed57fd6acf74b7b19019715)
+- ... [`d56ffb7`](https://github.com/ImageMagick/ImageMagick6/commit/d56ffb7b00051c070fc3ca9ac127392d800665d3)
+- include tRNS chunk [`a7ea111`](https://github.com/ImageMagick/ImageMagick6/commit/a7ea11105c3b6f1975ebf13c24b047099291542e)
+- latest documentation [`a1f7ff5`](https://github.com/ImageMagick/ImageMagick6/commit/a1f7ff5dc70f3bbd24585225f1544c5e8cbf7ed5)
+- ... [`36d4c94`](https://github.com/ImageMagick/ImageMagick6/commit/36d4c941082f4122db458fbae81b36c47a18231d)
+- support parallel DNG image conversion [`21dc18a`](https://github.com/ImageMagick/ImageMagick6/commit/21dc18adafa250811c43662ee7365254ba79b8ca)
+- detect invalid compression BMP [`60f2502`](https://github.com/ImageMagick/ImageMagick6/commit/60f2502ae79fea05f8adf57693df2d0b9ed49825)
+- default to true-color alpha [`d27ad99`](https://github.com/ImageMagick/ImageMagick6/commit/d27ad990c08bd6ab9c2cd441aae35726a31632d2)
+- release [`5f062bb`](https://github.com/ImageMagick/ImageMagick6/commit/5f062bb3185756bda86d579ef9ad0ac59cd71320)
+
 ## [6.9.13-22](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-21...6.9.13-22) - 2025-02-22
 
 ### Merged
