@@ -5,6 +5,27 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.13-24](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-23...6.9.13-24) - 2025-03-18
+
+### Commits
+
+- beta release [`2247c2c`](https://github.com/ImageMagick/ImageMagick6/commit/2247c2cb107117c55ac6d8002c49d888ae56c9d9)
+- TIFFGetFieldDefaulted doesn't work for TIFFTAG_PHOTOMETRIC so we need to use TIFFGetField instead. [`1b98cac`](https://github.com/ImageMagick/ImageMagick6/commit/1b98cace9eb894634f3226660baa18eaccbe25d7)
+- special similarity one-off if image and reconstruction have same dimensions [`805e086`](https://github.com/ImageMagick/ImageMagick6/commit/805e086df44e78873a76c777af24bce58e72075b)
+- scale PSNR output by 100 [`e895aba`](https://github.com/ImageMagick/ImageMagick6/commit/e895abab9434d5ea6bb55dab810a795b2625f294)
+- scale PSNR by 48.1647 [`0189379`](https://github.com/ImageMagick/ImageMagick6/commit/0189379093bcc98ad14029dec76094cdd45e2042)
+- revert special case where target and reconstruction is the same dimensions [`f77c508`](https://github.com/ImageMagick/ImageMagick6/commit/f77c5085cb1d00b409e3bb973b2f49082d6de4c5)
+- special case where target and reconstruction are same size [`25b191c`](https://github.com/ImageMagick/ImageMagick6/commit/25b191c2035266f7955bf5ba6d8f1e33262ac774)
+- verify ghostscript alpha device [`0effc7e`](https://github.com/ImageMagick/ImageMagick6/commit/0effc7e7514cbc8e4106f375c30405eeac15d673)
+- improve detection of RLE decoding [`2724f9d`](https://github.com/ImageMagick/ImageMagick6/commit/2724f9d77d3c7ccfb4a73e250d51bd5ceaaa3590)
+- strip thumbnail URI of decorators [`c1e7d5a`](https://github.com/ImageMagick/ImageMagick6/commit/c1e7d5aee04b0e47345daab850f0c21375aa9ee7)
+- respect filename:literal define for both input and output filenames [`cdb3ca7`](https://github.com/ImageMagick/ImageMagick6/commit/cdb3ca7b4e6a5985dc37f7e37300722e8fa5e1f4)
+- revert [`c18e025`](https://github.com/ImageMagick/ImageMagick6/commit/c18e0250e32f37531ed953466928dbdef2064a1b)
+- switch arguments [`e4ecf65`](https://github.com/ImageMagick/ImageMagick6/commit/e4ecf655035158460868ec970af9f7bb66144d69)
+- revert [`c1095aa`](https://github.com/ImageMagick/ImageMagick6/commit/c1095aa3453483cbe34b678519f0b44ab54717d2)
+- fix PSNR metric to return the correct DB [`8e1ac68`](https://github.com/ImageMagick/ImageMagick6/commit/8e1ac68c4681babe15baf66ada65a4ee2bceadb7)
+- release [`f4921d7`](https://github.com/ImageMagick/ImageMagick6/commit/f4921d7ede41a46451a4da489b84a57a98c3f044)
+
 ## [6.9.13-23](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-22...6.9.13-23) - 2025-03-09
 
 ### Commits
