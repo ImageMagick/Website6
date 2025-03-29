@@ -5,6 +5,28 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.13-25](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-24...6.9.13-25) - 2025-03-29
+
+### Commits
+
+- beta release [`920f916`](https://github.com/ImageMagick/ImageMagick6/commit/920f9168e1d5f29e88cbc8755e049d3260f34902)
+- ... [`2f24b59`](https://github.com/ImageMagick/ImageMagick6/commit/2f24b598fbf4259624e8130dbea05907f9205b55)
+- set PSNR for identical images to 48.1647db [`388e440`](https://github.com/ImageMagick/ImageMagick6/commit/388e44080959e008272741c49523279f0ff4fd45)
+- correct exception tag [`00f150a`](https://github.com/ImageMagick/ImageMagick6/commit/00f150a3f651e4583da21d266cb3ff6a7057054d)
+- reverse PSNR edge cases [`4433d13`](https://github.com/ImageMagick/ImageMagick6/commit/4433d13269bfed7a6e2aa464032263e4526aa618)
+- negate AE/PAE correlation image [`6776fc4`](https://github.com/ImageMagick/ImageMagick6/commit/6776fc47034c1423c4e382784326031460e01c7a)
+- support -adjoin setting [`cafe026`](https://github.com/ImageMagick/ImageMagick6/commit/cafe0267c2132c57685143f752a5f92901395b04)
+- initialize channel minimum [`1a5c606`](https://github.com/ImageMagick/ImageMagick6/commit/1a5c6061287a155a6e8d95ca3a1dfdc655b9b8fc)
+- revert [`4cadce6`](https://github.com/ImageMagick/ImageMagick6/commit/4cadce6c88ed0cd3452c436e8ab734862dbe406d)
+- invert MEPP metric correlation image [`4ac361b`](https://github.com/ImageMagick/ImageMagick6/commit/4ac361b4351505d8fe8cf7a1456ea1052b9183ac)
+- correct PSNR distortion [`d0749f0`](https://github.com/ImageMagick/ImageMagick6/commit/d0749f0f318a504c9130a352df05c7f07d51a5a8)
+- list pcl6 delegate [`cfeca42`](https://github.com/ImageMagick/ImageMagick6/commit/cfeca42263911b9ce561e8aba94e796390fa3f55)
+- change pcl6 color device [`cc0242d`](https://github.com/ImageMagick/ImageMagick6/commit/cc0242d86df09f10fb3d8a3e6a6b0322a275b60a)
+- fix syntax error [`ba55740`](https://github.com/ImageMagick/ImageMagick6/commit/ba55740196c48bb40599561529d6b5aa44c58abc)
+- correct PSNR metric [`bc4f748`](https://github.com/ImageMagick/ImageMagick6/commit/bc4f74859982d071b011ce8bde16d387f81810de)
+- render closed sub-path poly lines [`5a29c56`](https://github.com/ImageMagick/ImageMagick6/commit/5a29c566afb4cdfc01eb005c2cfb29221871f8be)
+- release [`10f84a8`](https://github.com/ImageMagick/ImageMagick6/commit/10f84a86515a7d9ec4c7a11d2249def100266846)
+
 ## [6.9.13-24](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-23...6.9.13-24) - 2025-03-18
 
 ### Commits
