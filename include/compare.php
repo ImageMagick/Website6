@@ -52,8 +52,11 @@ Image: rose.jpg
 
 <p>If the reconstructed image is a subimage of the image, the compare program returns the best match offset.  In addition, it returns a similarity image such that an exact match location is completely white and if none of the pixels match, black, otherwise some gray level in-between:</p>
 
-<pre class="bg-light text-dark mx-4"><code>-> compare -metric NCC -subimage-search logo.png hat.png similarity.tif
-0.99870222 @ 353,157  [0.309472]
+<pre class="bg-light text-dark mx-4"><code>$ compare -metric NCC -subimage-search logo.png hat.png similarity.pfm
+0 (0) @ 417,44 [0.999967]
+$ identify -define identify:locate=maximum -define identify:limit=1 similarity.pfm
+Channel maximum locations:
+  Gray: 65532.9 (0.999967) 417,44
 </code></pre>
 
 <p>The value in the brackets is the normalized simularity metric.</p>
