@@ -24,36 +24,36 @@ compare -compose src rose.jpg reconstruct.jpg difference.png
 
 <p>In addition to the visual interpretation of the difference in an image and its reconstruction, we report a mathematical measure of the difference:</p>
 
-<pre class="bg-light text-dark mx-4"><code>-> compare -verbose -metric mae rose.jpg reconstruct.jpg difference.png
+<pre class="bg-light text-dark mx-4"><code>$ compare -verbose -metric RMSE rose.jpg reconstruct.jpg difference.png
 Image: rose.jpg
- Channel distortion: MAE
-  red: 2282.91 (0.034835)
-  green: 1853.99 (0.0282901)
-  blue: 2008.67 (0.0306503)
-  all: 1536.39 (0.0234439)
+ Channel distortion: RMSE
+   red: 2833.91 (0.0432427)
+    green: 2401.45 (0.0366438)
+    blue: 2560.43 (0.0390696)
+    all: 2604.73 (0.0397456)
 </code></pre>
 <p>Or, if you just want the red channel distortion, use this command:</p>
 
-<pre class="bg-light text-dark mx-4"><code>-> compare -channel red -metric PSNR rose.jpg reconstruct.jpg difference.png
-19.63
+<pre class="bg-light text-dark mx-4"><code>$ compare -channel red -metric PSNR rose.jpg reconstruct.jpg difference.png
+27.2817 (0.227348)
 </code></pre>
 
 <p>If your image contains an alpha channel (transparency) you need to explicitly include it in the comparison:</p>
 
-<pre class="bg-light text-dark mx-4"><code>-> compare -channel rgba -metric PSNR rose.jpg reconstruct.jpg difference.png
-19.63
+<pre class="bg-light text-dark mx-4"><code>$ compare -channel rgba -metric PSNR rose.jpg reconstruct.jpg difference.png
+28.0142 (0.233452)
 </code></pre>
 
 <p>If you just want the overall image distortion, use this command:</p>
 
-<pre class="bg-light text-dark mx-4"><code>-> compare -metric PSNR rose.jpg reconstruct.jpg difference.png
-28.31
+<pre class="bg-light text-dark mx-4"><code>$ compare -metric PSNR rose.jpg reconstruct.jpg difference.png
+28.0142 (0.233452)
 </code></pre>
 
 <p>If the reconstructed image is a subimage of the image, the compare program returns the best match offset.  In addition, it returns a similarity image such that an exact match location is completely white and if none of the pixels match, black, otherwise some gray level in-between:</p>
 
 <pre class="bg-light text-dark mx-4"><code>$ compare -metric NCC -subimage-search logo.png hat.png similarity.pfm
-0 (0) @ 417,44 [0.999967]
+0 (0) @ 417,44 [0.0]
 $ identify -define identify:locate=maximum -define identify:limit=1 similarity.pfm
 Channel maximum locations:
   Gray: 65532.9 (0.999967) 417,44
@@ -228,7 +228,7 @@ transparent, extract, background, or shape the alpha channel</td>
 
   <tr>
     <td><a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#metric">-metric <var>type</var></a></td>
-    <td>measure differences between images with this metric</td>
+    <td>measure differences between images with this metric.  The default metric is RMSE.</td>
   </tr>
 
   <tr>
