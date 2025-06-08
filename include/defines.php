@@ -20,7 +20,8 @@ is case-dependent.</p>
 
 <p>Such settings are global in scope, and affect all images and operations. </p>
 
-<pre class="bg-light text-dark mx-4"><code>magick bilevel.tif -define ps:imagemask eps3:stencil.ps
+<pre class="bg-light text-dark mx-4"><code>convert bilevel.tif -define ps:imagemask eps3:stencil.ps
+convert arrow.tga -set colorspace:auto-grayscale=off myArrow.tga
 </code></pre>
 
 <p>Set attributes of the image registry by prefixing the value with
@@ -119,7 +120,7 @@ use:</p>
   <tr>
     <td>connected-components:background-id=<var>object-id</var></td>
     <td>Identify which object is to be the background object.
-    Supported in Imagemagick 7.0.9.21.</td>
+    Supported in ImageMagick 7.0.9.21.</td>
   </tr>
 
   <tr>
@@ -127,7 +128,7 @@ use:</p>
     <td>Merge any region with circularity smaller than <var>value</var>
     into its surrounding region or largest neighbor. Circularity is
     computed as 4*pi*area/perimeter^2.
-    Supported in Imagemagick 7.0.9.24.</td>
+    Supported in ImageMagick 7.0.9.24.</td>
   </tr>
 
   <tr>
@@ -135,68 +136,68 @@ use:</p>
     <td>Merge any region with diameter smaller than <var>value</var>
     into its surrounding region or largest neighbor. Diameter is
     computed as sqrt(4*area/pi).
-    Supported in Imagemagick 7.0.9.24.</td>
+    Supported in ImageMagick 7.0.9.24.</td>
   </tr>
 
   <tr>
     <td>connected-components:eccentricity-threshold=<var>value</var></td>
     <td>Merge any region with equivalent ellipse eccentricity smaller
     than <var>value</var> into its surrounding region or largest neighbor.
-    Supported in Imagemagick 7.0.9.24.</td>
+    Supported in ImageMagick 7.0.9.24.</td>
   </tr>
 
   <tr>
     <td>connected-components:exclude-header=<var>true</var></td>
-    <td>List the objects without the header.  Supported in Imagemagick 7.0.9.21.</td>
+    <td>List the objects without the header.  Supported in ImageMagick 7.0.9.21.</td>
   </tr>
 
   <tr>
     <td>connected-components:keep=<var>list-of-ids</var></td>
-    <td>Comma and/or hyphenated list of id values to keep in the output.  Supported in Imagemagick 6.9.3-0.</td>
+    <td>Comma and/or hyphenated list of id values to keep in the output.  Supported in ImageMagick 6.9.3-0.</td>
   </tr>
 
    <tr>
     <td>connected-components:keep-colors=<var>red;green;blue</var></td>
-    <td>Keeps objects identified by their color in a semicolon separated list.  Supported in Imagemagick 6.9.3-0.</td>
+    <td>Keeps objects identified by their color in a semicolon separated list.  Supported in ImageMagick 6.9.3-0.</td>
   </tr>
 
    <tr>
     <td>connected-components:keep-top=<var>number-of-objects</var></td>
-    <td>Keeps only the top number of objects by area.  Supported in Imagemagick 7.0.9.21.</td>
+    <td>Keeps only the top number of objects by area.  Supported in ImageMagick 7.0.9.21.</td>
   </tr>
 
   <tr>
     <td>connected-components:major-axis-threshold=<var>value</var></td>
     <td>Merge any region with equivalent ellipse major axis diameter smaller
     than <var>value</var> into its surrounding region or largest neighbor.
-    Supported in Imagemagick 7.0.9.24.</td>
+    Supported in ImageMagick 7.0.9.24.</td>
   </tr>
 
  <tr>
     <td>connected-components:mean-color=<var>true</var></td>
-    <td>Change the output image from id values to mean color values. Supported in Imagemagick 6.9.2-8.</td>
+    <td>Change the output image from id values to mean color values. Supported in ImageMagick 6.9.2-8.</td>
   </tr>
 
   <tr>
     <td>connected-components:minor-axis-threshold=<var>value</var></td>
-    <td>Merge any region with equivalent ellipse minor axis diameter smaller than <var>value</var> into its surrounding region or largest neighbor.  Supported in Imagemagick 7.0.9.24.</td>
+    <td>Merge any region with equivalent ellipse minor axis diameter smaller than <var>value</var> into its surrounding region or largest neighbor.  Supported in ImageMagick 7.0.9.24.</td>
   </tr>
 
   <tr>
     <td>connected-components:perimeter-threshold=<var>value</var></td>
-    <td>Merge any region with perimeter smaller than <var>value</var> into its surrounding region or largest neighbor.  Supported in Imagemagick 7.0.9.24.</td>
+    <td>Merge any region with perimeter smaller than <var>value</var> into its surrounding region or largest neighbor.  Supported in ImageMagick 7.0.9.24.</td>
   </tr>
 
   <tr>
     <td>connected-components:remove=<var>list-of-ids</var></td>
     <td>Comma and/or hyphenated list of id values to remove from the output.
-     Supported in Imagemagick 6.9.2-9.</td>
+     Supported in ImageMagick 6.9.2-9.</td>
   </tr>
 
    <tr>
     <td>connected-components:remove-colors=<var>red;green;blue</var></td>
     <td>Remove objects identified by their color in a semicolon separated list.
-    Supported in Imagemagick 6.9.3-0.</td>
+    Supported in ImageMagick 6.9.3-0.</td>
   </tr>
 
   <tr>
@@ -731,7 +732,7 @@ use:</p>
 
   <tr>
     <td>eps:use-cropbox=<var>true</var></td>
-     <td>Force Imagemagick to respect the crop box.</td>
+     <td>Force ImageMagick to respect the crop box.</td>
   </tr>
 
   <tr>
@@ -1107,7 +1108,7 @@ use:</p>
      non-simple layers, such as adjustment layers from the input PSD file to
      the output PSD file. If this option is not used, the additional
      information will not be preserved. This define is available as of
-     Imagemagick version 6.9.5-8.
+     ImageMagick version 6.9.5-8.
     </td>
   </tr>
 
@@ -1126,7 +1127,7 @@ use:</p>
      <td>This option should only be used when converting from a PSD file to
      another PSD file. It will preserve the opacity mask of a layer and add it
      back to the layer when the image is saved. Setting this to 'true' will
-     enable this feature. This define is available as of Imagemagick version
+     enable this feature. This define is available as of ImageMagick version
      6.9.5-10.
     </td>
   </tr>
@@ -1248,7 +1249,7 @@ use:</p>
      positive manner relative to north (up). For a radial
      gradient, this specifies the rotation of the gradient in a
      clockwise positive manner from its normal X-Y orientation.
-      Supported in Imagemagick 6.9.2-5.</td>
+      Supported in ImageMagick 6.9.2-5.</td>
    </tr>
 
    <tr>
@@ -1257,14 +1258,14 @@ use:</p>
      the image dimensions. If the region defined by the bounding
      box is smaller than the image, then color1 will be the color
      of the background.
-      Supported in Imagemagick 6.9.2-5.</td>
+      Supported in ImageMagick 6.9.2-5.</td>
    </tr>
 
    <tr>
     <td>gradient:center=<var>x,y</var></td>
      <td>Specify the coordinates of the center point for the
      radial gradient. The default is the center of the image.
-      Supported in Imagemagick 6.9.2-5.</td>
+      Supported in ImageMagick 6.9.2-5.</td>
    </tr>
 
     <tr>
@@ -1272,7 +1273,7 @@ use:</p>
      <td>Specify the direction of the linear gradient towards
      the top/bottom/left/right or diagonal corners. The choices are:
      NorthWest, North, Northeast, West, East, SouthWest, South, SouthEast.
-      Supported in Imagemagick 6.9.2-5.</td>
+      Supported in ImageMagick 6.9.2-5.</td>
    </tr>
 
      <tr>
@@ -1291,7 +1292,7 @@ use:</p>
      half-diagonal of the image. The Ellipse options draws an
      elliptical radial gradient for rectangular shaped images of
      radii equal to half the width and half the height of the image.
-      Supported in Imagemagick 6.9.2-5.</td>
+      Supported in ImageMagick 6.9.2-5.</td>
    </tr>
 
  <tr>
@@ -1301,7 +1302,7 @@ use:</p>
      radial gradient will be a circle. If they differ, then
      the shape will be an ellipse. The default values are the
      maximum of the half width and half height of the image.
-      Supported in Imagemagick 6.9.2-5.</td>
+      Supported in ImageMagick 6.9.2-5.</td>
    </tr>
 
    <tr>
@@ -1310,7 +1311,7 @@ use:</p>
      vector1 (x1,y1) to vector2 (x2,y2). Color1 (fromColor) will be
      located at vector position x1,y1 and color2 (toColor) will be
      located at vector position x2,y2.
-      Supported in Imagemagick 6.9.2-5.</td>
+      Supported in ImageMagick 6.9.2-5.</td>
    </tr>
 
   <tr>
