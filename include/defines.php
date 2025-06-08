@@ -20,16 +20,16 @@ is case-dependent.</p>
 
 <p>Such settings are global in scope, and affect all images and operations. </p>
 
-<pre class="bg-light text-dark mx-4"><code>convert bilevel.tif -define ps:imagemask eps3:stencil.ps
+<pre class="bg-light text-dark mx-4"><samp>convert bilevel.tif -define ps:imagemask eps3:stencil.ps
 convert arrow.tga -set colorspace:auto-grayscale=off myArrow.tga
-</code></pre>
+</samp></pre>
 
 <p>Set attributes of the image registry by prefixing the value with
 <code>registry:</code>.  For example, to set a temporary path to put work files,
 use:</p>
 
-<pre class="bg-light text-dark mx-4"><code>-define registry:temporary-path=/data/tmp
-</code></pre>
+<pre class="bg-light text-dark mx-4"><samp>-define registry:temporary-path=/data/tmp
+</samp></pre>
 
 <p>Here is a list of recognized defines:</p>
 
