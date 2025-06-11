@@ -451,7 +451,7 @@ use:</p>
 
   <tr>
     <td>phash:colorspaces=<var>colorspace,colorspace,...</var></td>
-    <td>The perceptual hash defaults to the sRGB and HCLp colorspaces.  When
+    <td>The perceptual hash defaults to the xyY and HCLp colorspaces.  When
     using this define, you can specify up to six alternative colorspaces. (as
     of IM 7.0.3-8)</td>
   </tr>
