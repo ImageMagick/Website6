@@ -750,6 +750,11 @@ use:</p>
   </tr>
 
   <tr>
+    <td>heic:cicp=<var>value</var></td>
+    <td>Set the HEIC color primaries, transfer characteristics, matrix coefficients, and full range flag. Use <samp>1/13/6/1</samp> for full range BT.709.  See ISO/IEC 14496-12:2022 standard for a description of these fields and values.</td>
+  </tr>
+
+  <tr>
     <td>heic:preserve-orientation=<var>true</var></td>
     <td>Preserve the original EXIF orientation during HEIC decoding and rotate
     the pixels accordingly. By default, EXIF orientation is reset to "1" to
