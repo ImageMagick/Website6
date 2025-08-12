@@ -5,6 +5,57 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.13-27](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-26...6.9.13-27) - 2025-08-11
+
+### Merged
+
+- Bump actions/download-artifact from 4 to 5 [`#377`](https://github.com/ImageMagick/ImageMagick6/pull/377)
+
+### Commits
+
+- beta release [`16ea12a`](https://github.com/ImageMagick/ImageMagick6/commit/16ea12adca0284c61620ef7cb79d447eecff808d)
+- Use the pre-build binaries of the dependencies in the Windows build. [`3681811`](https://github.com/ImageMagick/ImageMagick6/commit/368181142a36d138bb1b3cac904059a211121193)
+- Moved files to the correct folder. [`df4a707`](https://github.com/ImageMagick/ImageMagick6/commit/df4a707a11d9cc5c890c84850d22330ac6490cdc)
+- Corrected name of the solution file. [`be785db`](https://github.com/ImageMagick/ImageMagick6/commit/be785db753886461f7fbaccff24fd3d23b2cfd25)
+- Corrected argument. [`3610405`](https://github.com/ImageMagick/ImageMagick6/commit/3610405acf9748dacbbe202526db26b5a9a449a1)
+- Moved PKGBUILD file for the MSYS2 build to this project. [`36b2d30`](https://github.com/ImageMagick/ImageMagick6/commit/36b2d3042b98ede3415b6ddde832b6864fa4ed14)
+- Also run test on the main build. [`a5fb4c0`](https://github.com/ImageMagick/ImageMagick6/commit/a5fb4c049a770ebad581435c770f9bb2908ca50a)
+- Run autoreconf in the main Linux build. [`dcdc6d5`](https://github.com/ImageMagick/ImageMagick6/commit/dcdc6d55767364bd5aff09dc8a7f76b705c32515)
+- Added missing check for MAGICKCORE_FREETYPE_DELEGATE. [`3ec7a6e`](https://github.com/ImageMagick/ImageMagick6/commit/3ec7a6eacdf037e1252b52154bc3ee7106260abf)
+- Also set the CXX compiler in the Linux build. [`e2784cb`](https://github.com/ImageMagick/ImageMagick6/commit/e2784cb6df0b86533794813ffc59907b13c58469)
+- Use the pre-build dependencies in the daily build. [`1c970ed`](https://github.com/ImageMagick/ImageMagick6/commit/1c970ed484427e1ba03c758096ec4f42806f74e9)
+- eliminate compiler warning [`51066ad`](https://github.com/ImageMagick/ImageMagick6/commit/51066adca4a21de42184f01aaa9bf2d6818e695d)
+- eliminate clang compiler warning [`dfc4e64`](https://github.com/ImageMagick/ImageMagick6/commit/dfc4e6420052a480e3cbccf5a273a94429970f9e)
+- Run codeql-analysis pipeline when the file is updated. [`50498e4`](https://github.com/ImageMagick/ImageMagick6/commit/50498e46ea1daddedfe751349e23495925740c75)
+- Install missing dependencies and added security-events permission in the codeql-analysis pipeline. [`2050830`](https://github.com/ImageMagick/ImageMagick6/commit/2050830f33b9ebfc4dbf8b669861e390d25abe08)
+- Use the pre-build dependencies in the Windows release build. [`5d375de`](https://github.com/ImageMagick/ImageMagick6/commit/5d375de892b003b2316ff23562360e9d8bbec618)
+- Updated version of configure. [`d569a4b`](https://github.com/ImageMagick/ImageMagick6/commit/d569a4ba5772240cfe99c1d8cbf3a13ef34a495d)
+- Restored download of the ChangeLog. [`c9dc920`](https://github.com/ImageMagick/ImageMagick6/commit/c9dc92078d2b814625266699a964156d1fa1a74e)
+- https://github.com/ImageMagick/ImageMagick/issues/8261 [`1242136`](https://github.com/ImageMagick/ImageMagick6/commit/1242136dfdbb2549bacdaddb9b8a5e75fe043789)
+- eliminate compiler exception [`2a68d68`](https://github.com/ImageMagick/ImageMagick6/commit/2a68d6873954b05d4fad678dc8ff811416915c48)
+- don't forget the end filename segment [`29e72ed`](https://github.com/ImageMagick/ImageMagick6/commit/29e72edc9d3a4e87c4d6d102a8e2a7e0e9054ee4)
+- move boundary checks [`c70a18c`](https://github.com/ImageMagick/ImageMagick6/commit/c70a18c3ac9579e25255fe0279bf81878a403b66)
+- Corrected check in build. [`be36ce3`](https://github.com/ImageMagick/ImageMagick6/commit/be36ce38a49f0840e873a128329ab64f2425fd90)
+- account for epsilon when comparing fuzz [`6af80d8`](https://github.com/ImageMagick/ImageMagick6/commit/6af80d80774884216ec6f854226cc8d835fe257c)
+- account for epsilon for fuzz comparison [`4764bd3`](https://github.com/ImageMagick/ImageMagick6/commit/4764bd346b5ae93af3bb990ffe6cb1e1ff8bd8c7)
+- robust significant error detection based on fuzz [`5a57486`](https://github.com/ImageMagick/ImageMagick6/commit/5a57486b22ac02b0817e774f4e400ca7ab5e9f06)
+- Always remove the downloaded files.zip file. [`46c7bd2`](https://github.com/ImageMagick/ImageMagick6/commit/46c7bd24536ab1c2d2f8c1cf5a04802fdaa2f799)
+- Unzip exits with a non zero exit code so the remove of the zip file should be as an or statement. [`87d1a70`](https://github.com/ImageMagick/ImageMagick6/commit/87d1a70f66e7ebadf79a62044e55371d3e8247ac)
+- update to the latest documentation [`4b2647f`](https://github.com/ImageMagick/ImageMagick6/commit/4b2647f5c0ebd71dcf077bba7ccfa39f5900391f)
+- Update the pre-build dependencies. [`4969918`](https://github.com/ImageMagick/ImageMagick6/commit/4969918ab17416cb1d59d3944450b8c8176d14da)
+- Make scripts executable. [`e493086`](https://github.com/ImageMagick/ImageMagick6/commit/e4930869d2bcb1ff248422506b6b701e76ddff89)
+- Update the pre-build dependencies. [`352601a`](https://github.com/ImageMagick/ImageMagick6/commit/352601a330aee15cba2975e8cdea6bf4ee4581f0)
+- https://github.com/ImageMagick/ImageMagick6/issues/376 [`86c86d1`](https://github.com/ImageMagick/ImageMagick6/commit/86c86d14d5bcb9190fee3fc6988e0fe3e2afb9c4)
+- Updated the pre-build dependencies and configure. [`f79ad6e`](https://github.com/ImageMagick/ImageMagick6/commit/f79ad6e672bfc6f26dd96fd99428417eb24b6d2c)
+- Specify a version for the runners instead of using the latest. [`7dd1c3e`](https://github.com/ImageMagick/ImageMagick6/commit/7dd1c3e7a83e3264792c6d122b0ad375da8870de)
+- Updated configure. [`69a93b5`](https://github.com/ImageMagick/ImageMagick6/commit/69a93b526ea9eabfaf74253e3fa533711534f912)
+- check for maximum logarithmetic colorspace index [`5d54d24`](https://github.com/ImageMagick/ImageMagick6/commit/5d54d245fce9c61d8ec2f645eaf44285fd66a08d)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-qp29-wxp5-wh82 [`14234b2`](https://github.com/ImageMagick/ImageMagick6/commit/14234b2d3be45af1f71ffafd260532bbd8f81d39)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-6hgw-6x87-578x [`986bddf`](https://github.com/ImageMagick/ImageMagick6/commit/986bddf243da88768e8198ee07c758768c098108)
+- Updated the pre-build dependencies and configure. [`f76a2aa`](https://github.com/ImageMagick/ImageMagick6/commit/f76a2aa558e93252ca4802777fee848156fced8b)
+- Updated the pre-build dependencies. [`0d95159`](https://github.com/ImageMagick/ImageMagick6/commit/0d95159fe721ac0973d7d5ea71bdd3ea71a43502)
+- release [`61bc270`](https://github.com/ImageMagick/ImageMagick6/commit/61bc270b01a4632a885698ab36055292737073a2)
+
 ## [6.9.13-26](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-25...6.9.13-26) - 2025-07-13
 
 ### Commits
