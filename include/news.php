@@ -4,7 +4,7 @@
 
 <p>ImageMagick recommended practices <strong>strongly</strong> encourage you to configure a <a href="<?php echo $_SESSION['RelativePath']?>/../script/security-policy.php">security policy</a> that best suits your local environment.</p>
 
-<p class="bg-light text-dark mx-4">We are utilizing a new community <a rel="noopener" target="_blank" href="https://github.com/ImageMagick/ImageMagick6/discussions">discussion</a> service.  The previous <a rel="noopener" target="_blank" href="https://legacy.imagemagick.org/discourse-server">discourse server</a> remains available to read legacy <a rel="noopener" target="_blank" href="https://legacy.imagemagick.org/discourse-server~">discussions</a>.</p>
+<p class="bg-light text-dark mx-4">We are utilizing a new community <a rel="noopener noreferrer" target="_blank" href="https://github.com/ImageMagick/ImageMagick6/discussions">discussion</a> service.  The previous <a rel="noopener noreferrer" target="_blank" href="https://legacy.imagemagick.org/discourse-server">discourse server</a> remains available to read legacy <a rel="noopener noreferrer" target="_blank" href="https://legacy.imagemagick.org/discourse-server~">discussions</a>.</p>
 
 <p>We discovered a bug in the pseudo-random generator prior to ImageMagick 6.9.10-81, the first 3 values repeated because the random state was not initialized properly.  As a consequence of the fix, expect a different numerical sequence when seeding (-seed).</p>
 
@@ -26,5 +26,5 @@
 <p>If these options are prohibitive, you can reduce the quality of the image results.  The default build is Q16.  If you instead use a Q8 build, you use half the memory The trade-off is reduced precision.  For a Q8 build of ImageMagick, use this <code>configure</code> script option: <code>--with-quantum-depth=8</code>.</p>
 
 <h2><a class="anchor" id="community"></a>Community</h2>
-<p>To join the ImageMagick community, try the <a rel="noopener" target="_blank" href="https://github.com/ImageMagick/ImageMagick6/discussions">discussion</a> service.  You can review questions or comments (with informed responses) posed by ImageMagick users or ask your own questions. If you want to contribute image processing algorithms, other enhancements, or bug fixes, open an <a href="https://github.com/ImageMagick/ImageMagick6/issues">issue</a>. </p>
+<p>To join the ImageMagick community, try the <a rel="noopener noreferrer" target="_blank" href="https://github.com/ImageMagick/ImageMagick6/discussions">discussion</a> service.  You can review questions or comments (with informed responses) posed by ImageMagick users or ask your own questions. If you want to contribute image processing algorithms, other enhancements, or bug fixes, open an <a href="https://github.com/ImageMagick/ImageMagick6/issues">issue</a>. </p>
 </div>

@@ -63,7 +63,7 @@
   <li><a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-processing.php">Command line processing</a>: the anatomy of the command line.</li>
   <li><a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php">Command line options</a>: annotated list of all options that can appear on the command-line.</li>
   <li><a href="<?php echo $_SESSION['RelativePath']?>/../script/fx.php">Fx</a>: apply a mathematical expression to an image or image channels.</li>
-  <li><a href="http://www.fmwconcepts.com/imagemagick/" rel="noopener" target="_blank">Fred's ImageMagick Scripts</a>:  a plethora of command-line scripts that perform geometric transforms, blurs, sharpens, edging, noise removal, and color manipulations.</li>
+  <li><a href="http://www.fmwconcepts.com/imagemagick/" rel="noopener noreferrer" target="_blank">Fred's ImageMagick Scripts</a>:  a plethora of command-line scripts that perform geometric transforms, blurs, sharpens, edging, noise removal, and color manipulations.</li>
 </dl>
 
 <h2><a class="anchor" id="program-interfaces"></a>Program Interfaces</h2>
@@ -135,7 +135,7 @@
   image.</li>
   <li><a href="<?php echo $_SESSION['RelativePath']?>/../script/convert.php">Format conversion</a>: convert an image from one <a href="<?php echo $_SESSION['RelativePath']?>/../script/formats.php">format </a> to another (e.g. PNG to JPEG).</li>
   <li><a href="https://legacy.imagemagick.org/Usage/distorts/">Generalized pixel distortion</a>: correct for, or induce image distortions including perspective.</li>
-  <li><a href="<?php echo $_SESSION['RelativePath']?>/../script/architecture.php#distributed">Heterogeneous distributed processing</a>: <a href="<?php echo $_SESSION['RelativePath']?>/../script/opencl.php">certain algorithms</a> are <a href="http://en.wikipedia.org/wiki/OpenCL" rel="noopener" target="_blank">OpenCL</a>-enabled to take advantage of speed-ups offered by executing in concert across heterogeneous platforms consisting of CPUs, GPUs, and other processors.</li>
+  <li><a href="<?php echo $_SESSION['RelativePath']?>/../script/architecture.php#distributed">Heterogeneous distributed processing</a>: <a href="<?php echo $_SESSION['RelativePath']?>/../script/opencl.php">certain algorithms</a> are <a href="http://en.wikipedia.org/wiki/OpenCL" rel="noopener noreferrer" target="_blank">OpenCL</a>-enabled to take advantage of speed-ups offered by executing in concert across heterogeneous platforms consisting of CPUs, GPUs, and other processors.</li>
   <li><a href="<?php echo $_SESSION['RelativePath']?>/../script/high-dynamic-range.php">High dynamic-range images</a>: accurately represent the wide range of intensity levels found in real scenes ranging from the brightest direct sunlight to the deepest darkest shadows.</li>
   <li><a href="https://legacy.imagemagick.org/discourse-server/viewtopic.php?t=25476">Hough lines</a>: fit straight lines to edges in an image using the Hough transform technique.</li>
   <li><a href="<?php echo $_SESSION['RelativePath']?>/../script/fx.php">Image calculator</a>: apply a mathematical expression to an image or image channels.</li>

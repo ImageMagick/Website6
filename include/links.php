@@ -77,8 +77,8 @@
 
 <h2><a class="anchor" id="related-projects"></a>Related Projects</h2>
 <ul>
-  <dd class="col-md-8"><a href="https://github.com/ImageMagick/MagickCache" rel="noopener" target="_blank">MagickCache</a></dd>
+  <dd class="col-md-8"><a href="https://github.com/ImageMagick/MagickCache" rel="noopener noreferrer" target="_blank">MagickCache</a></dd>
   <dd class="col-md-8"><a href="https://github.com/ImageMagick/WizardsTool" taget="_blank">Wizard's Toolkit</a>
-  <dd class="col-md-8"><a href="https://spiritual-warrior.org/" rel="noopener" target="_blank">The Tao of the Spiritual Warrior</a></dd>
+  <dd class="col-md-8"><a href="https://spiritual-warrior.org/" rel="noopener noreferrer" target="_blank">The Tao of the Spiritual Warrior</a></dd>
 </ul>
 </div>
