@@ -5,6 +5,30 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.13-28](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-27...6.9.13-28) - 2025-08-24
+
+### Merged
+
+- Bump actions/checkout from 4 to 5 [`#379`](https://github.com/ImageMagick/ImageMagick6/pull/379)
+
+### Commits
+
+- beta release [`cb718e8`](https://github.com/ImageMagick/ImageMagick6/commit/cb718e800c2dc6b7b7bdab0b618ce302d7001db0)
+- Updated configure. [`de0f5c2`](https://github.com/ImageMagick/ImageMagick6/commit/de0f5c252e982ace72f2421472bf0580ccc36f16)
+- Added checks for invalid with or height to ThumbnailImage (https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-fh55-q5pj-pxgw) [`5fddcf9`](https://github.com/ImageMagick/ImageMagick6/commit/5fddcf974342d8e5e02f604bc2297c038e3d4196)
+- https://github.com/ImageMagick/ImageMagick/issues/8301 [`c4daed2`](https://github.com/ImageMagick/ImageMagick6/commit/c4daed27a8eefbd8f2c39f9d999ff71c7b336255)
+- Corrected getting the screenshot on Windows when the screen is scaled larger than 100%. [`a52e2f2`](https://github.com/ImageMagick/ImageMagick6/commit/a52e2f2a1e7787d4dac3aac3ac729b102b97ae9c)
+- latest documentation update [`a150273`](https://github.com/ImageMagick/ImageMagick6/commit/a150273d153f72d88fd2eb94ac0f7c9ca0b7561a)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-9ccg-6pjw-x645 [`731ce3a`](https://github.com/ImageMagick/ImageMagick6/commit/731ce3a7aa7fabebaa322711c04ce5f5cf22edf4)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-fh55-q5pj-pxgw [`3482953`](https://github.com/ImageMagick/ImageMagick6/commit/3482953ef0af1e538cb776162a8d278141e0b9a0)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-9ccg-6pjw-x645 [`d789bdf`](https://github.com/ImageMagick/ImageMagick6/commit/d789bdf7aabb955b88fbc95653aa9dbf6c5d259f)
+- https://github.com/ImageMagick/ImageMagick/issues/8306 [`0f56f1c`](https://github.com/ImageMagick/ImageMagick6/commit/0f56f1cf4d787f25083d3206e3f5cac97e18881d)
+- Updated the Windows dependencies. [`a63f218`](https://github.com/ImageMagick/ImageMagick6/commit/a63f21822bece7c0fba394e64bd089a7d35cf652)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-mxvv-97wh-cfmm [`e49c68c`](https://github.com/ImageMagick/ImageMagick6/commit/e49c68c88eed6e68145480a471650daa9ed87217)
+- https://gist.github.com/mescuwa/9197f4317a69559cdf87d0bfab6fa473 [`98b5af3`](https://github.com/ImageMagick/ImageMagick6/commit/98b5af39db1a18153abf0b2ad604dc112de94fba)
+- ... [`62a5b76`](https://github.com/ImageMagick/ImageMagick6/commit/62a5b762f0dd5e4ffa780ba162f4a2db3acbd028)
+- release [`2fe4a10`](https://github.com/ImageMagick/ImageMagick6/commit/2fe4a1049f469029878b05426cbbf652a94006f8)
+
 ## [6.9.13-27](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-26...6.9.13-27) - 2025-08-11
 
 ### Merged
