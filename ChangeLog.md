@@ -5,6 +5,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.13-29](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-28...6.9.13-29) - 2025-08-30
+
+### Commits
+
+- beta release [`12b8a33`](https://github.com/ImageMagick/ImageMagick6/commit/12b8a33af67931b1be75afcbb3c6502d03af562e)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-23hg-53q6-hqfg [`ab1bb3d`](https://github.com/ImageMagick/ImageMagick6/commit/ab1bb3d8ed06d0ed6aa5038b6a74aebf53af9ccf)
+- leverage SetBlobExtent() [`316b849`](https://github.com/ImageMagick/ImageMagick6/commit/316b8493a8ba04c1f2ccb6d73b566bd48f20c1e7)
+- include loadavg.h header [`9978471`](https://github.com/ImageMagick/ImageMagick6/commit/9978471f91add329bb18373868c51ef5885c47f7)
+- close blob so we can reopen it again [`3b60eac`](https://github.com/ImageMagick/ImageMagick6/commit/3b60eacbd859cb6f9dfda7d3a1472dc3e77835c4)
+- Use a different repository for the build binaries. [`6ddfe72`](https://github.com/ImageMagick/ImageMagick6/commit/6ddfe720468edb02511020f91bbc3e96466df8d7)
+- Updated the Windows dependencies. [`96e2545`](https://github.com/ImageMagick/ImageMagick6/commit/96e25452323352c2a071ca4ad5d44ca9d6724f57)
+- release [`68e480b`](https://github.com/ImageMagick/ImageMagick6/commit/68e480b7dba968ae13e2359cc880b24cce5be331)
+
 ## [6.9.13-28](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-27...6.9.13-28) - 2025-08-24
 
 ### Merged
