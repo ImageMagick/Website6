@@ -5,6 +5,32 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.13-30](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-29...6.9.13-30) - 2025-10-06
+
+### Commits
+
+- beta release [`72ec0ad`](https://github.com/ImageMagick/ImageMagick6/commit/72ec0ad5695c78f42d5d5f2337e1348cf41caa3e)
+- Updated configure. [`08bfaa7`](https://github.com/ImageMagick/ImageMagick6/commit/08bfaa783db44e4f43acae34646ff28ba274a598)
+- Link the runtime in the static portable windows build. [`f7c8adc`](https://github.com/ImageMagick/ImageMagick6/commit/f7c8adc2f3871427ba6c220bce31442742104c6e)
+- Download the correct version of the dependencies for the portable build. [`acf9080`](https://github.com/ImageMagick/ImageMagick6/commit/acf90805d54072958447e6feb02a2b6d81294e38)
+- Fix issue where the size of a line is extended to 70 characters when writing a PBM image. [`5a51528`](https://github.com/ImageMagick/ImageMagick6/commit/5a51528d1507b05c32244683aa9edbf78da8b0c1)
+- promote photometric tag to required [`0b6ca3f`](https://github.com/ImageMagick/ImageMagick6/commit/0b6ca3f80d92b92d7060d8560374cd4325fd96ff)
+- check raw profile length [`2c5a1fc`](https://github.com/ImageMagick/ImageMagick6/commit/2c5a1fcc2155bf92efcd954112bd1350354c7cfd)
+- Lower permissions of the workflows. [`b41241b`](https://github.com/ImageMagick/ImageMagick6/commit/b41241be9abb0fc96269b72d4fb9aeb9f9bdb04a)
+- Also check GitHub actions with CodeQL and some other minor tweaks. [`2989c5e`](https://github.com/ImageMagick/ImageMagick6/commit/2989c5ee2a2a69e8c6f507afbefe0fcbc950dfb5)
+- Corrected permissions. [`272660b`](https://github.com/ImageMagick/ImageMagick6/commit/272660bef5e331e8f1628fd70d04259cde1d1947)
+- The SECURITY.md has moved to https://github.com/ImageMagick/.github. [`be79037`](https://github.com/ImageMagick/ImageMagick6/commit/be790374e3f185e5227c28d535f4faf6a8adcf86)
+- Updated configure and the dependencies for the Windows build. [`b4f5c05`](https://github.com/ImageMagick/ImageMagick6/commit/b4f5c05e73e9be5114ae5d4741ebf4f36c624949)
+- latest documentation [`adad85c`](https://github.com/ImageMagick/ImageMagick6/commit/adad85c7c53232904dff2eadac82ac95a9ab3b13)
+- latest autoconf/automake updates [`fe5fe1e`](https://github.com/ImageMagick/ImageMagick6/commit/fe5fe1e4ab70fb3303962ec9eeef76cda9d1d092)
+- Renamed workflow. [`d7cc1f7`](https://github.com/ImageMagick/ImageMagick6/commit/d7cc1f75c60cec8c4135d3b8a5ed30820c60d4d3)
+- Changed workflow to publish a release with all our release artifacts. [`b706c11`](https://github.com/ImageMagick/ImageMagick6/commit/b706c11ab8e8c168b83c167cfb273e4a895cfe5e)
+- https://github.com/ImageMagick/ImageMagick/issues/8375 [`b3dece0`](https://github.com/ImageMagick/ImageMagick6/commit/b3dece098066ceafe4c472e5b93e2fbc5b9840cd)
+- https://github.com/ImageMagick/ImageMagick/issues/8375 [`dc360ce`](https://github.com/ImageMagick/ImageMagick6/commit/dc360ceee13ebc5de530cdc4d1479abcb4433b97)
+- https://github.com/ImageMagick/ImageMagick/issues/8375#issuecomment-3369175313 [`482fc77`](https://github.com/ImageMagick/ImageMagick6/commit/482fc77c1c54265539dce51253b33c78f1d6c68c)
+- https://github.com/ImageMagick/ImageMagick/issues/8384 [`dac67e8`](https://github.com/ImageMagick/ImageMagick6/commit/dac67e8728e3b6441a50946e2436da44028d3d34)
+- release [`cedeebc`](https://github.com/ImageMagick/ImageMagick6/commit/cedeebca94c6c4237940bc82a62cd8006e81ac9d)
+
 ## [6.9.13-29](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-28...6.9.13-29) - 2025-08-30
 
 ### Commits
