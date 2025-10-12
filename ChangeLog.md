@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.13-31](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-30...6.9.13-31) - 2025-10-09
+
+### Commits
+
+- beta release [`e6cd82b`](https://github.com/ImageMagick/ImageMagick6/commit/e6cd82b93cdbe276e7d19097efa94c36446d5c76)
+- Updated the Windows dependencies. [`4bd2706`](https://github.com/ImageMagick/ImageMagick6/commit/4bd2706d9e30e5451431b3c3df5b585b02444fc5)
+- Removed typecast to silence warning. [`1a57a6c`](https://github.com/ImageMagick/ImageMagick6/commit/1a57a6c28fb45f2c8efb0a61c8a4cabcb904611c)
+- Updated the Windows dependencies and configure. [`3e238e5`](https://github.com/ImageMagick/ImageMagick6/commit/3e238e517f871a19d872101ebfca20a8c5911952)
+
 ## [6.9.13-30](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-29...6.9.13-30) - 2025-10-06
 
 ### Commits
