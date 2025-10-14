@@ -5,7 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [6.9.13-31](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-30...6.9.13-31) - 2025-10-09
+## [6.9.13-32](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-31...6.9.13-32) - 2025-10-14
+
+### Merged
+
+- Bump github/codeql-action from 3 to 4 [`#381`](https://github.com/ImageMagick/ImageMagick6/pull/381)
+
+### Commits
+
+- release [`e0c34a2`](https://github.com/ImageMagick/ImageMagick6/commit/e0c34a2f8c8bf60cc3a4602ae1f5e21be4ce71b4)
+
+## [6.9.13-31](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-30...6.9.13-31) - 2025-10-12
 
 ### Commits
 
@@ -13,6 +23,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updated the Windows dependencies. [`4bd2706`](https://github.com/ImageMagick/ImageMagick6/commit/4bd2706d9e30e5451431b3c3df5b585b02444fc5)
 - Removed typecast to silence warning. [`1a57a6c`](https://github.com/ImageMagick/ImageMagick6/commit/1a57a6c28fb45f2c8efb0a61c8a4cabcb904611c)
 - Updated the Windows dependencies and configure. [`3e238e5`](https://github.com/ImageMagick/ImageMagick6/commit/3e238e517f871a19d872101ebfca20a8c5911952)
+- Added extra check to resolve issue on 32-bit systems (https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-9pp9-cfwx-54rm) [`456771f`](https://github.com/ImageMagick/ImageMagick6/commit/456771fae8baa9558a1421ec8d522e6937d9b2d7)
 
 ## [6.9.13-30](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-29...6.9.13-30) - 2025-10-06
 
