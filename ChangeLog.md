@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.13-33](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-32...6.9.13-33) - 2025-10-26
+
+### Commits
+
+- beta release [`ffc9d2a`](https://github.com/ImageMagick/ImageMagick6/commit/ffc9d2a5daca0800a87c7d0e78c0819125e74c3b)
+- optimize cast methods [`638ef47`](https://github.com/ImageMagick/ImageMagick6/commit/638ef47e90fe7de9717cf96018a271bf256ad080)
+- Updated the Windows dependencies. [`84fc593`](https://github.com/ImageMagick/ImageMagick6/commit/84fc59307fbfb49d2218978604c48133bf25278e)
+- https://github.com/ImageMagick/ImageMagick6/pull/343#issuecomment-3438433150 [`f2fb638`](https://github.com/ImageMagick/ImageMagick6/commit/f2fb6382f9af39512aab65edac0378c3fad8093f)
+- release [`d93d2ef`](https://github.com/ImageMagick/ImageMagick6/commit/d93d2efccc949c0b3914b92e4c3d2130b9ddd120)
+
 ## [6.9.13-32](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-31...6.9.13-32) - 2025-10-14
 
 ### Merged
