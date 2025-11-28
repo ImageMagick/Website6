@@ -228,7 +228,7 @@ Path: ImageMagick-7/policy.xml
   Policy: Resource
     name: temporary-path
     value: /opt/tmp
-  Policy: Coder
+  Policy: Module
     rights: Write 
     pattern: {HTTP,HTTPS,MVG,PS,PDF}
   Policy: Filter
@@ -265,7 +265,7 @@ Path: [built-in]
 <pre class="bg-light text-dark mx-4"><samp>static const char
   *ZeroConfigurationPolicy = \
 "&lt;policymap> \
-  &lt;policy domain=\"coder\" rights=\"none\" pattern=\"MVG\"/> \
+  &lt;policy domain=\"module\" rights=\"none\" pattern=\"MVG\"/> \
 &lt;/policymap>";</samp></pre>
 
 <h2><a class="anchor" id="other"></a>Other Security Considerations</h2>
