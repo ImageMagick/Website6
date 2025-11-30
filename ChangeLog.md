@@ -5,6 +5,41 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.13-34](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-33...6.9.13-34) - 2025-11-30
+
+### Merged
+
+- Fix memory corrution in ClonePixelWands [`#384`](https://github.com/ImageMagick/ImageMagick6/pull/384)
+
+### Commits
+
+- beta release [`4843c34`](https://github.com/ImageMagick/ImageMagick6/commit/4843c34f29ac1531dd65134c4ade702d8c66fd4e)
+- https://github.com/ImageMagick/ImageMagick/issues/8410:wq [`35c90a9`](https://github.com/ImageMagick/ImageMagick6/commit/35c90a9e259ad72bfc6951019e2f261404aad0d1)
+- Bumped versions of download and upload artifacts actions. [`cd5f9db`](https://github.com/ImageMagick/ImageMagick6/commit/cd5f9db19d52fe62002772fd08593cb12c0e25b6)
+- https://github.com/ImageMagick/ImageMagick/issues/8416 [`7acaf6c`](https://github.com/ImageMagick/ImageMagick6/commit/7acaf6cee433fd0a5bbe0ae62f61ed3d75335e48)
+- Minor refactor. [`b5b57c9`](https://github.com/ImageMagick/ImageMagick6/commit/b5b57c9759d112f610a20468ecb1b069e6366ac9)
+- Fix possible memory leak. [`d8782c7`](https://github.com/ImageMagick/ImageMagick6/commit/d8782c7890868322ff1e10bfb83be864da2f3305)
+- Changed indentation. [`0649c78`](https://github.com/ImageMagick/ImageMagick6/commit/0649c78d5c56af84fdaa9b726358ac5dd6c77131)
+- Pin actions [`6182a97`](https://github.com/ImageMagick/ImageMagick6/commit/6182a97d975bef97ee92fb9056a2cbaf2d8bfc75)
+- Use environment variables for values from other steps instead. [`5899295`](https://github.com/ImageMagick/ImageMagick6/commit/589929593fa5d8f1081b62d3a6d8837bec192a2e)
+- No longer persist credentials on checkout. [`0f7198e`](https://github.com/ImageMagick/ImageMagick6/commit/0f7198eb4c2127f2e40eada11b156a7384aa7d22)
+- Also disable persist credentials on other checkouts. [`b14574c`](https://github.com/ImageMagick/ImageMagick6/commit/b14574c714b7a08a87a03e08668df3b877b4caf8)
+- Added cooldown for dependabot. [`a993d5d`](https://github.com/ImageMagick/ImageMagick6/commit/a993d5d51ee45851d98410fe44a405560319c737)
+- Removed duplicate eof check. [`dfe1ba8`](https://github.com/ImageMagick/ImageMagick6/commit/dfe1ba81dd2be4448f7d5ff7179888e779fd4142)
+- Updated the Windows dependencies and configure. [`b2dc2df`](https://github.com/ImageMagick/ImageMagick6/commit/b2dc2dfc45b1a785d9a8fec4bd79b8a6d38f309e)
+- cosmetic [`a6cc262`](https://github.com/ImageMagick/ImageMagick6/commit/a6cc262216b7f27e8e773890ec64b70c3abdb79e)
+- latest autoconf/automake updates [`465cfc9`](https://github.com/ImageMagick/ImageMagick6/commit/465cfc96588fa19aa8cd065d4a57af6cddca41b7)
+- Updated the Windows dependencies. [`44fc5cf`](https://github.com/ImageMagick/ImageMagick6/commit/44fc5cfef4e701076eccb5f0a0bc3cac193076b2)
+- Correct incorrect free (GHSA-q3hc-j9x5-mp9m) [`7d4c27f`](https://github.com/ImageMagick/ImageMagick6/commit/7d4c27fd4cb2a716a9c1d3346a5e79a692cfe6d8)
+- Removed incorrect format specifier. [`aed7b30`](https://github.com/ImageMagick/ImageMagick6/commit/aed7b30ec2a5ec6eedfcb84a1e8d0a043d47f85b)
+- Correct parsing of the density [`485c42c`](https://github.com/ImageMagick/ImageMagick6/commit/485c42c6009214f7979c0125fc35212e22dff378)
+- Added custom end of file check to the pnm encoder to allow a missing final newline [`b7f3b3b`](https://github.com/ImageMagick/ImageMagick6/commit/b7f3b3bbd74e22e9f552476bef246fb5c2e661d4)
+- Use the colorspace when writing images that have a color map in the pnm coder [`eabda19`](https://github.com/ImageMagick/ImageMagick6/commit/eabda195c5fd14efb27f58da7c98694bcbf8e347)
+- enable coder policy for MVG "write" rights [`e4f6cea`](https://github.com/ImageMagick/ImageMagick6/commit/e4f6cea714966d479feb4317283630fa062220b8)
+- Disabling a module will now also disable all the coders in that module. [`1d452bb`](https://github.com/ImageMagick/ImageMagick6/commit/1d452bb3b5b0e4b0287a5826e8cb49ffcf504c1b)
+- Updated the Windows dependencies. [`eea1aa7`](https://github.com/ImageMagick/ImageMagick6/commit/eea1aa78341a7f8c6e34d9c195742f4102322c2d)
+- release [`64f1f75`](https://github.com/ImageMagick/ImageMagick6/commit/64f1f756f16437857523903ec0fb075f29169274)
+
 ## [6.9.13-33](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-32...6.9.13-33) - 2025-10-26
 
 ### Commits
