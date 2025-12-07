@@ -5,6 +5,21 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.13-35](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-34...6.9.13-35) - 2025-12-07
+
+### Merged
+
+- Bump actions/checkout from 5 to 6 [`#388`](https://github.com/ImageMagick/ImageMagick6/pull/388)
+
+### Commits
+
+- beta release [`b749132`](https://github.com/ImageMagick/ImageMagick6/commit/b7491323fbd687eb8f2f13924939c8eb1d4d2fc4)
+- Added extra check to make sure we don't read after an empty string. [`3af9a95`](https://github.com/ImageMagick/ImageMagick6/commit/3af9a95d319a496a067ef8eaa95a2d9191e40f9a)
+- Added extra check to avoid an overflow on 32-bit machines (GHSA-6hjr-v6g4-3fm8) [`7779f1f`](https://github.com/ImageMagick/ImageMagick6/commit/7779f1ff772dfabe545c67fb2f3bfa8f7a845a2d)
+- Use HeapOverflowSanityCheckGetSize to make it more clear what is happening. [`4e87854`](https://github.com/ImageMagick/ImageMagick6/commit/4e8785417ff5f3608bc501edebbf9f407bee11bc)
+- Updated the Windows dependencies and configure. [`bf98aad`](https://github.com/ImageMagick/ImageMagick6/commit/bf98aad753d61c6d8383351e24506f4225a4876a)
+- release [`367d0d5`](https://github.com/ImageMagick/ImageMagick6/commit/367d0d50f54c40303fdbeb6fa56144bb5a5afaf7)
+
 ## [6.9.13-34](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-33...6.9.13-34) - 2025-11-30
 
 ### Merged
