@@ -1,3 +1,9 @@
+<?php
+if (!isset($_SESSION) || !is_array($_SESSION)) {
+  header("Location: ../script/index.php");
+  exit();
+}
+?>
 <div>
 <h1 class="text-center">Command-line Tools</h1>
 <p class="lead">ImageMagick includes a number of command-line utilities for manipulating images.  Most of you are probably accustomed to editing images one at a time with a graphical user interface (GUI) with such programs as Gimp or Photoshop.  However, a GUI is not always convenient.  Suppose you want to process an image dynamically from a web script or you want to apply the same operations to many images or repeat a specific operation at different times to the same or different image.  For these types of operations, the command-line image processing utility is appropriate.</p>

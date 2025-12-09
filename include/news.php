@@ -1,3 +1,9 @@
+<?php
+if (!isset($_SESSION) || !is_array($_SESSION)) {
+  header("Location: ../script/index.php");
+  exit();
+}
+?>
 <div>
 <h1 class="text-center">News</h1>
 <p class="text-center"><a href="#news">News</a> • <a href="#community">Community</a></p>

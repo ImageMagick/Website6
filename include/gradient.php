@@ -1,3 +1,9 @@
+<?php
+if (!isset($_SESSION) || !is_array($_SESSION)) {
+  header("Location: ../script/index.php");
+  exit();
+}
+?>
 <div>
 <h1 class="text-center">Create a Gradual Blend of Two Colors</h1>
 <p class="lead">An image gradient creates a gradual blend between two colors formed into a shape that is linear, circular, or ellipical.</p>

@@ -1,3 +1,9 @@
+<?php
+if (!isset($_SESSION) || !is_array($_SESSION)) {
+  header("Location: ../script/index.php");
+  exit();
+}
+?>
 <div>
 
 <p class="lead">The following is a list of image operators that have been <a href="http://en.wikipedia.org/wiki/OpenCL">OpenCL</a>-accelerated:</p>

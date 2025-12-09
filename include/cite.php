@@ -1,3 +1,9 @@
+<?php
+if (!isset($_SESSION) || !is_array($_SESSION)) {
+  header("Location: ../script/index.php");
+  exit();
+}
+?>
 <div>
 <h1 class="text-center">Cite</h1>
 <p class="lead">Learn how to cite ImageMagick in your work.  Choose from these citation formats:</p>
