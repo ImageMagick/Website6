@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.13-36](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-35...6.9.13-36) - 2025-12-14
+
+### Commits
+
+- beta release [`fab0592`](https://github.com/ImageMagick/ImageMagick6/commit/fab0592b552267bfe15184e3c39534a565760af7)
+- release [`d9ae5cd`](https://github.com/ImageMagick/ImageMagick6/commit/d9ae5cde0e229f6d1294b68709fd2cd90e9c1f50)
+
 ## [6.9.13-35](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-34...6.9.13-35) - 2025-12-07
 
 ### Merged
