@@ -12,8 +12,8 @@ if (!isset($_SESSION) || !is_array($_SESSION)) {
 
 <h2><a class="anchor" id="web"></a>Use ImageMagick Online</h2>
 <ul>
-  <dd class="col-md-8"><a href="https://jqmagick.imagemagick.org/">JqMagick</a></dd>
-  <dd class="col-md-8"><a href="https://magickstudio.imagemagick.org/">Magick Online Studio</a></dd>
+ <dd class="col-md-8"><a href="https://jqmagick.imagemagick.org/discourse-server/index.php" rel="noopener noreferrer" target="_blank">Legacy ImageMagick Discussions</a></dd>
+  <dd class="col-md-8"><a href="https://magickstudio.imagemagick.org/scripts/MagickStudio.cgi" rel="noopener noreferrer" target="_blank">Magick Online Studio</a></dd>
 </ul>
 
 <h2><a class="anchor" id="command-line"></a>Command-line Tutorials</h2>
