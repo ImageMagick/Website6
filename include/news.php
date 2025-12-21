@@ -10,7 +10,7 @@ if (!isset($_SESSION) || !is_array($_SESSION)) {
 
 <p>ImageMagick recommended practices <strong>strongly</strong> encourage you to configure a <a href="<?php echo $_SESSION['RelativePath']?>/../script/security-policy.php">security policy</a> that best suits your local environment.</p>
 
-<p class="bg-light text-dark mx-4">We are utilizing a new community <a rel="noopener noreferrer" target="_blank" href="https://github.com/ImageMagick/ImageMagick6/discussions">discussion</a> service.  The previous <a rel="noopener noreferrer" target="_blank" href="https://legacy.imagemagick.org/discourse-server">discourse server</a> remains available to read legacy <a rel="noopener noreferrer" target="_blank" href="https://legacy.imagemagick.org/discourse-server~">discussions</a>.</p>
+<p class="bg-light text-dark mx-4">We are utilizing a new community <a rel="noopener noreferrer" target="_blank" href="https://github.com/ImageMagick/ImageMagick6/discussions">discussion</a> service.  The previous <a rel="noopener noreferrer" target="_blank" href="https://jqmagick.imagemagick.org/discourse-server">discourse server</a> remains available to read legacy <a rel="noopener noreferrer" target="_blank" href="https://jqmagick.imagemagick.org/discourse-server">discussions</a>.</p>
 
 <p>We discovered a bug in the pseudo-random generator prior to ImageMagick 6.9.10-81, the first 3 values repeated because the random state was not initialized properly.  As a consequence of the fix, expect a different numerical sequence when seeding (-seed).</p>
 
