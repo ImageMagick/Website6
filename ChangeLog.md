@@ -5,6 +5,30 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.13-37](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-36...6.9.13-37) - 2025-12-28
+
+### Merged
+
+- Bump msys2/setup-msys2 from 2.29.0 to 2.30.0 [`#389`](https://github.com/ImageMagick/ImageMagick6/pull/389)
+- Bump actions/download-artifact from 6 to 7 [`#390`](https://github.com/ImageMagick/ImageMagick6/pull/390)
+- Bump actions/upload-artifact from 5 to 6 [`#391`](https://github.com/ImageMagick/ImageMagick6/pull/391)
+
+### Commits
+
+- Use macos-14 instead of macos-13 for the MacOS build. [`7b8c2eb`](https://github.com/ImageMagick/ImageMagick6/commit/7b8c2eb4faf487526e16f2829edabbcfbbd04555)
+- Removed unused method. [`dcbd0c5`](https://github.com/ImageMagick/ImageMagick6/commit/dcbd0c581886f96757e81510736a079ba8f93d84)
+- Removed another unused method. [`c3cdc70`](https://github.com/ImageMagick/ImageMagick6/commit/c3cdc701c9ea9109997121ae00969d91c05d4bfe)
+- Fixes for the MacOS build. [`3251327`](https://github.com/ImageMagick/ImageMagick6/commit/3251327a2929708fdb0d31ac44137d8a5b17739f)
+- Another fix for the MacOS build. [`a65b61b`](https://github.com/ImageMagick/ImageMagick6/commit/a65b61bb0531ec5f33e1dfbf20d5254d7597fd77)
+- beta release [`56dbefe`](https://github.com/ImageMagick/ImageMagick6/commit/56dbefe7c349324087123f9fdfa80d157d4a4fba)
+- https://github.com/ImageMagick/ImageMagick/pull/8488 [`914d892`](https://github.com/ImageMagick/ImageMagick6/commit/914d8924b52280eacc72695cc373e834293c2bf5)
+- https://github.com/ImageMagick/ImageMagick/issues/8487 [`288812a`](https://github.com/ImageMagick/ImageMagick6/commit/288812a4cf832f2ed97fd5077377c9211efb721b)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-p27m-hp98-6637 [`693c849`](https://github.com/ImageMagick/ImageMagick6/commit/693c8497290ea0c7cac75d3068ea4fa70d7d507e)
+- Fixed memory leak that happens when we hit a list limit and fixed possible null reference. [`cc619a5`](https://github.com/ImageMagick/ImageMagick6/commit/cc619a57064ae220ef52d0d902fe74094fe43c48)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-7rvh-xqp3-pr8j [`5655e26`](https://github.com/ImageMagick/ImageMagick6/commit/5655e26ee9032a208ad9add1fde2877205d5e540)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-hrh7-j8q2-4qcw [`c46bc2a`](https://github.com/ImageMagick/ImageMagick6/commit/c46bc2a29d0712499173c6ffda1d38d7dc8861f5)
+- release [`38488f9`](https://github.com/ImageMagick/ImageMagick6/commit/38488f9e65f9ad65b51d087dca9f421e7befee2a)
+
 ## [6.9.13-36](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-35...6.9.13-36) - 2025-12-14
 
 ### Commits
