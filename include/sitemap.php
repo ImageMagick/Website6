@@ -22,7 +22,7 @@ if (!isset($_SESSION) || !is_array($_SESSION)) {
   <li><a href="<?php echo $_SESSION['RelativePath']?>/../script/openmp.php">Parallel execution</a>: ImageMagick is threaded to take advantage of speed-ups offered by the multicore processor chips.</li>
   <li><a href="<?php echo $_SESSION['RelativePath']?>/../script/security-policy.php">Security policy</a>: best practices strongly encourage you to configure a security policy that suits your local environment.</li>
   <li><a href="<?php echo $_SESSION['RelativePath']?>/../script/architecture.php">Architecture</a>: get to know more about the software and algorithms behind ImageMagick.</li>
-  <li><a href="<?php echo $_SESSION['RelativePath']?>/../script/license.php">License</a>: the legally binding and authoritative terms and conditions for use, reproduction, and distribution of ImageMagick.</li>
+  <li><a href="https://imagemagick.org/license/">License</a>: the legally binding and authoritative terms and conditions for use, reproduction, and distribution of ImageMagick.</li>
   <li><a href="<?php echo $_SESSION['RelativePath']?>/../script/export.php">Export classification</a>: export control status of ImageMagick.</li>
   <li><a href="<?php echo $_SESSION['RelativePath']?>/../script/privacy-policy.php">Privacy policy</a>: we do not collect personal identifier information.</li>
   <li><a href="<?php echo $_SESSION['RelativePath']?>/../script/porting.php">ImageMagick version 7</a>: ImageMagick version 7 is in development, learn how it differs from previous versions.</li>
@@ -133,7 +133,7 @@ if (!isset($_SESSION) || !is_array($_SESSION)) {
   <li><a href="<?php echo $_SESSION['RelativePath']?>/../script/distribute-pixel-cache.php">Distributed pixel cache</a>: offload intermediate pixel storage to one or more remote servers .</li>
   <li><a href="https://legacy.imagemagick.org/Usage/draw/">Draw</a>: add shapes or text to an image.</li>
   <li><a href="<?php echo $_SESSION['RelativePath']?>/../script/cipher.php">Encipher or decipher an image</a>: convert ordinary images into unintelddgible gibberish and back again.</li>
-  <li><a href="<?php echo $_SESSION['RelativePath']?>/../script/escape.php">Escapes</a>: utilize percent escapes in a number of options, for example in <a href="<?php echo 
+  <li><a href="<?php echo $_SESSION['RelativePath']?>/../script/escape.php">Escapes</a>: utilize percent escapes in a number of options, for example in <a href="<?php echo
   $_SESSION['RelativePath']?>/../script/command-line-options.php#format_identify_"
   >-format</a> or in montage <a href="<?php echo
   $_SESSION['RelativePath']?>/../script/command-line-options.php#label"
