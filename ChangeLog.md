@@ -5,6 +5,32 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.13-38](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-37...6.9.13-38) - 2026-01-19
+
+### Commits
+
+- beta release [`ea08ad7`](https://github.com/ImageMagick/ImageMagick6/commit/ea08ad76eda78bd3d5cf3691dc32a872af747c2a)
+- Check if the aspect ratio is a known ratio when density_unit is set to zero and otherwise read it as an undefined density in the jpeg coder (https://github.com/ImageMagick/ImageMagick/issues/8496) [`5c7fecc`](https://github.com/ImageMagick/ImageMagick6/commit/5c7fecc30ccd821bdd3300b534383b123d0731e4)
+- Corrected setting the opacity (#285) [`bf6f4f6`](https://github.com/ImageMagick/ImageMagick6/commit/bf6f4f678b5895fc3258842f996c6d24ddc77535)
+- tune security policies [`3b6a5f9`](https://github.com/ImageMagick/ImageMagick6/commit/3b6a5f9dfe576fdc34a5ac5ef0636314eb8352a3)
+- Updated the Windows dependencies and configure. [`33c2ab5`](https://github.com/ImageMagick/ImageMagick6/commit/33c2ab552bc2d757d97c3ef25e56140f0b61990c)
+- Disabled trim_trailing_whitespace in .c because this breaks the marker between methods. [`4ff527c`](https://github.com/ImageMagick/ImageMagick6/commit/4ff527c2a96d714a49f689a16d9735ced88ca30c)
+- Added more file extensions to the editorconfig. [`6725f6e`](https://github.com/ImageMagick/ImageMagick6/commit/6725f6ef4ace0219be0a76bcf0829cc18b781cfe)
+- Trim trailing whitespace. [`9da03ac`](https://github.com/ImageMagick/ImageMagick6/commit/9da03ac7b8a74c888571ea3aec611e63f07e0b95)
+- Use the new license url. [`e8b8e83`](https://github.com/ImageMagick/ImageMagick6/commit/e8b8e8331fd26b07225602235b1222aa6c6c7d7a)
+- Improved overflow checks and added missing memset. [`1825571`](https://github.com/ImageMagick/ImageMagick6/commit/1825571f1d736aefd6b476acb3a2c920b22db5ac)
+- Moved permissions block in the workflows. [`558354e`](https://github.com/ImageMagick/ImageMagick6/commit/558354e0d207aee3eac89614cfb7530844ec460d)
+- Added memset to fix a possible invalid free. [`23ee7d8`](https://github.com/ImageMagick/ImageMagick6/commit/23ee7d84a0cd705331add47f9683660d20df5c3c)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-5vx3-wx4q-6cj8 [`0e40237`](https://github.com/ImageMagick/ImageMagick6/commit/0e4023775c8859d2b802e8b459a27b599ca8403a)
+- MSL: Stack overflow via infinite recursion in ProcessMSLScript [`fe2970b`](https://github.com/ImageMagick/ImageMagick6/commit/fe2970bbbe02c6fe875cc2b269390a3165d57706)
+- https://github.com/ImageMagick/ImageMagick/issues/8523 [`7a6b30c`](https://github.com/ImageMagick/ImageMagick6/commit/7a6b30c08c87d6e0783fed5bb7f4f243680364e1)
+- signed/unsigned mismatch [`2a81774`](https://github.com/ImageMagick/ImageMagick6/commit/2a81774f0811183d4a8e49c29da09d32c15de3d8)
+- Updated the Windows dependencies. [`280059a`](https://github.com/ImageMagick/ImageMagick6/commit/280059aa3b87b42404c345e9ff54da9dd1a4f51a)
+- Changed version check because a new version of libraw has been released. [`9adc0fb`](https://github.com/ImageMagick/ImageMagick6/commit/9adc0fb52cdaceac9824d99b82af2a2f7e5e7881)
+- https://github.com/ImageMagick/ImageMagick/issues/8528 [`6947a76`](https://github.com/ImageMagick/ImageMagick6/commit/6947a76df714fcc8f0924e3f6eefc728eebd45da)
+- Added overflow checks to prevent an out of bounds write [`536512a`](https://github.com/ImageMagick/ImageMagick6/commit/536512a2c60cd6e8c21c1256c2ee4da48d903e0c)
+- release [`b5245c9`](https://github.com/ImageMagick/ImageMagick6/commit/b5245c9cfc4a60ea0d2121ffd93e4e4f6ac20544)
+
 ## [6.9.13-37](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-36...6.9.13-37) - 2025-12-28
 
 ### Merged
