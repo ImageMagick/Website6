@@ -5,6 +5,49 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.13-41](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-40...6.9.13-41) - 2026-03-08
+
+### Merged
+
+- coders/stegano.c: destroy watermark image prior to throwing exception [`#398`](https://github.com/ImageMagick/ImageMagick6/pull/398)
+
+### Commits
+
+- beta release [`88b6495`](https://github.com/ImageMagick/ImageMagick6/commit/88b649563ceac77d3e6d9ab18f73f63ef27a8731)
+- jumbo security patch [`6a602fb`](https://github.com/ImageMagick/ImageMagick6/commit/6a602fb36f181a0089848344a3b0d79fc6155a2b)
+- cosmetic [`89f9edb`](https://github.com/ImageMagick/ImageMagick6/commit/89f9edb242b202626b2cab5c4988122b85ac906a)
+- eliminate compiler warning [`3f15e69`](https://github.com/ImageMagick/ImageMagick6/commit/3f15e69116e35eafe6e317837b7fd26806ba6f41)
+- eliminate compiler warning [`df35b3f`](https://github.com/ImageMagick/ImageMagick6/commit/df35b3f2f022bbd27416115ab650cf46c91b43fa)
+- eliminate compile warning [`55d3e98`](https://github.com/ImageMagick/ImageMagick6/commit/55d3e98e93c6617d9a68a1a82fc265ffe540b800)
+- check for write overflow [`4392c71`](https://github.com/ImageMagick/ImageMagick6/commit/4392c718dd34657ddf756a0470494c1f4f4e0088)
+- if only Windows properly support POSIX [`f424732`](https://github.com/ImageMagick/ImageMagick6/commit/f4247329e31b865f6167a21e3174dcf73565aca7)
+- revert [`7470bbe`](https://github.com/ImageMagick/ImageMagick6/commit/7470bbe674a221a6b89285113eb82d946dde2412)
+- mode is S_MODE [`a0f64c4`](https://github.com/ImageMagick/ImageMagick6/commit/a0f64c48b351b702b624855ddc24e976030405dd)
+- Updated the Windows dependencies. [`8effffe`](https://github.com/ImageMagick/ImageMagick6/commit/8effffe4bf0b9c8cc566e9268a57d1efb894bb02)
+- Added checks for overflows. [`bf6c45a`](https://github.com/ImageMagick/ImageMagick6/commit/bf6c45aa495827f9db503d36a5e998a4e2610b6a)
+- Added checks to avoid possible stack corruption (https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-932h-jw47-73jm) [`f6cd30e`](https://github.com/ImageMagick/ImageMagick6/commit/f6cd30e0493635eb0b8a4e3dd93c1ac14a35a7e9)
+- https://github.com/ImageMagick/ImageMagick/pull/8583 [`f5fd4ef`](https://github.com/ImageMagick/ImageMagick6/commit/f5fd4efa98d4dc3950a52bb18962628404153705)
+- https://github.com/ImageMagick/ImageMagick/issues/8584 [`4a261a5`](https://github.com/ImageMagick/ImageMagick6/commit/4a261a56aed44414aceff74a55584fd04aa2fda1)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-qpg4-j99f-8xcg [`42e5a37`](https://github.com/ImageMagick/ImageMagick6/commit/42e5a37eeb60ca4fdede5060c0aa60802c2dc701)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-rx45-gh58-4hw3 [`d3c5d6c`](https://github.com/ImageMagick/ImageMagick6/commit/d3c5d6c8b8af459ae70db8337c416027dc4775bd)
+- https://github.com/ImageMagick/ImageMagick/pull/8573 [`c54e9b3`](https://github.com/ImageMagick/ImageMagick6/commit/c54e9b365118972f939b0efcdd5087e106eb8945)
+- eliminate compiler warning [`2e7b5ed`](https://github.com/ImageMagick/ImageMagick6/commit/2e7b5ed6cd6ce8e36bb4aa5f5faa7102948ff139)
+- https://github.com/ImageMagick/ImageMagick/pull/8588 [`b8ff497`](https://github.com/ImageMagick/ImageMagick6/commit/b8ff497aef5e0290d1412488a033144bf1679eaa)
+- https://github.com/ImageMagick/ImageMagick/pull/8587 [`aed67ca`](https://github.com/ImageMagick/ImageMagick6/commit/aed67ca926ebc53c562a5776a14d3ddb433d891e)
+- Simplify code. [`a819965`](https://github.com/ImageMagick/ImageMagick6/commit/a81996583082551b95496f325ede2450b4970212)
+- Removed unnecessary null checks. [`236cd0b`](https://github.com/ImageMagick/ImageMagick6/commit/236cd0b83bd812cad3f294f622c7490ca876250b)
+- Added extra check. [`b13562f`](https://github.com/ImageMagick/ImageMagick6/commit/b13562f805d36de13c7c66c5fca6a6505495aae1)
+- Use default methods to check overflows. [`b3a7f4d`](https://github.com/ImageMagick/ImageMagick6/commit/b3a7f4d44c6656794bfa1ee0bfbe1f5692ca8d82)
+- Apply patches from ImageMagick 7. [`0ba0cde`](https://github.com/ImageMagick/ImageMagick6/commit/0ba0cde7ce04d59b9835609bc0e90c1f4000e707)
+- Corrected the overflow check that can cause issues on 32-bit systems (https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-56jp-jfqg-f8f4) [`fa85920`](https://github.com/ImageMagick/ImageMagick6/commit/fa85920aa28ee1887cc3c5d7d5272b3650d3b168)
+- Updated action that signs the binaries. [`fde7dfe`](https://github.com/ImageMagick/ImageMagick6/commit/fde7dfeb0c702124ef0abd120797224ea8e7bbad)
+- Set status to false to make sure the rest of the content is no longer parsed. [`f089279`](https://github.com/ImageMagick/ImageMagick6/commit/f089279cf9cb5bbc0532078aa3aaf7d7625307d1)
+- Added extra check to prevent overflow that could result in a heap over-write (https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-qmw5-2p58-xvrc) [`3875619`](https://github.com/ImageMagick/ImageMagick6/commit/3875619331d2c7c74a80d34665cbc06e6ed4359a)
+- Use properties instead of a global splaytree to solve a rare race condition. [`919fb70`](https://github.com/ImageMagick/ImageMagick6/commit/919fb703dbdfbc50b4699dde3c46cb03111f65ae)
+- Added extra check to prevent out of bounds write when color reduction fails (https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-49hx-7656-jpg3) [`812ff3e`](https://github.com/ImageMagick/ImageMagick6/commit/812ff3ef91967d367aa7a087a31b94f3b2a267ee)
+- Added missing call to SetImageExtent. [`3e14e0b`](https://github.com/ImageMagick/ImageMagick6/commit/3e14e0bc4b5e18fb3cd8a7a299bd60e6bafca035)
+- release [`565c4bb`](https://github.com/ImageMagick/ImageMagick6/commit/565c4bbe2950345e5d03a109db7bd7d833c55208)
+
 ## [6.9.13-40](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-39...6.9.13-40) - 2026-02-22
 
 ### Commits
