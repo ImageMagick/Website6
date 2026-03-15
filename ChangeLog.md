@@ -5,6 +5,36 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.13-42](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-41...6.9.13-42) - 2026-03-15
+
+### Merged
+
+- Bump actions/download-artifact from 7 to 8 [`#401`](https://github.com/ImageMagick/ImageMagick6/pull/401)
+- Bump actions/upload-artifact from 6 to 7 [`#400`](https://github.com/ImageMagick/ImageMagick6/pull/400)
+
+### Commits
+
+- beta release [`92c0cab`](https://github.com/ImageMagick/ImageMagick6/commit/92c0cab91568a2f83ec50a1e7ecd56f276858d11)
+- Add cast to unsigned char helper method to check for out of band data [`a9973ce`](https://github.com/ImageMagick/ImageMagick6/commit/a9973cec2ebb2fd9a82b45976bc7cf8f062e4a0f)
+- eliminate compiler warning [`ca1e751`](https://github.com/ImageMagick/ImageMagick6/commit/ca1e751c9765ebd80ac312fb175c840064df3a41)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-rwgm-46rq-f86h [`f76e4a6`](https://github.com/ImageMagick/ImageMagick6/commit/f76e4a602f5f82f8c29f3611797b4adfec0b0064)
+- https://github.com/ImageMagick/ImageMagick/issues/8609 [`bc0bfdd`](https://github.com/ImageMagick/ImageMagick6/commit/bc0bfdd32575cfc7cc80bf27656aff8f5db17595)
+- eliminate compiler warnings [`2201912`](https://github.com/ImageMagick/ImageMagick6/commit/22019128113db9eaa601fd9bd700d99025496a5d)
+- Updated the Windows dependencies. [`749f74e`](https://github.com/ImageMagick/ImageMagick6/commit/749f74eb4f69e228ede68044411292993dd887f5)
+- https://github.com/ImageMagick/ImageMagick/discussions/8608 [`bf17cc2`](https://github.com/ImageMagick/ImageMagick6/commit/bf17cc2f58323ba7eea5af82b2cdf2b8a50384d9)
+- Pin all actions. [`3e13fcb`](https://github.com/ImageMagick/ImageMagick6/commit/3e13fcbfa01b6155f8f048d5b3cbe83af1c7342e)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-354p-2qx7-jg9g [`a04a9a5`](https://github.com/ImageMagick/ImageMagick6/commit/a04a9a514c70c9533ccb9f6ff80102a1b9a6445b)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-354p-2qx7-jg9g [`e6b8021`](https://github.com/ImageMagick/ImageMagick6/commit/e6b8021aac5024b7bc2627b191fef4654e8ae0ff)
+- Corrected check for overflow of resource requests. [`b8a983f`](https://github.com/ImageMagick/ImageMagick6/commit/b8a983f9f694d51e606be4f1226881249900c476)
+- cosmetic [`6a660e6`](https://github.com/ImageMagick/ImageMagick6/commit/6a660e6e06ee68977b96972d0a3f33ddb9e9aceb)
+- https://github.com/ImageMagick/ImageMagick/discussions/8603 [`66e303b`](https://github.com/ImageMagick/ImageMagick6/commit/66e303bb7a61322c962c7cd864f4d89a1647add0)
+- https://github.com/ImageMagick/ImageMagick/discussions/5807 [`998cdc0`](https://github.com/ImageMagick/ImageMagick6/commit/998cdc0387cef25d38709984bdde0125b83f867a)
+- sanitize clip path name [`0c43ba5`](https://github.com/ImageMagick/ImageMagick6/commit/0c43ba5585c1655d31f2febcca3ba10cafc5ab47)
+- use descriptive quote, CMD_QUOTE [`0a013c7`](https://github.com/ImageMagick/ImageMagick6/commit/0a013c789144065a57e089bc4d9e9b2b474a96ed)
+- correct kernel width casting [`73cf30f`](https://github.com/ImageMagick/ImageMagick6/commit/73cf30f3364a328a222f4f923d6a1173eac1971d)
+- shell quoting [`b3ae3de`](https://github.com/ImageMagick/ImageMagick6/commit/b3ae3dedfe01da80e2acf03f25fd5823b290ceae)
+- release [`8a3befa`](https://github.com/ImageMagick/ImageMagick6/commit/8a3befa95b3dc39dd692739d6a8e7cd9fcff9491)
+
 ## [6.9.13-41](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-40...6.9.13-41) - 2026-03-08
 
 ### Merged
