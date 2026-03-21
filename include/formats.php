@@ -1412,6 +1412,13 @@ the supported image formats.</p>
   </tr>
 
   <tr>
+    <td>OPEN</td>
+    <td>W</td>
+    <td>Display image to your computer screen</td>
+    <td>Only supported under MacOS X.</td>
+  </tr>
+
+  <tr>
     <td>PANGO</td>
     <td>R</td>
     <td>Image caption</td>
