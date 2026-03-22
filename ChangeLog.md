@@ -5,6 +5,36 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.13-43](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-42...6.9.13-43) - 2026-03-22
+
+### Merged
+
+- Bump github/codeql-action from 4.32.2 to 4.32.6 [`#403`](https://github.com/ImageMagick/ImageMagick6/pull/403)
+
+### Commits
+
+- beta release [`18b864a`](https://github.com/ImageMagick/ImageMagick6/commit/18b864a9e3b507318e6d9b7def91308776e592d7)
+- cosmetic [`f022160`](https://github.com/ImageMagick/ImageMagick6/commit/f022160dc0fcf3c421b9d6098139e492ff271e91)
+- Back port fix for https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-5ggv-92r5-cp4p [`f33c585`](https://github.com/ImageMagick/ImageMagick6/commit/f33c585ed9da768e8e1a88d40302dc7b3480a934)
+- https://github.com/ImageMagick/ImageMagick/issues/8624 [`0173f0a`](https://github.com/ImageMagick/ImageMagick6/commit/0173f0a975796b8cc3256ba337540fcedc2f1a47)
+- https://github.com/ImageMagick/ImageMagick/issues/8630 [`0155663`](https://github.com/ImageMagick/ImageMagick6/commit/015566340014d298179fe88f457244b238bdc11b)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-9r56-3gjq-hqf7 [`1adc49f`](https://github.com/ImageMagick/ImageMagick6/commit/1adc49fac3041620abe11fcb06524d33d9dbd035)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-8793-7xv6-82cf [`3ed2120`](https://github.com/ImageMagick/ImageMagick6/commit/3ed2120f70ee9ff0c6cac2375e5821c52c381b4c)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-mw3m-pqr2-qv7c [`143f95c`](https://github.com/ImageMagick/ImageMagick6/commit/143f95c6e3fe53d5dd83ac0b036136cdf2a54ae0)
+- tweak MINGW conditional compile [`f4df2b9`](https://github.com/ImageMagick/ImageMagick6/commit/f4df2b9a0cfc8c373f971f6f16cafb524926d765)
+- https://github.com/ImageMagick/ImageMagick/issues/8632 [`05ecddf`](https://github.com/ImageMagick/ImageMagick6/commit/05ecddfa75778a42404c4df2a32a2e4d1a89439e)
+- https://github.com/ImageMagick/ImageMagick/discussions/6914 [`13ab787`](https://github.com/ImageMagick/ImageMagick6/commit/13ab78783793bf57d8182285ea602693c75841dd)
+- support "open" on Mac OS X [`5d851e8`](https://github.com/ImageMagick/ImageMagick6/commit/5d851e8c46e2517bbfc0936a77412b6766f26769)
+- Updated configure. [`4fa4d29`](https://github.com/ImageMagick/ImageMagick6/commit/4fa4d295fc196a9c60747319797b0fdc1976a2d7)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-mw3m-pqr2-qv7c [`3bdfa6a`](https://github.com/ImageMagick/ImageMagick6/commit/3bdfa6a73a6c0ba5f2d0986cd2a1892c37f796f3)
+- sync pixels before writing if ping is enabled [`53d5f61`](https://github.com/ImageMagick/ImageMagick6/commit/53d5f618eb369d4756dfd5d4beb05e7f3f3b2fcf)
+- sync pixels [`0990955`](https://github.com/ImageMagick/ImageMagick6/commit/09909551f96a419904106052274de3582b884bcc)
+- https://github.com/ImageMagick/ImageMagick/issues/8630 [`fe48470`](https://github.com/ImageMagick/ImageMagick6/commit/fe484703209b16b5f394c558d539c51091c04ec8)
+- https://github.com/ImageMagick/ImageMagick/issues/8630 [`6070fb5`](https://github.com/ImageMagick/ImageMagick6/commit/6070fb539870581280fb71385e11d4e56d3f0773)
+- Updated the Windows dependencies. [`376fc0b`](https://github.com/ImageMagick/ImageMagick6/commit/376fc0baa90eaf9577fa4bb2a4e85fbc8c91a4d8)
+- sync pixels within JPEG coder [`beb308c`](https://github.com/ImageMagick/ImageMagick6/commit/beb308c6b413b08011cc8321d0f4245fab948a9b)
+- release [`0c99e02`](https://github.com/ImageMagick/ImageMagick6/commit/0c99e02008d52f118627c51bb97538ecf0c2a01d)
+
 ## [6.9.13-42](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-41...6.9.13-42) - 2026-03-15
 
 ### Merged
