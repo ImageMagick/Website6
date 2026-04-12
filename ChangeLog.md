@@ -5,6 +5,44 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.13-44](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-43...6.9.13-44) - 2026-04-12
+
+### Merged
+
+- build(deps): bump ImageMagick/code-signing-action from 1.0.0 to 1.0.1 [`#412`](https://github.com/ImageMagick/ImageMagick6/pull/412)
+- build(deps): bump github/codeql-action from 4.32.6 to 4.35.1 [`#411`](https://github.com/ImageMagick/ImageMagick6/pull/411)
+- build(deps): bump msys2/setup-msys2 from 2.30.0 to 2.31.0 [`#410`](https://github.com/ImageMagick/ImageMagick6/pull/410)
+- Bump actions/download-artifact from 8.0.0 to 8.0.1 [`#409`](https://github.com/ImageMagick/ImageMagick6/pull/409)
+
+### Commits
+
+- beta release [`bfdc9dd`](https://github.com/ImageMagick/ImageMagick6/commit/bfdc9dd50295650be9af4862843781df9898c8dc)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-x9h5-r9v2-vcww [`53db956`](https://github.com/ImageMagick/ImageMagick6/commit/53db9565c648e71733a5c2cc2a4e8e8a4347d9cd)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-fwvm-ggf6-2p4x [`4a8819a`](https://github.com/ImageMagick/ImageMagick6/commit/4a8819a0e1c2768d592cb6e8584cadecf9cf536e)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-pcvx-ph33-r5vv [`140fc7b`](https://github.com/ImageMagick/ImageMagick6/commit/140fc7b01fa7d870b3bc8453fb7adccfb7c1e202)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-cr67-pvmx-2pp2 [`d398a4b`](https://github.com/ImageMagick/ImageMagick6/commit/d398a4b5290a9729e2e5bf36b4d2b2fb71c9d8bb)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-q8h3-jv9v-57qx [`cb02de6`](https://github.com/ImageMagick/ImageMagick6/commit/cb02de6a5b527edc51982408ad719d76c6699d78)
+- sync image pixels before writing [`d04dd8a`](https://github.com/ImageMagick/ImageMagick6/commit/d04dd8abd489f70b73beafaa335b19fcb48eeaa5)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-26qp-ffjh-2x4v [`4b265a7`](https://github.com/ImageMagick/ImageMagick6/commit/4b265a742949437a55e344a3ff694281af266190)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-98cp-rj9f-6v5g [`54a9115`](https://github.com/ImageMagick/ImageMagick6/commit/54a91150a5a02c524c6af0b56b22ed0f200a248f)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-cr67-pvmx-2pp2 [`149326d`](https://github.com/ImageMagick/ImageMagick6/commit/149326dd993e8833e42e35d21bacaa0c98e11c34)
+- Restored check that was removed by accident in the GHSA-pcvx-ph33-r5vv patch. [`8d73954`](https://github.com/ImageMagick/ImageMagick6/commit/8d73954bf7e13a352e71a32cf7d18905577f17e8)
+- check pixel sync return status [`98153ba`](https://github.com/ImageMagick/ImageMagick6/commit/98153baf2e6cc16a0613c3c49a355fcb6313decb)
+- the filename must be at least MagickPathExtent characters [`0317ede`](https://github.com/ImageMagick/ImageMagick6/commit/0317ede9ac8c75a8ddb3f67d59d4d48725a40662)
+- file pattern is write only [`b0c644b`](https://github.com/ImageMagick/ImageMagick6/commit/b0c644b2846390601721011b0d6efba4178bc976)
+- Run dependabot daily instead. [`e0aa13a`](https://github.com/ImageMagick/ImageMagick6/commit/e0aa13adf94d495d6812094d063821689a13618b)
+- Corrected version check. [`52c0199`](https://github.com/ImageMagick/ImageMagick6/commit/52c01994906768fa44e8a102f4d0208e7311698d)
+- Corrected the name of the policy. [`f595bec`](https://github.com/ImageMagick/ImageMagick6/commit/f595bec1bb68cd9646aeb39180b09f72074a3981)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-pmpg-6pww-fg6q [`60b4e60`](https://github.com/ImageMagick/ImageMagick6/commit/60b4e60841b429d719c59144e2505c8b0135367d)
+- reset VID filename [`6e6909c`](https://github.com/ImageMagick/ImageMagick6/commit/6e6909cd16f91b061c16e39cf4ec1e4fbaf4fc72)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-x928-4434-crqj [`28ed1c9`](https://github.com/ImageMagick/ImageMagick6/commit/28ed1c9993fe437a44c00bee2ee20d58f7e0204c)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-pwg5-6jfc-crvh [`4c782c7`](https://github.com/ImageMagick/ImageMagick6/commit/4c782c770894fc19029d4408a4de37cc491c7c25)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-2442-cq27-vf6x [`ba641c3`](https://github.com/ImageMagick/ImageMagick6/commit/ba641c3c3d5ac6f3b1a59eeba0dad5d42f87dd79)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-r83h-crwp-3vm7 [`ccf3cff`](https://github.com/ImageMagick/ImageMagick6/commit/ccf3cffe819616b39374594a7b5389fc2d49260d)
+- eliminate compiler warning [`1453e19`](https://github.com/ImageMagick/ImageMagick6/commit/1453e19a68a64f58208495ea02dd7fd17fd90896)
+- eliminate compiler warning [`c4c66aa`](https://github.com/ImageMagick/ImageMagick6/commit/c4c66aa66ffed48321e287584cf336d8230db3d7)
+- release [`9da424b`](https://github.com/ImageMagick/ImageMagick6/commit/9da424baef0c23b1b05678b2c31102e35313adc5)
+
 ## [6.9.13-43](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-42...6.9.13-43) - 2026-03-22
 
 ### Merged
