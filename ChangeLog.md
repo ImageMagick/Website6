@@ -5,6 +5,49 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [7.1.2-20](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-46...7.1.2-20) - 2026-04-21
+
+## [6.9.13-46](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-45...6.9.13-46) - 2026-04-21
+
+### Commits
+
+- release [`4ca9438`](https://github.com/ImageMagick/ImageMagick6/commit/4ca94382e849a3c618200c6475ddaa019861d446)
+
+## [6.9.13-45](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-44...6.9.13-45) - 2026-04-21
+
+### Commits
+
+- beta release [`a648a75`](https://github.com/ImageMagick/ImageMagick6/commit/a648a751bda02dfc99b18a5b3a4d5ec3ac60f360)
+- eliminate deprecated omp_set_nested() [`5ab02b6`](https://github.com/ImageMagick/ImageMagick6/commit/5ab02b680b9efc260ef9820cb4b2858afcb10448)
+- latest autoconf/automake update [`b230ab1`](https://github.com/ImageMagick/ImageMagick6/commit/b230ab11b3ba2861cfd53bbe45529565f1313e83)
+- eliminate compiler warning [`064bc8e`](https://github.com/ImageMagick/ImageMagick6/commit/064bc8ef4cc376c8503a28bd318bffe29c187f5d)
+- eliminate compiler warning [`5a8dd51`](https://github.com/ImageMagick/ImageMagick6/commit/5a8dd5102556761dc3121ae56fc6007537758617)
+- partial patch for https://github.com/ImageMagick/ImageMagick/issues/8674 [`46ac003`](https://github.com/ImageMagick/ImageMagick6/commit/46ac0037cf66095d208761d9f3bbd2e06a44d643)
+- support MSYS2 [`c2e1b9f`](https://github.com/ImageMagick/ImageMagick6/commit/c2e1b9f7024ca96ad651048a423ce779089793f5)
+- support MSYS2 [`3324457`](https://github.com/ImageMagick/ImageMagick6/commit/33244570747030a870d98f4c43db72ed4118a9de)
+- Simplify windows (sym)link check and moved it to nt-base where the rest of the methods are. [`0767cf2`](https://github.com/ImageMagick/ImageMagick6/commit/0767cf2347aea9a5b005087fa4e98a0c97ac8452)
+- Fix missing volatile on quantum_info in WriteOnePNGImage [`e0f57dd`](https://github.com/ImageMagick/ImageMagick6/commit/e0f57ddcc5b03b209d0fe72ee3353a633fbb0ec7)
+- Updated the Windows dependencies. [`aa8ccdb`](https://github.com/ImageMagick/ImageMagick6/commit/aa8ccdbcc5a0f8a2fb0aae61feb48cb7f11b9b02)
+- support namespace::pattern when querying policy rights [`ef753f9`](https://github.com/ImageMagick/ImageMagick6/commit/ef753f9562a0ae25f9dc6963c59bb5836d3cad91)
+- cosmetic [`2eb6606`](https://github.com/ImageMagick/ImageMagick6/commit/2eb660671d6887ad4ea2bf2c0a675ae1de6a1f44)
+- eliminate compiler warning [`86f7d15`](https://github.com/ImageMagick/ImageMagick6/commit/86f7d1560c24a423d6379a65f694262999dbba29)
+- mention symlink system policy [`f4518b5`](https://github.com/ImageMagick/ImageMagick6/commit/f4518b57c773fd7ed0ca5245947eb9417968eb4a)
+- Make sure we close the blob. [`ff717c6`](https://github.com/ImageMagick/ImageMagick6/commit/ff717c6dca62ec3d84e45bfce79c7d0ba1db36b1)
+- https://github.com/ImageMagick/ImageMagick/issues/8674 [`e349483`](https://github.com/ImageMagick/ImageMagick6/commit/e349483d6ae246950cbe05d0fb7fbe11cde7174a)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-7mxf-ff4f-jj7p [`2b4a06c`](https://github.com/ImageMagick/ImageMagick6/commit/2b4a06cdb9b5b4b8e51247be8b38ea4cbfdfb07c)
+- release icon directory [`f82f17e`](https://github.com/ImageMagick/ImageMagick6/commit/f82f17e813b8d1d3988883b3c79b7384e4a1103c)
+- check that we have enough coordinates for a round line cap [`7d6c198`](https://github.com/ImageMagick/ImageMagick6/commit/7d6c198b0037cb066b9051a29f91bad5946c27b4)
+- update exception message [`3fce5ff`](https://github.com/ImageMagick/ImageMagick6/commit/3fce5ff546372f3b390e27a0d9e1007c883d67b8)
+- evaluate each requested right independently and combine them [`cd604d3`](https://github.com/ImageMagick/ImageMagick6/commit/cd604d3ebf37daecc645d18ffadefc8de6148795)
+- do not call ThrowFatalException() [`67aa9cf`](https://github.com/ImageMagick/ImageMagick6/commit/67aa9cf4176ae7829d1586163814b7d0cdc97e30)
+- eliminate compiler warning [`aa57e3e`](https://github.com/ImageMagick/ImageMagick6/commit/aa57e3e14d7d6345d7ca75734206f2a06b1e917b)
+- cosmetic [`5c2391f`](https://github.com/ImageMagick/ImageMagick6/commit/5c2391f1d0916ddc6d7f42374885abf8eabf4499)
+- check for 1 linecap point [`566f3c5`](https://github.com/ImageMagick/ImageMagick6/commit/566f3c562458e39a4662aa41f6d5f7dfde35244d)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-v67w-737x-v2c9 [`b6c01a5`](https://github.com/ImageMagick/ImageMagick6/commit/b6c01a5a23f1e350ebe2db78c7cc326db2e320c9)
+- Updated the Windows dependencies. [`6b9db13`](https://github.com/ImageMagick/ImageMagick6/commit/6b9db133cb121d6423733290f7637faa19e72b53)
+- support PDC compare metric [`0842bbe`](https://github.com/ImageMagick/ImageMagick6/commit/0842bbea9fffb5c3c521e9c58817e01532d49013)
+- release [`286d043`](https://github.com/ImageMagick/ImageMagick6/commit/286d0432238173327f7c594e30bbc5b0ea988f64)
+
 ## [6.9.13-44](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-43...6.9.13-44) - 2026-04-12
 
 ### Merged
