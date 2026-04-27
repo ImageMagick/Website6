@@ -12,7 +12,7 @@ if (!isset($_SESSION) || !is_array($_SESSION)) {
 
 <h2><a class="anchor" id="download"></a>Download &amp; Unpack</h2>
 
-<p>ImageMagick builds on a variety of Linux and Linux-like operating systems including Linux, Solaris, FreeBSD, Mac OS X, and others.  A compiler is required and fortunately almost all modern Linux systems have one.  Download <a href="https://imagemagick.org/archive">ImageMagick.tar.gz</a> from <a href="https://imagemagick.org/archive">imagemagick.org</a> or a <a href="<?php echo $_SESSION['RelativePath']?>/../script/mirror.php">mirror</a> and verify the distribution against its <a href="https://imagemagick.org/archive/digest.rdf">message digest</a>.</p>
+<p>ImageMagick builds on a variety of Linux and Linux-like operating systems including Linux, Solaris, FreeBSD, Mac OS X, and others.  A compiler is required and fortunately almost all modern Linux systems have one.  Download <a href="<?php echo MagickReleaseUrl . "ImageMagick-" . MagickVersion . ".7z" ?>"><?php echo "ImageMagick-" . MagickVersion . ".7z" ?></a> from <a href="https://github.com/ImageMagick/ImageMagick/releases">GitHub</a>.</p>
 
 <p>Unpack the distribution it with this command:</p>
 

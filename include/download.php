@@ -49,9 +49,7 @@ if (!isset($_SESSION) || !is_array($_SESSION)) {
   </thead>
   <tbody>
   <tr>
-  <?php $filename = "ImageMagick-" . MagickVersion . "-Q16-HDRI-x64-dll.exe";
-  ?>
-    <td><a href= "https://imagemagick.org/archive//binaries/<?php echo $filename; ?>"><?php echo $filename; ?></a></td>
+    <td><<a href= "<?php echo MagickReleaseUrl . 'ImageMagick-' . MagickVersion . '-Q16-HDRI-x64-dll.exe' ?>"><?php echo 'ImageMagick-' . MagickVersion . '-Q16-HDRI-x64-dll.exe'; ?></a></td>
     <td>Win64 dynamic at 16 bits-per-pixel component with High-dynamic-range imaging enabled</td>
   </tr>
   </tbody>
@@ -70,128 +68,92 @@ if (!isset($_SESSION) || !is_array($_SESSION)) {
   </thead>
   <tbody>
   <tr>
-  <?php $filename = "ImageMagick-" . MagickVersion . "-Q16-x64-static.exe";
-  ?>
-      <td><a href= "https://imagemagick.org/archive//binaries/<?php echo $filename; ?>"><?php echo $filename; ?></a></td>
+   <td><<a href= "<?php echo MagickReleaseUrl . 'ImageMagick-' . MagickVersion . '-Q16-x64-static.exe' ?>"><?php echo 'ImageMagick-' . MagickVersion . '-Q16-x64-static.exe'; ?></a></td>
    <td>Win64 static at 16 bits-per-pixel component</td>
   </tr>
 
   <tr>
-  <?php $filename = "ImageMagick-" . MagickVersion . "-Q8-x64-dll.exe";
-  ?>
-    <td><a href= "https://imagemagick.org/archive//binaries/<?php echo $filename; ?>"><?php echo $filename; ?></a></td>
+    <td><<a href= "<?php echo MagickReleaseUrl . 'ImageMagick-' . MagickVersion . '-Q8-x64-dll.exe' ?>"><?php echo 'ImageMagick-' . MagickVersion . '-Q8-x64-dll.exe'; ?></a></td>
    <td>Win64 dynamic at 8 bits-per-pixel component</td>
   </tr>
 
   <tr>
-  <?php $filename = "ImageMagick-" . MagickVersion . "-Q8-x64-static.exe";
-  ?>
-    <td><a href= "https://imagemagick.org/archive//binaries/<?php echo $filename; ?>"><?php echo $filename; ?></a></td>
+    <td><<a href= "<?php echo MagickReleaseUrl . 'ImageMagick-' . MagickVersion . '-Q8-x64-static.exe' ?>"><?php echo 'ImageMagick-' . MagickVersion . '-Q8-x64-static.exe'; ?></a></td>
     <td>Win64 static at 8 bits-per-pixel component</td>
   </tr>
 
   <tr>
-  <?php $filename = "ImageMagick-" . MagickVersion . "-Q16-x64-dll.exe";
-  ?>
-    <td><a href= "https://imagemagick.org/archive//binaries/<?php echo $filename; ?>"><?php echo $filename; ?></a></td>
+    <td><<a href= "<?php echo MagickReleaseUrl . 'ImageMagick-' . MagickVersion . '-Q16-x64-dll.exe' ?>"><?php echo 'ImageMagick-' . MagickVersion . '-Q16-x64-dll.exe'; ?></a></td>
    <td>Win64 dynamic at 16 bits-per-pixel component</td>
   </tr>
 
   <tr>
-  <?php $filename = "ImageMagick-" . MagickVersion . "-Q16-HDRI-x64-dll.exe";
-  ?>
-    <td><a href= "https://imagemagick.org/archive//binaries/<?php echo $filename; ?>"><?php echo $filename; ?></a></td>
+    <td><<a href= "<?php echo MagickReleaseUrl . 'ImageMagick-' . MagickVersion . '-Q16-HDRI-x64-dll.exe' ?>"><?php echo 'ImageMagick-' . MagickVersion . '-Q16-HDRI-x64-dll.exe'; ?></a></td>
     <td>Win64 dynamic at 16 bits-per-pixel component with <a href="<?php echo $_SESSION['RelativePath']?>/../script/high-dynamic-range.php">high dynamic-range imaging</a> enabled</td>
   </tr>
 
   <tr>
-  <?php $filename = "ImageMagick-" . MagickVersion . "-Q16-HDRI-x64-static.exe";
-  ?>
-    <td><a href= "https://imagemagick.org/archive//binaries/<?php echo $filename; ?>"><?php echo $filename; ?></a></td>
+    <td><<a href= "<?php echo MagickReleaseUrl . 'ImageMagick-' . MagickVersion . '-Q16-HDRI-x64-static.exe' ?>"><?php echo 'ImageMagick-' . MagickVersion . '-Q16-HDRI-x64-static.exe'; ?></a></td>
     <td>Win64 static at 16 bits-per-pixel component with <a href="<?php echo $_SESSION['RelativePath']?>/../script/high-dynamic-range.php">high dynamic-range imaging</a> enabled</td>
   </tr>
 
   <tr>
-  <?php $filename = "ImageMagick-" . MagickVersion . "-Q16-x86-dll.exe";
-  ?>
-    <td><a href= "https://imagemagick.org/archive//binaries/<?php echo $filename; ?>"><?php echo $filename; ?></a></td>
+    <td><<a href= "<?php echo MagickReleaseUrl . 'ImageMagick-' . MagickVersion . '-Q16-x86-dll.exe' ?>"><?php echo 'ImageMagick-' . MagickVersion . '-Q16-x86-dll.exe'; ?></a></td>
     <td>Win32 dynamic at 16 bits-per-pixel component</td>
   </tr>
 
   <tr>
-  <?php $filename = "ImageMagick-" . MagickVersion . "-Q16-x86-static.exe";
-  ?>
-    <td><a href= "https://imagemagick.org/archive//binaries/<?php echo $filename; ?>"><?php echo $filename; ?></a></td>
+    <td><<a href= "<?php echo MagickReleaseUrl . 'ImageMagick-' . MagickVersion . '-Q16-x86-static.exe' ?>"><?php echo 'ImageMagick-' . MagickVersion . '-Q16-x86-static.exe'; ?></a></td>
     <td>Win32 static at 16 bits-per-pixel component</td>
   </tr>
 
   <tr>
-  <?php $filename = "ImageMagick-" . MagickVersion . "-Q8-x86-dll.exe";
-  ?>
-    <td><a href= "https://imagemagick.org/archive//binaries/<?php echo $filename; ?>"><?php echo $filename; ?></a></td>
+    <td><<a href= "<?php echo MagickReleaseUrl . 'ImageMagick-' . MagickVersion . '-Q8-x86-dll.exe' ?>"><?php echo 'ImageMagick-' . MagickVersion . '-Q8-x86-dll.exe'; ?></a></td>
     <td>Win32 dynamic at 8 bits-per-pixel component</td>
   </tr>
 
   <tr>
-  <?php $filename = "ImageMagick-" . MagickVersion . "-Q8-x86-static.exe";
-  ?>
-    <td><a href= "https://imagemagick.org/archive//binaries/<?php echo $filename; ?>"><?php echo $filename; ?></a></td>
+    <td><<a href= "<?php echo MagickReleaseUrl . 'ImageMagick-' . MagickVersion . '-Q8-x86-static.exe' ?>"><?php echo 'ImageMagick-' . MagickVersion . '-Q8-x86-static.exe'; ?></a></td>
     <td>Win32 static at 8 bits-per-pixel component</td>
   </tr>
 
   <tr>
-  <?php $filename = "ImageMagick-" . MagickVersion . "-Q16-HDRI-x86-dll.exe";
-  ?>
-    <td><a href= "https://imagemagick.org/archive//binaries/<?php echo $filename; ?>"><?php echo $filename; ?></a></td>
+    <td><<a href= "<?php echo MagickReleaseUrl . 'ImageMagick-' . MagickVersion . '-Q16-HDRI-x86-dll.exe' ?>"><?php echo 'ImageMagick-' . MagickVersion . '-Q16-HDRI-x86-dll.exe'; ?></a></td>
     <td>Win32 dynamic at 16 bits-per-pixel component with <a href="<?php echo $_SESSION['RelativePath']?>/../script/high-dynamic-range.php">high dynamic-range imaging</a> enabled</td>
   </tr>
 
   <tr>
-  <?php $filename = "ImageMagick-" . MagickVersion . "-Q16-HDRI-x86-static.exe";
-  ?>
-    <td><a href= "https://imagemagick.org/archive/binaries/<?php echo $filename; ?>"><?php echo $filename; ?></a></td>
+    <td><<a href= "<?php echo MagickReleaseUrl . 'ImageMagick-' . MagickVersion . '-Q16-HDRI-x86-static.exe' ?>"><?php echo 'ImageMagick-' . MagickVersion . '-Q16-HDRI-x86-static.exe'; ?></a></td>
     <td>Win32 static at 16 bits-per-pixel component with <a href="<?php echo $_SESSION['RelativePath']?>/../script/high-dynamic-range.php">high dynamic-range imaging</a> enabled</td>
   </tr>
 
   <tr>
-  <?php $filename = "ImageMagick-" . MagickVersion . "-portable-Q16-x64.7z";
-  ?>
-    <td><a href= "https://imagemagick.org/archive//binaries/<?php echo $filename; ?>"><?php echo $filename; ?></a></td>
+    <td><<a href= "<?php echo MagickReleaseUrl . 'ImageMagick-' . MagickVersion . '-portable-Q16-x64.7z' ?>"><?php echo 'ImageMagick-' . MagickVersion . '-portable-Q16-x64.7z'; ?></a></td>
     <td>Portable Win64 static at 16 bits-per-pixel component.  Just copy to your host and run (no installer, no Windows registry entries).</td>
   </tr>
 
   <tr>
-  <?php $filename = "ImageMagick-" . MagickVersion . "-portable-Q16-x86.7z";
-  ?>
-    <td><a href= "https://imagemagick.org/archive//binaries/<?php echo $filename; ?>"><?php echo $filename; ?></a></td>
+    <td><<a href= "<?php echo MagickReleaseUrl . 'ImageMagick-' . MagickVersion . '-portable-Q16-x86.7z' ?>"><?php echo 'ImageMagick-' . MagickVersion . '-portable-Q16-x86.7z'; ?></a></td>
     <td>Portable Win32 static at 16 bits-per-pixel component.  Just copy to your host and run (no installer, no Windows registry entries).</td>
   </tr>
 I
   <tr>
-  <?php $filename = "ImageMagick-" . MagickVersion . "-portable-Q8-x64.7z";
-  ?>
-    <td><a href= "https://imagemagick.org/archive//binaries/<?php echo $filename; ?>"><?php echo $filename; ?></a></td>
+    <td><<a href= "<?php echo MagickReleaseUrl . 'ImageMagick-' . MagickVersion . '-portable-Q8-x64.7z' ?>"><?php echo 'ImageMagick-' . MagickVersion . '-portable-Q8-x64.7z'; ?></a></td>
     <td>Portable Win64 static at 8 bits-per-pixel component.  Just copy to your host and run (no installer, no Windows registry entries).</td>
   </tr>
 
   <tr>
-  <?php $filename = "ImageMagick-" . MagickVersion . "-portable-Q8-x86.7z";
-  ?>
-    <td><a href= "https://imagemagick.org/archive//binaries/<?php echo $filename; ?>"><?php echo $filename; ?></a></td>
+    <td><<a href= "<?php echo MagickReleaseUrl . 'ImageMagick-' . MagickVersion . '-portable-Q8-x86.7z' ?>"><?php echo 'ImageMagick-' . MagickVersion . '-portable-Q8-x86.7z'; ?></a></td>
     <td>Portable Win32 static at 8 bits-per-pixel component.  Just copy to your host and run (no installer, no Windows registry entries).</td>
   </tr>
 
   <tr>
-  <?php $filename = "ImageMagick-" . MagickVersion . "-portable-Q16-HDRI-x64.7z";
-  ?>
-    <td><a href= "https://imagemagick.org/archive//binaries/<?php echo $filename; ?>"><?php echo $filename; ?></a></td>
+    <td><<a href= "<?php echo MagickReleaseUrl . 'ImageMagick-' . MagickVersion . '-portable-Q16-HDRI-x64.7z' ?>"><?php echo 'ImageMagick-' . MagickVersion . '-portable-Q16-HDRI-x64.7z'; ?></a></td>
     <td>Portable Win64 static at 16 bits-per-pixel component with <a href="<?php echo $_SESSION['RelativePath']?>/../script/high-dynamic-range.php">high dynamic-range imaging</a> enabled.  Just copy to your host and run (no installer, no Windows registry entries).</td>
   </tr>
 
   <tr>
-  <?php $filename = "ImageMagick-" . MagickVersion . "-portable-Q16-HDRI-x86.7z";
-  ?>
-    <td><a href= "https://imagemagick.org/archive//binaries/<?php echo $filename; ?>"><?php echo $filename; ?></a></td>
+    <td><<a href= "<?php echo MagickReleaseUrl . 'ImageMagick-' . MagickVersion . '-portable-Q16-HDRI-x86.7z' ?>"><?php echo 'ImageMagick-' . MagickVersion . '-portable-Q16-HDRI-x86.7z'; ?></a></td>
     <td>Portable Win32 static at 16 bits-per-pixel component with <a href="<?php echo $_SESSION['RelativePath']?>/../script/high-dynamic-range.php">high dynamic-range imaging</a> enabled.  Just copy to your host and run (no installer, no Windows registry entries).</td>
   </tr>
 

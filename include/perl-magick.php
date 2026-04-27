@@ -24,7 +24,7 @@ if (!isset($_SESSION) || !is_array($_SESSION)) {
 <pre class="bg-light text-dark mx-4"><code>yum install ImageMagick-perl
 </code></pre>
 
-<p>If not, you must install PerlMagick from the ImageMagick source distribution.  Download the latest <a href="https://imagemagick.org/archive//ImageMagick.tar.gz">source</a> release.</p>
+<p>If not, you must install PerlMagick from the ImageMagick source distribution.  Download the latest <a href="<?php echo MagickReleaseUrl . "ImageMagick-" . MagickVersion . ".7z" ?>">source</a> release.</p>
 
 <p>Unpack the distribution with this command:</p>
 

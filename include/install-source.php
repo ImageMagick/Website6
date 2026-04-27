@@ -24,7 +24,7 @@ if (!isset($_SESSION) || !is_array($_SESSION)) {
 
 <pre class="p-3 mb-2 text-body-secondary bg-body-tertiary"><samp>git clone https://github.com/ImageMagick/ImageMagick6.git ImageMagick-<?php echo MagickLibVersion ?></samp></pre>
 
-<p>Or download <a href="https://imagemagick.org/archive">ImageMagick.tar.gz</a> from <a href="https://imagemagick.org/archive">imagemagick.org</a> or a <a href="<?php echo $_SESSION['RelativePath']?>/../script/mirror.php">mirror</a> and verify the distribution against its <a href="https://imagemagick.org/archive/digest.rdf">message digest</a>.</p>
+<p>Or download <a href="<?php echo MagickReleaseUrl . "ImageMagick-" . MagickVersion . ".7z" ?>"><?php echo "ImageMagick-" . MagickVersion . ".7z" ?></a> from <a href="https://github.com/ImageMagick/ImageMagick/releases">GitHub</a> and verify the distribution against its <a href="https://imagemagick.org/archive/digest.rdf">message digest</a>.</p>
 
 <p>Next configure and compile ImageMagick.  Note the <a href="https://en.wikipedia.org/wiki/Pkg-config">pkg-config</a> script is required so that ImageMagick can find certain optional delegate libraries on your system.  To configure, type:</p>
 
