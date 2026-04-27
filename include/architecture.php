@@ -85,7 +85,7 @@ if (image == (Image *) NULL)
 <p>When the pixel cache is initialized, pixels are scaled from whatever bit depth they originated from to that required by the pixel cache.  For example, a 1-channel 1-bit monochrome PBM image is scaled to a 4 channel 8-bit RGBA image, if you are using the Q8 version of ImageMagick, and 16-bit RGBA for the Q16 version.  You can determine which version you have with the <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#version">-version</a> option: </p>
 
 <pre class="p-3 mb-2 text-body-secondary bg-body-tertiary"><samp>$ identify -version
-Version: ImageMagick <?php echo MagickLibVersionText . MagickLibSubversion ?> <?php echo MagickReleaseDate ?> Q16 https://imagemagick.org</samp></pre>
+Version: ImageMagick <?php echo MagickVersion ?> <?php echo MagickReleaseDate ?> Q16 https://imagemagick.org</samp></pre>
 
 <p>As you can see, the convenience of the pixel cache sometimes comes with a trade-off in storage (e.g. storing a 1-bit monochrome image as 16-bit RGBA is wasteful) and speed (i.e. storing the entire image in memory is generally slower than accessing one scanline of pixels at a time).  In most cases, the benefits of the pixel cache typically outweigh any disadvantages.</p>
 
@@ -1206,7 +1206,7 @@ display logo.mgk
 #include &lt;math.h>
 #include "magick/studio.h"
 #include "magick/MagickCore.h"
-
+
 /*
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                                                             %

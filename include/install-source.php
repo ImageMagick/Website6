@@ -22,13 +22,13 @@ if (!isset($_SESSION) || !is_array($_SESSION)) {
 <p>ImageMagick builds on a variety of Linux and Linux-like operating systems including Linux, Solaris, FreeBSD, Mac OS X, and others.  A compiler is required and fortunately almost all modern Linux systems have one.  Clone the source repository:</p>
 
 
-<pre class="p-3 mb-2 text-body-secondary bg-body-tertiary"><samp>git clone https://github.com/ImageMagick/ImageMagick6.git ImageMagick-<?php echo MagickLibVersionText ?></samp></pre>
+<pre class="p-3 mb-2 text-body-secondary bg-body-tertiary"><samp>git clone https://github.com/ImageMagick/ImageMagick6.git ImageMagick-<?php echo MagickLibVersion ?></samp></pre>
 
 <p>Or download <a href="https://imagemagick.org/archive">ImageMagick.tar.gz</a> from <a href="https://imagemagick.org/archive">imagemagick.org</a> or a <a href="<?php echo $_SESSION['RelativePath']?>/../script/mirror.php">mirror</a> and verify the distribution against its <a href="https://imagemagick.org/archive/digest.rdf">message digest</a>.</p>
 
 <p>Next configure and compile ImageMagick.  Note the <a href="https://en.wikipedia.org/wiki/Pkg-config">pkg-config</a> script is required so that ImageMagick can find certain optional delegate libraries on your system.  To configure, type:</p>
 
-<pre class="p-3 mb-2 text-body-secondary bg-body-tertiary"><samp>cd ImageMagick-<?php echo MagickLibVersionText ?>
+<pre class="p-3 mb-2 text-body-secondary bg-body-tertiary"><samp>cd ImageMagick-<?php echo MagickVersion ?>
 
 ./configure
 make</samp></pre>
@@ -76,16 +76,16 @@ make</samp></pre>
 
 <pre class="bg-light text-dark mx-4"><code>unzip ImageMagick-windows.zip</code></pre>
 
-<p>Next, launch your Visual Studio IDE and choose <samp>Open->Project</samp>.  Select the configure workspace from the <samp>ImageMagick-<?php echo(MagickLibVersionText); ?>/VisualMagick/configure</samp> folder and press Open.  Choose <samp>Build->Build Solution</samp>
+<p>Next, launch your Visual Studio IDE and choose <samp>Open->Project</samp>.  Select the configure workspace from the <samp>ImageMagick-<?php echo(MagickLibVersion); ?>/VisualMagick/configure</samp> folder and press Open.  Choose <samp>Build->Build Solution</samp>
 to compile the program and on completion run the program.</p>
 
 <ul><img class="img-fluid me-auto d-block" src="<?php echo $_SESSION['RelativePath']?>/../image/configure.jpg" alt="[configure]" /></ul>
 
-<p>Press <samp>Next</samp> and click on the multi-threaded static build.  If you are using the Visual Studio 6.0 IDE, make sure no check is next to the <var>Generate Visual Studio 7</var> format option.  Now press, on <samp>Next</samp> twice and finally <samp>Finish</samp>.  The configuration utility just created a workspace required to build ImageMagick from source.  Choose <samp>Open->Project</samp> and select the VisualStaticMT workspace from the <samp>ImageMagick-<?php echo(MagickLibVersionText); ?>/VisualMagick/</samp>  folder.  Finally, choose <samp>Build->Build Solution</samp> to compile and build the ImageMagick distribution.</p>
+<p>Press <samp>Next</samp> and click on the multi-threaded static build.  If you are using the Visual Studio 6.0 IDE, make sure no check is next to the <var>Generate Visual Studio 7</var> format option.  Now press, on <samp>Next</samp> twice and finally <samp>Finish</samp>.  The configuration utility just created a workspace required to build ImageMagick from source.  Choose <samp>Open->Project</samp> and select the VisualStaticMT workspace from the <samp>ImageMagick-<?php echo(MagickLibVersion); ?>/VisualMagick/</samp>  folder.  Finally, choose <samp>Build->Build Solution</samp> to compile and build the ImageMagick distribution.</p>
 
 <p>To verify ImageMagick is working properly, launch a MS-DOS Command Prompt window and type</p>
 
-<pre class="p-3 mb-2 text-body-secondary bg-body-tertiary"><samp>cd ImageMagick-<?php echo MagickLibVersionText ?>
+<pre class="p-3 mb-2 text-body-secondary bg-body-tertiary"><samp>cd ImageMagick-<?php echo MagickVersion ?>
 
 convert logo: image.jpg</samp></pre>
 
@@ -96,6 +96,6 @@ convert logo: image.jpg</samp></pre>
 
 <p>Congratulations, you have a working ImageMagick distribution under Windows and you are ready to use ImageMagick to <a href="https://legacy.imagemagick.org/Usage/">convert, compose, or edit</a> your images or perhaps you'll want to use one of the <a href="<?php echo $_SESSION['RelativePath']?>/../script/develop.php">Application Program Interfaces</a> for C, C++, Perl, and others.</p>
 
-<p>The above instructions will satisfy a great number of ImageMagick users, but we suspect a few will have additional questions or problems to consider.  For example, what does one do if ImageMagick fails to configure or compile?  Or what if you want to install ImageMagick in a place other than the <samp>ImageMagick-<?php echo(MagickLibVersionText); ?>/VisualMagick/bin</samp> folder?  You will find the answer to these questions, and more, in <a href="<?php echo $_SESSION['RelativePath']?>/../script/advanced-windows-installation.php">Advanced Windows Source Installation</a>.</p>
+<p>The above instructions will satisfy a great number of ImageMagick users, but we suspect a few will have additional questions or problems to consider.  For example, what does one do if ImageMagick fails to configure or compile?  Or what if you want to install ImageMagick in a place other than the <samp>ImageMagick-<?php echo(MagickLibVersion); ?>/VisualMagick/bin</samp> folder?  You will find the answer to these questions, and more, in <a href="<?php echo $_SESSION['RelativePath']?>/../script/advanced-windows-installation.php">Advanced Windows Source Installation</a>.</p>
 
 </div>

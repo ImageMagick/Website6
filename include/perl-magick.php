@@ -33,7 +33,7 @@ if (!isset($_SESSION) || !is_array($_SESSION)) {
 
 <p>Next configure and compile ImageMagick:</p>
 
-<pre class="p-3 mb-2 text-body-secondary bg-body-tertiary"><samp>cd ImageMagick-<?php echo MagickLibVersionText ?>
+<pre class="p-3 mb-2 text-body-secondary bg-body-tertiary"><samp>cd ImageMagick-<?php echo MagickVersion ?>
 
 ./configure -with-perl
 make</samp></pre>
