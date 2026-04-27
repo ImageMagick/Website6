@@ -29,7 +29,7 @@
         $meta.="  <title>$this->sitename | $this->slogan</title>\n";
       else
         $meta.="  <title>$this->sitename | $title</title>\n";
-      $meta.="  <meta name=\"description\" content=\"$this->description\">\n\n";
+      $meta.="  <meta name=\"description\" content=\"ImageMagick is a powerful open-source software suite for creating, editing, converting, and manipulating images in over 200 formats. Ideal for developers, designers, and researchers.\">\n\n";
       $meta.="  <!-- Canonical URL -->\n";
       $meta.="  <link rel=\"canonical\" href=\"$this->url\">\n\n";
       $meta.="  <!-- Robots -->\n";
@@ -71,7 +71,7 @@
       $meta.="  </style>\n\n";
       $meta.="  <!-- Open Graph Meta Tags -->\n";
       $meta.="  <meta property=\"og:title\" content=\"$this->sitename | $title\">\n";
-      $meta.="  <meta property=\"og:description\" content=\"$this->description\">\n";
+      $meta.="  <meta property=\"og:description\" content=\"ImageMagick is a powerful open-source software suite for creating, editing, converting, and manipulating images in over 200 formats. Ideal for developers, designers, and researchers.\">\n";
       $meta.="  <meta property=\"og:image\" content=\"$this->image\">\n";
       $meta.="  <meta property=\"og:logo\" content=\"$this->image\">\n";
       $meta.="  <meta property=\"og:url\" content=\"$this->url\">\n";
@@ -84,7 +84,7 @@
       $meta.="  <meta name=\"twitter:site\" content=\"@$site\">\n";
       $meta.="  <meta name=\"twitter:creator\" content=\"@$site\">\n";
       $meta.="  <meta name=\"twitter:title\" content=\"$this->sitename | $title\">\n";
-      $meta.="  <meta name=\"twitter:description\" content=\"$this->description\">\n";
+      $meta.="  <meta name=\"twitter:description\" content=\"ImageMagick is a powerful open-source software suite for creating, editing, converting, and manipulating images in over 200 formats. Ideal for developers, designers, and researchers.\">\n";
       $meta.="  <meta name=\"twitter:image\" content=\"$this->image\">\n";
       $meta.="  <meta name=\"twitter:image:alt\" content=\"$this->name logo and tag line\">\n\n";
       $meta.="  <!-- JSON-LD Structured Data -->\n";
@@ -95,7 +95,7 @@
       $meta.="    \"name\": \"$this->name\",\n";
       $meta.="    \"url\": \"$this->url\",\n";
       $meta.="    \"image\": \"$this->image\",\n";
-      $meta.="    \"description\": \"$this->description\",\n";
+      $meta.="    \"description\": \"ImageMagick is a powerful open-source software suite for creating, editing, converting, and manipulating images in over 200 formats. Ideal for developers, designers, and researchers.\",\n";
       $meta.="    \"applicationCategory\": \"Multimedia\",\n";
       $meta.="    \"operatingSystem\": \"Windows, macOS, Linux, Unix\",\n";
       $meta.="    \"softwareVersion\": \"$this->version\",\n";
