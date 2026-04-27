@@ -112,8 +112,8 @@ For convenience, define arguments for the memory, map, and disk resources with S
 <p>Under Linux and Linux, ImageMagick searches for each of the configuration files listed above by looking in the locations given below, in order, and loads them if found:</p>
 
 <pre class="bg-light text-dark mx-4"><code>$MAGICK_CONFIGURE_PATH
-$PREFIX/etc/ImageMagick-<?php echo(MagickMajorReleaseText); ?> 
-$PREFIX/share/ImageMagick-<?php echo(MagickMajorReleaseText); ?> 
+$PREFIX/etc/ImageMagick-6
+$PREFIX/share/ImageMagick-6
 $XDG_CACHE_HOME/ImageMagick
 $HOME/.config/ImageMagick
 &lt;<var>client path</var>&gt;/etc/ImageMagick</code></pre>
@@ -123,9 +123,9 @@ $HOME/.config/ImageMagick
 <p>For the Linux or Linux pre-compiled uninstalled binary distributions, the configuration load order is:</p>
 
 <pre class="bg-light text-dark mx-4"><code>$MAGICK_CONFIGURE_PATH
-$MAGICK_HOME/etc/ImageMagick-<?php echo(MagickMajorReleaseText); ?> 
-$MAGICK_HOME/share/ImageMagick-<?php echo(MagickMajorReleaseText); ?> 
-$PREFIX/share/ImageMagick-<?php echo(MagickMajorReleaseText); ?> 
+$MAGICK_HOME/etc/ImageMagick-6
+$MAGICK_HOME/share/ImageMagick-6
+$PREFIX/share/ImageMagick-6
 $XDG_CACHE_HOME/ImageMagick
 $HOME/.config/ImageMagick/
 &lt;<var>client path</var>&gt;/etc/ImageMagick
