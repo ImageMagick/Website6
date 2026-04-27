@@ -15,7 +15,7 @@ if (!isset($_SESSION) || !is_array($_SESSION)) {
     }
   }
 
-  function SiteHeader($title,$topic,$description)
+  function SiteHeader($title,$topic)
   {
     $meta=new MetaContent;
     $meta->company_name="ImageMagick Studio LLC";

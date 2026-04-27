@@ -3,7 +3,6 @@
   {
     public $company_name;
     public $creator;
-    public $description;
     public $email;
     public $generator;
     public $keywords2;
@@ -22,9 +21,6 @@
       /*
         Formulate the description for each page.
       */
-      $description=$this->description;
-      if (!empty($title))
-        $description="$title – $this->description";
       $meta_words=ucfirst($title);
       $meta="<meta charset=\"utf-8\">\n";
       $meta.="  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\">\n\n";
