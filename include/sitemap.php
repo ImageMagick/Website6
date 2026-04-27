@@ -78,7 +78,6 @@ if (!isset($_SESSION) || !is_array($_SESSION)) {
   <li><a href="<?php echo $_SESSION['RelativePath']?>/../script/develop.php">Program interfaces</a>: application programming interfaces.
   <ul class="magick-list-unstyled">
     <li><a href="http://common-lisp.net/project/cl-magick/">CL-Magick</a>: provides a Common Lisp interface to the ImageMagick library.</li>
-    <li><a href="http://magick.codeplex.com/">Magick.NT</a>: Use Magick.NET to convert, compose, and edit images from Windows .NET.</li>
     <li><a href="https://imagemagick.org/Magick++">Magick++</a>: provides an object-oriented C++ interface to ImageMagick.</li>
     <li><a href="http://pecl.php.net/package/imagick">IMagick</a>: is a native PHP extension to create and modify images using the ImageMagick API.</li>
     <li><a href="https://github.com/techblue/jmagick">JMagick</a>: provides an object-oriented Java interface to ImageMagick.</li>
@@ -105,8 +104,7 @@ if (!isset($_SESSION) || !is_array($_SESSION)) {
 <h2><a class="anchor" id="help"></a>Getting Help</h2>
 
 <dl class="magick-list-unstyled">
-  <li><a href="http://www.amazon.com/exec/obidos/redirect?link_code=ur2&amp;camp=1789&amp;tag=imagemagick-20&amp;creative=9325&amp;path=tg/detail/-/1590595904/qid=1123551819/sr=8-1/ref=pd_bbs_sbs_1?v=glance%26s=books%26n=507846">Definitive Guide to ImageMagick</a>: this book explains ImageMagick in a practical, learn-by-example fashion.</li>
-  <li><a href="http://www.amazon.com/exec/obidos/redirect?link_code=ur2&amp;camp=1789&amp;tag=imagemagick-20&amp;creative=9325&amp;path=tg/detail/-/1904811868/qid=1123551819/sr=8-1/ref=pd_bbs_sbs_1?v=glance%26s=books%26n=507846">ImageMagick Tricks</a>: this book is packed with examples of photo manipulations, logo creation, animations, and complete web projects.</li>
+  <li><a href="https://www.amazon.com/Definitive-Guide-ImageMagick-Michael-Still/dp/1590595904/">Definitive Guide to ImageMagick</a>: this book explains ImageMagick in a practical, learn-by-example fashion.</li>
   <li><a href="https://github.com/ImageMagick/ImageMagick6/discussions">Discussions</a> service: get help from fellow ImageMagick users and developers, post to these forums.</li>
 </dl>
 
