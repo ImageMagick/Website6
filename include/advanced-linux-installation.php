@@ -473,7 +473,7 @@ $ sudo port -v install graphviz +gs +wmf +jbig +jpeg2 +lcms
 
 <p>Now lets build ImageMagick:</p>
 
-	  <p><a href="<?php echo $_SESSION['RelativePath']?>/../script/mirror.php">Download</a> the ImageMagick source distribution and verify the distribution against its <a href="https://imagemagick.org/archive//digest.rdf">message digest</a>.</p>
+	  <p><a href="<?php echo $_SESSION['RelativePath']?>/../script/mirror.php">Download</a> the ImageMagick source distribution and verify the distribution against its <a href="<?php echo MagickProvenanceUrl ?>">provenance</a>.</p>
 	  <p>Unpack and change into the top-level ImageMagick directory:</p>
     <pre class="p-3 mb-2 text-body-secondary bg-body-tertiary"><samp>tar xvzf ImageMagick-<?php echo MagickVersion ?>.tar.gz
 cd ImageMagick-<?php echo MagickVersion ?></samp></pre>

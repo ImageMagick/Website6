@@ -24,7 +24,7 @@ if (!isset($_SESSION) || !is_array($_SESSION)) {
 
 <pre class="p-3 mb-2 text-body-secondary bg-body-tertiary"><samp>git clone https://github.com/ImageMagick/ImageMagick6.git ImageMagick-<?php echo MagickLibVersion ?></samp></pre>
 
-<p>Or download <a href="<?php echo MagickReleaseUrl . "ImageMagick-" . MagickVersion . ".7z" ?>"><?php echo "ImageMagick-" . MagickVersion . ".7z" ?></a> from <a href="https://github.com/ImageMagick/ImageMagick6/releases">GitHub</a> and verify the distribution against its <a href="https://imagemagick.org/archive/digest.rdf">message digest</a>.</p>
+<p>Or download <a href="<?php echo MagickReleaseUrl . "ImageMagick-" . MagickVersion . ".7z" ?>"><?php echo "ImageMagick-" . MagickVersion . ".7z" ?></a> from <a href="https://github.com/ImageMagick/ImageMagick6/releases">GitHub</a> and verify the distribution against its <a href="<?php echo MagickProvenanceUrl ?>">provenance</a>.</p>
 
 <p>Next configure and compile ImageMagick.  Note the <a href="https://en.wikipedia.org/wiki/Pkg-config">pkg-config</a> script is required so that ImageMagick can find certain optional delegate libraries on your system.  To configure, type:</p>
 
@@ -72,7 +72,7 @@ make</samp></pre>
 
 <pre class="bg-light text-dark mx-4"><code>git clone -b ImageMagick-Windows-6 --single-branch https://github.com/ImageMagick/ImageMagick6-Windows.git ImageMagick-Windows-6</code></pre>
 
-<p>and run <code>CloneRepositories.cmd</code>.  Alternatively, download <a href="https://imagemagick.org/archive//windows/">ImageMagick-windows.zip</a> and verify its <a href="https://imagemagick.org/archive//windows/digest.rdf">message digest</a>.  For the latter, you can unpack the distribution with <a href="http://www.winzip.com">WinZip</a> or type the following from any MS-DOS Command Prompt window:</p>
+<p>and run <code>CloneRepositories.cmd</code>.  Or download <?php echo "ImageMagick-" . MagickVersion . ".7z" ?></a> from <a href="https://github.com/ImageMagick/ImageMagick6/releases">GitHub</a> and verify the distribution against its <a href="<?php echo MagickProvenanceUrl ?>">provenance</a>.</p>
 
 <pre class="bg-light text-dark mx-4"><code>unzip ImageMagick-windows.zip</code></pre>
 

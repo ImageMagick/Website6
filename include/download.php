@@ -160,7 +160,7 @@ I
   <tbody>
 </table></div>
 
-<p>Verify its <a href="https://imagemagick.org/archive//binaries/digest.rdf">message digest</a>.</p>
+<p>Verify its <a href="<?php echo MagickProvenanceUrl ?>">provenance</a>.</p>
 
 <p>It is strongly recommended to establish a <a href="<?php echo $_SESSION['RelativePath']?>/../script/security-policy.php">security policy</a> suitable for your local environment before utilizing ImageMagick.</p>
 
