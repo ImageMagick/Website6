@@ -182,7 +182,7 @@ In a Windows command shell the brackets are not interpreted but using quotes doe
 <pre class="bg-light text-dark mx-4"><code>convert -size 6000x4000 -depth 8 'rgb:image[600x400+1900+2900]' image.jpg</code></pre>
 
 <p>
-  You can get the same results with the <?php option("extract"); ?> option:
+  You can get the same results with the <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#extract">-extract</a> option:
 </p>
 
 <pre class="bg-light text-dark mx-4"><code>convert -size 6000x4000 -depth 8 -extract 600x400+1900+2900 rgb:image image.jpg</code></pre>
@@ -279,8 +279,82 @@ writing an image as appropriate.  An image setting stays in effect until it
 is reset or the command-line terminates.  The image settings include:</p>
 
 <ul>
-<?php options("adjoin", "affine", "alpha", "antialias", "authenticate", "background", "bias", "black-point-compensation", "blue-primary", "bordercolor", "caption", "channel", "comment", "compress", "debug", "define", "delay", "density", "depth", "direction", "display", "dispose", "dither", "encoding", "endian", "extract", "family", "fill", "filter", "font", "format", "fuzz", "geometry", "gravity", "green-primary", "interlace", "intent", "interpolate", "label", "limit", "linewidth", "log", "loop", "mattecolor", "monitor", "orient", "page", "pointsize", "preview", "quality", "quiet", "read-mask", "red-primary", "region", "render", "repage", "sampling-factor", "scene", "seed", "size", "stretch", "stroke",  "strokewidth", "style", "texture", "tile", "transparent-color", "treedepth", "type", "undercolor", "units", "verbose", "virtual-pixel", "weight", "write-mask");
-?>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#adjoin">-adjoin</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#affine">-affine</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#alpha">-alpha</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#antialias">-antialias</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#authenticate">-authenticate</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#background">-background</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#bias">-bias</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#black-point-compensation">-black-point-compensation</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#blue-primary">-blue-primary</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#bordercolor">-bordercolor</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#caption">-caption</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#channel">-channel</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#comment">-comment</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#compress">-compress</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#debug">-debug</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#define">-define</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#delay">-delay</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#density">-density</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#depth">-depth</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#direction">-direction</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#display">-display</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#dispose">-dispose</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#dither">-dither</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#encoding">-encoding</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#endian">-endian</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#extract">-extract</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#family">-family</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#fill">-fill</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#filter">-filter</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#font">-font</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#format">-format</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#fuzz">-fuzz</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#geometry">-geometry</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#gravity">-gravity</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#green-primary">-green-primary</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#interlace">-interlace</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#intent">-intent</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#interpolate">-interpolate</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#label">-label</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#limit">-limit</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#linewidth">-linewidth</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#log">-log</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#loop">-loop</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#mattecolor">-mattecolor</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#monitor">-monitor</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#orient">-orient</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#page">-page</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#pointsize">-pointsize</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#preview">-preview</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#quality">-quality</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#quiet">-quiet</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#read-mask">-read-mask</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#red-primary">-red-primary</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#region">-region</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#render">-render</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#repage">-repage</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#sampling-factor">-sampling-factor</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#scene">-scene</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#seed">-seed</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#size">-size</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#stretch">-stretch</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#stroke">-stroke</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#strokewidth">-strokewidth</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#style">-style</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#texture">-texture</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#tile">-tile</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#transparent-color">-transparent-color</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#treedepth">-treedepth</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#type">-type</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#undercolor">-undercolor</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#units">-units</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#verbose">-verbose</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#virtual-pixel">-virtual-pixel</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#weight">-weight</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#write-mask">-write-mask</a> </li>
+
 </ul>
 
 <p>In this example, <var>-channel</var> applies to each of the images, since, as we mentioned, settings persist:
@@ -299,8 +373,88 @@ image setting, which persists until the command-line terminates,
 an operator is applied to the current image set and forgotten.  The image operators include:</p>
 
 <ul>
-<?php options("annotate", "black-threshold", "blur", "border", "charcoal", "chop", "clip", "clip-path", "clip-mask", "colors", "colorize", "colorspace", "compose", "contrast", "convolve", "crop", "cycle", "despeckle", "draw", "edge", "emboss", "enhance", "equalize", "evaluate", "extent", "flip", "flop", "floodfill", "frame", "gamma", "gaussian-blur", "grayscale", "implode", "lat", "level", "map", "median", "modulate", "monochrome", "negate", "noise", "normalize", "opaque", "ordered-dither", "paint", "posterize", "raise", "profile", "radial-blur", "raise", "random-threshold", "resample", "resize", "roll", "rotate", "sample", "scale", "sepia-tone", "segment", "shade", "shadow", "sharpen", "shave", "shear", "sigmoidal-contrast", "solarize", "splice", "spread", "strip", "swirl", "threshold", "transparent", "thumbnail", "tint", "transform", "trim", "unsharp", "version", "wave", "white-point", "white-threshold");
-?>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#annotate">-annotate</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#black-threshold">-black-threshold</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#blur">-blur</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#border">-border</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#charcoal">-charcoal</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#chop">-chop</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#clip">-clip</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#clip-path">-clip-path</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#clip-mask">-clip-mask</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#colors">-colors</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#colorize">-colorize</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#colorspace">-colorspace</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#compose">-compose</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#contrast">-contrast</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#convolve">-convolve</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#crop">-crop</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#cycle">-cycle</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#despeckle">-despeckle</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#draw">-draw</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#edge">-edge</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#emboss">-emboss</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#enhance">-enhance</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#equalize">-equalize</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#evaluate">-evaluate</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#extent">-extent</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#flip">-flip</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#flop">-flop</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#floodfill">-floodfill</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#frame">-frame</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#gamma">-gamma</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#gaussian-blur">-gaussian-blur</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#grayscale">-grayscale</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#implode">-implode</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#lat">-lat</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#level">-level</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#map">-map</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#median">-median</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#modulate">-modulate</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#monochrome">-monochrome</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#negate">-negate</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#noise">-noise</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#normalize">-normalize</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#opaque">-opaque</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#ordered-dither">-ordered-dither</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#paint">-paint</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#posterize">-posterize</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#raise">-raise</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#profile">-profile</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#radial-blur">-radial-blur</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#raise">-raise</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#random-threshold">-random-threshold</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#resample">-resample</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#resize">-resize</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#roll">-roll</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#rotate">-rotate</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#sample">-sample</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#scale">-scale</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#sepia-tone">-sepia-tone</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#segment">-segment</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#shade">-shade</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#shadow">-shadow</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#sharpen">-sharpen</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#shave">-shave</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#shear">-shear</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#sigmoidal-contrast">-sigmoidal-contrast</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#solarize">-solarize</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#splice">-splice</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#spread">-spread</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#strip">-strip</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#swirl">-swirl</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#threshold">-threshold</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#transparent">-transparent</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#thumbnail">-thumbnail</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#tint">-tint</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#transform">-transform</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#trim">-trim</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#unsharp">-unsharp</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#version">-version</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#wave">-wave</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#white-point">-white-point</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#white-threshold">-white-threshold</a> </li>
+
 </ul>
 
 <p>In this example, <var>-negate</var> negates the wand image but not the wizard:</p>
@@ -310,8 +464,9 @@ an operator is applied to the current image set and forgotten.  The image operat
 <h4><a class="anchor" id="channel"></a>Image Channel Operator</h4>
 <p>Operate directly on image channels:</p>
 <ul>
-<?php options("channel-fx", "separate");
-?>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#channel-fx">-channel-fx</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#separate">-separate</a> </li>
+
 </ul>
 
 <h4><a class="anchor" id="sequence"></a>Image Sequence Operator</h4>
@@ -321,8 +476,42 @@ image sequence immediately as it appears on the command-line.  Choose from
 these image sequence operators:</p>
 
 <ul>
-<?php options("append", "affinity", "average", "clut", "coalesce", "combine", "compare", "complex", "composite", "copy", "crop", "debug", "deconstruct", "delete", "evaluate-sequence", "fft", "flatten", "fx", "hald-clut", "ift", "identify", "insert", "layers", "limit", "map", "maximum", "minimum", "morph", "mosaic", "optimize", "print", "process", "quiet", "swap", "write");
-?>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#append">-append</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#affinity">-affinity</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#average">-average</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#clut">-clut</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#coalesce">-coalesce</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#combine">-combine</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#compare">-compare</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#complex">-complex</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#composite">-composite</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#copy">-copy</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#crop">-crop</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#debug">-debug</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#deconstruct">-deconstruct</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#delete">-delete</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#evaluate-sequence">-evaluate-sequence</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#fft">-fft</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#flatten">-flatten</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#fx">-fx</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#hald-clut">-hald-clut</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#ift">-ift</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#identify">-identify</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#insert">-insert</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#layers">-layers</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#limit">-limit</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#map">-map</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#maximum">-maximum</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#minimum">-minimum</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#morph">-morph</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#mosaic">-mosaic</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#optimize">-optimize</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#print">-print</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#process">-process</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#quiet">-quiet</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#swap">-swap</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#write">-write</a> </li>
+
 </ul>
 <p>In this example, <var>-append</var> appends three images into one:</p>
 
@@ -344,8 +533,29 @@ different ways. See the documentation for the individual option or
 setting for more specifics.</p>
 
 <ul>
-<?php options("adaptive-resize", "border", "borderwidth", "chop", "crop", "density", "extent", "extract", "frame", "geometry", "iconGeometry", "liquid-rescale", "page", "region", "repage", "resize", "sample", "scale", "shave", "splice", "thumbnail", "window");
-?>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#adaptive-resize">-adaptive-resize</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#border">-border</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#borderwidth">-borderwidth</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#chop">-chop</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#crop">-crop</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#density">-density</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#extent">-extent</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#extract">-extract</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#frame">-frame</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#geometry">-geometry</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#iconGeometry">-iconGeometry</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#liquid-rescale">-liquid-rescale</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#page">-page</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#region">-region</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#repage">-repage</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#resize">-resize</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#sample">-sample</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#scale">-scale</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#shave">-shave</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#splice">-splice</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#thumbnail">-thumbnail</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#window">-window</a> </li>
+
 </ul>
 
 <p>The <var>geometry</var> argument might take any of the forms listed in the table below. These will described in more detail in the subsections following the table. The usual form is <var>size</var>[<var>offset</var>], meaning <var>size</var> is required and <var>offset</var> is optional. Occasionally, [<var>size</var>]<var>offset</var> is possible. In no cases are spaces permitted within the <var>geometry</var> argument.</p>
@@ -411,14 +621,14 @@ setting for more specifics.</p>
   </tr>
   <tr>
     <td>{<var>size</var>}{<var>+-</var>}<var>x</var>{<var>+-</var>}<var>y</var></td>
-    <td>Horizontal and vertical offsets <var>x</var> and <var>y</var>, specified in pixels. Signs are required for both. Offsets are affected by <?php option("gravity");?> setting. Offsets are not affected by <code>%</code> or other <var>size</var> operators. Note that positive X and Y offsets are in the inward direction towards the center of the image for all <?php option("gravity");?> options, except 'center'. For East, +X is left. For South, +Y is up. For SouthEast, +X is left and +Y is up. For center, the normal X and Y directional convention is used (+X is right and +Y is down).</td>
+    <td>Horizontal and vertical offsets <var>x</var> and <var>y</var>, specified in pixels. Signs are required for both. Offsets are affected by <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#gravity">-gravity</a> setting. Offsets are not affected by <code>%</code> or other <var>size</var> operators. Note that positive X and Y offsets are in the inward direction towards the center of the image for all <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#gravity">-gravity</a> options, except 'center'. For East, +X is left. For South, +Y is up. For SouthEast, +X is left and +Y is up. For center, the normal X and Y directional convention is used (+X is right and +Y is down).</td>
   </tr>
  </tbody>
 </table></div>
 
 
 <h4>Basic adjustments to width and height; the operators <code>%</code>, <code>^</code>, and <code>!</code> </h4>
-<p>Here, just below, are a few simple examples of <var>geometry</var>, showing how it might be used as an argument to the <?php option("resize")?> option. We'll use the internal image <code>logo:</code> for our input image.
+<p>Here, just below, are a few simple examples of <var>geometry</var>, showing how it might be used as an argument to the <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#resize">-resize</a> option. We'll use the internal image <code>logo:</code> for our input image.
 <a href="<?php echo $_SESSION['RelativePath']?>/../image/logo.png">
 This fine image</a> is 640 pixels wide and 480 pixels high. We say its <var>dimensions</var> are 640x480. When we give dimensions of an image, the width (the horizontal dimension) always precedes the height (the vertical dimension). This will be true when we speak of coordinates or <var>offsets</var> into an image, which will always be <var>x</var>–value followed by <var>y</var>. Just think of your high school algebra classes and the <var>xy</var>–plane. (Well, almost: our <var>y</var>–axis will always go downward!)
 </p>
@@ -463,7 +673,7 @@ magick logo: -resize '100x200&lt;' wiz4.png</code></pre>
 <h4>Offsets in geometry</h4>
 <p>
 Here are some examples to illustrate the use of <var>offsets</var> in <var>geometry</var> arguments. One typical use of offsets is in conjunction with the
-<?php option("region")?> option. This option allows many other options to modify the pixels within a specified rectangular subregion of an image. As such, it needs to be given the width and height of that region, and also an <var>offset</var> into the image, which is a pair of coordinates that indicate the location of the region within the larger image. Below, in the first example, we specify a region of size <code>100x200</code> to be located at the <var>xy</var>–coordinates <var>x</var>=10, <var>y</var>=20. Let's use the usual algebraic notation (<var>x</var>,<var>y</var>)=(10,20), for convenience.
+<a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#region">-region</a> option. This option allows many other options to modify the pixels within a specified rectangular subregion of an image. As such, it needs to be given the width and height of that region, and also an <var>offset</var> into the image, which is a pair of coordinates that indicate the location of the region within the larger image. Below, in the first example, we specify a region of size <code>100x200</code> to be located at the <var>xy</var>–coordinates <var>x</var>=10, <var>y</var>=20. Let's use the usual algebraic notation (<var>x</var>,<var>y</var>)=(10,20), for convenience.
 </p>
 
 <pre class="bg-light text-dark mx-4"><code>convert logo: -region '100x200+10+20' -negate wizNeg1.png
@@ -474,7 +684,7 @@ magick logo: -gravity center -region '100x200-10+20' -negate wizNeg3.png</code><
 
 <p>A negative offset can make sense in many cases. In the second example above, the offset is (-10,20), specified by <code>-10+20</code>. In that case, only the portion of the (virtual) rectangle obtained that lies within the image can be negated; here it is equivalent to specifying the geometry as <code>90x200+0+20</code>.</p>
 
-<p>In the third example above, the <?php option("gravity")?> setting precedes the others and sets the current location within the image at the very center of the image. In this case that is at pixel (320,240), since the size of the image is 640x480. This means that the offsets apply to that location, which thereby gets moved, in this case, to (320-10,240+20)=(310,260). But the <code>100x200</code> region itself is affected by the <?php option("gravity")?> setting, so instead of affecting its upper-left corner, the region's own center (at (+50,+100) within it) is determined. Therefore the center of the <code>100x200</code> rectangle is moved to (310,260). The negated rectangle's upper-left corner is now at (310-50,260-100)=(260,160).
+<p>In the third example above, the <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#gravity">-gravity</a> setting precedes the others and sets the current location within the image at the very center of the image. In this case that is at pixel (320,240), since the size of the image is 640x480. This means that the offsets apply to that location, which thereby gets moved, in this case, to (320-10,240+20)=(310,260). But the <code>100x200</code> region itself is affected by the <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#gravity">-gravity</a> setting, so instead of affecting its upper-left corner, the region's own center (at (+50,+100) within it) is determined. Therefore the center of the <code>100x200</code> rectangle is moved to (310,260). The negated rectangle's upper-left corner is now at (310-50,260-100)=(260,160).
 </p>
 
 
@@ -496,7 +706,11 @@ above.</p>
 <p>In addition to the image operators already discussed, the following image operators are most useful when processing images in an image stack:</p>
 
 <ul>
-<?php options("clone", "delete", "insert", "swap");?>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#clone">-clone</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#delete">-delete</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#insert">-insert</a> </li>
+<li class="d-inline text-nowrap">&bull; <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#swap">-swap</a> </li>
+
 </ul>
 
 <p>The arguments to these operators are indexes into the image sequence by number, starting with zero, for the first image, and so on. However if you give a negative index, the images are indexed from the end (last image added). That is, an index of -1 is the last image in the current image sequence, -2 gives the second-to-last, and so on.</p>
