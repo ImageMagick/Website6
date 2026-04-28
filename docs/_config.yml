@@ -1,0 +1,12 @@
+defaults:
+- scope:
+    path: ""
+  values:
+    layout: default
+
+magick:
+  lib_version: "6.9.13"
+  version: "6.9.13-46"
+  release_date: "2026-04-21"
+  release_url: "https://github.com/ImageMagick/ImageMagick6/releases/download/6.9.13-46/"
+  provenance_url: "https://github.com/ImageMagick/ImageMagick6/releases/download/6.9.13-46/ImageMagick-6.9.13-46.intoto.jsonl"
