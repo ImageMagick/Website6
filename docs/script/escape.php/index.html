@@ -2,7 +2,7 @@
 title: "Format and Print Image Properties"
 ---
 <div>
-<p class="lead">There are copious amounts of extra data associated with images (metadata), beyond the actual image pixels. This metadata can be useful, either for display, or for various calculations, or in modifying the behavior of later image processing operations.  You can utilize percent escapes in a number of options, for example in <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#format_identify_">-format</a> or in montage <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#label" >-label</a>, to print various properties and other settings associated with an image.</p>
+<p class="lead">There are copious amounts of extra data associated with images (metadata), beyond the actual image pixels. This metadata can be useful, either for display, or for various calculations, or in modifying the behavior of later image processing operations.  You can utilize percent escapes in a number of options, for example in <a href="/script/command-line-options.php/#format_identify_">-format</a> or in montage <a href="/script/command-line-options.php/#label" >-label</a>, to print various properties and other settings associated with an image.</p>
 
 <div>
 <table class="table table-hover table-striped">
@@ -368,7 +368,7 @@ when enclosed in braces (long form):</p>
   </tr>
   <tr>
     <td>%[distortion]</td>
-    <td>how well an image resembles a reference image (<a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#compare" >-compare</a>)</td>
+    <td>how well an image resembles a reference image (<a href="/script/command-line-options.php/#compare" >-compare</a>)</td>
   </tr>
   <tr>
     <td>%[entropy]</td>
@@ -528,15 +528,11 @@ up that name specific data sources. </p>
 
 <p>The primary search space (if not a specific attribute listed above) is
 a free-form property string.  Such strings are associated and saved with
-images, and are typically set using either the <a href="<?php echo
-$_SESSION['RelativePath']?>/../script/command-line-options.php#set" >-set</a>
+images, and are typically set using either the <a href="/script/command-line-options.php/#set" >-set</a>
 CLI option (or API equivalent), or from special convenience options
-(such as <a href="<?php echo
-$_SESSION['RelativePath']?>/../script/command-line-options.php#label"
->-label</a>, <a href="<?php echo
-$_SESSION['RelativePath']?>/../script/command-line-options.php#comment"
->-comment</a>, <a href="<?php echo
-$_SESSION['RelativePath']?>/../script/command-line-options.php#caption"
+(such as <a href="/script/command-line-options.php/#label"
+>-label</a>, <a href="/script/command-line-options.php/#comment"
+>-comment</a>, <a href="/script/command-line-options.php/#caption"
 >-caption</a>). </p>
 
 <p>These convenience options are globally saved (as 'global options' so thay can
@@ -545,8 +541,7 @@ individual images, only when they are read in. At that time any internal
 percent escape present is then handled. </p>
 
 <p>To change a property of an image already in memory, you need to use <a
-href="<?php echo
-$_SESSION['RelativePath']?>/../script/command-line-options.php#set" >-set</a>.
+href="/script/command-line-options.php/#set" >-set</a>.
 </p>
 
 <p>Note that properties, like attributes (and profiles), are saved with
@@ -569,8 +564,7 @@ artifacts, being an internal operational setting, is not saved with images (if
 such is possible). </p>
 
 <p>For example when you use <code>-define 'distort:viewport=100x100'</code> you
-are in fact generating a global option, which the <a href="<?php echo
-$_SESSION['RelativePath']?>/../script/command-line-options.php#distort"
+are in fact generating a global option, which the <a href="/script/command-line-options.php/#distort"
 >-distort</a> operator will use to modify its behavior (distorted output
 image 'view'). </p>
 
@@ -629,20 +623,19 @@ used for image processing use. </p>
 <p>There are some special prefixes (before the first ':') which performs
 calculations based on the user provided string that follows that prefix.  For
 example you can do a numerical calculation use <code>%[fx:...]</code> to
-evaluate the given <a href="<?php echo
-$_SESSION['RelativePath']?>/../script/fx.php">FX</a> expressions:</p>
+evaluate the given <a href="/script/fx.php/">FX</a> expressions:</p>
 
 <pre class="bg-light text-dark mx-4"><code>%[fx:<var>expression</var>]
 </code></pre>
 
 <p>Use <code>pixel:</code> or <code>hex:</code> to evaluate a pixel color as defined by the <a
-href="<?php echo $_SESSION['RelativePath']?>/../script/fx.php">FX</a>
+href="/script/fx.php/">FX</a>
 expression:</p>
 
 <pre class="bg-light text-dark mx-4"><code>%[pixel:<var>expression</var>]
 </code></pre>
 
-<p>Use <a href="<?php echo $_SESSION['RelativePath']?>/../script/command-line-options.php#define">-define</a> to specify the color compliance (e.g. <code>-define pixel:compliance=css</code>)</p>.
+<p>Use <a href="/script/command-line-options.php/#define">-define</a> to specify the color compliance (e.g. <code>-define pixel:compliance=css</code>)</p>.
 
 <h2>Specific Profile Percent Escape Prefixes</h2>
 

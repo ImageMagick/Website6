@@ -5,11 +5,11 @@ title: "Advanced Linux Source Installation"
 <h1 class="text-center">Advanced Linux Installation</h1>
 <p class="text-center"><a href="#download">Download &amp; Unpack</a> • <a href="#configure">Configure</a>  • <a href="#build">Build</a> • <a href="#install">Install</a> • <a href="#linux">Linux-specific Build Instructions</a> • <a href="#macosx">Mac OS X-specific Build Instructions</a> • <a href="#mingw">MinGW-specific Build Instructions</a> • <a href="#problems">Dealing with Unexpected Problems</a></p>
 
-<p  class="lead">It's possible you don't want to concern yourself with advanced installation under Linux or Linux systems.  If so, you also have the option of installing a pre-compiled <a href="<?php echo $_SESSION['RelativePath']?>/../script/download.php#linux">binary release</a>  or if you still want to install from source without all the fuss see the simple <a href="<?php echo $_SESSION['RelativePath']?>/../script/install-source.php#linux">Install From Source</a> instructions.  However, if you want to customize the configuration and installation of ImageMagick under Linux or Linux systems, lets begin.</p>
+<p  class="lead">It's possible you don't want to concern yourself with advanced installation under Linux or Linux systems.  If so, you also have the option of installing a pre-compiled <a href="/script/download.php/#linux">binary release</a>  or if you still want to install from source without all the fuss see the simple <a href="/script/install-source.php/#linux">Install From Source</a> instructions.  However, if you want to customize the configuration and installation of ImageMagick under Linux or Linux systems, lets begin.</p>
 
 <h2><a class="anchor" id="download"></a>Download &amp; Unpack</h2>
 
-<p>ImageMagick builds on a variety of Linux and Linux-like operating systems including Linux, Solaris, FreeBSD, Mac OS X, and others.  A compiler is required and fortunately almost all modern Linux systems have one.  Download <a href="<?php echo MagickReleaseUrl . "ImageMagick-" . MagickVersion . ".7z" ?>"><?php echo "ImageMagick-" . MagickVersion . ".7z" ?></a> from <a href="https://github.com/ImageMagick/ImageMagick6/releases">GitHub</a>.</p>
+<p>ImageMagick builds on a variety of Linux and Linux-like operating systems including Linux, Solaris, FreeBSD, Mac OS X, and others.  A compiler is required and fortunately almost all modern Linux systems have one.  Download <a href="{{ site.magick.release_url }}ImageMagick-{{ site.magick.version }}.7z">ImageMagick-{{ site.magick.version }}.7z</a> from <a href="https://github.com/ImageMagick/ImageMagick6/releases">GitHub</a>.</p>
 
 <p>Unpack the distribution it with this command:</p>
 
@@ -24,7 +24,7 @@ title: "Advanced Linux Source Installation"
 <p>The configure script looks at your environment and decides what it can cobble together to get ImageMagick compiled and installed on your system.  This includes finding a compiler, where your compiler header files are located (e.g. stdlib.h), and if any delegate libraries are available for ImageMagick to use (e.g. JPEG, PNG, TIFF, etc.).  If you are willing to accept configure's default options, and build from within the source directory, you can simply type:</p>
 
 <pre class="p-3 mb-2 text-body-secondary bg-body-tertiary"><samp>
-cd ImageMagick-<?php echo MagickVersion; ?>
+cd ImageMagick-{{ site.magick.version }}
 
 ./configure</samp></pre>
 
@@ -437,7 +437,7 @@ $ identify logo.gif
 
 <h2><a class="anchor" id="linux"></a>Linux-specific Build instructions</h2>
 
-<p>Download <a href="https://imagemagick.org/archive//linux/SRPMS/ImageMagick.src.rpm">ImageMagick.src.rpm</a> from <a href="https://imagemagick.org/archive">imagemagick.org</a> or its <a href="<?php echo $_SESSION['RelativePath']?>/../script/mirror.php">mirrors</a>.</p>
+<p>Download <a href="https://imagemagick.org/archive//linux/SRPMS/ImageMagick.src.rpm">ImageMagick.src.rpm</a> from <a href="https://imagemagick.org/archive">imagemagick.org</a> or its <a href="/script/mirror.php/">mirrors</a>.</p>
 
 <p>Build ImageMagick with this command:</p>
 
@@ -446,7 +446,7 @@ $ identify logo.gif
 
 <p>After the build you, locate the RPMS folder and install the ImageMagick binary RPM distribution:</p>
 
-<pre class="p-3 mb-2 text-body-secondary bg-body-tertiary"><samp>rpm -ivh ImageMagick-<?php echo MagickLibVersion ?>.-?.*.rpm</samp></pre>
+<pre class="p-3 mb-2 text-body-secondary bg-body-tertiary"><samp>rpm -ivh ImageMagick-{{ site.magick.lib_version }}.-?.*.rpm</samp></pre>
 
 <h2><a class="anchor" id="macosx"></a>Mac OS X-specific Build instructions</h2>
 
@@ -470,10 +470,10 @@ $ sudo port -v install graphviz +gs +wmf +jbig +jpeg2 +lcms
 
 <p>Now lets build ImageMagick:</p>
 
-	  <p><a href="<?php echo $_SESSION['RelativePath']?>/../script/mirror.php">Download</a> the ImageMagick source distribution and verify the distribution against its <a href="<?php echo MagickProvenanceUrl ?>">provenance</a>.</p>
+	  <p><a href="/script/mirror.php/">Download</a> the ImageMagick source distribution and verify the distribution against its <a href="{{ site.magick.provenance_url }}">provenance</a>.</p>
 	  <p>Unpack and change into the top-level ImageMagick directory:</p>
-    <pre class="p-3 mb-2 text-body-secondary bg-body-tertiary"><samp>tar xvzf ImageMagick-<?php echo MagickVersion ?>.tar.gz
-cd ImageMagick-<?php echo MagickVersion ?></samp></pre>
+    <pre class="p-3 mb-2 text-body-secondary bg-body-tertiary"><samp>tar xvzf ImageMagick-{{ site.magick.version }}.tar.gz
+cd ImageMagick-{{ site.magick.version }}</samp></pre>
 	  <p>Configure ImageMagick:</p>
 <pre class="bg-light text-dark mx-4"><code>./configure --prefix=/opt --with-quantum-depth=16 \
   --disable-dependency-tracking --with-x=yes \
@@ -501,8 +501,8 @@ cd ImageMagick-<?php echo MagickVersion ?></samp></pre>
 
 <p>Although you can download and install delegate libraries yourself, many are already available in the <a href="http://gnuwin32.sourceforge.net/">GnuWin32</a> distribution.  Download and install whichever delegate libraries you require such as JPEG, PNG, TIFF, etc.  Make sure you specify the development headers when you install a package.  Next type,</p>
 
-<pre class="p-3 mb-2 text-body-secondary bg-body-tertiary"><samp>tar jxvf ImageMagick-<?php echo MagickLibVersion ?>-?.tar.bz2
-cd ImageMagick-<?php echo MagickVersion ?>
+<pre class="p-3 mb-2 text-body-secondary bg-body-tertiary"><samp>tar jxvf ImageMagick-{{ site.magick.lib_version }}-?.tar.bz2
+cd ImageMagick-{{ site.magick.version }}
 
 export CPPFLAGS="-Ic:/Progra~1/GnuWin32/include"
 export LDFLAGS="-Lc:/Progra~1/GnuWin32/lib"
