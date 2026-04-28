@@ -69,7 +69,7 @@ Channel maximum locations:
 
 <p>If the <samp>-subimage-search</samp> option is not enabled, ImageMagick performs a direct pixel-by-pixel comparison between the two images, starting from their page offset, typically the top-left corners. In cases where the images differ in size, the smaller image is aligned with the larger one.  The extra areas in the smaller image are treated as virtual pixels. These virtual pixels can be processed according to the chosen virtual pixel method, which influences how unmatched regions are handled in the comparison. Consequently, the comparison metrics may be affected by these additional areas, potentially impacting the overall similarity assessment. To only compare authentic pixels, use <samp>-define compare:virtual-pixels=false</samp>.</p>
 
-<p>You can find additional examples of using <code>compare</code> in <a href="https://legacy.imagemagick.org/Usage/">Examples of ImageMagick Usage</a>.</p>
+<p>You can find additional examples of using <code>compare</code> in <a href="https://usage.imagemagick.org/">Examples of ImageMagick Usage</a>.</p>
 
 <p>Two images are considered similar if their difference according to the specified metric and fuzz value is 0, with the exception of the normalized cross correlation metric (NCC), where two images are considered similar when their normalized cross correlation is 1. The default metric is NCC.</p>
 
