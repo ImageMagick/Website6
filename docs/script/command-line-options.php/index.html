@@ -1894,7 +1894,7 @@ minus white-point</var> pixels. Or, if percent is used, black-out at most <var>b
 <p>Note that <code>-contrast-stretch 0</code> will modify the image such that
 the image's min and max values are stretched to 0 and <var>QuantumRange</var>, respectively, without any loss of data due to burn-out or
 clipping at either end. This is not the same as <a href="#normalize"
->-normalize</a>, which is equivalent to <code>-contrast-stretch 0.15x0.05%</code> (or
+>-normalize</a>, which is equivalent to <code>-contrast-stretch 2%x1%</code> (or
 prior to ImageMagick 6.4.7-0, <code>-contrast-stretch 2%x99%</code>).</p>
 
 <p>Internally operator works by creating a histogram bin, and then uses that
