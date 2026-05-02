@@ -1,8 +1,8 @@
 {
   "image": "mcr.microsoft.com/devcontainers/jekyll:2-bullseye",
-  "postStartCommand": "bundle install && bundle exec jekyll serve --source docs --incremental --force_polling --livereload --port 6060",
+  "postStartCommand": "bundle install && bundle exec jekyll serve --source docs --incremental --force_polling --livereload --port 7070",
   "forwardPorts": [
-    6060
+    7070
   ],
   "customizations": {
     "vscode": {
