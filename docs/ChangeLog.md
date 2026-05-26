@@ -5,7 +5,146 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [7.1.2-20](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-46...7.1.2-20) - 2026-04-21
+## [7.1.2-20](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-49...7.1.2-20) - 2026-04-21
+
+## [6.9.13-49](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-48...6.9.13-49) - 2026-05-26
+
+### Merged
+
+- build(deps): bump github/codeql-action from 4.35.4 to 4.35.5 [`#428`](https://github.com/ImageMagick/ImageMagick6/pull/428)
+
+### Commits
+
+- beta release [`31d6632`](https://github.com/ImageMagick/ImageMagick6/commit/31d6632e83f896b94e782ee325715f3ad3b6bd82)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-vgh5-r42g-4j44 [`5952b6a`](https://github.com/ImageMagick/ImageMagick6/commit/5952b6a46788522a599579cdd8af35ade1c91b89)
+- revert [`234186a`](https://github.com/ImageMagick/ImageMagick6/commit/234186aefcee32c6061e88f1ee83b0c0977b56fc)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-6mwj-rp89-6j5j [`f1d3757`](https://github.com/ImageMagick/ImageMagick6/commit/f1d37578fc0e0aca3d6b65d696f05ad7546c8dab)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-5v62-8fq6-cp9m [`1a59a4f`](https://github.com/ImageMagick/ImageMagick6/commit/1a59a4f31acca06f90a1f83424ef991a60f76b61)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-h36c-3666-h489 [`6015385`](https://github.com/ImageMagick/ImageMagick6/commit/60153856299c66689e3620b8347c0cc32c807d95)
+- https://github.com/ImageMagick/ImageMagick/issues/8745 [`de32b6b`](https://github.com/ImageMagick/ImageMagick6/commit/de32b6b5000aaf4e21e4f3baf75b581b4cfe0779)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-gm48-c7f2-v67p [`a2aa44c`](https://github.com/ImageMagick/ImageMagick6/commit/a2aa44ce71f0950522a104bbd4daa7b8a0b6709c)
+- restore [`72ad5f7`](https://github.com/ImageMagick/ImageMagick6/commit/72ad5f790fe9b09cece8c39e29ec7146cbd1f8d2)
+- fix possible memory leak [`51b07c3`](https://github.com/ImageMagick/ImageMagick6/commit/51b07c399c8606f862e1c0287ffeb6e5a22e5378)
+- construct full path from directory + basename [`bb25cda`](https://github.com/ImageMagick/ImageMagick6/commit/bb25cdad63ea6c80e72e8c20eb9118662dfb80e4)
+- optimized [`19da71d`](https://github.com/ImageMagick/ImageMagick6/commit/19da71df1bcfeb55ee18dc03fa811982f5b08ca1)
+- provision paths on demand [`7dc774b`](https://github.com/ImageMagick/ImageMagick6/commit/7dc774bdbff34c50690178a8b358a36511551e30)
+- cosmetic [`bacd509`](https://github.com/ImageMagick/ImageMagick6/commit/bacd509e779816c7b7cd0f78179b1c0f195f7cf6)
+- initialize client data before setjmp [`488480b`](https://github.com/ImageMagick/ImageMagick6/commit/488480bcd5794e3374b0214ac0e29bf55d5b9310)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-xcjm-wqff-m669 [`ac84db0`](https://github.com/ImageMagick/ImageMagick6/commit/ac84db0cfd4891c0474b7bfdd3c1d016aa57216a)
+- add include statement [`acabd5c`](https://github.com/ImageMagick/ImageMagick6/commit/acabd5c288156cac136e4e8845ebdba93de5a7ec)
+- potential heap overflow per spartancodex [`d6abd69`](https://github.com/ImageMagick/ImageMagick6/commit/d6abd69b86c587c70afa1ca6388d3a8ca3b041f3)
+- increase factor [`7d9be5d`](https://github.com/ImageMagick/ImageMagick6/commit/7d9be5d14d8468fa0a626eb104221652504eaf2a)
+- increase increment [`9781d8e`](https://github.com/ImageMagick/ImageMagick6/commit/9781d8e5e8381d6bc121633510a8bd3f6f9eddf6)
+- adjust heap check measurement [`6f55c68`](https://github.com/ImageMagick/ImageMagick6/commit/6f55c68956456855b6c7b3c4d3be66d7b70bde3e)
+- check for maximum image size limit [`bada0c5`](https://github.com/ImageMagick/ImageMagick6/commit/bada0c54263f2ff82c2dc86182eb9f536bf2960d)
+- make that max [`9f98dd9`](https://github.com/ImageMagick/ImageMagick6/commit/9f98dd96b592438cdc1befcb4b21bb2d3cf0e72d)
+- revert [`d4d2d49`](https://github.com/ImageMagick/ImageMagick6/commit/d4d2d4917d72a47f166debe0bee0c7e865726a0f)
+- eliminate compiler warning [`dc0f52b`](https://github.com/ImageMagick/ImageMagick6/commit/dc0f52bf87b8b7ee616e19c6de98d6744e5fd3a7)
+- remove extraneous heap check [`5b51b07`](https://github.com/ImageMagick/ImageMagick6/commit/5b51b078168df6015454f418cdce525a5172b5c9)
+- directly iterate over the policy linked-list [`64c6ee0`](https://github.com/ImageMagick/ImageMagick6/commit/64c6ee0bfa7dafc49e4c0571e39fa18cf4c8a6d1)
+- Updated the Windows dependencies. [`cdc1ca3`](https://github.com/ImageMagick/ImageMagick6/commit/cdc1ca35b1515e911439a81cd4da99c6b1efa46a)
+- Use Visual Studio 2026 in the Windows build. [`099620c`](https://github.com/ImageMagick/ImageMagick6/commit/099620c8425d3ac63aa278878a1f23f506aa2374)
+- Updated configure. [`8c9f3e8`](https://github.com/ImageMagick/ImageMagick6/commit/8c9f3e867072b0b1ea159f6d4bdc9b5390d17570)
+- Added extra checks to prevent an overflow on 32-bit systems (https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-4v89-6mgq-6rgc) [`662a166`](https://github.com/ImageMagick/ImageMagick6/commit/662a1667d115a65b22a3792755431fc9c1f31d89)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-vhrh-72hq-w8m7 [`c590530`](https://github.com/ImageMagick/ImageMagick6/commit/c590530d406e7628e6f1a8d0e7429b592bfadce8)
+- Added missing check for returning an image with zero columns or rows (https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-8pj9-6897-74xc) [`14faf35`](https://github.com/ImageMagick/ImageMagick6/commit/14faf35495e9191f54bc63df44383a76f5cf16d9)
+- https://github.com/ImageMagick/ImageMagick/issues/8753 [`f61e1be`](https://github.com/ImageMagick/ImageMagick6/commit/f61e1be9fc4d11a7935aade0922706ebb76ebad6)
+- release [`de9dca8`](https://github.com/ImageMagick/ImageMagick6/commit/de9dca86ef52fbeff3dc716698f4efe0c1dcfefc)
+
+## [6.9.13-48](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-47...6.9.13-48) - 2026-05-17
+
+### Merged
+
+- build(deps): bump github/codeql-action from 4.35.3 to 4.35.4 [`#426`](https://github.com/ImageMagick/ImageMagick6/pull/426)
+
+### Commits
+
+- lastest autoconf/automake updates [`4c05e20`](https://github.com/ImageMagick/ImageMagick6/commit/4c05e20014584a3e32b14d032d3c108e69651050)
+- beta release [`917a750`](https://github.com/ImageMagick/ImageMagick6/commit/917a7508ec5e1d5b65bb18055655db5d671b27e1)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-3rvp-mpr5-qjm9 [`8655228`](https://github.com/ImageMagick/ImageMagick6/commit/865522863e52bd86f72e3db18a9da4c9835eb2fa)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-36wm-hprc-mcf5 [`4095aa6`](https://github.com/ImageMagick/ImageMagick6/commit/4095aa6144646ec6f04d254f050d7cbb04af293f)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-jcqp-6r6f-3mfx [`61adf32`](https://github.com/ImageMagick/ImageMagick6/commit/61adf32771284186f2fbaea220062226123ac394)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-7gg8-qqx7-92g5 [`466237e`](https://github.com/ImageMagick/ImageMagick6/commit/466237e1116b46abde8af0f1794b42f1110e04b5)
+- encourage security policy testing after any configuration change [`fbcbb4c`](https://github.com/ImageMagick/ImageMagick6/commit/fbcbb4c4d27b40dd8ae7a9897f7fa33ace94c7ff)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-533m-3wf6-c33v [`7d68aec`](https://github.com/ImageMagick/ImageMagick6/commit/7d68aec1d02aaaeb513a1778e9702fa0d9ba9dcd)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-88wq-x9gc-45h8 [`600d802`](https://github.com/ImageMagick/ImageMagick6/commit/600d8020619eae3e4b4cd719413a681310510533)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-5r4x-w6p5-222q [`5ad5fdc`](https://github.com/ImageMagick/ImageMagick6/commit/5ad5fdcc45871bdeeca414a883acb880532accce)
+- revert list length check [`894ea67`](https://github.com/ImageMagick/ImageMagick6/commit/894ea675985f78c8532b249442de3e3de89030db)
+- security policy is generated [`a3ba712`](https://github.com/ImageMagick/ImageMagick6/commit/a3ba712f3310b856197f2dd044342d42984a7ceb)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-xf64-q5rg-85g5 [`6efd2e9`](https://github.com/ImageMagick/ImageMagick6/commit/6efd2e9277e6e6f5a8171d6c67bc93f1ff1f3eb8)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-4g75-9r48-jf92 [`0cde942`](https://github.com/ImageMagick/ImageMagick6/commit/0cde9421b635a66a42a6f23f995fbd9a325965cb)
+- Corrected typo. [`e341b9f`](https://github.com/ImageMagick/ImageMagick6/commit/e341b9f19c161ea95955aa65efe309c436efec6b)
+- Set the status to make sure we exit earlier. [`d006aff`](https://github.com/ImageMagick/ImageMagick6/commit/d006affc18994abc3873dc5f44da5d1f810f62f7)
+- Check the image extent before decoding the webp image and improved the error handling. [`549e78d`](https://github.com/ImageMagick/ImageMagick6/commit/549e78daaf8aaa5a929e309771945c2ab99f5089)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-4g75-9r48-jf92 [`6b1e965`](https://github.com/ImageMagick/ImageMagick6/commit/6b1e965f94eaf73f9ed459f86d87254e72c87156)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-6gxq-f64p-5w6f [`53d44cd`](https://github.com/ImageMagick/ImageMagick6/commit/53d44cdc62772f00e2a0676e8468b555f1aae6be)
+- Updated the Windows dependencies. [`64a0b10`](https://github.com/ImageMagick/ImageMagick6/commit/64a0b10ad82d16fb5dabc64a473cf86b3da91d87)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-6gxq-f64p-5w6f [`81589e7`](https://github.com/ImageMagick/ImageMagick6/commit/81589e7209b72bb84442380ff53109f61d41902d)
+- eliminate compiler warning [`6641077`](https://github.com/ImageMagick/ImageMagick6/commit/6641077dde5779787cfdac260ca2cb1a31c2cc0e)
+- eliminate compiler warning [`b9ae211`](https://github.com/ImageMagick/ImageMagick6/commit/b9ae211aff66c38674fc6fb7380fb226a8c37c03)
+- eliminate compiler warning [`94ca449`](https://github.com/ImageMagick/ImageMagick6/commit/94ca449a9e83b01e38c1ea9786f247ebace50b30)
+- eliminate compiler warning [`1fe905a`](https://github.com/ImageMagick/ImageMagick6/commit/1fe905aa5563bd69b2335500a3812d6ee1a54b07)
+- need to validate DPC pixel cache on read [`2ca8778`](https://github.com/ImageMagick/ImageMagick6/commit/2ca87784a434899067b8408e5f8a7f0165a8f884)
+- fixes per minor coder review [`ae60a16`](https://github.com/ImageMagick/ImageMagick6/commit/ae60a1684131af7baf4e954d87942d8a47ab79da)
+- eliminate compiler error [`6acbca2`](https://github.com/ImageMagick/ImageMagick6/commit/6acbca24406a7ffaff6437b8062f9a228fd741f6)
+- eliminate compiler warning [`e17acf9`](https://github.com/ImageMagick/ImageMagick6/commit/e17acf9ff97405188e1897a9399ddcc51abcaa20)
+- elminiate compiler warning [`4ee5bae`](https://github.com/ImageMagick/ImageMagick6/commit/4ee5bae0c23952529bddc7ee930d82464a65dfa8)
+- eliminate compile warning [`c96055a`](https://github.com/ImageMagick/ImageMagick6/commit/c96055a50950838decf97e00c49de38e290e7e07)
+- release [`4b4deff`](https://github.com/ImageMagick/ImageMagick6/commit/4b4deff096a37cca1d4e648e609b440fdf50072b)
+
+## [6.9.13-47](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-46...6.9.13-47) - 2026-05-12
+
+### Merged
+
+- build(deps): bump github/codeql-action from 4.35.2 to 4.35.3 [`#424`](https://github.com/ImageMagick/ImageMagick6/pull/424)
+- build(deps): bump actions/upload-artifact from 7.0.0 to 7.0.1 [`#414`](https://github.com/ImageMagick/ImageMagick6/pull/414)
+- build(deps): bump msys2/setup-msys2 from 2.31.0 to 2.31.1 [`#421`](https://github.com/ImageMagick/ImageMagick6/pull/421)
+- build(deps): bump github/codeql-action from 4.35.1 to 4.35.2 [`#418`](https://github.com/ImageMagick/ImageMagick6/pull/418)
+
+### Commits
+
+- beta release [`cbb8c6b`](https://github.com/ImageMagick/ImageMagick6/commit/cbb8c6b8c9c9aaf7b12614fed205aceffceca238)
+- relinquish policies on early exit [`f88a836`](https://github.com/ImageMagick/ImageMagick6/commit/f88a8368cdd37c5ee5f33145f12c8ae7b7d30351)
+- eliminate compiler warning [`a9da9fe`](https://github.com/ImageMagick/ImageMagick6/commit/a9da9fe653478e19cca8b7bfa2d6fb59241bf0cd)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-85r7-8qr6-54gh [`62c207c`](https://github.com/ImageMagick/ImageMagick6/commit/62c207cd6aefeef4bf139fe6ab5c97e00c904f41)
+- https://github.com/ImageMagick/ImageMagick6/issues/420 [`a86cd0f`](https://github.com/ImageMagick/ImageMagick6/commit/a86cd0fbc863b1ddb24ffa9168f68baebf02baa4)
+- eliminate compiler warning [`e7a4b30`](https://github.com/ImageMagick/ImageMagick6/commit/e7a4b309d550c4f215685ac8e4ff480c4a6d8b48)
+- https://github.com/ImageMagick/ImageMagick/issues/8687 [`6557c8c`](https://github.com/ImageMagick/ImageMagick6/commit/6557c8c594345ee84390890b40106765183009c9)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-7wff-wpr6-vmhm [`4bbc9cf`](https://github.com/ImageMagick/ImageMagick6/commit/4bbc9cf334ec0c136d4aa8c28afab17120cc954c)
+- extent was computed in bytes; now in element count [`6a8bdf0`](https://github.com/ImageMagick/ImageMagick6/commit/6a8bdf0d47e2442cb30452ead4b40948928350dd)
+- eliminate compiler warning [`1bbc474`](https://github.com/ImageMagick/ImageMagick6/commit/1bbc474ba8f8537fb034ad5271507ed4bfe63057)
+- https://github.com/ImageMagick/ImageMagick/issues/8690 [`d574cad`](https://github.com/ImageMagick/ImageMagick6/commit/d574cad57857a39b06cb23611391f33c93d9eb3a)
+- eliminate compiler warning [`a2cc3d7`](https://github.com/ImageMagick/ImageMagick6/commit/a2cc3d728783926e5f397c7887cbc0b4d49ccc5e)
+- Removed unmaintained vms files. [`281a47c`](https://github.com/ImageMagick/ImageMagick6/commit/281a47c7c0b9ba06c137e0869a767230861bc462)
+- Also add a source archive to the release. [`95e86fd`](https://github.com/ImageMagick/ImageMagick6/commit/95e86fd25ca5085d17163215794ea08a8fa43c0c)
+- Corrected indentation. [`4d1ebb3`](https://github.com/ImageMagick/ImageMagick6/commit/4d1ebb3002fb3c32abf1c6b6de1484a03cefa9a1)
+- Generate SLSA provenance and add it as a release artifact. [`f829403`](https://github.com/ImageMagick/ImageMagick6/commit/f82940344eee73cd18a735fd94d4f8de4085765a)
+- https://github.com/ImageMagick/ImageMagick6/issues/420 [`8173c21`](https://github.com/ImageMagick/ImageMagick6/commit/8173c210fc1ea0221150be44459878acd56391cc)
+- initialize primitive type [`ea0deb4`](https://github.com/ImageMagick/ImageMagick6/commit/ea0deb4867740c4afc305a0ff9af491bcc91638e)
+- Another fix to check for the 32-bit overflow. [`809174c`](https://github.com/ImageMagick/ImageMagick6/commit/809174c1cabf2fdf70df06764def569b23f2a0c2)
+- https://github.com/ImageMagick/ImageMagick/issues/8712 [`14a7b0c`](https://github.com/ImageMagick/ImageMagick6/commit/14a7b0cc6414ec0ab359426d9a2f4f5360d530ad)
+- free primitive info text if allocation fails [`d26cbd0`](https://github.com/ImageMagick/ImageMagick6/commit/d26cbd0fbb6027d724bc517a56c07d07719b5160)
+- slightly more robust overflow check [`de5f9ea`](https://github.com/ImageMagick/ImageMagick6/commit/de5f9ea0ac4ee4b7d31f4b3d0d40dbdc3652d4fd)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-rw3g-wvj6-3p7w [`097cd7e`](https://github.com/ImageMagick/ImageMagick6/commit/097cd7e57ddb795e226c4257e96d3be3aee96421)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-jqq5-8px3-9m6m [`b95030b`](https://github.com/ImageMagick/ImageMagick6/commit/b95030b1a7fc345a5e87dd7f586212a1c2644eb9)
+- optimized CheckPrimitiveExtent() method [`fee4892`](https://github.com/ImageMagick/ImageMagick6/commit/fee489246e3b62bff1a946b6d4ef32e81ead4799)
+- Set a limit to the kernel order to avoid an overflow resulting in a divide by zero (https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-vf33-6r7x-66xx) [`7a48e0b`](https://github.com/ImageMagick/ImageMagick6/commit/7a48e0b3107608c7d87a172473cfd5294bc9e81f)
+- eliminate compiler warning [`8063851`](https://github.com/ImageMagick/ImageMagick6/commit/8063851f2b0adad74f0b51253edace9bb11f6713)
+- eliminate compiler warning [`7431d69`](https://github.com/ImageMagick/ImageMagick6/commit/7431d699e9ebcbb5012fb95e8f0a76e6b21c243f)
+- eliminate compiler warning [`d5f1055`](https://github.com/ImageMagick/ImageMagick6/commit/d5f105524212a041f178def4571ac4618107b60e)
+- eliminate compiler exception [`3d9fbba`](https://github.com/ImageMagick/ImageMagick6/commit/3d9fbba59081018f6eb9e70e8f597e1929395ac0)
+- Added missing check for the list length limit in the PSD decoder (https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-cwpj-h54c-xjpx) [`de0f3f1`](https://github.com/ImageMagick/ImageMagick6/commit/de0f3f1ee15c783d139135e93cff212ee37e89af)
+- Added early exits when reading all the images would hit the list length limit. [`cdedef6`](https://github.com/ImageMagick/ImageMagick6/commit/cdedef601074ca5b4bbb681e2ec08e21d207de9b)
+- Changed the release workflow to automatically update the website after a release. [`018a079`](https://github.com/ImageMagick/ImageMagick6/commit/018a079318b1912d634bf333715a9b4f161931c1)
+- stroke-antialiasing is not a valid SVG element [`b3461b9`](https://github.com/ImageMagick/ImageMagick6/commit/b3461b93ff08c685c4c0d872138fb57f9309dcef)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-cr6r-hmj8-pr7r [`1b962d3`](https://github.com/ImageMagick/ImageMagick6/commit/1b962d30cc7ad94d18c5f24c8dbc6d48f534b99d)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-hg5x-pmmv-4q7g [`4662ea8`](https://github.com/ImageMagick/ImageMagick6/commit/4662ea8ac35032010e9f6b1274099f77d48ef041)
+- https://github.com/ImageMagick/ImageMagick/pull/8724 [`a07d538`](https://github.com/ImageMagick/ImageMagick6/commit/a07d5389c5c96bd9970af86eefa231895af5e87e)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-pfvh-m9xv-8966 [`7736b7c`](https://github.com/ImageMagick/ImageMagick6/commit/7736b7c458d0c694e26023ad4bd3436fc2f951ff)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-g5mf-wqq5-vwg6 [`11ac03e`](https://github.com/ImageMagick/ImageMagick6/commit/11ac03e5485a94a8c1ef06e79e8d77ded1d18d46)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-g5mf-wqq5-vwg6 [`3d57d37`](https://github.com/ImageMagick/ImageMagick6/commit/3d57d37907857d19b026760c47f1ac9c8c091c0d)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-gj92-pwm7-jcmp [`dc45708`](https://github.com/ImageMagick/ImageMagick6/commit/dc45708280447cf3e035a880d04e33ef3fb09520)
+- release [`5655ebc`](https://github.com/ImageMagick/ImageMagick6/commit/5655ebcda4d1c933b10288a756c8735facacb22c)
 
 ## [6.9.13-46](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-45...6.9.13-46) - 2026-04-21
 
