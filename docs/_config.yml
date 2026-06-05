@@ -6,7 +6,7 @@ defaults:
 
 magick:
   lib_version: "6.9.13"
-  version: "6.9.13-49"
-  release_date: "2026-05-26"
-  release_url: "https://github.com/ImageMagick/ImageMagick6/releases/download/6.9.13-49/"
-  provenance_url: "https://github.com/ImageMagick/ImageMagick6/releases/download/6.9.13-49/ImageMagick-6.9.13-49.intoto.jsonl"
+  version: "6.9.13-50"
+  release_date: "2026-06-05"
+  release_url: "https://github.com/ImageMagick/ImageMagick6/releases/download/6.9.13-50/"
+  provenance_url: "https://github.com/ImageMagick/ImageMagick6/releases/download/6.9.13-50/ImageMagick-6.9.13-50.intoto.jsonl"
