@@ -1,10 +1,12 @@
+{% assign title = "ImageMagick: Legacy | " | append: page.title %}
+{% assign url = page.url | absolute_url %}
 <!DOCTYPE html>
 <html lang="en" data-bs-theme="dark">
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>ImageMagick: Legacy | {{ page.title }}</title>
+  <title>{{ title }}</title>
   <meta name="description" content="ImageMagick is a powerful open-source software suite for creating, editing, converting, and manipulating images in over 200 formats. Ideal for developers, designers, and researchers.">
-  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="canonical" href="{{ url }}">
   <meta name="robots" content="index, follow">
   <meta name="theme-color" content="#000000">
   <meta name="google-site-verification" content="_bMOCDpkx9ZAzBwb2kF3PRHbfUUdFj2uO8Jd1AXArz4">
@@ -39,11 +41,11 @@
   </style>
 
   <!-- Open Graph Meta Tags -->
-  <meta property="og:title" content="ImageMagick: Legacy | {{ page.title }}">
+  <meta property="og:title" content="{{ title }}">
   <meta property="og:description" content="ImageMagick is a powerful open-source software suite for creating, editing, converting, and manipulating images in over 200 formats. Ideal for developers, designers, and researchers.">
   <meta property="og:image" content="/image/logo.png">
   <meta property="og:logo" content="/image/logo.png">
-  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:url" content="{{ url }}">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="ImageMagick: Legacy">
   <meta property="og:locale" content="en_us">
@@ -52,7 +54,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@imagemagick: legacy">
   <meta name="twitter:creator" content="@imagemagick: legacy">
-  <meta name="twitter:title" content="ImageMagick: Legacy | {{ page.title }}">
+  <meta name="twitter:title" content="{{ title }}">
   <meta name="twitter:description" content="ImageMagick is a powerful open-source software suite for creating, editing, converting, and manipulating images in over 200 formats. Ideal for developers, designers, and researchers.">
   <meta name="twitter:image" content="/image/logo.png">
   <meta name="twitter:image:alt" content="ImageMagick: Legacy logo and tag line">
@@ -63,7 +65,7 @@
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
     "name": "ImageMagick: Legacy",
-    "url": "ImageMagick: Legacy | {{ page.title }}",
+    "url": "{{ title }}",
     "image": "/image/logo.png",
     "description": "ImageMagick is a powerful open-source software suite for creating, editing, converting, and manipulating images in over 200 formats. Ideal for developers, designers, and researchers.",
     "applicationCategory": "Multimedia",
@@ -162,7 +164,7 @@
       </ul>
       <ul class="navbar-nav ms-auto">
         <li class="nav-item ms-3">
-          <form class="d-flex form-inline" action="{{ page.url | absolute_url }}">
+          <form class="d-flex form-inline" action="{{ url }}">
             <input class="form-control me-2" type="text" name="q" placeholder="Search site..." aria-label="Search">
             <button class="btn btn-outline-warning" type="submit" name="sa">Search</button>
           </form>
