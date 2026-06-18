@@ -21,7 +21,7 @@ title: "Install from Source"
 
 <pre class="p-3 mb-2 text-body-secondary bg-body-tertiary"><samp>git clone https://github.com/ImageMagick/ImageMagick6.git ImageMagick-{{ site.magick.lib_version }}</samp></pre>
 
-<p>Or download <a href="{{ site.magick.release_url }}ImageMagick-{{ site.magick.version }}.7z">ImageMagick-{{ site.magick.version }}.7z</a> from <a href="https://github.com/ImageMagick/ImageMagick6/releases">GitHub</a> and verify the distribution against its <a href="{{ site.magick.provenance_url }}">provenance</a>.</p>
+<p>Or download {% include download-link.html variant="source" %} from <a href="https://github.com/ImageMagick/ImageMagick6/releases">GitHub</a> and verify the distribution against its <a href="{{ site.magick.provenance_url }}">provenance</a>.</p>
 
 <p>Next configure and compile ImageMagick.  Note the <a href="https://en.wikipedia.org/wiki/Pkg-config">pkg-config</a> script is required so that ImageMagick can find certain optional delegate libraries on your system.  To configure, type:</p>
 
