@@ -276,82 +276,82 @@ subsequent processing such as reading an image, an image operator, or when
 writing an image as appropriate.  An image setting stays in effect until it
 is reset or the command-line terminates.  The image settings include:</p>
 
-<ul>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#adjoin">-adjoin</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#affine">-affine</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#alpha">-alpha</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#antialias">-antialias</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#authenticate">-authenticate</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#background">-background</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#bias">-bias</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#black-point-compensation">-black-point-compensation</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#blue-primary">-blue-primary</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#bordercolor">-bordercolor</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#caption">-caption</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#channel">-channel</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#comment">-comment</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#compress">-compress</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#debug">-debug</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#define">-define</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#delay">-delay</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#density">-density</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#depth">-depth</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#direction">-direction</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#display">-display</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#dispose">-dispose</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#dither">-dither</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#encoding">-encoding</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#endian">-endian</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#extract">-extract</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#family">-family</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#fill">-fill</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#filter">-filter</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#font">-font</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#format">-format</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#fuzz">-fuzz</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#geometry">-geometry</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#gravity">-gravity</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#green-primary">-green-primary</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#interlace">-interlace</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#intent">-intent</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#interpolate">-interpolate</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#label">-label</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#limit">-limit</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#linewidth">-linewidth</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#log">-log</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#loop">-loop</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#mattecolor">-mattecolor</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#monitor">-monitor</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#orient">-orient</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#page">-page</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#pointsize">-pointsize</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#preview">-preview</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#quality">-quality</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#quiet">-quiet</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#read-mask">-read-mask</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#red-primary">-red-primary</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#region">-region</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#render">-render</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#repage">-repage</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#sampling-factor">-sampling-factor</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#scene">-scene</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#seed">-seed</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#size">-size</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#stretch">-stretch</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#stroke">-stroke</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#strokewidth">-strokewidth</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#style">-style</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#texture">-texture</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#tile">-tile</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#transparent-color">-transparent-color</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#treedepth">-treedepth</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#type">-type</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#undercolor">-undercolor</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#units">-units</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#verbose">-verbose</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#virtual-pixel">-virtual-pixel</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#weight">-weight</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#write-mask">-write-mask</a> </li>
+<ul class="list-unstyled d-flex flex-wrap">
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#adjoin">-adjoin</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#affine">-affine</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#alpha">-alpha</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#antialias">-antialias</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#authenticate">-authenticate</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#background">-background</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#bias">-bias</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#black-point-compensation">-black-point-compensation</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#blue-primary">-blue-primary</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#bordercolor">-bordercolor</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#caption">-caption</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#channel">-channel</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#comment">-comment</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#compress">-compress</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#debug">-debug</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#define">-define</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#delay">-delay</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#density">-density</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#depth">-depth</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#direction">-direction</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#display">-display</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#dispose">-dispose</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#dither">-dither</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#encoding">-encoding</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#endian">-endian</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#extract">-extract</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#family">-family</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#fill">-fill</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#filter">-filter</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#font">-font</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#format">-format</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#fuzz">-fuzz</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#geometry">-geometry</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#gravity">-gravity</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#green-primary">-green-primary</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#interlace">-interlace</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#intent">-intent</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#interpolate">-interpolate</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#label">-label</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#limit">-limit</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#linewidth">-linewidth</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#log">-log</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#loop">-loop</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#mattecolor">-mattecolor</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#monitor">-monitor</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#orient">-orient</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#page">-page</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#pointsize">-pointsize</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#preview">-preview</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#quality">-quality</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#quiet">-quiet</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#read-mask">-read-mask</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#red-primary">-red-primary</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#region">-region</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#render">-render</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#repage">-repage</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#sampling-factor">-sampling-factor</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#scene">-scene</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#seed">-seed</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#size">-size</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#stretch">-stretch</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#stroke">-stroke</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#strokewidth">-strokewidth</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#style">-style</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#texture">-texture</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#tile">-tile</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#transparent-color">-transparent-color</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#treedepth">-treedepth</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#type">-type</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#undercolor">-undercolor</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#units">-units</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#verbose">-verbose</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#virtual-pixel">-virtual-pixel</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#weight">-weight</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#write-mask">-write-mask</a> </li>
 
 </ul>
 
@@ -370,88 +370,88 @@ any command-line <a href="/script/command-line-options.php/">option</a> not list
 image setting, which persists until the command-line terminates,
 an operator is applied to the current image set and forgotten.  The image operators include:</p>
 
-<ul>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#annotate">-annotate</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#black-threshold">-black-threshold</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#blur">-blur</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#border">-border</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#charcoal">-charcoal</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#chop">-chop</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#clip">-clip</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#clip-path">-clip-path</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#clip-mask">-clip-mask</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#colors">-colors</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#colorize">-colorize</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#colorspace">-colorspace</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#compose">-compose</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#contrast">-contrast</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#convolve">-convolve</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#crop">-crop</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#cycle">-cycle</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#despeckle">-despeckle</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#draw">-draw</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#edge">-edge</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#emboss">-emboss</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#enhance">-enhance</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#equalize">-equalize</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#evaluate">-evaluate</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#extent">-extent</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#flip">-flip</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#flop">-flop</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#floodfill">-floodfill</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#frame">-frame</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#gamma">-gamma</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#gaussian-blur">-gaussian-blur</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#grayscale">-grayscale</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#implode">-implode</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#lat">-lat</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#level">-level</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#map">-map</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#median">-median</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#modulate">-modulate</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#monochrome">-monochrome</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#negate">-negate</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#noise">-noise</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#normalize">-normalize</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#opaque">-opaque</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#ordered-dither">-ordered-dither</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#paint">-paint</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#posterize">-posterize</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#raise">-raise</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#profile">-profile</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#radial-blur">-radial-blur</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#raise">-raise</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#random-threshold">-random-threshold</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#resample">-resample</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#resize">-resize</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#roll">-roll</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#rotate">-rotate</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#sample">-sample</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#scale">-scale</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#sepia-tone">-sepia-tone</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#segment">-segment</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#shade">-shade</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#shadow">-shadow</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#sharpen">-sharpen</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#shave">-shave</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#shear">-shear</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#sigmoidal-contrast">-sigmoidal-contrast</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#solarize">-solarize</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#splice">-splice</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#spread">-spread</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#strip">-strip</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#swirl">-swirl</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#threshold">-threshold</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#transparent">-transparent</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#thumbnail">-thumbnail</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#tint">-tint</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#transform">-transform</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#trim">-trim</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#unsharp">-unsharp</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#version">-version</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#wave">-wave</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#white-point">-white-point</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#white-threshold">-white-threshold</a> </li>
+<ul class="list-unstyled d-flex flex-wrap">
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#annotate">-annotate</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#black-threshold">-black-threshold</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#blur">-blur</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#border">-border</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#charcoal">-charcoal</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#chop">-chop</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#clip">-clip</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#clip-path">-clip-path</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#clip-mask">-clip-mask</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#colors">-colors</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#colorize">-colorize</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#colorspace">-colorspace</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#compose">-compose</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#contrast">-contrast</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#convolve">-convolve</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#crop">-crop</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#cycle">-cycle</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#despeckle">-despeckle</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#draw">-draw</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#edge">-edge</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#emboss">-emboss</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#enhance">-enhance</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#equalize">-equalize</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#evaluate">-evaluate</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#extent">-extent</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#flip">-flip</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#flop">-flop</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#floodfill">-floodfill</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#frame">-frame</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#gamma">-gamma</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#gaussian-blur">-gaussian-blur</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#grayscale">-grayscale</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#implode">-implode</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#lat">-lat</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#level">-level</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#map">-map</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#median">-median</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#modulate">-modulate</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#monochrome">-monochrome</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#negate">-negate</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#noise">-noise</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#normalize">-normalize</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#opaque">-opaque</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#ordered-dither">-ordered-dither</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#paint">-paint</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#posterize">-posterize</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#raise">-raise</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#profile">-profile</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#radial-blur">-radial-blur</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#raise">-raise</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#random-threshold">-random-threshold</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#resample">-resample</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#resize">-resize</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#roll">-roll</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#rotate">-rotate</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#sample">-sample</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#scale">-scale</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#sepia-tone">-sepia-tone</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#segment">-segment</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#shade">-shade</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#shadow">-shadow</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#sharpen">-sharpen</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#shave">-shave</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#shear">-shear</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#sigmoidal-contrast">-sigmoidal-contrast</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#solarize">-solarize</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#splice">-splice</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#spread">-spread</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#strip">-strip</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#swirl">-swirl</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#threshold">-threshold</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#transparent">-transparent</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#thumbnail">-thumbnail</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#tint">-tint</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#transform">-transform</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#trim">-trim</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#unsharp">-unsharp</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#version">-version</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#wave">-wave</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#white-point">-white-point</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#white-threshold">-white-threshold</a> </li>
 
 </ul>
 
@@ -461,9 +461,9 @@ an operator is applied to the current image set and forgotten.  The image operat
 
 <h4><a class="anchor" id="channel"></a>Image Channel Operator</h4>
 <p>Operate directly on image channels:</p>
-<ul>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#channel-fx">-channel-fx</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#separate">-separate</a> </li>
+<ul class="list-unstyled d-flex flex-wrap">
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#channel-fx">-channel-fx</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#separate">-separate</a> </li>
 
 </ul>
 
@@ -473,42 +473,42 @@ an operator is applied to the current image set and forgotten.  The image operat
 image sequence immediately as it appears on the command-line.  Choose from
 these image sequence operators:</p>
 
-<ul>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#append">-append</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#affinity">-affinity</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#average">-average</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#clut">-clut</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#coalesce">-coalesce</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#combine">-combine</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#compare">-compare</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#complex">-complex</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#composite">-composite</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#copy">-copy</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#crop">-crop</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#debug">-debug</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#deconstruct">-deconstruct</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#delete">-delete</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#evaluate-sequence">-evaluate-sequence</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#fft">-fft</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#flatten">-flatten</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#fx">-fx</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#hald-clut">-hald-clut</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#ift">-ift</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#identify">-identify</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#insert">-insert</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#layers">-layers</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#limit">-limit</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#map">-map</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#maximum">-maximum</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#minimum">-minimum</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#morph">-morph</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#mosaic">-mosaic</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#optimize">-optimize</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#print">-print</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#process">-process</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#quiet">-quiet</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#swap">-swap</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#write">-write</a> </li>
+<ul class="list-unstyled d-flex flex-wrap">
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#append">-append</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#affinity">-affinity</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#average">-average</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#clut">-clut</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#coalesce">-coalesce</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#combine">-combine</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#compare">-compare</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#complex">-complex</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#composite">-composite</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#copy">-copy</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#crop">-crop</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#debug">-debug</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#deconstruct">-deconstruct</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#delete">-delete</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#evaluate-sequence">-evaluate-sequence</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#fft">-fft</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#flatten">-flatten</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#fx">-fx</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#hald-clut">-hald-clut</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#ift">-ift</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#identify">-identify</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#insert">-insert</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#layers">-layers</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#limit">-limit</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#map">-map</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#maximum">-maximum</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#minimum">-minimum</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#morph">-morph</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#mosaic">-mosaic</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#optimize">-optimize</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#print">-print</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#process">-process</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#quiet">-quiet</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#swap">-swap</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#write">-write</a> </li>
 
 </ul>
 <p>In this example, <var>-append</var> appends three images into one:</p>
@@ -530,29 +530,29 @@ Keep in mind that some of these parse their arguments in slightly
 different ways. See the documentation for the individual option or
 setting for more specifics.</p>
 
-<ul>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#adaptive-resize">-adaptive-resize</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#border">-border</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#borderwidth">-borderwidth</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#chop">-chop</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#crop">-crop</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#density">-density</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#extent">-extent</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#extract">-extract</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#frame">-frame</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#geometry">-geometry</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#iconGeometry">-iconGeometry</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#liquid-rescale">-liquid-rescale</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#page">-page</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#region">-region</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#repage">-repage</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#resize">-resize</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#sample">-sample</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#scale">-scale</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#shave">-shave</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#splice">-splice</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#thumbnail">-thumbnail</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#window">-window</a> </li>
+<ul class="list-unstyled d-flex flex-wrap">
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#adaptive-resize">-adaptive-resize</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#border">-border</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#borderwidth">-borderwidth</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#chop">-chop</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#crop">-crop</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#density">-density</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#extent">-extent</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#extract">-extract</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#frame">-frame</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#geometry">-geometry</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#iconGeometry">-iconGeometry</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#liquid-rescale">-liquid-rescale</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#page">-page</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#region">-region</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#repage">-repage</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#resize">-resize</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#sample">-sample</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#scale">-scale</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#shave">-shave</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#splice">-splice</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#thumbnail">-thumbnail</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#window">-window</a> </li>
 
 </ul>
 
@@ -703,11 +703,11 @@ above.</p>
 
 <p>In addition to the image operators already discussed, the following image operators are most useful when processing images in an image stack:</p>
 
-<ul>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#clone">-clone</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#delete">-delete</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#insert">-insert</a> </li>
-<li class="d-inline text-nowrap">&bull; <a href="/script/command-line-options.php/#swap">-swap</a> </li>
+<ul class="list-unstyled d-flex flex-wrap">
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#clone">-clone</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#delete">-delete</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#insert">-insert</a> </li>
+<li class="text-nowrap">&bull; <a href="/script/command-line-options.php/#swap">-swap</a> </li>
 
 </ul>
 
