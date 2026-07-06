@@ -5,6 +5,46 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.13-52](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-51...6.9.13-52) - 2026-07-05
+
+### Merged
+
+- build(deps): bump actions/attest from 4.1.0 to 4.1.1 [`#440`](https://github.com/ImageMagick/ImageMagick6/pull/440)
+- build(deps): bump actions/checkout from 6.0.3 to 7.0.0 [`#436`](https://github.com/ImageMagick/ImageMagick6/pull/436)
+
+### Commits
+
+- beta release [`ed0b8b5`](https://github.com/ImageMagick/ImageMagick6/commit/ed0b8b534e99c810346e4f729721152714dbf0dd)
+- Get the token for the correct repository instead. [`8c6555d`](https://github.com/ImageMagick/ImageMagick6/commit/8c6555dac510214e8fd467366529564e3add3bd5)
+- https://github.com/ImageMagick/ImageMagick/issues/8815 [`6f0a74d`](https://github.com/ImageMagick/ImageMagick6/commit/6f0a74d42a4c830855039cfd87eb88fa1dd74a74)
+- https://github.com/ImageMagick/ImageMagick/issues/8816 [`cf4202e`](https://github.com/ImageMagick/ImageMagick6/commit/cf4202ef381b37de57a8598c92cc2e51e0583b20)
+- remove quantization [`1ddb447`](https://github.com/ImageMagick/ImageMagick6/commit/1ddb447c5869939d84e38941dd71397ebe9075b8)
+- https://github.com/ImageMagick/ImageMagick/issues/8815 [`9e2e475`](https://github.com/ImageMagick/ImageMagick6/commit/9e2e475dc33de9a5c9a91a98f544819dbf9c565f)
+- correct allow coder logic [`880fe4e`](https://github.com/ImageMagick/ImageMagick6/commit/880fe4e1ce280e5000fffc64a0f8b654aa6f2540)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-xv2g-79vc-75qf [`6977554`](https://github.com/ImageMagick/ImageMagick6/commit/69775540e90337162dcecf31b08107c05f1688df)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-g568-j2hh-jr58 [`f989573`](https://github.com/ImageMagick/ImageMagick6/commit/f9895734e00bf0008a98d665b04c61abe17dc434)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-g568-j2hh-jr58 [`5a5c60e`](https://github.com/ImageMagick/ImageMagick6/commit/5a5c60eefb6eb1b9e4e6979aeb0a5210c80fd5e1)
+- https://github.com/ImageMagick/ImageMagick/issues/8821 [`5f088ea`](https://github.com/ImageMagick/ImageMagick6/commit/5f088ea3d9e9d1de17f5cf670f9313fc207d4b28)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-cvxf-g9w2-7mcx [`df3ea85`](https://github.com/ImageMagick/ImageMagick6/commit/df3ea85999c2fa106a000c1b7d35b430c871308b)
+- Also create an xz version of the source archive. [`0e76cb3`](https://github.com/ImageMagick/ImageMagick6/commit/0e76cb3f63b9322d33202295cdc985993027bd93)
+- Corrected checks for when the distributed-cache is disabled (#438) [`7db6238`](https://github.com/ImageMagick/ImageMagick6/commit/7db6238f1d1603081418c972efe61ac7aaf2139e)
+- Moved method inside define to silence warning. [`6320188`](https://github.com/ImageMagick/ImageMagick6/commit/632018848407dc0aa679f071a9f3bd4feb8201d5)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-h22j-f9xw-xjjm [`8018a5c`](https://github.com/ImageMagick/ImageMagick6/commit/8018a5c3214ca9bf11a86c2816833dee920b1340)
+- check to see if registry value is non-null [`41179d0`](https://github.com/ImageMagick/ImageMagick6/commit/41179d092dbf17a735ff9892a1e44b6c270778bd)
+- Specify the current ref as an argument for the clone in the Windows source job. [`6794b7c`](https://github.com/ImageMagick/ImageMagick6/commit/6794b7ca7a82272f275453bb1841cc8021c1b3cf)
+- check for add overflow [`f797e95`](https://github.com/ImageMagick/ImageMagick6/commit/f797e95d036b67b8150e16663735aba5910f9167)
+- check for possible add overflow [`6d478fe`](https://github.com/ImageMagick/ImageMagick6/commit/6d478fecd0546044e14c56b25bf6c78c3fb0addb)
+- Disable job in pull request. [`77a9aee`](https://github.com/ImageMagick/ImageMagick6/commit/77a9aee2fd3324d413c5225e4f3abffe66fdcc71)
+- Updated the dependencies. [`1d2f4d2`](https://github.com/ImageMagick/ImageMagick6/commit/1d2f4d206a54c41f13f1ea801371c7b993ce89d5)
+- Updated the dependencies. [`4bf10bf`](https://github.com/ImageMagick/ImageMagick6/commit/4bf10bfdbcc064b7c21f8c2f2dba8cba115401be)
+- policies are case sensitive [`f6a830e`](https://github.com/ImageMagick/ImageMagick6/commit/f6a830e42ee03595a9510b22d565895ab2982664)
+- check for EOF [`9d6f0b3`](https://github.com/ImageMagick/ImageMagick6/commit/9d6f0b37c33195ae296a0946667532a600a4fc19)
+- AE now produces expected results [`a991ec8`](https://github.com/ImageMagick/ImageMagick6/commit/a991ec83808abf5131656e6de973853b7e9bf6bf)
+- output AE as an integer [`b254a79`](https://github.com/ImageMagick/ImageMagick6/commit/b254a799f692ead57ca699174a36cb81d73545be)
+- sanity check [`96ffea8`](https://github.com/ImageMagick/ImageMagick6/commit/96ffea8176d6da57c8f07c4032cd26dd1239d179)
+- delay image extent check [`c9cfe77`](https://github.com/ImageMagick/ImageMagick6/commit/c9cfe77201a1530848b5f448fdfa05fdf8f630b7)
+- release [`abb2255`](https://github.com/ImageMagick/ImageMagick6/commit/abb2255cefc393ffc5722617dffd0e22f3c648e2)
+
 ## [6.9.13-51](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-50...6.9.13-51) - 2026-06-21
 
 ### Merged
