@@ -4,11 +4,6 @@ defaults:
   values:
     layout: default
 
-compress_html:
-  clippings: all
-  comments: ["<!-- ", " -->"]
-  endings: all
-
 magick:
   lib_version: "6.9.13"
   version: "6.9.13-52"
