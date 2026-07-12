@@ -20,11 +20,11 @@ topic: "Download"
 
 <p>We recommend <a href="https://brew.sh">Homebrew</a> which provides pre-built binaries for Mac (some users prefer <a href="https://macports.org">MacPorts</a>).  Download HomeBrew and type:</p>
 
-<pre class="bg-light text-dark mx-4"><code>brew install imagemagick</code></pre>
+<pre class="p-3 mb-2 text-body-secondary bg-body-tertiary cli"><code>brew install imagemagick</code></pre>
 
 <p>ImageMagick depends on Ghostscript fonts.  To install them, type:</p>
 
-<pre class="bg-light text-dark mx-4"><code>brew install ghostscript</code></pre>
+<pre class="p-3 mb-2 text-body-secondary bg-body-tertiary cli"><code>brew install ghostscript</code></pre>
 
 <p>The <code>brew</code> command downloads and installs ImageMagick with many of its delegate libraries (e.g. JPEG, PNG, Freetype, etc).  Homebrew <a href="https://github.com/Homebrew/homebrew-core/issues/31510">no longer allows</a> configurable builds; if you need different compile options (e.g. librsvg support), you will need to build from source.
 
@@ -164,7 +164,7 @@ topic: "Download"
 
 <p>To verify ImageMagick is working properly, type the following in an Command Prompt window:</p>
 
-<pre class="bg-light text-dark mx-4"><code>convert logo: logo.gif
+<pre class="p-3 mb-2 text-body-secondary bg-body-tertiary cli"><code>convert logo: logo.gif
 convert identify logo.gif
 convert logo.gif win:</code></pre>
 
@@ -172,9 +172,9 @@ convert logo.gif win:</code></pre>
 
 <p>Note, use a double quote (<code>"</code>) rather than a single quote (<code>'</code>) for the ImageMagick command line under Windows:</p>
 
-<pre class="bg-light text-dark mx-4"><samp>$ convert "e:/myimages/image.png" "e:/myimages/image.jpg"</samp></pre>
+<pre class="p-3 mb-2 text-body-secondary bg-body-tertiary cli"><samp>$ convert "e:/myimages/image.png" "e:/myimages/image.jpg"</samp></pre>
 <p>Use two double quotes for VBScript scripts:</p>
-<pre class="bg-light text-dark mx-4"><code>Set objShell = wscript.createobject("wscript.shell")
+<pre class="p-3 mb-2 text-body-secondary bg-body-tertiary cli"><code>Set objShell = wscript.createobject("wscript.shell")
 objShell.Exec("convert ""e:/myimages/image.png"" ""e:/myimages/image.jpg""")</code></pre>
 
 <p>Congratulations, you have a working ImageMagick distribution under Windows and you are ready to use ImageMagick to <a href="https://usage.imagemagick.org/">convert, compose, or edit</a> your images or perhaps you'll want to use one of the <a href="/script/develop.php/">Application Program Interfaces</a> for C, C++, Perl, and others.</p>

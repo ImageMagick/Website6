@@ -11,7 +11,7 @@ title: "Command-line Tools: Composite"
 
 <p>We list a few examples of the <samp>$ composite</samp> command here to illustrate its usefulness and ease of use.  To get started, lets overlay a smiley face over a rose:</p>
 
-<pre class="bg-light text-dark mx-4"><code>composite -gravity center smile.gif  rose: rose-over.png
+<pre class="p-3 mb-2 text-body-secondary bg-body-tertiary cli"><code>composite -gravity center smile.gif  rose: rose-over.png
 </code></pre>
 
 <ul>
@@ -24,7 +24,7 @@ title: "Command-line Tools: Composite"
 
 <p>You can create three-dimensional effect with the <var>Atop</var>:</p>
 
-<pre class="bg-light text-dark mx-4"><code>convert -size 70x70 canvas:none -fill red -draw 'circle 35,35 10,30' red-circle.png
+<pre class="p-3 mb-2 text-body-secondary bg-body-tertiary cli"><code>convert -size 70x70 canvas:none -fill red -draw 'circle 35,35 10,30' red-circle.png
 convert -size 70x70 canvas:none -draw 'circle 35,35 35,20' -negate \
 -channel A -gaussian-blur 0x8 white-highlight.png
 composite -compose atop -geometry -13-17 white-highlight.png red-circle.png red-ball.png

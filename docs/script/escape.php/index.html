@@ -71,7 +71,7 @@ insensitive manner. </p>
 free-form string tables directly, allowing you to override the above sequence,
 and avoid accessing an attribute or property of the same name.</p>
 
-<pre class="bg-light text-dark mx-4"><code>%[artifact:<var>setting</var>]
+<pre class="p-3 mb-2 text-body-secondary bg-body-tertiary cli"><code>%[artifact:<var>setting</var>]
 %[option:<var>setting</var>]
 </code></pre>
 
@@ -290,7 +290,7 @@ filename, type, width, height. </p>
 <p>Here is a sample command and its output for an image with filename
 <code>bird.miff</code> and whose width is 512 and height is 480.</p>
 
-<pre class="bg-light text-dark mx-4"><code>-> identify -format "%m:%f %wx%h" bird.miff
+<pre class="p-3 mb-2 text-body-secondary bg-body-tertiary cli"><code>-> identify -format "%m:%f %wx%h" bird.miff
 MIFF:bird.miff 512x480
 </code></pre>
 
@@ -606,7 +606,7 @@ Artifact. </p>
 now list all free-form string properties, artifacts, and options, (but not
 specific image attributes) using...</p>
 
-<pre class="bg-light text-dark mx-4"><code>convert ... \
+<pre class="p-3 mb-2 text-body-secondary bg-body-tertiary cli"><code>convert ... \
    -print "__Properties__\n%[*]" \
    -print "__Artifacts__\n%[artifact:*]" \
    -print "__Options__\n%[option:*]" \
@@ -625,14 +625,14 @@ calculations based on the user provided string that follows that prefix.  For
 example you can do a numerical calculation use <code>%[fx:...]</code> to
 evaluate the given <a href="/script/fx.php/">FX</a> expressions:</p>
 
-<pre class="bg-light text-dark mx-4"><code>%[fx:<var>expression</var>]
+<pre class="p-3 mb-2 text-body-secondary bg-body-tertiary cli"><code>%[fx:<var>expression</var>]
 </code></pre>
 
 <p>Use <code>pixel:</code> or <code>hex:</code> to evaluate a pixel color as defined by the <a
 href="/script/fx.php/">FX</a>
 expression:</p>
 
-<pre class="bg-light text-dark mx-4"><code>%[pixel:<var>expression</var>]
+<pre class="p-3 mb-2 text-body-secondary bg-body-tertiary cli"><code>%[pixel:<var>expression</var>]
 </code></pre>
 
 <p>Use <a href="/script/command-line-options.php/#define">-define</a> to specify the color compliance (e.g. <code>-define pixel:compliance=css</code>)</p>.
@@ -642,7 +642,7 @@ expression:</p>
 <p>You can also use the following special formatting syntax to print EXIF
 mage meta-data that was included in the image read in:</p>
 
-<pre class="bg-light text-dark mx-4"><code>%[EXIF:<var>tag</var>]
+<pre class="p-3 mb-2 text-body-secondary bg-body-tertiary cli"><code>%[EXIF:<var>tag</var>]
 </code></pre>
 
 <p>Choose <var>tag</var> from the following:</p>
@@ -741,7 +741,7 @@ shell from misinterpreting any spaces and square brackets.</p>
 <p>The following special formatting syntax can be used to print IPTC
 information contained in the file:</p>
 
-<pre class="bg-light text-dark mx-4"><code>%[IPTC:<var>dataset</var>:<var>record</var>]
+<pre class="p-3 mb-2 text-body-secondary bg-body-tertiary cli"><code>%[IPTC:<var>dataset</var>:<var>record</var>]
 </code></pre>
 
 <p>Select <var>dataset</var> and <var>record</var> from the following:</p>

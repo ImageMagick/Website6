@@ -62,15 +62,15 @@ title: "MagickCore, Low-level C API"
 
 <p>After you write your MagickCore program, compile it like this:</p>
 
-<pre class="bg-light text-dark mx-4"><code>cc `MagickCore-config --cflags --cppflags` -O2 -o core core.c `MagickCore-config --ldflags --libs</code></pre>
+<pre class="p-3 mb-2 text-body-secondary bg-body-tertiary cli"><code>cc `MagickCore-config --cflags --cppflags` -O2 -o core core.c `MagickCore-config --ldflags --libs</code></pre>
 
 <p>Note, if your instance of ImageMagick does not support modules but does include support for the WMF image format, you'll need to link with the <a href="/script/magick-wand.php/">MagickWand</a> library instead (since it is a dependency of the WMF image format):</p>
 
-<pre class="bg-light text-dark mx-4"><code>cc `MagickWand-config --cflags --cppflags` -O2 -o core core.c `MagickWand-config --ldflags --libs`</code></pre>
+<pre class="p-3 mb-2 text-body-secondary bg-body-tertiary cli"><code>cc `MagickWand-config --cflags --cppflags` -O2 -o core core.c `MagickWand-config --ldflags --libs`</code></pre>
 
 <p>Set the <code>PKG_CONFIG_PATH</code> environment variable if ImageMagick is not in your default system path:</p>
 
-<pre class="bg-light text-dark mx-4"><code>export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig</code></pre>
+<pre class="p-3 mb-2 text-body-secondary bg-body-tertiary cli"><code>export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig</code></pre>
 
 <p>Here is a example program that utilizes the MagickCore API to get you started, <a href="/source/core.c">core.c</a>. It reads a GIF image, creates a thumbnail, and writes it to disk in the PNG image format.</p>
 
