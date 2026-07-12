@@ -743,7 +743,7 @@ href="#auto-orient" >-auto-orient</a> operator will do nothing. </p>
 </dl>
 </div>
 
-<p>The computed threshold is returned as the <samp>auto-threshold:verbose</samp> image property. To instead print to your device, use <samp>-define auto-threshold:verbose=true</samp>.</p>
+<p>The computed threshold is returned as the <code>auto-threshold:verbose</code> image property. To instead print to your device, use <code>-define auto-threshold:verbose=true</code>.</p>
 
 <div style="mx-auto my-3 text-center">
   <h2><a class="anchor" id="average"></a>-average</h2>
@@ -2154,8 +2154,8 @@ represents the last image of the sequence.  Specify a range of images with
 a dash (e.g. 0-4).  Separate indexes with a comma (e.g. 0,2).  Use
 <code>+delete</code> to delete the last image in the current image sequence. Use <code>-delete 0--1</code> to delete the entire image sequence.</p>
 
-<p>You can also delete images from the persistent registry, e.g., <samp>-delete
-registry:checkers</samp></p>
+<p>You can also delete images from the persistent registry, e.g., <code>-delete
+registry:checkers</code></p>
 
 
 <div style="mx-auto my-3 text-center">
@@ -2891,7 +2891,7 @@ to be removed.</p>
 <p>The <code>circle</code> primitive makes a disk (filled) or circle (unfilled).
 Give the center and any point on the perimeter (boundary). Note, by using a translation, you can remove the need to calculate the circles edge coordinate, but can just give the radius directly:</p>
 
-<pre class="bg-light text-dark mx-4"><samp>magick -size 100x60 xc: -stroke SeaGreen  -fill PaleGreen -strokewidth 2 -draw 'translate 50,30 circle 0,0 25,0' circle.gif</samp></pre>
+<pre class="bg-light text-dark mx-4"><code>magick -size 100x60 xc: -stroke SeaGreen  -fill PaleGreen -strokewidth 2 -draw 'translate 50,30 circle 0,0 25,0' circle.gif</code></pre>
 </p>
 
 <p>The <code>arc</code> primitive is used to inscribe an elliptical segment in
@@ -3771,7 +3771,7 @@ is a TrueType font file, <code>ps:helvetica</code> is PostScript font, and
 href="#family">-family</a>, <a href="#stretch">-stretch</a>, <a
 href="#style">-style</a>, and <a href="#weight">-weight</a>. </p>
 
-<p>To specify an explicit font filename or collection, specify the font path preceded with a <samp>@</samp>, e.g., <samp>@arial.ttf</samp>.  You can specify the font face index for font collections, e.g., <samp>@msgothic.ttc[1]</samp>.</p>
+<p>To specify an explicit font filename or collection, specify the font path preceded with a <code>@</code>, e.g., <code>@arial.ttf</code>.  You can specify the font face index for font collections, e.g., <code>@msgothic.ttc[1]</code>.</p>
 
 
 <div style="mx-auto my-3 text-center">
@@ -5437,7 +5437,7 @@ name. </p>
 </dl>
 </div>
 
-<p>p>Control the '<samp>AE</samp>' (how much do pixels differ)) and '<samp>PDC</samp>' (how many pixels differ) with  the <a href="#fuzz" >-fuzz</a> factor (ignore pixels which
+<p>p>Control the '<code>AE</code>' (how much do pixels differ)) and '<code>PDC</code>' (how many pixels differ) with  the <a href="#fuzz" >-fuzz</a> factor (ignore pixels which
 only changed by a small amount).  Use '<code>PAE</code>' to find the
 size of the <a href="#fuzz" >-fuzz</a> factor needed to make all pixels
 'similar', while '<code>MAE</code>' determines the factor needed
@@ -6588,8 +6588,8 @@ Old size = 70x46  New size = 35x23
 </code></pre></ul>
 
 <p>Other well known 'properties' that are available include:
-<samp>date:timestamp</samp>, <samp>date:create</samp>,
-<samp>date:modify</samp>, and <samp>signature</samp>. </p>
+<code>date:timestamp</code>, <code>date:create</code>,
+<code>date:modify</code>, and <code>signature</code>. </p>
 
 
 <p>The <a href="#repage">-repage</a> operator will also allow you to modify
@@ -7521,7 +7521,7 @@ a radius of 0 to have the method select a suitable radius.</p>
 
 <p class="lead">Soften the edges of the image in vignette style.</p>
 
-<p>The vignette effect rolloff is controlled by radiusxsigma. For nominal rolloff, this would be set to 0xsigma. A value of 0x0 will produce a circle/ellipse with no rolloff. The arguments x and y control the size of the circle. Larger values decrease the radii and smaller values increase the radii. Values of +0+0 will generate a circle/ellipse the same size as the image. The default values for x and y are 10% of the corresponding image dimension. Thus, the radii will be decreased by 10%, i.e., the diameters of the circle/ellipse will be 80% of the corresponding image dimension. Note, the percent symbol in a geometry affects <var>x</var> and <var>y</var>, whereas <var>radius</var> and <var>sigma</var> are absolute (e.g., <samp>-vignette "0x2+10%+10%")</p>
+<p>The vignette effect rolloff is controlled by radiusxsigma. For nominal rolloff, this would be set to 0xsigma. A value of 0x0 will produce a circle/ellipse with no rolloff. The arguments x and y control the size of the circle. Larger values decrease the radii and smaller values increase the radii. Values of +0+0 will generate a circle/ellipse the same size as the image. The default values for x and y are 10% of the corresponding image dimension. Thus, the radii will be decreased by 10%, i.e., the diameters of the circle/ellipse will be 80% of the corresponding image dimension. Note, the percent symbol in a geometry affects <var>x</var> and <var>y</var>, whereas <var>radius</var> and <var>sigma</var> are absolute (e.g., <code>-vignette "0x2+10%+10%")</p>
 
 <div style="mx-auto my-3 text-center">
   <h2><a class="anchor" id="virtual-pixel"></a>-virtual-pixel <var>method</var></h2>
@@ -7656,7 +7656,7 @@ href="#stretch">-stretch</a>, and <a href="#style">-style</a>. </p>
   <h2><a class="anchor" id="white-balance"></a>-white-balance</h2>
 </div>
 <p>Applies white balancing to an image according to a grayworld assumption in the LAB colorspace.</p>
-<p>Use <samp>-define white-balance:vibrance=<em>value&#123;%}</em></kdb> to change the color vibrance of the a &amp; b channels.</p>
+<p>Use <code>-define white-balance:vibrance=<em>value&#123;%}</em></kdb> to change the color vibrance of the a &amp; b channels.</p>
 
 <div style="mx-auto my-3 text-center">
   <h2><a class="anchor" id="white-point"></a>-white-point <var>x,y</var></h2>

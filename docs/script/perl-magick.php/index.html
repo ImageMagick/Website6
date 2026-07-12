@@ -30,10 +30,10 @@ title: "PerlMagick, Perl API for ImageMagick"
 
 <p>Next configure and compile ImageMagick:</p>
 
-<pre class="p-3 mb-2 text-body-secondary bg-body-tertiary"><samp>cd ImageMagick-{{ site.magick.version }}
+<pre class="p-3 mb-2 text-body-secondary bg-body-tertiary"><code>cd ImageMagick-{{ site.magick.version }}
 
 ./configure -with-perl
-make</samp></pre>
+make</code></pre>
 
 <p>If ImageMagick / PerlMagick configured and compiled without complaint, you are ready to install it on your system.  Administrator privileges are required to install.  To install, type</p>
 
@@ -75,10 +75,10 @@ nmake install
 
 <p>Use <code>nmake test</code> under Windows. There are a few demonstration scripts available to exercise many of the functions PerlMagick can perform. Type</p>
 
-<p>Use the <samp>prove</samp> utility to execute a test from the build folder:</p>
+<p>Use the <code>prove</code> utility to execute a test from the build folder:</p>
 
-<pre class="bg-light text-dark mx-4"><samp>prove --blib blib -I `pwd` -bv ./t/read.t
-</samp></pre>
+<pre class="bg-light text-dark mx-4"><code>prove --blib blib -I `pwd` -bv ./t/read.t
+</code></pre>
 
 <pre class="bg-light text-dark mx-4"><code>cd demo
 make
