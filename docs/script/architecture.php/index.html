@@ -241,7 +241,7 @@ Resource limits:
 </code></pre>
 
 <p>You can set these limits either as a <a href="/script/security-policy.php/">security policy</a> (see <a href="/source/policy-open.xml">policy.xml</a>), with an <a href="/script/resources.php/#environment">environment variable</a>, with the <a href="/script/command-line-options.php/#limit">-limit</a> command line option, or with the <a href="/api/resource.php/#SetMagickResourceLimit">SetMagickResourceLimit()</a> MagickCore API method. As an example, our online web interface to ImageMagick, <a href="https://magickstudio.imagemagick.org/">MagickStudio</a>, includes these policy limits to help prevent a denial-of-service:</p>
-<pre class="p-3 mb-2 text-body-secondary bg-body-tertiary cli"><code>&lt;?xml version="1.0" encoding="UTF-8"?>
+<pre class="p-3 mb-2 text-body-secondary bg-body-tertiary cli"  style="max-height:75svh;"><code>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE policymap [
 &lt;!ELEMENT policymap (policy)*>
 &lt;!ATTLIST policymap xmlns CDATA #FIXED "">
