@@ -12,10 +12,10 @@ topic: "CLI"
 
 <p>Or it can be complex with a plethora of <a href="#option">options</a>, as in the following:</p>
 
-<pre class="p-3 mb-2 text-body-secondary bg-body-tertiary cli"><code>convert label.gif +matte \
+<pre class="p-3 mb-2 text-body-secondary bg-body-tertiary cli"><samp>$ convert label.gif +matte \
   \( +clone  -shade 110x90 -normalize -negate +clone  -compose Plus -composite \) \
   \( -clone 0 -shade 110x50 -normalize -channel BG -fx 0 +channel -matte \) \
-  -delete 0 +swap  -compose Multiply -composite  button.gif");</code></pre>
+  -delete 0 +swap  -compose Multiply -composite  button.gif");</samp></pre>
 
 <p class="text-info">This example command is long enough that the command must be written across several lines, so we formatted it for clarity by inserting backslashes (<code>\</code>). The backslash is the Linux <var>line-continuation</var> character. In the Windows shell, use a caret character (<code>^</code>) for line-continuation. We use the Linux style on these web pages, as above. Sometimes, however, the lines are wrapped by your browser if the browser window is small enough, but the command-lines, shown in white, are still intended to be typed as one line. Line continuation characters need not be entered. The <var>parentheses</var> that are <var>escaped</var> above using the backslash are not escaped in Windows. There are some other differences between Windows and Linux (involving quotation marks, for instance), but we'll discuss some of those issues later, as they arise. </p>
 
@@ -37,7 +37,7 @@ topic: "CLI"
 
 <p>Given the complexity of the rendering, you might be surprised it is accomplished by a single command-line:</p>
 
-<pre class="p-3 mb-2 text-body-secondary bg-body-tertiary cli"><code>convert -size 320x90 canvas:none -stroke snow4 -size 1x90 -tile gradient:white-snow4 \
+<pre class="p-3 mb-2 text-body-secondary bg-body-tertiary cli"><samp>$ convert -size 320x90 canvas:none -stroke snow4 -size 1x90 -tile gradient:white-snow4 \
   -draw 'roundrectangle 16, 5, 304, 85 20,40' +tile -fill snow \
   -draw 'roundrectangle 264, 5, 304, 85  20,40' -tile gradient:chartreuse-green \
   -draw 'roundrectangle 16,  5, 180, 85  20,40' -tile gradient:chartreuse1-chartreuse3 \
@@ -47,7 +47,7 @@ topic: "CLI"
   -shadow 80x3+3+3 \) +swap -background none -layers merge \( +size -pointsize 90 \
   -strokewidth 1 -fill red label:'50 %' -trim +repage \( +clone -background firebrick3 \
   -shadow 80x3+3+3 \) +swap -background none -layers merge \) -insert 0 -gravity center \
-  -append -background white -gravity center -extent 320x200 cylinder_shaded.png</code></pre>
+  -append -background white -gravity center -extent 320x200 cylinder_shaded.png</samp></pre>
 
 <p>In the next sections we dissect the anatomy of the ImageMagick command-line.  Hopefully, after carefully reading and better understanding how the command-line works, you should be able to accomplish complex image-processing tasks without resorting to the sometimes daunting <a href="/script/develop.php/">program interfaces</a>.</p>
 
