@@ -399,16 +399,16 @@ methods.</p>
 the two images that are being merged or overlaid, but have some extra numerical
 arguments, which are tabled below. </p>
 
-<p>In the "<code>composite</code>" command these composition methods are
+<p>In the "<samp>$ composite</samp>" command these composition methods are
 selected using special options with the arguments needed. They are usually,
 but not always, the same name as the composite 'method' they use, and replaces
 the normal use of the <a href="/script/command-line-options.php/#compose" >-compose</a>
-setting in the "<code>composite</code>" command.  For example... </p>
+setting in the "<samp>$ composite</samp>" command.  For example... </p>
 
 <pre class="bg-light text-dark mx-4"><code>composite ... -blend 50x50 ...
 </code></pre>
 
-<p>As of IM v6.5.3-4 the "<code>convert</code>" command can now also supply
+<p>As of IM v6.5.3-4 the "<samp>$ convert</samp>" command can now also supply
 these extra arguments to its <a href="/script/command-line-options.php/#composite"
 >-composite</a> operator, using the special <a href="/script/command-line-options.php/#define">-define</a>
 attribute of '<code class="arg">compose:args</code>'.  This means you can now
@@ -434,7 +434,7 @@ with a brief summary of what they do. For more details see the equivalent
     <td>dissolve</td>
     <td>Arguments:
         <var>src_percent</var>[x<var>dst_percent</var>]
-    <br/>Equivalent to "<code>composite</code>" <a href="/script/command-line-options.php/#dissolve">-dissolve</a>
+    <br/>Equivalent to "<samp>$ composite</samp>" <a href="/script/command-line-options.php/#dissolve">-dissolve</a>
     <br/>Dissolve the 'source' image by the percentage given before overlaying
         'over' the 'destination' image. If <var>src_percent</var> is
         greater than 100, it starts dissolving the main image so it will
@@ -448,7 +448,7 @@ with a brief summary of what they do. For more details see the equivalent
     <td>blend</td>
     <td>Arguments:
         <var>src_percent</var>[x<var>dst_percent</var>]
-    <br/>Equivalent to "<code>composite</code>" <a
+    <br/>Equivalent to "<samp>$ composite</samp>" <a
         href="/script/command-line-options.php/#blend">-blend</a>
     <br/>Average the images together ('plus') according to the percentages
         given and each pixels transparency.  If only a single percentage value
@@ -463,7 +463,7 @@ with a brief summary of what they do. For more details see the equivalent
   <tr>
     <td>mathematics</td>
     <td>Arguments: <var>A, B, C, D</var>
-    <br/>Not available in "<code>composite</code>" at this time.
+    <br/>Not available in "<samp>$ composite</samp>" at this time.
     <br/>Merge the source and destination images according to the formula
     <br/>     <code>A*Sc*Dc + B*Sc + C*Dc + D</code>
     <br/>Can be used to generate a custom composition method that would
@@ -481,7 +481,7 @@ with a brief summary of what they do. For more details see the equivalent
     <td>modulate</td>
     <td>Arguments:
         <var>brightness</var>[x<var>saturation</var>]
-    <br/>Equivalent to "<code>composite</code>" <a href="/script/command-line-options.php/#watermark">-watermark</a>
+    <br/>Equivalent to "<samp>$ composite</samp>" <a href="/script/command-line-options.php/#watermark">-watermark</a>
     <br/>Take a grayscale image (with alpha mask) and modify the destination
         image's brightness according to watermark image's grayscale value and
         the <var>brightness</var> percentage.  The destinations
@@ -495,7 +495,7 @@ with a brief summary of what they do. For more details see the equivalent
     <td>displace</td>
     <td>Arguments:
         <var>X-scale</var>[x<var>Y-scale</var>][!][%]
-    <br/>Equivalent to "<code>composite</code>" <a href="/script/command-line-options.php/#displace">-displace</a>
+    <br/>Equivalent to "<samp>$ composite</samp>" <a href="/script/command-line-options.php/#displace">-displace</a>
     <br/>With this option, the 'overlay' image, and optionally the 'mask'
         image, is used as a relative displacement map, which is used to
         displace the lookup of what part of the destination image is seen at
@@ -524,7 +524,7 @@ with a brief summary of what they do. For more details see the equivalent
     <td>distort</td>
     <td>Arguments:
         <var>X-scale</var>[x<var>Y-scale</var>[+<var>X-center</var>+<var>Y-center</var>]][!][%]
-    <br/>Not available in "<code>composite</code>" at this time.
+    <br/>Not available in "<samp>$ composite</samp>" at this time.
     <br/>Exactly as per 'Displace' (above), but using absolute coordinates,
         relative to the center of the overlay (or that given).  Basically
         allows you to generate absolute distortion maps where 'black' will
@@ -544,7 +544,7 @@ with a brief summary of what they do. For more details see the equivalent
     <td>blur</td>
     <td>Arguments:
         <var>Width</var>[x<var>Height</var>[+<var>Angle</var>][+<var>Angle2</var>]]
-    <br/>Equivalent to "<code>composite</code>" <a href="/script/command-line-options.php/#blur-composite">-blur</a>
+    <br/>Equivalent to "<samp>$ composite</samp>" <a href="/script/command-line-options.php/#blur-composite">-blur</a>
     <br/>A Variable Blur Mapping Composition method, where each pixel in the
         overlaid region is replaced with an Elliptical Weighted Average (EWA),
         with an ellipse (typically a circle) of the given sigma size, scaled

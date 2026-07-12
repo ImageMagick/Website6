@@ -913,7 +913,7 @@ the supported image formats.</p>
     <td>POCKETMOD</td>
     <td>RW</td>
     <td>Pocketmod personal organizer format</td>
-    <td>Example usage: <code>convert -density 300 pages?.pdf pocketmod:organize.pdf</code> </td>
+    <td>Example usage: <samp>$ convert -density 300 pages?.pdf pocketmod:organize.pdf</samp> </td>
   </tr>
 
   <tr>
@@ -1366,7 +1366,7 @@ the supported image formats.</p>
     <td>INLINE</td>
     <td>RW</td>
     <td>Base64-encoded inline image</td>
-    <td>The inline image look similar to <code>inline:data:;base64,/9j/4AAQSk...knrn//2Q==</code>.  If the inline image exceeds 5000 characters, reference it from a file (e.g. <code>inline:inline.txt</code>). You can also write a base64-encoded image.  Embed the mime type in the filename, for example, <code>convert myimage inline:jpeg:myimage.txt</code>.</td>
+    <td>The inline image look similar to <code>inline:data:;base64,/9j/4AAQSk...knrn//2Q==</code>.  If the inline image exceeds 5000 characters, reference it from a file (e.g. <code>inline:inline.txt</code>). You can also write a base64-encoded image.  Embed the mime type in the filename, for example, <samp>$ convert myimage inline:jpeg:myimage.txt</samp>.</td>
   </tr>
 
   <tr>
@@ -1526,7 +1526,7 @@ the supported image formats.</p>
 <br/>
 <h2><a class="anchor" id="builtin-images"></a>Built-in Images</h2>
 
-<p>ImageMagick includes a number of built-in (embedded) images which may be referenced as if they were an image file. The <code>convert:</code> format tag may be used via the syntax <code>magick:</code><var>name</var> to request an embedded image (e.g. <code>magick:logo</code>). For backwards compatibility, the image specifications <code>GRANITE:</code>, <code>LOGO:</code>, <code>NETSCAPE:</code>, and <code>ROSE:</code> may also be used to request images with those names.</p>
+<p>ImageMagick includes a number of built-in (embedded) images which may be referenced as if they were an image file. The <samp>$ convert:</code> format tag may be used via the syntax <code>magick:</code><var>name</var> to request an embedded image (e.g. <code>magick:logo</code>). For backwards compatibility, the image specifications <code>GRANITE:</code>, <code>LOGO:</code>, <code>NETSCAPE:</code>, and <code>ROSE:</samp> may also be used to request images with those names.</p>
 
 <div class="overflow-auto" style="max-height:75svh;">
 <table class="table table-sm table-hover table-striped table-responsive">

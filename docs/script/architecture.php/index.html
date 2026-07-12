@@ -238,7 +238,7 @@ Resource limits:
   Thread: 12
   Throttle: 0
   Time: unlimited
-</sampl></pre>
+</samp></pre>
 
 <p>You can set these limits either as a <a href="/script/security-policy.php/">security policy</a> (see <a href="/source/policy-open.xml">policy.xml</a>), with an <a href="/script/resources.php/#environment">environment variable</a>, with the <a href="/script/command-line-options.php/#limit">-limit</a> command line option, or with the <a href="/api/resource.php/#SetMagickResourceLimit">SetMagickResourceLimit()</a> MagickCore API method. As an example, our online web interface to ImageMagick, <a href="https://magickstudio.imagemagick.org/">MagickStudio</a>, includes these policy limits to help prevent a denial-of-service:</p>
 <pre class="bg-light text-dark mx-4"><code>&lt;?xml version="1.0" encoding="UTF-8"?>
@@ -434,7 +434,7 @@ if (y &lt; (ssize_t) source-&gt;rows)
 
 <p>If you are dealing with large images, make sure the pixel cache is written to a disk area with plenty of free space.  Under Linux, this is typically <code>/tmp</code> and for Windows, <code>c:/temp</code>.  You can tell ImageMagick to write the pixel cache to an alternate location and conserve memory with these options:</p>
 
-<pre class="bg-light text-dark mx-4"><samp>$ $ convert -limit memory 2GB -limit map 4GB -define registry:temporary-path=/data/tmp ...
+<pre class="bg-light text-dark mx-4"><samp>$ convert -limit memory 2GB -limit map 4GB -define registry:temporary-path=/data/tmp ...
 </samp></pre>
 
 <p>Set global resource limits for your environment in the <code>policy.xml</code> configuration file.</p>
@@ -520,27 +520,27 @@ if (profile != (StringInfo *) NULL)
 </samp></pre>
 
 <p>For large images, memory resources will likely be exhausted and ImageMagick will instead create a pixel cache on disk.  If your default temporary disk partition is too small, tell ImageMagick to use another partition with plenty of free space.  For example:</p>
-<pre class="bg-light text-dark mx-4"><samp> $convert -define registry:temporary-path=/data/tmp logo:  \ <br/>     -resize 250000x250000 logo.miff
+<pre class="bg-light text-dark mx-4"><samp>$ convert -define registry:temporary-path=/data/tmp logo:  \ <br/>     -resize 250000x250000 logo.miff
 </samp></pre>
 
 <p>To ensure large images do not consume all the memory on your system, force the image pixels to memory-mapped disk with resource limits:</p>
-<pre class="bg-light text-dark mx-4"><samp> $convert -define registry:temporary-path=/data/tmp -limit memory 16mb \
+<pre class="bg-light text-dark mx-4"><samp>$ convert -define registry:temporary-path=/data/tmp -limit memory 16mb \
   logo: -resize 250000x250000 logo.miff
 </samp></pre>
 
 <p>Here we force all image pixels to disk:</p>
-<pre class="bg-light text-dark mx-4"><samp> $convert -define registry:temporary-path=/data/tmp -limit area 0 \
+<pre class="bg-light text-dark mx-4"><samp>$ convert -define registry:temporary-path=/data/tmp -limit area 0 \
   logo: -resize 250000x250000 logo.miff
 </samp></pre>
 
 <p>Caching pixels to disk is about 1000 times slower than memory.  Expect long run times when processing large images on disk with ImageMagick.  You can monitor progress with this command:</p>
 
-<pre class="bg-light text-dark mx-4"><samp> $convert -monitor -limit memory 2GiB -limit map 4GiB -define registry:temporary-path=/data/tmp \
+<pre class="bg-light text-dark mx-4"><samp>$ convert -monitor -limit memory 2GiB -limit map 4GiB -define registry:temporary-path=/data/tmp \
   logo: -resize 250000x250000 logo.miff
 </samp></pre>
 
 <p>For really large images, or if there is limited resources on your host, you can utilize a distributed pixel cache on one or more remote hosts:</p>
-<pre class="bg-light text-dark mx-4"><samp> $convert -distribute-cache 6668 &amp;  // start on 192.168.100.50
+<pre class="bg-light text-dark mx-4"><samp>$ convert -distribute-cache 6668 &amp;  // start on 192.168.100.50
 convert -distribute-cache 6668 &amp;  // start on 192.168.100.51
 convert -limit memory 2mb -limit map 2mb -limit disk 2gb \
   -define registry:cache:hosts=192.168.100.50:6668,192.168.100.51:6668 \
@@ -701,10 +701,10 @@ Performance[12]: 10i 4.525ips 0.799e 18.320u 0:02.210
 <p>First verify that your version of ImageMagick includes support for the OpenCL feature:</p>
 <pre class="bg-light text-dark mx-4"><code>-> identify -version
 Features: DPC Cipher Modules OpenCL OpenMP(4.5)
-</sampl></pre>
+</samp></pre>
 
 <p>If so, run this command to realize a significant speed-up for image convolution:</p>
-<pre class="bg-light text-dark mx-4"><samp> $convert image.png -convolve '-1, -1, -1, -1, 9, -1, -1, -1, -1' convolve.png
+<pre class="bg-light text-dark mx-4"><samp>$ convert image.png -convolve '-1, -1, -1, -1, 9, -1, -1, -1, -1' convolve.png
 </samp></pre>
 
 <p>If an accelerator is not available or if the accelerator fails to respond, ImageMagick reverts to the non-accelerated convolution algorithm.</p>
@@ -1180,7 +1180,7 @@ static MagickBooleanType WriteMGKImage(const ImageInfo *image_info,Image *image)
 }</code></pre>
 
 <p>To invoke the custom coder from the command line, use these commands:</p>
-<pre class="bg-light text-dark mx-4"><samp> $convert logo: logo.mgk
+<pre class="bg-light text-dark mx-4"><samp>$ convert logo: logo.mgk
 display logo.mgk
 </samp></pre>
 
@@ -1444,7 +1444,7 @@ ModuleExport size_t analyzeImage(Image **images,const int argc,
 </code></pre>
 
 <p>To invoke the custom filter from the command line, use this command:</p>
-<pre class="bg-light text-dark mx-4"><samp> $convert logo: -process \"analyze\" -verbose info:
+<pre class="bg-light text-dark mx-4"><samp>$ convert logo: -process \"analyze\" -verbose info:
 Image: logo:
   Format: LOGO (ImageMagick Logo)
   Class: PseudoClass
