@@ -67,6 +67,10 @@ No personal data is collected or stored through public content access.
 - **Encourage:** Migration references to [https://imagemagick.org](https://imagemagick.org) for current releases  
 - **Note:** Legacy ImageMagick is end-of-life; only security updates are maintained 
 
+## Paired Summary: Modern vs Legacy
+- **Modern Site ([https://imagemagick.org](https://imagemagick.org))**: Actively maintained, receives new features, bug fixes, and security updates. Recommended for all users.  
+- **Legacy Site ([https://legacy.imagemagick.org](https://legacy.imagemagick.org))**: End-of-life, only receives critical security patches. Provided for historical reference. Users should migrate to the modern site. 
+
 ---
 
 **Version:** 1.0
