@@ -22,6 +22,15 @@
     html {
       scroll-padding-top: 110px;
     }
+
+    iframe {
+      width: 100% !important;
+      max-width: 100% !important;
+      height: 400px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+
     a.nav-link:hover,
     a.dropdown-item:hover {
       color: #ffc107 !important;
@@ -208,16 +217,16 @@
   </header>
 
   <main role="main" class="container">
-    <div class="row g-5">
-      <div class="col-md-9">
+    <div class="row g-4">
+      <div class="col-lg-9 col-12">
 {{ content }}
       </div>
-      <div class="col-md-3">
+      <div class="col-lg-3 col-12 ps-lg-4 border-start">
         <div class="container text-center my-3">
           <a href="/image/wizard.png" rel="noopener noreferrer" target="_blank">
             <img alt="ImageMagick Wizard" class="img-fluid img-thumbnail" height="351" loading="lazy" src="/image/wizard.jpg" width="264">
           </a>
-          <p class="mt-2"><iframe src="https://github.com/sponsors/ImageMagick/button" title="Sponsor ImageMagick" height="35" width="107" style="border: 0;"></iframe></p>
+          <p class="mt-2"><iframe src="https://github.com/sponsors/ImageMagick/button" title="Sponsor ImageMagick" height="35" width="107" style="border:0 !important; width:107px !important; height:35px !important;"></iframe></p>
         </div>
         <div class="container text-center my-3">
           <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3129977114552745"
