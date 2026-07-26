@@ -5,6 +5,72 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.13-53](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-52...6.9.13-53) - 2026-07-26
+
+### Merged
+
+- build(deps): bump actions/checkout from 7.0.0 to 7.0.1 [`#451`](https://github.com/ImageMagick/ImageMagick6/pull/451)
+- build(deps): bump actions/attest from 4.1.1 to 4.2.0 [`#448`](https://github.com/ImageMagick/ImageMagick6/pull/448)
+- build(deps): bump github/codeql-action/analyze from 4.37.0 to 4.37.1 [`#450`](https://github.com/ImageMagick/ImageMagick6/pull/450)
+- build(deps): bump github/codeql-action/init from 4.37.0 to 4.37.1 [`#449`](https://github.com/ImageMagick/ImageMagick6/pull/449)
+- build(deps): bump github/codeql-action/analyze from 4.36.3 to 4.37.0 [`#445`](https://github.com/ImageMagick/ImageMagick6/pull/445)
+- build(deps): bump github/codeql-action/init from 4.36.3 to 4.37.0 [`#444`](https://github.com/ImageMagick/ImageMagick6/pull/444)
+- build(deps): bump github/codeql-action/analyze from 4.36.2 to 4.36.3 [`#442`](https://github.com/ImageMagick/ImageMagick6/pull/442)
+- build(deps): bump github/codeql-action/init from 4.36.2 to 4.36.3 [`#443`](https://github.com/ImageMagick/ImageMagick6/pull/443)
+
+### Commits
+
+- beta release [`943bdcb`](https://github.com/ImageMagick/ImageMagick6/commit/943bdcb7a538c8467be40b9f844f3366c401e9d9)
+- normalize AE metric [`21bd3d7`](https://github.com/ImageMagick/ImageMagick6/commit/21bd3d7bd8f454b7434cdd61bd198e54346c2648)
+- improve formatting [`618589f`](https://github.com/ImageMagick/ImageMagick6/commit/618589ff4b6472cedd90325bd6cec82c4c27f58d)
+- time-of-check to time-of-use check [`49a9144`](https://github.com/ImageMagick/ImageMagick6/commit/49a9144e2c30c33caf34b5c732c786036ec97868)
+- relinquish memory in the splay-tree [`e98bfd7`](https://github.com/ImageMagick/ImageMagick6/commit/e98bfd7b07f99f4ecb46debcd735f0f2e0acda5c)
+- normalize AE metric [`26e2bb6`](https://github.com/ImageMagick/ImageMagick6/commit/26e2bb67510dd58ea7cbd1ce95d61575aa9dbb25)
+- if path attributes fail relinquish memory [`dce4209`](https://github.com/ImageMagick/ImageMagick6/commit/dce42092f408bf481b456bf60b4337c2689ca45d)
+- ensure file resource identify is valid [`8cf11cc`](https://github.com/ImageMagick/ImageMagick6/commit/8cf11cc9108745066df62bbc6b8f2e2a181b0903)
+- include resource-private.h [`ff16bfc`](https://github.com/ImageMagick/ImageMagick6/commit/ff16bfc7498727e0f4f6e4668b533310868e2848)
+- https://github.com/ImageMagick/ImageMagick6/issues/437 [`23e702e`](https://github.com/ImageMagick/ImageMagick6/commit/23e702eb584d8371f5aaefbb3e73f6f8e9fd83e8)
+- Added patches for https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-82mp-vp5c-9pf7. [`f48a0e2`](https://github.com/ImageMagick/ImageMagick6/commit/f48a0e2bad74c4cd42624e95205c3befd64062d8)
+- revert similarity image patch [`303c243`](https://github.com/ImageMagick/ImageMagick6/commit/303c2434e2ee19f23572a32a7160c1120d5f66ee)
+- if compare:virtual-pixels is present and false then min bounds [`572fbb6`](https://github.com/ImageMagick/ImageMagick6/commit/572fbb651a49849d33fa381b4ae5f45feef953bd)
+- include file mode when validating file identity [`0844480`](https://github.com/ImageMagick/ImageMagick6/commit/08444809afc24deb10e9580d5db493b64179ceb4)
+- eliminate compiler exception [`664cfbd`](https://github.com/ImageMagick/ImageMagick6/commit/664cfbd103562c9924ac5723911b90a3459ffe9c)
+- define POSIX file type and permission macros [`eebd65e`](https://github.com/ImageMagick/ImageMagick6/commit/eebd65ecbfbaf46a1525d0aa9ca6d94737de42ae)
+- localize defines [`a2aa7c4`](https://github.com/ImageMagick/ImageMagick6/commit/a2aa7c4b91b5b9c445b401a5e5b5abcfc12d2e5b)
+- define S_IWUSR [`a8dedf8`](https://github.com/ImageMagick/ImageMagick6/commit/a8dedf8efc94a7d89c277b19c895e25f6914c451)
+- Check for the correct number of colors in the IsPaletteImage check. [`9c98b51`](https://github.com/ImageMagick/ImageMagick6/commit/9c98b5107ceda46a0e2173897f9d929c8ae3ceb6)
+- latest ImageMagick documentation [`0da8493`](https://github.com/ImageMagick/ImageMagick6/commit/0da84933f82c265be1d2d94276d8225d685ba835)
+- https://github.com/ImageMagick/ImageMagick/pull/8860 [`dc2f315`](https://github.com/ImageMagick/ImageMagick6/commit/dc2f31539524363b2f49cb95264ddee3994b6f1c)
+- Restored icon. [`96a36e8`](https://github.com/ImageMagick/ImageMagick6/commit/96a36e8ea116373067f1dd557044455e16e1084a)
+- Updated configure. [`5dc06aa`](https://github.com/ImageMagick/ImageMagick6/commit/5dc06aa231f0eb1fce33e67027ad62a489982d6b)
+- Updated configure. [`fa84ad0`](https://github.com/ImageMagick/ImageMagick6/commit/fa84ad07e1666a7e1c7b6f776f67a2ecc706c05a)
+- Correct archive name and use max compression for all archives. [`26f6277`](https://github.com/ImageMagick/ImageMagick6/commit/26f6277cb98803f03456c07818e2e2eef077750b)
+- guarantee round-trip fidelity for IEEE‑754 doubles without printing spurious digits [`efbd5cb`](https://github.com/ImageMagick/ImageMagick6/commit/efbd5cb55e99178cc7173ecb7848f33e2f62a5d1)
+- no longer inline the method to reduce the local stack size. [`be19a7b`](https://github.com/ImageMagick/ImageMagick6/commit/be19a7b0d330754e4c2b58811a5e200cc4c44ae3)
+- introduce image:frames define [`9472a78`](https://github.com/ImageMagick/ImageMagick6/commit/9472a784b8967db92a0ef4be449592fd4366c67e)
+- eliminate compiler warning [`5ff638c`](https://github.com/ImageMagick/ImageMagick6/commit/5ff638c4c3099c9805473b8160f10b15b56cf9ab)
+- FILE_READ_ATTRIBUTES is preferred over GENERIC_READ [`ba0319e`](https://github.com/ImageMagick/ImageMagick6/commit/ba0319e3d5524905ca5ff8b7ee3cb066bd127800)
+- prefer https [`73a251a`](https://github.com/ImageMagick/ImageMagick6/commit/73a251a49731bcdc7b2b2d3f0dd48a9c7ce059c3)
+- Updated the dependencies. [`0c07ae3`](https://github.com/ImageMagick/ImageMagick6/commit/0c07ae376e1773c3af31006b496aca4a132bbf12)
+- safe read/write [`7eb6ff3`](https://github.com/ImageMagick/ImageMagick6/commit/7eb6ff3a86b95dc51cd0c8e5ee9ef782fcaa9f47)
+- use 1mb chunks [`1a91111`](https://github.com/ImageMagick/ImageMagick6/commit/1a91111deccc68e29ade7c6be2c5d34a309d0041)
+- use parens in macro [`a926969`](https://github.com/ImageMagick/ImageMagick6/commit/a926969a6186e9b61ab324a01ca3b0a2b1093d48)
+- eliminate compile warning [`22e2bd3`](https://github.com/ImageMagick/ImageMagick6/commit/22e2bd3fc29d01598e0f7d22929d2e97983e568e)
+- https://github.com/ImageMagick/ImageMagick/issues/8436 [`1884fe4`](https://github.com/ImageMagick/ImageMagick6/commit/1884fe457c89bf0277c037114929866e30e3d091)
+- avoid division by 0 [`4b00090`](https://github.com/ImageMagick/ImageMagick6/commit/4b00090a08b77e1c040f5bf730172a924be3912e)
+- cosmetic [`d39b6b3`](https://github.com/ImageMagick/ImageMagick6/commit/d39b6b3fdd38553dd7087edf89ee5123b54578c8)
+- revert [`d5e1707`](https://github.com/ImageMagick/ImageMagick6/commit/d5e17073129a212d746129fa7bff7c314c1f3214)
+- permit floating point work factor [`58b276f`](https://github.com/ImageMagick/ImageMagick6/commit/58b276fceb46c3b594d95f1e9d793997ac2c541c)
+- fix PDC metric [`fd3cb13`](https://github.com/ImageMagick/ImageMagick6/commit/fd3cb131b83985d04282bee44ef405d30ac678e9)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-6rvv-36hw-5rgf [`6729ffd`](https://github.com/ImageMagick/ImageMagick6/commit/6729ffd68494337c537f6a7e63922ed0a7f59b58)
+- winsock define [`fb06ceb`](https://github.com/ImageMagick/ImageMagick6/commit/fb06cebbf1eed1be46be1dcaa9ef602b905af425)
+- set socket timeout [`9ba1c3c`](https://github.com/ImageMagick/ImageMagick6/commit/9ba1c3c2c95ac1ea038b6c8f2f4880473f336102)
+- Group codeql-action in dependabot. [`9681ae3`](https://github.com/ImageMagick/ImageMagick6/commit/9681ae332edfb9a645583ab872374967ef9f7c3b)
+- https://github.com/ImageMagick/ImageMagick/pull/8884 [`c54d5b2`](https://github.com/ImageMagick/ImageMagick6/commit/c54d5b21c5925ac0d9ac6bc6cc57d0b0690de353)
+- normalize PDC metric [`67cf680`](https://github.com/ImageMagick/ImageMagick6/commit/67cf6803df25c0d6bc03cfcf5aef1c520308bba8)
+- Updated the dependencies. [`e3a875e`](https://github.com/ImageMagick/ImageMagick6/commit/e3a875e8b8db5c71a65ad8cda6539697e823f83f)
+- release [`d29cd35`](https://github.com/ImageMagick/ImageMagick6/commit/d29cd357bf448ed61f1d0d298ba69f3922bb0144)
+
 ## [6.9.13-52](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-51...6.9.13-52) - 2026-07-05
 
 ### Merged
