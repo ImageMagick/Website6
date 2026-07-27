@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.13-54](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-53...6.9.13-54) - 2026-07-27
+
+### Commits
+
+- beta release [`d01e277`](https://github.com/ImageMagick/ImageMagick6/commit/d01e277161439cccf1a5af05930002f2521ce7f7)
+- Updated the dependencies. [`45ed310`](https://github.com/ImageMagick/ImageMagick6/commit/45ed310af22f605b20f17f746d6dd2339a97bf78)
+- Removed checks for values from tif_config.h that are not included, libtiff will report errors itself now. [`560f917`](https://github.com/ImageMagick/ImageMagick6/commit/560f9178ce59c8077ad0239e2eca643a8527fdc2)
+- Added missing typecast. [`4f9d300`](https://github.com/ImageMagick/ImageMagick6/commit/4f9d300cc2ac0415ae60e3d10e374cf5a96e6a21)
+- release [`be4df27`](https://github.com/ImageMagick/ImageMagick6/commit/be4df273c3b828a4566717817ff49490929a11d8)
+
 ## [6.9.13-53](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-52...6.9.13-53) - 2026-07-26
 
 ### Merged
