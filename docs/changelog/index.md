@@ -5,6 +5,65 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.13-55](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-54...6.9.13-55) - 2026-08-23
+
+### Merged
+
+- build(deps): bump the codeql-action group with 2 updates [`#461`](https://github.com/ImageMagick/ImageMagick6/pull/461)
+- build(deps): bump the codeql-action group with 2 updates [`#459`](https://github.com/ImageMagick/ImageMagick6/pull/459)
+- build(deps): bump the codeql-action group with 2 updates [`#457`](https://github.com/ImageMagick/ImageMagick6/pull/457)
+- build(deps): bump actions/attest from 4.2.1 to 4.2.2 [`#458`](https://github.com/ImageMagick/ImageMagick6/pull/458)
+- build(deps): bump the codeql-action group with 2 updates [`#456`](https://github.com/ImageMagick/ImageMagick6/pull/456)
+- build(deps): bump actions/attest from 4.2.0 to 4.2.1 [`#454`](https://github.com/ImageMagick/ImageMagick6/pull/454)
+- build(deps): bump the codeql-action group across 1 directory with 2 updates [`#452`](https://github.com/ImageMagick/ImageMagick6/pull/452)
+
+### Commits
+
+- beta release [`07795d7`](https://github.com/ImageMagick/ImageMagick6/commit/07795d7d83f4e68755c8a1fe0dfa51bfb9cd879d)
+- Patches for https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-99w9-hv66-rfv7. [`e7c22e0`](https://github.com/ImageMagick/ImageMagick6/commit/e7c22e0f547035d5d8890afcacf82f6a553005a8)
+- https://github.com/ImageMagick/ImageMagick/issues/8893 [`7aa6970`](https://github.com/ImageMagick/ImageMagick6/commit/7aa6970fedc1ef4dd187c54f41a73771652698f9)
+- eliminate compiler exception [`1334159`](https://github.com/ImageMagick/ImageMagick6/commit/13341599944b3867458bae38a76105c9cf4b0c4f)
+- check for supported inline image formats [`999a695`](https://github.com/ImageMagick/ImageMagick6/commit/999a6953bd802e709185f8f6e9793aabae9ee8da)
+- revert [`8f61c41`](https://github.com/ImageMagick/ImageMagick6/commit/8f61c41eecff0b3151dc18836e612e16c3f3f932)
+- fix exception tag [`d755a06`](https://github.com/ImageMagick/ImageMagick6/commit/d755a06586776780ff9e3c992164db97dca20d31)
+- revert [`f6a2af9`](https://github.com/ImageMagick/ImageMagick6/commit/f6a2af9b8f2ac1dbc13b27a2167a5a8b9b5eb185)
+- correct exception tag [`f68fa10`](https://github.com/ImageMagick/ImageMagick6/commit/f68fa1024c48a16010b4dd80f4c8b47d3a1a2a99)
+- deny inline implicit image formats [`d530947`](https://github.com/ImageMagick/ImageMagick6/commit/d5309478f8c189e94f19f75a43d04b97e6b16456)
+- eliminate compiler exception [`e160e83`](https://github.com/ImageMagick/ImageMagick6/commit/e160e83fbbad8b8ccd2197c61e0116d5d7f02e87)
+- revert [`14e72e5`](https://github.com/ImageMagick/ImageMagick6/commit/14e72e538fede78837b2c45e5eaeac546f99c7bc)
+- refactor [`3d4f664`](https://github.com/ImageMagick/ImageMagick6/commit/3d4f66491b943d62885160cb426eefa41eb9e895)
+- flip conditional [`45fbed7`](https://github.com/ImageMagick/ImageMagick6/commit/45fbed728a34f26b7f09346dae95615e5962de84)
+- refactor [`2b6bda4`](https://github.com/ImageMagick/ImageMagick6/commit/2b6bda4c84fb30e53931b3709831da3b88b60d5e)
+- get properties that might exceed 4096 characters [`4116a0b`](https://github.com/ImageMagick/ImageMagick6/commit/4116a0b3df57008831ebe1c128a6be4251658283)
+- initialize buffer to null [`4a52f91`](https://github.com/ImageMagick/ImageMagick6/commit/4a52f91f056f5acabad1069520f645a7bdc5e06b)
+- revert [`b70bcb2`](https://github.com/ImageMagick/ImageMagick6/commit/b70bcb29a9dd78dc90a7e62ec34859d8619f58af)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-wxw6-98rj-hjfr [`0ca5802`](https://github.com/ImageMagick/ImageMagick6/commit/0ca580238abba18910cfee0fcc3159621fec0dee)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-chf5-8rv9-gjqr [`e006a69`](https://github.com/ImageMagick/ImageMagick6/commit/e006a69e03f3aff34e9a7af90a0793ec6d879b48)
+- Apply the fix for GHSA-7rgw-xg25-prjm. [`91cac2d`](https://github.com/ImageMagick/ImageMagick6/commit/91cac2dedb53f993ba8d9f04c072e9711c9f15b4)
+- Updated configure. [`cf210ba`](https://github.com/ImageMagick/ImageMagick6/commit/cf210bab85210805fa7d5dc5537e6e5e4bcc4b98)
+- latest autoconf/automake update [`3605af6`](https://github.com/ImageMagick/ImageMagick6/commit/3605af6c3de68572a7989adc5d311864f604f4bb)
+- https://github.com/ImageMagick/ImageMagick/issues/8890 [`3f345bf`](https://github.com/ImageMagick/ImageMagick6/commit/3f345bfc902bae2ce691278342dd0415e564e6dc)
+- Updated the dependencies. [`a08f960`](https://github.com/ImageMagick/ImageMagick6/commit/a08f960794a06fad1813a73703a9701748f98cdb)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-9x6f-98x9-rx6g [`0b47fb7`](https://github.com/ImageMagick/ImageMagick6/commit/0b47fb7e3d5650b2be88fd3a8c15096765970ce3)
+- rename() does not work across partitions [`71065f9`](https://github.com/ImageMagick/ImageMagick6/commit/71065f981df17cdc1f07a6e01c21c87985809cec)
+- explicitly checks for read() and write() errors [`d3c9b60`](https://github.com/ImageMagick/ImageMagick6/commit/d3c9b606e9f49d7104ada9cfb77e918db49051de)
+- earlier check for authorized path [`792bbae`](https://github.com/ImageMagick/ImageMagick6/commit/792bbaeb75bb114127fa47b1475c471d52b7f186)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-5m9j-96ff-j6qc [`ed44f0b`](https://github.com/ImageMagick/ImageMagick6/commit/ed44f0ba6e2ab57983a6d030c868d009514dc470)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-3j4w-pvxj-fpjc [`7d8e0eb`](https://github.com/ImageMagick/ImageMagick6/commit/7d8e0eb11804a5ce5322ea317dfd3557cded4e7b)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-x8g2-7r3w-h44p [`aa1b34e`](https://github.com/ImageMagick/ImageMagick6/commit/aa1b34e9941df71a2a722508e060a3d7dd675493)
+- Updated the dependencies. [`1447299`](https://github.com/ImageMagick/ImageMagick6/commit/144729997de631fbec18357d432704ade37989cf)
+- Correct the media type of the image that is added to the wand. [`a9ba81c`](https://github.com/ImageMagick/ImageMagick6/commit/a9ba81ca038bba84e1bc71c7fe08912be2aadeb4)
+- Fixed double free in non cairo builds (https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-f2r2-qw7g-3c8x) [`04a4c5b`](https://github.com/ImageMagick/ImageMagick6/commit/04a4c5b89c034cf2c93bb0a10044332d941b4fa5)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-4mwf-mggw-29vp [`29f17f3`](https://github.com/ImageMagick/ImageMagick6/commit/29f17f3fe5008fc56f00c1fbc96adf46169db245)
+- Don't throw a fatal exception when hitting a recursion depth (https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-27m9-54jx-fgvq). [`6ba345f`](https://github.com/ImageMagick/ImageMagick6/commit/6ba345f88a14fcce35c723c231914ae054c4281a)
+- Use AcquireCriticalMemory instead. [`8df34a5`](https://github.com/ImageMagick/ImageMagick6/commit/8df34a5f5ca066a9c2e63c244a0ffe88c4f4053c)
+- Report errors or return null instead of exiting the process. [`b1af646`](https://github.com/ImageMagick/ImageMagick6/commit/b1af646261d214d0f53e615ab50ce71cc1738281)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-4jv7-q6xw-6f4x [`d56cab9`](https://github.com/ImageMagick/ImageMagick6/commit/d56cab9f2253373e57c2e77809ab12abbbbdd680)
+- https://github.com/ImageMagick/ImageMagick/issues/8918 [`80b90fe`](https://github.com/ImageMagick/ImageMagick6/commit/80b90fe8de777943ee4e401df364053dc7a83e86)
+- use omp_set_max_active_levels on MSYS2 build instead [`58953b5`](https://github.com/ImageMagick/ImageMagick6/commit/58953b59e82f726acb8f6a0961df304ea0de258e)
+- latest autoconf/automake updates [`44c58ac`](https://github.com/ImageMagick/ImageMagick6/commit/44c58acad71ea705703baf82744edd73e561b807)
+- release [`96c8a2e`](https://github.com/ImageMagick/ImageMagick6/commit/96c8a2e0f7d85639d7232bf02632b2edca707df1)
+
 ## [6.9.13-54](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-53...6.9.13-54) - 2026-07-27
 
 ### Commits
