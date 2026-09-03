@@ -5,6 +5,45 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.13-56](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-55...6.9.13-56) - 2026-09-03
+
+### Merged
+
+- build(deps): bump the codeql-action group with 2 updates [`#466`](https://github.com/ImageMagick/ImageMagick6/pull/466)
+- build(deps): bump the codeql-action group with 2 updates [`#463`](https://github.com/ImageMagick/ImageMagick6/pull/463)
+
+### Commits
+
+- beta release [`70f9956`](https://github.com/ImageMagick/ImageMagick6/commit/70f9956d66b9fbacd3495a351ba67b987e7e5f1f)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-4gg2-hfgh-6f5c [`1e91833`](https://github.com/ImageMagick/ImageMagick6/commit/1e91833e30a88c104276dcfbc01bb68ac4528514)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-r868-pmwh-fv2c [`ad178e4`](https://github.com/ImageMagick/ImageMagick6/commit/ad178e41fce2afa6be2b91fb4e7f41c4c5448117)
+- eliminate compiler exception [`9625680`](https://github.com/ImageMagick/ImageMagick6/commit/9625680bf37338a2bc9c0614eadecbd8351241f2)
+- Fixed the policy check for coders (https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-vcjj-32hg-qpx5) [`ac85c8e`](https://github.com/ImageMagick/ImageMagick6/commit/ac85c8e0a319b1eaf4c3d05d326605f5bae723d6)
+- More fixes for https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-vcjj-32hg-qpx5. [`c54667b`](https://github.com/ImageMagick/ImageMagick6/commit/c54667bfe605ebdc17c23cb70a26dbe00b338222)
+- Corrected the call to CheckPrimitiveExtent to fix the use of uninitialized heap memory (https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-6xf5-c3jx-rp39) [`bfe0117`](https://github.com/ImageMagick/ImageMagick6/commit/bfe0117fd9742b3970383e000978d64e5e04372d)
+- Moved EscapeParenthesis to the ghostscript-private.h header file. [`65370ae`](https://github.com/ImageMagick/ImageMagick6/commit/65370ae883ab22a182588da685073ce6d347d195)
+- Escape the labels to prevent code injection (https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-5rg6-j44q-q892) [`8794897`](https://github.com/ImageMagick/ImageMagick6/commit/879489740daa44dd72e9405b26c845e8aa3d2f53)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-qr53-hc3p-fc62 [`49560a1`](https://github.com/ImageMagick/ImageMagick6/commit/49560a1641f72a127e413b9861eca0997fde2b96)
+- Added missing include. [`d1f0bf1`](https://github.com/ImageMagick/ImageMagick6/commit/d1f0bf164e3adbe78e9dce3d234cd14be455ed91)
+- Whitespace. [`480164f`](https://github.com/ImageMagick/ImageMagick6/commit/480164fba4d14f002fcd864f8b3a8b600124780f)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-89wq-f8f6-2j2v [`4332e26`](https://github.com/ImageMagick/ImageMagick6/commit/4332e26659c849bf126aecb215482de1eed73308)
+- Added missing null check to avoid a null pointer dereference (https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-92rw-c5mw-27v4) [`3b124bb`](https://github.com/ImageMagick/ImageMagick6/commit/3b124bb81d3c53ec7d2b46f5ea04c00c4b07b9b3)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-3rjr-534c-8v67 [`3e0ff6b`](https://github.com/ImageMagick/ImageMagick6/commit/3e0ff6b63c37844732a4f79700bc58ac5370fa25)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-3rjr-534c-8v67 [`742ee22`](https://github.com/ImageMagick/ImageMagick6/commit/742ee222f6df8e7512755a8939b16b90a034a9a7)
+- https://github.com/ImageMagick/ImageMagick/issues/8930 [`649b105`](https://github.com/ImageMagick/ImageMagick6/commit/649b1057bfc1b8bb172f49e21e797a9209dbf538)
+- https://github.com/ImageMagick/ImageMagick/issues/8930 [`4399be9`](https://github.com/ImageMagick/ImageMagick6/commit/4399be94d44be9931c7059ba2e38ed66b850a50f)
+- https://github.com/ImageMagick/ImageMagick/issues/8930 [`b1ef1bd`](https://github.com/ImageMagick/ImageMagick6/commit/b1ef1bd9cfbddd8b4a26dd3403a3d1f1452edc55)
+- only create symbolic link if input file exists [`37453bf`](https://github.com/ImageMagick/ImageMagick6/commit/37453bf331b852b167646cd25d53a6f300fc0d01)
+- More fixes for https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-89wq-f8f6-2j2v [`0d76834`](https://github.com/ImageMagick/ImageMagick6/commit/0d768346a13b63e4d791be4b798482abd1e050d5)
+- Updated the dependencies. [`70b1450`](https://github.com/ImageMagick/ImageMagick6/commit/70b14503761508857cc4ec08f58dc1ec6bcb2d56)
+- More fixes for https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-5rg6-j44q-q892. [`d5750d7`](https://github.com/ImageMagick/ImageMagick6/commit/d5750d7309ef5a8cd561430d932a183e4168f484)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-jvjm-9f73-fhpq [`91f4ed7`](https://github.com/ImageMagick/ImageMagick6/commit/91f4ed74a1fd8326ade11a1153de110f22d89aa1)
+- check &gt;= limit [`6776cbd`](https://github.com/ImageMagick/ImageMagick6/commit/6776cbdc6156e40a770e2522fbfd5b7f66451df6)
+- extra check not needed [`4f5e616`](https://github.com/ImageMagick/ImageMagick6/commit/4f5e61617c7d66f1a94baa73254384dd9827a248)
+- revert [`7a77ff9`](https://github.com/ImageMagick/ImageMagick6/commit/7a77ff973b3f55b10e609516df65dae1ddaf2cbc)
+- Trim labels to prevent code injection (https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-p6j5-2qwh-6486) [`350da10`](https://github.com/ImageMagick/ImageMagick6/commit/350da106fa180fcbc5704d5a89a47e9d0ec7470b)
+- release [`2f16e94`](https://github.com/ImageMagick/ImageMagick6/commit/2f16e94c5ecb1256496a20d1ecdcaf53aeb1a4ce)
+
 ## [6.9.13-55](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-54...6.9.13-55) - 2026-08-23
 
 ### Merged
