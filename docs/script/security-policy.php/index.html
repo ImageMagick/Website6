@@ -150,6 +150,8 @@ description: "Establish a security policy suitable for your local environment be
   &lt;policy domain="path" rights="none" pattern="*../*"/>
   &lt;!-- Indirect reading is not permitted. -->
   &lt;policy domain="path" rights="none" pattern="@*"/>
+  &lt;!-- Pipes are not permitted. -->
+  &lt;policy domain="path" rights="none" pattern="|*"/>
   &lt;!-- Deny all image modules and specifically exempt reading or writing
        web-safe image formats. -->
   &lt;policy domain="module" rights="none" pattern="*" />
