@@ -57,15 +57,20 @@ description: "Establish a security policy suitable for your local environment be
 <pre class="overflow-auto p-3 mb-2 text-body-secondary bg-body-tertiary cli text-dark mx-4"><code>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE policymap [
   &lt;!ELEMENT policymap (policy)*>
-  &lt;!ATTLIST policymap xmlns CDATA #FIXED "">
+  &lt;!ATTLIST policymap
+    xmlns CDATA #FIXED ""
+  >
+
   &lt;!ELEMENT policy EMPTY>
-  &lt;!ATTLIST policy xmlns CDATA #FIXED "">
-  &lt;!ATTLIST policy domain NMTOKEN #REQUIRED>
-  &lt;!ATTLIST policy name NMTOKEN #IMPLIED>
-  &lt;!ATTLIST policy pattern CDATA #IMPLIED>
-  &lt;!ATTLIST policy rights NMTOKEN #IMPLIED>
-  &lt;!ATTLIST policy stealth NMTOKEN #IMPLIED>
-  &lt;!ATTLIST policy value CDATA #IMPLIED>
+  &lt;!ATTLIST policy
+    xmlns   CDATA   #FIXED ""
+    domain  NMTOKEN #REQUIRED
+    name    NMTOKEN #IMPLIED
+    pattern CDATA   #IMPLIED
+    rights  NMTOKEN #IMPLIED
+    stealth NMTOKEN #IMPLIED
+    value   CDATA   #IMPLIED
+  >
 ]>
 
 &lt;!--
@@ -107,7 +112,7 @@ description: "Establish a security policy suitable for your local environment be
   &lt;!-- ============================================================= -->
 
   &lt;!-- Maximum number of worker threads. -->
-  &lt;policy domain="resource" name="thread" value="2"/>
+  &lt;policy domain="resource" name="thread" value="4"/>
 
   &lt;!-- Maximum processing time before an exception is thrown. -->
   &lt;policy domain="resource" name="time" value="60"/>
