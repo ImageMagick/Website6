@@ -6,6 +6,6 @@ defaults:
 
 magick:
   lib_version: "6.9.13"
-  version: "6.9.13-57"
-  release_date: "2026-09-27"
+  version: "6.9.13-58"
+  release_date: "2026-10-10"
 
