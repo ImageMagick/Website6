@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.9.13-59](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-58...6.9.13-59) - 2026-10-14
+
+### Commits
+
+- beta release [`f9e9aae`](https://github.com/ImageMagick/ImageMagick6/commit/f9e9aaed2d4b15ccbdc3d031f7956509b2d35cf2)
+- https://github.com/ImageMagick/ImageMagick/issues/9011 [`a44e36f`](https://github.com/ImageMagick/ImageMagick6/commit/a44e36fa1cf16e45e719300609556a04f03245d3)
+- https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-vmj6-qx38-9gf5 [`f811220`](https://github.com/ImageMagick/ImageMagick6/commit/f8112205a5f210c1115f1e83eb348215939d1903)
+- Updated dependencies. [`6bbcbb8`](https://github.com/ImageMagick/ImageMagick6/commit/6bbcbb8658c1e608f4232a8590747243e748795e)
+- release [`cc2f611`](https://github.com/ImageMagick/ImageMagick6/commit/cc2f611c8372568f3fc2c8deb5ed808075f20304)
+
 ## [6.9.13-58](https://github.com/ImageMagick/ImageMagick6/compare/6.9.13-57...6.9.13-58) - 2026-10-10
 
 ### Merged
