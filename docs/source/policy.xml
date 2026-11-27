@@ -187,7 +187,7 @@
     Review carefully before enabling.
   -->
   <!-- <policy domain="module" rights="write"
-             pattern="{MSL,MVG,PDF,PS,SVG,TXT,URL,XPS}"/> -->
+             pattern="{MSL,AI,EPS,MVG,PDF,PS,SVG,TXT,URL,XPS}"/> -->
 
   <!-- ================================================================== -->
   <!-- System Policies                                                     -->
