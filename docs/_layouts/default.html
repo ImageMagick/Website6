@@ -60,6 +60,23 @@
       white-space: normal;     /* allow wrapping */
       word-break: break-word;  /* break long words/strings */
     }
+
+    /* Clean, unlabeled in-content ad slot (CLS-safe & Theme-aware) */
+    .im-ad-slot {
+      background-color: var(--bs-tertiary-bg);
+      border: 1px solid var(--bs-border-color-translucent);
+      border-radius: 0.75rem;
+      padding: 0.75rem;
+      margin-bottom: 1.75rem;
+    }
+
+    .im-ad-container {
+      min-height: 90px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
   </style>
 
   <!-- Open Graph Meta Tags -->
@@ -207,7 +224,7 @@
   </nav>
 
 <div class="col-lg-8 mx-auto text-body-secondary" style="padding-top: 110px;">
-  <header class="d-flex align-items-center pb-3 mb-5 border-bottom">
+  <header class="d-flex align-items-center pb-3 mb-4 border-bottom">
     <div class="mt-3 ms-3">
       <a href="/" class="text-decoration-none">
         <h1 class="fs-2 mb-1 display-5">{{ page.title }}</h1>
@@ -219,6 +236,23 @@
   <main role="main" class="container">
     <div class="row g-4">
       <div class="col-lg-8 col-12">
+        <!-- Optimal In-Content Ad Slot -->
+        {% unless page.no_ads %}
+        <aside class="im-ad-slot" aria-label="Advertisement">
+          <div class="im-ad-container">
+            <ins class="adsbygoogle"
+                 style="display:block; width:100%;"
+                 data-ad-client="ca-pub-3129977114552745"
+                 data-ad-slot="1083537442"
+                 data-ad-format="horizontal"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                 (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+          </div>
+        </aside>
+        {% endunless %}
+
 {{ content }}
       </div>
       <div class="col-lg-4 col-12 ps-lg-4 border-start d-flex flex-column align-items-center align-items-lg-start">
@@ -227,17 +261,6 @@
             <img alt="ImageMagick Wizard" class="img-fluid img-thumbnail" height="351" loading="lazy" src="/image/wizard.jpg" width="264">
           </a>
           <p class="mt-2"><iframe src="https://github.com/sponsors/ImageMagick/button" title="Sponsor ImageMagick" height="35" width="107" style="border:0 !important; width:107px !important; height:35px !important;"></iframe></p>
-        </div>
-        <!-- Minimal Right-Column Ad Container -->
-        <div class="text-center px-md-2 mb-4" style="min-height: 250px;">
-          <ins class="adsbygoogle"
-               style="display:block"
-               data-ad-client="ca-pub-3129977114552745"
-               data-ad-slot="1083537442"
-               data-ad-format="auto"></ins>
-          <script>
-               (adsbygoogle = window.adsbygoogle || []).push({});
-          </script>
         </div>
       </div>
     </div>
